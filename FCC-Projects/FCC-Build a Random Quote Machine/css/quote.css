@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Griffy);
+
+body {
+  background-color: #999966;
+}
+
+#title {
+  font-family: Griffy, cursive, sans-serif;
+  font-size: 4em;
+  text-shadow: 4px 4px 2px #663300;
+  color: #000500;
+  text-align: center;
+  padding: 10px;
+}
+
+#intro {
+  margin-top: 50px;
+}
+
+#buttons {
+  margin-top: 25px;
+}
+#welcome {
+  border: inset #996600;
+  border-radius: 5px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 1.1em;
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: center;
+  margin-bottm: 50px
+}
+
+#full-quote {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+  border: hidden;
+  border-radius: 50px;
+  background-color: #FFFF99;
+}
+
+#quote {
+  padding-left: 3em;
+}
+
+#author {
+  float: right;
+  font-style: oblique;
+  
+}
+
+#random-quote {
+  float: right;
+  background: #004d05;
+  background-image: linear-gradient(to 60deg, #004d05, #abeb57);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 4px 3px 2px #5c4d01;
+  font-family: Georgia;
+  color: #ffb940;
+  font-size: 1.25em;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.twitter {
+  color: #ffb940;
+}
+
+.twitter:visited {
+  color: #ffb940;
+  text-decoration: none;
+}
+
+.twitter:hover, #random-quote:hover, #tweet:hover{
+  color: #FF6600;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#tweet {
+  float: left;
+  background: #004d05;
+  background-image: linear-gradient(to 240deg, #004d05, #abeb57);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 4px 3px 2px #5c4d01;
+  font-family: Georgia;
+  color: #ffb940;
+  font-size: 1.25em;
+  padding: 12px;
+  text-decoration: none;
+}
