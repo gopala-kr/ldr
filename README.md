@@ -4,6 +4,9 @@
 ## React
 
 
+## React Native
+
+
 
 
 ## Flux
@@ -131,6 +134,8 @@ originate from views, which is common)
 
 ## Redux
 
+<img src="https://cloud.githubusercontent.com/assets/194400/12328626/12f025de-bad4-11e5-9ebd-c0994b8f2f24.png" style="width: 100%;" />
+
 Redux is a predictable state container for JavaScript apps. To rephrase that, it’s an application data-flow architecture, rather than a traditional library or a framework like Underscore.js and AngularJS.
 
 Redux was created by Dan Abramov around June 2015. It was inspired by Facebook’s Flux and functional programming language Elm. Redux got popular very quickly because of its simplicity, small size (only 2 KB) and great documentation. If you want to learn how Redux works internally and dive deep into the library, consider checking out Dan’s free course.
@@ -206,7 +211,7 @@ One of the reasons Redux is awesome is its ecosystem. So many articles, tutorial
 Redux concepts might sound complicated or fancy, but they’re simple. Remember that the library is only 2 KB. Redux has three building parts: actions, store and reducers.
 
 
-<img src="https://www.smashingmagazine.com/wp-content/uploads/2016/06/new-redux-data-flow-large-opt.png" style="width: 100%;" />
+<img src="https://www.smashingmagazine.com/wp-content/uploads/2016/06/new-redux-data-flow-large-opt.png" style="width: 60%;" />
 Redux data flow (Image: Tanya Bachuk)
 
 Let’s discuss what each does.
@@ -275,4 +280,12 @@ Redux has a slightly different implementation of time travel than Flux. In Redux
 
 The time-travel feature is not efficient in production and is only intended for development and debugging. The same goes for DevTools.
 Redux makes testing much easier because it uses functional JavaScript as a base, and small independent functions are easy to test. So, if you need to change something in your state tree, import only one reducer that is responsible for that state, and test it in isolation.
+
+
+### Relay
+
+### GraphQL
+
+
+
 
