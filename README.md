@@ -146,41 +146,41 @@ Flux is very similar to Redux. The main difference is that Flux has multiple sto
 
 **Benefits Of Redux**
 
-*You may be asking, “Why would I need to use Redux?” Great question. There are a few benefits of using Redux in your next application:
+* You may be asking, “Why would I need to use Redux?” Great question. There are a few benefits of using Redux in your next application:
 Predictability of outcome
 
-*There is always one source of truth, the store, with no confusion about how to sync the current state with actions and other parts of the application.
+* There is always one source of truth, the store, with no confusion about how to sync the current state with actions and other parts of the application.
 
-*Maintainability
+* Maintainability
 Having a predictable outcome and strict structure makes the code easier to maintain.
 
-*Organization
+* Organization
 Redux is stricter about how code should be organized, which makes code more consistent and easier for a team to work with.
 
-*Server rendering
+* Server rendering
 This is very useful, especially for the initial render, making for a better user experience or search engine optimization. Just pass the store created on the server to the client side.
 
-*Developer tools
+* Developer tools
 Developers can track everything going on in the app in real time, from actions to state changes.
 
-*Community and ecosystem
+* Community and ecosystem
 This is a huge plus whenever you’re learning or using any library or framework. Having a community behind Redux makes it even more appealing to use.
 
-*Ease of testing
+* Ease of testing
 The first rule of writing testable code is to write small functions that do only one thing and that are independent. Redux’s code is mostly functions that are just that: small, pure and isolated.
 
 **Functional Programming**
 
 As mentioned, Redux was built on top of functional programming concepts. Understanding these concepts is very important to understanding how and why Redux works the way it does. Let’s review the fundamental concepts of functional programming:
 
-*It is able to treat functions as first-class objects.
-*It is able to pass functions as arguments.
-*It is able to control flow using functions, recursions and arrays.
-*It is able to use pure, recursive, higher-order, closure and anonymous functions.
-*It is able to use helper functions, such as map, filter and reduce.
-*It is able to chain functions together.
-*The state doesn’t change (i.e. it’s immutable).
-*The order of code execution is not important.
+* It is able to treat functions as first-class objects.
+* It is able to pass functions as arguments.
+* It is able to control flow using functions, recursions and arrays.
+* It is able to use pure, recursive, higher-order, closure and anonymous functions.
+* It is able to use helper functions, such as map, filter and reduce.
+* It is able to chain functions together.
+* The state doesn’t change (i.e. it’s immutable).
+* The order of code execution is not important.
 
 Functional programming allows us to write cleaner and more modular code. By writing smaller and simpler functions that are isolated in scope and logic, we can make code much easier to test, maintain and debug. Now these smaller functions become reusable code, and that allows you to write less code, and less code is a good thing. The functions can be copied and pasted anywhere without any modification. Functions that are isolated in scope and that perform only one task will depend less on other modules in an app, and this reduced coupling is another benefit of functional programming.
 
@@ -205,7 +205,7 @@ One of the reasons Redux is awesome is its ecosystem. So many articles, tutorial
 
 Redux concepts might sound complicated or fancy, but they’re simple. Remember that the library is only 2 KB. Redux has three building parts: actions, store and reducers.
 
-02-redux-data-flow-opt-preview
+
 <img src="https://www.smashingmagazine.com/wp-content/uploads/2016/06/new-redux-data-flow-large-opt.png" style="width: 100%;" />
 Redux data flow (Image: Tanya Bachuk)
 
