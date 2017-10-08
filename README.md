@@ -14,26 +14,26 @@ An application architecture for React utilizing a unidirectional data flow.
 
 Flux is more of a pattern than a framework, and does not have any hard dependencies.  However, we often use [EventEmitter](http://nodejs.org/api/events.html#events_class_events_eventemitter) as a basis for `Stores` and [React](https://github.com/facebook/react) for our `Views`.  The one piece of Flux not readily available elsewhere is the `Dispatcher`.  This module, along with some other utilities, is available here to complete your Flux toolbox.
 
-** flux-concepts **
+**flux-concepts**
 
 These are the important high-level concepts and principles you should know
 about when writing applications that use Flux.
 
-** Overview **
+**Overview**
 
 Flux is a pattern for managing data flow in your application. The most
 important concept is that data flows in one direction. As we go through
 this guide we'll talk about the different pieces of a Flux application
 and show how they form unidirectional cycles that data can flow through.
 
-** Flux Parts **
+**Flux Parts**
 
 - Dispatcher
 - Store
 - Action
 - View
 
-** Dispatcher **
+**Dispatcher**
 
 The dispatcher receives actions and dispatches them to stores that have
 registered with the dispatcher. **Every store will receive every action.**
@@ -46,7 +46,7 @@ Example:
    containing the title of the todo.
 3. **Every store** will then receive this action.
 
-** Store **
+**Store**
 
 A store is what holds the data of an application. Stores will register
 with the application's dispatcher so that they can receive actions. **The
@@ -63,7 +63,7 @@ Examples:
    that need to be done today.
 3. The store updates its data and then emits a "change" event.
 
-** Actions **
+**Actions**
 
 Actions define the internal API of your application. They capture the ways
 in which anything might interact with your application. They are simple
