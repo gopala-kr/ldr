@@ -11,7 +11,7 @@
 # Flux
 An application architecture for React utilizing a unidirectional data flow.
 
-<img src="https://github.com/facebook/flux//docs/img/flux-diagram-white-background.png" style="width: 100%;" />
+<img src="https://github.com/facebook/flux/blob/master/docs/img/flux-diagram-white-background.png" style="width: 100%;" />
 
 Flux is more of a pattern than a framework, and does not have any hard dependencies.  However, we often use [EventEmitter](http://nodejs.org/api/events.html#events_class_events_eventemitter) as a basis for `Stores` and [React](https://github.com/facebook/react) for our `Views`.  The one piece of Flux not readily available elsewhere is the `Dispatcher`.  This module, along with some other utilities, is available here to complete your Flux toolbox.
 
