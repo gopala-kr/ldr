@@ -2,7 +2,7 @@
  
  ## react ecosystem : react, redux, relay, graphql, react-native
  
-I have given soometime to explore react ecosystem from last friday. Yet react is a big tech ecosystem to learn completely in one week, I wanted to understand the core concepts behind it. I have bit of experience in full-stack web apps using SAP technologies(past 3 years): webdypro applications(frontend is drag and drop UI library + backend completely in ABAP); CRM webui ; Hybris(an e-commerce platform - front end is js stack + backend is CRM); extensive experience in webservices and API's; bit of learned knowledge on Fiori app development using SAPUI5 library on HCP. My curiousnes of learning has drawn me towards open source libraries and frameworks. I have been fascinated by concept of open source and its potential impact in the world of computer technologies; I have started exploring it bit-by-bit.
+I have given sometime to explore react ecosystem from last friday. Yet react is a big tech ecosystem to learn completely in one week, I wanted to understand the core concepts behind it. I have bit of experience in full-stack web apps using SAP technologies(past 3 years): webdypro applications(frontend is drag and drop UI library + backend completely in ABAP); CRM webui ; Hybris(an e-commerce platform - front end is js stack + backend is CRM); extensive experience in webservices and API's; bit of learned knowledge on Fiori app development using SAPUI5 library on HCP. My curiousnes of learning has drawn me towards open source libraries and frameworks. I have been fascinated by concept of open source and its potential impact in the world of computer technologies; I have started exploring it bit-by-bit.
 
 I always follow my below table to get a gist of anything new in technology:
 
@@ -273,6 +273,8 @@ React native isn’t just an introduction to native applications for web develop
 * I have experimented some of the basic react-redux apps while going through tutorials in [Codepen](https://codepen.io/kr_gopala/)
 * to develop a complete full stack web application using react+ redux + graphql and deploy it on heroku.
 * to build a native hacker news app similar to [hackernews-react-graphql](https://github.com/gopala-kr/hackernews-react-graphql) and deploy it on app store and google play store.
+
+(This will be an another post)
 
 
 
