@@ -33,28 +33,29 @@ Lets explore them in details...
 
 ## React:
 
-As explained already react is only the View layer, which is means you have only the V in the MVC — Model-View-Controller architecture. All the while you see that React is mentioned along with other frameworks, but it offers just the View.
+As explained already react is only the View layer, which is means you have only the V in the MVC — Model-View-Controller architecture. All the while we see that React is mentioned along with other frameworks, but it offers just the View.
 
-React gives you the template language and a few function hooks to render HTML. Since it is component based, you can compose an application with React, and just specify how you want your component to look like.
+React gives us the template language and a few function hooks to render HTML. Since it is component based, we can compose an application with React, and just specify how we want our component to look like.
 
 React will keep it updated; even the underlying data changes. The core principles of React are (1) Flexibility, (2) Efficiency and (3) Declarative code.
 
-As React is flexible, you can use it in several projects, create new apps and even use it within the existing code base, without doing a rewrite.
+As React is flexible, we can use it in several projects, create new apps and even use it within the existing code base, without doing a rewrite.
+
 There are few pre-quesites and key-concepts we need to master before staring with building apps.
 
 Familiarity with HTML, JavaScript and ECMAScript6 (ES6).
 
-The five key concepts are:
+and the five key concepts are:
 
-Components
-JSX
-Props & State
-The Component API
-Component Types
+* Components
+* JSX
+* Props & State
+* The Component API
+* Component Types
 
-Blogpost [Master these five concepts, then master React](https://medium.freecodecamp.org/the-5-things-you-need-to-know-to-understand-react-a1dbd5d114a3) this complete overview on five key-concepts.
+Blogpost [Master these five concepts, then master React](https://medium.freecodecamp.org/the-5-things-you-need-to-know-to-understand-react-a1dbd5d114a3) gives complete overview on above five key-concepts.
 
-Brief overview:
+Brief summary:
 * A React codebase is made up of components.
 * These components are written using JSX.
 * Data flows from parent to children, except when it comes to state, which originates inside a component.
@@ -63,19 +64,28 @@ Brief overview:
 * You should keep data logic and UI logic in separate components.
 * Higher-order components are a common pattern for giving a component access to new tools.
 
- More on [react-basic](https://github.com/reactjs/react-basic)
+ More on react basics:
+ 
+ * [All the fundamental React.js concepts, jammed into this single Medium article](https://medium.freecodecamp.org/all-the-fundamental-react-js-concepts-jammed-into-this-single-medium-article-c83f9b53eac2)
+ * [react-basic](https://github.com/reactjs/react-basic)
+ 
 
 **What is Flux?**
 -------
 We learnt that React takes care of V or the View part in MVC. Now, what about the M or the Model part? Flux, a programming pattern takes care of the M in the MVC.
+
 It is the architecture responsible for creating data layers in JavaScript applications and building client-side web applications. Flux complements React’s Composable view components through its unidirectional data flow.
-You can also say that Flux is more of a pattern, than a framework and it has four main components (we will go in depth later):
-Dispatcher
-Stores
-Views (React components)
-Action
+
+We can also say that Flux is more of a pattern, than a framework and it has four main components (we will go in depth later):
+* Dispatcher
+* Stores
+* Views (React components)
+* Action
+
 This is not like the general MVC that you see in other frameworks. But yes, there are Controllers, but they are mostly Controller views. Views are at the top of the hierarchy and they retire the data and functionality and pass them down to their children.
+
 Flux follows the concept of unidirectional data flow making it much easier to zero in of where the error lies. The data goes through a strict pipeline through your application. React and Flux are actually two of the most popular frameworks that follow the concept of unidirectional data flow.
+
 While React makes uses of a virtual DOM object to render changes, Flux does it differently. In Flux, the interactions with user interface will trigger a series of actions that would alter the application data. The View will get alerts on the changes.
 
 
@@ -94,7 +104,9 @@ There are different kinds of MVC patterns, but the basic concept of each one rem
 ![MVC](https://cdn-images-1.medium.com/max/880/0*Ift_ZYTPqpLd4AP5.png)
 
 
-The main problem with MVC is that it doesn’t scale well for Facebook’s huge code base. Flux proved to be a better choice because it is all about tweaking the flow inside the app. MVC has stood the test of time, and ever since its launch in 1976, it has been the favorite for many developers. Even in the recent years, developers have been using for several projects. But MVC couldn’t handle code base that Facebook needed, and hence Flux started ruling the roost. Let’s take a look at the main factors due to which Flux has an upper hand over MVC design pattern.
+The main problem with MVC is that it doesn’t scale well for Facebook’s huge code base. Flux proved to be a better choice because it is all about tweaking the flow inside the app. MVC has stood the test of time, and ever since its launch in 1976, it has been the favorite for many developers. Even in the recent years, developers have been using for several projects. But MVC couldn’t handle code base that Facebook needed, and hence Flux started ruling the roost. 
+
+Let’s take a look at the main factors due to which Flux has an upper hand over MVC design pattern.
 
 The Flow — Flux is quite strict about the flow of application. The data Dispatcher puts forth some strict rules and exceptions to govern the flow. There is no such thing in MVC, and the flows are implemented differently.
 
