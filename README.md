@@ -2,7 +2,7 @@
  
  ## React ecosystem : react, redux, relay, graphql, react-native
  
-I have given soometime to explore react ecosystem from last friday. Yet react is a big tech ecosystem to learn completely in one week, I wanted to understand the core concepts behind it. I have bit of experience in full-stack web apps using SAP technologies(past 3 years): webdypro applications(frontend is drag and drop UI library, backend completely in ABAP); CRM webui ; Hybris(an e-commerce platform - front end is js stack, backend is CRM); extensive experience in webservices and API's; bit of learned knowledge on Fiori app development using SAPUI5 library. My curiousnes of learning has drawn me towards open source libraries and frameworks. I have been fascinated by concept of open source and its potential impact on developer community; I have started exploring it bit-by-bit.
+I have given soometime to explore react ecosystem from last friday. Yet react is a big tech ecosystem to learn completely in one week, I wanted to understand the core concepts behind it. I have bit of experience in full-stack web apps using SAP technologies(past 3 years): webdypro applications(frontend is drag and drop UI library, backend completely in ABAP); CRM webui ; Hybris(an e-commerce platform - front end is js stack, backend is CRM); extensive experience in webservices and API's; bit of learned knowledge on Fiori app development using SAPUI5 library on HCP. My curiousnes of learning has drawn me towards open source libraries and frameworks. I have been fascinated by concept of open source and its potential impact in the world of computer technologies; I have started exploring it bit-by-bit.
 
 I always use my below table to get gist of anything new in technology:
 
@@ -27,16 +27,107 @@ There are almost 2K blogs,articles and tutorials teaching about react every mont
 
 React has been adopted by top giants Facebook, Instagram, NetflixNY, TimesKhan Academy, Codecademy, WhatsApp, Vivaldi,  Browser Dropbox,  Yahoo Mail and startup communities [more](https://github.com/facebook/react/wiki/sites-using-react). and react has been a big competetor for google's AngularJs MVC framework.
 
-React is just a front end UI library, which elegantly manages application states. Inorder to make complete full stack application facebook and other communities provides supporting libraries, such as flux, redux, relay, graphql. We will explore them in details.
+React is just front-end UI library. Inorder to make complete full stack react application facebook and other communities provides supporting libraries and design patterns, such as flux, redux, relay, graphql.React can also be used other frameworks.
 
+Lets explore them in details...
 
 ## React:
 
+As explained already react is only the View layer, which is means you have only the V in the MVC — Model-View-Controller architecture. All the while you see that React is mentioned along with other frameworks, but it offers just the View.
 
+React gives you the template language and a few function hooks to render HTML. Since it is component based, you can compose an application with React, and just specify how you want your component to look like.
+
+React will keep it updated; even the underlying data changes. The core principles of React are (1) Flexibility, (2) Efficiency and (3) Declarative code.
+
+As React is flexible, you can use it in several projects, create new apps and even use it within the existing code base, without doing a rewrite.
+There are few pre-quesites and key-concepts we need to master before staring with building apps.
+
+Familiarity with HTML, JavaScript and ECMAScript6 (ES6).
+
+The five key concepts are:
+
+Components
+JSX
+Props & State
+The Component API
+Component Types
+
+Blogpost [Master these five concepts, then master React](https://medium.freecodecamp.org/the-5-things-you-need-to-know-to-understand-react-a1dbd5d114a3) this complete overview on five key-concepts.
+
+Brief overview:
+* A React codebase is made up of components.
+* These components are written using JSX.
+* Data flows from parent to children, except when it comes to state, which originates inside a component.
+* Components possess a small set of lifecycle and utility methods.
+* Components can also be written as pure functions.
+* You should keep data logic and UI logic in separate components.
+* Higher-order components are a common pattern for giving a component access to new tools.
+
+ More on [react-basic](https://github.com/reactjs/react-basic)
+
+**What is Flux?**
+-------
+We learnt that React takes care of V or the View part in MVC. Now, what about the M or the Model part? Flux, a programming pattern takes care of the M in the MVC.
+It is the architecture responsible for creating data layers in JavaScript applications and building client-side web applications. Flux complements React’s Composable view components through its unidirectional data flow.
+You can also say that Flux is more of a pattern, than a framework and it has four main components (we will go in depth later):
+Dispatcher
+Stores
+Views (React components)
+Action
+This is not like the general MVC that you see in other frameworks. But yes, there are Controllers, but they are mostly Controller views. Views are at the top of the hierarchy and they retire the data and functionality and pass them down to their children.
+Flux follows the concept of unidirectional data flow making it much easier to zero in of where the error lies. The data goes through a strict pipeline through your application. React and Flux are actually two of the most popular frameworks that follow the concept of unidirectional data flow.
+While React makes uses of a virtual DOM object to render changes, Flux does it differently. In Flux, the interactions with user interface will trigger a series of actions that would alter the application data. The View will get alerts on the changes.
+
+
+![Flux application architecture](https://cdn-images-1.medium.com/max/880/0*i7yoq4uE0Kk62bfa.png)
+
+
+**Flux vs. MVC**
+
+Now that we have both MVC and Flux patterns, the next question would be which one is a better choice. Let’s go a little deeper into this:
+
+There are different kinds of MVC patterns, but the basic concept of each one remains the same:
+* Model — Maintains the behavior & data of an application domain
+* View — The display of the model in UI
+* Controller — Uses the user input, manipulate the model & update the view
+
+![MVC](https://cdn-images-1.medium.com/max/880/0*Ift_ZYTPqpLd4AP5.png)
+
+
+The main problem with MVC is that it doesn’t scale well for Facebook’s huge code base. Flux proved to be a better choice because it is all about tweaking the flow inside the app. MVC has stood the test of time, and ever since its launch in 1976, it has been the favorite for many developers. Even in the recent years, developers have been using for several projects. But MVC couldn’t handle code base that Facebook needed, and hence Flux started ruling the roost. Let’s take a look at the main factors due to which Flux has an upper hand over MVC design pattern.
+
+The Flow — Flux is quite strict about the flow of application. The data Dispatcher puts forth some strict rules and exceptions to govern the flow. There is no such thing in MVC, and the flows are implemented differently.
+
+![flux](https://cdn-images-1.medium.com/max/880/0*M-SY5eww-OW9xbMs.png)
+
+Unidirectional Flow in Flux — While MVCs are bidirectional in their flow, in Flux, all the changes goes in the same direction through data Dispatcher. The Store cannot change by itself, this is the same concept for all other Actions. Changes to be made have to go through the Dispatcher through Actions.
+
+Store — While MVC cannot model single objects, Flux can do it to store any application related data.
+When it comes to choosing Flux or MVC, Flux would be a better choice because it is very easy to understand and works with very minimum code usage. Flux allows you to structure your app effectively.
+
+This is something to look forward to because React’s programming language is integrated with a very huge code base that is seemingly endless and a huge run time complexity that developers just hate.
+
+Once you understand the cons of bidirectional data flow, it would be easier to understand why unidirectional data flow is the best.
+In the bidirectional data flow, you have the typical data flow — Model-View-Controller. But when applications became more complex, the Controller begins to feel the burden.
+
+The Controller takes the huge responsibility of maintaining both the application state and the data. Also, the cascading updates makes the app really difficult to understand and debug. In the end, you have an application whose results are totally unpredictable.
+
+With unidirectional data flow, this problem is mitigated, and eventually, predictable application state is achieved. When the data flow is unidirectional, changes in the application view layer will trigger an action in the data layer. These changes will then be reflected in the View. The View does not directly affect application data.
+
+[[more on flux](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/01-react-ecosystem/Flux-architecture.md)]
 
 ## Redux
 
+According to Github, Redux is a predictable state container for JavaScript apps. Many of the concepts are similar to functional programming, and all the data is kept in a single store. It is one of the popular implementations of flux architecture.
 
+Irrespective of the application size, Redux is always a single object, quite unlike Flux, which keeps separate stores for different kinds of data. If there are manipulations to be made on the data, it doesn’t affect the state. In this way, the state is immutable.
+All updates and manipulation are done on a state tree. But this does not make the application slow as the data can be shared along several versions of the state tree.
+
+The updates on the application state is done through Actions, which are plain objects themselves, but contains a type property depicting the kind of action performed. The data that describes the action will also be included.
+
+The Store’s Dispatcher will dispatch the action and from there, it goes to the Reducer, and then to the current state tree. Here, the actions of the application would be described — the different things the application can do. Just a single reducer would be enough for the state transformation and action.
+
+[[more on redux](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/01-react-ecosystem/Redux.md)]
 
 ## Relay
 
