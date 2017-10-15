@@ -37,7 +37,10 @@ React is just a front end UI library, which elegantly manages application states
 ## Redux
 
 
+
 ## Relay
+
+
 
 
 ## GraphQL
@@ -46,11 +49,14 @@ React is just a front end UI library, which elegantly manages application states
 
 One of the main benefits of using GraphQL is how so called queries allow clients to specify their data requirements in a declarative way. Instead of collecting all the data from different endpoints, as is usual with REST, queries allow an exact and fine-grained selection of data fields that are then resolved by the server. This leads to prevention of data over- and underfetching, two common problems of REST.
 
+[Complete tutorial](https://www.howtographql.com/basics/2-core-concepts/)
 
-
+Next steps : [building pokedex](https://github.com/shekhargulati/52-technologies-in-2016/blob/master/43-graphql/README.md)
 
 
 ## React Native
+
+
 
 
 ## Next steps:
