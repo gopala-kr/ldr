@@ -2,7 +2,7 @@
  
  ## React ecosystem : react, redux, relay, graphql, react-native
  
-I have given soometime to explore react ecosystem from last friday. Yet react is a big tech ecosystem to learn completely in one week, I wanted to understand the core concepts behind it. I have bit of experience in full-stack web apps using SAP technologies(past 3 years); webdypro applications(frontend is drag and drop UI library, backend completely in ABAP); CRM webui , Hybris(an e-commerce platform - front end is js stack, backend is CRM), extensive experience in webservices and API's; bit of learned knowledge on Fiori app development using SAPUI5 library. Recently my curiouses of learning has taken my attention me towards open source libraries and frameworks. I have been fascinated by open source concept and its potential impact on developer community; started exploring bit-by-bit.
+I have given soometime to explore react ecosystem from last friday. Yet react is a big tech ecosystem to learn completely in one week, I wanted to understand the core concepts behind it. I have bit of experience in full-stack web apps using SAP technologies(past 3 years): webdypro applications(frontend is drag and drop UI library, backend completely in ABAP); CRM webui ; Hybris(an e-commerce platform - front end is js stack, backend is CRM); extensive experience in webservices and API's; bit of learned knowledge on Fiori app development using SAPUI5 library. My curiousnes of learning has drawn me towards open source libraries and frameworks. I have been fascinated by concept of open source and its potential impact on developer community; I have started exploring it bit-by-bit.
 
 I always use my below table to get gist of anything new in technology:
 
@@ -21,7 +21,7 @@ React was created by Jordan Walke, a software engineer at Facebook. He was influ
 
 React is maintained by Facebook, Instagram and a community of individual developers and corporations.
 
-Stack Overflow has released its much-anticipated Developer Survey for 2017. This year, over 64,000 developers took part in the survey and shared their preferences. below are stats for survey on frameworks and libraes; react stands in the top list.
+There are almost 2K blogs and articles talking about react and its most trending in developer commuinity. Stack Overflow has released its much-anticipated Developer Survey for 2017. This year, over 64,000 developers took part in the survey and shared their preferences. below are the stats for survey on frameworks and libraries; react stands in the top list.
 
 ![survey](https://ingeno.io/wp-content/uploads/2017/03/stackoverflow_2017survey1.png)
  
