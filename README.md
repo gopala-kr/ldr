@@ -1,11 +1,12 @@
   
  
- ## React ecosystem : react, redux, relay, graphql, react-native
+ ## react ecosystem : react, redux, relay, graphql, react-native
  
 I have given soometime to explore react ecosystem from last friday. Yet react is a big tech ecosystem to learn completely in one week, I wanted to understand the core concepts behind it. I have bit of experience in full-stack web apps using SAP technologies(past 3 years): webdypro applications(frontend is drag and drop UI library, backend completely in ABAP); CRM webui ; Hybris(an e-commerce platform - front end is js stack, backend is CRM); extensive experience in webservices and API's; bit of learned knowledge on Fiori app development using SAPUI5 library on HCP. My curiousnes of learning has drawn me towards open source libraries and frameworks. I have been fascinated by concept of open source and its potential impact in the world of computer technologies; I have started exploring it bit-by-bit.
 
 I always use my below table to get a gist of anything new in technology:
 
+____________________________
  | HN        | Medium         | Reddit |  Quora-QA  | Stack-Overflow QA| Awesome-gh | Online-Courses (lynda.com)| Official-Docs |
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:| -----:|
 |  [react](https://hn.algolia.com/?query=react&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [react](https://medium.com/tag/react?source=related)  | [react](https://www.reddit.com/r/reactjs/)  | [react](https://www.quora.com/topic/React-JavaScript-library)  |  [react](https://stackoverflow.com/search?q=react)    | [react](https://github.com/enaqx/awesome-react)  | [react](https://www.lynda.com/React-js-training-tutorials/7049-0.html)  | [react](https://reactjs.org/)  |
@@ -14,7 +15,8 @@ I always use my below table to get a gist of anything new in technology:
  |  [graphql](https://hn.algolia.com/?query=graphql&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [graphql](https://medium.com/tag/graphql)  | [graphql](https://www.reddit.com/r/graphql/)  | [graphql](https://www.quora.com/topic/GraphQL)  |   [graphql](https://stackoverflow.com/search?q=graphql)  | [graphql](https://github.com/chentsulin/awesome-graphql)  | [graphql](https://www.lynda.com/GraphQL-tutorials/650000-0.html)  | [graphql](http://graphql.org/)  |
 |  [react-native](https://hn.algolia.com/?query=react%20native&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [react-native](https://medium.com/tag/react-native)  | [react-native](https://www.reddit.com/r/reactnative/)  | [react-native](https://www.quora.com/topic/React-Native-1)  |   [react-native](https://stackoverflow.com/search?q=react+native)  | [react-native](https://github.com/jondot/awesome-react-native)  | [react-native](https://www.lynda.com/React-Native-tutorials/11718-0.html)  | [react-native](https://facebook.github.io/react-native/)  |
 
-
+********************************************************
+*******************************************************
 React is a beautiful JavaScript library for building frontend user interfaces. React allows developers to create large web-applications that use data and can change over time without reloading the page. It aims primarily to provide speed, simplicity, and scalability. React processes only user interfaces in applications. This corresponds to View in the Model-View-Controller (MVC) pattern, and can be used in combination with other JavaScript libraries or frameworks in MVC, such as AngularJS. [Source : wikipedia]
 
 React was created by Jordan Walke, a software engineer at Facebook. He was influenced by Angular and XHP, an HTML component framework for PHP. It was first deployed on Facebook's newsfeed in 2011 and later on Instagram.com in 2012. It was open-sourced at JSConf US in May 2013.
@@ -25,21 +27,43 @@ There are almost 2K blogs,articles and tutorials teaching about react every mont
 
 ![survey](https://ingeno.io/wp-content/uploads/2017/03/stackoverflow_2017survey1.png)
 
-React has been adopted by top giants Facebook, Instagram, NetflixNY, Times, Khan Academy, Codecademy, WhatsApp, Vivaldi Browser, Dropbox,  Yahoo Mail, many [more](https://github.com/facebook/react/wiki/sites-using-react) startups and react is going to take over the web.
+React has been adopted by top giants Facebook, Instagram, NetflixNY, Times, Khan Academy, Codecademy, WhatsApp, Vivaldi Browser, Dropbox,  Yahoo Mail, many [more](https://github.com/facebook/react/wiki/sites-using-react) startups and it is going to take over the web.
 
-React is just front-end UI library. Inorder to make complete full stack react application facebook and other communities provides supporting libraries and design patterns, such as flux, redux, relay, graphql. React can also be used other frameworks.
+React is just front-end UI library, inorder to make complete full stack react application facebook and other communities provides supporting libraries and frameworks, such as flux, redux, relay, graphql. React can also be used with other frameworks.
 
 Lets explore them in details...
 
 ## React:
 
-As explained already react is only the View layer, which is means you have only the V in the MVC — Model-View-Controller architecture. All the while we see that React is mentioned along with other frameworks, but it offers just the View.
+As explained already react is only the View layer, which is means you have only the V in the MVC — Model-View-Controller architecture. All the while we see that React is mentioned along with other frameworks, but it offers just the View. React views are typically rendered using components that contain additional components specified as custom HTML tags.
 
 React gives us the template language and a few function hooks to render HTML. Since it is component based, we can compose an application with React, and just specify how we want our component to look like.
 
 React will keep it updated; even the underlying data changes. The core principles of React are (1) Flexibility, (2) Efficiency and (3) Declarative code.
 
-As React is flexible, we can use it in several projects, create new apps and even use it within the existing code base, without doing a rewrite.
+As React is flexible, we can use it in several projects, create new apps and even use it within the existing code base, without doing a rewrite. React is efficient becuase it uses virtual DOM. The virtual DOM compares the current setup to the desired setup, and only makes the minimal amount of changes required to get there. Being efficient is increasingly important in the new world of mobile devices: it helps conserve battery power as well as create a faster and more pleasant user experience.
+
+![virtual DOM](https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAAc3AAAAJGEzNjRmMWZmLWI3YTgtNGNmYy1hOTU0LTQ0ZDU4ZjgwMDJiZQ.jpg)
+
+The reason behind to build React.js :
+
+* React is not a MVC framework :-  React is a library for building composable user interfaces..
+    * React doesn’t use templates :- React uses a real, full featured programming    language to render views, which we see as an advantage over templates for a few reasons:
+    * JavaScript is a flexible, powerful programming language with the ability to build abstractions. This is incredibly important in large applications.
+    * By unifying your markup with its corresponding view logic, React can actually make views easier to extend and maintain.
+    * By baking an understanding of markup and content into JavaScript, there’sno manual string concatenation and therefore less surface area for XSS vulnerabilities. JSX, an optional syntax extension, is also created if in case you prefer the readability of HTML to raw JavaScript.
+ 
+
+* React updates are very simple :-  When your component is first initialized, the   method is called, generating a lightweight representation of your view. From that representation, a string of markup is produced, and injected into the document. When your data changes, the method is called again. In order to perform updates as efficiently as possible, we diff the return value from the previous call to render with the new one, and generate a minimal set of changes to be applied to the DOM(Document Object Model).
+
+In simple words ,for example : In you’r  facebook   page,u don’t have to refresh every   time to get a new notification. it just updates without that.
+
+* Because React has its own lightweight representation of the document, we can do some pretty cool things with it:
+* Facebook has dynamic charts that render to instead of HTML.
+* Instagram is a “single page” web app built entirely with React and.
+* They have  built internal prototypes that run React apps in a web worker and use React to drive native iOS views via an Objective-C bridge.
+* You can run React on the server for SEO, performance, code sharing and overall flexibility.
+Events behave in a consistent, standards-compliant way in all browsers (including IE8) and automatically use event delegation.
 
 There are few pre-quesites and key-concepts we need to master before staring with building apps.
 
@@ -67,6 +91,7 @@ Brief summary:
  More on react basics:
  
  * [All the fundamental React.js concepts, jammed into this single Medium article](https://medium.freecodecamp.org/all-the-fundamental-react-js-concepts-jammed-into-this-single-medium-article-c83f9b53eac2)
+ * [How Virtual-DOM and diffing works in React](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e)
  * [react-basic](https://github.com/reactjs/react-basic)
  
 
