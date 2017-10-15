@@ -167,18 +167,38 @@ The Store’s Dispatcher will dispatch the action and from there, it goes to the
 
 [[more on redux](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/01-react-ecosystem/Redux.md)]
 
-## Relay
+## Relay & GraphQL
+As discussed above Flux and Redux are data handling patterns to keep your UI in sync. When a user interaction happens, they update the state and trigger rerendering.
+
+But, how do we get the data that a component needs from a server, and then update the server when the user makes changes?
+
+Relay takes care of this problem. It makes it easy to fetch data from the server as part of your data flow. In order to do this, Relay needs to know what data each component needs from the server. This is where GraphQL comes in.
+
+> [Relay](https://facebook.github.io/relay/docs/getting-started.html) is an open source project by Facebook that exposes a framework they have been using internally for years. It is the glue that binds components written in React to data fetched from a GraphQL server.
 
 
+> [GraphQL](http://graphql.org), a query language that is starting to get more and more attention. Facebook, who internally used GraphQL since 2012 and released a first specification and reference implementation of GraphQL in 2015 announced GraphQL to be [production ready] in September 2016. What followed is a trend of more and more companies starting to use GraphQL, such as [GitHub](https://youtu.be/hT-4pVmkGt0), [Coursera](https://youtu.be/JC-UJwBKc2Y) and [Shopify](https://youtu.be/Wlu_PWCjc6Y).
 
+> One of the main benefits of using GraphQL is how so called queries allow clients to specify their data requirements in a declarative way. Instead of collecting all the data from different endpoints, as is usual with REST, queries allow an exact and fine-grained selection of data fields that are then resolved by the server. This leads to prevention of data over- and underfetching, two common problems of REST.
 
-## GraphQL
+>[complete tutorial](https://www.howtographql.com/basics/2-core-concepts/)
 
-[GraphQL](http://graphql.org), a query language that is starting to get more and more attention. Facebook, who internally used GraphQL since 2012 and released a first specification and reference implementation of GraphQL in 2015 announced GraphQL to be [production ready] in September 2016. What followed is a trend of more and more companies starting to use GraphQL, such as [GitHub](https://youtu.be/hT-4pVmkGt0), [Coursera](https://youtu.be/JC-UJwBKc2Y) and [Shopify](https://youtu.be/Wlu_PWCjc6Y).
+Facebook developed graphql to provide a data source that can evolve without breaking existing code and to favor speed on low-powered and low-quality mobile devices. The schema can evolve, but should never break. Products are described in graphs and queries, instead of the REST notion of endpoints.
 
-One of the main benefits of using GraphQL is how so called queries allow clients to specify their data requirements in a declarative way. Instead of collecting all the data from different endpoints, as is usual with REST, queries allow an exact and fine-grained selection of data fields that are then resolved by the server. This leads to prevention of data over- and underfetching, two common problems of REST.
+When you build React components, it’s easy to reuse them across different parts of your site. This is one of the main benefits of React. It’s called composability.If your component needs to use data from the server, though, it gets harder to just drop a component in place. The server needs to know what properties the component needs. In many apps, this will be hard-coded on the server. There will be a URL (called an endpoint) that passes down data for that particular view. The endpoint code will know exactly what properties its view needs.
 
-[Complete tutorial](https://www.howtographql.com/basics/2-core-concepts/)
+The problem here is that whenever you add (or remove) properties from the component, you have to change the server code too. This is called coupling; when you change one, you have to change the other, too.
+
+Because you have to manually keep these two in sync, it makes bugs and obsolete code more likely.
+* Bugs come from underfetching data. You don’t pull down the properties that you need for a component because you forgot to add them to the server.
+* Obsolete code results in overfetching data. For example, let’s say you remove a component from the tree. Do you delete its properties from the server response? How can you be sure another component doesn’t use that endpoint and need those properties? Instead, it’s better to just keep them in the response… but then you have a lot of cruft lying around.
+
+With GraphQL, you don’t hard-code the server with the list of properties that your view needs. Instead, the component provides a list of what it needs to the server.
+
+This list is combined with the lists from other components. The structure of the combined list is a tree, just like the component tree. It gets handed off to the endpoint. There’s only one endpoint and it handles all requests.
+
+The nice thing about this is that it localizes changes. When you need to add or remove a property, you only need to change the component… not the server.
+
 
 Next steps : [building pokedex](https://github.com/shekhargulati/52-technologies-in-2016/blob/master/43-graphql/README.md)
 
