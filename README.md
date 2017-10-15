@@ -189,6 +189,10 @@ Relay takes care of this problem. It makes it easy to fetch data from the server
 
 > Relay acts as a partner to GraphQL and React. A top-level query usually happens on a route — a URL pattern that loads a component when it is matched.
 
+> GraphQL “fragments” are co-located with your React components. A component describes what slices of data it needs on certain types. Relay queries “spread” the fragments of other components. In this particular case, the “slug” is extracted from the URL path and passed to our GraphQL query. The Page component will be populated with a “viewer” prop that contains the data specified.
+
+> As React components become more nested, queries can become increasingly complex. In Relay Classic, all of the query-parsing logic happened at runtime. As of [Relay Modern](https://facebook.github.io/relay/docs/relay-modern.html), queries are now parsed at build time and are static at runtime. This is great for performance.
+
 
 When you build React components, it’s easy to reuse them across different parts of your site. This is one of the main benefits of React. It’s called composability.If your component needs to use data from the server, though, it gets harder to just drop a component in place. The server needs to know what properties the component needs. In many apps, this will be hard-coded on the server. There will be a URL (called an endpoint) that passes down data for that particular view. The endpoint code will know exactly what properties its view needs.
 
@@ -213,6 +217,41 @@ Next steps : [building pokedex](https://github.com/shekhargulati/52-technologies
 
 ## React Native
 
+React Native is a framework developed by Facebook. With React Native, you aren’t building a “mobile web app” or even a “hybrid app.” This framework allows you to create real mobile applications identical to an application built using Swift or Java. The same fundamental UI building blocks used by iOS and Android are used by React Native. These building blocks are just put together using JavaScript and React.
+
+React-Native has been around for about 2 years(initial release in 2015). 
+
+
+Facebook’s React Native user interface (UI) design framework is on the leading edge of this technology. React Native is a partnership between everything you’re used to from React on the web and the benefits of native applications. It provides you the speed, fidelity, and feel of native applications while retaining what you are used to from React on the web, like fast development cycles and declarative self-contained UI components.
+
+**How is React Native different from React?**
+
+React Native is not a different version of React. React Native is a custom renderer for React, just like React DOM on The Web. React Native uses native components instead of web components like React as building blocks. To begin with React Native, you need to know the basic React concepts, like JSX, components, state, and props. If you know React, you still need to learn stuff specific to React Native, like the native components. React Native also gives access to the features these platforms offer, apart from transforming React code to work on iOS and Android.
+
+**How does React Native work?**
+
+If you are familiar with React for the web, you’ll feel right at home with React Native. If you are used to writing apps in Java or Swift, you’ll feel right at home with many of React Native’s components.
+
+React is a JavaScript library for building user interfaces, focusing on the view portion of your application. This means when you write a React Native app, your view code will feature React components, which are small pieces of code describing how a portion of your app should look based on some set of input data.
+
+Companies which have worked with React Native
+
+Facebook, GitHub, Airbnb, Box, Google, Microsoft, Pinterest, Pixar Animation Studios, Twitter, Uber, Instagram, LinkedIn, and WhatsApp all use React code.
+
+**Benefits**
+
+* Cross-platform Android and iOS have different codebases, so businesses often have to hire engineers to work on both platforms. With React Native you don’t have to build the same application for iOS and Android, separately. React Native helps developers reuse the common logic layer across the web, mobile, and other operating systems.
+* Truly native Writing applications for a specific operating system is defined as native app creation. Many software frameworks let you believe in its ability to create good applications for Android and iOS, but most often than not the product ends up somewhere in between, without feeling truly native to either. React Native enables developers to make truly native apps, by embracing native platforms while allowing your app to share the majority of its codebase between platforms, without the increase in budget building two separate apps would entail.
+* Readability Even to those unfamiliar with React, it is easily readable. Many frameworks require you to learn an extensive list of concepts which are only useful within the framework. React strives to do the opposite.
+* Declarative style In declarative programming, developers tell an application what they are trying to achieve. While with imperative programming, a developer has to specify exactly how to do it. In this style of programming you have less flexibility in how things occur but being able to describe the state reduces the possibility of bugs drastically.
+* The component-based structure allows a web-style approach to developmentReact Native’s component-based structure allows developers to build apps with a more agile, web-style approach to development than most hybrid frameworks, and without any web at all.
+* Community Backing The majority of your React Native code is JavaScript, so you reap the benefit of all the advancements in the language and its ecosystem. If you know JavaScript, React Native will be easy to pick-up, allowing most front-end web developer to be a mobile developer. All you need to know is JavaScript, platform APIs, some native UI elements, and any other platform-specific design patterns and you’re set.
+* Reloading Instead of recompiling, you can reload your app instantly. You’re given two options: Live Reloading will reload the app every time you edit and save one of its files. Hot Reloading only reloads the file you just edited, not the entire file.
+* Use native code when you need to It's simple to drop down to native code if you need to optimize a few aspects of your application. It's also easy to build part of your app in React Native, and part of your app using native code directly, its how the Facebook app works.
+* No need to overhaul old app All you have to do is add React Native UI components into your existing app’s code, without having to rewrite. Or with a plugin, reuse the Cordova-based code if your current hybrid app was built using Cordova and Ionic. This is a significant advantage for businesses looking to expand an existing app without having to overhaul it.
+* Efficiency Native app development usually means inefficiency, slower time to deployment, and less developer productivity. React Native is all about bringing high speed, responsiveness, and agility of web app development along with effectual processing and best user experience to the hybrid space, to provide your users with a native app experience.
+
+React native isn’t just an introduction to native applications for web developers. It is a powerful tool, but not ideal for every solution. Remember, complex apps require more native solutions which in turn need more native developers. Else, it could slow down the development process. However, React Native is the best approach for applications with less complex UI. You will get a well performant, truly native app with fewer resources spent.
 
 
 
