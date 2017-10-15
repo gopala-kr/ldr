@@ -42,6 +42,34 @@ React is just a front end UI library, which elegantly manages application states
 
 ## GraphQL
 
+[GraphQL](http://graphql.org), a query language that is starting to get more and more attention. Facebook, who internally used GraphQL since 2012 and released a first specification and reference implementation of GraphQL in 2015 announced GraphQL to be [production ready] in September 2016. What followed is a trend of more and more companies starting to use GraphQL, such as [GitHub](https://youtu.be/hT-4pVmkGt0), [Coursera](https://youtu.be/JC-UJwBKc2Y) and [Shopify](https://youtu.be/Wlu_PWCjc6Y).
+
+One of the main benefits of using GraphQL is how so called queries allow clients to specify their data requirements in a declarative way. Instead of collecting all the data from different endpoints, as is usual with REST, queries allow an exact and fine-grained selection of data fields that are then resolved by the server. This leads to prevention of data over- and underfetching, two common problems of REST.
+
+As this approach shifts complexity from the clients to the server, we will focus on the client-side in this article. Let's take a quick glance at GraphQL schemas, exposed by GraphQL servers first, though.
+
+**GraphQL schema**
+
+When you build an app, you usually have to think about the data model you need. With GraphQL, this is done by defining the so called GraphQL schema. It exposes queries (for fetching data) and mutations (for modifying data), that are based on primitive types (such as integers, booleans or strings) and object types. Let's have a look at the two object types that we'll need in this article.
+
+<details>
+<summary>GraphQL schema</summary>
+```idl
+type Trainer {
+  id: String!
+  name: String!
+  ownedPokemons: [Pokemon]
+}
+
+type Pokemon {
+  id: String!
+  url: String!
+  name: String!
+  trainer: Trainer
+}
+```
+
+
 
 ## React Native
 
