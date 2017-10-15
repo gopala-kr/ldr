@@ -4,7 +4,7 @@
  
 I have given soometime to explore react ecosystem from last friday. Yet react is a big tech ecosystem to learn completely in one week, I wanted to understand the core concepts behind it. I have bit of experience in full-stack web apps using SAP technologies(past 3 years): webdypro applications(frontend is drag and drop UI library, backend completely in ABAP); CRM webui ; Hybris(an e-commerce platform - front end is js stack, backend is CRM); extensive experience in webservices and API's; bit of learned knowledge on Fiori app development using SAPUI5 library on HCP. My curiousnes of learning has drawn me towards open source libraries and frameworks. I have been fascinated by concept of open source and its potential impact in the world of computer technologies; I have started exploring it bit-by-bit.
 
-I always use my below table to get gist of anything new in technology:
+I always use my below table to get a gist of anything new in technology:
 
  | HN        | Medium         | Reddit |  Quora-QA  | Stack-Overflow QA| Awesome-gh | Online-Courses (lynda.com)| Official-Docs |
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:| -----:|
@@ -25,9 +25,9 @@ There are almost 2K blogs,articles and tutorials teaching about react every mont
 
 ![survey](https://ingeno.io/wp-content/uploads/2017/03/stackoverflow_2017survey1.png)
 
-React has been adopted by top giants Facebook, Instagram, NetflixNY, TimesKhan Academy, Codecademy, WhatsApp, Vivaldi,  Browser Dropbox,  Yahoo Mail and startup communities [more](https://github.com/facebook/react/wiki/sites-using-react). and react has been a big competetor for google's AngularJs MVC framework.
+React has been adopted by top giants Facebook, Instagram, NetflixNY, Times, Khan Academy, Codecademy, WhatsApp, Vivaldi Browser, Dropbox,  Yahoo Mail, many [more](https://github.com/facebook/react/wiki/sites-using-react) startups and react is going to take over the web.
 
-React is just front-end UI library. Inorder to make complete full stack react application facebook and other communities provides supporting libraries and design patterns, such as flux, redux, relay, graphql.React can also be used other frameworks.
+React is just front-end UI library. Inorder to make complete full stack react application facebook and other communities provides supporting libraries and design patterns, such as flux, redux, relay, graphql. React can also be used other frameworks.
 
 Lets explore them in details...
 
