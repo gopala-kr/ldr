@@ -181,8 +181,6 @@ Relay takes care of this problem. It makes it easy to fetch data from the server
 
 > One of the main benefits of using GraphQL is how so called queries allow clients to specify their data requirements in a declarative way. Instead of collecting all the data from different endpoints, as is usual with REST, queries allow an exact and fine-grained selection of data fields that are then resolved by the server. This leads to prevention of data over- and underfetching, two common problems of REST.
 
->[complete tutorial](https://www.howtographql.com/basics/2-core-concepts/)
-
 Facebook developed graphql to provide a data source that can evolve without breaking existing code and to favor speed on low-powered and low-quality mobile devices. The schema can evolve, but should never break. Products are described in graphs and queries, instead of the REST notion of endpoints.
 
 When you build React components, it’s easy to reuse them across different parts of your site. This is one of the main benefits of React. It’s called composability.If your component needs to use data from the server, though, it gets harder to just drop a component in place. The server needs to know what properties the component needs. In many apps, this will be hard-coded on the server. There will be a URL (called an endpoint) that passes down data for that particular view. The endpoint code will know exactly what properties its view needs.
@@ -199,7 +197,15 @@ This list is combined with the lists from other components. The structure of the
 
 The nice thing about this is that it localizes changes. When you need to add or remove a property, you only need to change the component… not the server.
 
+A query might be resolved by multiple data sources: REST APIs, database, a flat JSON file. A product might begin by returning data from a simple CSV file, and later be grow to return data from a cluster of databases or remote storage like BigTable.
 
+GraphQL is simply a clearinghouse for queries. It also comes with a tool called GraphiQL that allows you to view and debug your queries visually. And Facebook has open-sourced a library, called DataLoader, that makes it easy to query multiple backends asynchronously without having to write custom Promise logic that ends up in callback hell.
+
+Relay acts as a partner to GraphQL and React. A top-level query usually happens on a route — a URL pattern that loads a component when it is matched.
+
+
+[complete tutorial on graphql](https://www.howtographql.com/basics/2-core-concepts/)
+[relay-graphql explained in fun cortoon way by Lin](https://code-cartoons.com/a-cartoon-intro-to-facebook-s-relay-part-1-3ec1a127bca5)
 Next steps : [building pokedex](https://github.com/shekhargulati/52-technologies-in-2016/blob/master/43-graphql/README.md)
 
 
