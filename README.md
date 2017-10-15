@@ -29,7 +29,7 @@ There are almost 2K blogs,articles and tutorials teaching about react every mont
 
 React has been adopted by top giants Facebook, Instagram, NetflixNY, Times, Khan Academy, Codecademy, WhatsApp, Vivaldi Browser, Dropbox,  Yahoo Mail, many [more](https://github.com/facebook/react/wiki/sites-using-react) startups and it is going to take over the web.
 
-React is a just front-end UI library, inorder to make complete full stack react application facebook and other communities provides supporting libraries and frameworks, such as flux, redux, relay, graphql. React can also be used with other frameworks.
+React is a just front-end UI library, in order to build a complete full stack react application we will have to use supporting frameworks. Facebook and other communities provides supporting libraries and frameworks, such as flux, redux, relay, graphql. React can also be used with other frameworks ex: angularjs.
 
 Lets explore them in details...
 
@@ -66,11 +66,11 @@ In simple words ,for example : In your  facebook page, you don’t have to refre
 Events behave in a consistent, standards-compliant way in all browsers (including IE8) and automatically use event delegation.
 
 
-There are few pre-requesites and key-concepts we need to master before start with building apps.
+There are few pre-requesites and key-concepts we need to master before we start with building apps.
 
 Familiarity with HTML, JavaScript and ECMAScript6 (ES6).
 
-and the five key concepts are:
+and the key concepts are:
 
 * Components
 * JSX
@@ -156,7 +156,9 @@ With unidirectional data flow, this problem is mitigated, and eventually, predic
 
 ## Redux
 
-According to Github, Redux is a predictable state container for JavaScript apps. Many of the concepts are similar to functional programming, and all the data is kept in a single store. It is one of the popular implementations of flux architecture.
+[Redux](http://redux.js.org/) is one of the popular implementations of facebook's flux architecture discussed above. However there are slight differences in dispatcher and data-flow part. 
+
+According to Github, Redux is a predictable state container for JavaScript apps. Many of the concepts are similar to functional programming, and all the data is kept in a single store. .
 
 Irrespective of the application size, Redux is always a single object, quite unlike Flux, which keeps separate stores for different kinds of data. If there are manipulations to be made on the data, it doesn’t affect the state. In this way, the state is immutable.
 All updates and manipulation are done on a state tree. But this does not make the application slow as the data can be shared along several versions of the state tree.
@@ -168,11 +170,11 @@ The Store’s Dispatcher will dispatch the action and from there, it goes to the
 [[more on redux](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/01-react-ecosystem/Redux.md)]
 
 ## Relay & GraphQL
-As discussed above Flux and Redux are data handling patterns to keep your UI in sync. When a user interaction happens, they update the state and trigger rerendering.
+As discussed above Flux and Redux are data handling patterns to keep our UI in sync. When a user interaction happens, they update the state and trigger rerendering.
 
 But, how do we get the data that a component needs from a server, and then update the server when the user makes changes?
 
-Relay takes care of this problem. It makes it easy to fetch data from the server as part of your data flow. In order to do this, Relay needs to know what data each component needs from the server. This is where GraphQL comes in.
+Relay takes care of this problem. It makes it easy to fetch data from the server as part of our data flow. In order to do this, Relay needs to know what data each component needs from the server. This is where GraphQL comes in.
 
 > [Relay](https://facebook.github.io/relay/docs/getting-started.html) is an open source project by Facebook that exposes a framework they have been using internally for years. It is the glue that binds components written in React to data fetched from a GraphQL server.
 
@@ -194,19 +196,19 @@ Relay takes care of this problem. It makes it easy to fetch data from the server
 > As React components become more nested, queries can become increasingly complex. In Relay Classic, all of the query-parsing logic happened at runtime. As of [Relay Modern](https://facebook.github.io/relay/docs/relay-modern.html), queries are now parsed at build time and are static at runtime. This is great for performance.
 
 
-When you build React components, it’s easy to reuse them across different parts of your site. This is one of the main benefits of React. It’s called composability.If your component needs to use data from the server, though, it gets harder to just drop a component in place. The server needs to know what properties the component needs. In many apps, this will be hard-coded on the server. There will be a URL (called an endpoint) that passes down data for that particular view. The endpoint code will know exactly what properties its view needs.
+When we build React components, it’s easy to reuse them across different parts of our site. This is one of the main benefits of React. It’s called composability.If our component needs to use data from the server, though, it gets harder to just drop a component in place. The server needs to know what properties the component needs. In many apps, this will be hard-coded on the server. There will be a URL (called an endpoint) that passes down data for that particular view. The endpoint code will know exactly what properties its view needs.
 
-The problem here is that whenever you add (or remove) properties from the component, you have to change the server code too. This is called coupling; when you change one, you have to change the other, too.
+The problem here is that whenever we add (or remove) properties from the component, we have to change the server code too. This is called coupling; when we change one, we have to change the other, too.
 
-Because you have to manually keep these two in sync, it makes bugs and obsolete code more likely.
-* Bugs come from underfetching data. You don’t pull down the properties that you need for a component because you forgot to add them to the server.
-* Obsolete code results in overfetching data. For example, let’s say you remove a component from the tree. Do you delete its properties from the server response? How can you be sure another component doesn’t use that endpoint and need those properties? Instead, it’s better to just keep them in the response… but then you have a lot of cruft lying around.
+Because we have to manually keep these two in sync, it makes bugs and obsolete code more likely.
+* Bugs come from underfetching data. we don’t pull down the properties that we need for a component because you forgot to add them to the server.
+* Obsolete code results in overfetching data. For example, let’s say you remove a component from the tree. Do you delete its properties from the server response? How can we be sure another component doesn’t use that endpoint and need those properties? Instead, it’s better to just keep them in the response… but then we have a lot of cruft lying around.
 
-With GraphQL, you don’t hard-code the server with the list of properties that your view needs. Instead, the component provides a list of what it needs to the server.
+With GraphQL, we don’t hard-code the server with the list of properties that our view needs. Instead, the component provides a list of what it needs to the server.
 
 This list is combined with the lists from other components. The structure of the combined list is a tree, just like the component tree. It gets handed off to the endpoint. There’s only one endpoint and it handles all requests.
 
-The nice thing about this is that it localizes changes. When you need to add or remove a property, you only need to change the component… not the server.
+The nice thing about this is that it localizes changes. When we need to add or remove a property, we only need to change the component… not the server.
 
 
 * [complete tutorial on graphql](https://www.howtographql.com/basics/2-core-concepts/)
@@ -262,10 +264,17 @@ Facebook, GitHub, Airbnb, Box, Google, Microsoft, Pinterest, Pixar Animation Stu
 
 React native isn’t just an introduction to native applications for web developers. It is a powerful tool, but not ideal for every solution. Remember, complex apps require more native solutions which in turn need more native developers. Else, it could slow down the development process. However, React Native is the best approach for applications with less complex UI. You will get a well performant, truly native app with fewer resources spent.
 
-Source: [EVERYTHING YOU NEED TO KNOW ABOUT REACT NATIVE](https://www.cognitiveclouds.com/insights/all-you-need-to-know-about-react-native/)
+[Source: [react-native](https://www.cognitiveclouds.com/insights/all-you-need-to-know-about-react-native/)]
 
 
 ## Next steps:
+
+* I will keep update this post for new updates.
+* I have experimented some of the basic react-redux apps while going through tutorials in [Codepen](https://codepen.io/kr_gopala/)
+* to develop a complete full stack web application using react+ redux + graphql and deploy it on heroku.
+* to build a native hacker news app similar to [hackernews-react-graphql](https://github.com/gopala-kr/hackernews-react-graphql) and deploy it on app store and google play store.
+
+
 
 
 
