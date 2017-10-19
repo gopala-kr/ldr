@@ -1,30 +1,8 @@
-  <div id="container" class="container">
-    <div class="row sticky-container">
-      <section class="col-md-8 content-column">
 
-        <main class="blog-post blog-single">
-          <div class="inner">
-            <div class="entry-content js-entry-content" itemprop="articleBody">
-              
-              <p>JavaScript is arguably one of the most important languages today. The rise of the web has taken JavaScript places it was never conceived to be. We take a look at how JavaScript has evolved in its short history, and where it is headed. Read on!</p>
+## A Brief History of JavaScript
 
-<blockquote class="tweet-quote">
-  <a href="https://twitter.com/intent/tweet?text=&quot;We take a look at how JavaScript has evolved in its short history, and where it is headed!&quot; via @auth0 http://auth0.com/blog/a-brief-history-of-javascript/">
-    <p>"We take a look at how JavaScript has evolved in its short history, and where it is headed!"</p>
-    <p class="tweet-link">TWEET THIS <img src="https://cdn.auth0.com/blog/resources/twitter.svg"></p>
-  </a>
-</blockquote>
+JavaScript is arguably one of the most important languages today. The rise of the web has taken JavaScript places it was never conceived to be. We take a look at how JavaScript has evolved in its short history, and where it is headed. Read on!
 
-
-
-
-<script>
-    $(function() {
-        $('.tweet-quote').on('click', function() {
-            metricsLib.track('blog:share:twitter_quote');
-        });
-    });
-</script>
 
 
 <hr />
@@ -37,11 +15,10 @@
 
 <p>Marc Andreessen, founder of Netscape Communications and part of the ex-Mosaic team, had the vision that the web needed a way to become more dynamic. Animations, interaction and other forms of small automation should be part of the web of the future. So the web needed a small scripting language that could interact with the DOM (which was not set in stone as it is right now). But, and this was an important strategic call at the time, this scripting language should not be oriented to big-shot developers and people with experience in the software engineering side of things. Java was on the rise as well, and Java applets were to be a reality soon. So the scripting language for the web would need to cater to a different type of audience: designers. Indeed, the web was static. HTML was still young and simple enough for non-developers to pick up. So whatever was to be part of the browser to make the web more dynamic should be accessible to non-programmers. And so the idea of Mocha was born. Mocha was to become a scripting language for the web. Simple, dynamic, and accessible to non-developers.</p>
 
-<p><img src="https://cdn.auth0.com/blog/js-history/marc.jpg" alt="Marc Andreessen" /></p>
+
 
 <p>This is when Brendan Eich, father of JavaScript, came into the picture. Eich was contracted by Netscape Communications to develop a "Scheme for the browser". Scheme is a Lisp dialect and, as such, comes with very little syntactic weight. It is dynamic, powerful, and functional in nature. The web needed something of the sort: easy to grasp syntactically; dynamic, to reduce verbosity and speed up development; and powerful. Eich saw a chance to work on something he liked and joined forces.</p>
 
-<p><img src="https://cdn.auth0.com/blog/js-history/brendan.jpg" alt="Brendan Eich" /></p>
 
 <p>At the moment there was a lot of pressure to come up with a working prototype as soon as possible. The Java language, née Oak at the time, was starting to get traction. Sun Microsystems was making a big push for it and Netscape Communications was about to close a deal with them to make Java available in the browser. So why Mocha (this was the early name for JavaScript)? Why create a whole new language when there was an alternative? The idea at the time was that Java was not suited for the type of audience that would consume Mocha: scripters, amateurs, designers. Java was just too big, too enterprisy for the role. So the idea was to make Java available for big, professional, component writers; while Mocha would be used for small scripting tasks. In other words, Mocha was meant to be the scripting companion for Java, in a way analogous to the relationship between C/C++ and Visual Basic on the Windows platform.</p>
 
@@ -581,9 +558,6 @@ sales.item.(@type == "oranges").@quantity = 4;
 
 <p>The history of JavaScript has been long and full of bumps. It was proposed as a "Scheme for the web". Early on it got Java-like syntax strapped on. Its first prototype was developed in a matter of weeks. It suffered the perils of marketing and got three names in less than two years. It was then standardized and got a name that sounded like a <a href="http://www.infoworld.com/article/2653798/application-development/javascript-creator-ponders-past--future.html">skin disease</a>. After three successful releases, the fourth got caught up in development hell for almost 8 years. Fingers got pointed around. Then, by the sheer success of a single feature (AJAX), the community got its act back together and development was resumed. Version 4 was scrapped and a minor revision, known by everyone as version 3.1, got renamed to version 5. Version 6 spent many years in development (again) but this time the committee succeeded, but nonetheless decided to change the name again, this time to 2015. This revision was big and took a lot of time to get implemented. But finally, new air was breathed into JavaScript. The community is as active as ever. Node.js, V8 and other projects have brought JavaScript to places it was never thought for. Asm.js, WebAssembly are about to take it even further. And the active proposals in different stages are all making JavaScript's future as bright as ever. It's been a long road, full of bumps, and JavaScript is still one of the most successful languages ever. That's a testament in itself. Always bet on JavaScript.</p>
 
-<blockquote class="tweet-quote">
-  <a href="https://twitter.com/intent/tweet?text=&quot;JavaScript is still one of the most successful languages ever, always bet on JavaScript&quot; via @auth0 http://auth0.com/blog/a-brief-history-of-javascript/">
-    <p>"JavaScript is still one of the most successful languages ever, always bet on JavaScript"</p>
-    <p class="tweet-link">TWEET THIS <img src="https://cdn.auth0.com/blog/resources/twitter.svg"></p>
-  </a>
-</blockquote>
+JavaScript is still one of the most successful languages ever, always bet on JavaScript
+
+source: [a-brief-history-of-javascript](https://auth0.com/blog/a-brief-history-of-javascript/)
