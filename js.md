@@ -1,7 +1,7 @@
 
 
 
- | HN        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Ofiicial docs|
+ | Hacker News       | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Ofiicial docs|
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
 |  [nodejs](https://hn.algolia.com/?query=nodejs&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [nodejs](https://medium.com/search?q=nodejs)  | [nodejs](https://www.reddit.com/r/node/)  | [nodejs](https://www.quora.com/topic/Node-js)  |  [nodejs](https://stackoverflow.com/search?q=nodejs)    | [nodejs](https://github.com/sindresorhus/awesome-nodejs)  | [nodejs](https://www.lynda.com/Node-js-training-tutorials/1283-0.html)  |[nodejs](https://nodejs.org/en/)  |
 |  [expressjs](https://hn.algolia.com/?query=expressjs&sort=byPopularity&prefix=false&page=0&dateRange=all&type=story)  | [expressjs](https://medium.com/tag/expressjs)  | [expressjs](https://www.reddit.com/r/node/)  | [expressjs](https://www.quora.com/topic/Express-Node-js-web-framework)  |   [expressjs](https://stackoverflow.com/search?q=expressjs)   | [expressjs](https://github.com/sindresorhus/awesome-nodejs)  | [expressjs](https://www.lynda.com/Express-js-training-tutorials/2086-0.html)  |[expressjs](https://expressjs.com/)  |
