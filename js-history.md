@@ -544,15 +544,6 @@ sales.item.(@type == "oranges").@quantity = 4;
 
 <p>At the moment, development versions of Chrome, Firefox and Microsoft Edge support a draft of the WebAssembly specification and are capable of running <a href="http://webassembly.org/demo/">demo apps</a>.</p>
 
-<h2>Aside: JavaScript use at Auth0</h2>
-
-<p>At Auth0 we are <a href="https://github.com/auth0">heavy users of JavaScript</a>. From our <a href="https://auth0.com/lock">Lock library</a> to our backend, JavaScript powers the core of our operations. We find its asynchronous nature and the low entry barrier for new developers essential to our success. We are eager to see where the language is headed and the impact it will have in its ecosystem.</p>
-
-<p><a href="javascript:signup()">Sign up for a free Auth0 account</a> and take a first-hand look at a production ready ecosystem written in JavaScript. And don't worry, we have <a href="https://auth0.com/docs/quickstarts">client libraries for all popular frameworks and platforms</a>!</p>
-
-<blockquote><p><a href="https://auth0.com/pricing">Auth0 offers a generous <strong>free tier</strong></a> to get started with modern authentication.</p></blockquote>
-
-<p>Recently, we have released a product called <a href="https://auth0.com/extend/">Auth0 Extend</a>. This product enable companies to provide to their customers an easy to use extension point that accepts JavaScript code. With <a href="https://auth0.com/extend/">Auth0 Extend</a>, customers can create custom business rules, scheduled jobs, or connect to the ecosystem by integrating with other SaaS systems, like Marketo, Salesforce, and Concur. All using plain JavaScript and NPM modules.</p>
 
 <h2>Conclusion</h2>
 
