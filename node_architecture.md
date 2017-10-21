@@ -232,6 +232,7 @@ while(true){
                                     <script>
                                         (adsbygoogle = window.adsbygoogle || []).push({});
                                     </script>
+                                  
                                 </div>
                                 <div style="font-size:0px;height:0px;line-height:0px;margin:0;padding:0;clear:both"></div>
                             </div>
