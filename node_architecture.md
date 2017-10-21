@@ -1,4 +1,10 @@
-
+<div class="entry-content" itemprop="text">
+                                <div style="float:none;margin:10px 0 10px 0;text-align:center;"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5143693538742787" data-ad-slot="7174295726" data-ad-format="auto"></ins>
+                                    <script>
+                                        (adsbygoogle = window.adsbygoogle || []).push({});
+                                    </script>
+                                </div>
+                                <p>Today we will look into Node JS Architecture and Single Threaded Event Loop model. In our previous posts, we have discussed about <a href="https://www.journaldev.com/7397/introduction-to-node-js-basics" title="Introduction to Node JS – Node.js Basics">Node JS Basics</a>, <a href="https://www.journaldev.com/7423/node-js-components-modules-npm-install-update-uninstall-example" title="Node.js Components – Node.js modules, NPM install update uninstall example">Node JS Components</a> and <a href="https://www.journaldev.com/7402/node-js-environment-setup-node-js-installation" title="Node JS Environment Setup – Node.js installation">Node JS installation</a>.</p>
                                 <h2>Node JS Architecture</h2>
                                 <p>Before starting some Node JS programming examples, it&#8217;s important to have an idea about Node JS architecture. We will discuss about &#8220;How Node JS works under-the-hood, what type of processing model it is following, How Node JS handles concurrent request with Single-Threaded model&#8221; etc. in this post.</p>
                                 <h3>Node JS Single Threaded Event Loop Model</h3>
@@ -229,20 +235,3 @@ while(true){
                                 </div>
                                 <div style="font-size:0px;height:0px;line-height:0px;margin:0;padding:0;clear:both"></div>
                             </div>
-                            <footer class="entry-footer">
-                                <p class="entry-meta"><span class="entry-categories">Filed Under: <a
-href="https://www.journaldev.com/node-js" rel="category tag">Node.js</a></span></p>
-                            </footer>
-                        </article>
-                        <section class="author-box" itemprop="author" itemscope itemtype="https://schema.org/Person">
-                            <h4 class="author-box-title">About <span
-itemprop="name">Rambabu Posa</span></h4>
-                            <div class="author-box-content" itemprop="description">
-                                <p>Rambabu Posa have 12+ years of RICH experience as Sr Agile Lead Java/Scala/BigData/NoSQL Developer. Apart from Java, he is good at Spring4, Hibernate4, MEAN Stack, RESTful WebServices, NoSQL, BigData Hadoop Stack, Cloud, Scala, Groovy Grails, Play Framework, TDD, BDD,Agile,DevOps and much more. His hobbies are Developing software, Learning new technologies, Love Walking, Reading Books, Watching TV and obviously sharing his knowledge through writing articles on JournalDev.</p>
-                            </div>
-                        </section>
-                        <div class="adjacent-entry-pagination pagination">
-                            <div class="pagination-previous alignleft"><a href="https://www.journaldev.com/7456/download-install-scala-linux-unix-windows" rel="prev">&#x000AB; Download, Install Scala on Linux, Unix, Windows</a></div>
-                            <div class="pagination-next alignright"><a href="https://www.journaldev.com/7473/best-10-web-development-tools-and-services-for-2015" rel="next">Best 10+ Web Development Tools and Services for 2015 &#x000BB;</a></div>
-                        </div>
-                        
