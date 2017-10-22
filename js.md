@@ -221,7 +221,7 @@ keyed by the cookie names.
 
 ## Meteorjs
 
-Meteor, or MeteorJS, is a free and open-source Full Stack web application framework that has the front-end and back-end components to build a real-time applications. Meteor allows for rapid prototyping and produces cross-platform (Android, iOS, Web) code. It integrates with MongoDB and uses the Distributed Data Protocol and a publish–subscribe pattern to automatically propagate data changes to clients without requiring the developer to write any synchronization code. On the client, Meteor can be used with its own Blaze templating engine, as well as with the Angular framework or React library.
+Meteor, or MeteorJS, is a free and open-source full Stack web application framework written using Node.js that has the front-end and back-end components to build a real-time applications. Meteor allows for rapid prototyping and produces cross-platform (Android, iOS, Web) code. It integrates with MongoDB and uses the Distributed Data Protocol and a publish–subscribe pattern to automatically propagate data changes to clients without requiring the developer to write any synchronization code. On the client, Meteor can be used with its own Blaze templating engine, as well as with the Angular framework or React library.
 
 Official doc says:
 
