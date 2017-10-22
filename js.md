@@ -60,7 +60,7 @@ Included in the new release are a ton of new ES6 features and a plan for a regul
 
 **How nodejs works**
 
-- I'm going to demonstrate how Node.js works and why it is so fast by taking a look at two restaurants. The first restaurant is Apache Steaks and Chops. It is a big, nice, fancy restaurant. In this restaurant, every new guest represents a new user, and making an order is like making a request. If I place an order for a salad, the manager will need to hire a new waiter to take care of me. In this restaurant, our waiter represents a thread. We are going to have our own waiter, our own thread, and they will handle all of our orders. This is similar to how Apache works.
+I'm going to demonstrate how Node.js works and why it is so fast by taking a look at two restaurants. The first restaurant is Apache Steaks and Chops. It is a big, nice, fancy restaurant. In this restaurant, every new guest represents a new user, and making an order is like making a request. If I place an order for a salad, the manager will need to hire a new waiter to take care of me. In this restaurant, our waiter represents a thread. We are going to have our own waiter, our own thread, and they will handle all of our orders. This is similar to how Apache works.
 
 Every request is single-threaded. After placing the order, the waiter will take the order to the kitchen and give it to the chef. And now the waiter just waits. He won't do anything else until the chef is finished making the food. I would like to order a glass of water, but I can't order anything until the chef finishes making that salad. The chef is blocking me from being able to simply order a glass of water. In this analogy, the chef represents the file system or a data store. In Apache, the single thread waits for the file system to finish reading files before it can do anything else.
 
@@ -73,3 +73,42 @@ We can say that this waiter behaves asynchronously. Everything this waiter needs
 This thread behaves asynchronously because it does not have to wait for resources to finish doing what they're doing before our thread can do anything else. If this cafe gets popular, we can simply franchise it. Chez Node can easily be expanded by simply duplicating or forking the restaurant into a neighboring space. And this is precisely how we host Node.js applications in the cloud. Now, remember, Node.js is single-threaded. All of the users are sharing the same thread. Events are raised and recorded in an event queue and then handled in the order that they were raised.
 
 Node.js is asynchronous, which means that it can do more than one thing at a time. This ability to multitask is what makes Node.js so fast and one of the reasons so many developers are building their web applications with Node.js.
+
+
+Node.js is a cross-platform runtime environment and library for running JavaScript applications outside the browser. It is used for creating server-side and networking web applications. It is open source and free to use. It can be downloaded from this link https://nodejs.org/en/
+
+Many of the basic modules of Node.js are written in JavaScript. Node.js is mostly used to run real-time server applications.
+
+The definition given by its official documentation is as follows:
+
+?Node.js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.?
+
+Node.js also provides a rich library of various JavaScript modules to simplify the development of web applications.
+
+### Features of Node.js
+Following are some of the important features that make Node.js the first choice of software
+architects.
+* Asynchronous and Event Driven − All APIs of Node.js library are asynchronous,
+that is, non-blocking. It essentially means a Node.js based server never waits for
+an API to return data. The server moves to the next API after calling it and a
+notification mechanism of Events of Node.js helps the server to get a response from
+the previous API call.
+* Very Fast − Being built on Google Chrome's V8 JavaScript Engine, Node.js library
+is very fast in code execution.
+* Single Threaded but Highly Scalable − Node.js uses a single threaded model
+with event looping. Event mechanism helps the server to respond in a non-blocking
+way and makes the server highly scalable as opposed to traditional servers which
+create limited threads to handle requests. Node.js uses a single threaded program
+and the same program can provide service to a much larger number of requests
+than traditional servers like Apache HTTP Server.
+ No Buffering − Node.js applications never buffer any data. These applications
+simply output the data in chunks.
+
+> Node.js = Runtime Environment + JavaScript Library  
+
+![Different parts of Node.js](https://www.javatpoint.com/js/nodejs/images/what-is-nodejs.png)
+
+
+
+
+
