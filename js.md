@@ -64,15 +64,19 @@ The definition given by its official documentation is as follows:
 
 Node.js also provides a rich library of various JavaScript modules to simplify the development of web applications.
 
+> Node.js = Runtime Environment + JavaScript Library  
+
+![Different parts of Node.js](https://www.javatpoint.com/js/nodejs/images/what-is-nodejs.png)
+
 The reason why Node.js was originally started is because Ryan Dahl was fed up with the disconnect between the client and the web server. Each time the client wanted to be updated with new information it had to query the web server (for example, to keep track of progress of a file upload). This had been a long-standing problem in the field of web development, but most developers just decided to deal with it. Node.js was the first real attempt at solving this problem at the root by enabling real-time communication between the client and the server. It was immediately well received, as shown by the enthusiastic reaction of the audience during the original Node.js launch presentation.
 
-Its worth spending 1 hour time on [Ryan Dahl Node.js launch presentation](https://www.youtube.com/watch?v=jo_B4LTHi3I) before start learning it.
+> Its worth spending 1 hour time on [Ryan Dahl Node.js launch presentation](https://www.youtube.com/watch?v=jo_B4LTHi3I) before start learning it.
 
-Since its inception, Node.js has surpassed many of its early expectations. The total amount of active contributors to the project itself increased each year to a record amount of about 480 contributors at the end of 2016. The number of downloads also continues to grow, with the total amount of downloads averaging at over 484,121 avg / day. source : https://nodesource.com/node-by-numbers
+The total amount of active contributors to the project itself increased each year to a record amount of about 480 contributors at the end of 2016. The number of downloads also continues to grow, with the total amount of downloads averaging at over 484,121 avg / day. (source : https://nodesource.com/node-by-numbers)
 
-Because of the immense popularity of Node.js I wanted to study its architecture and how it is used to achieve some of the unique functionalities Node.js has to offer. my initial commitment was to complete it in one/two days. after diving in came to know that node itself takes a week.
+Because of the immense popularity of Node.js I wanted to study its architecture and how it is used to achieve some of the unique functionalities Node.js has to offer. My initial commitment was to complete it in one/two days. after diving in came to know that node itself takes a week.
 
-
+***********************************
 
 > **Short history of nodejs**
 
@@ -82,6 +86,7 @@ Because of the immense popularity of Node.js I wanted to study its architecture 
 
 > Included in the new release are a ton of new ES6 features and a plan for a regular release cycle. From the start of the Node.js project, a common refrain was that all versions of Node.js would be 0 releases, .08, .010, .012 until the project could release a stable version 1.0 with no breaking changes. Well, with the release of Node.js version 4.0, the much-awaited version 1.0 never happened. But now the community is united with the official Node release at version 4.0. and the present version is 6.11.4.
 
+**********************************
 
 ### How nodejs works
 
@@ -102,30 +107,6 @@ Node.js is asynchronous, which means that it can do more than one thing at a tim
 
 ****************************
 
-### Features of Node.js
-Following are some of the important features that make Node.js the first choice of software
-architects.
-* Asynchronous and Event Driven − All APIs of Node.js library are asynchronous,
-that is, non-blocking. It essentially means a Node.js based server never waits for
-an API to return data. The server moves to the next API after calling it and a
-notification mechanism of Events of Node.js helps the server to get a response from
-the previous API call.
-* Very Fast − Being built on Google Chrome's V8 JavaScript Engine, Node.js library
-is very fast in code execution.
-* Single Threaded but Highly Scalable − Node.js uses a single threaded model
-with event looping. Event mechanism helps the server to respond in a non-blocking
-way and makes the server highly scalable as opposed to traditional servers which
-create limited threads to handle requests. Node.js uses a single threaded program
-and the same program can provide service to a much larger number of requests
-than traditional servers like Apache HTTP Server.
-* No Buffering − Node.js applications never buffer any data. These applications
-simply output the data in chunks.
-
-> Node.js = Runtime Environment + JavaScript Library  
-
-![Different parts of Node.js](https://www.javatpoint.com/js/nodejs/images/what-is-nodejs.png)
-
-
 ### System scope(**Where to Use Node.js?**)
 
 According to their own website, Node.js was designed to build scalable network applications. Node.js is mainly meant to provide developers with the foundations for common server-side functionalities, for example:
@@ -143,13 +124,9 @@ Node.js is very lightweight and many higher-level functionalities are intentiona
 
 There are different entities that are related to the actual development of Node.js, such as programming languages and testing.
 
-**Programming languages**
+**Programming languages:** Node.js is almost entirely written in JavaScript. It uses Google's V8 engine to execute all the JavaScript code, but since this engine is itself written in C++, some parts of Node.js's codebase that interact directly with this engine are also written in C++. Finally, Python is used to run many of the automated tests for Node.js.
 
-Node.js is almost entirely written in JavaScript. It uses Google's V8 engine to execute all the JavaScript code, but since this engine is itself written in C++, some parts of Node.js's codebase that interact directly with this engine are also written in C++. Finally, Python is used to run many of the automated tests for Node.js.
-
-**Dependencies**
-
-There are a number of libraries or products that Node.js explicitly depends upon. Since Node.js was meant to be lightweight it offers only the most basic necessities for a product of its kind out of the box and thus, it does not have too many dependencies. Instead, it relies on the wide variety of additional plugins and libraries offered through npm, which can be used to extend the functionality of a Node.js application with many standardized solutions to common problems.
+**Dependencies:** There are a number of libraries or products that Node.js explicitly depends upon. Since Node.js was meant to be lightweight it offers only the most basic necessities for a product of its kind out of the box and thus, it does not have too many dependencies. Instead, it relies on the wide variety of additional plugins and libraries offered through npm, which can be used to extend the functionality of a Node.js application with many standardized solutions to common problems.
 
 ![nodejs](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/nodejs_architecture.JPG)
 <ul>
@@ -202,10 +179,9 @@ There are a number of libraries or products that Node.js explicitly depends upon
                                                             <p><strong>Version control &amp; Issue tracking</strong></p>
                                                             <p>Node.js is actively being developed on <a href="https://github.com/" target="_blank">GitHub</a> using Git as its version control system. The same system is also used to track issues, report bugs and discuss features.</p>
                                                             
-                                                                <br>
-                                                                <br>
-                                                            </p>
-
+                                                            
+                                                           
+***********************************************
 
 
 ### Development View
