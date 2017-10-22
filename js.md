@@ -294,51 +294,37 @@ In an event-driven program the flow of the application is the result of events t
                                                                         </tbody>
                                                                     </table>
 
-<div id="section-conclusion">
+### Functional View
 
-                                                                                                    <h1 id="conclusion">Conclusion</h1>
-                                                                                                    <p>In this chapter we have analyzed the architecture of Node.js on different perspectives and views, so that the readers could have a broad idea of what Node.js is and what is it&apos;s structure.</p>
-                                                                                                    <p>As aspiring software architects, analyzing Node.js structure has been enlightening experience for us. It has provided useful insight as to how complex modular architectures are developed and managed, and the reasons for doing so. We appreciated the opportunity to analyze the various architectural aspects of Node.js which allowed us to become intimately familiar with a project we had all heard of but had never really figured out completely. From the stakeholders and the ecosystem in which Node.js resides to the more technical aspects dealing with the software development process, the functionalities and the scalability.</p>
-                                                                                                    <div id="section-references">
+In this section we will describe the most important and unique functionalities of Node.js. We will also address the architectural elements and choices that make these functions possible. Node.js indirectly offers vast amounts of functionality through the myriad of applications that have been built upon it, such as chat bots, application monitoring and data streaming. However, since our focus is on Node.js itself we are mainly interested in its architecture and will therefore also focus solely on the functionalities offered directly to developers working with Node.js.
 
-                                                                                                        <h1 id="references">References</h1>
-                                                                                                        <ol>
-                                                                                                            <li>
-                                                                                                                <div id="rdquote">Dahl, R (2010-11-09). &quot;Joyent and Node&quot;. Google Groups., <a href="https://groups.google.com/forum/#!topic/nodejs/lWo0MbHZ6Tc" target="_blank">https://groups.google.com/forum/#!topic/nodejs/lWo0MbHZ6Tc</a>, Accessed on April 3rd, 2017</div>
-                                                                                                            </li>
-                                                                                                            <li>
-                                                                                                                <div id="rdvideo">Video: Ryan Dahl: Original Node.js presentation (November 26th, 2009), <a href="https://www.youtube.com/watch?v=ztspvPYybIY" target="_blank">https://www.youtube.com/watch?v=ztspvPYybIY</a>, Accessed on April 3rd, 2017.</div>
-                                                                                                            </li>
-                                                                                                            <li>
-                                                                                                                <div id="nodestats">Node By Numbers (January 1st, 2017), <a href="https://nodesource.com/node-by-numbers" target="_blank">https://nodesource.com/node-by-numbers</a>, Accessed on April 3rd, 2017.</div>
-                                                                                                            </li>
-                                                                                                            <li>
-                                                                                                                <div id="rw">Nick Rozanski and Eoin Woods. Software Systems Architecture: Working with Stakeholders using Viewpoints and Perspectives. Addison-Wesley, 2012.</div>
-                                                                                                            </li>
-                                                                                                            <li>
-                                                                                                                <div id="archint"> Li, A. (June 5th, 2016), Architecture of Node.js&#x2019; Internal Codebase, <em>Yet Another Node.js Blog</em>, <a href="https://arenli.com/architecture-of-node-js-internal-codebase-57cd8376b71f" target="_blank">https://arenli.com/architecture-of-node-js-internal-codebase-57cd8376b71f</a>, Accessed on February 25th, 2017</div>
-                                                                                                            </li>
-                                                                                                            <li>
-                                                                                                                <div id="enterprise"> Delgado, A. (October 5th, 2017), Top 5 companies using NodeJS in production, <a href="https://www.linkedin.com/pulse/top-5-companies-using-nodejs-production-anthony-delgado" target="_blank">https://www.linkedin.com/pulse/top-5-companies-using-nodejs-production-anthony-delgado</a>, Accessed on February 26th, 2017</div>
-                                                                                                            </li>
-                                                                                                            <li>
-                                                                                                                <div id="mo">Node.js Foundation (2017), Development | Node.js, <a href="https://nodejs.org/en/get-involved/development/#stability-policy" target="_blank">https://nodejs.org/en/get-involved/development/#stability-policy</a>, Accessed on March 6th, 2017</div>
-                                                                                                            </li>
-                                                                                                            <li>
-                                                                                                                <div id="abi">Krill, P. (November 29th, 2017), Node.js update makes JavaScript VMs future-proof, <a href="http://www.infoworld.com/article/3145428/javascript/node-js-making-strides-in-javascript-vm-independence.html" target="_blank">http://www.infoworld.com/article/3145428/javascript/node-js-making-strides-in-javascript-vm-independence.html</a>, Accessed on March 6th, 2017</div>
-                                                                                                            </li>
-                                                                                                            <li>
-                                                                                                                <div id="codingeek">Rahul, G. (October 27th, 2017), Is NodeJS single threaded - Let&apos;s find out, <a href="http://www.codingeek.com/tutorials/nodejs/is-nodejs-single-threaded/" target="_blank">http://www.codingeek.com/tutorials/nodejs/is-nodejs-single-threaded/</a>, Accessed on April 2nd, 2017</div>
-                                                                                                            </li>
-                                                                                                            <li>
-                                                                                                                <div id="nodesource">Norris, T. (January 5th, 2017), The Nodesource Blog, <a href="https://nodesource.com/blog/understanding-the-nodejs-event-loop/" target="_blank">https://nodesource.com/blog/understanding-the-nodejs-event-loop/</a>, Accessed on April 2nd, 2017</div>
-                                                                                                            </li>
-                                                                                                            <li>
-                                                                                                                <div id="npmweb">Packages and Modules, <a href="https://docs.npmjs.com/how-npm-works/packages" target="_blank">https://docs.npmjs.com/how-npm-works/packages</a>, Accessed on April 2nd, 2017</div>
-                                                                                                            </li>
-                                                                                                            <li>
-                                                                                                                <div id="npmwiki">npm (software), <a href="https://en.wikipedia.org/wiki/Npm_(software" target="_blank">https://en.wikipedia.org/wiki/Npm_(software</a>), Accessed on April 2nd, 2017 </div>
-                                                                                                            </li>
-                                                                                                        </ol>
-                                                                                                    </div>
-                                                                                                    </div>
+**Threading**
+
+The threading mechanism of Node.js is quite different from other webservers. For example, webservers based on PHP and ASP.NET typically create a new thread for each client request. That client request thus causes the entire program to be reinstantiated on the thread for that specific request. So while the webserver is definitely multi-threaded, each program instance served to a client operates only on a single thread.
+
+As we mentioned in the Development View, Node.js is built upon libuv, which allows it to perform asynchronous or non-blocking I/O operations. Because of this, Node.js is able to use only a single "calling thread" that serves all incoming client requests without causing independent requests to block each other. Any work that needs to be done is passed off to a thread pool where it is assigned to a separate thread on which it will be executed. After the work has been done, control is ceded back to the calling thread to provide the client with the appropriate response to their original request [9].
+
+In a later section on the Performance & Stability Perspective we will discuss the advantages and disadvantages that these two approaches carry with them. For now it suffices to emphasize the differences from an architectural point of view. We will now elaborate on the calling thread, commonly referred to as the event loop.
+
+**Event Loop**
+
+As we previously discussed in the Development View, Node.js is based on the event-driven programming paradigm [10]. This becomes clear through the so-called event loop, a process that is constantly accepting incoming requests and providing responses to previously accepted requests. In between accepting a request and responding to it, the event loop will refer work that needs to be done to one of the background workers, as mentioned in the previous subsection on Threading. Node.js makes good use of JavaScript's support for callbacks by allowing a callback to be sent along with each such task. Figure 5 pictures the execution model as we have discussed it so far.
+
+![Event Loop](https://delftswa.gitbooks.io/desosa-2017/content/node/images-node/NodeThreads.png)
+
+Each of these callbacks is registered to an Event Queue, where it waits to be called as soon as the corresponding task has been finished. These callbacks are all executed on the main thread again, as they are responsible for providing the client with a response. Therefore it is advisable to keep the callback functions as lightweight as possible, as they will cause delay for other simultaneous requests. As long as there are callbacks in this queue, the event loop will remain active to respond to all outstanding client requests. Figure 6 shows the interplay between the mechanisms behind the Event Queue, the event loop and the thread pool.
+
+![Single Threaded event loop model](https://delftswa.gitbooks.io/desosa-2017/content/node/images-node/nodejs-event-loop.png)
+
+<p>In Node.js every object that can fire events is an instance of the <code>EventEmitter</code> class. Each of these objects has an <code>on()</code> method in which a type of event can be specified along with the appropriate callback such that each time the named event is fired, the corresponding callback is called. If multiple callbacks have been assigned to the same event, all of them will be executed in a synchronous manner (according to the first in, first out principle). If necessary developers can override this procedure by using the <code>setImmediate()</code> method for a callback to switch to an asynchronous model.</p>
+                                                                                <p>Some of the core modules of Node.js that extend the <code>EventEmitter</code> class are the <code>Server</code>, <code>Socket</code>, <code>http</code> and <code>fs</code> (short for File System) modules. For all of these it is easy to imagine how the event-based way of programming enables the system as a whole to function in a non-blocking way. Without events, the program would have to postpone executing any of its subsequent code until it has received a response from a remote server or until a file has been read completely. By specifying callbacks for such events, the main program can continue being executed, only returning to the callback when new data has become available.</p>
+                                                                                <h2 id="package-management">Package Management</h2>
+                                                                                <p>Node.js uses a package manager in order for developers to add modules to their applications. These modules add new functionality to existing applications. This new functionality can help developers create their app or enhance their app for the users.
+                                                                                    <br> Although most packages are modules, there are some packages that are not modules for they have no index.js or main field in the package.json file for use in Node.js programs[<a href="#npmweb">11</a>]. This way the Node.js program cannot use the <code>require</code> function to load the package and is thus not a module.</p>
+                                                                                <h3 id="npm">npm</h3>
+                                                                                <p>When installing node, the package manager called <em>npm</em> is automatically installed as well. npm is written in JavaScript and was developed by Isaac Z. Schlueter. He saw that module packaging was not done well in node compared to other platforms. This was the reason for him to come up with npm[<a href="#npmwiki">12</a>]. npm makes it easy for developers to share, reuse and update shared JavaScript code and uses nested dependencies as shown in <a href="#nesteddependencies">Figure 7</a>
+                                                                                    <br>
+                                                                                </p>
+                                                                                
+                                                                                
+                                                                                
