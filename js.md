@@ -351,4 +351,70 @@ Each of these callbacks is registered to an Event Queue, where it waits to be ca
                                                                                                 <em>Figure 8: Synchronous I/O (from <a href="http://bijoor.me/2013/06/09/java-ee-threads-vs-node-js-which-is-better-for-concurrent-data-processing-operations/" target="_blank">http://bijoor.me/2013/06/09/java-ee-threads-vs-node-js-which-is-better-for-concurrent-data-processing-operations/</a>)</em></p>
                                                                                             <h2 id="single-threaded-asynchronous-io-model">Single Threaded Asynchronous I/O Model</h2>
                                                                                             <p><a href="#AsynchronousIO">Figure 9</a> shows the request processing mechanism in web servers which run a single thread and perform non-blocking I/O calls. Node.js uses a similar concurrency model which makes it more scalable than the multi-threaded model. This model uses a single thread which services all the incoming requests at the web server. The I/O operations are executed as events and do not block the calling thread. It is clear from <a href="#AsynchronousIO">Figure 9</a> that this model utilizes the CPU more efficiently than the multi-threaded model. Also, since it uses a single thread, it is more memory efficient compared to the multi-threaded model.</p>
-                                                                                    
+  
+  
+  ![Asynchronous I/O](https://delftswa.gitbooks.io/desosa-2017/content/node/images-node/ASynIO.png)
+  <p>
+                                                                                                    <br>
+                                                                                                    <em>Figure 9: Asynchronous I/O (from <a href="http://bijoor.me/2013/06/09/java-ee-threads-vs-node-js-which-is-better-for-concurrent-data-processing-operations/" target="_blank">http://bijoor.me/2013/06/09/java-ee-threads-vs-node-js-which-is-better-for-concurrent-data-processing-operations/</a>)</em></p>
+                                                                                                <p>At the backend however, threads are still required to execute the various I/O operations in parallel. But this complexity is hidden away from the Node.js application which makes programming on Node.js much easier. Also, since this model moves away from the thread-per-request architecture, it does not incur the overhead of thread management.</p>
+                                                                                                <p>Despite its superior concurrency model, the Node.js architecture is not suitable to scale across multiple cores in a system. Since Node.js uses a single thread to service all incoming requests, it cannot leverage multiple cores in the system by distributing the load across cores. Listed below are two mechanisms to overcome this.</p>
+                                                                                                
+                 
+                                                                                                        <p>Node.js provides the <a href="https://nodejs.org/api/cluster.html#cluster_how_it_works" target="_blank">Cluster API</a> which applications can use to distribute incoming connections across worker processes which run on multiple cores.</p>
+                                                                                                  
+                                                                                                    
+                                                                                                        <p>The libuv library which manages the threads in Node.js by default creates 4 threads in the thread pool when the node process starts running. The <code>UV_THREADPOOL_SIZE</code> environment variable can be configured to create a maximum of 128 threads which are distributed across cores by the server operating system.</p>
+                                                                                                                                        
+                                                                                                                                        
+<div id="section-conclusion">
+
+                                                                                                    <h1 id="conclusion">Conclusion</h1>
+                                                                                                    <p>In this chapter we have analyzed the architecture of Node.js on different perspectives and views, so that the readers could have a broad idea of what Node.js is and what is it&apos;s structure.</p>
+                                                                                                    <p>As aspiring software architects, analyzing Node.js structure has been enlightening experience for us. It has provided useful insight as to how complex modular architectures are developed and managed, and the reasons for doing so. We appreciated the opportunity to analyze the various architectural aspects of Node.js which allowed us to become intimately familiar with a project we had all heard of but had never really figured out completely. From the stakeholders and the ecosystem in which Node.js resides to the more technical aspects dealing with the software development process, the functionalities and the scalability.</p>
+                                                                                                    <div id="section-references">
+
+                                                                                                        <h1 id="references">References</h1>
+                                                                                                        <ol>
+                                                                                                            <li>
+                                                                                                                <div id="rdquote">Dahl, R (2010-11-09). &quot;Joyent and Node&quot;. Google Groups., <a href="https://groups.google.com/forum/#!topic/nodejs/lWo0MbHZ6Tc" target="_blank">https://groups.google.com/forum/#!topic/nodejs/lWo0MbHZ6Tc</a>, Accessed on April 3rd, 2017</div>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <div id="rdvideo">Video: Ryan Dahl: Original Node.js presentation (November 26th, 2009), <a href="https://www.youtube.com/watch?v=ztspvPYybIY" target="_blank">https://www.youtube.com/watch?v=ztspvPYybIY</a>, Accessed on April 3rd, 2017.</div>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <div id="nodestats">Node By Numbers (January 1st, 2017), <a href="https://nodesource.com/node-by-numbers" target="_blank">https://nodesource.com/node-by-numbers</a>, Accessed on April 3rd, 2017.</div>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <div id="rw">Nick Rozanski and Eoin Woods. Software Systems Architecture: Working with Stakeholders using Viewpoints and Perspectives. Addison-Wesley, 2012.</div>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <div id="archint"> Li, A. (June 5th, 2016), Architecture of Node.js&#x2019; Internal Codebase, <em>Yet Another Node.js Blog</em>, <a href="https://arenli.com/architecture-of-node-js-internal-codebase-57cd8376b71f" target="_blank">https://arenli.com/architecture-of-node-js-internal-codebase-57cd8376b71f</a>, Accessed on February 25th, 2017</div>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <div id="enterprise"> Delgado, A. (October 5th, 2017), Top 5 companies using NodeJS in production, <a href="https://www.linkedin.com/pulse/top-5-companies-using-nodejs-production-anthony-delgado" target="_blank">https://www.linkedin.com/pulse/top-5-companies-using-nodejs-production-anthony-delgado</a>, Accessed on February 26th, 2017</div>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <div id="mo">Node.js Foundation (2017), Development | Node.js, <a href="https://nodejs.org/en/get-involved/development/#stability-policy" target="_blank">https://nodejs.org/en/get-involved/development/#stability-policy</a>, Accessed on March 6th, 2017</div>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <div id="abi">Krill, P. (November 29th, 2017), Node.js update makes JavaScript VMs future-proof, <a href="http://www.infoworld.com/article/3145428/javascript/node-js-making-strides-in-javascript-vm-independence.html" target="_blank">http://www.infoworld.com/article/3145428/javascript/node-js-making-strides-in-javascript-vm-independence.html</a>, Accessed on March 6th, 2017</div>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <div id="codingeek">Rahul, G. (October 27th, 2017), Is NodeJS single threaded - Let&apos;s find out, <a href="http://www.codingeek.com/tutorials/nodejs/is-nodejs-single-threaded/" target="_blank">http://www.codingeek.com/tutorials/nodejs/is-nodejs-single-threaded/</a>, Accessed on April 2nd, 2017</div>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <div id="nodesource">Norris, T. (January 5th, 2017), The Nodesource Blog, <a href="https://nodesource.com/blog/understanding-the-nodejs-event-loop/" target="_blank">https://nodesource.com/blog/understanding-the-nodejs-event-loop/</a>, Accessed on April 2nd, 2017</div>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <div id="npmweb">Packages and Modules, <a href="https://docs.npmjs.com/how-npm-works/packages" target="_blank">https://docs.npmjs.com/how-npm-works/packages</a>, Accessed on April 2nd, 2017</div>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <div id="npmwiki">npm (software), <a href="https://en.wikipedia.org/wiki/Npm_(software" target="_blank">https://en.wikipedia.org/wiki/Npm_(software</a>), Accessed on April 2nd, 2017 </div>
+                                                                                                            </li>
+                                                                                                        </ol>
+                                                                                                    </div>
+                                                                                                </div>                                                                                                
+                                                                                                                                                                               
+                                                                                                   
+                                                                                             
