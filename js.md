@@ -112,11 +112,11 @@ Node.js is asynchronous, which means that it can do more than one thing at a tim
 According to their own website, Node.js was designed to build scalable network applications. Node.js is mainly meant to provide developers with the foundations for common server-side functionalities, for example:
 
 * Computer networking
-● I/O bound Applications
-● Data Streaming Applications
-● Data Intensive Real-time Applications (DIRT)
-● JSON APIs based Applications
-● Single Page Applications
+* I/O bound Applications
+* Data Streaming Applications
+* Data Intensive Real-time Applications (DIRT)
+* JSON APIs based Applications
+* Single Page Applications
 
 Node.js is very lightweight and many higher-level functionalities are intentionally relegated to the many packages that are offered through its package ecosystem (called npm), which provides access to the world's largest collection of open source libraries and frameworks.
 
@@ -186,17 +186,9 @@ There are different entities that are related to the actual development of Node.
 
 The Development View details how the architecture supports the software development process and which development guidelines are to be taken into account by all developers. Development views communicate the aspects of the architecture of interest to those stakeholders involved in building, testing, maintaining, and enhancing the system.
 
-**Module Organization**
-
-Node.js is both a product of its own as well as a service upon which other applications can be built. Because of this, it is useful to consider the design choices made for both in our analysis. Some of the choices made at a basic level in the Node.js architecture affect how applications using Node.js should be developed. Figure 4 shows a diagram depicting the high-level layered structure of Node.js as described in.
-
-![Module Organization](https://delftswa.gitbooks.io/desosa-2017/content/node/images-node/module_organization.jpg)
-
-The Module and Application Ecosystem refers to the collection of all software that was built using Node.js. It is connected to all other layers in the diagram, which signifies that in theory developers of Node.js applications are free to connect to any of Node.js' layers. In practice most applications limit themselves to accessing only the Node.js Core Library.
-
-This Core Library contains a variety of JavaScript files that simplify the development process for Node.js users. It offers a lot of common functionality out of the box, such as cryptography, network connections, event handling, etc. A part of the code in this library is marked as "internal", which hides a part of the API from the end user. The end user can still call these API functions if they wanted to, but since the format of these APIs can change without notice, they are marked as internal to discourage people from doing so.
-
-The Application Binary Interface (commonly referred to as the ABI) is a relatively new part of Node.js. The idea behind the ABI is to provide the end user with a stable API through which they can access the underlying JavaScript engine. At this point that engine is Google's V8, but the ABI allows Node.js to potentially switch to a different engine in the future. Also the ABI ensures that no new version of Node.js is required if changes are made to Google's V8 engine. The Binary Abstraction Layer serves a similar purpose, but it abstracts the ABI even further. On top of that, it also provides abstracted access to other dependencies aside from the JavaScript engine.
+* [nodejs-module-organization](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/nodejs-module-organisation.md)
+* [nodejs-features](https://github.com/gopala-kr/weekend-with-github/tree/master/Projects-Blogs/02-lets-complete-js-stack)
+* [nodejs-architecture-and-working](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/nodejs-architecture.md)
 
 ### Design Patterns
 
@@ -207,24 +199,6 @@ Some of the design patterns used in Node.js.
 **Dependency Injection Container:** Application modules built on Node.js typically use a backbone object that acts as a dependency injection container. Services such as logging and database access which are required throughout almost any application built on Node.js are attached to the backbone object and this object in turn can be used by the modules that require these services. In this way, modules have their dependencies injected from the outside through the use of the backbone object. The module is thus isolated from any changes in its dependencies.
 
 **Event-Driven Programming:** In an event-driven program the flow of the application is the result of events that are fired or states that are changed. In general there is one single, global mechanism that listens for such events and whenever one is fired it will call the corresponding callback function. In Node.js this mechanism is called the Event Loop, which we will discuss in great detail in the Functional View and the Performance and Scalability Perspective.
-
-
-
-## Nodejs features:
-
-
-**Threading** : The threading mechanism of Node.js is quite different from other webservers. For example, webservers based on PHP and ASP.NET typically create a new thread for each client request. That client request thus causes the entire program to be reinstantiated on the thread for that specific request. So while the webserver is definitely multi-threaded, each program instance served to a client operates only on a single thread.
-
-**Event Loop** : Node.js is based on the event-driven programming paradigm. This becomes clear through the so-called event loop, a process that is constantly accepting incoming requests and providing responses to previously accepted requests. In between accepting a request and responding to it, the event loop will refer work that needs to be done to one of the background workers, as mentioned in the previous subsection on Threading. Node.js makes good use of JavaScript's support for callbacks by allowing a callback to be sent along with each such task. Figure 5 pictures the execution model as we have discussed it so far.
-
-![Event Loop](https://delftswa.gitbooks.io/desosa-2017/content/node/images-node/NodeThreads.png)
-
-Each of these callbacks is registered to an Event Queue, where it waits to be called as soon as the corresponding task has been finished. These callbacks are all executed on the main thread again, as they are responsible for providing the client with a response. Therefore it is advisable to keep the callback functions as lightweight as possible, as they will cause delay for other simultaneous requests. As long as there are callbacks in this queue, the event loop will remain active to respond to all outstanding client requests. Figure 6 shows the interplay between the mechanisms behind the Event Queue, the event loop and the thread pool.
-
-![Single Threaded event loop model](https://delftswa.gitbooks.io/desosa-2017/content/node/images-node/nodejs-event-loop.png)
-
-<p>In Node.js every object that can fire events is an instance of the <code>EventEmitter</code> class. Each of these objects has an <code>on()</code> method in which a type of event can be specified along with the appropriate callback such that each time the named event is fired, the corresponding callback is called. If multiple callbacks have been assigned to the same event, all of them will be executed in a synchronous manner (according to the first in, first out principle). If necessary developers can override this procedure by using the <code>setImmediate()</code> method for a callback to switch to an asynchronous model.</p>
-                                                                                <p>Some of the core modules of Node.js that extend the <code>EventEmitter</code> class are the <code>Server</code>, <code>Socket</code>, <code>http</code> and <code>fs</code> (short for File System) modules. For all of these it is easy to imagine how the event-based way of programming enables the system as a whole to function in a non-blocking way. Without events, the program would have to postpone executing any of its subsequent code until it has received a response from a remote server or until a file has been read completely. By specifying callbacks for such events, the main program can continue being executed, only returning to the callback when new data has become available.</p> ***********************
                                                                                 <h2 id="package-management">Package Management</h2>
                                                                                 <p>Node.js uses a package manager in order for developers to add modules to their applications. These modules add new functionality to existing applications. This new functionality can help developers create their app or enhance their app for the users.
                                                                                     <br> Although most packages are modules, there are some packages that are not modules for they have no index.js or main field in the package.json file for use in Node.js programs[<a href="#npmweb">11</a>]. This way the Node.js program cannot use the <code>require</code> function to load the package and is thus not a module.</p>
