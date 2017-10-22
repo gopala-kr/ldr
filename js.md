@@ -43,7 +43,11 @@ Before getting into nodejs, lets learn about javascript history and basics of ho
 
 > All of this then brings us to today, with JavaScript entering a completely new and exciting cycle of evolution, innovation and standardisation, with new developments such as the Nodejs platform, allowing us to use JavaScript on the server-side, and HTML5 APIs to control user media, open up web sockets for always-on communication, get data on geographical location and device features such as accelerometer, and more. It is an exciting time to learn JavaScript. (Source: W3Schools)
 
-> For more on JS * [js-history](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-history.md) * [js-memory-management](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-memory-management.md) * [js-engine-overview](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-engine-overview.md) * [event-loop-and-asynchronuous-programmming](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-event%20loop%20and%20the%20rise%20of%20Async%20programming.md) * [google-v8-enine](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-inside-the-V8-engine.md)
+> For more on JS * [js-history](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-history.md) 
+> * [js-memory-management](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-memory-management.md) 
+> * [js-engine-overview](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-engine-overview.md) 
+> * [event-loop-and-asynchronuous-programmming](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-event%20loop%20and%20the%20rise%20of%20Async%20programming.md) 
+> * [google-v8-enine](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-inside-the-V8-engine.md)
 
 
 ********************
