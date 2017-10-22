@@ -4,7 +4,7 @@
 
 
 
-This week I got time only for nodejs and related framework expressjs.
+This week I got time only for nodejs and related framework expressjs and meteorjs.
 
 *********************************
  | Hacker News       | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Official docs|
@@ -88,7 +88,7 @@ Because of the immense popularity of Node.js I wanted to study its architecture 
 
 **********************************
 
-## How Nodejs Works
+## How Nodejs Works(analogy)
 
 les take a look into how Node.js works and why it is so fast in simple words by taking an example of two restaurants(a popular example). The first restaurant is Apache Steaks and Chops. It is a big, nice, fancy restaurant. In this restaurant, every new guest represents a new user, and making an order is like making a request. If I place an order for a salad, the manager will need to hire a new waiter to take care of me. In this restaurant, our waiter represents a thread. We are going to have our own waiter, our own thread, and they will handle all of our orders. This is similar to how Apache works.
 
@@ -194,9 +194,9 @@ The Development View details how the architecture supports the software developm
                                                                                
 *****************************
                                                                                 
-## Express
+## Expressjs
 
-Express is a minimal and flexible Node.js web application framework that provides a robust
+Express is a Node.js web application framework that provides a robust
 set of features to develop web and mobile applications. It facilitates the rapid development
 of Node-based Web applications. It is designed for building web applications and APIs.Following are some of the core features of Express
 framework:
@@ -217,9 +217,9 @@ keyed by the cookie names.
 
 ## Meteorjs
 
-Meteor, or MeteorJS, is a free and open-source Full Stack framework that has the front-end and back-end components to build a real-time applications. Meteor allows for rapid prototyping and produces cross-platform (Android, iOS, Web) code. It integrates with MongoDB and uses the Distributed Data Protocol and a publish–subscribe pattern to automatically propagate data changes to clients without requiring the developer to write any synchronization code. On the client, Meteor can be used with its own Blaze templating engine, as well as with the Angular framework or React library.
+Meteor, or MeteorJS, is a free and open-source Full Stack web application framework that has the front-end and back-end components to build a real-time applications. Meteor allows for rapid prototyping and produces cross-platform (Android, iOS, Web) code. It integrates with MongoDB and uses the Distributed Data Protocol and a publish–subscribe pattern to automatically propagate data changes to clients without requiring the developer to write any synchronization code. On the client, Meteor can be used with its own Blaze templating engine, as well as with the Angular framework or React library.
 
-Official doc:
+Official doc says:
 
 > Meteor is a full-stack JavaScript platform for developing modern web and mobile applications. Meteor includes a key set of technologies for building connected-client reactive applications, a build tool, and a curated set of packages from the Node.js and general JavaScript community.
 > * Meteor allows you to develop in one language, JavaScript, in all environments: application server, web browser, and mobile device.
@@ -233,5 +233,5 @@ This [presentation](https://github.com/gopala-kr/weekend-with-github/blob/master
 
 
 
-
+********************
                                                                                       
