@@ -4,7 +4,7 @@
 
 
 
-This week I got time only for nodejs and related frameworks expressjs and meteorjs.
+This week I got time only for nodejs and related frameworks expressjs.
 
 *********************************
  | Hacker News       | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Official docs|
@@ -15,7 +15,7 @@ This week I got time only for nodejs and related frameworks expressjs and meteor
 ****************************
 *****************************
 
-Before getting into nodejs, lets dive into javascript history; 
+Before getting into nodejs, lets learn about javascript history and basics of how it works; 
 ******************
 
 ![js-history](http://adrianmejia.com/images/history-javascript-evolution-es6.png)
@@ -43,7 +43,8 @@ Before getting into nodejs, lets dive into javascript history;
 
 > All of this then brings us to today, with JavaScript entering a completely new and exciting cycle of evolution, innovation and standardisation, with new developments such as the Nodejs platform, allowing us to use JavaScript on the server-side, and HTML5 APIs to control user media, open up web sockets for always-on communication, get data on geographical location and device features such as accelerometer, and more. It is an exciting time to learn JavaScript. (Source: W3Schools)
 
-> For more on history [js-history](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-history.md)
+> For more on JS * [js-history](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-history.md) * [js-memory-management](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-memory-management.md) * [js-engine-overview](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-engine-overview.md) * [event-loop-and-asynchronuous-programmming](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-event%20loop%20and%20the%20rise%20of%20Async%20programming.md) * [google-v8-enine](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-inside-the-V8-engine.md)
+
 
 ********************
 
