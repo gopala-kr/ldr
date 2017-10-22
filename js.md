@@ -15,8 +15,10 @@ This week I got time only for nodejs and related frameworks expressjs and meteor
 ****************************
 *****************************
 
-Before learning nodejs, let me dive into evolution of javascript and its history; 
+Before getting into nodejs, lets dive into javascript history; 
+******************
 
+![js-history](http://adrianmejia.com/images/history-javascript-evolution-es6.png)
 
 ******************************
 > ## A Short History of JavaScript
@@ -39,12 +41,12 @@ Before learning nodejs, let me dive into evolution of javascript and its history
 
 > In July of 2008 the disparate parties on either side came together in Oslo. This led to the eventual agreement in early 2009 to rename ECMAScript 3.1 to ECMAScript 5 and drive the language forward using an agenda that is known as Harmony.
 
-> All of this then brings us to today, with JavaScript entering a completely new and exciting cycle of evolution, innovation and standardisation, with new developments such as the Nodejs platform, allowing us to use JavaScript on the server-side, and HTML5 APIs to control user media, open up web sockets for always-on communication, get data on geographical location and device features such as accelerometer, and more. It is an exciting time to learn JavaScript.
+> All of this then brings us to today, with JavaScript entering a completely new and exciting cycle of evolution, innovation and standardisation, with new developments such as the Nodejs platform, allowing us to use JavaScript on the server-side, and HTML5 APIs to control user media, open up web sockets for always-on communication, get data on geographical location and device features such as accelerometer, and more. It is an exciting time to learn JavaScript. (Source: W3Schools)
 
 > For more on history [js-history](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/js-history.md)
 
+********************
 
-![js-history](http://adrianmejia.com/images/history-javascript-evolution-es6.png)
 
 ## Nodejs
 
