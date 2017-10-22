@@ -4,7 +4,7 @@
 
 
 
-This week I got time only for nodejs and related frameworks expressjs.
+This week I got time only for nodejs and related framework expressjs.
 
 *********************************
  | Hacker News       | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Official docs|
@@ -126,20 +126,6 @@ simply output the data in chunks.
 ![Different parts of Node.js](https://www.javatpoint.com/js/nodejs/images/what-is-nodejs.png)
 
 
-lets first discuss the Stakeholders and the Context View to get an idea of who and what is involved in the development, usage and maintenance of Node.js. Afterwards we will analyze Node.js from a development viewpoint where we will talk more about the technical structure of Node.js and the design guidelines and patterns used by Node.js. Then we will highlight some of the most unique and distinctive functionalities that Node.js has to offer in the Functional View. Through this we hope to learn what made Node.js so unique and successful. Finally we will look into how the architecture of Node.js manages to serve such a wide userbase by considering the performance and scalability.
-
-### Who is involved?
-
-This section discusses various stakeholders involved in Node.js and provides a classification of the stakeholders as proposed by Rozanski and Woods. Node.js is owned and governed by the Node.js Foundation which consists of the following stakeholders:
-
-Board: Sets the business direction and oversees legal, financial and marketing domains.
-Technical Steering Committee (TSC): Sets the technical direction and is responsible for technical governance of all Node.js projects including Node.js Core.
-Foundation Members: They can be businesses or individuals. Both types of members have representation on the board.
-Core Technical Committee: The Foundation sponsors the Node.js Core project and entrusts its governance to the Core Technical Committee (CTC).
-Collaborators: The Collaborators along with the CTC maintain the nodejs/node GitHub repository. The collaborators are primarily involved in development, maintenance and testing of Node.js. Collaborators are organized into various Working Groups (WG) which have specific areas of responsibility such as testing, build, documentation and so on.
-
-![provides an overview of Node.js stakeholders](https://delftswa.gitbooks.io/desosa-2017/content/node/images-node/stakeholder_view.png)
-
 ### System scope(**Where to Use Node.js?**)
 
 According to their own website, Node.js was designed to build scalable network applications. Node.js is mainly meant to provide developers with the foundations for common server-side functionalities, for example:
@@ -165,6 +151,7 @@ Node.js is almost entirely written in JavaScript. It uses Google's V8 engine to 
 
 There are a number of libraries or products that Node.js explicitly depends upon. Since Node.js was meant to be lightweight it offers only the most basic necessities for a product of its kind out of the box and thus, it does not have too many dependencies. Instead, it relies on the wide variety of additional plugins and libraries offered through npm, which can be used to extend the functionality of a Node.js application with many standardized solutions to common problems.
 
+![nodejs](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/nodejs_architecture.JPG)
 <ul>
                                                                 <li><a href="https://github.com/libuv/libuv" target="_blank">libuv</a>: Node.js is asynchronous and libuv provides a consistent interface for common asynchronous tasks across all supported platforms.</li>
                                                                 <li><a href="https://github.com/c-ares/c-ares" target="_blank">c-ares</a>: a library for asynchronous DNS requests.</li>
@@ -180,10 +167,6 @@ There are a number of libraries or products that Node.js explicitly depends upon
                                                                 <li><a href="https://github.com/nodejs/node-gyp" target="_blank">gyp</a>: a build system to build those parts of Node.js and its dependencies that require compilation.</li>
                                                                 <li><a href="https://github.com/google/googletest" target="_blank">gtest</a>: a unit testing suite for C and C++ code.</li>
                                                             </ul>
-                                                            <p><strong>Testing</strong></p>
-                                                            <p>As we previously mentioned while discussing the dependencies, gtest is used for C++ related tests. For the JavaScript code, the Python library pytest is used to configure and run the tests.</p>
-                                                            <p><strong>Distribution</strong></p>
-                                                            <p>Node.js is available on Windows, Mac, Linux, SunOS and Docker. It can be downloaded directly from <a href="https://nodejs.org/en/download/" target="_blank">their own website</a> or through one of many third party <a href="https://nodejs.org/en/download/package-manager/" target="_blank">package managers</a> that offer it. Those packagers are responsible for packaging the Node.js code base themselves, so Node.js stresses that any issues people run into should be reported to them. If it turns out to be an issue with Node.js itself, those packagers will contact Node.js to notify them accordingly.</p>
                                                             <p><strong>Competitors</strong></p>
                                                             <p>Node.js is of course not the only platform that provides server-side functionalities. The following is a list of competitors that provide in some way the same functionalities that Node.js provides:</p>
                                                             <ul>
@@ -200,7 +183,7 @@ There are a number of libraries or products that Node.js explicitly depends upon
                                                             <p><strong>Individual community</strong></p>
                                                             <p>The individual community are the types of users that uses Node.js as hobby or for research. They do not intend to make money by using Node.js. Such users are developers and universities.</p>
                                                             <p><strong>Enterprise</strong></p>
-                                                            <p>Enterprise are the users who do use Node.js as a tool in their company to help improve their product. Some major companies that use Node.js commercially are [<a href="#enterprise">6</a>]:</p>
+                                                            <p>Enterprise are the users who do use Node.js as a tool in their company to help improve their product. Some major companies that use Node.js commercially are </p>
                                                             <ul>
                                                                 <li>Netflix</li>
                                                                 <li>PayPal</li>
@@ -218,8 +201,7 @@ There are a number of libraries or products that Node.js explicitly depends upon
                                                             <p>Feedback and help can be found on various platforms such as StackOverflow, GitHub and Google Groups, with all three platforms having an active community for Node.js. </p>
                                                             <p><strong>Version control &amp; Issue tracking</strong></p>
                                                             <p>Node.js is actively being developed on <a href="https://github.com/" target="_blank">GitHub</a> using Git as its version control system. The same system is also used to track issues, report bugs and discuss features.</p>
-                                                            <p><strong>License</strong></p>
-                                                            <p>The <a href="https://github.com/nodejs/node/blob/master/LICENSE" target="_blank">Node license</a> closely follows the <a href="https://opensource.org/licenses/mit-license.php" target="_blank">MIT license</a>.
+                                                            
                                                                 <br>
                                                                 <br>
                                                             </p>
