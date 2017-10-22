@@ -120,8 +120,6 @@ According to their own website, Node.js was designed to build scalable network a
 
 Node.js is very lightweight and many higher-level functionalities are intentionally relegated to the many packages that are offered through its package ecosystem (called npm), which provides access to the world's largest collection of open source libraries and frameworks.
 
-### Development
-
 There are different entities that are related to the actual development of Node.js, such as programming languages and testing.
 
 **Programming languages:** Node.js is almost entirely written in JavaScript. It uses Google's V8 engine to execute all the JavaScript code, but since this engine is itself written in C++, some parts of Node.js's codebase that interact directly with this engine are also written in C++. Finally, Python is used to run many of the automated tests for Node.js.
@@ -184,13 +182,13 @@ There are different entities that are related to the actual development of Node.
 ***********************************************
 
 
-### Development View
+## Nodejs Development View
 
 The Development View details how the architecture supports the software development process and which development guidelines are to be taken into account by all developers. Development views communicate the aspects of the architecture of interest to those stakeholders involved in building, testing, maintaining, and enhancing the system.
 
 **Module Organization**
 
-Node.js is both a product of its own as well as a service upon which other applications can be built. Because of this, it is useful to consider the design choices made for both in our analysis. Some of the choices made at a basic level in the Node.js architecture affect how applications using Node.js should be developed. Figure 4 shows a diagram depicting the high-level layered structure of Node.js as described in [7].
+Node.js is both a product of its own as well as a service upon which other applications can be built. Because of this, it is useful to consider the design choices made for both in our analysis. Some of the choices made at a basic level in the Node.js architecture affect how applications using Node.js should be developed. Figure 4 shows a diagram depicting the high-level layered structure of Node.js as described in.
 
 ![Module Organization](https://delftswa.gitbooks.io/desosa-2017/content/node/images-node/module_organization.jpg)
 
@@ -198,66 +196,21 @@ The Module and Application Ecosystem refers to the collection of all software th
 
 This Core Library contains a variety of JavaScript files that simplify the development process for Node.js users. It offers a lot of common functionality out of the box, such as cryptography, network connections, event handling, etc. A part of the code in this library is marked as "internal", which hides a part of the API from the end user. The end user can still call these API functions if they wanted to, but since the format of these APIs can change without notice, they are marked as internal to discourage people from doing so.
 
-The Application Binary Interface (commonly referred to as the ABI) is a relatively new part of Node.js [8]. The idea behind the ABI is to provide the end user with a stable API through which they can access the underlying JavaScript engine. At this point that engine is Google's V8, but the ABI allows Node.js to potentially switch to a different engine in the future. Also the ABI ensures that no new version of Node.js is required if changes are made to Google's V8 engine. The Binary Abstraction Layer serves a similar purpose, but it abstracts the ABI even further. On top of that, it also provides abstracted access to other dependencies aside from the JavaScript engine.
+The Application Binary Interface (commonly referred to as the ABI) is a relatively new part of Node.js. The idea behind the ABI is to provide the end user with a stable API through which they can access the underlying JavaScript engine. At this point that engine is Google's V8, but the ABI allows Node.js to potentially switch to a different engine in the future. Also the ABI ensures that no new version of Node.js is required if changes are made to Google's V8 engine. The Binary Abstraction Layer serves a similar purpose, but it abstracts the ABI even further. On top of that, it also provides abstracted access to other dependencies aside from the JavaScript engine.
 
 ### Design Patterns
 
-This section discusses some of the design patterns used in Node.js.
+Some of the design patterns used in Node.js.
 
-**Singleton Pattern**
+**Singleton Pattern:** The singleton pattern limits the number of instances of a particular object to just one. Node.js uses module caching to implement the Singleton pattern and caches a module after the first time it is loaded. Every subsequent call to a module using require(<module_name>) returns the same instance of the cached module. In that way, these modules can thus be thought of as singletons.
 
-The singleton pattern limits the number of instances of a particular object to just one. Node.js uses module caching to implement the Singleton pattern and caches a module after the first time it is loaded. Every subsequent call to a module using require(<module_name>) returns the same instance of the cached module. In that way, these modules can thus be thought of as singletons.
+**Dependency Injection Container:** Application modules built on Node.js typically use a backbone object that acts as a dependency injection container. Services such as logging and database access which are required throughout almost any application built on Node.js are attached to the backbone object and this object in turn can be used by the modules that require these services. In this way, modules have their dependencies injected from the outside through the use of the backbone object. The module is thus isolated from any changes in its dependencies.
 
-**Dependency Injection Container**
+**Event-Driven Programming:** In an event-driven program the flow of the application is the result of events that are fired or states that are changed. In general there is one single, global mechanism that listens for such events and whenever one is fired it will call the corresponding callback function. In Node.js this mechanism is called the Event Loop, which we will discuss in great detail in the Functional View and the Performance and Scalability Perspective.
 
-Application modules built on Node.js typically use a backbone object that acts as a dependency injection container. Services such as logging and database access which are required throughout almost any application built on Node.js are attached to the backbone object and this object in turn can be used by the modules that require these services. In this way, modules have their dependencies injected from the outside through the use of the backbone object. The module is thus isolated from any changes in its dependencies.
 
-**Event-Driven Programming**
 
-In an event-driven program the flow of the application is the result of events that are fired or states that are changed. In general there is one single, global mechanism that listens for such events and whenever one is fired it will call the corresponding callback function. In Node.js this mechanism is called the Event Loop, which we will discuss in great detail in the Functional View and the Performance and Scalability Perspective.
-
-<h2 id="codeline-organization">Codeline Organization</h2>
-                                                                    <p>In this section we will give a brief overview of the source code structure of Node.js, also called codeline organization. A well-defined codeline organization allows for automated builds, tests and releases. This has the potential of greatly simplifying the development process. The structure of Node.js&apos; code is as follows:</p>
-                                                                    <table>
-                                                                        <thead>
-                                                                            <tr>
-                                                                                <th>Directory</th>
-                                                                                <th>Description</th>
-                                                                            </tr>
-                                                                        </thead>
-                                                                        <tbody>
-                                                                            <tr>
-                                                                                <td>benchmark</td>
-                                                                                <td>This directory contains the code and data for benchmarking and measuring the performance of different Node.js implementations. The benchmarks are classified into 25 directories depending on the subsystem they benchmark. It also includes a miscellaneous directory for benchmarks that do not clearly fit in one of the predefined categories.</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>deps</td>
-                                                                                <td>This directory contains the source code of the third party components that Node.js depends on, some of which are shown in <a href="#module_organization">Figure 4</a>.</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>doc</td>
-                                                                                <td>This directory contains all the documentation for Node.js, such as API explanations, changelogs, development guides, etc.</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>lib</td>
-                                                                                <td>This directory contains the JavaScript modules used in Node.js. The modules in lib/internal are meant for use in Node.js core and are not meant to be accessed from user modules.</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>src</td>
-                                                                                <td>This directory contains the bindings that expose the C/C++ libraries to JavaScript.</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>test</td>
-                                                                                <td>This directory consists of the code used to test Node.js. The <code>common.js</code> module in this folder contains a number of helper functions for commonly occurring tasks in tests.</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>tools</td>
-                                                                                <td>This directory contains additional tools that are useful for development with Node.js, like build functionality, automated testing libraries, etc.</td>
-                                                                            </tr>
-                                                                        </tbody>
-                                                                    </table>
-
-### nodejs features:
+## Nodejs features:
 
 
 **Threading** : The threading mechanism of Node.js is quite different from other webservers. For example, webservers based on PHP and ASP.NET typically create a new thread for each client request. That client request thus causes the entire program to be reinstantiated on the thread for that specific request. So while the webserver is definitely multi-threaded, each program instance served to a client operates only on a single thread.
@@ -271,12 +224,12 @@ Each of these callbacks is registered to an Event Queue, where it waits to be ca
 ![Single Threaded event loop model](https://delftswa.gitbooks.io/desosa-2017/content/node/images-node/nodejs-event-loop.png)
 
 <p>In Node.js every object that can fire events is an instance of the <code>EventEmitter</code> class. Each of these objects has an <code>on()</code> method in which a type of event can be specified along with the appropriate callback such that each time the named event is fired, the corresponding callback is called. If multiple callbacks have been assigned to the same event, all of them will be executed in a synchronous manner (according to the first in, first out principle). If necessary developers can override this procedure by using the <code>setImmediate()</code> method for a callback to switch to an asynchronous model.</p>
-                                                                                <p>Some of the core modules of Node.js that extend the <code>EventEmitter</code> class are the <code>Server</code>, <code>Socket</code>, <code>http</code> and <code>fs</code> (short for File System) modules. For all of these it is easy to imagine how the event-based way of programming enables the system as a whole to function in a non-blocking way. Without events, the program would have to postpone executing any of its subsequent code until it has received a response from a remote server or until a file has been read completely. By specifying callbacks for such events, the main program can continue being executed, only returning to the callback when new data has become available.</p>
+                                                                                <p>Some of the core modules of Node.js that extend the <code>EventEmitter</code> class are the <code>Server</code>, <code>Socket</code>, <code>http</code> and <code>fs</code> (short for File System) modules. For all of these it is easy to imagine how the event-based way of programming enables the system as a whole to function in a non-blocking way. Without events, the program would have to postpone executing any of its subsequent code until it has received a response from a remote server or until a file has been read completely. By specifying callbacks for such events, the main program can continue being executed, only returning to the callback when new data has become available.</p> ***********************
                                                                                 <h2 id="package-management">Package Management</h2>
                                                                                 <p>Node.js uses a package manager in order for developers to add modules to their applications. These modules add new functionality to existing applications. This new functionality can help developers create their app or enhance their app for the users.
                                                                                     <br> Although most packages are modules, there are some packages that are not modules for they have no index.js or main field in the package.json file for use in Node.js programs[<a href="#npmweb">11</a>]. This way the Node.js program cannot use the <code>require</code> function to load the package and is thus not a module.</p>
                                                                                 <h3 id="npm">npm</h3>
-                                                                                <p>When installing node, the package manager called <em>npm</em> is automatically installed as well. npm is written in JavaScript and was developed by Isaac Z. Schlueter. He saw that module packaging was not done well in node compared to other platforms. This was the reason for him to come up with npm[<a href="#npmwiki">12</a>]. npm makes it easy for developers to share, reuse and update shared JavaScript code and uses nested dependencies as shown in <a href="#nesteddependencies">Figure 7</a>
+                                                                                <p>When installing node, the package manager called <em>npm</em> is automatically installed as well. npm is written in JavaScript and was developed by Isaac Z. Schlueter. He saw that module packaging was not done well in node compared to other platforms. This was the reason for him to come up with npm. npm makes it easy for developers to share, reuse and update shared JavaScript code and uses nested dependencies.
                                                                                     <br>
                                                                                 </p>
                                                                                 
