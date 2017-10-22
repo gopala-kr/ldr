@@ -88,7 +88,7 @@ Because of the immense popularity of Node.js I wanted to study its architecture 
 
 **********************************
 
-### How nodejs works
+## How Nodejs Works
 
 les take a look into how Node.js works and why it is so fast in simple words by taking an example of two restaurants(a popular example). The first restaurant is Apache Steaks and Chops. It is a big, nice, fancy restaurant. In this restaurant, every new guest represents a new user, and making an order is like making a request. If I place an order for a salad, the manager will need to hire a new waiter to take care of me. In this restaurant, our waiter represents a thread. We are going to have our own waiter, our own thread, and they will handle all of our orders. This is similar to how Apache works.
 
@@ -190,18 +190,46 @@ The Development View details how the architecture supports the software developm
 * [nodejs-features](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/nodejs-features.md)
 * [nodejs-architecture-and-working](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/nodejs-architecture.md)
 * [nodejs-package-management-npm](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/nodejs-package-management-npm.md)
-
-### Design Patterns
-
-Some of the design patterns used in Node.js.
-
-**Singleton Pattern:** The singleton pattern limits the number of instances of a particular object to just one. Node.js uses module caching to implement the Singleton pattern and caches a module after the first time it is loaded. Every subsequent call to a module using require(<module_name>) returns the same instance of the cached module. In that way, these modules can thus be thought of as singletons.
-
-**Dependency Injection Container:** Application modules built on Node.js typically use a backbone object that acts as a dependency injection container. Services such as logging and database access which are required throughout almost any application built on Node.js are attached to the backbone object and this object in turn can be used by the modules that require these services. In this way, modules have their dependencies injected from the outside through the use of the backbone object. The module is thus isolated from any changes in its dependencies.
-
-**Event-Driven Programming:** In an event-driven program the flow of the application is the result of events that are fired or states that are changed. In general there is one single, global mechanism that listens for such events and whenever one is fired it will call the corresponding callback function. In Node.js this mechanism is called the Event Loop, which we will discuss in great detail in the Functional View and the Performance and Scalability Perspective.
+* [nodejs-design-patterns](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/nodejs-design-patterns.md)
                                                                                
 *****************************
                                                                                 
+## Express
+
+Express is a minimal and flexible Node.js web application framework that provides a robust
+set of features to develop web and mobile applications. It facilitates the rapid development
+of Node-based Web applications. It is designed for building web applications and APIs.Following are some of the core features of Express
+framework:
+* Allows to set up middlewares to respond to HTTP Requests.
+* Defines a routing table which is used to perform different actions based on HTTP
+Method and URL.
+* Allows to dynamically render HTML Pages based on passing arguments to
+templates.
+
+While installing we should install the following
+important modules along with express:
+* body-parser - This is a node.js middleware for handling JSON, Raw, Text and URL
+encoded form data.
+* cookie-parser - Parse Cookie header and populate req.cookies with an object
+keyed by the cookie names.
+* multer - This is a node.js middleware for handling multipart/form-data
+
+
+## Meteorjs
+
+Meteor, or MeteorJS, is a free and open-source Full Stack framework that has the front-end and back-end components to build a real-time applications. Meteor allows for rapid prototyping and produces cross-platform (Android, iOS, Web) code. It integrates with MongoDB and uses the Distributed Data Protocol and a publish–subscribe pattern to automatically propagate data changes to clients without requiring the developer to write any synchronization code. On the client, Meteor can be used with its own Blaze templating engine, as well as with the Angular framework or React library.
+
+Official doc:
+
+> Meteor is a full-stack JavaScript platform for developing modern web and mobile applications. Meteor includes a key set of technologies for building connected-client reactive applications, a build tool, and a curated set of packages from the Node.js and general JavaScript community.
+> * Meteor allows you to develop in one language, JavaScript, in all environments: application server, web browser, and mobile device.
+> * Meteor uses data on the wire, meaning the server sends data, not HTML, and the client renders it.
+> * Meteor embraces the ecosystem, bringing the best parts of the extremely active JavaScript community to you in a careful and considered way.
+> * Meteor provides full stack reactivity, allowing your UI to seamlessly reflect the true state of the world with minimal development effort.
+
+
+
+
+
 
                                                                                       
