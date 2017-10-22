@@ -227,6 +227,8 @@ Official doc:
 > * Meteor embraces the ecosystem, bringing the best parts of the extremely active JavaScript community to you in a careful and considered way.
 > * Meteor provides full stack reactivity, allowing your UI to seamlessly reflect the true state of the world with minimal development effort.
 
+This [presentation](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/Meteor_intro.pptx) gives basic overview on  meteor architecture. 
+
 
 
 
