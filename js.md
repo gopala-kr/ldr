@@ -44,6 +44,13 @@ All of this then brings us to today, with JavaScript entering a completely new a
 
 ## Nodejs
 
+Node.js is a very powerful JavaScript-based framework/platform built on Google Chrome's
+JavaScript V8 Engine. It is used to develop I/O intensive web applications like video
+streaming sites, single-page applications, and other web applications. Node.js is open
+source, completely free, and used by thousands of developers around the world.
+
+
+
 Node.js was created by Ryan Dahl and other developers working at Joyent in 2009. In 2011, the Node Package Manager, called NPM was released and it allowed for the sharing of open-source libraries. As the Node community grew, some conflicts started to emerge about the management of Node releases. The users wanted a project governed by the open-source community rather than a corporation. They also wanted to be able to incorporate the latest language and API features faster. So in December 2014, io.js created a fork of the Node.js project and went onto release several versions of io.js.
 
 Then in February of 2015, it was announced that a neutral Node.js foundation would be formed. A promise that was fulfilled in June of 2015 when Node.js and io.js voted to work together under the new Node.js foundation. The Node.js foundation is made up of several large companies including IBM, Microsoft, PayPal, Groupon and, of course, Joyent. It's referred to as a collaborative project by the Linux foundation. Officially on September 14, 2015, the Node.js foundation announced that the Node.js and io.js would be combined in a single code base and released as Node.js version 4.0.
