@@ -187,8 +187,9 @@ There are different entities that are related to the actual development of Node.
 The Development View details how the architecture supports the software development process and which development guidelines are to be taken into account by all developers. Development views communicate the aspects of the architecture of interest to those stakeholders involved in building, testing, maintaining, and enhancing the system.
 
 * [nodejs-module-organization](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/nodejs-module-organisation.md)
-* [nodejs-features](https://github.com/gopala-kr/weekend-with-github/tree/master/Projects-Blogs/02-lets-complete-js-stack)
+* [nodejs-features](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/nodejs-features.md)
 * [nodejs-architecture-and-working](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/nodejs-architecture.md)
+* [nodejs-package-management-npm](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/02-lets-complete-js-stack/nodejs-package-management-npm.md)
 
 ### Design Patterns
 
@@ -199,21 +200,8 @@ Some of the design patterns used in Node.js.
 **Dependency Injection Container:** Application modules built on Node.js typically use a backbone object that acts as a dependency injection container. Services such as logging and database access which are required throughout almost any application built on Node.js are attached to the backbone object and this object in turn can be used by the modules that require these services. In this way, modules have their dependencies injected from the outside through the use of the backbone object. The module is thus isolated from any changes in its dependencies.
 
 **Event-Driven Programming:** In an event-driven program the flow of the application is the result of events that are fired or states that are changed. In general there is one single, global mechanism that listens for such events and whenever one is fired it will call the corresponding callback function. In Node.js this mechanism is called the Event Loop, which we will discuss in great detail in the Functional View and the Performance and Scalability Perspective.
-                                                                                <h2 id="package-management">Package Management</h2>
-                                                                                <p>Node.js uses a package manager in order for developers to add modules to their applications. These modules add new functionality to existing applications. This new functionality can help developers create their app or enhance their app for the users.
-                                                                                    <br> Although most packages are modules, there are some packages that are not modules for they have no index.js or main field in the package.json file for use in Node.js programs[<a href="#npmweb">11</a>]. This way the Node.js program cannot use the <code>require</code> function to load the package and is thus not a module.</p>
-                                                                                <h3 id="npm">npm</h3>
-                                                                                <p>When installing node, the package manager called <em>npm</em> is automatically installed as well. npm is written in JavaScript and was developed by Isaac Z. Schlueter. He saw that module packaging was not done well in node compared to other platforms. This was the reason for him to come up with npm. npm makes it easy for developers to share, reuse and update shared JavaScript code and uses nested dependencies.
-                                                                                    <br>
-                                                                                </p>
-                                                                                
-                                                                                
-                                                                                
-![npm](https://delftswa.gitbooks.io/desosa-2017/content/node/images-node/nested_dependencies.png)
-                                                                                    <p>npm comes with a command line client that interacts with a remote registry. The <a href="https://en.wikipedia.org/wiki/CommonJS" target="_blank">CommonJS</a> format is used for the packages on the registry along with a metadata file, package.json. There is no screening for the packages on the registry, so anyone can upload their package. Because of this, the quality of packages is very diverse. Some security risks are present because of this rule. Although the npm server admins can delete malicious packages, deleting packages may cause failure of applications using those packages.
-                                                                                        <br> npm can also be used for managing applications locally. By defining a package.json file for a node application, dependencies can be automatically downloaded and updated by using npm. Even versions can be set for packages, if an application only works with a certain version, so that npm will not update that package and only installs that version of the package.</p>
-                                                                                    <h3 id="other-package-managers">Other package managers</h3>
-                                                                                    <p>Next to npm there are other third-party package managers that can be used with node. Yarn for example is package manager that was released by Facebook. All these package managers use the npm public registry, but are different in the client-side experience. </p>
+                                                                               
+*****************************
                                                                                 
 
                                                                                       
