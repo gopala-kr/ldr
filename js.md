@@ -51,46 +51,56 @@ Before getting into nodejs, lets learn about javascript history and basics of ho
 
 ## Nodejs
 
-Node.js is a very powerful JavaScript-based framework/platform built on Google Chrome's
+In simple words, Node.js is a very powerful JavaScript-based framework/platform for running JavaScript applications outside the browser built on Google Chrome's
 JavaScript V8 Engine. It is used to develop I/O intensive web applications like video
-streaming sites, single-page applications, and other web applications. Node.js is open
+streaming sites, single-page applications, and server-side web applications. Node.js is open
 source, completely free, and used by thousands of developers around the world.
-
-
-
-Node.js was created by Ryan Dahl and other developers working at Joyent in 2009. In 2011, the Node Package Manager, called NPM was released and it allowed for the sharing of open-source libraries. As the Node community grew, some conflicts started to emerge about the management of Node releases. The users wanted a project governed by the open-source community rather than a corporation. They also wanted to be able to incorporate the latest language and API features faster. So in December 2014, io.js created a fork of the Node.js project and went onto release several versions of io.js.
-
-Then in February of 2015, it was announced that a neutral Node.js foundation would be formed. A promise that was fulfilled in June of 2015 when Node.js and io.js voted to work together under the new Node.js foundation. The Node.js foundation is made up of several large companies including IBM, Microsoft, PayPal, Groupon and, of course, Joyent. It's referred to as a collaborative project by the Linux foundation. Officially on September 14, 2015, the Node.js foundation announced that the Node.js and io.js would be combined in a single code base and released as Node.js version 4.0.
-
-Included in the new release are a ton of new ES6 features and a plan for a regular release cycle. From the start of the Node.js project, a common refrain was that all versions of Node.js would be 0 releases, .08, .010, .012 until the project could release a stable version 1.0 with no breaking changes. Well, with the release of Node.js version 4.0, the much-awaited version 1.0 never happened. But now the community is united with the official Node release at version 4.0.
-
-
-**How nodejs works**
-
-I'm going to demonstrate how Node.js works and why it is so fast by taking a look at two restaurants. The first restaurant is Apache Steaks and Chops. It is a big, nice, fancy restaurant. In this restaurant, every new guest represents a new user, and making an order is like making a request. If I place an order for a salad, the manager will need to hire a new waiter to take care of me. In this restaurant, our waiter represents a thread. We are going to have our own waiter, our own thread, and they will handle all of our orders. This is similar to how Apache works.
-
-Every request is single-threaded. After placing the order, the waiter will take the order to the kitchen and give it to the chef. And now the waiter just waits. He won't do anything else until the chef is finished making the food. I would like to order a glass of water, but I can't order anything until the chef finishes making that salad. The chef is blocking me from being able to simply order a glass of water. In this analogy, the chef represents the file system or a data store. In Apache, the single thread waits for the file system to finish reading files before it can do anything else.
-
-We refer to this as blocking. Finally, my salad is ready. My waiter brings me the food. I can order my glass of water, and my waiter also brings me that, too. My request has been served. And now the manager is firing my waiter because they are not needed anymore. Now, when this restaurant gets busy for dinner service, every guest has their own waiter, which is pretty nice. That is pretty good service, but the waiters are mostly hanging around the kitchen and waiting for the chef to make the food. If this restaurant gets really popular, it requires a lot of space to expand because more guests means more waiters.
-
-Now, let's take a look at this other cafe, Chez Node. At this cafe, there is only one waiter because Node.js is single-threaded. Here, we can order some crepes. We can see that our waiter places the order for the food, then moves on to take an order from another new table. Hmm, this single thread services all of the restaurant guests. That is pretty cool. When my crepes are ready, the chef rings a bell, and our waiter goes and gets the crepes and delivers them to me. He then proceeds to take another order from a new table. When their food is ready, the waiter will bring it to them as soon as he can.
-
-We can say that this waiter behaves asynchronously. Everything this waiter needs to do represents a new event, a new table, placing orders, delivering orders. These are all events, and they will get handled in the order that they are raised. Our waiter does not wait. There is no blocking. Our single waiter is busy, busy, busy, but he is killing it because he can multitask. This is what it means when we say nonblocking, event-driven IO. We have a single thread that will respond to events in the order that they are raised.
-
-This thread behaves asynchronously because it does not have to wait for resources to finish doing what they're doing before our thread can do anything else. If this cafe gets popular, we can simply franchise it. Chez Node can easily be expanded by simply duplicating or forking the restaurant into a neighboring space. And this is precisely how we host Node.js applications in the cloud. Now, remember, Node.js is single-threaded. All of the users are sharing the same thread. Events are raised and recorded in an event queue and then handled in the order that they were raised.
-
-Node.js is asynchronous, which means that it can do more than one thing at a time. This ability to multitask is what makes Node.js so fast and one of the reasons so many developers are building their web applications with Node.js.
-
-
-Node.js is a cross-platform runtime environment and library for running JavaScript applications outside the browser. It is used for creating server-side and networking web applications. It is open source and free to use. It can be downloaded from this link https://nodejs.org/en/
 
 Many of the basic modules of Node.js are written in JavaScript. Node.js is mostly used to run real-time server applications.
 
 The definition given by its official documentation is as follows:
 
-?Node.js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.?
+>Node.js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.?
 
 Node.js also provides a rich library of various JavaScript modules to simplify the development of web applications.
+
+The reason why Node.js was originally started is because Ryan Dahl was fed up with the disconnect between the client and the web server. Each time the client wanted to be updated with new information it had to query the web server (for example, to keep track of progress of a file upload). This had been a long-standing problem in the field of web development, but most developers just decided to deal with it. Node.js was the first real attempt at solving this problem at the root by enabling real-time communication between the client and the server. It was immediately well received, as shown by the enthusiastic reaction of the audience during the original Node.js launch presentation.
+
+Its worth spending 1 hour time on [Ryan Dahl Node.js launch presentation](https://www.youtube.com/watch?v=jo_B4LTHi3I) before start learning it.
+
+Since its inception, Node.js has surpassed many of its early expectations. The total amount of active contributors to the project itself increased each year to a record amount of about 480 contributors at the end of 2016. The number of downloads also continues to grow, with the total amount of downloads averaging at over 484,121 avg / day. source : https://nodesource.com/node-by-numbers
+
+Because of the immense popularity of Node.js I wanted to study its architecture and how it is used to achieve some of the unique functionalities Node.js has to offer. my initial commitment was to complete it in one/two days. after diving in came to know that node itself takes a week.
+
+
+
+> **Short history of nodejs**
+
+> Node.js was created by Ryan Dahl and other developers working at Joyent in 2009. In 2011, the Node Package Manager, called NPM was released and it allowed for the sharing of open-source libraries. As the Node community grew, some conflicts started to emerge about the management of Node releases. The users wanted a project governed by the open-source community rather than a corporation. They also wanted to be able to incorporate the latest language and API features faster. So in December 2014, io.js created a fork of the Node.js project and went onto release several versions of io.js.
+
+> Then in February of 2015, it was announced that a neutral Node.js foundation would be formed. A promise that was fulfilled in June of 2015 when Node.js and io.js voted to work together under the new Node.js foundation. The Node.js foundation is made up of several large companies including IBM, Microsoft, PayPal, Groupon and, of course, Joyent. It's referred to as a collaborative project by the Linux foundation. Officially on September 14, 2015, the Node.js foundation announced that the Node.js and io.js would be combined in a single code base and released as Node.js version 4.0.
+
+> Included in the new release are a ton of new ES6 features and a plan for a regular release cycle. From the start of the Node.js project, a common refrain was that all versions of Node.js would be 0 releases, .08, .010, .012 until the project could release a stable version 1.0 with no breaking changes. Well, with the release of Node.js version 4.0, the much-awaited version 1.0 never happened. But now the community is united with the official Node release at version 4.0. and the present version is 6.11.4.
+
+
+### How nodejs works
+
+les take a look into how Node.js works and why it is so fast in simple words by taking an example of two restaurants(a popular example). The first restaurant is Apache Steaks and Chops. It is a big, nice, fancy restaurant. In this restaurant, every new guest represents a new user, and making an order is like making a request. If I place an order for a salad, the manager will need to hire a new waiter to take care of me. In this restaurant, our waiter represents a thread. We are going to have our own waiter, our own thread, and they will handle all of our orders. This is similar to how Apache works.
+
+* Every request is single-threaded. After placing the order, the waiter will take the order to the kitchen and give it to the chef. And now the waiter just waits. He won't do anything else until the chef is finished making the food. I would like to order a glass of water, but I can't order anything until the chef finishes making that salad. 
+* The chef is blocking me from being able to simply order a glass of water. In this analogy, the chef represents the file system or a data store. In Apache, the single thread waits for the file system to finish reading files before it can do anything else.
+
+* We refer to this as blocking. Finally, my salad is ready. My waiter brings me the food. I can order my glass of water, and my waiter also brings me that, too. My request has been served. And now the manager is firing my waiter because they are not needed anymore. Now, when this restaurant gets busy for dinner service, every guest has their own waiter, which is pretty nice. That is pretty good service, but the waiters are mostly hanging around the kitchen and waiting for the chef to make the food. If this restaurant gets really popular, it requires a lot of space to expand because more guests means more waiters.
+
+* Now, let's take a look at this other cafe, Chez Node. At this cafe, there is only one waiter because Node.js is single-threaded. Here, we can order some crepes. We can see that our waiter places the order for the food, then moves on to take an order from another new table. Hmm, this single thread services all of the restaurant guests. That is pretty cool. When my crepes are ready, the chef rings a bell, and our waiter goes and gets the crepes and delivers them to me. He then proceeds to take another order from a new table. When their food is ready, the waiter will bring it to them as soon as he can.
+
+* We can say that this waiter behaves asynchronously. Everything this waiter needs to do represents a new event, a new table, placing orders, delivering orders. These are all events, and they will get handled in the order that they are raised. Our waiter does not wait. There is no blocking. Our single waiter is busy, busy, busy, but he is killing it because he can multitask. This is what it means when we say nonblocking, event-driven IO. We have a single thread that will respond to events in the order that they are raised.
+
+* This thread behaves asynchronously because it does not have to wait for resources to finish doing what they're doing before our thread can do anything else. If this cafe gets popular, we can simply franchise it. Chez Node can easily be expanded by simply duplicating or forking the restaurant into a neighboring space. And this is precisely how we host Node.js applications in the cloud. Now, remember, Node.js is single-threaded. All of the users are sharing the same thread. Events are raised and recorded in an event queue and then handled in the order that they were raised.
+
+Node.js is asynchronous, which means that it can do more than one thing at a time. This ability to multitask is what makes Node.js so fast and one of the reasons so many developers are building their web applications with Node.js.
+
+****************************
 
 ### Features of Node.js
 Following are some of the important features that make Node.js the first choice of software
@@ -116,19 +126,11 @@ simply output the data in chunks.
 ![Different parts of Node.js](https://www.javatpoint.com/js/nodejs/images/what-is-nodejs.png)
 
 
-Node.js is an open-source tool for developing a wide array of server applications. Development started back in 2009, led by developer Ryan Dahl [1]. Initially Node.js only supported Mac OS X and Linux, but later in 2011 the project was expanded to also support Windows and other lesser known operating systems.
+lets first discuss the Stakeholders and the Context View to get an idea of who and what is involved in the development, usage and maintenance of Node.js. Afterwards we will analyze Node.js from a development viewpoint where we will talk more about the technical structure of Node.js and the design guidelines and patterns used by Node.js. Then we will highlight some of the most unique and distinctive functionalities that Node.js has to offer in the Functional View. Through this we hope to learn what made Node.js so unique and successful. Finally we will look into how the architecture of Node.js manages to serve such a wide userbase by considering the performance and scalability.
 
-The reason why Node.js was originally started is because Ryan Dahl was fed up with the disconnect between the client and the web server. Each time the client wanted to be updated with new information it had to query the web server (for example, to keep track of progress of a file upload). This had been a long-standing problem in the field of web development, but most developers just decided to deal with it. Node.js was the first real attempt at solving this problem at the root by enabling real-time communication between the client and the server. It was immediately well received, as shown by the enthusiastic reaction of the audience during the original Node.js launch presentation [2].
+### Who is involved?
 
-Since its inception, Node.js has surpassed many of its early expectations [3]. The total amount of active contributors to the project itself increased each year to a record amount of about 480 contributors at the end of 2016. The number of downloads also continues to grow, with the total amount of downloads averaging at over 480,000 a day.
-
-Because of the immense popularity of Node.js we wanted to study its architecture and how it is used to achieve some of the unique functionalities Node.js has to offer.
-
-We will first discuss the Stakeholders and the Context View to get an idea of who and what is involved in the development, usage and maintenance of Node.js. Afterwards we will analyze Node.js from a development viewpoint where we will talk more about the technical structure of Node.js and the design guidelines and patterns used by Node.js. Then we will highlight some of the most unique and distinctive functionalities that Node.js has to offer in the Functional View. Through this we hope to explain what made Node.js so unique and successful. Finally we will describe how the architecture of Node.js manages to serve such a wide userbase by considering the performance and scalability.
-
-### Stakeholder View
-
-This section discusses various stakeholders involved in Node.js and provides a classification of the stakeholders as proposed by Rozanski and Woods [4]. Node.js is owned and governed by the Node.js Foundation which consists of the following stakeholders:
+This section discusses various stakeholders involved in Node.js and provides a classification of the stakeholders as proposed by Rozanski and Woods. Node.js is owned and governed by the Node.js Foundation which consists of the following stakeholders:
 
 Board: Sets the business direction and oversees legal, financial and marketing domains.
 Technical Steering Committee (TSC): Sets the technical direction and is responsible for technical governance of all Node.js projects including Node.js Core.
@@ -138,26 +140,22 @@ Collaborators: The Collaborators along with the CTC maintain the nodejs/node Git
 
 ![provides an overview of Node.js stakeholders](https://delftswa.gitbooks.io/desosa-2017/content/node/images-node/stakeholder_view.png)
 
-### System scope and responsibilities
+### System scope(**Where to Use Node.js?**)
 
-According to their own website, Node.js was designed to build scalable network applications. Node.js is mainly meant to provide developers with the foundations for common server-side functionalities, for example [5]:
+According to their own website, Node.js was designed to build scalable network applications. Node.js is mainly meant to provide developers with the foundations for common server-side functionalities, for example:
 
-* Binary data manipulation
-* File system I/O operations
-* Database access
 * Computer networking
+● I/O bound Applications
+● Data Streaming Applications
+● Data Intensive Real-time Applications (DIRT)
+● JSON APIs based Applications
+● Single Page Applications
 
 Node.js is very lightweight and many higher-level functionalities are intentionally relegated to the many packages that are offered through its package ecosystem (called npm), which provides access to the world's largest collection of open source libraries and frameworks.
 
-External entities
+### Development
 
-We have grouped all the external entities that are related to Node.js into several categories which we discuss sequentially below. An overview of all the entities and their relations to Node.js can be found in Figure 3.
-
-![Context View](https://delftswa.gitbooks.io/desosa-2017/content/node/images-node/context_view.png)
-
-## Development
-
-These are different entities that are related to the actual development of Node.js, such as programming languages and testing.
+There are different entities that are related to the actual development of Node.js, such as programming languages and testing.
 
 **Programming languages**
 
