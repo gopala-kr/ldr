@@ -257,21 +257,12 @@ In an event-driven program the flow of the application is the result of events t
                                                                         </tbody>
                                                                     </table>
 
-### Functional View
+### nodejs features:
 
-In this section we will describe the most important and unique functionalities of Node.js. We will also address the architectural elements and choices that make these functions possible. Node.js indirectly offers vast amounts of functionality through the myriad of applications that have been built upon it, such as chat bots, application monitoring and data streaming. However, since our focus is on Node.js itself we are mainly interested in its architecture and will therefore also focus solely on the functionalities offered directly to developers working with Node.js.
 
-**Threading**
+**Threading** : The threading mechanism of Node.js is quite different from other webservers. For example, webservers based on PHP and ASP.NET typically create a new thread for each client request. That client request thus causes the entire program to be reinstantiated on the thread for that specific request. So while the webserver is definitely multi-threaded, each program instance served to a client operates only on a single thread.
 
-The threading mechanism of Node.js is quite different from other webservers. For example, webservers based on PHP and ASP.NET typically create a new thread for each client request. That client request thus causes the entire program to be reinstantiated on the thread for that specific request. So while the webserver is definitely multi-threaded, each program instance served to a client operates only on a single thread.
-
-As we mentioned in the Development View, Node.js is built upon libuv, which allows it to perform asynchronous or non-blocking I/O operations. Because of this, Node.js is able to use only a single "calling thread" that serves all incoming client requests without causing independent requests to block each other. Any work that needs to be done is passed off to a thread pool where it is assigned to a separate thread on which it will be executed. After the work has been done, control is ceded back to the calling thread to provide the client with the appropriate response to their original request [9].
-
-In a later section on the Performance & Stability Perspective we will discuss the advantages and disadvantages that these two approaches carry with them. For now it suffices to emphasize the differences from an architectural point of view. We will now elaborate on the calling thread, commonly referred to as the event loop.
-
-**Event Loop**
-
-As we previously discussed in the Development View, Node.js is based on the event-driven programming paradigm [10]. This becomes clear through the so-called event loop, a process that is constantly accepting incoming requests and providing responses to previously accepted requests. In between accepting a request and responding to it, the event loop will refer work that needs to be done to one of the background workers, as mentioned in the previous subsection on Threading. Node.js makes good use of JavaScript's support for callbacks by allowing a callback to be sent along with each such task. Figure 5 pictures the execution model as we have discussed it so far.
+**Event Loop** : Node.js is based on the event-driven programming paradigm. This becomes clear through the so-called event loop, a process that is constantly accepting incoming requests and providing responses to previously accepted requests. In between accepting a request and responding to it, the event loop will refer work that needs to be done to one of the background workers, as mentioned in the previous subsection on Threading. Node.js makes good use of JavaScript's support for callbacks by allowing a callback to be sent along with each such task. Figure 5 pictures the execution model as we have discussed it so far.
 
 ![Event Loop](https://delftswa.gitbooks.io/desosa-2017/content/node/images-node/NodeThreads.png)
 
@@ -297,34 +288,5 @@ Each of these callbacks is registered to an Event Queue, where it waits to be ca
                                                                                     <h3 id="other-package-managers">Other package managers</h3>
                                                                                     <p>Next to npm there are other third-party package managers that can be used with node. Yarn for example is package manager that was released by Facebook. All these package managers use the npm public registry, but are different in the client-side experience. </p>
                                                                                 
-<h1 id="performance-and-scalability-perspective">Performance and Scalability Perspective</h1>
-                                                                                        <p>This section provides a detailed view on how the architecture of Node.js enables the development of highly scalable server-side web applications. In order to understand how Node.js achieves scalability, it is first necessary to understand the drawbacks of traditional web server architectures when handling a large number of concurrent requests that are I/O or network intensive. Ryan Dahl, the creator of Node.js provides an insight into the design limitations of traditional web server frameworks.</p>
-                                                                                        <pre><code class="lang-txt"> &quot;Turns out, a lot of the frameworks were designed in a way that they made the assumption a
-  request &#x2014; response is something that happens instantaneously and that your entire web
-  development experience should be abstracted as a function. You get a request, you return a
-  response. That is the extent of your context.&quot;&#x2014; Ryan Dahl
-</code></pre>
-                                                                                        <p>As we pointed out in the previous section, this type of request/response architecture uses multi-threading to provide concurrent handling of requests. However, since a new thread is created for each request and because of the use of blocking I/O calls, such an architecture cannot scale up efficiently. The sections below discuss how the event-driven architecture of Node.js differs from this traditional approach with respect to performance and scalability.</p>
-                                                                                        <h2 id="multi-threaded-requestresponse-model-with-blocking-io">Multi-Threaded Request/Response Model with Blocking I/O</h2>
-                                                                                        <p><a href="#SynchronousIO">Figure 8</a> shows the request processing mechanism in web servers with multi-threaded synchronous I/O model. Here, a new thread is created for each incoming request at the server. The thread blocks when I/O operations are being executed. Though this type of thread-per-request model provides concurrent handling of requests, it is evident from <a href="#SynchronousIO">Figure 8</a> that a large amount of memory and CPU is tied-up without use when the thread blocks while waiting for I/O or network calls to return. Also, as the number of concurrent requests increases, the overhead of thread management becomes high.</p>
-                                                                                  
 
-![Synchronous I/O](https://delftswa.gitbooks.io/desosa-2017/content/node/images-node/SynIO.png)
-                                                                                                <br>
-                                                                                                <em>Figure 8: Synchronous I/O (from <a href="http://bijoor.me/2013/06/09/java-ee-threads-vs-node-js-which-is-better-for-concurrent-data-processing-operations/" target="_blank">http://bijoor.me/2013/06/09/java-ee-threads-vs-node-js-which-is-better-for-concurrent-data-processing-operations/</a>)</em></p>
-                                                                                            <h2 id="single-threaded-asynchronous-io-model">Single Threaded Asynchronous I/O Model</h2>
-                                                                                            <p><a href="#AsynchronousIO">Figure 9</a> shows the request processing mechanism in web servers which run a single thread and perform non-blocking I/O calls. Node.js uses a similar concurrency model which makes it more scalable than the multi-threaded model. This model uses a single thread which services all the incoming requests at the web server. The I/O operations are executed as events and do not block the calling thread. It is clear from <a href="#AsynchronousIO">Figure 9</a> that this model utilizes the CPU more efficiently than the multi-threaded model. Also, since it uses a single thread, it is more memory efficient compared to the multi-threaded model.</p>
-  
-  
-  ![Asynchronous I/O](https://delftswa.gitbooks.io/desosa-2017/content/node/images-node/ASynIO.png)
-  <p>
-                                                                                                    <br>
-                                                                                                    <em>Figure 9: Asynchronous I/O (from <a href="http://bijoor.me/2013/06/09/java-ee-threads-vs-node-js-which-is-better-for-concurrent-data-processing-operations/" target="_blank">http://bijoor.me/2013/06/09/java-ee-threads-vs-node-js-which-is-better-for-concurrent-data-processing-operations/</a>)</em></p>
-                                                                                                <p>At the backend however, threads are still required to execute the various I/O operations in parallel. But this complexity is hidden away from the Node.js application which makes programming on Node.js much easier. Also, since this model moves away from the thread-per-request architecture, it does not incur the overhead of thread management.</p>
-                                                                                                <p>Despite its superior concurrency model, the Node.js architecture is not suitable to scale across multiple cores in a system. Since Node.js uses a single thread to service all incoming requests, it cannot leverage multiple cores in the system by distributing the load across cores. Listed below are two mechanisms to overcome this.</p>
-                                             
-                                             
-                                             
-                                                                                                                                                                               
-                                                                                                   
-                                                                                             
+                                                                                      
