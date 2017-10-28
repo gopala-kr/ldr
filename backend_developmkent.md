@@ -1,6 +1,7 @@
 
 ***********************************************************
 <h3><span class="mw-headline" id="Java">Java</span></span></h3>
+
 <div role="note" class="hatnote navigation-not-searchable">See also: <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java (programming language)</a> and <a href="https://en.wikipedia.org/wiki/Java_(software_platform)" title="Java (software platform)">Java (software platform)</a></div>
 <table class="wikitable sortable" style="font-size: 90%">
 <br>
