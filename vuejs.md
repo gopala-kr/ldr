@@ -30,6 +30,7 @@ Vue.js
 <p>VueJs is a small, flexible JavaScript library that allows developers to build interactive web applications quite easily through an API that is simple and easy to pick up. It shares some similarities and a number of differences with other libraries/frameworks like Angular, React, Ember, Polymer, and Riot to name a few. However Vue prides itself on it&#39;s simplicity, performance, flexibility and being less opinionated. The VueJs website has a more in depth comparison with other libraries and frameworks which you can read about <a target="_blank" href="http://vuejs.org/guide/comparison.html">here</a>, if you&#39;re interested.</p>
 <p>This tutorial aims to give you an overview of some of the basic concepts and features through practical examples. In future tutorials we&#39;ll be looking at more advanced features and building scalable applications with Vue.</p>
 <h1 id="creating-a-vue-instance-with-new-vue-">Creating a Vue Instance with <code>new Vue()</code></h1>
+  
 <p>Let&#39;s start off by creating a basic HTML page and importing VueJs into it. You can install Vue via NPM, Bower, as a standalone, or a CDN, to name just a few ways. For the sake of simplicity, we&#39;ll stick to importing Vue via a CDN right before the closing <code>body</code> tag, like so:</p>
 <pre><code class="hljs html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
