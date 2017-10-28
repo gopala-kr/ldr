@@ -22,6 +22,8 @@ Vue.js
 </div>
 <div class="sixteen wide tablet sixteen wide mobile twelve wide computer column">
 <div class="ui fluid card">
+
+
 <div class="image">
 <img src="cover-850x416.jpg">
 </div>
