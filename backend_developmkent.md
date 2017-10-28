@@ -703,3 +703,132 @@ Cons:
 </table>
 
 ****************************
+
+<table class="wikitable sortable">
+<caption>Programming languages used in most popular websites*</caption>
+<tr>
+<th scope="col"><a href="https://en.wikipedia.org/wiki/Websites" class="mw-redirect" title="Websites">Websites</a></th>
+<th scope="col"><a href="https://en.wikipedia.org/wiki/Popularity" title="Popularity">Popularity</a><br />
+(unique visitors per month)<sup id="cite_ref-ebz_dec2014_1-0" class="reference"><a href="#cite_note-ebz_dec2014-1">[1]</a></sup></th>
+<th scope="col"><a href="https://en.wikipedia.org/wiki/Front_end_processor_(program)" class="mw-redirect" title="Front end processor (program)">Front-end</a><br />
+(<a href="https://en.wikipedia.org/wiki/Client-side" title="Client-side">Client-side</a>)</th>
+<th scope="col"><a href="https://en.wikipedia.org/wiki/Front_and_back_ends" title="Front and back ends">Back-end</a><br />
+(<a href="https://en.wikipedia.org/wiki/Server-side" title="Server-side">Server-side</a>)</th>
+<th scope="col"><a href="https://en.wikipedia.org/wiki/Database" title="Database">Database</a></th>
+<th scope="col" class="unsortable">Notes</th>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Google.com" class="mw-redirect" title="Google.com">Google.com</a><sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup></td>
+<td>1,600,000,000</td>
+<td><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a></td>
+<td><a href="https://en.wikipedia.org/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="/wiki/C%2B%2B" title="C++">C++</a>, <a href="https://en.wikipedia.org/wiki/Go_(programming_language)" title="Go (programming language)">Go</a>,<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup> <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python (programming language)">Python</a></td>
+<td><a href="https://en.wikipedia.org/wiki/BigTable" class="mw-redirect" title="BigTable">BigTable</a>,<sup id="cite_ref-Big_Table_4-0" class="reference"><a href="#cite_note-Big_Table-4">[4]</a></sup> <a href="https://en.wikipedia.org/wiki/MariaDB" title="MariaDB">MariaDB</a><sup id="cite_ref-google_mdb_5-0" class="reference"><a href="#cite_note-google_mdb-5">[5]</a></sup></td>
+<td>The most used search engine in the world</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Facebook.com" class="mw-redirect" title="Facebook.com">Facebook.com</a></td>
+<td>1,100,000,000</td>
+<td><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Hack_(programming_language)" title="Hack (programming language)">Hack</a>, <a href="https://en.wikipedia.org/wiki/PHP" title="PHP">PHP (HHVM)</a>, <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python (programming language)">Python</a>, <a href="https://en.wikipedia.org/wiki/C%2B%2B" title="C++">C++</a>, <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, <a href="https://en.wikipedia.org/wiki/Erlang_(programming_language)" title="Erlang (programming language)">Erlang</a>, <a href="https://en.wikipedia.org/wiki/D_(programming_language)" title="D (programming language)">D</a>,<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup> <a href="https://en.wikipedia.org/wiki/Xhp" class="mw-redirect" title="Xhp">Xhp</a>,<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup> <a href="https://en.wikipedia.org/wiki/Haskell_(programming_language)" title="Haskell (programming language)">Haskell</a><sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup></td>
+<td><a href="https://en.wikipedia.org/wiki/MariaDB" title="MariaDB">MariaDB</a>, <a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>,<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">[9]</a></sup> <a href="https://en.wikipedia.org/wiki/Apache_HBase" title="Apache HBase">HBase</a> <a href="https://en.wikipedia.org/wiki/Apache_Cassandra" title="Apache Cassandra">Cassandra</a><sup id="cite_ref-10" class="reference"><a href="#cite_note-10">[10]</a></sup></td>
+<td>The most visited social networking site</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/YouTube.com" class="mw-redirect" title="YouTube.com">YouTube.com</a></td>
+<td>1,100,000,000</td>
+<td><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a></td>
+<td><a href="https://en.wikipedia.org/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="https://en.wikipedia.org/wiki/C%2B%2B" title="C++">C++</a>, <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python (programming language)">Python</a>, <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>,<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">[11]</a></sup> <a href="https://en.wikipedia.org/wiki/Go_(programming_language)" title="Go (programming language)">Go</a><sup id="cite_ref-12" class="reference"><a href="#cite_note-12">[12]</a></sup></td>
+<td>Vitess, BigTable, <a href="https://en.wikipedia.org/wiki/MariaDB" title="MariaDB">MariaDB</a><sup id="cite_ref-google_mdb_5-1" class="reference"><a href="#cite_note-google_mdb-5">[5]</a></sup><sup id="cite_ref-13" class="reference"><a href="#cite_note-13">[13]</a></sup></td>
+<td>The most visited video sharing site</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Yahoo" class="mw-redirect" title="Yahoo">Yahoo</a></td>
+<td>750,000,000</td>
+<td><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a></td>
+<td><a href="https://en.wikipedia.org/wiki/PHP" title="PHP">PHP</a></td>
+<td>MySQL, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>,<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">[14]</a></sup> <a href="https://en.wikipedia.org/wiki/VB.NET" class="mw-redirect" title="VB.NET">VB.NET</a></td>
+<td>Yahoo is presently<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Dates_and_numbers#Chronological_items" title="Wikipedia:Manual of Style/Dates and numbers"><span title="The time period mentioned near this tag is ambiguous. (July 2013)">when?</span></a></i>]</sup> transitioning to <a href="https://en.wikipedia.org/wiki/Node.js" title="Node.js">Node.js</a><sup id="cite_ref-Work_on_NodeJS_at_Yahoo_15-0" class="reference"><a href="#cite_note-Work_on_NodeJS_at_Yahoo-15">[15]</a></sup></td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Amazon.com" class="mw-redirect" title="Amazon.com">Amazon.com</a></td>
+<td>500,000,000</td>
+<td><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, <a href="https://en.wikipedia.org/wiki/C%2B%2B" title="C++">C++</a>, <a href="https://en.wikipedia.org/wiki/Perl" title="Perl">Perl</a><sup id="cite_ref-16" class="reference"><a href="#cite_note-16">[16]</a></sup></td>
+<td><a href="https://en.wikipedia.org/wiki/Oracle_Database" title="Oracle Database">Oracle Database</a><sup id="cite_ref-17" class="reference"><a href="#cite_note-17">[17]</a></sup></td>
+<td>Popular internet shopping site</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Wikipedia.org" class="mw-redirect" title="Wikipedia.org">Wikipedia.org</a></td>
+<td>475,000,000</td>
+<td><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a></td>
+<td><a href="https://en.wikipedia.org/wiki/PHP" title="PHP">PHP</a>, <a href="https://en.wikipedia.org/wiki/Hack_(programming_language)" title="Hack (programming language)">Hack</a></td>
+<td>MySQL<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="https://en.wikipedia.org/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (March 2016)">citation needed</span></a></i>]</sup>, <a href="https://en.wikipedia.org/wiki/MariaDB" title="MariaDB">MariaDB</a><sup id="cite_ref-18" class="reference"><a href="#cite_note-18">[18]</a></sup></td>
+<td>"<a href="https://en.wikipedia.org/wiki/MediaWiki" title="MediaWiki">MediaWiki</a>" is programmed in <a href="https://en.wikipedia.org/wiki/PHP" title="PHP">PHP</a>, runs on <a href="https://en.wikipedia.org/wiki/HHVM" title="HHVM">HHVM</a>; free online encyclopedia</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Twitter.com" class="mw-redirect" title="Twitter.com">Twitter.com</a></td>
+<td>290,000,000</td>
+<td><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a></td>
+<td><a href="https://en.wikipedia.org/wiki/C%2B%2B" title="C++">C++</a>, <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, <a href="https://en.wikipedia.org/wiki/Scala_(programming_language)" title="Scala (programming language)">Scala</a>, <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)" title="Ruby (programming language)">Ruby</a><sup id="cite_ref-19" class="reference"><a href="#cite_note-19">[19]</a></sup></td>
+<td>MySQL<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">[20]</a></sup></td>
+<td>280 characters social network</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Bing_(search_engine)" title="Bing (search engine)">Bing</a></td>
+<td>285,000,000</td>
+<td><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a></td>
+<td><a href="https://en.wikipedia.org/wiki/ASP.NET" title="ASP.NET">ASP.NET</a></td>
+<td>Microsoft SQL Server</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/EBay.com" class="mw-redirect" title="EBay.com">eBay.com</a></td>
+<td>285,000,000</td>
+<td><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>,<sup id="cite_ref-21" class="reference"><a href="#cite_note-21">[21]</a></sup> <a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a>,<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">[22]</a></sup> <a href="https://en.wikipedia.org/wiki/Scala_(programming_language)" title="Scala (programming language)">Scala</a><sup id="cite_ref-23" class="reference"><a href="#cite_note-23">[23]</a></sup></td>
+<td><a href="https://en.wikipedia.org/wiki/Oracle_Database" title="Oracle Database">Oracle Database</a></td>
+<td>Online auction house</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/MSN.com" class="mw-redirect" title="MSN.com">MSN.com</a></td>
+<td>280,000,000</td>
+<td><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a></td>
+<td><a href="/wiki/ASP.NET" title="ASP.NET">ASP.NET</a></td>
+<td>Microsoft SQL Server</td>
+<td>An email client, for simple use. Mostly known as "messenger".</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Microsoft" title="Microsoft">Microsoft</a></td>
+<td>270,000,000</td>
+<td><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a></td>
+<td><a href="https://en.wikipedia.org/wiki/ASP.NET" title="ASP.NET">ASP.NET</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">Microsoft SQL Server</a></td>
+<td>Software company</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Linkedin.com" class="mw-redirect" title="Linkedin.com">Linkedin.com</a></td>
+<td>260,000,000</td>
+<td><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, <a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a>,<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">[24]</a></sup> <a href="https://en.wikipedia.org/wiki/Scala_(programming_language)" title="Scala (programming language)">Scala</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Voldemort_(distributed_data_store)" title="Voldemort (distributed data store)">Voldemort</a><sup id="cite_ref-voldemort_li_25-0" class="reference"><a href="#cite_note-voldemort_li-25">[25]</a></sup></td>
+<td>World's largest professional network</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Pinterest" title="Pinterest">Pinterest</a></td>
+<td>250,000,000</td>
+<td><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Django_(web_framework)" title="Django (web framework)">Django</a>,<sup id="cite_ref-26" class="reference"><a href="#cite_note-26">[26]</a></sup> <a href="https://en.wikipedia.org/wiki/Erlang_(programming_language)" title="Erlang (programming language)">Erlang</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/Redis" title="Redis">Redis</a> <sup id="cite_ref-bi_pint_27-0" class="reference"><a href="#cite_note-bi_pint-27">[27]</a></sup></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Wordpress.com" class="mw-redirect" title="Wordpress.com">WordPress.com</a></td>
+<td>240,000,000</td>
+<td><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a></td>
+<td><a href="https://en.wikipedia.org/wiki/PHP" title="PHP">PHP</a>, <a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a> <sup id="cite_ref-28" class="reference"><a href="#cite_note-28">[28]</a></sup> (Node.js)</td>
+<td><a href="https://en.wikipedia.org/wiki/MariaDB" title="MariaDB">MariaDB</a>, <a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a></td>
+<td></td>
+</tr>
+</table>
+
+**********************************
