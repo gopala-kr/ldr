@@ -27,6 +27,8 @@ Vue.js
 <div class="image">
 <img src="cover-850x416.jpg">
 </div>
+
+
 <div class="content">
 <div class="post-content">
 <p>VueJs is a small, flexible JavaScript library that allows developers to build interactive web applications quite easily through an API that is simple and easy to pick up. It shares some similarities and a number of differences with other libraries/frameworks like Angular, React, Ember, Polymer, and Riot to name a few. However Vue prides itself on it&#39;s simplicity, performance, flexibility and being less opinionated. The VueJs website has a more in depth comparison with other libraries and frameworks which you can read about <a target="_blank" href="http://vuejs.org/guide/comparison.html">here</a>, if you&#39;re interested.</p>
