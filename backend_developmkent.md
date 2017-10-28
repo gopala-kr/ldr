@@ -120,7 +120,7 @@ Combine public data from StackOverflow, LinkedIn, GitHub, and Google search, to 
 
 <div class="row text-center">
       		<div class="col-12">
-		  		<h1>Web Frameworks Index at a Glance</h1><br/>
+		  		<h5>Web Frameworks Index at a Glance</h5><br/>
 		  		<center>
 		  			<table class="zebra"> 
 						 <thead>
@@ -152,7 +152,7 @@ Combine public data from StackOverflow, LinkedIn, GitHub, and Google search, to 
 								<tr><td class='center'>19</td><td>Rapidoid</td><td class='center'>0</td></tr>
 						  </tbody>
 				  	</table>
-				  <img src="https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/springframework/java_web_stats.JPG" alt="" width="570" height="640" class="aligncenter size-large wp-image-62138" />
+				  <img src="https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/springframework/java_web_stats.JPG" />
 		  		</center>
 		  		<div id="chart"></div>
 	  		</div>
