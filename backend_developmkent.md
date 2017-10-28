@@ -705,9 +705,9 @@ Cons:
 ****************************
 
 <table class="wikitable sortable">
-<caption> Programming languages used in most popular websites </caption>
-<br>
+<h2> Programming languages used in most popular websites </h2>
 <tr>
+ <br> 
 <th scope="col"><a href="https://en.wikipedia.org/wiki/Websites" class="mw-redirect" title="Websites">Websites</a></th>
 <th scope="col"><a href="https://en.wikipedia.org/wiki/Popularity" title="Popularity">Popularity</a><br />
 (unique visitors per month)<sup id="cite_ref-ebz_dec2014_1-0" class="reference"><a href="#cite_note-ebz_dec2014-1">[1]</a></sup></th>
