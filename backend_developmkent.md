@@ -114,10 +114,49 @@ Cons:
 * Marginal Benefit >>> Marginal Cost
 
 
+## Java Web Frameworks Index by [zeroturnaround](https://zeroturnaround.com/webframeworksindex/)
 
+Combine public data from StackOverflow, LinkedIn, GitHub, and Google search, to compute the popularity rank of each framework
 
-
-
+<div class="row text-center">
+      		<div class="col-12">
+		  		<h1>Web Frameworks Index at a Glance</h1><br/>
+		  		<center>
+		  			<table class="zebra"> 
+						 <thead>
+							  <tr>
+								  <th class="center">Rank</th>
+								  <th class="center">Framework</th>
+								  <th class="center">Popularity</th>
+							  </tr>
+						  </thead>
+						  <tbody>
+							  	<tr><td class='center'>1</td><td>Spring mvc</td><td class='center'>29.39</td></tr>
+								<tr><td class='center'>2</td><td>JSF</td><td class='center'>15.19</td></tr>
+								<tr><td class='center'>3</td><td>Spring Boot</td><td class='center'>11.69</td></tr>
+								<tr><td class='center'>4</td><td>GWT</td><td class='center'>7.6</td></tr>
+								<tr><td class='center'>5</td><td>Grails</td><td class='center'>6.73</td></tr>
+								<tr><td class='center'>6</td><td>Struts</td><td class='center'>7.47</td></tr>
+								<tr><td class='center'>7</td><td>Play framework</td><td class='center'>4.16</td></tr>
+								<tr><td class='center'>8</td><td>Seam</td><td class='center'>1.88</td></tr>
+								<tr><td class='center'>9</td><td>jax-rs</td><td class='center'>3.1</td></tr>
+								<tr><td class='center'>10</td><td>Vaadin</td><td class='center'>2.45</td></tr>
+								<tr><td class='center'>11</td><td>Wicket</td><td class='center'>1.92</td></tr>
+								<tr><td class='center'>12</td><td>Tapestry</td><td class='center'>1.83</td></tr>
+								<tr><td class='center'>13</td><td>JHipster</td><td class='center'>0.73</td></tr>
+								<tr><td class='center'>14</td><td>Dropwizard</td><td class='center'>1.05</td></tr>
+								<tr><td class='center'>15</td><td>Sparkjava</td><td class='center'>0.76</td></tr>
+								<tr><td class='center'>16</td><td>Lagom</td><td class='center'>0.71</td></tr>
+								<tr><td class='center'>17</td><td>Vert.x</td><td class='center'>0.72</td></tr>
+								<tr><td class='center'>18</td><td>Ratpack</td><td class='center'>0.15</td></tr>
+								<tr><td class='center'>19</td><td>Rapidoid</td><td class='center'>0</td></tr>
+						  </tbody>
+				  	</table>
+				  <img src="https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/springframework/java_web_stats.JPG" alt="" width="570" height="640" class="aligncenter size-large wp-image-62138" />
+		  		</center>
+		  		<div id="chart"></div>
+	  		</div>
+    	</div>
 
 
 ***********************************************************
