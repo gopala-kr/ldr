@@ -1,3 +1,124 @@
+### MVC - A Concept or A Library?
+
+MVC is a software architectural pattern for implementing user interfaces to decouple code, which improve overall quality of software.
+
+### No Desktop MVC Framework?
+
+MVC is everywhere among desktop application development: VC MFC, Delphi, .NET Desktop and Java Swing application. But it will be interesting to see in the desktop application development, there is only MVC concept rather than framework/library (myself didn't even realize this until I wrote this article last time). MVC is generally only a kind of practice (similar as Object Oriented concept), not a real framework in desktop development.
+
+### 100+ Web MVC Frameworks
+
+At the same time, there are so many (more than 100) different open source Java web framework (the number of popular open source Java web framework is much more than any other types of open source java framework). And why so different between desktop vs web application development on MVC framework?
+
+Main difference between desktop application and web application: view display and data binding (communication between view and model/controller)
+
+Web MVC = MVC concept + HTML code generation + data binding
+
+Why not use Rich Client Application (WPF, JavaFx, Flex) as view
+
+* Difficult to cross the platforms Even if WPF/JavaFx/Flex can be embedded in browser, it requires local installation of Java or Flash or .NET client library.
+* Client side oriented, no natural server integration
+* For client/server solution, developers need to handle the communication which means to change current system significantly to expose interface to new client.
+* Hard to interact between rich client with an existing web based application which make the migration difficult.
+
+### History of Java Web Technology
+
+* Servlet (version 2.1) 1998
+* JSP – 1999
+* JSP Tag – 2002 (first implementation from Apache)
+* Struts (Current 2.3.4)--- 2002, 1.1 in 2003, 1.3.8 in 2007
+* Struts 2 – 2006 (renamed from webwork 2)
+* Spring MVC (Current 3.1) – 2005
+* Tapestry (Current 5.3.4): 3 – 2003/2004, 4 – 2006, 5 -- 2008
+* JSF 1.0 –2004, 1.2 – 2006, 2.0 – 2009, 2.1 – 2010
+* GWT: 1.0 – 2006, 2.5.0 –2012
+
+### Types of Java Web Framework
+
+**JSF (Struts/Tapestry/Spring MVC/Wicket) Liked Web Framework**
+
+* Servlet + JSP/XHMTL/Template + JSP Tag + XML Descriptor + Naming Convention
+* HTML code based
+* HTML page oriented
+* HTTP request based communication
+* Macro / template based view
+* AJAX / GWT
+
+**HTML structure based --- not code based (canvas) + JavaScript (pencil)**
+
+### JSF Liked Web Framework**
+
+Pros:
+
+* Straightforward for experienced developer to understand the underlying technology (not for newbie to pick up)
+* Full control on client (webpage) rendering and communication
+* Easy to integrate with other technologies (AJAX, JQUERY)
+* Industry standard (more resources)
+
+Cons:
+
+* High learning curve for new developer to start and maintain existing code (swing vs jsf): html, javascript, http request, session, j2ee server, xml, EL, etc
+* Opposite to OO, hard to extend existing component Difficult to maintain a consistent look and feel
+* The complexity is increasing quickly while number of components on the page increasing
+* A lot of redundant tag/HTML code on the JSP(JSF) page. Code in the page is easy to messed up and hard to maintain (mixing JavaScript, JSP tag and html)
+* Not compiler or IDE friendly
+* Developer need to do the data binding by themselves
+
+### GWT
+
+Pros:
+
+* Simplicity, Swing/SWT Like
+* Lots of built in components (better than jsp tag)
+* Strong binding between Java-JavaScript
+* Solve the complexity when there is a lot of controls/interact on the page
+
+Cons:
+
+* Hard to control CSS classes
+* Built in components are fairly basic (Solved By Smart GWT, GXT)
+* Developer need to control the communication by themselves
+* Biggest Problem: It is designed and developed by and for Google, not for internal application
+* Main Challenges of Web Application
+
+**Customized component Data binding**
+* .Net has solved this by using ViewState
+* What we are looking for from a good web framework
+
+**Strong data binding**
+
+* Easy component extension and customization
+* Less code
+* Ability to outline the look and feel
+* Low learning curve
+* Full control on the page
+* Open source
+* Commercial resources available
+* Active community + third party resources
+* Impact of Introducing Another Web Framework to existing strut and JSF based legacy project.
+
+**Marginal Cost**
+
+* Impact on existing system/code
+* learning cost for current members
+* One more web framework need to handle in the development
+* Easy to underestimate effort
+
+**Marginal Benefit**
+
+* Reduced code = better quality + easier to maintain / extend + Less bug
+* More flexibility to extend / modify in the future
+* Lower learning curve when adding new members
+* More resources / features
+* Easy to overestimate
+* Marginal Benefit >>> Marginal Cost
+
+
+
+
+
+
+
 
 ***********************************************************
 <h3><span class="mw-headline" id="Java">Java</span></span></h3>
