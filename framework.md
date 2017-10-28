@@ -1,5 +1,5 @@
 
-
+## What is a framework?
 
 <p>The<a href="http://www.codeproject.com/script/survey/detail.asp?survey=326"> What is better? Smarter programmers or safer programming environments?</a> &nbsp; is the impetus for this article.&nbsp; After I stuck my foot in it (again), saying that .NET and MFC are not frameworks, Paul Watson asked one of the two obvious questions--"what is a framework?" (the other obvious question being, "If .NET and MFC are not frameworks, then what are they?")&nbsp; Well, Paul's question is an excellent one (and the better of the two, I think), and it led me down this road in an attempt to put my money where my mouth is, as it were.&nbsp; So, here goes.&nbsp;&nbsp;&nbsp; I'd like to hear your opinions as to whether you agree or disagree with my analysis, what areas you'd like to have explored in further detail, and whether you think this fits in your own experiences.&nbsp; I've tried to keep this article brief (isn't that a welcome change?), and I'll leave it to the reader responses to determine if there's anything that needs elaboration.</p>
 <h2>Introduction</h2>
