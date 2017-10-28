@@ -155,6 +155,8 @@ Vue.js
     });
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 
+
+
 <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 ...</span>
 </code></pre>
