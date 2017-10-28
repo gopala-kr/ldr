@@ -519,3 +519,57 @@
 </table>
 
 *********************************
+
+
+<h3><span class="mw-headline" id="Ruby">Ruby</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Comparison_of_web_frameworks&amp;action=edit&amp;section=16" title="Edit section: Ruby">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div role="note" class="hatnote navigation-not-searchable">See also: <a href="/wiki/Ruby_(programming_language)" title="Ruby (programming language)">Ruby (programming language)</a></div>
+<table class="wikitable sortable" style="font-size: 90%">
+<tr>
+<th>Project</th>
+<th>Current stable version</th>
+<th>Release date</th>
+<th><a href="/wiki/Software_license" title="Software license">License</a></th>
+</tr>
+<tr>
+<th style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Camping_(microframework)" title="Camping (microframework)">Camping</a></th>
+<td>2.1</td>
+<td>2010-08-20</td>
+<td><a href="/wiki/MIT_License" title="MIT License">MIT</a></td>
+</tr>
+<tr>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Padrino_(web_framework)" title="Padrino (web framework)">Padrino</a></th>
+<td>0.13.2</td>
+<td>2016-05-09<sup id="cite_ref-changes_52-0" class="reference"><a href="#cite_note-changes-52">[52]</a></sup></td>
+<td><a href="/wiki/MIT_License" title="MIT License">MIT</a></td>
+</tr>
+<tr>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Ruby_on_Rails" title="Ruby on Rails">Ruby on Rails</a></th>
+<td>5.1.1</td>
+<td>2017-05-12<sup id="cite_ref-53" class="reference"><a href="#cite_note-53">[53]</a></sup></td>
+<td><a href="/wiki/MIT_License" title="MIT License">MIT</a></td>
+</tr>
+<tr>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Sinatra_(software)" title="Sinatra (software)">Sinatra</a></th>
+<td>2.0.0</td>
+<td>2017-05-07<sup id="cite_ref-54" class="reference"><a href="#cite_note-54">[54]</a></sup></td>
+<td><a href="/wiki/MIT_License" title="MIT License">MIT</a></td>
+</tr>
+<tr>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh">Hanami</th>
+<td>1.0.0</td>
+<td>2017-04-06<sup id="cite_ref-55" class="reference"><a href="#cite_note-55">[55]</a></sup></td>
+<td><a href="/wiki/MIT_License" title="MIT License">MIT</a></td>
+</tr>
+<tr>
+<th style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Merb" title="Merb">Merb</a></th>
+<td>1.1.3</td>
+<td>2010-07-10</td>
+<td><a href="/wiki/MIT_License" title="MIT License">MIT</a></td>
+</tr>
+<tr>
+<th style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/PureMVC" title="PureMVC">PureMVC</a></th>
+<td>2.0.4</td>
+<td>2008-08-14</td>
+<td><a href="/wiki/Creative_Commons_license" title="Creative Commons license">CC</a> +Attribution</td>
+</tr>
+</table>
