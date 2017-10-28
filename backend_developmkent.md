@@ -120,7 +120,7 @@ Combine public data from StackOverflow, LinkedIn, GitHub, and Google search, to 
 
 <div class="row text-center">
       		<div class="col-12">
-		  		<h5>Web Frameworks Index at a Glance</h5><br/>
+		  		<h4>Web Frameworks Index at a Glance</h4><br/>
 		  		<center>
 		  			<table class="zebra"> 
 						 <thead>
@@ -744,7 +744,7 @@ Combine public data from StackOverflow, LinkedIn, GitHub, and Google search, to 
 ****************************
 
 <table class="wikitable sortable">
-<h3> Programming languages used in most popular websites </h3>
+<h4> Programming languages used in most popular websites </h4>
 <tr>
  <br> 
 <th scope="col"><a href="https://en.wikipedia.org/wiki/Websites" class="mw-redirect" title="Websites">Websites</a></th>
