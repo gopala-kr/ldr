@@ -1,22 +1,22 @@
 
 
 <h3><span class="mw-headline" id="Java">Java</span></span></h3>
-<div role="note" class="hatnote navigation-not-searchable">See also: <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java (programming language)</a> and <a href="/wiki/Java_(software_platform)" title="Java (software platform)">Java (software platform)</a></div>
+<div role="note" class="hatnote navigation-not-searchable">See also: <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java (programming language)</a> and <a href="https://en.wikipedia.org/wiki/Java_(software_platform)" title="Java (software platform)">Java (software platform)</a></div>
 <table class="wikitable sortable" style="font-size: 90%">
 <tr>
 <th>Project</th>
 <th>Current stable version</th>
 <th>Release date</th>
-<th><a href="/wiki/License" title="License">License</a></th>
+<th><a href="https://en.wikipedia.org/wiki/License" title="License">License</a></th>
 </tr>
 <tr>
-<th style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Apache_Click" title="Apache Click">Apache Click</a></th>
+<th style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="https://en.wikipedia.org/wiki/Apache_Click" title="Apache Click">Apache Click</a></th>
 <td>2.3.0 (retired)</td>
 <td>2011-03-27</td>
 <td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free"><a href="https://en.wikipedia.org/wiki/Apache_Software_License" class="mw-redirect" title="Apache Software License">Apache</a> 2.0</td>
 </tr>
 <tr>
-<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Apache_OFBiz" title="Apache OFBiz">Apache OFBiz</a></th>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Apache_OFBiz" title="Apache OFBiz">Apache OFBiz</a></th>
 <td>13.07.03</td>
 <td>2016-04-04</td>
 <td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Apache 2.0</td>
@@ -34,7 +34,7 @@
 <td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Apache 2.0</td>
 </tr>
 <tr>
-<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Apache_Struts_2" title="Apache Struts 2">Apache Struts 2</a></th>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Apache_Struts_2" title="Apache Struts 2">Apache Struts 2</a></th>
 <td>2.5.13</td>
 <td>2017-09-05</td>
 <td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Apache 2.0</td>
@@ -67,13 +67,13 @@
 <th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Remote_Application_Platform" title="Remote Application Platform">Eclipse RAP</a></th>
 <td>3.1 M4</td>
 <td>2015-12-22</td>
-<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free"><a href="/wiki/Eclipse_Public_License" title="Eclipse Public License">Eclipse</a></td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free"><a href="https://en.wikipedia.org/wiki/Eclipse_Public_License" title="Eclipse Public License">Eclipse</a></td>
 </tr>
 <tr>
 <th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/FormEngine" title="FormEngine">FormEngine</a></th>
 <td>2.0.1 (dormant)</td>
 <td>2012-05-08</td>
-<td style="background: #ddf; vertical-align: middle; text-align: center;" class="table-proprietary"><a href="/wiki/Proprietary_software" title="Proprietary software">Proprietary</a></td>
+<td style="background: #ddf; vertical-align: middle; text-align: center;" class="table-proprietary"><a href="https://en.wikipedia.org/wiki/Proprietary_software" title="Proprietary software">Proprietary</a></td>
 </tr>
 <tr>
 <th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Grails_(framework)" title="Grails (framework)">Grails</a></th>
@@ -103,7 +103,7 @@
 <th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/JavaServer_Faces" title="JavaServer Faces">JavaServer Faces</a> (Mojarra)</th>
 <td>2.2.8</td>
 <td>2016-05-30</td>https://en.wikipedia.org
-<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free"><a href="/wiki/Common_Development_and_Distribution_License" title="Common Development and Distribution License">CDDL</a>, <a href="/wiki/GNU_General_Public_License" title="GNU General Public License">GNU GPL</a> 2, Apache 2.0</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free"><a href="https://en.wikipedia.org/wiki/Common_Development_and_Distribution_License" title="Common Development and Distribution License">CDDL</a>, <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License" title="GNU General Public License">GNU GPL</a> 2, Apache 2.0</td>
 </tr>
 <tr>
 <th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/JBoss_Seam" title="JBoss Seam">JBoss Seam</a></th>
@@ -127,13 +127,13 @@
 <th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/JWt_(Java_web_toolkit)" title="JWt (Java web toolkit)">JWt</a></th>
 <td>3.3.8</td>
 <td>2017-08-16</td>
-<td><a href="/wiki/GNU_General_Public_License" title="GNU General Public License">GNU GPL</a>, proprietary</td>
+<td><a href="https://en.wikipedia.org/wiki/GNU_General_Public_License" title="GNU General Public License">GNU GPL</a>, proprietary</td>
 </tr>
 <tr>
 <th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/OpenLaszlo" title="OpenLaszlo">OpenLaszlo</a></th>
 <td>4.9.0 (dormant)</td>
 <td>2010-10-21</td>
-<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free"><a href="/wiki/Common_Public_License" title="Common Public License">CPL</a></td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free"><a href="https://en.wikipedia.org/wiki/Common_Public_License" title="Common Public License">CPL</a></td>
 </tr>
 <tr>
 <th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/OpenXava" title="OpenXava">OpenXava</a></th>
@@ -205,7 +205,7 @@
 <th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/WebObjects" title="WebObjects">WebObjects</a></th>
 <td>5.4.3 (discontinued)</td>
 <td>2008-09-15</td>
-<td style="background: #ddf; vertical-align: middle; text-align: center;" class="table-proprietary"><a href="/wiki/Proprietary_software" title="Proprietary software">Proprietary</a></td>
+<td style="background: #ddf; vertical-align: middle; text-align: center;" class="table-proprietary"><a href="https://en.wikipedia.org/wiki/Proprietary_software" title="Proprietary software">Proprietary</a></td>
 </tr>
 <tr>
 <th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/WebWork" title="WebWork">WebWork</a></th>
