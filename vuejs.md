@@ -1,5 +1,6 @@
 <div id="container" class="ui fluid grid container">
 <div class="sixteen wide column">
+
 <div class="ui huge center aligned header">
 VueJs: The Basics
 <div class="sub header">
