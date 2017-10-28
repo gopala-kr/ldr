@@ -3,6 +3,7 @@
 
 <div class="ui huge center aligned header">
 VueJs: The Basics
+
 <div class="sub header">
 <div id="article-info" class="ui small horizontal divided list">
 <div class="item">
