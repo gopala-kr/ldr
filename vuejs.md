@@ -73,6 +73,8 @@ Vue.js
 <p>You can think of the <code>v-model</code> directive as any other HTML attribute. It creates 2-way data bindings on form input elements such as <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, and <code>&lt;select&gt;</code>. The value of the <code>v-model</code> directive is the data we wish to update on user input events. For this particular example, we are binding the <code>&lt;input&gt;</code> element to the <code>greeting</code> string that we have created in the Vue data object as shown below:</p>
 <pre><code class="hljs html">...
 
+
+
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"vue-instance"</span>&gt;</span>
   <span class="hljs-comment">&lt;!-- this will be the DOM element we will mount our VueJs instance to --&gt;</span>
   Enter a greeting: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">v-model</span>=<span class="hljs-string">"greeting"</span>&gt;</span>
