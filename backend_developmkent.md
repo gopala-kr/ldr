@@ -397,3 +397,125 @@
 </table>
 
 ************************
+
+
+<h3><span class="mw-headline" id="Python">Python</span></span></h3>
+<div role="note" class="hatnote navigation-not-searchable">See also: <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python (programming language)">Python (programming language)</a> and <a href="https://en.wikipedia.org/wiki/List_of_Python_software#Web_frameworks" title="List of Python software">List of Python software §&#160;Web frameworks</a></div>
+<table class="wikitable sortable" style="font-size: 90%">
+<tr>
+<th>Project</th>
+<th>Current stable version</th>
+<th>Release date</th>
+<th><a href="https://en.wikipedia.org/wiki/Software_license" title="Software license">License</a></th>
+</tr>
+<tr>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Bottle_(web_framework)" title="Bottle (web framework)">Bottle</a></th>
+<td>0.12.13</td>
+<td>2017-01-09<sup id="cite_ref-bottle_release_40-0" class="reference"><a href="#cite_note-bottle_release-40">[40]</a></sup></td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_license" class="mw-redirect" title="MIT license">MIT</a></td>
+</tr>
+<tr>
+<th style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="https://en.wikipedia.org/wiki/BlueBream" class="mw-redirect" title="BlueBream">BlueBream</a></th>
+<td>1.0</td>
+<td>2011-01-18</td>
+<td><a href="https://en.wikipedia.org/wiki/Zope_Public_License" title="Zope Public License">ZPL</a></td>
+</tr>
+<tr>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/CherryPy" title="CherryPy">CherryPy</a></th>
+<td>10.0.0</td>
+<td>2017-01-20<sup id="cite_ref-cp_release_41-0" class="reference"><a href="#cite_note-cp_release-41">[41]</a></sup></td>
+<td><a href="https://en.wikipedia.org/wiki/BSD_licenses" title="BSD licenses">BSD</a></td>
+</tr>
+<tr>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/CubicWeb" title="CubicWeb">CubicWeb</a></th>
+<td>3.22.2</td>
+<td>2016-02-23<sup id="cite_ref-cubicweb_release_42-0" class="reference"><a href="#cite_note-cubicweb_release-42">[42]</a></sup></td>
+<td><a href="https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License" title="GNU Lesser General Public License">LGPL</a></td>
+</tr>
+<tr>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Django_(web_framework)" title="Django (web framework)">Django</a></th>
+<td>1.11.5</td>
+<td>2017-09-06<sup id="cite_ref-43" class="reference"><a href="#cite_note-43">[43]</a></sup></td>
+<td>BSD</td>
+</tr>
+<tr>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Flask_(web_framework)" title="Flask (web framework)">Flask</a></th>
+<td>0.12</td>
+<td>2016-12-21<sup id="cite_ref-44" class="reference"><a href="#cite_note-44">[44]</a></sup></td>
+<td>BSD</td>
+</tr>
+<tr>
+<th style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="https://en.wikipedia.org/wiki/Google_App_Engine" title="Google App Engine">Google App Engine</a></th>
+<td>1.9.1</td>
+<td>2017-03-29</td>
+<td>LGPL, Proprietary</td>
+</tr>
+<tr>
+<th style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="https://en.wikipedia.org/wiki/Grok_(web_framework)" title="Grok (web framework)">Grok</a></th>
+<td>2.8</td>
+<td>2013-02-14<sup id="cite_ref-grok_release_45-0" class="reference"><a href="#cite_note-grok_release-45">[45]</a></sup></td>
+<td>ZPL</td>
+</tr>
+<tr>
+<th style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="https://en.wikipedia.org/wiki/Nagare_(web_framework)" title="Nagare (web framework)">Nagare</a></th>
+<td>0.4.1</td>
+<td>2012-01-18</td>
+<td>BSD</td>
+</tr>
+<tr>
+<th style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="https://en.wikipedia.org/wiki/Pyjs" title="Pyjs">Pyjs</a></th>
+<td>0.8.1a</td>
+<td>2012-05-06</td>
+<td><a href="https://en.wikipedia.org/wiki/Apache_License" title="Apache License">Apache</a></td>
+</tr>
+<tr>
+<th style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="https://en.wikipedia.org/wiki/Pylons_Framework" class="mw-redirect" title="Pylons Framework">Pylons</a></th>
+<td>1.0.2</td>
+<td>2015-07-21</td>
+<td>BSD</td>
+</tr>
+<tr>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Pyramid_(web_framework)" class="mw-redirect" title="Pyramid (web framework)">Pyramid</a></th>
+<td>1.7</td>
+<td>2016-05-19<sup id="cite_ref-pyramid-1.7-changes_46-0" class="reference"><a href="#cite_note-pyramid-1.7-changes-46">[46]</a></sup></td>
+<td>BSD</td>
+</tr>
+<tr>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/TACTIC_(web_framework)" title="TACTIC (web framework)">TACTIC</a></th>
+<td>4.4.0.v0v</td>
+<td>2016-05-19<sup id="cite_ref-47" class="reference"><a href="#cite_note-47">[47]</a></sup></td>
+<td>EPL</td>
+</tr>
+<tr>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Tornado_(web_server)" title="Tornado (web server)">Tornado</a></th>
+<td>4.3</td>
+<td>2015-11-06<sup id="cite_ref-48" class="reference"><a href="#cite_note-48">[48]</a></sup></td>
+<td>Apache</td>
+</tr>
+<tr>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/TurboGears" title="TurboGears">TurboGears</a></th>
+<td>2.3.10</td>
+<td>2016-12-04<sup id="cite_ref-49" class="reference"><a href="#cite_note-49">[49]</a></sup></td>
+<td>MIT, LGPL</td>
+</tr>
+<tr>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Web2py" title="Web2py">web2py</a></th>
+<td>2.14.6</td>
+<td>2016-05-10<sup id="cite_ref-50" class="reference"><a href="#cite_note-50">[50]</a></sup></td>
+<td><a href="https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License" title="GNU Lesser General Public License">LGPL3</a></td>
+</tr>
+<tr>
+<th style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="https://en.wikipedia.org/wiki/Webware_for_Python" title="Webware for Python">Webware</a></th>
+<td>1.1.1</td>
+<td>2013-01-18</td>
+<td><a href="https://en.wikipedia.org/wiki/Python_License" title="Python License">Python</a></td>
+</tr>
+<tr>
+<th style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Zope_2" class="mw-redirect" title="Zope 2">Zope 2</a></th>
+<td>2.13.26</td>
+<td>2017-02-20<sup id="cite_ref-51" class="reference"><a href="#cite_note-51">[51]</a></sup></td>
+<td>ZPL</td>
+</tr>
+</table>
+
+*********************************
