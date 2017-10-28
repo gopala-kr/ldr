@@ -116,11 +116,11 @@ Cons:
 
 ## Java Web Frameworks Index by [zeroturnaround](https://zeroturnaround.com/webframeworksindex/)
 
-Combine public data from StackOverflow, LinkedIn, GitHub, and Google search, to compute the popularity rank of each framework
+Combined public data from StackOverflow, LinkedIn, GitHub, and Google search, to compute the popularity rank of each framework
 
 <div class="row text-center">
       		<div class="col-12">
-		  		<h4>Web Frameworks Index at a Glance</h4><br/>
+		  		<h3>Web Frameworks Index at a Glance</h3><br/>
 		  		<center>
 		  			<table class="zebra"> 
 						 <thead>
@@ -744,7 +744,7 @@ Combine public data from StackOverflow, LinkedIn, GitHub, and Google search, to 
 ****************************
 
 <table class="wikitable sortable">
-<h4> Programming languages used in most popular websites </h4>
+<h3> Programming languages used in most popular websites </h3>
 <tr>
  <br> 
 <th scope="col"><a href="https://en.wikipedia.org/wiki/Websites" class="mw-redirect" title="Websites">Websites</a></th>
