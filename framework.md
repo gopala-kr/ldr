@@ -1,28 +1,6 @@
-<div id="ctl00_description" class="summary">An attempt to define what the term &amp;quot;framework&amp;quot; means.</div><span id="ctl00_thumbnailUrl" class="date" content="https://www.codeproject.com/KB/architecture/WhatIsAFramework/Thumb-5381.jpg"></span>			
-
-                    </div>
-                    
-					
-					
-
-					
-
-					
-					
-					
-
-						
-					
-
-					
-
-						
-						<div id="contentdiv" class="text">
-						
 
 
 
-<h2>Preface</h2>
 <p>The<a href="http://www.codeproject.com/script/survey/detail.asp?survey=326"> What is better? Smarter programmers or safer programming environments?</a> &nbsp; is the impetus for this article.&nbsp; After I stuck my foot in it (again), saying that .NET and MFC are not frameworks, Paul Watson asked one of the two obvious questions--"what is a framework?" (the other obvious question being, "If .NET and MFC are not frameworks, then what are they?")&nbsp; Well, Paul's question is an excellent one (and the better of the two, I think), and it led me down this road in an attempt to put my money where my mouth is, as it were.&nbsp; So, here goes.&nbsp;&nbsp;&nbsp; I'd like to hear your opinions as to whether you agree or disagree with my analysis, what areas you'd like to have explored in further detail, and whether you think this fits in your own experiences.&nbsp; I've tried to keep this article brief (isn't that a welcome change?), and I'll leave it to the reader responses to determine if there's anything that needs elaboration.</p>
 <h2>Introduction</h2>
 <p>From my perspective, a framework does several things:</p>
@@ -51,7 +29,7 @@
 <p>So, before talking about frameworks, we need to talk about wrappers, architectures, and methodologies.&nbsp; After that, I'm not sure what will be left to say about frameworks!</p>
 <h2>A Framework Is...</h2>
 <h3>A Wrapper</h3>
-<p><img height="159" src="/KB/architecture/WhatIsAFramework/wrapper.jpg" width="241" border="0"></p>
+<p><img height="159" src="https://www.codeproject.com/KB/architecture/WhatIsAFramework/wrapper.jpg" width="241" border="0"></p>
 <p>A wrapper is way of repackaging a function or set of functions (related or not) to achieve one or more of the following goals (probably incomplete):</p>
 <ul>
 <li>Simplification of use 
@@ -61,10 +39,10 @@
 <p>It's easy to fall into the idea that everything is a wrapper, just like saying "everything is relative" (which is untrue, because that statement itself is an absolute), but if you think about it, not everything is a wrapper.&nbsp; Most of MFC and .NET are wrappers are the core API's.&nbsp; Some are laughably so, providing classes that merely wrap messages into inline methods.&nbsp; Other wrappers are more complex.&nbsp; For example, I've written a wrapper for the Visio COM object that takes all the grunt work out of using Visio's primitive functions (primitive in the sense of "fundamental", as opposed to "poorly implemented") to do basic things like drop shapes, connect shapes, and read a shape collection.</p>
 <p>But then, you get into implementation that truly provides new functionality.&nbsp; Yes, it utilizes other objects, other API's, even other wrappers, but it isn't a wrapper in itself because it does something totally new, rather than just adding to, subtracting from, or managing a collection of existing work.&nbsp; A wrapper modifies existing behavior.&nbsp; There's a lot of code out there that creates new behavior (thus becoming subject to </p>
 <h3>An Architecture</h3>
-<p><img height="170" src="/KB/architecture/WhatIsAFramework/architecture.jpg" width="289" border="0"></p>
+<p><img height="170" src="https://www.codeproject.com/KB/architecture/WhatIsAFramework/architecture.jpg" width="289" border="0"></p>
 <p>An architecture is a style that incorporates specific design elements.&nbsp; Obviously, a framework needs to have a design.&nbsp; Its architecture is separate from the collection of wrappers that it implements and from the enforcement of a specific implementation methodology.&nbsp; MFC's document-view classes are an architecture.&nbsp; Essentially, an architecture implements associations between objects--inheritance, container, proxy, collection, etc.&nbsp; Architectures have the interesting attribute that, if you don't like them, you can usually ignore them or replace them (at least at the beginning of a project).&nbsp; Architectures can and are useful because they create a re-usable structure (a collection of objects) that provide some enhanced functionality, but once you start using them, you're pretty much stuck with them unless you do some major refactoring.</p>
 <h3>A Methodology</h3>
-<p><img height="194" src="/KB/architecture/WhatIsAFramework/methodology.jpg" width="337" border="0"></p>
+<p><img height="194" src="https://www.codeproject.com/KB/architecture/WhatIsAFramework/methodology.jpg" width="337" border="0"></p>
 <p>Let's look at this word:</p>
 <ul>
 <li>Method - a way of doing something 
@@ -119,4 +97,3 @@
 <p>By thinking about what a framework is, I think I've come up with a fairly good analysis of the subject as an introductory topic.&nbsp; Maybe what I'm talking about is something different from a framework, but in my mind, this is what a framework should be and do.&nbsp; There are a lot of different ideas out there as to what a framework is, so now you have mine as well.</p>
 
 
-						</div>
