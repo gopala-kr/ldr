@@ -317,8 +317,12 @@ Lets explore one popular java framework in detail to undestand how easier the we
 
 ***********************************
 ## Spring Framework
-****************
 
+ | HN        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA |  Online-Courses (pivotal) | Official docs|
+| ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|
+|  [spring-framework](https://hn.algolia.com/?query=spring%20framework&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [spring-framework](https://medium.com/tag/spring-framework)  | [spring-framework](https://www.reddit.com/r/springsource/)  | [spring-framework](https://www.quora.com/topic/Spring-Framework-1)  |  [spring-framework](https://stackoverflow.com/questions/tagged/spring+spring-mvc)      |* [spring-framework](https://pivotal.io/training/learning-paths)  * [spring-framework](https://www.lynda.com/search?q=spring+framework)|[spring-framework](https://docs.spring.io/spring/docs/current/spring-framework-reference/index.html)  |
+
+****************
 Spring is the most popular application development framework for enterprise Java. Millions of developers around the world use Spring Framework to create high performing, easily testable, and reusable code.
 
 Spring framework is an open source Java platform. It was initially written by Rod Johnson and was first released under the Apache 2.0 license in June 2003.
@@ -327,32 +331,17 @@ Spring is lightweight when it comes to size and transparency. The basic version 
 
 The core features of the Spring Framework can be used in developing any Java application, but there are extensions for building web applications on top of the Java EE platform. Spring framework targets to make J2EE development easier to use and promotes good programming practices by enabling a POJO-based programming model.
 
-### Dependency Injection (DI)
-
-The technology that Spring is most identified with is the Dependency Injection (DI) flavor of Inversion of Control. The Inversion of Control (IoC) is a general concept, and it can be expressed in many different ways. Dependency Injection is merely one concrete example of Inversion of Control.
-
-When writing a complex Java application, application classes should be as independent as possible of other Java classes to increase the possibility to reuse these classes and to test them independently of other classes while unit testing. Dependency Injection helps in gluing these classes together and at the same time keeping them independent.
-
-What is dependency injection exactly? Let's look at these two words separately. Here the dependency part translates into an association between two classes. For example, class A is dependent of class B. Now, let's look at the second part, injection. All this means is, class B will get injected into class A by the IoC.
-
-Dependency injection can happen in the way of passing parameters to the constructor or by post-construction using setter methods. As Dependency Injection is the heart of Spring Framework, we will explain this concept in a separate chapter with relevant example.
-
-### Aspect Oriented Programming (AOP)
-
-One of the key components of Spring is the Aspect Oriented Programming (AOP) framework. The functions that span multiple points of an application are called cross-cutting concerns and these cross-cutting concerns are conceptually separate from the application's business logic. There are various common good examples of aspects including logging, declarative transactions, security, caching, etc.
-
-The key unit of modularity in OOP is the class, whereas in AOP the unit of modularity is the aspect. DI helps you decouple your application objects from each other, while AOP helps you decouple cross-cutting concerns from the objects that they affect.
-
-The AOP module of Spring Framework provides an aspect-oriented programming implementation allowing you to define method-interceptors and pointcuts to cleanly decouple code that implements functionality that should be separated. We will discuss more about Spring AOP concepts in a separate chapter.
 
 ### Spring Framework - Architecture
+
 Spring could potentially be a one-stop shop for all your enterprise applications. However, Spring is modular, allowing you to pick and choose which modules are applicable to you, without having to bring in the rest. The following section provides details about all the modules available in Spring Framework.
 
 The Spring Framework provides about 20 modules which can be used based on an application requirement.
-![Spring Framework - Architecture](https://www.tutorialspoint.com/spring/images/spring_architecture.png)
+![Spring Framework - Architecture](http://www.multisoftsystems.com/blog/wp-content/uploads/2014/09/Spring-Farme-Work.png)
+
 **Core Container**
 
-The Core Container consists of the Core, Beans, Context, and Expression Language modules the details of which are as follows −
+The Core Container consists of the Core, Beans, Context, and Expression Language modules the details of which are as follows 
 
 * The Core module provides the fundamental parts of the framework, including the IoC and Dependency Injection features.
 
@@ -377,7 +366,8 @@ The Data Access/Integration layer consists of the JDBC, ORM, OXM, JMS and Transa
 * The Transaction module supports programmatic and declarative transaction management for classes that implement special interfaces and for all your POJOs.
 
 **Web**
-The Web layer consists of the Web, Web-MVC, Web-Socket, and Web-Portlet modules the details of which are as follows −
+
+The Web layer consists of the Web, Web-MVC, Web-Socket, and Web-Portlet modules the details of which are as follows 
 
 * The Web module provides basic web-oriented integration features such as multipart file-upload functionality and the initialization of the IoC container using servlet listeners and a web-oriented application context.
 
@@ -399,9 +389,23 @@ There are few other important modules like AOP, Aspects, Instrumentation, Web an
 
 * The Test module supports the testing of Spring components with JUnit or TestNG frameworks.
 
- | HN        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA |  Online-Courses (pivotal) | Official docs|
-| ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|
-|  [spring-framework](https://hn.algolia.com/?query=spring%20framework&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [spring-framework](https://medium.com/tag/spring-framework)  | [spring-framework](https://www.reddit.com/r/springsource/)  | [spring-framework](https://www.quora.com/topic/Spring-Framework-1)  |  [spring-framework](https://stackoverflow.com/questions/tagged/spring+spring-mvc)      |* [spring-framework](https://pivotal.io/training/learning-paths)  * [spring-framework](https://www.lynda.com/search?q=spring+framework)|[spring-framework](https://docs.spring.io/spring/docs/current/spring-framework-reference/index.html)  |
+### Dependency Injection (DI)
+
+The technology that Spring is most identified with is the Dependency Injection (DI) flavor of Inversion of Control. The Inversion of Control (IoC) is a general concept, and it can be expressed in many different ways. Dependency Injection is merely one concrete example of Inversion of Control.
+
+When writing a complex Java application, application classes should be as independent as possible of other Java classes to increase the possibility to reuse these classes and to test them independently of other classes while unit testing. Dependency Injection helps in gluing these classes together and at the same time keeping them independent.
+
+What is dependency injection exactly? Let's look at these two words separately. Here the dependency part translates into an association between two classes. For example, class A is dependent of class B. Now, let's look at the second part, injection. All this means is, class B will get injected into class A by the IoC.
+
+Dependency injection can happen in the way of passing parameters to the constructor or by post-construction using setter methods. As Dependency Injection is the heart of Spring Framework, we will explain this concept in a separate chapter with relevant example.
+
+### Aspect Oriented Programming (AOP)
+
+One of the key components of Spring is the Aspect Oriented Programming (AOP) framework. The functions that span multiple points of an application are called cross-cutting concerns and these cross-cutting concerns are conceptually separate from the application's business logic. There are various common good examples of aspects including logging, declarative transactions, security, caching, etc.
+
+The key unit of modularity in OOP is the class, whereas in AOP the unit of modularity is the aspect. DI helps you decouple your application objects from each other, while AOP helps you decouple cross-cutting concerns from the objects that they affect.
+
+The AOP module of Spring Framework provides an aspect-oriented programming implementation allowing you to define method-interceptors and pointcuts to cleanly decouple code that implements functionality that should be separated. We will discuss more about Spring AOP concepts in a separate chapter.
 
 **********
 ### Java Web Frameworks Index
