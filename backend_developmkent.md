@@ -5,7 +5,7 @@
 ------------------
 <br>
 ![www](http://malonemediagroup.com/wp-content/uploads/2014/02/historyoftheinternet-timeline.png)
-********************
+
 
 **A look into brief history of social media** 
 -----------------
@@ -18,7 +18,7 @@
 ----------------
 <br>
 ![webframeworks](https://raw.githubusercontent.com/mraible/history-of-web-frameworks-timeline/master/history-of-web-frameworks-timeline.png)
-***********************
+
 
 
 ****************
@@ -79,9 +79,10 @@ Marginal Benefit >>> Marginal Cost
 there is a best article on [framework](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/framework.md)
 
 *******************************
-### A look into java timelines
+A look into java timelines
 -----------------------
 <br>
+
 ![java](https://image.slidesharecdn.com/javanturav2-theroadtojava-hujakoraclecroatia-brankomihaljevialeksanderradovandukovukmanovi-141130060735-conversion-gate01/95/javantura-v2-the-road-to-java-hujak-oracle-croatia-branko-mihaljevi-aleksander-radovan-duko-vukmanovi-3-638.jpg)
 
 
