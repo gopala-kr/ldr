@@ -51,6 +51,10 @@ Why not use Rich Client Application (WPF, JavaFx, Flex) as view
 * For client/server solution, developers need to handle the communication which means to change current system significantly to expose interface to new client.
 * Hard to interact between rich client with an existing web based application which make the migration difficult.
 
+**A look into java timelines**
+
+![java](https://image.slidesharecdn.com/javanturav2-theroadtojava-hujakoraclecroatia-brankomihaljevialeksanderradovandukovukmanovi-141130060735-conversion-gate01/95/javantura-v2-the-road-to-java-hujak-oracle-croatia-branko-mihaljevi-aleksander-radovan-duko-vukmanovi-27-638.jpg?cb=1417328508)
+
 ### History of Java Web Technology
 
 * Servlet (version 2.1) 1998
