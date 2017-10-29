@@ -572,24 +572,46 @@ Some article on spring project structure:
 
 ******************************************
 ## PHP
+> ## Brief history of PHP
 
-PHP or Hypertext Preprocessor is a highly popular server-side scripting language. It is very flexible and has a lot of innovative features. It is the fastest resource available for creating database–enabled dynamic websites. All the features and updates of PHP are available free of cost.
+> Rasmus Lerdorf (left), who wrote the original Common Gateway Interface (CGI) component, together with Andi Gutmans (middle) and Zeev Suraski (right), who rewrote the parser that formed PHP 3.
 
-PHP code is well organized and can be easily embedded into HTML code. It works on all major operating systems like Linux, Windows, Unix and Mac OS, and it supports main web and enterprise servers like Apache, Netscape, Microsoft IIS, etc. Moreover, it is easier to troubleshoot problems in PHP when compared to other languages.
+PHP development began in 1995 when Rasmus Lerdorf wrote several Common Gateway Interface (CGI) programs in C, which he used to maintain his personal homepage. He extended them to work with web forms and to communicate with databases, and called this implementation "Personal Home Page/Forms Interpreter" or PHP/FI.
 
-For a web developer, designing a complex, yet attractive website in a short span of time is a big challenge. This is where PHP frameworks prove to be useful. Frameworks can be used to develop websites of all sizes and complexity. The most popular ones include WordPress, Laravel, Symfony, CodeIgniter and Phalcon, to name a few.
+> PHP/FI could help to build simple, dynamic web applications. To accelerate bug reporting and to improve the code, Lerdorf initially announced the release of PHP/FI as "Personal Home Page Tools (PHP Tools) version 1.0" on the Usenet discussion group comp.infosystems.www.authoring.cgi on June 8, 1995. This release already had the basic functionality that PHP has as of 2013. This included Perl-like variables, form handling, and the ability to embed HTML. The syntax resembled that of Perl but was simpler, more limited and less consistent.
 
-PHP was created by Rasmus Lerdorf in 1994 and was publicly released in June 1995. Back then, it was the abbreviated form of Personal Home Page tools. After two years, in 1997, it entered public domain as PHP/F1 2.0. A year later, two programmers, Zeev Suraski and Andi Gutmans, rewrote the base of the original version and launched PHP 3.
+> Lerdorf did not intend the early PHP to become a new programming language, but it grew organically, with Lerdorf noting in retrospect: "I don’t know how to stop it, there was never any intent to write a programming language […] I have absolutely no idea how to write a programming language, I just kept adding the next logical step on the way." A development team began to form and, after months of work and beta testing, officially released PHP/FI 2 in November 1997.
 
-PHP 4, which came out in 2000, incorporated a scripting engine named Zend Engine that was designed by Suraski and Gutmans. Three more major versions with some sub-versions were launched in the later years with the latest version 7.0 released in 2015.
+> The fact that PHP lacked an original overall design but instead developed organically has led to inconsistent naming of functions and inconsistent ordering of their parameters. In some cases, the function names were chosen to match the lower-level libraries which PHP was "wrapping", while in some very early versions of PHP the length of the function names was used internally as a hash function, so names were chosen to improve the distribution of hash values.
 
-Two decades after its inception, PHP has registered a phenomenal growth and is still going strong. Today, it controls over 80% of all the websites on the globe. This includes majors like Facebook, Wikipedia and WordPress among others.
-The following infographic gives you an idea about the timeline and major features of all the PHP versions.
+> **PHP 3 and 4**
+> PHP 3.0 is the successor of PHP/FI 2.0. Zeev Suraski and Andi Gutmans rewrote the parser in 1997 and formed the base of PHP 3, changing the language's name to the recursive acronym PHP: Hypertext Preprocessor. Afterwards, public testing of PHP 3 began, and the official launch came in June 1998. Suraski and Gutmans then started a new rewrite of PHP's core, producing the Zend Engine in 1999.They also founded Zend Technologies in Ramat Gan, Israel.
 
-![php-history](https://cdn-images-1.medium.com/max/1600/0*6HBwv8LTt-AZy6cZ.png)
-<h3><span class="mw-headline" id="PHP">List of PHP Web Frameworks</span></span></span></h3>
+> On May 22, 2000, PHP 4, powered by the Zend Engine 1.0, was released. As of August 2008 this branch reached version 4.4.9. PHP 4 is no longer under development nor will any security updates be released.
+
+> **PHP 5**
+On July 13, 2004, PHP 5 was released, powered by the new Zend Engine II. PHP 5 included new features such as improved support for object-oriented programming, the PHP Data Objects (PDO) extension (which defines a lightweight and consistent interface for accessing databases), and numerous performance enhancements. In 2008 PHP 5 became the only stable version under development. Late static binding had been missing from PHP and was added in version 5.3.
+
+> Many high-profile open-source projects ceased to support PHP 4 in new code as of February 5, 2008, because of the GoPHP5 initiative, provided by a consortium of PHP developers promoting the transition from PHP 4 to PHP 5.
+
+> Over time, PHP interpreters became available on most existing 32-bit and 64-bit operating systems, either by building them from the PHP source code, or by using pre-built binaries. For the PHP versions 5.3 and 5.4, the only available Microsoft Windows binary distributions were 32-bit x86 builds, requiring Windows 32-bit compatibility mode while using Internet Information Services (IIS) on a 64-bit Windows platform. PHP version 5.5 made the 64-bit x86-64 builds available for Microsoft Windows.
+
+> **PHP 6 and Unicode**
+PHP has received criticism due to lacking native Unicode support at the core language level, instead only supporting byte strings. In 2005, a project headed by Andrei Zmievski was initiated to bring native Unicode support throughout PHP, by embedding the International Components for Unicode (ICU) library, and representing text strings as UTF-16 internally.Since this would cause major changes both to the internals of the language and to user code, it was planned to release this as version 6.0 of the language, along with other major features then in development.[36]
+
+> However, a shortage of developers who understood the necessary changes, and performance problems arising from conversion to and from UTF-16, which is rarely used in a web context, led to delays in the project. As a result, a PHP 5.3 release was created in 2009, with many non-Unicode features back-ported from PHP 6, notably namespaces. In March 2010, the project in its current form was officially abandoned, and a PHP 5.4 release was prepared containing most remaining non-Unicode features from PHP 6, such as traits and closure re-binding. Initial hopes were that a new plan would be formed for Unicode integration, but as of 2014 none had been adopted.
+
+> **PHP 7**
+During 2014 and 2015, a new major PHP version was developed, which was numbered PHP 7. The numbering of this version involved some debate. While the PHP 6 Unicode experiment had never been released, several articles and book titles referenced the PHP 6 name, which might have caused confusion if a new release were to reuse the name.After a vote, the name PHP 7 was chosen.
+
+> The foundation of PHP 7 is a PHP branch that was originally dubbed PHP next generation (phpng). It was authored by Dmitry Stogov, Xinchen Hui and Nikita Popov, and aimed to optimize PHP performance by refactoring the Zend Engine to use more compact data structures with improved cache locality while retaining near-complete language compatibility. As of 14 July 2014, WordPress-based benchmarks, which served as the main benchmark suite for the phpng project, showed an almost 100% increase in performance. Changes from phpng are also expected to make it easier to improve performance in the future, as more compact data structures and other changes are seen as better suited for a successful migration to a just-in-time (JIT) compiler. Because of the significant changes, the reworked Zend Engine is called Zend Engine 3, succeeding Zend Engine 2 used in PHP 5.
+
+> Because of major internal changes in phpng, it must receive a new major version number of PHP, rather than a minor PHP 5 release, according to PHP's release process. Major versions of PHP are allowed to break backward-compatibility of code and therefore PHP 7 presented an opportunity for other improvements beyond phpng that require backward-compatibility breaks, including wider use of exceptions, reworking variable syntax to be more consistent and complete,and the deprecation or removal of various legacy features.
+
+> PHP 7 also introduced new language features, including return type declarations for functions,which complement the existing parameter type declarations, and support for the scalar types (integer, float, string, and boolean) in parameter and return type declarations.
 
 *******************
+## Lits of PHP Web Frameworks
 <p>Source: Wikipedia</P>
 
 <div role="note" class="hatnote navigation-not-searchable">Wiki: <a href="https://en.wikipedia.org/wiki/PHP" title="PHP">PHP</a></div>
