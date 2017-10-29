@@ -12,18 +12,13 @@
 ***********************
 
 
+**A look into java timelines**
+
+![java](https://image.slidesharecdn.com/javanturav2-theroadtojava-hujakoraclecroatia-brankomihaljevialeksanderradovandukovukmanovi-141130060735-conversion-gate01/95/javantura-v2-the-road-to-java-hujak-oracle-croatia-branko-mihaljevi-aleksander-radovan-duko-vukmanovi-27-638.jpg?cb=1417328508)
 
 
 
-
-
-
-
-
-
-
-
-
+****************
 
 
 
@@ -51,23 +46,7 @@ Why not use Rich Client Application (WPF, JavaFx, Flex) as view
 * For client/server solution, developers need to handle the communication which means to change current system significantly to expose interface to new client.
 * Hard to interact between rich client with an existing web based application which make the migration difficult.
 
-**A look into java timelines**
-
-![java](https://image.slidesharecdn.com/javanturav2-theroadtojava-hujakoraclecroatia-brankomihaljevialeksanderradovandukovukmanovi-141130060735-conversion-gate01/95/javantura-v2-the-road-to-java-hujak-oracle-croatia-branko-mihaljevi-aleksander-radovan-duko-vukmanovi-27-638.jpg?cb=1417328508)
-
-### History of Java Web Technology
-
-* Servlet (version 2.1) 1998
-* JSP – 1999
-* JSP Tag – 2002 (first implementation from Apache)
-* Struts (Current 2.3.4)--- 2002, 1.1 in 2003, 1.3.8 in 2007
-* Struts 2 – 2006 (renamed from webwork 2)
-* Spring MVC (Current 3.1) – 2005
-* Tapestry (Current 5.3.4): 3 – 2003/2004, 4 – 2006, 5 -- 2008
-* JSF 1.0 –2004, 1.2 – 2006, 2.0 – 2009, 2.1 – 2010
-* GWT: 1.0 – 2006, 2.5.0 –2012
-
-**What we are looking for from a good web framework**
+**What we are looking for from a good web framework?**
 
 * Strong data binding
 * Easy component extension and customization
@@ -99,6 +78,7 @@ Marginal Benefit >>> Marginal Cost
 
 there is a best article on [framework](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/framework.md)
 
+*******************************
 ## Java Web Frameworks Index
 
 Combined public data from StackOverflow, LinkedIn, GitHub, and Google search, to compute the popularity rank of each framework
