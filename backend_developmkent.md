@@ -1018,17 +1018,206 @@ Articles discusses on app stucture:
 
 Lets explore project structure of python frameworks: Flask, Django & 
 *********
+## Flask
 
-## Djnago
+ | HackerNews        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Ofiicial docs|
+| ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
+|  [flask](https://hn.algolia.com/?query=flask&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [flask](https://medium.com/tag/flask)  | [flask](https://www.reddit.com/r/flask/) | [flask](https://www.quora.com/topic/Flask-Python-framework)  |  [flask](https://stackoverflow.com/questions/tagged/flask)    | [flask](https://github.com/humiaozuzu/awesome-flask)  | [flask](https://www.lynda.com/Flask-tutorials/11121-0.html)  |[flask](http://flask.pocoo.org/)  |
+
+
+<div class="section" id="organizing-your-project">
+<h1>Organizing your project<a class="headerlink" href="#organizing-your-project" title="Permalink to this headline">¶</a></h1>
+<img alt="Organizing your project" src="_images/organizing.png" />
+<p>Flask leaves the organization of your application up to you. This is one
+of the reasons I liked Flask as a beginner, but it does mean that you
+have to put some thought into how to structure your code. You could put
+your entire application in one file, or have it spread across multiple
+packages. There are a few organizational patterns that you can follow to
+make development and deployment easier.</p>
+<div class="section" id="definitions">
+<h2>Definitions<a class="headerlink" href="#definitions" title="Permalink to this headline">¶</a></h2>
+<p>Let&#8217;s define some of the terms that we&#8217;ll run into in this chapter.</p>
+<p><strong>Repository</strong> - This is the base folder where your applications sits.
+This term traditionally refers to version control systems, which you
+should be using. When I refer to your repository in this chapter, I&#8217;m
+talking about the root directory of your project. You probably won&#8217;t
+need to leave this directory when working on your application.</p>
+<p><strong>Package</strong> - This refers to a Python package that contains your
+application&#8217;s code. I&#8217;ll talk more about setting up your app as a
+package in this chapter, but for now just know that the package is a
+sub-directory of the repository.</p>
+<p><strong>Module</strong> - A module is a single Python file that can be imported by
+other Python files. A package is essentially multiple modules packaged
+together.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<ul class="last simple">
+<li>Read more about Python modules in <a class="reference external" href="http://docs.python.org/2/tutorial/modules.html">Python tutorial</a>.</li>
+<li>That same page has a <a class="reference external" href="http://docs.python.org/2/tutorial/modules.html#packages">section on packages</a>.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="organization-patterns">
+<h2>Organization patterns<a class="headerlink" href="#organization-patterns" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="single-module">
+<h3>Single module<a class="headerlink" href="#single-module" title="Permalink to this headline">¶</a></h3>
+<p>A lot of the Flask examples that you&#8217;ll come across will keep all of the
+code in a single file, often <em>app.py</em>. This is great for quick projects
+(like the ones used for tutorials), where you just need to serve a few
+routes and you&#8217;ve got less than a few hundred lines of application code.</p>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="n">app</span><span class="o">.</span><span class="n">py</span>
+<span class="n">config</span><span class="o">.</span><span class="n">py</span>
+<span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
+<span class="n">static</span><span class="o">/</span>
+<span class="n">templates</span><span class="o">/</span>
+</pre></div>
+</td></tr></table></div>
+<p>Application logic would sit in <em>app.py</em> for the example in Listing~.</p>
+</div>
+<div class="section" id="package">
+<h3>Package<a class="headerlink" href="#package" title="Permalink to this headline">¶</a></h3>
+<p>When you&#8217;re working on a project that&#8217;s a little more complex, a single
+module can get messy. You&#8217;ll need to define classes for models and
+forms, and they&#8217;ll get mixed in with the code for your routes and
+configuration. All of this can frustrate development. To solve this
+problem, we can factor out the different components of our app into a
+group of inter-connected modules — a package.</p>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="n">config</span><span class="o">.</span><span class="n">py</span>
+<span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
+<span class="n">run</span><span class="o">.</span><span class="n">py</span>
+<span class="n">instance</span><span class="o">/</span>
+    <span class="n">config</span><span class="o">.</span><span class="n">py</span>
+<span class="n">yourapp</span><span class="o">/</span>
+    <span class="fm">__init__</span><span class="o">.</span><span class="n">py</span>
+    <span class="n">views</span><span class="o">.</span><span class="n">py</span>
+    <span class="n">models</span><span class="o">.</span><span class="n">py</span>
+    <span class="n">forms</span><span class="o">.</span><span class="n">py</span>
+    <span class="n">static</span><span class="o">/</span>
+    <span class="n">templates</span><span class="o">/</span>
+</pre></div>
+</td></tr></table></div>
+<p>The structure shown in this listing allows you to group the different
+components of your application in a logical way. The class definitions
+for models are together in <em>models.py</em>, the route definitions are in
+<em>views.py</em> and forms are defined in <em>forms.py</em> (we have a whole chapter
+for forms later).</p>
+<p>This table provides a basic rundown of the components you&#8217;ll find in most
+Flask applications. You&#8217;ll probably end up with a lot of other files in
+your repository, but these are common to most Flask applications.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>run.py</td>
+<td>This is the file that is invoked to start up a development
+server. It gets a copy of the app from your package and runs
+it. This won&#8217;t be used in production, but it will see a lot
+of mileage in development.</td>
+</tr>
+<tr class="row-even"><td>requirements.txt</td>
+<td>This file lists all of the Python packages that your app
+depends on. You may have separate files for production and
+development dependencies.</td>
+</tr>
+<tr class="row-odd"><td>config.py</td>
+<td>This file contains most of the configuration variables that
+your app needs.</td>
+</tr>
+<tr class="row-even"><td>/instance/config.py</td>
+<td>This file contains configuration variables that shouldn&#8217;t
+be in version control. This includes things like API keys
+and database URIs containing passwords. This also contains
+variables that are specific to this particular instance of
+your application. For example, you might have <code class="docutils literal"><span class="pre">DEBUG</span> <span class="pre">=</span> <span class="pre">False</span></code>
+in config.py, but set <code class="docutils literal"><span class="pre">DEBUG</span> <span class="pre">=</span> <span class="pre">True</span></code> in instance/config.py on
+your local machine for development. Since this file will be
+read in after config.py, it will override it and set
+<code class="docutils literal"><span class="pre">DEBUG</span> <span class="pre">=</span> <span class="pre">True</span></code>.</td>
+</tr>
+<tr class="row-odd"><td>/yourapp/</td>
+<td>This is the package that contains your application.</td>
+</tr>
+<tr class="row-even"><td>/yourapp/__init__.py</td>
+<td>This file initializes your application and brings together
+all of the various components.</td>
+</tr>
+<tr class="row-odd"><td>/yourapp/views.py</td>
+<td>This is where the routes are defined. It may be split into
+a package of its own (<em>yourapp/views/</em>) with related
+views grouped together into modules.</td>
+</tr>
+<tr class="row-even"><td>/yourapp/models.py</td>
+<td>This is where you define the models of your application.
+This may be split into several modules in the same way as
+views.py.</td>
+</tr>
+<tr class="row-odd"><td>/yourapp/static/</td>
+<td>This directory contains the public CSS, JavaScript, images and
+other files that you want to make public via your app. It
+is accessible from yourapp.com/static/ by default.</td>
+</tr>
+<tr class="row-even"><td>/yourapp/templates/</td>
+<td>This is where you&#8217;ll put the Jinja2 templates for your app.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="blueprints">
+<h3>Blueprints<a class="headerlink" href="#blueprints" title="Permalink to this headline">¶</a></h3>
+<p>At some point you may find that you have a lot of related routes. If
+you&#8217;re like me, your first thought will be to split <em>views.py</em> into a
+package and group those views into modules. When you&#8217;re at this point,
+it may be time to factor your application into blueprints.</p>
+<p>Blueprints are essentially components of your app defined in a somewhat
+self-contained manner. They act as apps within your application. You
+might have different blueprints for the admin panel, the front-end and
+the user dashboard. This lets you group views, static files and
+templates by components, while letting you share models, forms and other
+aspects of your application between these components. We&#8217;ll talk about
+using Blueprints to organize your application soon.</p>
+</div>
+</div>
+<div class="section" id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Using a single module for your application is good for quick
+projects.</li>
+<li>Using a package for your application is good for projects with views,
+models, forms and other components.</li>
+<li>Blueprints are a great way to organize projects with several distinct
+components.</li>
+</ul>
+</div>
+
+********************
+
+## Django
 
  | HackerNews        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Official docs|
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
-|  [django]()  | [django](https://medium.com/tag/django) | [django](https://www.reddit.com/r/django/)  | [django](https://www.quora.com/topic/Django-web-framework) |  [django](https://stackoverflow.com/questions/tagged/django)    | [django](https://github.com/rosarior/awesome-django), [awesome-python](https://github.com/vinta/awesome-python)  | [django](https://www.lynda.com/Django-tutorials/8494-0.html),   |[django](https://www.djangoproject.com/)  |
+|  [django](https://hn.algolia.com/?query=django&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [django](https://medium.com/tag/django) | [django](https://www.reddit.com/r/django/)  | [django](https://www.quora.com/topic/Django-web-framework) |  [django](https://stackoverflow.com/questions/tagged/django)    | [django](https://github.com/rosarior/awesome-django), [awesome-python](https://github.com/vinta/awesome-python)  | [django](https://www.lynda.com/Django-tutorials/8494-0.html),   |[django](https://www.djangoproject.com/)  |
 
 
 
 <div class="section" id="project-structure">
-<span id="label-project-structure"></span><h1>Project Structure<a class="headerlink" href="#project-structure" title="Permalink to this headline">¶</a></h1>
+<span id="label-project-structure"></span><h2>Project Structure<a class="headerlink" href="#project-structure" title="Permalink to this headline">¶</a></h2>
 <p>The <em>normal</em> Django workflow, as it is described <a class="reference external" href="https://docs.djangoproject.com/en/1.8/intro/tutorial01/#creating-a-project">in the official Django
 tutorial</a>
 starts a project with the command:</p>
@@ -1226,6 +1415,8 @@ for more details. <a class="reference internal" href="settings.html#label-projec
 </div>
 
 *********************************
+## Ruby
+
 <h2><span class="mw-headline" id="History">Brief History of Ruby</span></span></h2>
 <h3><span class="mw-headline" id="Early_concept">Early concept</span></span></h3>
 <p>Ruby was conceived on February 24, 1993. In a 1999 post to the <i>ruby-talk</i> mailing list, Ruby author Yukihiro Matsumoto describes some of his early ideas about the language:<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">[12]</a></sup></p>
@@ -1390,6 +1581,323 @@ for more details. <a class="reference internal" href="settings.html#label-projec
 <td><a href="https://en.wikipedia.org/wiki/Creative_Commons_license" title="Creative Commons license">CC</a> +Attribution</td>
 </tr>
 </table>
+
+Lets explore ruby frameworks rails and sinatra
+*************************
+## Rails
+
+ | HackerNews       | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Official docs|
+| ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
+|  [Rails](https://hn.algolia.com/?query=rails&sort=byPopularity&prefix&page=0&dateRange=all&type=story)   | [Rails](https://medium.com/tag/ruby-on-rails)  |  [Rails](https://www.reddit.com/r/rails/)    | [Rails](https://stackoverflow.com/questions/tagged/ruby-on-rails) | [Rails](https://www.quora.com/topic/Ruby-on-Rails-web-framework) | [Rails](https://github.com/markets/awesome-ruby), [rails-gem](https://github.com/hothero/awesome-rails-gem) | [Rails](https://www.lynda.com/Ruby-on-Rails-training-tutorials/304-0.html)  |[Rails](http://rubyonrails.org/)  |
+
+## Ruby on rails project structure
+
+<p>To create a new Rails app, all we have to do is run the following command:</p>
+<pre><code>rails new sample_app
+</code></pre>
+<p>The above command generates the directory structure that we&rsquo;re discussing today. It <em>might</em> change if you are using an older version of Rails. This article is based on the latest Rails version which, as of this writing, is <code>4.2.4</code>. You can find the version installed in your system by typing this in the console</p>
+<pre><code>rails version
+=&gt; Rails 4.2.4
+</code></pre>
+<p>The directory structure,</p>
+<pre><code>.
+|-- app
+|   |-- assets
+|   |   |-- images
+|   |   |-- javascripts
+|   |   |   `-- application.js
+|   |   `-- stylesheets
+|   |       `-- application.css
+|   |-- controllers
+|   |   |-- application_controller.rb
+|   |   `-- concerns
+|   |-- helpers
+|   |   `-- application_helper.rb
+|   |-- mailers
+|   |-- models
+|   |   `-- concerns
+|   `-- views
+|       `-- layouts
+|           `-- application.html.erb
+|-- bin
+|   |-- bundle
+|   |-- rails
+|   |-- rake
+|   |-- setup
+|   `-- spring
+|-- config
+|   |-- application.rb
+|   |-- boot.rb
+|   |-- database.yml
+|   |-- environment.rb
+|   |-- environments
+|   |   |-- development.rb
+|   |   |-- production.rb
+|   |   `-- test.rb
+|   |-- initializers
+|   |   |-- assets.rb
+|   |   |-- backtrace_silencers.rb
+|   |   |-- cookies_serializer.rb
+|   |   |-- filter_parameter_logging.rb
+|   |   |-- inflections.rb
+|   |   |-- mime_types.rb
+|   |   |-- session_store.rb
+|   |   `-- wrap_parameters.rb
+|   |-- locales
+|   |   `-- en.yml
+|   |-- routes.rb
+|   `-- secrets.yml
+|-- config.ru
+|-- db
+|   `-- seeds.rb
+|-- Gemfile
+|-- Gemfile.lock
+|-- lib
+|   |-- assets
+|   `-- tasks
+|-- log
+|-- public
+|   |-- 404.html
+|   |-- 422.html
+|   |-- 500.html
+|   |-- favicon.ico
+|   `-- robots.txt
+|-- Rakefile
+|-- README.rdoc
+|-- test
+|   |-- controllers
+|   |-- fixtures
+|   |-- helpers
+|   |-- integration
+|   |-- mailers
+|   |-- models
+|   `-- test_helper.rb
+|-- tmp
+|   `-- cache
+|       `-- assets
+`-- vendor
+`-- assets
+    |-- javascripts
+    `-- stylesheets
+</code></pre>
+<p>We will go through each directory, one by one, now.</p>
+<h2>app</h2>
+<p>This is the core directory of your entire app and most of the application-specific code will go into this directory. As you may know, Rails is an MVC framework, which means the application is separated into parts per its purpose in the Model, View, or Controller. These three sections goes inside this directory.</p>
+<h3>app/assets</h3>
+<p>This contains the static files required for the application&rsquo;s front-end grouped into folders based on their type. The javascript files and stylesheets (CSS) in these folders should be application specific since the external library files would go into another directory (<code>vendor</code>) which we will look at in a bit.</p>
+<h3>app/assets/images</h3>
+<p>All the images required for the application should go into this directory. The images here are available in views through nifty helpers like <code>image_tag("img_name.png")</code> so that you don&rsquo;t have to specify the relative or absolute path for images.</p>
+<h3>app/assets/javascripts</h3>
+<p>The javascript files go here. There is a convention to create the JS files for each controller. For example, for <code>books_controller.rb</code>, the JS functions for this controller&rsquo;s views would be <code>books.js</code>.</p>
+<h4>app/assets/javascripts/application.js</h4>
+<p>The pre-created <code>application.js</code> is a manifest for the entire application&rsquo;s javascript requirements. Rails uses the <a href="https://guides.rubyonrails.org/asset_pipeline.html">asset pipeline</a> for compiling and serving up assets. This means the <code>application.js</code> is the file where you reference the application specific JS files, which are unified and minified before sending it to the views.</p>
+<p>Try as much as possible to not create javascript functions in this file.</p>
+<h3>app/assets/stylesheets</h3>
+<p>Similar to <code>/javascripts</code>, the CSS files go here. The naming convention is also the same as the javascript assets.</p>
+<h4>app/assets/stylesheets/application.css</h4>
+<p>This file is a manifest for the stylesheets in the application. Similar to <code>application.js</code>, the referenced files are served up as a single stylesheet to the view.</p>
+<h2>app/controllers</h2>
+<p>This is where all the controller files go. Controllers are responsible for orchestrating the model and views. The naming convention for the file is the pluralized model name + &ldquo;_controller&rdquo;. For example, the controller for the <code>Book</code> model is <code>books_controller.rb</code>, which is called &ldquo;snake case&rdquo;. Also, the controller class will be CamelCase which is <code>BooksController</code>.</p>
+<p>The script to generate a controller is:</p>
+<pre><code>rails generate controller controller_name action1 action2
+</code></pre>
+<h3>app/controllers/application_controller.rb</h3>
+<p>This is the main controller from which all other controllers inherit. The methods on <code>ApplicationController</code> are available to other controllers as well. This controller inherits from the <code>ActionController::Base</code> module, which has set of methods to work with in controllers.</p>
+<h3>app/controllers/concerns</h3>
+<p><code>Concerns</code> are modules that can be used across controllers. This is helpful to DRY up your code by implementing reusable functionality inside the directory. The naming convention is <code>module_name.rb</code>.</p>
+<h2>app/helpers</h2>
+<p>This is where all the helper functions for views reside. There are already a few pre-created helpers available, like the one we reference above (<code>image_tag</code>) for referring to images in views. You can create your own functions in a controller specific helper file, which will be automatically created when you use Rails generators to create the controller. The naming convention is <code>controller_name_helper.rb</code>.</p>
+<h3>app/helpers/application_helper.rb</h3>
+<p>This is the root helper. Similar to <code>application_controller.rb</code>, functions written here will be available in all the helpers, by default, and in all the views.</p>
+<h2>app/mailers</h2>
+<p>The <code>mailers</code> directory contains the mail (as in &ldquo;email&rdquo;) specific functions for the application. Mailers are similar to controllers and they will have their view files in <code>app/views/mailer_name/</code>. To generate a mailer you can run the following command</p>
+<pre><code>rails generate mailer MailerName
+</code></pre>
+<p>The first time you generate a mailer, <code>application_mailer.rb</code> is automatically created for you. This will inherit from the <code>ActionMailer::Base</code> and sets the default <code>from</code> address as well as the <code>layout</code> for your mailer views. Subsequent mailers will inherit from <code>ApplicationMailer</code>.</p>
+<p>The naming convention is similar to controllers: <code>modelname_mailer.rb</code>. You can read more about mailers <a href="http://guides.rubyonrails.org/v2.3.8/action_mailer_basics.html">here</a>.</p>
+<h2>app/models</h2>
+<p>All model files live in the <code>app/models</code> directory. Models act as object-relational mappers to the database tables that hold the data. The naming convention is simply <code>modelname.rb</code>. The model name is, by convention, the singular form of the underlying table that represents the model in the database. So, the <code>Book</code> model will be mapped on top of the <code>books</code> table in the database. You can learn more about Rails models in <a href="http://guides.rubyonrails.org/active_model_basics.html">here</a>.</p>
+<h3>app/models/concerns</h3>
+<p>Model concerns are similar to Controller concerns, containing methods that might be used in multiple model files. This greatly helps with organizing the code.</p>
+<h2>app/views</h2>
+<p>The third part of the MVC architecture are the views. The files related to the views go into this directory. The files are a combination of HTML and Ruby (called Embedded Ruby or Erb) and are organized based on the controller to which they correspond. There is a view file for each controller action. For example, the <code>BooksController#index</code> action would have it&rsquo;s corresponding view as</p>
+<pre><code>app/views/books/index.html.erb
+</code></pre>
+<p>This is another of Rails&rsquo; conventions, and can be broken. In other words, you can explicitly render any view manually.</p>
+<h3>app/views/layouts</h3>
+<p>This folder holds the layout for all your view files, which they inherit. Files created in here are available across all the view files.</p>
+<p>You can create multiple layouts scoped to parts of application. For example, if we want to create a separate layout for administrative views vs user views, we can achieve it by creating a layout filed named after the controller name. For all <code>AdminController</code> views, create a layout file called <code>admin.html.erb</code> which will then act as the layout for the admin views, as well as any controller that inherits from <code>AdminController</code>.</p>
+<p>You can also create partial views here that might be used across controllers.</p>
+<h4>app/views/layouts/application.html.erb</h4>
+<p>This will be default file created automatically, which will act as the layout for actions in <code>ApplicationController</code> and any other contoller that inherits from <code>ApplicationController</code>.</p>
+<h2>bin</h2>
+<p>This directory contains Binstubs for the Rails application. Binstubs are nothing but wrappers to run the gem executables scoped to your application. This can be used in place of <code>bundle exec &lt;command&gt;</code>. The default available Binstubs are <code>bundle</code>, <code>rails</code>, <code>rake</code>, <code>setup</code>, and <code>spring</code>. Any of these binstubs can be executed by:</p>
+<pre><code>bin/&lt;executable&gt;
+</code></pre>
+<h2>config</h2>
+<p>As the name suggests this contains all the application&rsquo;s configuration files. The database connection and application behavior can be altered by the files inside this directory.</p>
+<h3>config/application.rb</h3>
+<p>This contains the main configuration for the application, such as the timezone to use, language, and many  other settings. The full list could be found <a href="http://guides.rubyonrails.org/configuring.html">here</a>. Also, note the configurations specified here is for all environments (development, test, and production). Environment specific configurations will go into other files, which we&rsquo;ll see below.</p>
+<h3>config/boot.rb</h3>
+<p><code>boot.rb</code>, as you might imagine, &ldquo;boots&rdquo; up the Rails application. Rails apps keep gem dependencies in a file called <code>Gemfile</code> in the root of the project. The <code>Gemfile</code> contains all the dependencies required for the application to run. <code>boot.rb</code> verifies that there is actually a <code>Gemfile</code> present and will store the path to this file in an environment variable called <code>BUNDLE_GEMFILE</code> for later use. <code>boot.rb</code> also requires <code>'bundler/setup'</code> which will fetch and build the gems mentioned in the <code>Gemfile</code> using Bundler.</p>
+<h3>config/database.yml</h3>
+<p>This file holds all the database configuration the application needs. Here, different configurations can be set for different environments.</p>
+<h3>config/environment.rb</h3>
+<p>This file requires <code>application.rb</code> to initialize the Rails application.</p>
+<h3>config/routes.rb</h3>
+<p>This is where all the routes of the application are defined. There are different semantics for declaring the routes, examples of which can be found in this file.</p>
+<h3>config/secrets.yml</h3>
+<p>Newly added in Rails 4.1, this gives you a place to store application secrets. The secrets defined here are available throughout the application using <code>Rails.application.secrets.&lt;secret_name&gt;</code>. You can read more about <code>secrets.yml</code> from the <a href="http://edgeguides.rubyonrails.org/4_1_release_notes.html#config-secrets-yml">release notes</a>.</p>
+<h3>config/environments</h3>
+<p>As I mentioned above, this folder contains the environment-specific configuration files for the development, test, and production environments. Configurations in <code>application.rb</code> are available in all environments, whereas you can separate out different configurations for the different environments by adding settings to the environment named files inside this directory. Default environment files available are, <code>development.rb</code>, <code>production.rb</code>, <code>test.rb</code>, but you can add others, if needed.</p>
+<h3>config/initializers</h3>
+<p>This directory contains the list of files that need to be run during the Rails initialization process. Any <code>*.rb</code> file you create here will run during the initialization automatically. For example, constants that you declare in here will then be available throughout your app. The initializer file is triggered from the call in <code>config/environment.rb</code> to <code>Rails.application.initialize!</code>.</p>
+<p>There are core initializers, which I&rsquo;ll cover here, but you can add any Ruby file you like. In fact, many Rails gems require an initializer to complete the setup of that gem for your Rails app.</p>
+<h4>config/initializers/assets.rb</h4>
+<p>This contains configuration for the asset pipeline. It will have only one default configuration already defined, <code>Rails.application.config.assets.version</code>, which is the version for your assets bundle. You can also specify configurations such as adding additional assets path or other items to precompile.</p>
+<h4>config/initializers/backtrace_silencers.rb</h4>
+<p>You can add backtrace_silencers and filters that might be applicable for your app here. Backtrace filters are nothing but filters that helps to refine the stacktrace when an error occurs. Silencers, on the other hand, let&rsquo;s you silence all the stacktraces from specified gems.</p>
+<h4>config/initializers/cookie_serializer.rb</h4>
+<p>There is not a whole lot of configuration happening here. It contains specifications for the app&rsquo;s cookie serialization. You can read more about cookie handling in Rails from <a href="http://api.rubyonrails.org/classes/ActionDispatch/Cookies.html">here</a>.</p>
+<h4>config/initializers/filter_parameter_logging.rb</h4>
+<p>You can add parameters here that might contain sensitive information and that you don&rsquo;t want to display in your logs. By default, the &ldquo;password&rdquo; parameter will be filtered.</p>
+<h4>config/initializers/inflections.rb</h4>
+<p>You can add/override the inflections (singularizations and pluralizations) for any language in here. You can learn more about the inflections API <a href="http://api.rubyonrails.org/classes/ActiveSupport/Inflector.html">here</a>.</p>
+<h4>config/initializers/mime_type.rb</h4>
+<p>Add MIME (Multi-purpose Internet Mail Extensions) configurations for your application here to handle different types of files you may want to use. The list of options available in Mime API can be found <a href="http://api.rubyonrails.org/classes/Mime/Type.html">here</a>.</p>
+<h4>config/initializers/session_store.rb</h4>
+<p>This file contains the underlying session store to use in your app to store sessions. The default is <code>:cookie_store</code>, meaning sessions are stored in browser cookies, but you can change it to one of four options. The options and more about the session store are available <a href="http://guides.rubyonrails.org/action_controller_overview.html#session">here</a>.</p>
+<h4>config/initializers/wrap_parameters.rb</h4>
+<p>As the name implies, it contains settings for wrapping your parameters. By default, all the parameters are wrapped into a nested hash so that it&rsquo;s available without a root. You can override this or add your custom settings here.</p>
+<h3>config/locales</h3>
+<p>This has the list of YAML file for each language that holds the keys and values to translate bits of the app. You can learn about internationalization (i18n) and the settings from <a href="http://guides.rubyonrails.org/i18n.html">here</a>.</p>
+<h2>db</h2>
+<p>All the database related files go inside this folder. The configuration, schema, and migration files can be found here, along with any seed files.</p>
+<h3>db/seeds.rb</h3>
+<p>This file is used to prefill, or &ldquo;seed&rdquo;, database with required records. You can use normal ActiveRecord methods for record insertion.</p>
+<div class="widget maestro maestro-content-type-html " id="maestro-652"><span data-sumome-listbuilder-embed-id="a5047315669ea28f9652485dfd816e21a7b7d3873736b516d897111b300bf50b"></span><script>ga('SitePointPlugin:observeImpressions', 'maestro-652')</script></div><h2>Gemfile</h2>
+<p>The <code>Gemfile</code> is the place where all your app&rsquo;s gem dependencies are declared. This file is mandatory, as it includes the Rails core gems, among other gems. You can learn all about Bundler and Gemfiles at the <a href="http://bundler.io">Bundler web site</a>.</p>
+<h2>Gemfile.lock</h2>
+<p><code>Gemfile.lock</code> holds the gem dependency tree, including all versions, for the app. This file is generated by <code>bundle install</code> on the above <code>Gemfile</code>. It, in effect, locks your app dependencies to specific versions.</p>
+<h2>lib</h2>
+<p><code>lib</code> directory is where all the application specific libraries goes. Application specific libraries are re-usable generic code extracted from the application. Think of it as an application specific gem.</p>
+<h3>lib/assets</h3>
+<p>This file holds all the library assets, meaning those items (scripts, stylesheets, images) that are not application specific.</p>
+<h3>lib/tasks</h3>
+<p>The application&rsquo;s Rake tasks and other tasks can be put in this directory. Rake tasks mentioned here are required by the app&rsquo;s <code>Rakefile</code>, which we&rsquo;ll see below.</p>
+<h2>log</h2>
+<p>This holds all the log files. Rails automatically creates files for each environment.</p>
+<h2>public</h2>
+<p>The public directory contains some of the common files for web applications. By default, HTML templates for HTTP errors, such as 404, 422 and 500, are generated along with a <code>favicon</code> and a <code>robots.txt</code> file. Files that are inside this directory are available in <code>https://appname.com/filename</code> directly.</p>
+<h2>Rakefile</h2>
+<p>Just above, I mentioned that Rake files created inside the <code>lib/tasks</code> are available throughout the app via the Rake module. This is possible because of the Rakefile, which requires <code>application.rb</code> and invokes <code>Rails.application.load_tasks</code>. The call to <code>load_tasks</code> loads all the <code>*.rake</code> files from <code>lib/tasks</code> folder.</p>
+<h2>test</h2>
+<p>The folder name says it all. This holds all the test files for the app. A subdirectory is created for each component&rsquo;s test files.</p>
+<h2>tmp</h2>
+<p>This is the temporary directory for the app to hold files like caches. You don&rsquo;t need to worry about this directory, since it&rsquo;s fully managed by Rails itself. But there are few commands available if you want to take control of the directory, which can be found <a href="http://edgeguides.rubyonrails.org/command_line.html#tmp">here</a></p>
+<h2>vendor/assets</h2>
+<p>This is where the vendor files go, such as javascript libraries and CSS files, among others. Files added here will become part of the asset pipeline automatically.</p>
+
+
+## Sinatra
+
+ | HackerNews        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Official docs|
+| ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
+|  [Sinatra](https://hn.algolia.com/?query=sinatra&sort=byPopularity&prefix=false&page=0&dateRange=all&type=story)  | [Sinatra](https://medium.com/tag/sinatra)  | [Sinatra](https://www.quora.com/topic/Sinatra-software)  | [Sinatra](https://www.reddit.com/r/sinatra/) | [Sinatra](https://stackoverflow.com/questions/tagged/sinatra)  |  [Sinatra](https://github.com/coopermaa/awesome-sinatra)   | [Sinatra](https://www.lynda.com/Sinatra-tutorials/11954-0.html)  | [Sinatra](http://www.sinatrarb.com/)    |
+
+
+### Sinatra Project structure:
+
+<h2 id="what-does-a-sinatra-mvc-file-structure-look-like?">What does a Sinatra MVC File Structure Look Like?</h2>
+
+<p>Take a look at the file structure in this directory. It&#39;s okay if it feels overwhelming at first. We&#39;re going to walk through the different files and folders and discuss what their responsibilities are.</p>
+<pre class="highlight shell"><code>├── Gemfile
+├── README.md
+├── app
+│   ├── controllers
+│   │   └── application_controller.rb
+│   ├── models
+│   │   └── model.rb
+│   └── views
+│       └── index.erb
+├── config
+│   └── environment.rb
+├── config.ru
+├── public
+│   └── stylesheets
+└── spec
+    ├── controllers
+    ├── features
+    ├── models
+    └── spec_helper.rb
+</code></pre>
+<h3 id="gemfile"><code>Gemfile</code></h3>
+
+<p>This holds a list of all the gems needed to run the application. The bundler gem provides us access to a terminal command: <code>bundle install</code>. Bundler will look in the Gemfile and install any gems, as well as any gem dependencies for this application.</p>
+
+<p>Go ahead and enter this command in terminal. It will create a <code>Gemfile.lock</code> file for you, which is just a documentation of what versions of the gem you have installed and should use. The lock word is actually because it makes sure that only one thing is running bundle install at a time.</p>
+
+<h3 id="app-directory"><code>app</code> directory</h3>
+
+<p>This folder holds our MVC directories - <code>models</code>, <code>views</code>, and <code>controllers</code>. We spend most of our time coding in this directory.</p>
+
+<h4 id="models-directory"><code>models</code> directory</h4>
+
+<p>This directory holds the logic behind our application. Typically, these files represent either a component of your application, such as a User, Post, or Comment, or a unit of work. Each file in models typically contains a different class. For example, <code>dog.rb</code> would contain a class called <code>Dog</code>. As you might have guessed, models represent the &quot;M&quot; components of the MVC paradigm.</p>
+
+<p>Models represent the data and object logic of our application.</p>
+
+<p>Create a new file in the models directory to create a dog class. This class should have name, breed, and age attributes which can be set on initialization. You should be able to read and write to these attributes. This class should also keep track of each instance of dog created, as well as a class method <code>all</code> to return an array of those instances.</p>
+
+<h4 id="controllers-directory"><code>controllers</code> directory</h4>
+
+<p>The controllers, such as <code>application_controller.rb</code>, are where the application configurations, routes, and controller actions are implemented. There is typically a class, which in this case we will call <code>ApplicationController</code>, that represents an instance of your application when the server is up and running. The <code>application_controller.rb</code> file represents the &quot;C&quot; components of the MVC paradigm.</p>
+
+<p>(In some simple applications –– including several labs and code-alongs in this track –– the Application Controller will simply be called <code>app.rb</code> and will live in the root directory of the project)</p>
+
+<p>Sometimes our other controllers will use <code>ApplicationController</code> as an inheritance point so that they inherit all the defaults and behaviors defined in our main <code>ApplicationController</code>. Other times our other controllers will simply inherit from <code>Sinatra::Base</code>.</p>
+
+<p>Controllers represent the application logic, generally; the interface and flow of our application.</p>
+
+<p>Let&#39;s go ahead and fill in our controller. You&#39;ll notice in <code>application_controller.rb</code>, we have an <code>ApplicationController</code> class that inherits from <code>Sinatra::Base</code>. When we start up a server, the server will spin up an instance of the <code>ApplicationController</code> class to run our app.</p>
+
+<p>You&#39;ll also notice there is a <code>configure</code> block already in the controller. This configure block tells the controller where to look to find the views (your pages with HTML to display text in the browser.) and the public directory.</p>
+
+<p>When a client makes a request to a server to load an application, the request is received and processed by the controller. We need to set up a controller action to accept the request and respond with the appropriate HTML.</p>
+
+<p>We&#39;ve created a controller action that can receive and respond to a <code>GET</code> request to the root URL <code>&#39;/&#39;</code>. This <code>GET</code> request loads the <code>index.erb</code> file.</p>
+
+<h4 id="views-directory"><code>views</code> directory</h4>
+
+<p>This directory holds the code that will be displayed in the browser. In a Sinatra app we use <code>.erb</code> files instead of <code>.html</code> files because .erb files allow us to include regular, old HTML tags AND special erb tags which contain Ruby code. We can name them anything we like, but by convention, our file names will match up with the action that renders them. For example, a GET request to <code>/</code> typically renders a file called <code>index.erb</code>.</p>
+
+<p>Views represent how things look and are displayed in our application. We&#39;ve created a file <code>index.erb</code> that contains some basic HTML code.</p>
+
+<p>We&#39;ve already told the controller how to load this file in the view.</p>
+
+<h3 id="config.ru-file"><code>config.ru</code> file</h3>
+
+<p>A <code>config.ru</code> file is necessary when building Rack-based applications and using <code>rackup</code>/<code>shotgun</code> to start the application server (the ru stands for rackup).</p>
+
+<p><code>config.ru</code> is first responsible for loading our application environment, code, and libraries.</p>
+
+<p>Once all our code is loaded, <code>config.ru</code> then specifies which controllers to load as part of our application using <code>run</code> or <code>use</code>.</p>
+
+<p>In this case, our <code>config.ru</code> file contains the line <code>run ApplicationController</code>, which creates an instance of our ApplicationController class that can respond to requests from a client.</p>
+
+<h3 id="config-directory"><code>config</code> directory</h3>
+
+<p>This directory holds an <code>environment.rb</code> file. We&#39;ll be using this file to connect up all the files in our application to the appropriate gems and to each other.</p>
+
+<p>This <code>environment.rb</code> file loads Bundler and thus all the gems in our Gemfile, as well as the <code>app</code> directory`.</p>
+
+<h3 id="public-directory"><code>public</code> directory</h3>
+
+<p>The <code>public</code> directory holds our front-end assets. In the example above, it holds a <code>css</code> directory with a stylesheet. Javascript directories and any other front-end assets (like image files) should also be stored in <code>public</code>.</p>
+
+<h3 id="spec-directory"><code>spec</code> directory</h3>
+
+<p>The <code>spec</code> directory contains any tests for our applications. These tests set up any expectations for the rest of the project. These are often broken down into unit tests for models, controller tests for routes, and feature tests, which check the actual behavior for users.</p>
 
 ****************************
 
