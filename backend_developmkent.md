@@ -361,7 +361,7 @@ for its [dependency injection (DI)](https://en.wikipedia.org/wiki/Dependency_inj
 
 *************************
 
- | HN        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA |  Awesome-gh | Online-Courses (pivotal) | Official docs|
+ | HackerNews        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA |  Awesome-gh | Online-Courses (pivotal) | Official docs|
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
 |  [spring-framework](https://hn.algolia.com/?query=spring%20framework&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [spring-framework](https://medium.com/tag/spring-framework)  | [spring-framework](https://www.reddit.com/r/springsource/)  | [spring-framework](https://www.quora.com/topic/Spring-Framework-1)  |  [spring-framework](https://stackoverflow.com/questions/tagged/spring+spring-mvc)     | [awesome-java](https://github.com/akullpp/awesome-java)|* [spring-framework](https://pivotal.io/training/learning-paths)  * [spring-framework](https://www.lynda.com/search?q=spring+framework)|[spring-framework](https://docs.spring.io/spring/docs/current/spring-framework-reference/index.html)  |
 
@@ -576,33 +576,37 @@ Some article on spring project structure:
 
 > Rasmus Lerdorf (left), who wrote the original Common Gateway Interface (CGI) component, together with Andi Gutmans (middle) and Zeev Suraski (right), who rewrote the parser that formed PHP 3.
 
-PHP development began in 1995 when Rasmus Lerdorf wrote several Common Gateway Interface (CGI) programs in C, which he used to maintain his personal homepage. He extended them to work with web forms and to communicate with databases, and called this implementation "Personal Home Page/Forms Interpreter" or PHP/FI.
+> PHP development began in 1995 when Rasmus Lerdorf wrote several Common Gateway Interface (CGI) programs in C, which he used to maintain his personal homepage. He extended them to work with web forms and to communicate with databases, and called this implementation "Personal Home Page/Forms Interpreter" or PHP/FI.
 
-> PHP/FI could help to build simple, dynamic web applications. To accelerate bug reporting and to improve the code, Lerdorf initially announced the release of PHP/FI as "Personal Home Page Tools (PHP Tools) version 1.0" on the Usenet discussion group comp.infosystems.www.authoring.cgi on June 8, 1995. This release already had the basic functionality that PHP has as of 2013. This included Perl-like variables, form handling, and the ability to embed HTML. The syntax resembled that of Perl but was simpler, more limited and less consistent.
+> PHP/FI could help to build simple, dynamic web applications. To accelerate bug reporting and to improve the code, Lerdorf initially announced the release of PHP/FI as "Personal Home Page Tools (PHP Tools) version 1.0" on the Usenet discussion group comp.infosystems. www.authoring.cgi on June 8, 1995. This release already had the basic functionality that PHP has as of 2013. This included Perl-like variables, form handling, and the ability to embed HTML. The syntax resembled that of Perl but was simpler, more limited and less consistent.
 
 > Lerdorf did not intend the early PHP to become a new programming language, but it grew organically, with Lerdorf noting in retrospect: "I don’t know how to stop it, there was never any intent to write a programming language […] I have absolutely no idea how to write a programming language, I just kept adding the next logical step on the way." A development team began to form and, after months of work and beta testing, officially released PHP/FI 2 in November 1997.
 
 > The fact that PHP lacked an original overall design but instead developed organically has led to inconsistent naming of functions and inconsistent ordering of their parameters. In some cases, the function names were chosen to match the lower-level libraries which PHP was "wrapping", while in some very early versions of PHP the length of the function names was used internally as a hash function, so names were chosen to improve the distribution of hash values.
 
 > **PHP 3 and 4**
+
 > PHP 3.0 is the successor of PHP/FI 2.0. Zeev Suraski and Andi Gutmans rewrote the parser in 1997 and formed the base of PHP 3, changing the language's name to the recursive acronym PHP: Hypertext Preprocessor. Afterwards, public testing of PHP 3 began, and the official launch came in June 1998. Suraski and Gutmans then started a new rewrite of PHP's core, producing the Zend Engine in 1999.They also founded Zend Technologies in Ramat Gan, Israel.
 
 > On May 22, 2000, PHP 4, powered by the Zend Engine 1.0, was released. As of August 2008 this branch reached version 4.4.9. PHP 4 is no longer under development nor will any security updates be released.
 
 > **PHP 5**
-On July 13, 2004, PHP 5 was released, powered by the new Zend Engine II. PHP 5 included new features such as improved support for object-oriented programming, the PHP Data Objects (PDO) extension (which defines a lightweight and consistent interface for accessing databases), and numerous performance enhancements. In 2008 PHP 5 became the only stable version under development. Late static binding had been missing from PHP and was added in version 5.3.
+
+> On July 13, 2004, PHP 5 was released, powered by the new Zend Engine II. PHP 5 included new features such as improved support for object-oriented programming, the PHP Data Objects (PDO) extension (which defines a lightweight and consistent interface for accessing databases), and numerous performance enhancements. In 2008 PHP 5 became the only stable version under development. Late static binding had been missing from PHP and was added in version 5.3.
 
 > Many high-profile open-source projects ceased to support PHP 4 in new code as of February 5, 2008, because of the GoPHP5 initiative, provided by a consortium of PHP developers promoting the transition from PHP 4 to PHP 5.
 
 > Over time, PHP interpreters became available on most existing 32-bit and 64-bit operating systems, either by building them from the PHP source code, or by using pre-built binaries. For the PHP versions 5.3 and 5.4, the only available Microsoft Windows binary distributions were 32-bit x86 builds, requiring Windows 32-bit compatibility mode while using Internet Information Services (IIS) on a 64-bit Windows platform. PHP version 5.5 made the 64-bit x86-64 builds available for Microsoft Windows.
 
 > **PHP 6 and Unicode**
-PHP has received criticism due to lacking native Unicode support at the core language level, instead only supporting byte strings. In 2005, a project headed by Andrei Zmievski was initiated to bring native Unicode support throughout PHP, by embedding the International Components for Unicode (ICU) library, and representing text strings as UTF-16 internally.Since this would cause major changes both to the internals of the language and to user code, it was planned to release this as version 6.0 of the language, along with other major features then in development.[36]
+
+PHP has received criticism due to lacking native Unicode support at the core language level, instead only supporting byte strings. In 2005, a project headed by Andrei Zmievski was initiated to bring native Unicode support throughout PHP, by embedding the International Components for Unicode (ICU) library, and representing text strings as UTF-16 internally.Since this would cause major changes both to the internals of the language and to user code, it was planned to release this as version 6.0 of the language, along with other major features then in development.
 
 > However, a shortage of developers who understood the necessary changes, and performance problems arising from conversion to and from UTF-16, which is rarely used in a web context, led to delays in the project. As a result, a PHP 5.3 release was created in 2009, with many non-Unicode features back-ported from PHP 6, notably namespaces. In March 2010, the project in its current form was officially abandoned, and a PHP 5.4 release was prepared containing most remaining non-Unicode features from PHP 6, such as traits and closure re-binding. Initial hopes were that a new plan would be formed for Unicode integration, but as of 2014 none had been adopted.
 
 > **PHP 7**
-During 2014 and 2015, a new major PHP version was developed, which was numbered PHP 7. The numbering of this version involved some debate. While the PHP 6 Unicode experiment had never been released, several articles and book titles referenced the PHP 6 name, which might have caused confusion if a new release were to reuse the name.After a vote, the name PHP 7 was chosen.
+
+> During 2014 and 2015, a new major PHP version was developed, which was numbered PHP 7. The numbering of this version involved some debate. While the PHP 6 Unicode experiment had never been released, several articles and book titles referenced the PHP 6 name, which might have caused confusion if a new release were to reuse the name.After a vote, the name PHP 7 was chosen.
 
 > The foundation of PHP 7 is a PHP branch that was originally dubbed PHP next generation (phpng). It was authored by Dmitry Stogov, Xinchen Hui and Nikita Popov, and aimed to optimize PHP performance by refactoring the Zend Engine to use more compact data structures with improved cache locality while retaining near-complete language compatibility. As of 14 July 2014, WordPress-based benchmarks, which served as the main benchmark suite for the phpng project, showed an almost 100% increase in performance. Changes from phpng are also expected to make it easier to improve performance in the future, as more compact data structures and other changes are seen as better suited for a successful migration to a just-in-time (JIT) compiler. Because of the significant changes, the reworked Zend Engine is called Zend Engine 3, succeeding Zend Engine 2 used in PHP 5.
 
@@ -787,8 +791,87 @@ During 2014 and 2015, a new major PHP version was developed, which was numbered 
 <td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">New BSD</td>
 </tr>
 </table>
+******************
+I did a google trend comparison for php framework popularity below are the results:
 
+![php](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/php/php-google-trends.JPG)
+
+Lets explore laravel in detail:
+
+(There is cource in lynda.com in which Drew Falkman discusses about [5 MVC PHP frameworks](https://www.lynda.com/PHP-tutorials/MVC-Frameworks-Building-PHP-Web-Applications/540346-2.html), their project structure, advantages and disadvantages)
 ************************
+## Laravel
+
+ | HackerNews        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Official docs|
+| ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
+|  [laravel](https://hn.algolia.com/?query=laravel&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [laravel](https://medium.com/tag/laravel)  | [laravel](https://www.reddit.com/r/laravel/)  | [laravel](https://www.quora.com/topic/Laravel)  |  [laravel](https://stackoverflow.com/questions/tagged/laravel)   | [laravel](https://github.com/chiraggude/awesome-laravel) [awesome-php](https://github.com/ziadoz/awesome-php) [php-must-watch](https://github.com/phptodayorg/php-must-watch) | [laravel](https://www.lynda.com/Laravel-training-tutorials/2779-0.html)  |[laravel](https://laravel.com/)  |
+************
+
+### Laravel – Features
+
+Laravel offers the following key features:
+
+* Modularity
+* Testability
+* Routing
+* Configuration management
+* Query builder and ORM (Object Relational Mapper)
+* Schema builder, migrations, and seeding
+* Template engine
+* E-mailing
+* Authentication
+* Redis
+* Queues
+* Event and command bus
+
+### Laravel Application structure:
+
+Official Doc has better explination of [directory structure](https://laravel.com/docs/5.5/structure)
+
+![app](https://www.tutorialspoint.com/laravel/images/root_directory.jpg)
+
+The root directory of Laravel contains various folders and files as shown in the following figure.
+
+Root Directory
+* app − This directory contains the core code of the application.
+
+* bootstrap − This directory contains the application bootstrapping script.
+
+* config − This directory contains configuration files of application.
+
+* database − This folder contains your database migration and seeds.
+
+* public − This is the application’s document root. It starts the Laravel application. It also contains the assets of the application like JavaScript, CSS, Images, etc.
+
+* resources − This directory contains raw assets such as the LESS & Sass files, localization and language files, and Templates that are rendered as HTML.
+
+* storage − This directory contains App storage, like file uploads etc. Framework storage (cache), and application-generated logs.
+
+* test − This directory contains various test cases.
+
+* vendor − This directory contains composer dependencies.
+
+App Directory
+
+* This is the application directory. It contains a variety of additional directories, which are described below −
+
+* Console − All the artisan commands are stored in this directory.
+
+* Events − This directory stores events that your application can raise. Events may be used to alert other parts of your application that a given action has occurred, providing a great deal of flexibility and decoupling.
+
+* Exceptions − This directory contains your application's exception handler and is also a good place to stick any exceptions thrown by your application.
+
+* Http − This directory contains your controllers, filters, and requests.
+
+* Jobs − This directory contains the queueable jobs for your application.
+
+* Listeners − This directory contains the handler classes for your events. Handlers receive an event and perform logic in response to the event being fired. For example, a UserRegistered event might be handled by a SendWelcomeEmail listener.
+
+* Policies − This directory contains various policies of the application
+
+* Providers − This directory contains various service providers.
+
+************
 
 
 <h3><span class="mw-headline" id="Python">List of Python Web Frameworks</span></span></h3>
