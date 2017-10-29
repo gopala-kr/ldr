@@ -369,8 +369,13 @@ source : [zeroturnaround](https://zeroturnaround.com/webframeworksindex/)
 ****************
 ![spring doc](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/springframework/spring_doc.JPG)
 
+Sample project:
 
+[Developing a Spring Framework MVC application step-by-step from official doc ](https://docs.spring.io/docs/Spring-MVC-step-by-step/)
 
+![spring project structure](https://docs.spring.io/docs/Spring-MVC-step-by-step/images/dir-structure-endp6.png)
+
+Some article on  [spring project structure](https://www.coveros.com/spring-mvc-project-structure/) [stackoverflow](https://stackoverflow.com/questions/23550273/spring-mvc-project-structure-best-practices) [spring web app architecture](https://www.petrikainulainen.net/software-development/design/understanding-spring-web-application-architecture-the-classic-way/)
 
 ******************************************
 
