@@ -9,6 +9,7 @@
 **A look into brief history of social media** 
 
 <br>
+
 ![social](https://keymediasolutions.com/wp-content/uploads/2017/09/New-Media-Timeline.jpg)
 
 ********************
