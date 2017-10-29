@@ -433,7 +433,7 @@ Popularity rank of each java web frameworks computed by combining the  public da
 source : [zeroturnaround](https://zeroturnaround.com/webframeworksindex/)
 
 ****************
-> spring offical doc says:
+> spring official doc says:
 
 > ## Spring Framework Overview
 > Spring makes it easy to create Java enterprise applications. It provides everything you need to embrace the Java language in an enterprise environment, with support for Groovy and Kotlin as alternative languages on the JVM, and with the flexibility to create many kinds of architectures depending on an application’s needs. As of Spring Framework 5.0, Spring requires JDK 8+ (Java SE 8+) and provides out-of-the-box support for JDK 9 already.
@@ -492,7 +492,7 @@ source : [zeroturnaround](https://zeroturnaround.com/webframeworksindex/)
 
 ***********
 
-There are thousands of tutorials and blogs on spring, but for experienced developers official doc is the best material to dive in. spring official doc has best step by step guide to understand some core concepts with code examples:
+There are thousands of tutorials and blogs on spring, I think for experienced developers official doc is the best material to dive in. spring official doc has best step by step guide to understand some core concepts with code examples:
 
 <br>
 
@@ -771,7 +771,7 @@ Laravel offers the following key features:
 
 ### Laravel Application structure:
 
-Official Doc has better explination of [directory structure](https://laravel.com/docs/5.5/structure)
+Official Doc has better explaination of [directory structure](https://laravel.com/docs/5.5/structure)
 
 ![app](https://www.tutorialspoint.com/laravel/images/root_directory.jpg)
 
@@ -974,8 +974,7 @@ Lets explore project structure of python frameworks: Flask & Django
 
 
 <div class="section" id="organizing-your-project">
-<h2>Organizing your project<a class="headerlink" href="#organizing-your-project" title="Permalink to this headline">¶</a></h2>
-<img alt="Organizing flask project" src="_images/organizing.png" />
+<h2>organizing flask project<a class="headerlink" href="#organizing-your-project" title="Permalink to this headline">¶</a></h2>
 <p>Flask leaves the organization of your application up to you. This is one
 of the reasons I liked Flask as a beginner, but it does mean that you
 have to put some thought into how to structure your code. You could put
@@ -1008,7 +1007,7 @@ together.</p>
 <div class="section" id="organization-patterns">
 <h3>Organization patterns<a class="headerlink" href="#organization-patterns" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="single-module">
-<h3>Single module<a class="headerlink" href="#single-module" title="Permalink to this headline">¶</a></h3>
+<h4>Single module<a class="headerlink" href="#single-module" title="Permalink to this headline">¶</a></h4>
 <p>A lot of the Flask examples that you&#8217;ll come across will keep all of the
 code in a single file, often <em>app.py</em>. This is great for quick projects
 (like the ones used for tutorials), where you just need to serve a few
@@ -1027,7 +1026,7 @@ routes and you&#8217;ve got less than a few hundred lines of application code.</
 <p>Application logic would sit in <em>app.py</em> for the example in Listing~.</p>
 </div>
 <div class="section" id="package">
-<h3>Package<a class="headerlink" href="#package" title="Permalink to this headline">¶</a></h3>
+<h4>Package<a class="headerlink" href="#package" title="Permalink to this headline">¶</a></h4>
 <p>When you&#8217;re working on a project that&#8217;s a little more complex, a single
 module can get messy. You&#8217;ll need to define classes for models and
 forms, and they&#8217;ll get mixed in with the code for your routes and
@@ -1128,7 +1127,7 @@ is accessible from yourapp.com/static/ by default.</td>
 </table>
 </div>
 <div class="section" id="blueprints">
-<h3>Blueprints<a class="headerlink" href="#blueprints" title="Permalink to this headline">¶</a></h3>
+<h4>Blueprints<a class="headerlink" href="#blueprints" title="Permalink to this headline">¶</a></h4>
 <p>At some point you may find that you have a lot of related routes. If
 you&#8217;re like me, your first thought will be to split <em>views.py</em> into a
 package and group those views into modules. When you&#8217;re at this point,
@@ -1851,10 +1850,17 @@ Lets explore ruby frameworks rails and sinatra
 <p>The <code>spec</code> directory contains any tests for our applications. These tests set up any expectations for the rest of the project. These are often broken down into unit tests for models, controller tests for routes, and feature tests, which check the actual behavior for users.</p>
 
 ****************************
+## Next steps:
 * rust --> iron
 * elixer --> phoenix
 * golang web framework
 
+--------------
+
+* I will keep this article updated with my new findings
+
+
+*****************************
 *****************************
 
 <table class="wikitable sortable">
