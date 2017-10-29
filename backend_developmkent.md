@@ -361,9 +361,9 @@ for its [dependency injection (DI)](https://en.wikipedia.org/wiki/Dependency_inj
 
 *************************
 
- | HN        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA |  Online-Courses (pivotal) | Official docs|
-| ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|
-|  [spring-framework](https://hn.algolia.com/?query=spring%20framework&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [spring-framework](https://medium.com/tag/spring-framework)  | [spring-framework](https://www.reddit.com/r/springsource/)  | [spring-framework](https://www.quora.com/topic/Spring-Framework-1)  |  [spring-framework](https://stackoverflow.com/questions/tagged/spring+spring-mvc)      |* [spring-framework](https://pivotal.io/training/learning-paths)  * [spring-framework](https://www.lynda.com/search?q=spring+framework)|[spring-framework](https://docs.spring.io/spring/docs/current/spring-framework-reference/index.html)  |
+ | HN        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA |  Awesome-gh | Online-Courses (pivotal) | Official docs|
+| ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
+|  [spring-framework](https://hn.algolia.com/?query=spring%20framework&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [spring-framework](https://medium.com/tag/spring-framework)  | [spring-framework](https://www.reddit.com/r/springsource/)  | [spring-framework](https://www.quora.com/topic/Spring-Framework-1)  |  [spring-framework](https://stackoverflow.com/questions/tagged/spring+spring-mvc)     | [awesome-java](https://github.com/akullpp/awesome-java)|* [spring-framework](https://pivotal.io/training/learning-paths)  * [spring-framework](https://www.lynda.com/search?q=spring+framework)|[spring-framework](https://docs.spring.io/spring/docs/current/spring-framework-reference/index.html)  |
 
 ****************
 Spring is the most popular application development framework for enterprise Java. Millions of developers around the world use Spring Framework to create high performing, easily testable, and reusable code.
@@ -384,7 +384,7 @@ The Spring Framework provides about 20 modules which can be used based on an app
 
 ![Spring Framework - Architecture](https://www.tutorialspoint.com/spring/images/spring_architecture.png)
 
-<>br
+<br>
 
 **Core Container**
 
@@ -557,6 +557,8 @@ source : [zeroturnaround](https://zeroturnaround.com/webframeworksindex/)
 
 > Set high standards for code quality. The Spring Framework puts a strong emphasis on meaningful, current, and accurate Javadoc. It is one of very few projects that can claim clean code structure with no circular dependencies between packages.
 ***********
+official doc has best step by step guide to undestand some core concepts with code examples:
+
 ![spring doc](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/springframework/spring_doc.JPG)
 
 [Sample Spring Project Structure from official guide:](https://docs.spring.io/docs/Spring-MVC-step-by-step/)
@@ -569,9 +571,25 @@ Some article on spring project structure:
 * [spring web app architecture](https://www.petrikainulainen.net/software-development/design/understanding-spring-web-application-architecture-the-classic-way/)
 
 ******************************************
+## PHP
 
+PHP or Hypertext Preprocessor is a highly popular server-side scripting language. It is very flexible and has a lot of innovative features. It is the fastest resource available for creating database–enabled dynamic websites. All the features and updates of PHP are available free of cost.
+
+PHP code is well organized and can be easily embedded into HTML code. It works on all major operating systems like Linux, Windows, Unix and Mac OS, and it supports main web and enterprise servers like Apache, Netscape, Microsoft IIS, etc. Moreover, it is easier to troubleshoot problems in PHP when compared to other languages.
+
+For a web developer, designing a complex, yet attractive website in a short span of time is a big challenge. This is where PHP frameworks prove to be useful. Frameworks can be used to develop websites of all sizes and complexity. The most popular ones include WordPress, Laravel, Symfony, CodeIgniter and Phalcon, to name a few.
+
+PHP was created by Rasmus Lerdorf in 1994 and was publicly released in June 1995. Back then, it was the abbreviated form of Personal Home Page tools. After two years, in 1997, it entered public domain as PHP/F1 2.0. A year later, two programmers, Zeev Suraski and Andi Gutmans, rewrote the base of the original version and launched PHP 3.
+
+PHP 4, which came out in 2000, incorporated a scripting engine named Zend Engine that was designed by Suraski and Gutmans. Three more major versions with some sub-versions were launched in the later years with the latest version 7.0 released in 2015.
+
+Two decades after its inception, PHP has registered a phenomenal growth and is still going strong. Today, it controls over 80% of all the websites on the globe. This includes majors like Facebook, Wikipedia and WordPress among others.
+The following infographic gives you an idea about the timeline and major features of all the PHP versions.
+
+![php-history](https://cdn-images-1.medium.com/max/1600/0*6HBwv8LTt-AZy6cZ.png)
 <h3><span class="mw-headline" id="PHP">List of PHP Web Frameworks</span></span></span></h3>
 
+*******************
 <p>Source: Wikipedia</P>
 
 <div role="note" class="hatnote navigation-not-searchable">Wiki: <a href="https://en.wikipedia.org/wiki/PHP" title="PHP">PHP</a></div>
