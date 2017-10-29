@@ -318,6 +318,11 @@ Lets explore one popular java framework in detail to undestand how easier the we
 ***********************************
 ## Spring Framework
 
+I have indirect working knowledge on spring in my current project, where [SAP Hybris](https://www.hybris.com/medias/sys_master/formsCollaterals/formsCollaterals/h7e/h22/8814707834910/WP-SAP-Hybris-Commerce-Architecture-and-Technology-EN.pdf) is heavily built and runs on spring framework. Spring is primarily known
+for its [dependency injection (DI)](https://en.wikipedia.org/wiki/Dependency_injection) and [aspect-oriented programming (AOP)](https://en.wikipedia.org/wiki/Aspect-oriented_programming) features.
+
+lets have look at archtecture and 
+
  | HN        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA |  Online-Courses (pivotal) | Official docs|
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|
 |  [spring-framework](https://hn.algolia.com/?query=spring%20framework&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [spring-framework](https://medium.com/tag/spring-framework)  | [spring-framework](https://www.reddit.com/r/springsource/)  | [spring-framework](https://www.quora.com/topic/Spring-Framework-1)  |  [spring-framework](https://stackoverflow.com/questions/tagged/spring+spring-mvc)      |* [spring-framework](https://pivotal.io/training/learning-paths)  * [spring-framework](https://www.lynda.com/search?q=spring+framework)|[spring-framework](https://docs.spring.io/spring/docs/current/spring-framework-reference/index.html)  |
@@ -325,25 +330,29 @@ Lets explore one popular java framework in detail to undestand how easier the we
 ****************
 Spring is the most popular application development framework for enterprise Java. Millions of developers around the world use Spring Framework to create high performing, easily testable, and reusable code.
 
-Spring framework is an open source Java platform. It was initially written by Rod Johnson and was first released under the Apache 2.0 license in June 2003.
+Spring framework is an open source Java platform. It was initially written by [Rod Johnson](https://en.wikipedia.org/wiki/Rod_Johnson_(programmer)) and was first released under the Apache 2.0 license in June 2003.
 
 Spring is lightweight when it comes to size and transparency. The basic version of Spring framework is around 2MB.
 
-The core features of the Spring Framework can be used in developing any Java application, but there are extensions for building web applications on top of the Java EE platform. Spring framework targets to make J2EE development easier to use and promotes good programming practices by enabling a POJO-based programming model.
+The core features of the Spring Framework can be used in developing any Java application, but there are extensions for building web applications on top of the Java EE platform. Spring framework targets to make J2EE development easier to use and promotes good programming practices by enabling a POJO( Plain Old Java Object)-based programming model.
 
 
 ### Spring Framework - Architecture
 
-Spring could potentially be a one-stop shop for all your enterprise applications. However, Spring is modular, allowing you to pick and choose which modules are applicable to you, without having to bring in the rest. The following section provides details about all the modules available in Spring Framework.
+Spring could potentially be a one-stop shop for all our enterprise applications. However, Spring is modular, allowing us to pick and choose which modules are applicable for us, without having to bring in the rest. The following section provides details about all the modules available in Spring Framework.
 
 The Spring Framework provides about 20 modules which can be used based on an application requirement.
-![Spring Framework - Architecture](http://www.multisoftsystems.com/blog/wp-content/uploads/2014/09/Spring-Farme-Work.png)
+<br>
+
+![Spring Framework - Architecture](https://www.tutorialspoint.com/spring/images/spring_architecture.png)
+
+<>br
 
 **Core Container**
 
 The Core Container consists of the Core, Beans, Context, and Expression Language modules the details of which are as follows 
 
-* The Core module provides the fundamental parts of the framework, including the IoC and Dependency Injection features.
+* The Core module provides the fundamental parts of the framework, including the [IoC and Dependency Injection](https://en.wikipedia.org/wiki/Inversion_of_control) features.
 
 * The Bean module provides BeanFactory, which is a sophisticated implementation of the factory pattern.
 
@@ -353,7 +362,7 @@ The Core Container consists of the Core, Beans, Context, and Expression Language
 
 **Data Access/Integration**
 
-The Data Access/Integration layer consists of the JDBC, ORM, OXM, JMS and Transaction modules whose detail is as follows −
+The Data Access/Integration layer consists of the JDBC, ORM, OXM, JMS and Transaction modules whose detail is as follows
 
 * The JDBC module provides a JDBC-abstraction layer that removes the need for tedious JDBC related coding.
 
