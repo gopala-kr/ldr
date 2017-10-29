@@ -1854,9 +1854,6 @@ Lets explore ruby frameworks rails and sinatra
 * rust --> iron
 * elixer --> phoenix
 * golang web framework
-
---------------
-
 * I will keep this article updated with my new findings
 
 
@@ -1994,7 +1991,7 @@ Lets explore ruby frameworks rails and sinatra
 **********************************
 
 
-**A look into brief history of internet timelines**
+**a look into brief history of internet timelines**
 ------------------
 <br>
 
@@ -2002,7 +1999,7 @@ Lets explore ruby frameworks rails and sinatra
 
 ********************
 
-**A look into brief history of social media** 
+**a look into brief history of social media** 
 -----------------
 <br>
 
