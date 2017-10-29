@@ -3,9 +3,13 @@
 ******************
 **A look into brief history of internet timelines**
 <br>
-![www](http://malonemediagroup.com/wp-content/uploads/2014/02/historyoftheinternet-timeline-s.jpg)
+![www](http://malonemediagroup.com/wp-content/uploads/2014/02/historyoftheinternet-timeline.png)
 ********************
 
+**A look into brief history of social media** 
+!social](https://keymediasolutions.com/wp-content/uploads/2017/09/New-Media-Timeline.jpg)
+
+********************
 **A look into brief history of webframeworks** 
 <br>
 ![webframeworks](https://raw.githubusercontent.com/mraible/history-of-web-frameworks-timeline/master/history-of-web-frameworks-timeline.png)
