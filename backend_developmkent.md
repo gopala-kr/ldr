@@ -11,8 +11,9 @@
 * Golang web framework
 ****************************
 
+In this article I mainly focused on overview of backend webframeowrks in different languages, their poularity and project stucture.
 
-
+There are hundrends of framewoks out there, built to make web development easier. Every years development teams are releasing either a new framework or improvements over existing one. Below figure shows how the frameworks have been evolved since from dot com bubble. 
 
 ********************
 **A look into brief history of webframeworks** 
@@ -25,30 +26,41 @@
 
 ****************
 
-### MVC - A Concept or A Library?
+**MVC - A design pattern?**
 
 MVC is a software architectural pattern for implementing user interfaces to decouple code, which improve overall quality of software.
 
-### No Desktop MVC Framework?
+Model-view-controller (MVC) frameworks are a crucial part of building modern web applications. Walk into a room of web developers, and you will likely be bombarded with mentions of Ruby on Rails, Angular or Django.
 
-MVC is everywhere among desktop application development: VC MFC, Delphi, .NET Desktop and Java Swing application. But it will be interesting to see in the desktop application development, there is only MVC concept rather than framework/library (myself didn't even realize this until I wrote this article last time). MVC is generally only a kind of practice (similar as Object Oriented concept), not a real framework in desktop development.
+More generally, MVC logic can be used to describe almost any web development process that uses a language like PHP, Ruby, Python or JavaScript.
+
+> **Brief history of MVC**
+
+> One of the seminal insights in the early development of graphical user interfaces, MVC became one of the first approaches to describe and implement software constructs in terms of their responsibilities.[9]
+
+> Trygve Reenskaug introduced MVC into Smalltalk-76 while visiting the Xerox Palo Alto Research Center (PARC) in the 1970s. In the 1980s, Jim Althoff and others implemented a version of MVC for the Smalltalk-80 class library. Only later did a 1988 article in The Journal of Object Technology (JOT) express MVC as a general concept.
+
+> The MVC pattern has subsequently evolved, giving rise to variants such as hierarchical model–view–controller (HMVC), model–view–adapter (MVA), model–view–presenter (MVP), model–view–viewmodel (MVVM), and others that adapted MVC to different contexts.
+
+> The use of the MVC pattern in web applications exploded in popularity after the introduction of NeXT's WebObjects in 1996, which was originally written in Objective-C (that borrowed heavily from Smalltalk) and helped enforce MVC principles. Later, the MVC pattern became popular with Java developers when WebObjects was ported to Java. Later frameworks for Java, such as Spring (released in October 2002), continued the strong bond between Java and MVC. The introduction of the frameworks Django (July 2005, for Python) and Rails (December 2005, for Ruby), both of which had a strong emphasis on rapid deployment, increased MVC's popularity outside the traditional enterprise environment in which it has long been popular. MVC web frameworks now hold large market-shares relative to non-MVC web toolkits.
+
+> **Use in web applications**
+
+> Although originally developed for desktop computing, MVC has been widely adopted as an architecture for World Wide Web applications in major programming languages. Several web frameworks have been created that enforce the pattern. These software frameworks vary in their interpretations, mainly in the way that the MVC responsibilities are divided between the client and server.
+
+> Some web MVC frameworks take a thin client approach that places almost the entire model, view and controller logic on the server. This is reflected in frameworks such as Django, Rails and ASP.NET MVC. In this approach, the client sends either hyperlink requests or form submissions to the controller and then receives a complete and updated web page (or other document) from the view; the model exists entirely on the server. Other frameworks such as AngularJS, EmberJS, JavaScriptMVC and Backbone allow the MVC components to execute partly on the client.
+
+
 
 ### 100+ Web MVC Frameworks
 
-At the same time, there are so many (more than 100) different open source Java web framework (the number of popular open source Java web framework is much more than any other types of open source java framework). And why so different between desktop vs web application development on MVC framework?
+At the same time, there are so many different open source web framework  and why so difference between desktop vs web application development on MVC framework?
 
 Main difference between desktop application and web application: view display and data binding (communication between view and model/controller)
 
 Web MVC = MVC concept + HTML code generation + data binding
 
-Why not use Rich Client Application (WPF, JavaFx, Flex) as view
-
-* Difficult to cross the platforms Even if WPF/JavaFx/Flex can be embedded in browser, it requires local installation of Java or Flash or .NET client library.
-* Client side oriented, no natural server integration
-* For client/server solution, developers need to handle the communication which means to change current system significantly to expose interface to new client.
-* Hard to interact between rich client with an existing web based application which make the migration difficult.
-
-**What we are looking for from a good web framework?**
+**What all a good web framework should offer?**
 
 * Strong data binding
 * Easy component extension and customization
@@ -78,9 +90,59 @@ Why not use Rich Client Application (WPF, JavaFx, Flex) as view
 
 Marginal Benefit >>> Marginal Cost
 
-there is a best article on [framework](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/framework.md)
+There is a best article on [framework](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/framework.md)
+
+Now lets have a look at some popular frameworks in different languages(JAVA/PHP/Python/Ruby).
 
 *******************************
+## JAVA
+
+> James Gosling, Mike Sheridan, and Patrick Naughton initiated the Java language project in June 1991. Java was originally designed for interactive television, but it was too advanced for the digital cable television industry at the time. The language was initially called Oak after an oak tree that stood outside Gosling's office. Later the project went by the name Green and was finally renamed Java, from Java coffee. Gosling designed Java with a C/C++-style syntax that system and application programmers would find familiar.
+
+> Sun Microsystems released the first public implementation as Java 1.0 in 1995. It promised "Write Once, Run Anywhere" (WORA), providing no-cost run-times on popular platforms. Fairly secure and featuring configurable security, it allowed network- and file-access restrictions. Major web browsers soon incorporated the ability to run Java applets within web pages, and Java quickly became popular. The Java 1.0 compiler was re-written in Java by Arthur van Hoff to comply strictly with the Java 1.0 language specification. With the advent of Java 2 (released initially as J2SE 1.2 in December 1998 – 1999), new versions had multiple configurations built for different types of platforms. J2EE included technologies and APIs for enterprise applications typically run in server environments, while J2ME featured APIs optimized for mobile applications. The desktop version was renamed J2SE. In 2006, for marketing purposes, Sun renamed new J2 versions as Java EE, Java ME, and Java SE, respectively.
+
+> In 1997, Sun Microsystems approached the ISO/IEC JTC 1 standards body and later the Ecma International to formalize Java, but it soon withdrew from the process. Java remains a de facto standard, controlled through the Java Community Process.At one time, Sun made most of its Java implementations available without charge, despite their proprietary software status. Sun generated revenue from Java through the selling of licenses for specialized products such as the Java Enterprise System.
+
+> On November 13, 2006, Sun released much of its Java virtual machine (JVM) as free and open-source software, (FOSS), under the terms of the GNU General Public License (GPL). On May 8, 2007, Sun finished the process, making all of its JVM's core code available under free software/open-source distribution terms, aside from a small portion of code to which Sun did not hold the copyright.
+
+> Sun's vice-president Rich Green said that Sun's ideal role with regard to Java was as an "evangelist". Following Oracle Corporation's acquisition of Sun Microsystems in 2009–10, Oracle has described itself as the "steward of Java technology with a relentless commitment to fostering a community of participation and transparency". This did not prevent Oracle from filing a lawsuit against Google shortly after that for using Java inside the Android SDK (see Google section below). Java software runs on everything from laptops to data centers, game consoles to scientific supercomputers. On April 2, 2010, James Gosling resigned from Oracle.
+
+> In January 2016, Oracle announced that Java runtime environments based on JDK 9 will discontinue the browser plugin.
+
+> Principles
+> There were five primary goals in the creation of the Java language:
+
+> * It must be "simple, object-oriented, and familiar".
+> * It must be "robust and secure".
+> * It must be "architecture-neutral and portable".
+> * It must execute with "high performance".
+> * It must be "interpreted, threaded, and dynamic".
+
+
+> As of 2017, both Java 8 and 9 are officially supported. Major release versions of Java, along with their release dates:
+
+> * JDK 1.0 (January 23, 1996)
+> * JDK 1.1 (February 19, 1997)
+> * J2SE 1.2 (December 8, 1998)
+> * J2SE 1.3 (May 8, 2000)
+> * J2SE 1.4 (February 6, 2002)
+> * J2SE 5.0 (September 30, 2004)
+> * Java SE 6 (December 11, 2006)
+> * Java SE 7 (July 28, 2011)
+> * Java SE 8 (March 18, 2014)
+> * Java SE 9 (September 21, 2017)
+
+> The platform was known as Java 2 Platform, Enterprise Edition or J2EE from version 1.2, until the name was changed to Java Platform, Enterprise Edition or Java EE in version 1.5. The current version is called Java EE 8.
+
+> * J2EE 1.2 (December 12, 1999)
+> * J2EE 1.3 (September 24, 2001)
+> * J2EE 1.4 (November 11, 2003)
+> * Java EE 5 (May 11, 2006)
+> * Java EE 6 (December 10, 2009)
+> * Java EE 7 (May 28, 2013, but April 5, 2013 according to spec document. June 12, 2013 was the planned kickoff date
+> * Java EE 8 (August 31, 2017)
+>  Java EE is currently maintained by Oracle under the Java Community Process. On September 12, 2017, Oracle Corporation announced > * that it would submit Java EE to the Eclipse Foundation. The Eclipse top-level project has been named Eclipse Enterprise for Java (EE4J).
+
 A look into java timelines
 -----------------------
 <br>
