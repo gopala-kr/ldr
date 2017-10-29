@@ -11,9 +11,9 @@
 * Golang web framework
 ****************************
 
-In this article I mainly focused on overview of backend webframeowrks in different languages, their poularity and project stucture.
+In this article I mainly focused on backend webframeowrks(an overview) in different languages, their poularity and project structure.
 
-There are hundrends of framewoks out there, built to make web development easier. Every years development teams are releasing either a new framework or improvements over existing one. Below figure shows how the frameworks have been evolved since from dot com bubble. 
+There are hundrends of framewoks out there, built to make web development easier. Every year there will be releases on either new frameworks or improvements over existing ones. Below figure shows how the frameworks have been evolved since from dot-com bubble. 
 
 ********************
 **A look into brief history of webframeworks** 
@@ -26,7 +26,7 @@ There are hundrends of framewoks out there, built to make web development easier
 
 ****************
 
-**MVC - A design pattern?**
+**MVC - A design pattern**
 
 MVC is a software architectural pattern for implementing user interfaces to decouple code, which improve overall quality of software.
 
@@ -36,7 +36,7 @@ More generally, MVC logic can be used to describe almost any web development pro
 
 > **Brief history of MVC**
 
-> One of the seminal insights in the early development of graphical user interfaces, MVC became one of the first approaches to describe and implement software constructs in terms of their responsibilities.[9]
+> One of the seminal insights in the early development of graphical user interfaces, MVC became one of the first approaches to describe and implement software constructs in terms of their responsibilities.
 
 > Trygve Reenskaug introduced MVC into Smalltalk-76 while visiting the Xerox Palo Alto Research Center (PARC) in the 1970s. In the 1980s, Jim Althoff and others implemented a version of MVC for the Smalltalk-80 class library. Only later did a 1988 article in The Journal of Object Technology (JOT) express MVC as a general concept.
 
@@ -50,17 +50,9 @@ More generally, MVC logic can be used to describe almost any web development pro
 
 > Some web MVC frameworks take a thin client approach that places almost the entire model, view and controller logic on the server. This is reflected in frameworks such as Django, Rails and ASP.NET MVC. In this approach, the client sends either hyperlink requests or form submissions to the controller and then receives a complete and updated web page (or other document) from the view; the model exists entirely on the server. Other frameworks such as AngularJS, EmberJS, JavaScriptMVC and Backbone allow the MVC components to execute partly on the client.
 
-
-
-### 100+ Web MVC Frameworks
-
-At the same time, there are so many different open source web framework  and why so difference between desktop vs web application development on MVC framework?
-
-Main difference between desktop application and web application: view display and data binding (communication between view and model/controller)
-
 Web MVC = MVC concept + HTML code generation + data binding
 
-**What all a good web framework should offer?**
+**What all the things a good web framework should offer?**
 
 * Strong data binding
 * Easy component extension and customization
@@ -71,24 +63,6 @@ Web MVC = MVC concept + HTML code generation + data binding
 * Open source
 * Commercial resources available
 * Active community + third party resources
-* Impact of Introducing Another Web Framework to existing strut and JSF based legacy project.
-
-**Marginal Cost**
-
-* Impact on existing system/code
-* learning cost for current members
-* One more web framework need to handle in the development
-* Easy to underestimate effort
-
-**Marginal Benefit**
-
-* Reduced code = better quality + easier to maintain / extend + Less bug
-* More flexibility to extend / modify in the future
-* Lower learning curve when adding new members
-* More resources / features
-* Easy to overestimate
-
-Marginal Benefit >>> Marginal Cost
 
 There is a best article on [framework](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/framework.md)
 
@@ -96,6 +70,8 @@ Now lets have a look at some popular frameworks in different languages(JAVA/PHP/
 
 *******************************
 ## JAVA
+
+>Brief history of java
 
 > James Gosling, Mike Sheridan, and Patrick Naughton initiated the Java language project in June 1991. Java was originally designed for interactive television, but it was too advanced for the digital cable television industry at the time. The language was initially called Oak after an oak tree that stood outside Gosling's office. Later the project went by the name Green and was finally renamed Java, from Java coffee. Gosling designed Java with a C/C++-style syntax that system and application programmers would find familiar.
 
@@ -375,15 +351,15 @@ A look into java timelines
 </tr>
 </table>
 
-Lets explore one popular java framework in detail to undestand how easier the web development using Java.
+Lets explore one popular java web framework in detail to undestand how easier the web development using Java.
 
 ***********************************
 ## Spring Framework
 
-I have indirect working knowledge on spring in my current project, where [SAP Hybris](https://www.hybris.com/medias/sys_master/formsCollaterals/formsCollaterals/h7e/h22/8814707834910/WP-SAP-Hybris-Commerce-Architecture-and-Technology-EN.pdf) is heavily built and runs on spring framework. Spring is primarily known
+I have some indirect working knowledge on spring in my current project, where [SAP Hybris](https://www.hybris.com/medias/sys_master/formsCollaterals/formsCollaterals/h7e/h22/8814707834910/WP-SAP-Hybris-Commerce-Architecture-and-Technology-EN.pdf) is heavily built and runs on spring framework. Spring is primarily known
 for its [dependency injection (DI)](https://en.wikipedia.org/wiki/Dependency_injection) and [aspect-oriented programming (AOP)](https://en.wikipedia.org/wiki/Aspect-oriented_programming) features.
 
-lets have look at archtecture and 
+*************************
 
  | HN        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA |  Online-Courses (pivotal) | Official docs|
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|
@@ -478,9 +454,8 @@ The key unit of modularity in OOP is the class, whereas in AOP the unit of modul
 
 The AOP module of Spring Framework provides an aspect-oriented programming implementation allowing you to define method-interceptors and pointcuts to cleanly decouple code that implements functionality that should be separated. We will discuss more about Spring AOP concepts in a separate chapter.
 
-**********
-### Java Web Frameworks Index
------------
+***************************
+
 Popularity rank of each java web frameworks computed by combining public data from StackOverflow, LinkedIn, GitHub, and Google search.
 
 <div class="row text-center">
@@ -525,7 +500,7 @@ Popularity rank of each java web frameworks computed by combining public data fr
 source : [zeroturnaround](https://zeroturnaround.com/webframeworksindex/)
 
 ****************
-> Offical doc says:
+> spring offical doc says:
 
 > ## Spring Framework Overview
 > Spring makes it easy to create Java enterprise applications. It provides everything you need to embrace the Java language in an enterprise environment, with support for Groovy and Kotlin as alternative languages on the JVM, and with the flexibility to create many kinds of architectures depending on an application’s needs. As of Spring Framework 5.0, Spring requires JDK 8+ (Java SE 8+) and provides out-of-the-box support for JDK 9 already.
@@ -533,7 +508,7 @@ source : [zeroturnaround](https://zeroturnaround.com/webframeworksindex/)
 > Spring supports a wide range of application scenarios. In a large enterprise, applications often exist for a long time and have to run on a JDK and application server whose upgrade cycle is beyond developer control. Others may run as a single jar with the server embedded, possibly in a cloud environment. Yet others may be standalone applications (such as batch or integration workloads) that do not need a server.
 
 > Spring is open source. It has a large and active community that provides continuous feedback based on a diverse range of real-world use cases. This has helped Spring to successfully evolve over a very long time.
-> ### What We Mean by "Spring"
+> ## What We Mean by "Spring"
 > The term "Spring" means different things in different contexts. It can be used to refer to the Spring Framework project itself, which is where it all started. Over time, other Spring projects have been built on top of the Spring Framework. Most often, when people say "Spring", they mean the entire family of projects. This reference documentation focuses on the foundation: the Spring Framework itself.
 
 > The Spring Framework is divided into modules. Applications can choose which modules they need. At the heart are the modules of the core container, including a configuration model and a dependency injection mechanism. Beyond that, the Spring Framework provides foundational support for different application architectures, including messaging, transactional data and persistence, and web. It also includes the Servlet-based Spring MVC web framework and, in parallel, the Spring WebFlux reactive web framework.
@@ -595,7 +570,7 @@ Some article on spring project structure:
 
 ******************************************
 
-<h3><span class="mw-headline" id="PHP">Lis of PHP Web Frameworks</span></span></span></h3>
+<h3><span class="mw-headline" id="PHP">List of PHP Web Frameworks</span></span></span></h3>
 
 <p>Source: Wikipedia</P>
 
