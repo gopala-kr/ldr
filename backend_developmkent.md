@@ -87,52 +87,6 @@ A look into java timelines
 
 ![java](https://image.slidesharecdn.com/javanturav2-theroadtojava-hujakoraclecroatia-brankomihaljevialeksanderradovandukovukmanovi-141130060735-conversion-gate01/95/javantura-v2-the-road-to-java-hujak-oracle-croatia-branko-mihaljevi-aleksander-radovan-duko-vukmanovi-3-638.jpg)
 
-
-
-### Java Web Frameworks Index
-
-Combined public data from StackOverflow, LinkedIn, GitHub, and Google search, to compute the popularity rank of each framework
-
-<div class="row text-center">
-      		<div class="col-12">
-		  		<center>
-		  			<table class="zebra"> 
-						 <thead>
-							  <tr>
-								  <th class="center">Rank</th>
-								  <th class="center">Framework</th>
-								  <th class="center">Popularity</th>
-							  </tr>
-						  </thead>
-						  <tbody>
-							  	<tr><td class='center'>1</td><td>Spring mvc</td><td class='center'>29.39</td></tr>
-								<tr><td class='center'>2</td><td>JSF</td><td class='center'>15.19</td></tr>
-								<tr><td class='center'>3</td><td>Spring Boot</td><td class='center'>11.69</td></tr>
-								<tr><td class='center'>4</td><td>GWT</td><td class='center'>7.6</td></tr>
-								<tr><td class='center'>5</td><td>Grails</td><td class='center'>6.73</td></tr>
-								<tr><td class='center'>6</td><td>Struts</td><td class='center'>7.47</td></tr>
-								<tr><td class='center'>7</td><td>Play framework</td><td class='center'>4.16</td></tr>
-								<tr><td class='center'>8</td><td>Seam</td><td class='center'>1.88</td></tr>
-								<tr><td class='center'>9</td><td>jax-rs</td><td class='center'>3.1</td></tr>
-								<tr><td class='center'>10</td><td>Vaadin</td><td class='center'>2.45</td></tr>
-								<tr><td class='center'>11</td><td>Wicket</td><td class='center'>1.92</td></tr>
-								<tr><td class='center'>12</td><td>Tapestry</td><td class='center'>1.83</td></tr>
-								<tr><td class='center'>13</td><td>JHipster</td><td class='center'>0.73</td></tr>
-								<tr><td class='center'>14</td><td>Dropwizard</td><td class='center'>1.05</td></tr>
-								<tr><td class='center'>15</td><td>Sparkjava</td><td class='center'>0.76</td></tr>
-								<tr><td class='center'>16</td><td>Lagom</td><td class='center'>0.71</td></tr>
-								<tr><td class='center'>17</td><td>Vert.x</td><td class='center'>0.72</td></tr>
-								<tr><td class='center'>18</td><td>Ratpack</td><td class='center'>0.15</td></tr>
-								<tr><td class='center'>19</td><td>Rapidoid</td><td class='center'>0</td></tr>
-						  </tbody>
-				  	</table>
-				  <img src="https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/springframework/java_web_stats.JPG" />
-		  		</center>
-		  		<div id="chart"></div>
-	  		</div>
-    	</div>
-
-source : [zeroturnaround](https://zeroturnaround.com/webframeworksindex/)
 ***********************************************************
 <h3><span class="mw-headline" id="Java">List of Java Web Frameworks</span></span></h3>
 
@@ -365,12 +319,194 @@ Lets explore one popular java framework in detail to undestand how easier the we
 ## Spring Framework
 ****************
 
+Spring is the most popular application development framework for enterprise Java. Millions of developers around the world use Spring Framework to create high performing, easily testable, and reusable code.
+
+Spring framework is an open source Java platform. It was initially written by Rod Johnson and was first released under the Apache 2.0 license in June 2003.
+
+Spring is lightweight when it comes to size and transparency. The basic version of Spring framework is around 2MB.
+
+The core features of the Spring Framework can be used in developing any Java application, but there are extensions for building web applications on top of the Java EE platform. Spring framework targets to make J2EE development easier to use and promotes good programming practices by enabling a POJO-based programming model.
+
+### Dependency Injection (DI)
+
+The technology that Spring is most identified with is the Dependency Injection (DI) flavor of Inversion of Control. The Inversion of Control (IoC) is a general concept, and it can be expressed in many different ways. Dependency Injection is merely one concrete example of Inversion of Control.
+
+When writing a complex Java application, application classes should be as independent as possible of other Java classes to increase the possibility to reuse these classes and to test them independently of other classes while unit testing. Dependency Injection helps in gluing these classes together and at the same time keeping them independent.
+
+What is dependency injection exactly? Let's look at these two words separately. Here the dependency part translates into an association between two classes. For example, class A is dependent of class B. Now, let's look at the second part, injection. All this means is, class B will get injected into class A by the IoC.
+
+Dependency injection can happen in the way of passing parameters to the constructor or by post-construction using setter methods. As Dependency Injection is the heart of Spring Framework, we will explain this concept in a separate chapter with relevant example.
+
+### Aspect Oriented Programming (AOP)
+
+One of the key components of Spring is the Aspect Oriented Programming (AOP) framework. The functions that span multiple points of an application are called cross-cutting concerns and these cross-cutting concerns are conceptually separate from the application's business logic. There are various common good examples of aspects including logging, declarative transactions, security, caching, etc.
+
+The key unit of modularity in OOP is the class, whereas in AOP the unit of modularity is the aspect. DI helps you decouple your application objects from each other, while AOP helps you decouple cross-cutting concerns from the objects that they affect.
+
+The AOP module of Spring Framework provides an aspect-oriented programming implementation allowing you to define method-interceptors and pointcuts to cleanly decouple code that implements functionality that should be separated. We will discuss more about Spring AOP concepts in a separate chapter.
+
+### Spring Framework - Architecture
+Spring could potentially be a one-stop shop for all your enterprise applications. However, Spring is modular, allowing you to pick and choose which modules are applicable to you, without having to bring in the rest. The following section provides details about all the modules available in Spring Framework.
+
+The Spring Framework provides about 20 modules which can be used based on an application requirement.
+![Spring Framework - Architecture](https://www.tutorialspoint.com/spring/images/spring_architecture.png)
+**Core Container**
+
+The Core Container consists of the Core, Beans, Context, and Expression Language modules the details of which are as follows −
+
+* The Core module provides the fundamental parts of the framework, including the IoC and Dependency Injection features.
+
+* The Bean module provides BeanFactory, which is a sophisticated implementation of the factory pattern.
+
+* The Context module builds on the solid base provided by the Core and Beans modules and it is a medium to access any objects defined and configured. The ApplicationContext interface is the focal point of the Context module.
+
+* The SpEL module provides a powerful expression language for querying and manipulating an object graph at runtime.
+
+**Data Access/Integration**
+
+The Data Access/Integration layer consists of the JDBC, ORM, OXM, JMS and Transaction modules whose detail is as follows −
+
+* The JDBC module provides a JDBC-abstraction layer that removes the need for tedious JDBC related coding.
+
+* The ORM module provides integration layers for popular object-relational mapping APIs, including JPA, JDO, Hibernate, and iBatis.
+
+* The OXM module provides an abstraction layer that supports Object/XML mapping implementations for JAXB, Castor, XMLBeans, JiBX and XStream.
+
+* The Java Messaging Service JMS module contains features for producing and consuming messages.
+
+* The Transaction module supports programmatic and declarative transaction management for classes that implement special interfaces and for all your POJOs.
+
+**Web**
+The Web layer consists of the Web, Web-MVC, Web-Socket, and Web-Portlet modules the details of which are as follows −
+
+* The Web module provides basic web-oriented integration features such as multipart file-upload functionality and the initialization of the IoC container using servlet listeners and a web-oriented application context.
+
+* The Web-MVC module contains Spring's Model-View-Controller (MVC) implementation for web applications.
+
+* The Web-Socket module provides support for WebSocket-based, two-way communication between the client and the server in web applications.
+
+* The Web-Portlet module provides the MVC implementation to be used in a portlet environment and mirrors the functionality of Web-Servlet module.
+
+There are few other important modules like AOP, Aspects, Instrumentation, Web and Test modules the details of which are as follows −
+
+* The AOP module provides an aspect-oriented programming implementation allowing you to define method-interceptors and pointcuts to cleanly decouple code that implements functionality that should be separated.
+
+* The Aspects module provides integration with AspectJ, which is again a powerful and mature AOP framework.
+
+* The Instrumentation module provides class instrumentation support and class loader implementations to be used in certain application servers.
+
+* The Messaging module provides support for STOMP as the WebSocket sub-protocol to use in applications. It also supports an annotation programming model for routing and processing STOMP messages from WebSocket clients.
+
+* The Test module supports the testing of Spring components with JUnit or TestNG frameworks.
+
  | HN        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA |  Online-Courses (pivotal) | Official docs|
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|
 |  [spring-framework](https://hn.algolia.com/?query=spring%20framework&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [spring-framework](https://medium.com/tag/spring-framework)  | [spring-framework](https://www.reddit.com/r/springsource/)  | [spring-framework](https://www.quora.com/topic/Spring-Framework-1)  |  [spring-framework](https://stackoverflow.com/questions/tagged/spring+spring-mvc)      |* [spring-framework](https://pivotal.io/training/learning-paths)  * [spring-framework](https://www.lynda.com/search?q=spring+framework)|[spring-framework](https://docs.spring.io/spring/docs/current/spring-framework-reference/index.html)  |
 
+**********
+### Java Web Frameworks Index
+-----------
+Popularity rank of each java web frameworks computed by combining public data from StackOverflow, LinkedIn, GitHub, and Google search.
+
+<div class="row text-center">
+      		<div class="col-12">
+		  		<center>
+		  			<table class="zebra"> 
+						 <thead>
+							  <tr>
+								  <th class="center">Rank</th>
+								  <th class="center">Framework</th>
+								  <th class="center">Popularity</th>
+							  </tr>
+						  </thead>
+						  <tbody>
+							  	<tr><td class='center'>1</td><td>Spring mvc</td><td class='center'>29.39</td></tr>
+								<tr><td class='center'>2</td><td>JSF</td><td class='center'>15.19</td></tr>
+								<tr><td class='center'>3</td><td>Spring Boot</td><td class='center'>11.69</td></tr>
+								<tr><td class='center'>4</td><td>GWT</td><td class='center'>7.6</td></tr>
+								<tr><td class='center'>5</td><td>Grails</td><td class='center'>6.73</td></tr>
+								<tr><td class='center'>6</td><td>Struts</td><td class='center'>7.47</td></tr>
+								<tr><td class='center'>7</td><td>Play framework</td><td class='center'>4.16</td></tr>
+								<tr><td class='center'>8</td><td>Seam</td><td class='center'>1.88</td></tr>
+								<tr><td class='center'>9</td><td>jax-rs</td><td class='center'>3.1</td></tr>
+								<tr><td class='center'>10</td><td>Vaadin</td><td class='center'>2.45</td></tr>
+								<tr><td class='center'>11</td><td>Wicket</td><td class='center'>1.92</td></tr>
+								<tr><td class='center'>12</td><td>Tapestry</td><td class='center'>1.83</td></tr>
+								<tr><td class='center'>13</td><td>JHipster</td><td class='center'>0.73</td></tr>
+								<tr><td class='center'>14</td><td>Dropwizard</td><td class='center'>1.05</td></tr>
+								<tr><td class='center'>15</td><td>Sparkjava</td><td class='center'>0.76</td></tr>
+								<tr><td class='center'>16</td><td>Lagom</td><td class='center'>0.71</td></tr>
+								<tr><td class='center'>17</td><td>Vert.x</td><td class='center'>0.72</td></tr>
+								<tr><td class='center'>18</td><td>Ratpack</td><td class='center'>0.15</td></tr>
+								<tr><td class='center'>19</td><td>Rapidoid</td><td class='center'>0</td></tr>
+						  </tbody>
+				  	</table>
+				  <img src="https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/springframework/java_web_stats.JPG" />
+		  		</center>
+		  		<div id="chart"></div>
+	  		</div>
+    	</div>
+
+source : [zeroturnaround](https://zeroturnaround.com/webframeworksindex/)
 
 ****************
+> Offical doc says:
+
+> ## Spring Framework Overview
+> Spring makes it easy to create Java enterprise applications. It provides everything you need to embrace the Java language in an enterprise environment, with support for Groovy and Kotlin as alternative languages on the JVM, and with the flexibility to create many kinds of architectures depending on an application’s needs. As of Spring Framework 5.0, Spring requires JDK 8+ (Java SE 8+) and provides out-of-the-box support for JDK 9 already.
+
+> Spring supports a wide range of application scenarios. In a large enterprise, applications often exist for a long time and have to run on a JDK and application server whose upgrade cycle is beyond developer control. Others may run as a single jar with the server embedded, possibly in a cloud environment. Yet others may be standalone applications (such as batch or integration workloads) that do not need a server.
+
+> Spring is open source. It has a large and active community that provides continuous feedback based on a diverse range of real-world use cases. This has helped Spring to successfully evolve over a very long time.
+> ### What We Mean by "Spring"
+> The term "Spring" means different things in different contexts. It can be used to refer to the Spring Framework project itself, which is where it all started. Over time, other Spring projects have been built on top of the Spring Framework. Most often, when people say "Spring", they mean the entire family of projects. This reference documentation focuses on the foundation: the Spring Framework itself.
+
+> The Spring Framework is divided into modules. Applications can choose which modules they need. At the heart are the modules of the core container, including a configuration model and a dependency injection mechanism. Beyond that, the Spring Framework provides foundational support for different application architectures, including messaging, transactional data and persistence, and web. It also includes the Servlet-based Spring MVC web framework and, in parallel, the Spring WebFlux reactive web framework.
+
+> A note about modules: Spring’s framework jars allow for deployment to JDK 9’s module path ("Jigsaw"). For use in Jigsaw-enabled applications, the Spring Framework 5 jars come with "Automatic-Module-Name" manifest entries which define stable language-level module names ("spring.core", "spring.context" etc) independent from jar artifact names (the jars follow the same naming pattern with "-" instead of ".", e.g. "spring-core" and "spring-context"). Of course, Spring’s framework jars keep working fine on the classpath on both JDK 8 and 9.
+
+> ## History of Spring and the Spring Framework
+
+> Spring came into being in 2003 as a response to the complexity of the early J2EE specifications. While some consider Java EE and Spring to be in competition, Spring is, in fact, complementary to Java EE. The Spring programming model does not embrace the Java EE platform specification; rather, it integrates with carefully selected individual specifications from the EE umbrella:
+
+> * Servlet API (JSR 340)
+
+> * WebSocket API (JSR 356)
+
+> * Concurrency Utilities (JSR 236)
+
+> * JSON Binding API (JSR 367)
+
+> * Bean Validation (JSR 303)
+
+> * JPA (JSR 338)
+
+> * JMS (JSR 914)
+
+> as well as JTA/JCA setups for transaction coordination, if necessary.
+
+> The Spring Framework also supports the Dependency Injection (JSR 330) and Common Annotations (JSR 250) specifications, which application developers may choose to use instead of the Spring-specific mechanisms provided by the Spring Framework.
+
+> As of Spring Framework 5.0, Spring requires the Java EE 7 level (e.g. Servlet 3.1+, JPA 2.1+) as a minimum - while at the same time providing out-of-the-box integration with newer APIs at the Java EE 8 level (e.g. Servlet 4.0, JSON Binding API) when encountered at runtime. This keeps Spring fully compatible with e.g. Tomcat 8 and 9, WebSphere 9, and JBoss EAP 7.
+
+> Over time, the role of Java EE in application development has evolved. In the early days of Java EE and Spring, applications were created to be deployed to an application server. Today, with the help of Spring Boot, applications are created in a devops- and cloud-friendly way, with the Servlet container embedded and trivial to change. As of Spring Framework 5, a WebFlux application does not even use the Servlet API directly and can run on servers (such as Netty) that are not Servlet containers.
+
+> Spring continues to innovate and to evolve. Beyond the Spring Framework, there are other projects, such as Spring Boot, Spring Security, Spring Data, Spring Cloud, Spring Batch, among others. It’s important to remember that each project has its own source code repository, issue tracker, and release cadence. See spring.io/projects for the complete list of Spring projects.
+
+> ## Design Philosophy
+
+> When you learn about a framework, it’s important to know not only what it does but what principles it follows. Here are the guiding principles of the Spring Framework:
+
+> Provide choice at every level. Spring lets you defer design decisions as late as possible. For example, you can switch persistence providers through configuration without changing your code. The same is true for many other infrastructure concerns and integration with third-party APIs.
+
+> Accommodate diverse perspectives. Spring embraces flexibility and is not opinionated about how things should be done. It supports a wide range of application needs with different perspectives.
+
+> Maintain strong backward compatibility. Spring’s evolution has been carefully managed to force few breaking changes between versions. Spring supports a carefully chosen range of JDK versions and third-party libraries to facilitate maintenance of applications and libraries that depend on Spring.
+
+> Care about API design. The Spring team puts a lot of thought and time into making APIs that are intuitive and that hold up across many versions and many years.
+
+> Set high standards for code quality. The Spring Framework puts a strong emphasis on meaningful, current, and accurate Javadoc. It is one of very few projects that can claim clean code structure with no circular dependencies between packages.
+***********
 ![spring doc](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/springframework/spring_doc.JPG)
 
 [Sample Spring Project Structure from official guide:](https://docs.spring.io/docs/Spring-MVC-step-by-step/)
