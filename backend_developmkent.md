@@ -12,16 +12,7 @@
 ***********************
 
 
-**A look into java timelines**
-
-![java](https://image.slidesharecdn.com/javanturav2-theroadtojava-hujakoraclecroatia-brankomihaljevialeksanderradovandukovukmanovi-141130060735-conversion-gate01/95/javantura-v2-the-road-to-java-hujak-oracle-croatia-branko-mihaljevi-aleksander-radovan-duko-vukmanovi-27-638.jpg?cb=1417328508)
-
-
-
 ****************
-
-
-
 
 ### MVC - A Concept or A Library?
 
@@ -79,13 +70,18 @@ Marginal Benefit >>> Marginal Cost
 there is a best article on [framework](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/framework.md)
 
 *******************************
-## Java Web Frameworks Index
+**A look into java timelines**
+
+![java](https://image.slidesharecdn.com/javanturav2-theroadtojava-hujakoraclecroatia-brankomihaljevialeksanderradovandukovukmanovi-141130060735-conversion-gate01/95/javantura-v2-the-road-to-java-hujak-oracle-croatia-branko-mihaljevi-aleksander-radovan-duko-vukmanovi-3-638.jpg?cb=1417328508)
+
+
+
+### Java Web Frameworks Index
 
 Combined public data from StackOverflow, LinkedIn, GitHub, and Google search, to compute the popularity rank of each framework
 
 <div class="row text-center">
       		<div class="col-12">
-		  		<h3>Web Frameworks Index at a Glance</h3><br/>
 		  		<center>
 		  			<table class="zebra"> 
 						 <thead>
