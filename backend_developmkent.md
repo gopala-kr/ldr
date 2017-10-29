@@ -871,8 +871,26 @@ App Directory
 
 * Providers − This directory contains various service providers.
 
-************
+Articles discusses on app stucture:
 
+* [large-scale-laravel-application](https://medium.com/@munza/large-scale-laravel-application-9d52c3d38e51)
+
+
+************
+## Python
+
+> Python was conceived in the late 1980s,and its implementation began in December 1989 by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC language (itself inspired by SETL) capable of exception handling and interfacing with the operating system Amoeba. Van Rossum is Python's principal author, and his continuing central role in deciding the direction of Python is reflected in the title given to him by the Python community, Benevolent Dictator For Life (BDFL).
+
+> About the origin of Python, Van Rossum wrote in 1996:
+
+> Over six years ago, in December 1989, I was looking for a "hobby" programming project that would keep me occupied during the week around Christmas. My office ... would be closed, but I had a home computer, and not much else on my hands. I decided to write an interpreter for the new scripting language I had been thinking about lately: a descendant of ABC that would appeal to Unix/C hackers. I chose Python as a working title for the project, being in a slightly irreverent mood (and a big fan of Monty Python's Flying Circus).	”
+> Python 2.0 was released on 16 October 2000 and had many major new features, including a cycle-detecting garbage collector and support for Unicode. With this release the development process was changed and became more transparent and community-backed.
+
+> Python 3.0 (initially described as Python 3000 or py3k), is a major, backward-incompatible release that was was released after a long period of testing on 3 December 2008. Many of its major features have been backported to the backwards-compatible Python 2.6.x and 2.7.x version series.
+
+> The End Of Life date (EOL, sunset date) for Python 2.7 was initially set at 2015, then postponed to 2020 out of concern that a large body of existing code cannot easily be forward-ported to Python 3. In January 2017, Google announced work on a Python 2.7 to Go transcompiler, which The Register speculated was in response to Python 2.7's planned end-of-life but Google cited performance under concurrent workloads as their only motivation.
+
+**************************
 
 <h3><span class="mw-headline" id="Python">List of Python Web Frameworks</span></span></h3>
 
@@ -998,6 +1016,112 @@ App Directory
 </table>
 
 *********************************
+<h2><span class="mw-headline" id="History">Brief History of Ruby</span></span></h2>
+<h3><span class="mw-headline" id="Early_concept">Early concept</span></span></h3>
+<p>Ruby was conceived on February 24, 1993. In a 1999 post to the <i>ruby-talk</i> mailing list, Ruby author Yukihiro Matsumoto describes some of his early ideas about the language:<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">[12]</a></sup></p>
+<blockquote class="templatequote">
+<p>I was talking with my colleague about the possibility of an object-oriented scripting language. I knew Perl (Perl4, not Perl5), but I didn't like it really, because it had the smell of a <a href="/wiki/Toy_language" class="mw-redirect" title="Toy language">toy language</a> (it still has). The object-oriented language seemed very promising. I knew <a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a> then. But I didn't like it, because I didn't think it was a true object-oriented language&#160;— OO features appeared to be add-on to the language. As a language maniac and OO fan for 15 years, I really wanted a genuine object-oriented, easy-to-use scripting language. I looked for but couldn't find one. So I decided to make it.</p>
+</blockquote>
+<p>Matsumoto describes the design of Ruby as being like a simple <a href="/wiki/Lisp_(programming_language)" title="Lisp (programming language)">Lisp</a> language at its core, with an object system like that of Smalltalk, blocks inspired by <a href="/wiki/Higher-order_function" title="Higher-order function">higher-order functions</a>, and practical utility like that of Perl.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">[13]</a></sup></p>
+<h3><span id="The_name_&quot;Ruby&quot;"></span></span></h3>
+<p>The name "Ruby" originated during an online chat session between Matsumoto and Keiju Ishitsuka on February 24, 1993, before any code had been written for the language.<sup id="cite_ref-rubyconf-history-of-ruby_14-0" class="reference"><a href="#cite_note-rubyconf-history-of-ruby-14">[14]</a></sup> Initially two names were proposed: "<a href="/wiki/Coral" title="Coral">Coral</a>" and "<a href="/wiki/Ruby" title="Ruby">Ruby</a>". Matsumoto chose the latter in a later e-mail to Ishitsuka.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">[15]</a></sup> Matsumoto later noted a factor in choosing the name "Ruby"&#160;– it was the <a href="/wiki/Birthstone" title="Birthstone">birthstone</a> of one of his colleagues.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">[16]</a></sup><sup id="cite_ref-17" class="reference"><a href="#cite_note-17">[17]</a></sup></p>
+<h3><span class="mw-headline" id="First_publication">First publication</span></span></h3>
+<p>The first public release of Ruby 0.95 was announced on Japanese domestic <a href="/wiki/Newsgroup" class="mw-redirect" title="Newsgroup">newsgroups</a> on December 21, 1995.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">[18]</a></sup><sup id="cite_ref-19" class="reference"><a href="#cite_note-19">[19]</a></sup> Subsequently, three more versions of Ruby were released in two days.<sup id="cite_ref-rubyconf-history-of-ruby_14-1" class="reference"><a href="#cite_note-rubyconf-history-of-ruby-14">[14]</a></sup> The release coincided with the launch of the <a href="/wiki/Japanese_language" title="Japanese language">Japanese-language</a> <i>ruby-list</i> mailing list, which was the first mailing list for the new language.</p>
+<p>Already present at this stage of development were many of the features familiar in later releases of Ruby, including <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented</a> design, <a href="/wiki/Class_(computer_science)" class="mw-redirect" title="Class (computer science)">classes</a> with inheritance, <a href="/wiki/Mixin" title="Mixin">mixins</a>, <a href="/wiki/Iterator" title="Iterator">iterators</a>, <a href="/wiki/Closure_(computer_science)" class="mw-redirect" title="Closure (computer science)">closures</a>, <a href="/wiki/Exception_handling" title="Exception handling">exception handling</a> and <a href="/wiki/Garbage_collection_(computer_science)" title="Garbage collection (computer science)">garbage collection</a>.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">[20]</a></sup></p>
+<h3><span class="mw-headline" id="Early_releases">Early releases</span></span></h3>
+<p>Following the release of Ruby 0.95 in 1995, several stable versions of Ruby were released in the following years:</p>
+<ul>
+<li>Ruby 1.0: December 25, 1996<sup id="cite_ref-rubyconf-history-of-ruby_14-2" class="reference"><a href="#cite_note-rubyconf-history-of-ruby-14">[14]</a></sup></li>
+<li>Ruby 1.2: December 1998</li>
+<li>Ruby 1.4: August 1999</li>
+<li>Ruby 1.6: September 2000</li>
+</ul>
+<p>In 1997, the first article about Ruby was published on the Web. In the same year, Matsumoto was hired by netlab.jp to work on Ruby as a full-time developer.<sup id="cite_ref-rubyconf-history-of-ruby_14-3" class="reference"><a href="#cite_note-rubyconf-history-of-ruby-14">[14]</a></sup></p>
+<p>In 1998, the Ruby Application Archive was launched by Matsumoto, along with a simple English-language homepage for Ruby.<sup id="cite_ref-rubyconf-history-of-ruby_14-4" class="reference"><a href="#cite_note-rubyconf-history-of-ruby-14">[14]</a></sup></p>
+<p>In 1999, the first English language mailing list <i>ruby-talk</i> began, which signaled a growing interest in the language outside Japan.<sup id="cite_ref-linuxdevcenter_21-0" class="reference"><a href="#cite_note-linuxdevcenter-21">[21]</a></sup> In this same year, Matsumoto and Keiju Ishitsuka wrote the first book on Ruby, <i>The Object-oriented Scripting Language Ruby</i> (オブジェクト指向スクリプト言語 Ruby), which was published in Japan in October 1999. It would be followed in the early 2000s by around 20 books on Ruby published in Japanese.<sup id="cite_ref-rubyconf-history-of-ruby_14-5" class="reference"><a href="#cite_note-rubyconf-history-of-ruby-14">[14]</a></sup></p>
+<p>By 2000, Ruby was more popular than Python in Japan.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">[22]</a></sup> In September 2000, the first English language book <i><a href="/wiki/Programming_Ruby" title="Programming Ruby">Programming Ruby</a></i> was printed, which was later freely released to the public, further widening the adoption of Ruby amongst English speakers. In early 2002, the English-language <i>ruby-talk</i> mailing list was receiving more messages than the Japanese-language <i>ruby-list</i>, demonstrating Ruby's increasing popularity in the English-speaking world.</p>
+<h3><span class="mw-headline" id="Ruby_1.8">Ruby 1.8</span></span></h3>
+<p>Ruby 1.8 was initially released in August 2003, was stable for a long time, and was retired June 2013.<sup id="cite_ref-1.8.7-retirement_23-0" class="reference"><a href="#cite_note-1.8.7-retirement-23">[23]</a></sup> Although deprecated, there is still code based on it. Ruby 1.8 is only partially compatible with Ruby 1.9.</p>
+<p>Ruby 1.8 has been the subject of several industry standards. The language specifications for Ruby were developed by the Open Standards Promotion Center of the Information-Technology Promotion Agency (a <a href="/wiki/Government_of_Japan" title="Government of Japan">Japanese government</a> agency) for submission to the <a href="/wiki/Japanese_Industrial_Standards_Committee" title="Japanese Industrial Standards Committee">Japanese Industrial Standards Committee</a> (JISC) and then to the <a href="/wiki/International_Organization_for_Standardization" title="International Organization for Standardization">International Organization for Standardization</a> (ISO). It was accepted as a Japanese Industrial Standard (JIS X 3017) in 2011<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">[24]</a></sup> and an international standard (<a href="/w/index.php?title=ISO/IEC_30170&amp;action=edit&amp;redlink=1" class="new" title="ISO/IEC 30170 (page does not exist)">ISO/IEC 30170</a>) in 2012.<sup id="cite_ref-25" class="reference"><a href="#cite_note-25">[25]</a></sup><sup id="cite_ref-26" class="reference"><a href="#cite_note-26">[26]</a></sup></p>
+<p>Around 2005, interest in the Ruby language surged in tandem with <a href="/wiki/Ruby_on_Rails" title="Ruby on Rails">Ruby on Rails</a>, a <a href="/wiki/Web_framework" title="Web framework">web framework</a> written in Ruby. Rails is frequently credited with increasing awareness of Ruby.<sup id="cite_ref-27" class="reference"><a href="#cite_note-27">[27]</a></sup></p>
+<h3><span class="mw-headline" id="Ruby_1.9">Ruby 1.9</span></span></h3>
+<p>Ruby 1.9 was released in December 2007. Effective with Ruby 1.9.3, released October 31, 2011,<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">[28]</a></sup> Ruby switched from being dual-licensed under the Ruby License and the GPL to being dual-licensed under the Ruby License and the two-clause BSD license.<sup id="cite_ref-29" class="reference"><a href="#cite_note-29">[29]</a></sup> Adoption of 1.9 was slowed by changes from 1.8 that required many popular third party <a href="#Repositories_and_libraries">gems</a> to be rewritten.</p>
+<p>Ruby 1.9 introduces many significant changes over the 1.8 series.<sup id="cite_ref-30" class="reference"><a href="#cite_note-30">[30]</a></sup> Examples:</p>
+<ul>
+<li><a href="/wiki/Local_variable" title="Local variable">block local</a> variables (variables that are local to the <a href="/wiki/Block_(programming)" title="Block (programming)">block</a> in which they are declared)</li>
+<li>an additional <a href="/wiki/Anonymous_function" title="Anonymous function">lambda</a> syntax: <code class="mw-highlight" id="" style="" dir="ltr"><span class="n">f</span> <span class="o">=</span> <span class="o">-&gt;</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="p">{</span> <span class="nb">puts</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="p">}</span></code></li>
+<li>per-string <a href="/wiki/Character_encoding" title="Character encoding">character encodings</a> are supported</li>
+<li>new socket API (<a href="/wiki/IPv6" title="IPv6">IPv6</a> support)</li>
+<li><code>require_relative</code> import security</li>
+</ul>
+<p>Ruby 1.9 has been obsolete since February 23, 2015,<sup id="cite_ref-31" class="reference"><a href="#cite_note-31">[31]</a></sup> and it will no longer receive bug and security fixes. Users are advised to upgrade to a more recent version.</p>
+<h3><span class="mw-headline" id="Ruby_2.0">Ruby 2.0</span></span></h3>
+<p>Ruby 2.0 added several new features, including:</p>
+<ul>
+<li>method keyword arguments,</li>
+<li>a new method, <code>Module#prepend</code>, for extending a class,</li>
+<li>a new literal for creating an array of symbols,</li>
+<li>new API for the <a href="/wiki/Lazy_evaluation" title="Lazy evaluation">lazy evaluation</a> of Enumerables, and</li>
+<li>a new convention of using #to_h to convert objects to Hashes.<sup id="cite_ref-32" class="reference"><a href="#cite_note-32">[32]</a></sup></li>
+</ul>
+<p>Ruby 2.0 is intended to be fully backward compatible with Ruby 1.9.3. As of the official 2.0.0 release on February 24, 2013, there were only five known (minor) incompatibilities.<sup id="cite_ref-2-0-release-incompatibilities_33-0" class="reference"><a href="#cite_note-2-0-release-incompatibilities-33">[33]</a></sup></p>
+<p>It has been obsolete since February 22, 2016,<sup id="cite_ref-34" class="reference"><a href="#cite_note-34">[34]</a></sup> and it will no longer receive bug and security fixes. Users are advised to upgrade to a more recent version.</p>
+<h3><span class="mw-headline" id="Ruby_2.1">Ruby 2.1</span></span></h3>
+<p>Ruby 2.1.0 was released on Christmas Day in 2013.<sup id="cite_ref-2-1-0-release_35-0" class="reference"><a href="#cite_note-2-1-0-release-35">[35]</a></sup> The release includes speed-ups, bugfixes, and library updates.</p>
+<p>Starting with 2.1.0, Ruby's versioning policy is more like <a href="/wiki/Semantic_versioning" class="mw-redirect" title="Semantic versioning">semantic versioning</a>.<sup id="cite_ref-semantic-versioning_36-0" class="reference"><a href="#cite_note-semantic-versioning-36">[36]</a></sup> Although similar, Ruby's versioning policy is not compatible with semantic versioning:</p>
+<table class="wikitable">
+<tr>
+<th>Ruby</th>
+<th>Semantic versioning</th>
+</tr>
+<tr>
+<td><b>MAJOR</b>: Increased when incompatible change which can’t be released in MINOR. Reserved for special events.</td>
+<td><b>MAJOR</b>: Increased when you make incompatible API changes.</td>
+</tr>
+<tr>
+<td><b>MINOR</b>: increased every Christmas, <i>may be</i> API incompatible.</td>
+<td><b>MINOR</b>: increased when you add functionality in a <i>backwards-compatible</i> manner.</td>
+</tr>
+<tr>
+<td><b>TEENY</b>: security or bug fix which maintains API compatibility. May be increased more than 10 (such as 2.1.11), and will be released every 2–3 months.</td>
+<td><b>PATCH</b>: increased when you make backwards-compatible bug fixes.</td>
+</tr>
+<tr>
+<td><b>PATCH</b>: number of commits since last MINOR release (will be reset at 0 when releasing MINOR).</td>
+<td>-</td>
+</tr>
+</table>
+<p>Semantic versioning also provides additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format, not available at Ruby.</p>
+<p>Ruby 2.1 has been obsolete since April 1, 2017,<sup id="cite_ref-37" class="reference"><a href="#cite_note-37">[37]</a></sup> and it will no longer receive bug and security fixes. Users are advised to upgrade to a more recent version.</p>
+<h3><span class="mw-headline" id="Ruby_2.2">Ruby 2.2</span></span></h3>
+<p>Ruby 2.2.0 was released on Christmas Day in 2014.<sup id="cite_ref-2-2-0-release_38-0" class="reference"><a href="#cite_note-2-2-0-release-38">[38]</a></sup> The release includes speed-ups, bugfixes, and library updates and removes some deprecated APIs. Most notably, Ruby 2.2.0 introduces changes to memory handling&#160;–  an incremental garbage collector, support for garbage collection of symbols and the option to compile directly against jemalloc. It also contains experimental support for using <a href="/wiki/Vfork" class="mw-redirect" title="Vfork">vfork</a>(2) with system() and spawn(), and added support for the <a href="/wiki/Unicode" title="Unicode">Unicode</a> 7.0 specification.</p>
+<p>Features that were made obsolete or removed include callcc, the DL library, Digest::HMAC, lib/rational.rb, lib/complex.rb, GServer, Logger::Application as well as various C API functions.<sup id="cite_ref-obsolete-or-gone-in-2.2_39-0" class="reference"><a href="#cite_note-obsolete-or-gone-in-2.2-39">[39]</a></sup></p>
+<dl>
+<dt>PowerPC64 performance</dt>
+<dd>Since version 2.2.1,<sup id="cite_ref-40" class="reference"><a href="#cite_note-40">[40]</a></sup> Ruby MRI performance on <a href="/wiki/Ppc64" title="Ppc64">PowerPC64</a> was improved.<sup id="cite_ref-41" class="reference"><a href="#cite_note-41">[41]</a></sup><sup id="cite_ref-42" class="reference"><a href="#cite_note-42">[42]</a></sup><sup id="cite_ref-43" class="reference"><a href="#cite_note-43">[43]</a></sup></dd>
+</dl>
+<h3><span class="mw-headline" id="Ruby_2.3">Ruby 2.3</span></span></h3>
+<p>Ruby 2.3.0 was released on Christmas Day in 2015. A few notable changes include:</p>
+<ul>
+<li>The ability to mark all string literals as frozen by default with a consequently large performance increase in string operations.<sup id="cite_ref-44" class="reference"><a href="#cite_note-44">[44]</a></sup></li>
+<li>Hash comparison to allow direct checking of key/value pairs instead of just keys.</li>
+<li>A new <a href="/wiki/Safe_navigation_operator" title="Safe navigation operator">safe navigation operator</a> <code>&amp;.</code> that can ease nil handling (e.g. instead of <code class="mw-highlight" id="" style="" dir="ltr"><span class="k">if</span> <span class="n">obj</span> <span class="o">&amp;&amp;</span> <span class="n">obj</span><span class="o">.</span><span class="n">foo</span> <span class="o">&amp;&amp;</span> <span class="n">obj</span><span class="o">.</span><span class="n">foo</span><span class="o">.</span><span class="n">bar</span></code>, we can use <code>if obj&amp;.foo&amp;.bar</code>).</li>
+<li>The <i>did_you_mean</i> gem is now bundled by default and required on startup to automatically suggest similar name matches on a <i>NameError</i> or <i>NoMethodError</i>.</li>
+<li><i>Hash#dig</i> and <i>Array#dig</i> to easily extract deeply nested values (e.g. given <code class="mw-highlight" id="" style="" dir="ltr"><span class="n">profile</span> <span class="o">=</span> <span class="p">{</span> <span class="ss">social</span><span class="p">:</span> <span class="p">{</span> <span class="ss">wikipedia</span><span class="p">:</span> <span class="p">{</span> <span class="nb">name</span><span class="p">:</span> <span class="s1">'Foo Baz'</span> <span class="p">}</span> <span class="p">}</span> <span class="p">}</span></code>, the value <i>Foo Baz</i> can now be retrieved by <code>profile.dig(:social,&#160;:wikipedia,&#160;:name)</code>).</li>
+<li><code>.grep_v(regexp)</code> which will match all negative examples of a given regular expression in addition to other new features.</li>
+</ul>
+<p>The 2.3 branch also includes many performance improvements, updates, and bugfixes including changes to Proc#call, Socket and IO use of exception keywords, Thread#name handling, default passive Net::FTP connections, and Rake being removed from stdlib.<sup id="cite_ref-Ruby_2.3.0_NEWS_45-0" class="reference"><a href="#cite_note-Ruby_2.3.0_NEWS-45">[45]</a></sup></p>
+<h3><span class="mw-headline" id="Ruby_2.4">Ruby 2.4</span></span></h3>
+<p>Ruby 2.4.0 was released on Christmas Day in 2016. A few notable changes include:</p>
+<ul>
+<li>Binding#irb: Start a REPL session similar to binding.pry</li>
+<li>Unify <i>Fixnum</i> and <i>Bignum</i> into <i>Integer</i> class</li>
+<li>String supports Unicode case mappings, not just ASCII</li>
+<li>a new method, Regexp#match?, which is a faster boolean version of Regexp#match</li>
+<li>Thread deadlock detection now shows threads with their backtrace and dependency</li>
+</ul>
+<p>The 2.4 branch also includes performance improvements to hash table, Array#max, Array#min, and instance variable access.<sup id="cite_ref-:0_46-0" class="reference"><a href="#cite_note-:0-46">[46]</a></sup></p>
+<p>Ruby's popularity has been declining since 2014<sup id="cite_ref-47" class="reference"><a href="#cite_note-47">[47]</a></sup> , a slip that may be permanent in the face of increasing competition.<sup id="cite_ref-48" class="reference"><a href="#cite_note-48">[48]</a></sup></p>
 
 
 <h3><span class="mw-headline" id="Ruby">List of Ruby Web Frameworks</span></span></h3>
