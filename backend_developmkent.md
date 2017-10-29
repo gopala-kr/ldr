@@ -1014,20 +1014,230 @@ Articles discusses on app stucture:
 <td>ZPL</td>
 </tr>
 </table>
+***********
+
+Lets explore project structure of python frameworks: Flask, Django & 
+*********
+
+## Djnago
+
+ | HackerNews        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Official docs|
+| ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
+|  [django]()  | [django](https://medium.com/tag/django) | [django](https://www.reddit.com/r/django/)  | [django](https://www.quora.com/topic/Django-web-framework) |  [django](https://stackoverflow.com/questions/tagged/django)    | [django](https://github.com/rosarior/awesome-django), [awesome-python](https://github.com/vinta/awesome-python)  | [django](https://www.lynda.com/Django-tutorials/8494-0.html),   |[django](https://www.djangoproject.com/)  |
+
+
+
+<div class="section" id="project-structure">
+<span id="label-project-structure"></span><h1>Project Structure<a class="headerlink" href="#project-structure" title="Permalink to this headline">¶</a></h1>
+<p>The <em>normal</em> Django workflow, as it is described <a class="reference external" href="https://docs.djangoproject.com/en/1.8/intro/tutorial01/#creating-a-project">in the official Django
+tutorial</a>
+starts a project with the command:</p>
+<div class="highlight-python"><div class="highlight"><pre>$ django-admin startproject [projectname]
+</pre></div>
+</div>
+<p>Your project will look like this:</p>
+<div class="highlight-python"><div class="highlight"><pre>[projectname]/
+├── [projectname]/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+└── manage.py
+</pre></div>
+</div>
+<p>However, the <tt class="docutils literal"><span class="pre">startproject</span></tt>-command takes an optional argument <tt class="docutils literal"><span class="pre">template</span></tt>
+which can be used to specify a project template to be used for project
+creation (see <a class="reference external" href="https://docs.djangoproject.com/en/1.8/ref/django-admin/#startproject-projectname-destination">Django documentation</a>).</p>
+<p>The <tt class="docutils literal"><span class="pre">template</span></tt>-argument works with paths on your local machine, but also
+supports URLs. So you can easily fetch this skeleton from <strong>GitHub</strong> using this
+command:</p>
+<div class="highlight-python"><div class="highlight"><pre>$ django-admin startproject --template=https://github.com/Mischback/django-project-skeleton/archive/development.zip [projectname]
+</pre></div>
+</div>
+<p>Your project will look like this:</p>
+<div class="highlight-python"><div class="highlight"><pre>[projectname]/                  &lt;- project root
+├── [projectname]/              &lt;- Django root
+│   ├── __init__.py
+│   ├── settings/
+│   │   ├── common.py
+│   │   ├── dev.py
+│   │   ├── djangodefault.py
+│   │   ├── __init__.py
+│   │   └── production.py
+│   ├── urls.py
+│   └── wsgi.py
+├── apps/
+│   └── __init__.py
+├── configs/
+│   ├── apache2_vhost.sample
+│   └── README
+├── doc/
+│   ├── Makefile
+│   └── source/
+│       └── *snap*
+├── manage.py
+├── README.rst
+├── run/
+│   ├── media/
+│   │   └── README
+│   ├── README
+│   └── static/
+│       └── README
+├── static/
+│   └── README
+└── templates/
+    └── README
+</pre></div>
+</div>
+<div class="section" id="django-root">
+<h2>Django Root<a class="headerlink" href="#django-root" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre>[projectname]/                  &lt;- project root
+├── [projectname]/              &lt;- Django root
+│   ├── __init__.py
+│   ├── settings/
+│   │   ├── common.py
+│   │   ├── dev.py
+│   │   ├── djangodefault.py
+│   │   ├── __init__.py
+│   │   └── production.py
+│   ├── urls.py
+│   └── wsgi.py
+└── *snap*
+</pre></div>
+</div>
+<p>The Django root directory will be named according to the project name you
+specified in <tt class="docutils literal"><span class="pre">django-admin</span> <span class="pre">startproject</span> <span class="pre">[projectname]</span></tt>. This directory is the
+project&#8217;s connection with Django.</p>
+<dl class="docutils">
+<dt><tt class="docutils literal"><span class="pre">[projectname]/settings/</span></tt></dt>
+<dd>Instead of a plain <em>settings</em>-file, the configuration is split into several
+files in this Python module. For an in-depth documentation of these
+settings see <a class="reference internal" href="settings.html#label-project-settings"><em>Settings</em></a>.</dd>
+<dt><tt class="docutils literal"><span class="pre">[projectname]/urls.py</span></tt></dt>
+<dd>The root URL configuration of the project. The only configured set of urls
+is the admin-application. For background information see <a class="reference external" href="http://www.djangobook.com/en/2.0/chapter03.html">The Django Book
+Chapter 3</a> and <a class="reference external" href="http://www.djangobook.com/en/2.0/chapter08.html">The
+Django Book Chapter 8</a>.</dd>
+<dt><tt class="docutils literal"><span class="pre">[projectname]/wsgi.py</span></tt></dt>
+<dd>Deploying Django makes use of WSGI, the Pythonic way of deploying web
+applications. See the <a class="reference external" href="https://docs.djangoproject.com/en/1.8/howto/deployment/wsgi/">official settings documentation on WSGI</a> for more
+details. The default WSGI-application is modified to use our
+<tt class="docutils literal"><span class="pre">settings</span></tt>-module.</dd>
+</dl>
+</div>
+<div class="section" id="apps">
+<h2>apps/<a class="headerlink" href="#apps" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre>[projectname]/                  &lt;- project root
+├── *snap*
+├── apps/
+│   └── __init__.py
+└── *snap*
+</pre></div>
+</div>
+<p>This directory is used for custom applications. You can safely remove this
+directory, if you do not plan to develop custom applications. Most of a
+Django project&#8217;s apps will be installed into the Python path and not be kept
+in your project root.</p>
+</div>
+<div class="section" id="configs">
+<h2>configs/<a class="headerlink" href="#configs" title="Permalink to this headline">¶</a></h2>
+<p>This directory contains configuration files for deployment. Now only a
+configuration file for deployment with <strong>Apache2</strong> and <strong>mod_wsgi</strong> is
+provided.</p>
+<div class="highlight-python"><div class="highlight"><pre>[projectname]/                  &lt;- project root
+├── *snap*
+├── configs/
+│   ├── apache2_vhost.sample
+│   └── README
+└── *snap*
+</pre></div>
+</div>
+<p><strong>Please note:</strong> It is strongly advised to keep your actual server
+configuration private. Therefore a <tt class="docutils literal"><span class="pre">.gitignore</span></tt>-file is provided, which will
+only include files ending with the suffix <tt class="docutils literal"><span class="pre">.sample</span></tt> into <em>Git</em>.</p>
+<p>For a brief overview of the <tt class="docutils literal"><span class="pre">configs/apach2_vhost.sample</span></tt> refer to
+<a class="reference internal" href="apache2_vhost.html#label-apache2-vhost"><em>Apache2 Virtual Host Configuration</em></a>.</p>
+</div>
+<div class="section" id="doc">
+<h2>doc/<a class="headerlink" href="#doc" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre>[projectname]/                  &lt;- project root
+├── *snap*
+├── doc/
+│   ├── Makefile
+│   └── source/
+│       └── *snap*
+└── *snap*
+</pre></div>
+</div>
+<p>This directory contains the source files for this documentation.</p>
+<p>You can safely remove this directory, if you just want to use the skeleton for
+your own project.</p>
+</div>
+<div class="section" id="run">
+<h2>run/<a class="headerlink" href="#run" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre>[projectname]/                  &lt;- project root
+├── *snap*
+├── run/
+│   ├── media/
+│   │   └── README
+│   ├── README
+│   └── static/
+│       └── README
+└── *snap*
+</pre></div>
+</div>
+<p>This directory contains necessary files for running Django. All these files
+may contain sensible or useless information, so you will not want to keep this
+files in version control. A <tt class="docutils literal"><span class="pre">.gitignore</span></tt>-file is prepared.</p>
+<p>This directory will contain the SQLite database file (if you keep the provided
+<tt class="docutils literal"><span class="pre">dev</span></tt>-settings) and the <em>SECRET_KEY</em> of Django. For a detailled explanation
+see <a class="reference internal" href="settings.html#label-project-settings"><em>Settings</em></a>.</p>
+<dl class="docutils">
+<dt><tt class="docutils literal"><span class="pre">run/media/</span></tt></dt>
+<dd>Django uses a special folder to store user-provided files (uploads). In the
+settings-module of this skeleton this directory is set as <tt class="docutils literal"><span class="pre">MEDIA_ROOT</span></tt>.</dd>
+<dt><tt class="docutils literal"><span class="pre">run/static/</span></tt></dt>
+<dd>Similar to media files, all static assets (i.e. stylesheets, javascript
+files, images) are served from a special directory.</dd>
+</dl>
+</div>
+<div class="section" id="static-and-templates">
+<h2>static/ and templates/<a class="headerlink" href="#static-and-templates" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre>[projectname]/                  &lt;- project root
+├── *snap*
+├── static/
+│   └── README
+└── templates/
+    └── README
+</pre></div>
+</div>
+<p>These directories are used for project wide files, meaning project wide static
+assets and templates.</p>
+<dl class="docutils">
+<dt><tt class="docutils literal"><span class="pre">static/</span></tt></dt>
+<dd>This directory is used to provide our project wide static assets. Please
+refer to <a class="reference external" href="https://docs.djangoproject.com/en/1.8/howto/static-files/#configuring-static-files">the Django documentation</a>
+for more details. <a class="reference internal" href="settings.html#label-project-settings"><em>Settings</em></a> documents the
+<tt class="docutils literal"><span class="pre">STATICFILES_DIRS</span></tt>-setting.</dd>
+<dt><tt class="docutils literal"><span class="pre">templates/</span></tt></dt>
+<dd>This directory is used to provide our project wide templates.
+<a class="reference internal" href="settings.html#label-project-settings"><em>Settings</em></a> documents the <tt class="docutils literal"><span class="pre">TEMPLATE_DIRS</span></tt>-setting.</dd>
+</dl>
+</div>
 
 *********************************
 <h2><span class="mw-headline" id="History">Brief History of Ruby</span></span></h2>
 <h3><span class="mw-headline" id="Early_concept">Early concept</span></span></h3>
 <p>Ruby was conceived on February 24, 1993. In a 1999 post to the <i>ruby-talk</i> mailing list, Ruby author Yukihiro Matsumoto describes some of his early ideas about the language:<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">[12]</a></sup></p>
 <blockquote class="templatequote">
-<p>I was talking with my colleague about the possibility of an object-oriented scripting language. I knew Perl (Perl4, not Perl5), but I didn't like it really, because it had the smell of a <a href="/wiki/Toy_language" class="mw-redirect" title="Toy language">toy language</a> (it still has). The object-oriented language seemed very promising. I knew <a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a> then. But I didn't like it, because I didn't think it was a true object-oriented language&#160;— OO features appeared to be add-on to the language. As a language maniac and OO fan for 15 years, I really wanted a genuine object-oriented, easy-to-use scripting language. I looked for but couldn't find one. So I decided to make it.</p>
+<p>I was talking with my colleague about the possibility of an object-oriented scripting language. I knew Perl (Perl4, not Perl5), but I didn't like it really, because it had the smell of a <a href="https://en.wikipedia.org/wiki/Toy_language" class="mw-redirect" title="Toy language">toy language</a> (it still has). The object-oriented language seemed very promising. I knew <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python (programming language)">Python</a> then. But I didn't like it, because I didn't think it was a true object-oriented language&#160;— OO features appeared to be add-on to the language. As a language maniac and OO fan for 15 years, I really wanted a genuine object-oriented, easy-to-use scripting language. I looked for but couldn't find one. So I decided to make it.</p>
 </blockquote>
-<p>Matsumoto describes the design of Ruby as being like a simple <a href="/wiki/Lisp_(programming_language)" title="Lisp (programming language)">Lisp</a> language at its core, with an object system like that of Smalltalk, blocks inspired by <a href="/wiki/Higher-order_function" title="Higher-order function">higher-order functions</a>, and practical utility like that of Perl.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">[13]</a></sup></p>
+<p>Matsumoto describes the design of Ruby as being like a simple <a href="https://en.wikipedia.org/wiki/Lisp_(programming_language)" title="Lisp (programming language)">Lisp</a> language at its core, with an object system like that of Smalltalk, blocks inspired by <a href="https://en.wikipedia.org/wiki/Higher-order_function" title="Higher-order function">higher-order functions</a>, and practical utility like that of Perl.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">[13]</a></sup></p>
 <h3><span id="The_name_&quot;Ruby&quot;"></span></span></h3>
-<p>The name "Ruby" originated during an online chat session between Matsumoto and Keiju Ishitsuka on February 24, 1993, before any code had been written for the language.<sup id="cite_ref-rubyconf-history-of-ruby_14-0" class="reference"><a href="#cite_note-rubyconf-history-of-ruby-14">[14]</a></sup> Initially two names were proposed: "<a href="/wiki/Coral" title="Coral">Coral</a>" and "<a href="/wiki/Ruby" title="Ruby">Ruby</a>". Matsumoto chose the latter in a later e-mail to Ishitsuka.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">[15]</a></sup> Matsumoto later noted a factor in choosing the name "Ruby"&#160;– it was the <a href="/wiki/Birthstone" title="Birthstone">birthstone</a> of one of his colleagues.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">[16]</a></sup><sup id="cite_ref-17" class="reference"><a href="#cite_note-17">[17]</a></sup></p>
+<p>The name "Ruby" originated during an online chat session between Matsumoto and Keiju Ishitsuka on February 24, 1993, before any code had been written for the language.<sup id="cite_ref-rubyconf-history-of-ruby_14-0" class="reference"><a href="#cite_note-rubyconf-history-of-ruby-14">[14]</a></sup> Initially two names were proposed: "<a href="https://en.wikipedia.org/wiki/Coral" title="Coral">Coral</a>" and "<a href="https://en.wikipedia.org/wiki/Ruby" title="Ruby">Ruby</a>". Matsumoto chose the latter in a later e-mail to Ishitsuka.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">[15]</a></sup> Matsumoto later noted a factor in choosing the name "Ruby"&#160;– it was the <a href="https://en.wikipedia.org/wiki/Birthstone" title="Birthstone">birthstone</a> of one of his colleagues.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">[16]</a></sup><sup id="cite_ref-17" class="reference"><a href="#cite_note-17">[17]</a></sup></p>
 <h3><span class="mw-headline" id="First_publication">First publication</span></span></h3>
-<p>The first public release of Ruby 0.95 was announced on Japanese domestic <a href="/wiki/Newsgroup" class="mw-redirect" title="Newsgroup">newsgroups</a> on December 21, 1995.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">[18]</a></sup><sup id="cite_ref-19" class="reference"><a href="#cite_note-19">[19]</a></sup> Subsequently, three more versions of Ruby were released in two days.<sup id="cite_ref-rubyconf-history-of-ruby_14-1" class="reference"><a href="#cite_note-rubyconf-history-of-ruby-14">[14]</a></sup> The release coincided with the launch of the <a href="/wiki/Japanese_language" title="Japanese language">Japanese-language</a> <i>ruby-list</i> mailing list, which was the first mailing list for the new language.</p>
-<p>Already present at this stage of development were many of the features familiar in later releases of Ruby, including <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented</a> design, <a href="/wiki/Class_(computer_science)" class="mw-redirect" title="Class (computer science)">classes</a> with inheritance, <a href="/wiki/Mixin" title="Mixin">mixins</a>, <a href="/wiki/Iterator" title="Iterator">iterators</a>, <a href="/wiki/Closure_(computer_science)" class="mw-redirect" title="Closure (computer science)">closures</a>, <a href="/wiki/Exception_handling" title="Exception handling">exception handling</a> and <a href="/wiki/Garbage_collection_(computer_science)" title="Garbage collection (computer science)">garbage collection</a>.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">[20]</a></sup></p>
+<p>The first public release of Ruby 0.95 was announced on Japanese domestic <a href="https://en.wikipedia.org/wiki/Newsgroup" class="mw-redirect" title="Newsgroup">newsgroups</a> on December 21, 1995.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">[18]</a></sup><sup id="cite_ref-19" class="reference"><a href="#cite_note-19">[19]</a></sup> Subsequently, three more versions of Ruby were released in two days.<sup id="cite_ref-rubyconf-history-of-ruby_14-1" class="reference"><a href="#cite_note-rubyconf-history-of-ruby-14">[14]</a></sup> The release coincided with the launch of the <a href="https://en.wikipedia.org/wiki/Japanese_language" title="Japanese language">Japanese-language</a> <i>ruby-list</i> mailing list, which was the first mailing list for the new language.</p>
+<p>Already present at this stage of development were many of the features familiar in later releases of Ruby, including <a href="https://en.wikipedia.org/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented</a> design, <a href="https://en.wikipedia.org/wiki/Class_(computer_science)" class="mw-redirect" title="Class (computer science)">classes</a> with inheritance, <a href="https://en.wikipedia.org/wiki/Mixin" title="Mixin">mixins</a>, <a href="https://en.wikipedia.org/wiki/Iterator" title="Iterator">iterators</a>, <a href="https://en.wikipedia.org/wiki/Closure_(computer_science)" class="mw-redirect" title="Closure (computer science)">closures</a>, <a href="https://en.wikipedia.org/wiki/Exception_handling" title="Exception handling">exception handling</a> and <a href="https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)" title="Garbage collection (computer science)">garbage collection</a>.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">[20]</a></sup></p>
 <h3><span class="mw-headline" id="Early_releases">Early releases</span></span></h3>
 <p>Following the release of Ruby 0.95 in 1995, several stable versions of Ruby were released in the following years:</p>
 <ul>
@@ -1039,19 +1249,19 @@ Articles discusses on app stucture:
 <p>In 1997, the first article about Ruby was published on the Web. In the same year, Matsumoto was hired by netlab.jp to work on Ruby as a full-time developer.<sup id="cite_ref-rubyconf-history-of-ruby_14-3" class="reference"><a href="#cite_note-rubyconf-history-of-ruby-14">[14]</a></sup></p>
 <p>In 1998, the Ruby Application Archive was launched by Matsumoto, along with a simple English-language homepage for Ruby.<sup id="cite_ref-rubyconf-history-of-ruby_14-4" class="reference"><a href="#cite_note-rubyconf-history-of-ruby-14">[14]</a></sup></p>
 <p>In 1999, the first English language mailing list <i>ruby-talk</i> began, which signaled a growing interest in the language outside Japan.<sup id="cite_ref-linuxdevcenter_21-0" class="reference"><a href="#cite_note-linuxdevcenter-21">[21]</a></sup> In this same year, Matsumoto and Keiju Ishitsuka wrote the first book on Ruby, <i>The Object-oriented Scripting Language Ruby</i> (オブジェクト指向スクリプト言語 Ruby), which was published in Japan in October 1999. It would be followed in the early 2000s by around 20 books on Ruby published in Japanese.<sup id="cite_ref-rubyconf-history-of-ruby_14-5" class="reference"><a href="#cite_note-rubyconf-history-of-ruby-14">[14]</a></sup></p>
-<p>By 2000, Ruby was more popular than Python in Japan.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">[22]</a></sup> In September 2000, the first English language book <i><a href="/wiki/Programming_Ruby" title="Programming Ruby">Programming Ruby</a></i> was printed, which was later freely released to the public, further widening the adoption of Ruby amongst English speakers. In early 2002, the English-language <i>ruby-talk</i> mailing list was receiving more messages than the Japanese-language <i>ruby-list</i>, demonstrating Ruby's increasing popularity in the English-speaking world.</p>
+<p>By 2000, Ruby was more popular than Python in Japan.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">[22]</a></sup> In September 2000, the first English language book <i><a href="https://en.wikipedia.org/wiki/Programming_Ruby" title="Programming Ruby">Programming Ruby</a></i> was printed, which was later freely released to the public, further widening the adoption of Ruby amongst English speakers. In early 2002, the English-language <i>ruby-talk</i> mailing list was receiving more messages than the Japanese-language <i>ruby-list</i>, demonstrating Ruby's increasing popularity in the English-speaking world.</p>
 <h3><span class="mw-headline" id="Ruby_1.8">Ruby 1.8</span></span></h3>
 <p>Ruby 1.8 was initially released in August 2003, was stable for a long time, and was retired June 2013.<sup id="cite_ref-1.8.7-retirement_23-0" class="reference"><a href="#cite_note-1.8.7-retirement-23">[23]</a></sup> Although deprecated, there is still code based on it. Ruby 1.8 is only partially compatible with Ruby 1.9.</p>
-<p>Ruby 1.8 has been the subject of several industry standards. The language specifications for Ruby were developed by the Open Standards Promotion Center of the Information-Technology Promotion Agency (a <a href="/wiki/Government_of_Japan" title="Government of Japan">Japanese government</a> agency) for submission to the <a href="/wiki/Japanese_Industrial_Standards_Committee" title="Japanese Industrial Standards Committee">Japanese Industrial Standards Committee</a> (JISC) and then to the <a href="/wiki/International_Organization_for_Standardization" title="International Organization for Standardization">International Organization for Standardization</a> (ISO). It was accepted as a Japanese Industrial Standard (JIS X 3017) in 2011<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">[24]</a></sup> and an international standard (<a href="/w/index.php?title=ISO/IEC_30170&amp;action=edit&amp;redlink=1" class="new" title="ISO/IEC 30170 (page does not exist)">ISO/IEC 30170</a>) in 2012.<sup id="cite_ref-25" class="reference"><a href="#cite_note-25">[25]</a></sup><sup id="cite_ref-26" class="reference"><a href="#cite_note-26">[26]</a></sup></p>
-<p>Around 2005, interest in the Ruby language surged in tandem with <a href="/wiki/Ruby_on_Rails" title="Ruby on Rails">Ruby on Rails</a>, a <a href="/wiki/Web_framework" title="Web framework">web framework</a> written in Ruby. Rails is frequently credited with increasing awareness of Ruby.<sup id="cite_ref-27" class="reference"><a href="#cite_note-27">[27]</a></sup></p>
+<p>Ruby 1.8 has been the subject of several industry standards. The language specifications for Ruby were developed by the Open Standards Promotion Center of the Information-Technology Promotion Agency (a <a href="https://en.wikipedia.org/wiki/Government_of_Japan" title="Government of Japan">Japanese government</a> agency) for submission to the <a href="https://en.wikipedia.org/wiki/Japanese_Industrial_Standards_Committee" title="Japanese Industrial Standards Committee">Japanese Industrial Standards Committee</a> (JISC) and then to the <a href="https://en.wikipedia.org/wiki/International_Organization_for_Standardization" title="International Organization for Standardization">International Organization for Standardization</a> (ISO). It was accepted as a Japanese Industrial Standard (JIS X 3017) in 2011<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">[24]</a></sup> and an international standard (<a href="/w/index.php?title=ISO/IEC_30170&amp;action=edit&amp;redlink=1" class="new" title="ISO/IEC 30170 (page does not exist)">ISO/IEC 30170</a>) in 2012.<sup id="cite_ref-25" class="reference"><a href="#cite_note-25">[25]</a></sup><sup id="cite_ref-26" class="reference"><a href="#cite_note-26">[26]</a></sup></p>
+<p>Around 2005, interest in the Ruby language surged in tandem with <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" title="Ruby on Rails">Ruby on Rails</a>, a <a href="https://en.wikipedia.org/wiki/Web_framework" title="Web framework">web framework</a> written in Ruby. Rails is frequently credited with increasing awareness of Ruby.<sup id="cite_ref-27" class="reference"><a href="#cite_note-27">[27]</a></sup></p>
 <h3><span class="mw-headline" id="Ruby_1.9">Ruby 1.9</span></span></h3>
 <p>Ruby 1.9 was released in December 2007. Effective with Ruby 1.9.3, released October 31, 2011,<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">[28]</a></sup> Ruby switched from being dual-licensed under the Ruby License and the GPL to being dual-licensed under the Ruby License and the two-clause BSD license.<sup id="cite_ref-29" class="reference"><a href="#cite_note-29">[29]</a></sup> Adoption of 1.9 was slowed by changes from 1.8 that required many popular third party <a href="#Repositories_and_libraries">gems</a> to be rewritten.</p>
 <p>Ruby 1.9 introduces many significant changes over the 1.8 series.<sup id="cite_ref-30" class="reference"><a href="#cite_note-30">[30]</a></sup> Examples:</p>
 <ul>
-<li><a href="/wiki/Local_variable" title="Local variable">block local</a> variables (variables that are local to the <a href="/wiki/Block_(programming)" title="Block (programming)">block</a> in which they are declared)</li>
-<li>an additional <a href="/wiki/Anonymous_function" title="Anonymous function">lambda</a> syntax: <code class="mw-highlight" id="" style="" dir="ltr"><span class="n">f</span> <span class="o">=</span> <span class="o">-&gt;</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="p">{</span> <span class="nb">puts</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="p">}</span></code></li>
-<li>per-string <a href="/wiki/Character_encoding" title="Character encoding">character encodings</a> are supported</li>
-<li>new socket API (<a href="/wiki/IPv6" title="IPv6">IPv6</a> support)</li>
+<li><a href="https://en.wikipedia.org/wiki/Local_variable" title="Local variable">block local</a> variables (variables that are local to the <a href="https://en.wikipedia.org/wiki/Block_(programming)" title="Block (programming)">block</a> in which they are declared)</li>
+<li>an additional <a href="https://en.wikipedia.org/wiki/Anonymous_function" title="Anonymous function">lambda</a> syntax: <code class="mw-highlight" id="" style="" dir="ltr"><span class="n">f</span> <span class="o">=</span> <span class="o">-&gt;</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="p">{</span> <span class="nb">puts</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="p">}</span></code></li>
+<li>per-string <a href="https://en.wikipedia.org/wiki/Character_encoding" title="Character encoding">character encodings</a> are supported</li>
+<li>new socket API (<a href="https://en.wikipedia.org/wiki/IPv6" title="IPv6">IPv6</a> support)</li>
 <li><code>require_relative</code> import security</li>
 </ul>
 <p>Ruby 1.9 has been obsolete since February 23, 2015,<sup id="cite_ref-31" class="reference"><a href="#cite_note-31">[31]</a></sup> and it will no longer receive bug and security fixes. Users are advised to upgrade to a more recent version.</p>
@@ -1061,14 +1271,14 @@ Articles discusses on app stucture:
 <li>method keyword arguments,</li>
 <li>a new method, <code>Module#prepend</code>, for extending a class,</li>
 <li>a new literal for creating an array of symbols,</li>
-<li>new API for the <a href="/wiki/Lazy_evaluation" title="Lazy evaluation">lazy evaluation</a> of Enumerables, and</li>
+<li>new API for the <a href="https://en.wikipedia.org/wiki/Lazy_evaluation" title="Lazy evaluation">lazy evaluation</a> of Enumerables, and</li>
 <li>a new convention of using #to_h to convert objects to Hashes.<sup id="cite_ref-32" class="reference"><a href="#cite_note-32">[32]</a></sup></li>
 </ul>
 <p>Ruby 2.0 is intended to be fully backward compatible with Ruby 1.9.3. As of the official 2.0.0 release on February 24, 2013, there were only five known (minor) incompatibilities.<sup id="cite_ref-2-0-release-incompatibilities_33-0" class="reference"><a href="#cite_note-2-0-release-incompatibilities-33">[33]</a></sup></p>
 <p>It has been obsolete since February 22, 2016,<sup id="cite_ref-34" class="reference"><a href="#cite_note-34">[34]</a></sup> and it will no longer receive bug and security fixes. Users are advised to upgrade to a more recent version.</p>
 <h3><span class="mw-headline" id="Ruby_2.1">Ruby 2.1</span></span></h3>
 <p>Ruby 2.1.0 was released on Christmas Day in 2013.<sup id="cite_ref-2-1-0-release_35-0" class="reference"><a href="#cite_note-2-1-0-release-35">[35]</a></sup> The release includes speed-ups, bugfixes, and library updates.</p>
-<p>Starting with 2.1.0, Ruby's versioning policy is more like <a href="/wiki/Semantic_versioning" class="mw-redirect" title="Semantic versioning">semantic versioning</a>.<sup id="cite_ref-semantic-versioning_36-0" class="reference"><a href="#cite_note-semantic-versioning-36">[36]</a></sup> Although similar, Ruby's versioning policy is not compatible with semantic versioning:</p>
+<p>Starting with 2.1.0, Ruby's versioning policy is more like <a href="https://en.wikipedia.org/wiki/Semantic_versioning" class="mw-redirect" title="Semantic versioning">semantic versioning</a>.<sup id="cite_ref-semantic-versioning_36-0" class="reference"><a href="#cite_note-semantic-versioning-36">[36]</a></sup> Although similar, Ruby's versioning policy is not compatible with semantic versioning:</p>
 <table class="wikitable">
 <tr>
 <th>Ruby</th>
@@ -1094,18 +1304,18 @@ Articles discusses on app stucture:
 <p>Semantic versioning also provides additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format, not available at Ruby.</p>
 <p>Ruby 2.1 has been obsolete since April 1, 2017,<sup id="cite_ref-37" class="reference"><a href="#cite_note-37">[37]</a></sup> and it will no longer receive bug and security fixes. Users are advised to upgrade to a more recent version.</p>
 <h3><span class="mw-headline" id="Ruby_2.2">Ruby 2.2</span></span></h3>
-<p>Ruby 2.2.0 was released on Christmas Day in 2014.<sup id="cite_ref-2-2-0-release_38-0" class="reference"><a href="#cite_note-2-2-0-release-38">[38]</a></sup> The release includes speed-ups, bugfixes, and library updates and removes some deprecated APIs. Most notably, Ruby 2.2.0 introduces changes to memory handling&#160;–  an incremental garbage collector, support for garbage collection of symbols and the option to compile directly against jemalloc. It also contains experimental support for using <a href="/wiki/Vfork" class="mw-redirect" title="Vfork">vfork</a>(2) with system() and spawn(), and added support for the <a href="/wiki/Unicode" title="Unicode">Unicode</a> 7.0 specification.</p>
+<p>Ruby 2.2.0 was released on Christmas Day in 2014.<sup id="cite_ref-2-2-0-release_38-0" class="reference"><a href="#cite_note-2-2-0-release-38">[38]</a></sup> The release includes speed-ups, bugfixes, and library updates and removes some deprecated APIs. Most notably, Ruby 2.2.0 introduces changes to memory handling&#160;–  an incremental garbage collector, support for garbage collection of symbols and the option to compile directly against jemalloc. It also contains experimental support for using <a href="https://en.wikipedia.org/wiki/Vfork" class="mw-redirect" title="Vfork">vfork</a>(2) with system() and spawn(), and added support for the <a href="https://en.wikipedia.org/wiki/Unicode" title="Unicode">Unicode</a> 7.0 specification.</p>
 <p>Features that were made obsolete or removed include callcc, the DL library, Digest::HMAC, lib/rational.rb, lib/complex.rb, GServer, Logger::Application as well as various C API functions.<sup id="cite_ref-obsolete-or-gone-in-2.2_39-0" class="reference"><a href="#cite_note-obsolete-or-gone-in-2.2-39">[39]</a></sup></p>
 <dl>
 <dt>PowerPC64 performance</dt>
-<dd>Since version 2.2.1,<sup id="cite_ref-40" class="reference"><a href="#cite_note-40">[40]</a></sup> Ruby MRI performance on <a href="/wiki/Ppc64" title="Ppc64">PowerPC64</a> was improved.<sup id="cite_ref-41" class="reference"><a href="#cite_note-41">[41]</a></sup><sup id="cite_ref-42" class="reference"><a href="#cite_note-42">[42]</a></sup><sup id="cite_ref-43" class="reference"><a href="#cite_note-43">[43]</a></sup></dd>
+<dd>Since version 2.2.1,<sup id="cite_ref-40" class="reference"><a href="#cite_note-40">[40]</a></sup> Ruby MRI performance on <a href="https://en.wikipedia.org/wiki/Ppc64" title="Ppc64">PowerPC64</a> was improved.<sup id="cite_ref-41" class="reference"><a href="#cite_note-41">[41]</a></sup><sup id="cite_ref-42" class="reference"><a href="#cite_note-42">[42]</a></sup><sup id="cite_ref-43" class="reference"><a href="#cite_note-43">[43]</a></sup></dd>
 </dl>
 <h3><span class="mw-headline" id="Ruby_2.3">Ruby 2.3</span></span></h3>
 <p>Ruby 2.3.0 was released on Christmas Day in 2015. A few notable changes include:</p>
 <ul>
 <li>The ability to mark all string literals as frozen by default with a consequently large performance increase in string operations.<sup id="cite_ref-44" class="reference"><a href="#cite_note-44">[44]</a></sup></li>
 <li>Hash comparison to allow direct checking of key/value pairs instead of just keys.</li>
-<li>A new <a href="/wiki/Safe_navigation_operator" title="Safe navigation operator">safe navigation operator</a> <code>&amp;.</code> that can ease nil handling (e.g. instead of <code class="mw-highlight" id="" style="" dir="ltr"><span class="k">if</span> <span class="n">obj</span> <span class="o">&amp;&amp;</span> <span class="n">obj</span><span class="o">.</span><span class="n">foo</span> <span class="o">&amp;&amp;</span> <span class="n">obj</span><span class="o">.</span><span class="n">foo</span><span class="o">.</span><span class="n">bar</span></code>, we can use <code>if obj&amp;.foo&amp;.bar</code>).</li>
+<li>A new <a href="https://en.wikipedia.org/wiki/Safe_navigation_operator" title="Safe navigation operator">safe navigation operator</a> <code>&amp;.</code> that can ease nil handling (e.g. instead of <code class="mw-highlight" id="" style="" dir="ltr"><span class="k">if</span> <span class="n">obj</span> <span class="o">&amp;&amp;</span> <span class="n">obj</span><span class="o">.</span><span class="n">foo</span> <span class="o">&amp;&amp;</span> <span class="n">obj</span><span class="o">.</span><span class="n">foo</span><span class="o">.</span><span class="n">bar</span></code>, we can use <code>if obj&amp;.foo&amp;.bar</code>).</li>
 <li>The <i>did_you_mean</i> gem is now bundled by default and required on startup to automatically suggest similar name matches on a <i>NameError</i> or <i>NoMethodError</i>.</li>
 <li><i>Hash#dig</i> and <i>Array#dig</i> to easily extract deeply nested values (e.g. given <code class="mw-highlight" id="" style="" dir="ltr"><span class="n">profile</span> <span class="o">=</span> <span class="p">{</span> <span class="ss">social</span><span class="p">:</span> <span class="p">{</span> <span class="ss">wikipedia</span><span class="p">:</span> <span class="p">{</span> <span class="nb">name</span><span class="p">:</span> <span class="s1">'Foo Baz'</span> <span class="p">}</span> <span class="p">}</span> <span class="p">}</span></code>, the value <i>Foo Baz</i> can now be retrieved by <code>profile.dig(:social,&#160;:wikipedia,&#160;:name)</code>).</li>
 <li><code>.grep_v(regexp)</code> which will match all negative examples of a given regular expression in addition to other new features.</li>
