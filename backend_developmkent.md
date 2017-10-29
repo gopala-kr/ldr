@@ -2,18 +2,20 @@
 
 ******************
 **A look into brief history of internet timelines**
+------------------
 <br>
 ![www](http://malonemediagroup.com/wp-content/uploads/2014/02/historyoftheinternet-timeline.png)
 ********************
 
 **A look into brief history of social media** 
-
+-----------------
 <br>
 
 ![social](https://keymediasolutions.com/wp-content/uploads/2017/09/New-Media-Timeline.jpg)
 
 ********************
 **A look into brief history of webframeworks** 
+----------------
 <br>
 ![webframeworks](https://raw.githubusercontent.com/mraible/history-of-web-frameworks-timeline/master/history-of-web-frameworks-timeline.png)
 ***********************
@@ -78,8 +80,9 @@ there is a best article on [framework](https://github.com/gopala-kr/weekend-with
 
 *******************************
 ### A look into java timelines
+-----------------------
 <br>
-![java](https://image.slidesharecdn.com/javanturav2-theroadtojava-hujakoraclecroatia-brankomihaljevialeksanderradovandukovukmanovi-141130060735-conversion-gate01/95/javantura-v2-the-road-to-java-hujak-oracle-croatia-branko-mihaljevi-aleksander-radovan-duko-vukmanovi-3-638.jpg?cb=1417328508)
+![java](https://image.slidesharecdn.com/javanturav2-theroadtojava-hujakoraclecroatia-brankomihaljevialeksanderradovandukovukmanovi-141130060735-conversion-gate01/95/javantura-v2-the-road-to-java-hujak-oracle-croatia-branko-mihaljevi-aleksander-radovan-duko-vukmanovi-3-638.jpg)
 
 
 
