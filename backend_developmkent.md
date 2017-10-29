@@ -67,60 +67,9 @@ Why not use Rich Client Application (WPF, JavaFx, Flex) as view
 * JSF 1.0 –2004, 1.2 – 2006, 2.0 – 2009, 2.1 – 2010
 * GWT: 1.0 – 2006, 2.5.0 –2012
 
-### Types of Java Web Framework
+**What we are looking for from a good web framework**
 
-**JSF (Struts/Tapestry/Spring MVC/Wicket) Liked Web Framework**
-
-* Servlet + JSP/XHMTL/Template + JSP Tag + XML Descriptor + Naming Convention
-* HTML code based
-* HTML page oriented
-* HTTP request based communication
-* Macro / template based view
-* AJAX / GWT
-
-**HTML structure based --- not code based (canvas) + JavaScript (pencil)**
-
-### JSF Liked Web Framework**
-
-Pros:
-
-* Straightforward for experienced developer to understand the underlying technology (not for newbie to pick up)
-* Full control on client (webpage) rendering and communication
-* Easy to integrate with other technologies (AJAX, JQUERY)
-* Industry standard (more resources)
-
-Cons:
-
-* High learning curve for new developer to start and maintain existing code (swing vs jsf): html, javascript, http request, session, j2ee server, xml, EL, etc
-* Opposite to OO, hard to extend existing component Difficult to maintain a consistent look and feel
-* The complexity is increasing quickly while number of components on the page increasing
-* A lot of redundant tag/HTML code on the JSP(JSF) page. Code in the page is easy to messed up and hard to maintain (mixing JavaScript, JSP tag and html)
-* Not compiler or IDE friendly
-* Developer need to do the data binding by themselves
-
-### GWT
-
-Pros:
-
-* Simplicity, Swing/SWT Like
-* Lots of built in components (better than jsp tag)
-* Strong binding between Java-JavaScript
-* Solve the complexity when there is a lot of controls/interact on the page
-
-Cons:
-
-* Hard to control CSS classes
-* Built in components are fairly basic (Solved By Smart GWT, GXT)
-* Developer need to control the communication by themselves
-* Biggest Problem: It is designed and developed by and for Google, not for internal application
-* Main Challenges of Web Application
-
-**Customized component Data binding**
-* .Net has solved this by using ViewState
-* What we are looking for from a good web framework
-
-**Strong data binding**
-
+* Strong data binding
 * Easy component extension and customization
 * Less code
 * Ability to outline the look and feel
@@ -145,10 +94,12 @@ Cons:
 * Lower learning curve when adding new members
 * More resources / features
 * Easy to overestimate
-* Marginal Benefit >>> Marginal Cost
 
+Marginal Benefit >>> Marginal Cost
 
-## Java Web Frameworks Index by [zeroturnaround](https://zeroturnaround.com/webframeworksindex/)
+there is a best article on [framework](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/framework.md)
+
+## Java Web Frameworks Index
 
 Combined public data from StackOverflow, LinkedIn, GitHub, and Google search, to compute the popularity rank of each framework
 
@@ -192,7 +143,7 @@ Combined public data from StackOverflow, LinkedIn, GitHub, and Google search, to
 	  		</div>
     	</div>
 
-
+source : [zeroturnaround](https://zeroturnaround.com/webframeworksindex/)
 ***********************************************************
 <h3><span class="mw-headline" id="Java">Java</span></span></h3>
 
