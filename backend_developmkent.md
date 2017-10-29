@@ -134,9 +134,11 @@ Combined public data from StackOverflow, LinkedIn, GitHub, and Google search, to
 
 source : [zeroturnaround](https://zeroturnaround.com/webframeworksindex/)
 ***********************************************************
-<h3><span class="mw-headline" id="Java">Java</span></span></h3>
+<h3><span class="mw-headline" id="Java">List of Java Web Frameworks</span></span></h3>
 
-<div role="note" class="hatnote navigation-not-searchable">See also: <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java (programming language)</a> and <a href="https://en.wikipedia.org/wiki/Java_(software_platform)" title="Java (software platform)">Java (software platform)</a></div>
+<p>Source: Wikipedia</P>
+
+<div role="note" class="hatnote navigation-not-searchable">Wiki: <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java (programming language)</a> and <a href="https://en.wikipedia.org/wiki/Java_(software_platform)" title="Java (software platform)">Java (software platform)</a></div>
 <table class="wikitable sortable" style="font-size: 90%">
 <br>
 <tr>
@@ -357,6 +359,8 @@ source : [zeroturnaround](https://zeroturnaround.com/webframeworksindex/)
 </tr>
 </table>
 
+Lets explore one popular java framework in detail to undestand how easier the web development using Java.
+
 ***********************************
 ## Spring Framework
 ****************
@@ -369,18 +373,22 @@ source : [zeroturnaround](https://zeroturnaround.com/webframeworksindex/)
 ****************
 ![spring doc](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/springframework/spring_doc.JPG)
 
-Sample project:
-
-[Developing a Spring Framework MVC application step-by-step from official doc ](https://docs.spring.io/docs/Spring-MVC-step-by-step/)
+[Sample Spring Project Structure from official guide:](https://docs.spring.io/docs/Spring-MVC-step-by-step/)
 
 ![spring project structure](https://docs.spring.io/docs/Spring-MVC-step-by-step/images/dir-structure-endp6.png)
 
-Some article on  [spring project structure](https://www.coveros.com/spring-mvc-project-structure/) [stackoverflow](https://stackoverflow.com/questions/23550273/spring-mvc-project-structure-best-practices) [spring web app architecture](https://www.petrikainulainen.net/software-development/design/understanding-spring-web-application-architecture-the-classic-way/)
+Some article on spring project structure:
+* [spring project structure](https://www.coveros.com/spring-mvc-project-structure/) 
+* [stackoverflow](https://stackoverflow.com/questions/23550273/spring-mvc-project-structure-best-practices) 
+* [spring web app architecture](https://www.petrikainulainen.net/software-development/design/understanding-spring-web-application-architecture-the-classic-way/)
 
 ******************************************
 
-<h3><span class="mw-headline" id="PHP">PHP</span></span></span></h3>
-<div role="note" class="hatnote navigation-not-searchable">See also: <a href="https://en.wikipedia.org/wiki/PHP" title="PHP">PHP</a></div>
+<h3><span class="mw-headline" id="PHP">Lis of PHP Web Frameworks</span></span></span></h3>
+
+<p>Source: Wikipedia</P>
+
+<div role="note" class="hatnote navigation-not-searchable">Wiki: <a href="https://en.wikipedia.org/wiki/PHP" title="PHP">PHP</a></div>
 <table class="wikitable sortable" style="font-size: 90%">
 <br>
 
@@ -557,8 +565,11 @@ Some article on  [spring project structure](https://www.coveros.com/spring-mvc-p
 ************************
 
 
-<h3><span class="mw-headline" id="Python">Python</span></span></h3>
-<div role="note" class="hatnote navigation-not-searchable">See also: <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python (programming language)">Python (programming language)</a> and <a href="https://en.wikipedia.org/wiki/List_of_Python_software#Web_frameworks" title="List of Python software">List of Python software §&#160;Web frameworks</a></div>
+<h3><span class="mw-headline" id="Python">List of Python Web Frameworks</span></span></h3>
+
+<p>Source: Wikipedia</P>
+
+<div role="note" class="hatnote navigation-not-searchable">Wiki: <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python (programming language)">Python (programming language)</a> and <a href="https://en.wikipedia.org/wiki/List_of_Python_software#Web_frameworks" title="List of Python software">List of Python software §&#160;Web frameworks</a></div>
 <table class="wikitable sortable" style="font-size: 90%">
 <br>
 <tr>
@@ -680,8 +691,11 @@ Some article on  [spring project structure](https://www.coveros.com/spring-mvc-p
 *********************************
 
 
-<h3><span class="mw-headline" id="Ruby">Ruby</span></span></h3>
-<div role="note" class="hatnote navigation-not-searchable">See also: <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)" title="Ruby (programming language)">Ruby (programming language)</a></div>
+<h3><span class="mw-headline" id="Ruby">List of Ruby Web Frameworks</span></span></h3>
+
+<p>Source: Wikipedia</P>
+
+<div role="note" class="hatnote navigation-not-searchable">Wiki: <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)" title="Ruby (programming language)">Ruby (programming language)</a></div>
 <table class="wikitable sortable" style="font-size: 90%">
 <br>
 <tr>
