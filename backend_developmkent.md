@@ -1,5 +1,19 @@
 
 
+## case study : backend development
+***********************
+* Java --> Sprinframework
+* PHP --> Laravel
+* Ruby --> Rails
+* Python --> Tarnado,Flask, Django
+* Rust --> Iron
+* Elixer --> Phoenix
+* Golang web framework
+****************************
+
+
+
+
 ********************
 **A look into brief history of webframeworks** 
 ----------------
