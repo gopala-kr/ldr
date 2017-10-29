@@ -2,21 +2,21 @@
 
 ## case study : backend development
 ***********************
-* Java --> Sprinframework
-* PHP --> Laravel
-* Ruby --> Rails
-* Python --> Tarnado,Flask, Django
-* Rust --> Iron
-* Elixer --> Phoenix
-* Golang web framework
+* java --> sprinframework
+* php --> laravel
+* ruby --> rails & sinatra
+* python --> flask & django
+* rust --> iron
+* elixer --> phoenix
+* golang web framework
 ****************************
 
-In this article I mainly focused on backend webframeowrks(an overview) in different languages, their poularity and project structure.
+In this article my main focus is  on backend web frameworks(an overview) in different languages, and their offerings, project structure,  popularity(less time-less code-better performance).
 
-There are hundrends of framewoks out there, built to make web development easier. Every year there will be releases on either new frameworks or improvements over existing ones. Below figure shows how the frameworks have been evolved since from dot-com bubble. 
+There are hundreds of frameworks out there, built to make web development easier. Every year there will be releases on new frameworks/improvements over existing ones. Below figure shows how the web frameworks have been evolved since from dot-com bubble. 
 
 ********************
-**A look into brief history of webframeworks** 
+**a look into brief history of web frameworks** 
 ----------------
 <br>
 
@@ -26,7 +26,7 @@ There are hundrends of framewoks out there, built to make web development easier
 
 ****************
 
-**MVC - A design pattern**
+## MVC - design pattern
 
 MVC is a software architectural pattern for implementing user interfaces to decouple code, which improve overall quality of software.
 
@@ -52,7 +52,7 @@ More generally, MVC logic can be used to describe almost any web development pro
 
 Web MVC = MVC concept + HTML code generation + data binding
 
-**What all the things a good web framework should offer?**
+## What all the things a good web framework should offer?
 
 * Strong data binding
 * Easy component extension and customization
@@ -64,14 +64,15 @@ Web MVC = MVC concept + HTML code generation + data binding
 * Commercial resources available
 * Active community + third party resources
 
-There is a best article on [framework](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/framework.md)
+There is a better article on [framework](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/framework.md).
 
-Now lets have a look at some popular frameworks in different languages(JAVA/PHP/Python/Ruby).
+
+now lets have a look at some popular frameworks in different languages(java/php/python/ruby).
 
 *******************************
-## JAVA
+## java
 
->Brief history of java
+>  **brief history of java**
 
 > James Gosling, Mike Sheridan, and Patrick Naughton initiated the Java language project in June 1991. Java was originally designed for interactive television, but it was too advanced for the digital cable television industry at the time. The language was initially called Oak after an oak tree that stood outside Gosling's office. Later the project went by the name Green and was finally renamed Java, from Java coffee. Gosling designed Java with a C/C++-style syntax that system and application programmers would find familiar.
 
@@ -119,7 +120,9 @@ Now lets have a look at some popular frameworks in different languages(JAVA/PHP/
 > * Java EE 8 (August 31, 2017)
 >  Java EE is currently maintained by Oracle under the Java Community Process. On September 12, 2017, Oracle Corporation announced > * that it would submit Java EE to the Eclipse Foundation. The Eclipse top-level project has been named Eclipse Enterprise for Java (EE4J).
 
-A look into java timelines
+******************
+
+a look into java timelines
 -----------------------
 <br>
 
@@ -131,6 +134,7 @@ A look into java timelines
 <p>Source: Wikipedia</P>
 
 <div role="note" class="hatnote navigation-not-searchable">Wiki: <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java (programming language)</a> and <a href="https://en.wikipedia.org/wiki/Java_(software_platform)" title="Java (software platform)">Java (software platform)</a></div>
+
 <table class="wikitable sortable" style="font-size: 90%">
 <br>
 <tr>
@@ -351,12 +355,13 @@ A look into java timelines
 </tr>
 </table>
 
-Lets explore one popular java web framework in detail to undestand how easier the web development using Java.
+
+lets explore one popular java web framework in detail to understand how easier is the web development using Java.
 
 ***********************************
 ## Spring Framework
 
-I have some indirect working knowledge on spring in my current project, where [SAP Hybris](https://www.hybris.com/medias/sys_master/formsCollaterals/formsCollaterals/h7e/h22/8814707834910/WP-SAP-Hybris-Commerce-Architecture-and-Technology-EN.pdf) is heavily built and runs on spring framework. Spring is primarily known
+I have some indirect working knowledge on spring in my current project, where [SAP Hybris commerce](https://www.hybris.com/medias/sys_master/formsCollaterals/formsCollaterals/h7e/h22/8814707834910/WP-SAP-Hybris-Commerce-Architecture-and-Technology-EN.pdf) is heavily built and runs on spring framework. Spring is primarily known
 for its [dependency injection (DI)](https://en.wikipedia.org/wiki/Dependency_injection) and [aspect-oriented programming (AOP)](https://en.wikipedia.org/wiki/Aspect-oriented_programming) features.
 
 *************************
@@ -365,7 +370,9 @@ for its [dependency injection (DI)](https://en.wikipedia.org/wiki/Dependency_inj
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
 |  [spring-framework](https://hn.algolia.com/?query=spring%20framework&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [spring-framework](https://medium.com/tag/spring-framework)  | [spring-framework](https://www.reddit.com/r/springsource/)  | [spring-framework](https://www.quora.com/topic/Spring-Framework-1)  |  [spring-framework](https://stackoverflow.com/questions/tagged/spring+spring-mvc)     | [awesome-java](https://github.com/akullpp/awesome-java)|* [spring-framework](https://pivotal.io/training/learning-paths)  * [spring-framework](https://www.lynda.com/search?q=spring+framework)|[spring-framework](https://docs.spring.io/spring/docs/current/spring-framework-reference/index.html)  |
 
+
 ****************
+
 Spring is the most popular application development framework for enterprise Java. Millions of developers around the world use Spring Framework to create high performing, easily testable, and reusable code.
 
 Spring framework is an open source Java platform. It was initially written by [Rod Johnson](https://en.wikipedia.org/wiki/Rod_Johnson_(programmer)) and was first released under the Apache 2.0 license in June 2003.
@@ -374,89 +381,11 @@ Spring is lightweight when it comes to size and transparency. The basic version 
 
 The core features of the Spring Framework can be used in developing any Java application, but there are extensions for building web applications on top of the Java EE platform. Spring framework targets to make J2EE development easier to use and promotes good programming practices by enabling a POJO( Plain Old Java Object)-based programming model.
 
-
-### Spring Framework - Architecture
-
-Spring could potentially be a one-stop shop for all our enterprise applications. However, Spring is modular, allowing us to pick and choose which modules are applicable for us, without having to bring in the rest. The following section provides details about all the modules available in Spring Framework.
-
-The Spring Framework provides about 20 modules which can be used based on an application requirement.
-<br>
-
-![Spring Framework - Architecture](https://www.tutorialspoint.com/spring/images/spring_architecture.png)
-
-<br>
-
-**Core Container**
-
-The Core Container consists of the Core, Beans, Context, and Expression Language modules the details of which are as follows 
-
-* The Core module provides the fundamental parts of the framework, including the [IoC and Dependency Injection](https://en.wikipedia.org/wiki/Inversion_of_control) features.
-
-* The Bean module provides BeanFactory, which is a sophisticated implementation of the factory pattern.
-
-* The Context module builds on the solid base provided by the Core and Beans modules and it is a medium to access any objects defined and configured. The ApplicationContext interface is the focal point of the Context module.
-
-* The SpEL module provides a powerful expression language for querying and manipulating an object graph at runtime.
-
-**Data Access/Integration**
-
-The Data Access/Integration layer consists of the JDBC, ORM, OXM, JMS and Transaction modules whose detail is as follows
-
-* The JDBC module provides a JDBC-abstraction layer that removes the need for tedious JDBC related coding.
-
-* The ORM module provides integration layers for popular object-relational mapping APIs, including JPA, JDO, Hibernate, and iBatis.
-
-* The OXM module provides an abstraction layer that supports Object/XML mapping implementations for JAXB, Castor, XMLBeans, JiBX and XStream.
-
-* The Java Messaging Service JMS module contains features for producing and consuming messages.
-
-* The Transaction module supports programmatic and declarative transaction management for classes that implement special interfaces and for all your POJOs.
-
-**Web**
-
-The Web layer consists of the Web, Web-MVC, Web-Socket, and Web-Portlet modules the details of which are as follows 
-
-* The Web module provides basic web-oriented integration features such as multipart file-upload functionality and the initialization of the IoC container using servlet listeners and a web-oriented application context.
-
-* The Web-MVC module contains Spring's Model-View-Controller (MVC) implementation for web applications.
-
-* The Web-Socket module provides support for WebSocket-based, two-way communication between the client and the server in web applications.
-
-* The Web-Portlet module provides the MVC implementation to be used in a portlet environment and mirrors the functionality of Web-Servlet module.
-
-There are few other important modules like AOP, Aspects, Instrumentation, Web and Test modules the details of which are as follows −
-
-* The AOP module provides an aspect-oriented programming implementation allowing you to define method-interceptors and pointcuts to cleanly decouple code that implements functionality that should be separated.
-
-* The Aspects module provides integration with AspectJ, which is again a powerful and mature AOP framework.
-
-* The Instrumentation module provides class instrumentation support and class loader implementations to be used in certain application servers.
-
-* The Messaging module provides support for STOMP as the WebSocket sub-protocol to use in applications. It also supports an annotation programming model for routing and processing STOMP messages from WebSocket clients.
-
-* The Test module supports the testing of Spring components with JUnit or TestNG frameworks.
-
-### Dependency Injection (DI)
-
-The technology that Spring is most identified with is the Dependency Injection (DI) flavor of Inversion of Control. The Inversion of Control (IoC) is a general concept, and it can be expressed in many different ways. Dependency Injection is merely one concrete example of Inversion of Control.
-
-When writing a complex Java application, application classes should be as independent as possible of other Java classes to increase the possibility to reuse these classes and to test them independently of other classes while unit testing. Dependency Injection helps in gluing these classes together and at the same time keeping them independent.
-
-What is dependency injection exactly? Let's look at these two words separately. Here the dependency part translates into an association between two classes. For example, class A is dependent of class B. Now, let's look at the second part, injection. All this means is, class B will get injected into class A by the IoC.
-
-Dependency injection can happen in the way of passing parameters to the constructor or by post-construction using setter methods. As Dependency Injection is the heart of Spring Framework, we will explain this concept in a separate chapter with relevant example.
-
-### Aspect Oriented Programming (AOP)
-
-One of the key components of Spring is the Aspect Oriented Programming (AOP) framework. The functions that span multiple points of an application are called cross-cutting concerns and these cross-cutting concerns are conceptually separate from the application's business logic. There are various common good examples of aspects including logging, declarative transactions, security, caching, etc.
-
-The key unit of modularity in OOP is the class, whereas in AOP the unit of modularity is the aspect. DI helps you decouple your application objects from each other, while AOP helps you decouple cross-cutting concerns from the objects that they affect.
-
-The AOP module of Spring Framework provides an aspect-oriented programming implementation allowing you to define method-interceptors and pointcuts to cleanly decouple code that implements functionality that should be separated. We will discuss more about Spring AOP concepts in a separate chapter.
+check out spring [architecture](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/springframework/spring%20architecture.md)
 
 ***************************
 
-Popularity rank of each java web frameworks computed by combining public data from StackOverflow, LinkedIn, GitHub, and Google search.
+Popularity rank of each java web frameworks computed by combining the  public data from StackOverflow, LinkedIn, GitHub, and Google search. 30% of developers using spring.
 
 <div class="row text-center">
       		<div class="col-12">
@@ -491,7 +420,11 @@ Popularity rank of each java web frameworks computed by combining public data fr
 								<tr><td class='center'>19</td><td>Rapidoid</td><td class='center'>0</td></tr>
 						  </tbody>
 				  	</table>
-				  <img src="https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/springframework/java_web_stats.JPG" />
+<br>
+<p>most recent data </p>
+<br>
+				  
+<img src="https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/springframework/java_web_stats.JPG" />
 		  		</center>
 		  		<div id="chart"></div>
 	  		</div>
@@ -556,12 +489,17 @@ source : [zeroturnaround](https://zeroturnaround.com/webframeworksindex/)
 > Care about API design. The Spring team puts a lot of thought and time into making APIs that are intuitive and that hold up across many versions and many years.
 
 > Set high standards for code quality. The Spring Framework puts a strong emphasis on meaningful, current, and accurate Javadoc. It is one of very few projects that can claim clean code structure with no circular dependencies between packages.
+
 ***********
-official doc has best step by step guide to undestand some core concepts with code examples:
+
+There are thousands of tutorials and blogs on spring, but for experienced developers official doc is the best material to dive in. spring official doc has best step by step guide to understand some core concepts with code examples:
+
+<br>
 
 ![spring doc](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/springframework/spring_doc.JPG)
 
-[Sample Spring Project Structure from official guide:](https://docs.spring.io/docs/Spring-MVC-step-by-step/)
+
+Sample Spring [Project Structure from official guide:](https://docs.spring.io/docs/Spring-MVC-step-by-step/)
 
 ![spring project structure](https://docs.spring.io/docs/Spring-MVC-step-by-step/images/dir-structure-endp6.png)
 
@@ -570,9 +508,11 @@ Some article on spring project structure:
 * [stackoverflow](https://stackoverflow.com/questions/23550273/spring-mvc-project-structure-best-practices) 
 * [spring web app architecture](https://www.petrikainulainen.net/software-development/design/understanding-spring-web-application-architecture-the-classic-way/)
 
+
 ******************************************
-## PHP
-> ## Brief history of PHP
+
+## php
+>  **brief history of php**
 
 > Rasmus Lerdorf (left), who wrote the original Common Gateway Interface (CGI) component, together with Andi Gutmans (middle) and Zeev Suraski (right), who rewrote the parser that formed PHP 3.
 
@@ -600,7 +540,7 @@ Some article on spring project structure:
 
 > **PHP 6 and Unicode**
 
-PHP has received criticism due to lacking native Unicode support at the core language level, instead only supporting byte strings. In 2005, a project headed by Andrei Zmievski was initiated to bring native Unicode support throughout PHP, by embedding the International Components for Unicode (ICU) library, and representing text strings as UTF-16 internally.Since this would cause major changes both to the internals of the language and to user code, it was planned to release this as version 6.0 of the language, along with other major features then in development.
+> PHP has received criticism due to lacking native Unicode support at the core language level, instead only supporting byte strings. In 2005, a project headed by Andrei Zmievski was initiated to bring native Unicode support throughout PHP, by embedding the International Components for Unicode (ICU) library, and representing text strings as UTF-16 internally.Since this would cause major changes both to the internals of the language and to user code, it was planned to release this as version 6.0 of the language, along with other major features then in development.
 
 > However, a shortage of developers who understood the necessary changes, and performance problems arising from conversion to and from UTF-16, which is rarely used in a web context, led to delays in the project. As a result, a PHP 5.3 release was created in 2009, with many non-Unicode features back-ported from PHP 6, notably namespaces. In March 2010, the project in its current form was officially abandoned, and a PHP 5.4 release was prepared containing most remaining non-Unicode features from PHP 6, such as traits and closure re-binding. Initial hopes were that a new plan would be formed for Unicode integration, but as of 2014 none had been adopted.
 
@@ -614,8 +554,10 @@ PHP has received criticism due to lacking native Unicode support at the core lan
 
 > PHP 7 also introduced new language features, including return type declarations for functions,which complement the existing parameter type declarations, and support for the scalar types (integer, float, string, and boolean) in parameter and return type declarations.
 
+
 *******************
-## Lits of PHP Web Frameworks
+
+## list of  php web frameworks
 <p>Source: Wikipedia</P>
 
 <div role="note" class="hatnote navigation-not-searchable">Wiki: <a href="https://en.wikipedia.org/wiki/PHP" title="PHP">PHP</a></div>
@@ -791,14 +733,17 @@ PHP has received criticism due to lacking native Unicode support at the core lan
 <td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">New BSD</td>
 </tr>
 </table>
+
 ******************
-I did a google trend comparison for php framework popularity below are the results:
+I did google trend comparison for some of the php framework popularity below are the results:
+<br>
 
 ![php](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/03-backend-development/php/php-google-trends.JPG)
 
 Lets explore laravel in detail:
 
-(There is cource in lynda.com in which Drew Falkman discusses about [5 MVC PHP frameworks](https://www.lynda.com/PHP-tutorials/MVC-Frameworks-Building-PHP-Web-Applications/540346-2.html), their project structure, advantages and disadvantages)
+(there is a cource in lynda.com in which Drew Falkman discusses about [5 MVC PHP frameworks](https://www.lynda.com/PHP-tutorials/MVC-Frameworks-Building-PHP-Web-Applications/540346-2.html), their project structure, advantages and disadvantages).
+
 ************************
 ## Laravel
 
@@ -877,8 +822,9 @@ Articles discusses on app stucture:
 
 
 ************
-## Python
+## python
 
+> **brief history of python**
 > Python was conceived in the late 1980s,and its implementation began in December 1989 by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC language (itself inspired by SETL) capable of exception handling and interfacing with the operating system Amoeba. Van Rossum is Python's principal author, and his continuing central role in deciding the direction of Python is reflected in the title given to him by the Python community, Benevolent Dictator For Life (BDFL).
 
 > About the origin of Python, Van Rossum wrote in 1996:
@@ -1014,11 +960,13 @@ Articles discusses on app stucture:
 <td>ZPL</td>
 </tr>
 </table>
+
 ***********
 
-Lets explore project structure of python frameworks: Flask, Django & 
+Lets explore project structure of python frameworks: Flask & Django 
+
 *********
-## Flask
+## flask
 
  | HackerNews        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Ofiicial docs|
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
@@ -1026,8 +974,8 @@ Lets explore project structure of python frameworks: Flask, Django &
 
 
 <div class="section" id="organizing-your-project">
-<h1>Organizing your project<a class="headerlink" href="#organizing-your-project" title="Permalink to this headline">¶</a></h1>
-<img alt="Organizing your project" src="_images/organizing.png" />
+<h2>Organizing your project<a class="headerlink" href="#organizing-your-project" title="Permalink to this headline">¶</a></h2>
+<img alt="Organizing flask project" src="_images/organizing.png" />
 <p>Flask leaves the organization of your application up to you. This is one
 of the reasons I liked Flask as a beginner, but it does mean that you
 have to put some thought into how to structure your code. You could put
@@ -1035,7 +983,7 @@ your entire application in one file, or have it spread across multiple
 packages. There are a few organizational patterns that you can follow to
 make development and deployment easier.</p>
 <div class="section" id="definitions">
-<h2>Definitions<a class="headerlink" href="#definitions" title="Permalink to this headline">¶</a></h2>
+<h3>Definitions<a class="headerlink" href="#definitions" title="Permalink to this headline">¶</a></h3>
 <p>Let&#8217;s define some of the terms that we&#8217;ll run into in this chapter.</p>
 <p><strong>Repository</strong> - This is the base folder where your applications sits.
 This term traditionally refers to version control systems, which you
@@ -1058,7 +1006,7 @@ together.</p>
 </div>
 </div>
 <div class="section" id="organization-patterns">
-<h2>Organization patterns<a class="headerlink" href="#organization-patterns" title="Permalink to this headline">¶</a></h2>
+<h3>Organization patterns<a class="headerlink" href="#organization-patterns" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="single-module">
 <h3>Single module<a class="headerlink" href="#single-module" title="Permalink to this headline">¶</a></h3>
 <p>A lot of the Flask examples that you&#8217;ll come across will keep all of the
@@ -1195,7 +1143,7 @@ using Blueprints to organize your application soon.</p>
 </div>
 </div>
 <div class="section" id="summary">
-<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+<h3>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li>Using a single module for your application is good for quick
 projects.</li>
@@ -1208,7 +1156,7 @@ components.</li>
 
 ********************
 
-## Django
+## django
 
  | HackerNews        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Official docs|
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
@@ -1217,7 +1165,7 @@ components.</li>
 
 
 <div class="section" id="project-structure">
-<span id="label-project-structure"></span><h2>Project Structure<a class="headerlink" href="#project-structure" title="Permalink to this headline">¶</a></h2>
+<span id="label-project-structure"></span><h3>Project Structure<a class="headerlink" href="#project-structure" title="Permalink to this headline">¶</a></h3>
 <p>The <em>normal</em> Django workflow, as it is described <a class="reference external" href="https://docs.djangoproject.com/en/1.8/intro/tutorial01/#creating-a-project">in the official Django
 tutorial</a>
 starts a project with the command:</p>
@@ -1315,7 +1263,7 @@ details. The default WSGI-application is modified to use our
 </dl>
 </div>
 <div class="section" id="apps">
-<h2>apps/<a class="headerlink" href="#apps" title="Permalink to this headline">¶</a></h2>
+<h3>apps/<a class="headerlink" href="#apps" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-python"><div class="highlight"><pre>[projectname]/                  &lt;- project root
 ├── *snap*
 ├── apps/
@@ -1329,7 +1277,7 @@ Django project&#8217;s apps will be installed into the Python path and not be ke
 in your project root.</p>
 </div>
 <div class="section" id="configs">
-<h2>configs/<a class="headerlink" href="#configs" title="Permalink to this headline">¶</a></h2>
+<h3>configs/<a class="headerlink" href="#configs" title="Permalink to this headline">¶</a></h3>
 <p>This directory contains configuration files for deployment. Now only a
 configuration file for deployment with <strong>Apache2</strong> and <strong>mod_wsgi</strong> is
 provided.</p>
@@ -1363,7 +1311,7 @@ only include files ending with the suffix <tt class="docutils literal"><span cla
 your own project.</p>
 </div>
 <div class="section" id="run">
-<h2>run/<a class="headerlink" href="#run" title="Permalink to this headline">¶</a></h2>
+<h3>run/<a class="headerlink" href="#run" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-python"><div class="highlight"><pre>[projectname]/                  &lt;- project root
 ├── *snap*
 ├── run/
@@ -1391,7 +1339,7 @@ files, images) are served from a special directory.</dd>
 </dl>
 </div>
 <div class="section" id="static-and-templates">
-<h2>static/ and templates/<a class="headerlink" href="#static-and-templates" title="Permalink to this headline">¶</a></h2>
+<h3>static/ and templates/<a class="headerlink" href="#static-and-templates" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-python"><div class="highlight"><pre>[projectname]/                  &lt;- project root
 ├── *snap*
 ├── static/
@@ -1416,8 +1364,6 @@ for more details. <a class="reference internal" href="settings.html#label-projec
 
 *********************************
 ## Ruby
-
-<h2><span class="mw-headline" id="History">Brief History of Ruby</span></span></h2>
 <h3><span class="mw-headline" id="Early_concept">Early concept</span></span></h3>
 <p>Ruby was conceived on February 24, 1993. In a 1999 post to the <i>ruby-talk</i> mailing list, Ruby author Yukihiro Matsumoto describes some of his early ideas about the language:<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">[12]</a></sup></p>
 <blockquote class="templatequote">
@@ -1524,6 +1470,8 @@ for more details. <a class="reference internal" href="settings.html#label-projec
 <p>The 2.4 branch also includes performance improvements to hash table, Array#max, Array#min, and instance variable access.<sup id="cite_ref-:0_46-0" class="reference"><a href="#cite_note-:0-46">[46]</a></sup></p>
 <p>Ruby's popularity has been declining since 2014<sup id="cite_ref-47" class="reference"><a href="#cite_note-47">[47]</a></sup> , a slip that may be permanent in the face of increasing competition.<sup id="cite_ref-48" class="reference"><a href="#cite_note-48">[48]</a></sup></p>
 
+*************************
+
 
 <h3><span class="mw-headline" id="Ruby">List of Ruby Web Frameworks</span></span></h3>
 
@@ -1583,6 +1531,7 @@ for more details. <a class="reference internal" href="settings.html#label-projec
 </table>
 
 Lets explore ruby frameworks rails and sinatra
+
 *************************
 ## Rails
 
@@ -1681,7 +1630,7 @@ Lets explore ruby frameworks rails and sinatra
     `-- stylesheets
 </code></pre>
 <p>We will go through each directory, one by one, now.</p>
-<h2>app</h2>
+<h3>app</h3>
 <p>This is the core directory of your entire app and most of the application-specific code will go into this directory. As you may know, Rails is an MVC framework, which means the application is separated into parts per its purpose in the Model, View, or Controller. These three sections goes inside this directory.</p>
 <h3>app/assets</h3>
 <p>This contains the static files required for the application&rsquo;s front-end grouped into folders based on their type. The javascript files and stylesheets (CSS) in these folders should be application specific since the external library files would go into another directory (<code>vendor</code>) which we will look at in a bit.</p>
@@ -1696,7 +1645,7 @@ Lets explore ruby frameworks rails and sinatra
 <p>Similar to <code>/javascripts</code>, the CSS files go here. The naming convention is also the same as the javascript assets.</p>
 <h4>app/assets/stylesheets/application.css</h4>
 <p>This file is a manifest for the stylesheets in the application. Similar to <code>application.js</code>, the referenced files are served up as a single stylesheet to the view.</p>
-<h2>app/controllers</h2>
+<h3>app/controllers</h3>
 <p>This is where all the controller files go. Controllers are responsible for orchestrating the model and views. The naming convention for the file is the pluralized model name + &ldquo;_controller&rdquo;. For example, the controller for the <code>Book</code> model is <code>books_controller.rb</code>, which is called &ldquo;snake case&rdquo;. Also, the controller class will be CamelCase which is <code>BooksController</code>.</p>
 <p>The script to generate a controller is:</p>
 <pre><code>rails generate controller controller_name action1 action2
@@ -1705,21 +1654,21 @@ Lets explore ruby frameworks rails and sinatra
 <p>This is the main controller from which all other controllers inherit. The methods on <code>ApplicationController</code> are available to other controllers as well. This controller inherits from the <code>ActionController::Base</code> module, which has set of methods to work with in controllers.</p>
 <h3>app/controllers/concerns</h3>
 <p><code>Concerns</code> are modules that can be used across controllers. This is helpful to DRY up your code by implementing reusable functionality inside the directory. The naming convention is <code>module_name.rb</code>.</p>
-<h2>app/helpers</h2>
+<h3>app/helpers</h3>
 <p>This is where all the helper functions for views reside. There are already a few pre-created helpers available, like the one we reference above (<code>image_tag</code>) for referring to images in views. You can create your own functions in a controller specific helper file, which will be automatically created when you use Rails generators to create the controller. The naming convention is <code>controller_name_helper.rb</code>.</p>
 <h3>app/helpers/application_helper.rb</h3>
 <p>This is the root helper. Similar to <code>application_controller.rb</code>, functions written here will be available in all the helpers, by default, and in all the views.</p>
-<h2>app/mailers</h2>
+<h3>app/mailers</h3>
 <p>The <code>mailers</code> directory contains the mail (as in &ldquo;email&rdquo;) specific functions for the application. Mailers are similar to controllers and they will have their view files in <code>app/views/mailer_name/</code>. To generate a mailer you can run the following command</p>
 <pre><code>rails generate mailer MailerName
 </code></pre>
 <p>The first time you generate a mailer, <code>application_mailer.rb</code> is automatically created for you. This will inherit from the <code>ActionMailer::Base</code> and sets the default <code>from</code> address as well as the <code>layout</code> for your mailer views. Subsequent mailers will inherit from <code>ApplicationMailer</code>.</p>
 <p>The naming convention is similar to controllers: <code>modelname_mailer.rb</code>. You can read more about mailers <a href="http://guides.rubyonrails.org/v2.3.8/action_mailer_basics.html">here</a>.</p>
-<h2>app/models</h2>
+<h3>app/models</h3>
 <p>All model files live in the <code>app/models</code> directory. Models act as object-relational mappers to the database tables that hold the data. The naming convention is simply <code>modelname.rb</code>. The model name is, by convention, the singular form of the underlying table that represents the model in the database. So, the <code>Book</code> model will be mapped on top of the <code>books</code> table in the database. You can learn more about Rails models in <a href="http://guides.rubyonrails.org/active_model_basics.html">here</a>.</p>
 <h3>app/models/concerns</h3>
 <p>Model concerns are similar to Controller concerns, containing methods that might be used in multiple model files. This greatly helps with organizing the code.</p>
-<h2>app/views</h2>
+<h3>app/views</h3>
 <p>The third part of the MVC architecture are the views. The files related to the views go into this directory. The files are a combination of HTML and Ruby (called Embedded Ruby or Erb) and are organized based on the controller to which they correspond. There is a view file for each controller action. For example, the <code>BooksController#index</code> action would have it&rsquo;s corresponding view as</p>
 <pre><code>app/views/books/index.html.erb
 </code></pre>
@@ -1730,11 +1679,11 @@ Lets explore ruby frameworks rails and sinatra
 <p>You can also create partial views here that might be used across controllers.</p>
 <h4>app/views/layouts/application.html.erb</h4>
 <p>This will be default file created automatically, which will act as the layout for actions in <code>ApplicationController</code> and any other contoller that inherits from <code>ApplicationController</code>.</p>
-<h2>bin</h2>
+<h3>bin</h3>
 <p>This directory contains Binstubs for the Rails application. Binstubs are nothing but wrappers to run the gem executables scoped to your application. This can be used in place of <code>bundle exec &lt;command&gt;</code>. The default available Binstubs are <code>bundle</code>, <code>rails</code>, <code>rake</code>, <code>setup</code>, and <code>spring</code>. Any of these binstubs can be executed by:</p>
 <pre><code>bin/&lt;executable&gt;
 </code></pre>
-<h2>config</h2>
+<h3>config</h3>
 <p>As the name suggests this contains all the application&rsquo;s configuration files. The database connection and application behavior can be altered by the files inside this directory.</p>
 <h3>config/application.rb</h3>
 <p>This contains the main configuration for the application, such as the timezone to use, language, and many  other settings. The full list could be found <a href="http://guides.rubyonrails.org/configuring.html">here</a>. Also, note the configurations specified here is for all environments (development, test, and production). Environment specific configurations will go into other files, which we&rsquo;ll see below.</p>
@@ -1771,32 +1720,34 @@ Lets explore ruby frameworks rails and sinatra
 <p>As the name implies, it contains settings for wrapping your parameters. By default, all the parameters are wrapped into a nested hash so that it&rsquo;s available without a root. You can override this or add your custom settings here.</p>
 <h3>config/locales</h3>
 <p>This has the list of YAML file for each language that holds the keys and values to translate bits of the app. You can learn about internationalization (i18n) and the settings from <a href="http://guides.rubyonrails.org/i18n.html">here</a>.</p>
-<h2>db</h2>
+<h3>db</h3>
 <p>All the database related files go inside this folder. The configuration, schema, and migration files can be found here, along with any seed files.</p>
 <h3>db/seeds.rb</h3>
 <p>This file is used to prefill, or &ldquo;seed&rdquo;, database with required records. You can use normal ActiveRecord methods for record insertion.</p>
 <div class="widget maestro maestro-content-type-html " id="maestro-652"><span data-sumome-listbuilder-embed-id="a5047315669ea28f9652485dfd816e21a7b7d3873736b516d897111b300bf50b"></span><script>ga('SitePointPlugin:observeImpressions', 'maestro-652')</script></div><h2>Gemfile</h2>
 <p>The <code>Gemfile</code> is the place where all your app&rsquo;s gem dependencies are declared. This file is mandatory, as it includes the Rails core gems, among other gems. You can learn all about Bundler and Gemfiles at the <a href="http://bundler.io">Bundler web site</a>.</p>
-<h2>Gemfile.lock</h2>
+<h3>Gemfile.lock</h3>
 <p><code>Gemfile.lock</code> holds the gem dependency tree, including all versions, for the app. This file is generated by <code>bundle install</code> on the above <code>Gemfile</code>. It, in effect, locks your app dependencies to specific versions.</p>
-<h2>lib</h2>
+<h3>lib</h3>
 <p><code>lib</code> directory is where all the application specific libraries goes. Application specific libraries are re-usable generic code extracted from the application. Think of it as an application specific gem.</p>
 <h3>lib/assets</h3>
 <p>This file holds all the library assets, meaning those items (scripts, stylesheets, images) that are not application specific.</p>
 <h3>lib/tasks</h3>
 <p>The application&rsquo;s Rake tasks and other tasks can be put in this directory. Rake tasks mentioned here are required by the app&rsquo;s <code>Rakefile</code>, which we&rsquo;ll see below.</p>
-<h2>log</h2>
+<h3>log</h3>
 <p>This holds all the log files. Rails automatically creates files for each environment.</p>
-<h2>public</h2>
+<h3>public</h3>
 <p>The public directory contains some of the common files for web applications. By default, HTML templates for HTTP errors, such as 404, 422 and 500, are generated along with a <code>favicon</code> and a <code>robots.txt</code> file. Files that are inside this directory are available in <code>https://appname.com/filename</code> directly.</p>
-<h2>Rakefile</h2>
+<h3>Rakefile</h3>
 <p>Just above, I mentioned that Rake files created inside the <code>lib/tasks</code> are available throughout the app via the Rake module. This is possible because of the Rakefile, which requires <code>application.rb</code> and invokes <code>Rails.application.load_tasks</code>. The call to <code>load_tasks</code> loads all the <code>*.rake</code> files from <code>lib/tasks</code> folder.</p>
-<h2>test</h2>
+<h3>test</h3>
 <p>The folder name says it all. This holds all the test files for the app. A subdirectory is created for each component&rsquo;s test files.</p>
-<h2>tmp</h2>
+<h3>tmp</h3>
 <p>This is the temporary directory for the app to hold files like caches. You don&rsquo;t need to worry about this directory, since it&rsquo;s fully managed by Rails itself. But there are few commands available if you want to take control of the directory, which can be found <a href="http://edgeguides.rubyonrails.org/command_line.html#tmp">here</a></p>
-<h2>vendor/assets</h2>
+<h3>vendor/assets</h3>
 <p>This is where the vendor files go, such as javascript libraries and CSS files, among others. Files added here will become part of the asset pipeline automatically.</p>
+
+*******************************************
 
 
 ## Sinatra
@@ -1808,7 +1759,7 @@ Lets explore ruby frameworks rails and sinatra
 
 ### Sinatra Project structure:
 
-<h2 id="what-does-a-sinatra-mvc-file-structure-look-like?">What does a Sinatra MVC File Structure Look Like?</h2>
+<h3 id="what-does-a-sinatra-mvc-file-structure-look-like?">What does a Sinatra MVC File Structure Look Like?</h3>
 
 <p>Take a look at the file structure in this directory. It&#39;s okay if it feels overwhelming at first. We&#39;re going to walk through the different files and folders and discuss what their responsibilities are.</p>
 <pre class="highlight shell"><code>├── Gemfile
@@ -1900,9 +1851,14 @@ Lets explore ruby frameworks rails and sinatra
 <p>The <code>spec</code> directory contains any tests for our applications. These tests set up any expectations for the rest of the project. These are often broken down into unit tests for models, controller tests for routes, and feature tests, which check the actual behavior for users.</p>
 
 ****************************
+* rust --> iron
+* elixer --> phoenix
+* golang web framework
+
+*****************************
 
 <table class="wikitable sortable">
-<h3> Programming languages used in most popular websites </h3>
+<h2> Programming languages used in most popular websites </h2>
 <tr>
  <br> 
 <th scope="col"><a href="https://en.wikipedia.org/wiki/Websites" class="mw-redirect" title="Websites">Websites</a></th>
@@ -2045,3 +2001,7 @@ Lets explore ruby frameworks rails and sinatra
 <br>
 
 ![social](https://keymediasolutions.com/wp-content/uploads/2017/09/New-Media-Timeline.jpg)
+
+************************
+************************************************
+************************************************
