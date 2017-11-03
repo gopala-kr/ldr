@@ -104,6 +104,7 @@ now lets have a look at some popular frameworks in different languages(java/php/
 
 
 > Principles
+
 > There were five primary goals in the creation of the Java language:
 
 > * It must be "simple, object-oriented, and familiar".
