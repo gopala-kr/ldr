@@ -95,6 +95,7 @@ now lets have a look at some popular frameworks in different languages(java/php/
 
 > Sun's vice-president Rich Green said that Sun's ideal role with regard to Java was as an "evangelist". Following Oracle Corporation's acquisition of Sun Microsystems in 2009–10, Oracle has described itself as the "steward of Java technology with a relentless commitment to fostering a community of participation and transparency". This did not prevent Oracle from filing a lawsuit against Google shortly after that for using Java inside the Android SDK (see Google section below). Java software runs on everything from laptops to data centers, game consoles to scientific supercomputers. On April 2, 2010, James Gosling resigned from Oracle.
 
+
 > In January 2016, Oracle announced that Java runtime environments based on JDK 9 will discontinue the browser plugin.
 
 > Principles
