@@ -68,6 +68,7 @@ Web MVC = MVC concept + HTML code generation + data binding
 
 ## What all the things a good web framework should offer?
 
+
 * Strong data binding
 * Easy component extension and customization
 * Less code
