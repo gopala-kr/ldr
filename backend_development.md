@@ -378,6 +378,7 @@ lets explore one popular java web framework in detail to understand how easier i
 I have some indirect working knowledge on spring in my current project, where [SAP Hybris commerce](https://www.hybris.com/medias/sys_master/formsCollaterals/formsCollaterals/h7e/h22/8814707834910/WP-SAP-Hybris-Commerce-Architecture-and-Technology-EN.pdf) is heavily built and runs on spring framework. Spring is primarily known
 for its [dependency injection (DI)](https://en.wikipedia.org/wiki/Dependency_injection) and [aspect-oriented programming (AOP)](https://en.wikipedia.org/wiki/Aspect-oriented_programming) features.
 
+
 *************************
 
  | HackerNews        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA |  Awesome-gh | Online-Courses (pivotal) | Official docs|
