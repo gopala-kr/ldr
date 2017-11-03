@@ -779,6 +779,7 @@ Laravel offers the following key features:
 * Queues
 * Event and command bus
 
+
 ### Laravel Application structure:
 
 Official Doc has better explaination of [directory structure](https://laravel.com/docs/5.5/structure)
