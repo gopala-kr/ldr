@@ -2,7 +2,7 @@
 
 ## case study : backend development
 ***********************
-* java --> sprinframework
+* java --> springframework
 * php --> laravel
 * ruby --> rails & sinatra
 * python --> flask & django
