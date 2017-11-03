@@ -106,6 +106,7 @@ now lets have a look at some popular frameworks in different languages(java/php/
 > In January 2016, Oracle announced that Java runtime environments based on JDK 9 will discontinue the browser plugin.
 
 
+
 > Principles
 
 > There were five primary goals in the creation of the Java language:
