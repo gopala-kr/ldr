@@ -35,6 +35,7 @@ There are hundreds of frameworks out there, built to make web development easier
 
 ## MVC - design pattern
 
+
 MVC is a software architectural pattern for implementing user interfaces to decouple code, which improve overall quality of software.
 
 Model-view-controller (MVC) frameworks are a crucial part of building modern web applications. Walk into a room of web developers, and you will likely be bombarded with mentions of Ruby on Rails, Angular or Django.
