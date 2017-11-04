@@ -3,14 +3,20 @@
 
 ## Mobile operating system
 
-Mobile operating systems combine features of a personal computer operating system with other features useful for mobile or handheld use; usually including, and most of the following considered essential in modern mobile systems; a touchscreen, cellular, Bluetooth, Wi-Fi Protected Access, Wi-Fi, Global Positioning System (GPS) mobile navigation, [[Digital camera|single-frame picture cameras]/video camera, speech recognition, voice recorder, music player, near field communication, and infrared blaster. By the end of 2016, over 430 million smartphones were sold with 81.7 percent running Android, 17.9 percent running iOS, 0.3 percent running Windows Mobile and the other OSes cover 0.1 percent. Android alone is more popular than the popular desktop operating system Windows, and in general smartphone use (even without tablets) outnumber desktop use (desktop use, web use, overall is down to 44.9% in the first quarter of 2017).
+Mobile operating systems combine features of a personal computer operating system with other features useful for mobile or handheld use; usually including, and most of the following considered essential in modern mobile systems; a touchscreen, cellular, Bluetooth, Wi-Fi Protected Access, Wi-Fi, Global Positioning System (GPS) mobile navigation, [[Digital camera|single-frame picture cameras]/video camera, speech recognition, voice recorder, music player, near field communication, and infrared blaster. 
 
-Mobile devices with mobile communications abilities (e.g., smartphones) contain two mobile operating systems – the main user-facing software platform is supplemented by a second low-level proprietary real-time operating system which operates the radio and other hardware. Research has shown that these low-level systems may contain a range of security vulnerabilities permitting malicious base stations to gain high levels of control over the mobile device.
+* By the end of 2016, over 430 million smartphones were sold with 81.7 percent running Android, 17.9 percent running iOS, 0.3 percent running Windows Mobile and the other OSes cover 0.1 percent. Android alone is more popular than the popular desktop operating system Windows, and in general smartphone use (even without tablets) outnumber desktop use (desktop use, web use, overall is down to 44.9% in the first quarter of 2017).
 
-Mobile operating systems have majority use as of 2017 (measured by web use); with even only the smartphones running them (excluding tablets) more used than any other kind of device. Thus traditional desktop OS is now a minority used kind of OS; see usage share of operating systems. However, variations occur in popularity by regions, while desktop-minority also applies on some days in regions such as United States and United Kingdom.
+* Mobile devices with mobile communications abilities (e.g., smartphones) contain two mobile operating systems – the main user-facing software platform is supplemented by a second low-level proprietary real-time operating system which operates the radio and other hardware. 
+
+* Research has shown that these low-level systems may contain a range of security vulnerabilities permitting malicious base stations to gain high levels of control over the mobile device.
+
+* Mobile operating systems have majority use as of 2017 (measured by web use); with even only the smartphones running them (excluding tablets) more used than any other kind of device. Thus traditional desktop OS is now a minority used kind of OS; see usage share of operating systems. However, variations occur in popularity by regions, while desktop-minority also applies on some days in regions such as United States and United Kingdom.
 
 
-<div role="note" class="hatnote navigation-not-searchable">Main article: <a href="" title="Mobile operating system">list of mobile operating system</a></div>
+
+### Mobile operating system">list of mobile operating system
+
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Embedded_Linux" class="mw-redirect" title="Embedded Linux">Embedded Linux</a>
