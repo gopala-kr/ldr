@@ -1,7 +1,7 @@
 
 
 
-## Mobile operating system
+## mobile operating system
 
 Mobile operating systems combine features of a personal computer operating system with other features useful for mobile or handheld use; usually including, and most of the following considered essential in modern mobile systems; a touchscreen, cellular, Bluetooth, Wi-Fi Protected Access, Wi-Fi, Global Positioning System (GPS) mobile navigation, [[Digital camera|single-frame picture cameras]/video camera, speech recognition, voice recorder, music player, near field communication, and infrared blaster. 
 
@@ -15,7 +15,7 @@ Mobile operating systems combine features of a personal computer operating syste
 
 
 
-### Mobile operating system">list of mobile operating system
+### list of mobile operating system
 
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS</a></li>
@@ -47,7 +47,7 @@ Mobile operating systems combine features of a personal computer operating syste
 
 ***************
 
-<h2><span class="mw-headline" id="Timeline">Timeline</span></span></h2>
+<h2><span class="mw-headline" id="Timeline">broief history and timeline of mobile OS</span></span></h2>
 <p>Mobile operating system milestones mirror the development of <a href="https://en.wikipedia.org/wiki/Mobile_phone" title="Mobile phone">mobile phones</a> and <a href="https://en.wikipedia.org/wiki/Smartphone" title="Smartphone">smartphones</a>:</p>
 <h3><span class="mw-headline" id="Pre-1993">Pre-1993</span></span></h3>
 <ul>
@@ -73,8 +73,8 @@ Mobile operating systems combine features of a personal computer operating syste
 <li>2005 – <a href="https://en.wikipedia.org/wiki/Nokia" title="Nokia">Nokia</a> introduces <a href="https://en.wikipedia.org/wiki/Maemo" title="Maemo">Maemo</a> OS on the first Internet tablet <a href="https://en.wikipedia.org/wiki/N770" class="mw-redirect" title="N770">N770</a>.</li>
 <li>2007
 <ul>
-<li>Apple iPhone with <a href="https://en.wikipedia.org/wiki/IOS" title="IOS">iOS</a> is introduced as an iPod, "mobile phone" and "Internet communicator".<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup></li>
-<li><a href="https://en.wikipedia.org/wiki/Open_Handset_Alliance" title="Open Handset Alliance">Open Handset Alliance</a> (OHA) formed by <a href="https://en.wikipedia.org/wiki/Google" title="Google">Google</a>, <a href="https://en.wikipedia.org/wiki/HTC" title="HTC">HTC</a>, <a href="https://en.wikipedia.org/wiki/Sony" title="Sony">Sony</a>, <a href="https://en.wikipedia.org/wiki/Dell" title="Dell">Dell</a>, <a href="https://en.wikipedia.org/wiki/Intel" title="Intel">Intel</a>, <a href="https://en.wikipedia.org/wiki/Motorola_Mobility" title="Motorola Mobility">Motorola</a>, <a href="https://en.wikipedia.org/wiki/Samsung_Electronics" title="Samsung Electronics">Samsung</a>, <a href="https://en.wikipedia.org/wiki/LG_Electronics" title="LG Electronics">LG</a>, etc.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup></li>
+<li>Apple iPhone with <a href="https://en.wikipedia.org/wiki/IOS" title="IOS">iOS</a> is introduced as an iPod, "mobile phone" and "Internet communicator".</li>
+<li><a href="https://en.wikipedia.org/wiki/Open_Handset_Alliance" title="Open Handset Alliance">Open Handset Alliance</a> (OHA) formed by <a href="https://en.wikipedia.org/wiki/Google" title="Google">Google</a>, <a href="https://en.wikipedia.org/wiki/HTC" title="HTC">HTC</a>, <a href="https://en.wikipedia.org/wiki/Sony" title="Sony">Sony</a>, <a href="https://en.wikipedia.org/wiki/Dell" title="Dell">Dell</a>, <a href="https://en.wikipedia.org/wiki/Intel" title="Intel">Intel</a>, <a href="https://en.wikipedia.org/wiki/Motorola_Mobility" title="Motorola Mobility">Motorola</a>, <a href="https://en.wikipedia.org/wiki/Samsung_Electronics" title="Samsung Electronics">Samsung</a>, <a href="https://en.wikipedia.org/wiki/LG_Electronics" title="LG Electronics">LG</a>, etc.</li>
 </ul>
 </li>
 <li>2008 – OHA releases <a href="https://en.wikipedia.org/wiki/Android_(operating_system)" title="Android (operating system)">Android</a> (based on <a href="https://en.wikipedia.org/wiki/Linux_kernel" title="Linux kernel">Linux kernel</a>) 1.0 with the <a href="https://en.wikipedia.org/wiki/HTC_Dream" title="HTC Dream">HTC Dream</a> (T-Mobile G1) as the first Android phone.</li>
@@ -107,7 +107,7 @@ Mobile operating systems combine features of a personal computer operating syste
 <li>September – Apple releases <a href="https://en.wikipedia.org/wiki/IOS_7" title="IOS 7">iOS 7</a>.</li>
 <li>October
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Canonical_Ltd." class="mw-redirect" title="Canonical Ltd.">Canonical</a> announced <a href="https://en.wikipedia.org/wiki/Ubuntu_Touch" title="Ubuntu Touch">Ubuntu Touch</a> (later discontinued), a version of the Linux distribution expressly designed for smartphones. The OS is built on the Android Linux kernel, using Android drivers and services, but does not use any of the Java-like code of Android.<sup id="cite_ref-The_Verge_6-0" class="reference"><a href="#cite_note-The_Verge-6">[6]</a></sup></li>
+<li><a href="https://en.wikipedia.org/wiki/Canonical_Ltd." class="mw-redirect" title="Canonical Ltd.">Canonical</a> announced <a href="https://en.wikipedia.org/wiki/Ubuntu_Touch" title="Ubuntu Touch">Ubuntu Touch</a> (later discontinued), a version of the Linux distribution expressly designed for smartphones. The OS is built on the Android Linux kernel, using Android drivers and services, but does not use any of the Java-like code of Android.</li>
 <li>Google releases Android KitKat 4.4.</li>
 </ul>
 </li>
@@ -138,7 +138,7 @@ Mobile operating systems combine features of a personal computer operating syste
 <ul>
 <li>February – Microsoft released <a href="https://en.wikipedia.org/wiki/Windows_10_Mobile" title="Windows 10 Mobile">Windows 10 Mobile</a> Anniversary Update.</li>
 <li>June – Apple announced <a href="https://en.wikipedia.org/wiki/IOS_10" title="IOS 10">iOS 10</a>.</li>
-<li>August – Google released <a href="https://en.wikipedia.org/wiki/Android_Nougat" title="Android Nougat">Android 7.0 "Nougat"</a>.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup></li>
+<li>August – Google released <a href="https://en.wikipedia.org/wiki/Android_Nougat" title="Android Nougat">Android 7.0 "Nougat"</a>.</li>
 <li>September – Apple released <a href="https://en.wikipedia.orghttps://en.wikipedia.org/wiki/IOS_10" title="IOS 10">iOS 10</a>.</li>
 <li>November – Tizen released <a href="https://en.wikipedia.org/wiki/Tizen" title="Tizen">Tizen</a> 3.0.</li>
 <li>November – BlackBerry released <a href="https://en.wikipedia.org/wiki/BlackBerry_10" title="BlackBerry 10">BlackBerry 10</a>.3.3.</li>
