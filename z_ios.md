@@ -1,5 +1,21 @@
 
+## mobile dev :
 
+**native platforms:** ios, android, windows
+
+**cross-platforms:** phonegap/apache cordova, xamarin, unity, appcelerator 
+
+
+**************************
+
+Before starting with actual topics, lets start with undestanding few required terminologies:
+
+* Mobile OS?
+* Native platform?
+* Cross-platform?
+
+**Note: this article is intended to study only the core technical concepts and some brief survey of mobile industry**
+*************************
 
 ## mobile operating system
 
@@ -15,7 +31,7 @@ Mobile operating systems combine features of a personal computer operating syste
 
 
 
-### list of mobile operating system
+### list of mobile operating systems
 
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS</a></li>
@@ -47,7 +63,7 @@ Mobile operating systems combine features of a personal computer operating syste
 
 ***************
 
-<h2><span class="mw-headline" id="Timeline">broief history and timeline of mobile OS</span></span></h2>
+<h2><span class="mw-headline" id="Timeline">brief history and timelines of mobile OS</span></span></h2>
 <p>Mobile operating system milestones mirror the development of <a href="https://en.wikipedia.org/wiki/Mobile_phone" title="Mobile phone">mobile phones</a> and <a href="https://en.wikipedia.org/wiki/Smartphone" title="Smartphone">smartphones</a>:</p>
 <h3><span class="mw-headline" id="Pre-1993">Pre-1993</span></span></h3>
 <ul>
@@ -155,9 +171,9 @@ Mobile operating systems combine features of a personal computer operating syste
 
 **************************
 
-## Current active platforms
+## Currently active platforms
 
-### Open source
+**Open source:**
 
 * Android
 * Android Open Kang Project (AOKP)
@@ -177,15 +193,15 @@ Mobile operating systems combine features of a personal computer operating syste
 * Sailfish OS is from Jolla
 * Tizen
 
-### Closed source
+**Closed source:**
 
 * iOS (formerly named iPhone OS)
 * BlackBerry 10 (based on the QNX OS) is from BlackBerry
 * Windows 10 Mobile (formerly called Windows Phone) is from Microsoft
 
-### Discontinued software platforms
+## Discontinued software platforms
 
-### Open source
+**Open source:**
 
 * CyanogenMod
 * Cyanogen OS
@@ -194,7 +210,7 @@ Mobile operating systems combine features of a personal computer operating syste
 * Ubuntu Touch is from Canonical Ltd
 * webOS was developed by Palm
 
-### Closed source
+**Closed source:**
 
 * BlackBerry OS
 * Windows Mobile
