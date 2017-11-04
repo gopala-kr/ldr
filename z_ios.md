@@ -154,3 +154,77 @@ Mobile operating systems combine features of a personal computer operating syste
 </ul>
 
 **************************
+
+## Current active platforms
+
+### Open source
+
+* Android
+* Android Open Kang Project (AOKP)
+* BlackBerry Secure
+* ColorOS
+* Emotion User Interface (EMUI)
+* Flyme OS
+* HTC Sense
+* LineageOS
+* Indus OS
+* Mi User Interface (MIUI)
+* LG UX (formerly named Optimus UI)
+* OxygenOS
+* Replicant OS
+* Samsung Experience (formerly called TouchWiz)
+* ZenUI
+* Sailfish OS is from Jolla
+* Tizen
+
+### Closed source
+
+* iOS (formerly named iPhone OS)
+* BlackBerry 10 (based on the QNX OS) is from BlackBerry
+* Windows 10 Mobile (formerly called Windows Phone) is from Microsoft
+
+### Discontinued software platforms
+
+### Open source
+
+* CyanogenMod
+* Cyanogen OS
+* Firefox OS (In September 2016, Mozilla announced that work on Firefox OS has ceased, and all B2G-related code would be removed from mozilla-central)
+* MeeGo/Maemo/Moblin
+* Ubuntu Touch is from Canonical Ltd
+* webOS was developed by Palm
+
+### Closed source
+
+* BlackBerry OS
+* Windows Mobile
+* Windows Phone
+* Symbian platform was developed by Nokia(discontinued in 2012)
+* Bada platform
+* Palm OS
+
+***************
+
+* In 2006, Android, iOS, and Windows Phone did not exist and only 64 million smartphones were sold. In 2016 Q4, 431.53 million smartphones were sold and global market share was 81.7% for Android, 17.9% for iOS, 0.3% for Windows 10 Mobile and 0.1% for all other platforms
+
+world-wide smartphone sale:
+<br>
+
+![smartphonesale](https://upload.wikimedia.org/wikipedia/commons/8/83/World_Wide_Smartphone_Sales.png)
+<br>
+<br>
+
+mobile OS market share:
+<br>
+![OS market share](https://upload.wikimedia.org/wikipedia/en/1/18/Mobile_OS_market_share_from_IDC_till_2016_Q3.png)
+<br>
+<br>
+Note:
+
+* Windows includes Windows 10 Mobile, Windows Phone and Windows Mobile.
+* BlackBerry includes BlackBerry 10 and BlackBerry OS.
+* Other includes all other smartphone OS but not feature phone OS.
+
+Source: wiki
+
+**********************
