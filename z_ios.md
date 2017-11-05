@@ -390,20 +390,240 @@ now lets start exploring subjective topics..
 
 > Software updates
 
-iPhone OS 1, iPhone OS 2, iPhone OS 3, iOS 4, iOS 5, iOS 6, iOS 7, iOS 8, iOS 9, iOS 10, and iOS 11
+> Major versions of iOS are released annually. The current version, iOS 11, was released on September 19, 2017. It is available for all iOS devices with 64-bit processors; the iPhone 5S and later iPhone models, the iPad (2017), the iPad Air and later iPad Air models, all iPad Pro models, the iPad Mini 2 and later iPad Mini models, and the sixth-generation iPod Touch.
 
-Platform usage as measured by the App Store on September 6, 2017.
+> Platform usage as measured by the App Store on September 6, 2017.
 
-  iOS 10 (89%)
-  iOS 9 (9%)
-  iOS 8 and earlier (2%)
-Apple provides major updates to the iOS operating system annually via iTunes and also, for iOS 5 and later, over-the-air. The latest version is iOS 11, released on September 19, 2017. It is available for iPhone 5S and later, iPad Air and later, iPad Pro, iPad Mini 2 and later, and sixth-generation iPod Touch.
+>   * iOS 10 (89%)
+>   * iOS 9 (9%)
+>   * iOS 8 and earlier (2%)
+  
+> Apple provides major updates to the iOS operating system annually via iTunes and also, for iOS 5 and later, over-the-air. The latest version is iOS 11, released on September 19, 2017. It is available for iPhone 5S and later, iPad Air and later, iPad Pro, iPad Mini 2 and later, and sixth-generation iPod Touch.
 
-Originally, iPod Touch users had to pay for system software updates. This was due to accounting rules making the device not a "subscription device" like iPhone or Apple TV, and significant enhancements to the device required payments. The requirement to pay to upgrade caused iPod Touch owners to stay away from updates.[53] However, in September 2009, a change in accounting rules won tentative approval, significantly affecting both Apple's earnings and stock price, and allowing iPod Touch updates to be delivered for free.
+> Originally, iPod Touch users had to pay for system software updates. This was due to accounting rules making the device not a "subscription device" like iPhone or Apple TV, and significant enhancements to the device required payments. The requirement to pay to upgrade caused iPod Touch owners to stay away from updates. However, in September 2009, a change in accounting rules won tentative approval, significantly affecting both Apple's earnings and stock price, and allowing iPod Touch updates to be delivered for free.
 
 <br>
 
+************
+<table class="wikitable" style="font-size:88%; margin-left:10px; float:right;">
+<caption>Current versions</caption>
+<tr>
+<th rowspan="2">Version</th>
+<th rowspan="2">Build</th>
+<th rowspan="2">Release date</th>
+<th colspan="5">Device end-of-life</th>
+</tr>
+<tr>
+<th>Apple TV</th>
+<th>iPad</th>
+<th>iPhone</th>
+<th>iPod Touch</th>
+</tr>
+<tr>
+<td><a href="#3.1.3">3.1.3</a></td>
+<td>7E18</td>
+<td><span class="sortkey" style="display:none;speak:none">000000002010-02-02-0000</span><span style="white-space:nowrap">Feb 2, 2010</span></td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td>
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IPhone_(1st_generation)" title="IPhone (1st generation)">1st gen</a></li>
+</ul>
+</div>
+</td>
+<td>
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IPod_Touch#Models" title="IPod Touch">1</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td><a href="#4.2.1">4.2.1</a></td>
+<td>8C148</td>
+<td><span class="sortkey" style="display:none;speak:none">000000002010-11-22-0000</span><span style="white-space:nowrap">Nov 22, 2010</span></td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td>
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IPhone_3G" title="IPhone 3G">3G</a></li>
+</ul>
+</div>
+</td>
+<td>
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IPod_Touch#Models" title="IPod Touch">2</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td><a href="#5.1.1">5.1.1</a></td>
+<td>9B206</td>
+<td><span class="sortkey" style="display:none;speak:none">000000002012-05-07-0000</span><span style="white-space:nowrap">May 7, 2012</span></td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td>
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IPad_(1st_generation)" title="IPad (1st generation)">1st gen</a></li>
+</ul>
+</div>
+</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td>
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IPod_Touch#Models" title="IPod Touch">3</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td><a href="#6.1.6">6.1.6</a></td>
+<td>10B500</td>
+<td><span class="sortkey" style="display:none;speak:none">000000002014-02-21-0000</span><span style="white-space:nowrap">Feb 21, 2014</span></td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td>
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IPhone_3GS" title="IPhone 3GS">3GS</a></li>
+</ul>
+</div>
+</td>
+<td>
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IPod_Touch#Models" title="IPod Touch">4</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td><a href="#7.1.2">7.1.2</a><br />
+<a href="#7.1.2A">7.1.2</a><sup>Apple TV</sup></td>
+<td>11D257
+<p>11D258</p>
+</td>
+<td><span class="sortkey" style="display:none;speak:none">000000002014-06-30-0000</span><span style="white-space:nowrap">Jun 30, 2014</span></td>
+<td>
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Apple_TV#Technical_specifications" title="Apple TV">2</a></li>
+</ul>
+</div>
+</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td>
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IPhone_4" title="IPhone 4">4</a></li>
+</ul>
+</div>
+</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+</tr>
+<tr>
+<td><a href="#8.4.2A">8.4.2</a><sup>Apple TV</sup></td>
+<td>12H606</td>
+<td><span class="sortkey" style="display:none;speak:none">000000002016-12-12-0000</span><span style="white-space:nowrap">Dec 12, 2016</span></td>
+<td>
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Apple_TV#Technical_specifications" title="Apple TV">3</a></li>
+</ul>
+</div>
+</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+</tr>
+<tr>
+<td><a href="#9.3.5">9.3.5</a></td>
+<td>13G36</td>
+<td><span class="sortkey" style="display:none;speak:none">000000002016-08-25-0000</span><span style="white-space:nowrap">Aug 25, 2016</span></td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td>
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IPad_2" title="IPad 2">2</a></li>
+<li><a href="https://en.wikipedia.org/wiki/IPad_(3rd_generation)" title="IPad (3rd generation)">3</a></li>
+<li><a href="https://en.wikipedia.org/wiki/IPad_Mini_(1st_generation)" title="IPad Mini (1st generation)">Mini 1</a></li>
+</ul>
+</div>
+</td>
+<td>
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IPhone_4S" title="IPhone 4S">4S</a></li>
+</ul>
+</div>
+</td>
+<td>
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IPod_Touch_(5th_generation)" title="IPod Touch (5th generation)">5</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td><a href="#10.3.3">10.3.3</a></td>
+<td>14G60</td>
+<td><span class="sortkey" style="display:none;speak:none">000000002017-07-19-0000</span><span style="white-space:nowrap">Jul 19, 2017</span></td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td>
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IPad_(4th_generation)" title="IPad (4th generation)">4</a></li>
+</ul>
+</div>
+</td>
+<td>
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/IPhone_5" title="IPhone 5">5</a></li>
+<li><a href="https://en.wikipedia.org/wiki/IPhone_5C" title="IPhone 5C">5C</a></li>
+</ul>
+</div>
+</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+</tr>
+<tr>
+<td style="background:#d4f4b4;"><a href="#11">11.1</a></td>
+<td>15B93/15B101</td>
+<td><span class="sortkey" style="display:none;speak:none">000000002017-10-31-0000</span><span style="white-space:nowrap">Oct 31, 2017</span></td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+</tr>
+<tr>
+<td style="background:#c1e6f5;"><a href="#11">11.2 beta 1</a></td>
+<td>15C5092b</td>
+<td><span class="sortkey" style="display:none;speak:none">000000002017-10-30-0000</span><span style="white-space:nowrap">Oct 30, 2017</span></td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+</tr>
+<tr>
+<td colspan="7">
+<table>
+<tr>
+<th>Legend:</th>
+<td><span style="margin:0; font-size:90%; white-space:nowrap;"><span class="legend-text" style="border:1px solid #AAAAAA; padding:1px .6em; background-color:#ececec; color:black; font-size:95%; line-height:1.25; text-align:center;">&#160;</span>&#160;<abbr title="iOS versions that have this color are no longer the latest version of iOS, however they might still be the latest version on some devices.">Discontinued</abbr></span></td>
+<td><span style="margin:0; font-size:90%; white-space:nowrap;"><span class="legend-text" style="border:1px solid #AAAAAA; padding:1px .6em; background-color:#d4f4b4; color:black; font-size:95%; line-height:1.25; text-align:center;">&#160;</span>&#160;<abbr title="iOS versions that have this color are the latest public version of iOS."><b>Current</b></abbr></span></td>
+<td><span style="margin:0; font-size:90%; white-space:nowrap;"><span class="legend-text" style="border:1px solid #AAAAAA; padding:1px .6em; background-color:#c1e6f5; color:black; font-size:95%; line-height:1.25; text-align:center;">&#160;</span>&#160;<abbr title="iOS versions that have this color are a beta version, and are not the latest public version.">Beta</abbr></span></td>
+</tr>
+</table>
+
 **************
+## list of apple devices and their timelines
 
 <div class="timeline-wrapper"><map name="timeline_f7e71d8726cc09cb584153ec78e053c0" id="timeline_f7e71d8726cc09cb584153ec78e053c0">
 <area shape="rect" href="https://en.wikipedia.org/wiki/Apple_Watch_Series_3" coords="1076,1823,1224,1844" title="Apple Watch Series 3" alt="Apple Watch Series 3" />
