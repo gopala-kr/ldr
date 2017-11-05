@@ -374,7 +374,7 @@ now lets start exploring subjective topics..
 ********
 ## iOS
 
-> ** brief history of ios**
+> **brief history of ios**
 
 > In 2005, when Steve Jobs began planning the iPhone, he had a choice to either "shrink the Mac, which would be an epic feat of engineering, or enlarge the iPod". Jobs favored the former approach but pitted the Macintosh and iPod teams, led by Scott Forstall and Tony Fadell, respectively, against each other in an internal competition, with Forstall winning by creating the iPhone OS. The decision enabled the success of the iPhone as a platform for third-party developers: using a well-known desktop operating system as its basis allowed the many third-party Mac developers to write software for the iPhone with minimal retraining. Forstall was also responsible for creating a software development kit for programmers to build iPhone apps, as well as an App Store within iTunes.
 
@@ -405,8 +405,9 @@ now lets start exploring subjective topics..
 <br>
 
 ************
+### Current versions
+
 <table class="wikitable" style="font-size:88%; margin-left:10px; float:right;">
-<caption>Current versions</caption>
 <tr>
 <th rowspan="2">Version</th>
 <th rowspan="2">Build</th>
@@ -693,6 +694,7 @@ now lets start exploring subjective topics..
 
 <br>
 
+**************
 
 
 ****************
