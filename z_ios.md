@@ -791,7 +791,7 @@ more details from official doc [Cocoa Touch Layer](https://developer.apple.com/l
 ****************
 ## Andorid
 
-> **brief history of android
+> **brief history of android**
 
 > Android Inc. was founded in Palo Alto, California in October 2003 by Andy Rubin, Rich Miner, Nick Sears, and Chris White. Rubin described the Android project as "tremendous potential in developing smarter mobile devices that are more aware of its owner's location and preferences".The early intentions of the company were to develop an advanced operating system for digital cameras, and this was the basis of its pitch to investors in April 2004. The company then decided that the market for cameras was not large enough for its goals, and by five months later it had diverted its efforts and was pitching Android as a handset operating system that would rival Symbian and Microsoft Windows Mobile.
 
@@ -948,7 +948,7 @@ Global Android version distribution as of August 2017. Android Marshmallow is th
 
 <br>
 
-## Android software stack.
+## Android Software Stack
 
 <p>
   Android is an open source, Linux-based software stack created for a wide
@@ -1120,9 +1120,9 @@ System Apps
 
 <br>
 
-### framework details
+### Framework details
 
-![](https://source.android.com/images/android_framework_details.png]
+![Framework details](https://source.android.com/images/android_framework_details.png]
 
 ## Android Core Technologies
 
@@ -1806,7 +1806,6 @@ The following diagram shows all the modules in our recommended architecture and 
 
 <br>
 
-## Activity life cycle
 
 <h2 id="alc">Activity-lifecycle concepts</h2>
 
@@ -2229,7 +2228,479 @@ callback releases all resources that have not yet been released by earlier
 callbacks such as <code><a href="https://developer.android.com/reference/android/app/Activity.html#onStop()">onStop()</a></code>.
 </p>
 
+*******
+## Android studio
 
+<p>Android Studio is the official Integrated Development Environment (IDE) for
+Android app development, based on
+<a class="external-link" href="https://www.jetbrains.com/idea/">IntelliJ IDEA
+</a>. On top of IntelliJ's powerful code editor and developer tools, Android
+Studio offers even more features that enhance your productivity when building
+Android apps, such as:</p>
+<ul>
+<li>A flexible Gradle-based build system</li>
+<li>A fast and feature-rich emulator</li>
+<li>A unified environment where you can develop for all Android devices</li>
+<li>Instant Run to push changes to your running app without building a new APK</li>
+<li>Code templates and GitHub integration to help you build common app features
+  and import sample code</li>
+<li>Extensive testing tools and frameworks</li>
+<li>Lint tools to catch performance, usability, version compatibility, and other
+  problems</li>
+<li>C++ and NDK support</li>
+<li>Built-in support for
+  <a href="https://cloud.google.com/tools/android-studio/docs/">Google Cloud Platform</a>,
+  making it easy to integrate Google Cloud Messaging and App Engine</li>
+</ul>
+<p>This page provides an introduction to basic Android Studio features.
+For a summary of the latest changes, see
+<a href="https://developer.android.com/studio/releases/index.html">Android Studio Release Notes</a>.</p>
+<p><a name="project-structure"></a></p>
+<h2 id="project_structure">Project Structure</h2>
+<div class="figure" style="width:298px">
+<img src="https://developer.android.com/studio/images/intro/project-android-view_2-1_2x.png" width="298" />
+<p class="img-caption"><strong>Figure 1.</strong> The project files in Android
+view.</p>
+</div>
+
+<p>Each project in Android Studio contains one or more modules with source code
+files and resource files. Types of modules include:</p>
+<ul>
+<li>Android app modules</li>
+<li>Library modules</li>
+<li>Google App Engine modules</li>
+</ul>
+<p>By default, Android Studio displays your project files in the Android project
+view, as shown in figure 1. This view is organized by modules to provide quick
+access to your project's key source files.</p>
+<p>All the build files are visible at the top level under <strong>Gradle Scripts</strong> and
+each app module contains the following folders:</p>
+<ul>
+<li><strong>manifests</strong>: Contains the <code>AndroidManifest.xml</code> file.</li>
+<li><strong>java</strong>: Contains the Java source code files, including JUnit test code.</li>
+<li><strong>res</strong>: Contains all non-code resources, such as XML layouts, UI strings,
+  and bitmap images.</li>
+</ul>
+<p>The Android project structure on disk differs from this flattened
+representation. To see the actual file structure of the project, select
+<strong>Project</strong> from the <strong>Project</strong> dropdown (in figure 1, it's showing as
+<strong>Android</strong>).</p>
+<p>You can also customize the view of the project files to focus on specific
+aspects of your app development. For example, selecting the <strong>Problems</strong> view of
+your project displays links to the source files containing any recognized
+coding and syntax errors, such as a missing XML element closing tag in a layout
+file.</p>
+<p><img src="https://developer.android.com/studio/images/intro/problems-view_2-1_2x.png" width="286" />
+<p class="img-caption"><strong>Figure 2.</strong> The project files in Problems
+view, showing a layout file with a problem.</p></p>
+<p>For more information, see <a href="https://developer.android.com/studio/projects/index.html">Projects Overview</a>.</p>
+<p><a name="user-interface"></a></p>
+<h2 id="the_user_interface">The User Interface</h2>
+<p>The Android Studio main window is made up of several logical areas identified in
+figure 3.</p>
+<p><img src="https://developer.android.com/studio/images/intro/main-window_2-2_2x.png" width="816" alt=""
+id="main-window"/></p>
+<p class="img-caption">
+  <strong>Figure 3.</strong> The Android Studio main window.
+</p>
+
+<ol class="callouts">
+<li>The <b>toolbar</b> lets you carry out a wide range of actions, including
+  running your app and launching Android tools.</li>
+<li>The <b>navigation bar</b> helps you navigate through your project and open
+  files for editing. It provides a more compact view of the structure visible in
+  the <b>Project</b> window.</li>
+<li>The <b>editor window</b> is where you create and modify code. Depending on
+  the current file type, the editor can change. For example, when viewing a
+  layout file, the editor displays the Layout Editor.</li>
+<li>The <b>tool window bar</b> runs around the outside of the IDE window and
+  contains the buttons that allow you to expand or collapse individual tool
+  windows.</li>
+<li>The <b>tool windows</b> give you access to specific tasks like project management,
+  search, version control, and more. You can expand them and collapse them.</li>
+<li>The <b>status bar</b> displays the status of your project and the IDE itself,
+  as well as any warnings or messages.</li>
+</ol>
+
+<p>You can organize the main window to give yourself more screen space by hiding
+or moving toolbars and tool windows. You can also use keyboard shortcuts to
+access most IDE features.</p>
+<p>At any time, you can search across your source code, databases, actions,
+elements of the user interface, and so on, by double-pressing the Shift key, or
+clicking the magnifying glass in the upper right-hand corner of the Android
+Studio window. This can be very useful if, for example, you are trying to
+locate a particular IDE action that you have forgotten how to trigger.</p>
+
+## projects overview
+
+<p>A <em>project</em> in Android Studio contains everything that defines your
+workspace for an app, from source code and assets, to test code and build
+configurations. When you start a new project, Android Studio creates the necessary
+structure for all your files and makes them visible in the
+<strong>Project</strong> window on the left side of the IDE (click <strong>View
+&gt; Tool Windows &gt; Project</strong>). This page provides an overview of the
+key components inside your project.</p>
+
+
+<h2 id="ApplicationModules">Modules</h2>
+
+<p>A <em>module</em> is a collection of source files and build settings that
+allow you to divide your project into discrete units of functionality. Your
+project can have one or many modules and one module may use another module as a
+dependency. Each module can be independently built, tested, and debugged.</p>
+
+<p>Additional modules are often useful when creating code libraries within your
+own project or when you want to create different sets of code and resources for
+different device types, such as phones and wearables, but keep all the files
+scoped within the same project and share some code.</p>
+
+<p>You can add a new module to your project by clicking <strong>File
+> New > New Module</strong>.</p>
+
+<p>Android Studio offers a few distinct types of module:</p>
+
+<dl>
+
+  <dt><strong>Android app module</strong></dt>
+  <dd>Provides a container for your app's
+  source code, resource files, and app level settings such as the
+  module-level build file and Android Manifest file. When
+  you create a new project, the default module name is "app".
+  <p>In the <strong>Create New Module</strong> window, Android Studio offers
+  the following app modules:</p>
+  <ul>
+  <li>Phone &amp; Tablet Module</li>
+  <li>Android Wear Module</li>
+  <li>Android TV Module</li>
+  <li>Glass Module</li>
+  </ul>
+  <p>They each provide essential files and some code templates that are
+  appropriate for the corresponding app or device type.</p>
+  <p>For more information on adding a module, read
+  <a href="https://developer.android.com/studio/projects/add-app-module.html">Add a Module for a New Device</a>.</p>
+  </dd>
+
+  <dt><strong>Library module</strong></dt>
+  <dd>Provides a container for your reusable code, which you
+  can use as a dependency in other app modules or import into other
+  projects. Structurally, a library module is the same as an app module, but when built,
+  it creates a code archive file instead of an APK, so it can't be installed on
+  a device.
+  <p>In the <strong>Create New Module</strong> window, Android Studio offers
+  the following library modules:</p>
+  <ul>
+  <li>Android Library: This type of library can contain all file types supported
+  in an Android project, including source code, resources, and manifest files.
+  The build result is an Android Archive (AAR) file that you can add as
+  a dependency for your Android app modules.</li>
+  <li>Java Library: This type of library can contain only Java source files.
+  The build result is an Java Archive (JAR) file that you can add as
+  a dependency for your Andriod app modules or other Java projects.</li>
+  </ul>
+  </dd>
+
+  <dt><strong>Google Cloud module</strong></dt>
+  <dd>Provides a container for your Google Cloud backend code. This module
+  has the required code and dependencies for a Java App Engine backend
+  that uses simple HTTP, Cloud Endpoints, and Cloud Messaging to connect
+  to your app. You can develop your backend to provide cloud services your
+  app needs.
+  <p>Using Android Studio to develop your Google Cloud module lets
+  you manage app code and backend code in the same project. You can also run and test
+  your backend code locally, and use Android Studio to deploy your Google Cloud module.
+  </p>
+  <p>For more information on running and deploying a Google Cloud module, see
+  <a href="https://cloud.google.com/tools/android-studio/app_engine/run_test_deploy">
+  Running, Testing, and Deploying the Backend</a>.</p>
+  </dd>
+
+</dl>
+
+<p>Some people also refer to modules as sub-projects and that's okay, because
+Gradle also refers to modules as projects. For example,
+when you create a library module and want to add it as a dependency to your
+Android app module, you must declare it as follows:</p>
+
+<pre>
+dependencies {
+  compile project(':my-library-module')
+}
+</pre>
+
+
+
+
+
+<h2 id="ProjectFiles">Project Files</h2>
+
+<img style="float:right;margin-left:40px;width:240px"
+src="https://developer.android.com/images/tools/projectview-p1.png" alt="" />
+
+<p>By default, Android Studio displays your project files in the
+<strong>Android</strong> view. This view does not reflect
+the actual file hierarchy on disk, but is organized by
+modules and file types to simplify navigation between key source files of your project, hiding
+certain files or directories that are not commonly used. Some of the structural
+changes compared to the structure on disk include the following:</p>
+
+<ul>
+<li>Shows all the project's build-related configuration files in a top-level
+<strong>Gradle Script</strong> group.</li>
+<li>Shows all manifest files for each module in a module-level group (when you
+have different manifest files for different product flavors and build types).
+</li>
+<li>Shows all alternative resource files in a single group,
+instead of in separate folders per resource qualifier. For example, all density
+versions of your launcher icon are visible side-by-side.</li>
+</ul>
+
+<p>Within each Android app module, files are shown in the following groups:</p>
+
+<dl>
+
+<dt><strong>manifests</strong></dt>
+<dd>Contains the <code><a href="https://developer.android.com/guide/topics/manifest/manifest-intro.html"
+>AndroidManifest.xml</a></code> file.</dd>
+
+<dt><strong>java</strong></dt>
+<dd>Contains the Java source code files, separated by package names,
+including JUnit test code.</dd>
+
+<dt><strong>res</strong></dt>
+<dd>Contains all non-code resources, such as XML layouts, UI strings, and
+bitmap images, divided into corresponding sub-directories. For more information
+about all possible resource types, see <a
+href="https://developer.android.com/guide/topics/resources/providing-resources.html">Providing Resources</a>.
+</dd>
+</dl>
+
+
+
+
+ <h3 id="ProjectView">The Android Project View</h3>
+
+<img style="float:right;margin-left:40px;width:240px"
+src="https://developer.android.com/images/tools/projectview-p2.png" alt="" />
+
+
+<p>To see the actual
+file structure of the project including all files hidden from the
+Android view, select <strong>Project</strong> from the dropdown
+at the top of the <strong>Project</strong> window.</p>
+
+<p>When you select <strong>Project</strong> view, you can see a lot more files
+and directories. The most important of which are the following:</p>
+
+<dl>
+
+<dt><code><var>module-name</var>/</code></dt>
+<dd>
+  <dl>
+    <dt><code>build/</code></dt>
+    <dd>Contains build outputs.</dd>
+
+    <dt><code>libs/</code></dt>
+    <dd>Contains private libraries.</dd>
+
+    <dt><code>src/</code></dt>
+    <dd>Contains all code and resource files for the module in the following
+subdirectories:
+      <dl>
+      <dt><code>androidTest/</code></dt>
+      <dd>Contains code for instrumentation tests that run on an Android device.
+      For more information, see the
+       <a href="https://developer.android.com/tools/testing/index.html">Android Test documentation</a>.</dd>
+
+      <dt><code>main/</code></dt>
+      <dd>Contains the "main" sourceset files: the Android code and resources
+      shared by all build variants (files for other build variants
+      reside in sibling directories, such as <code>src/debug/</code> for the
+      debug build type).
+      <dl>
+       <dt><code>AndroidManifest.xml</code></dt>
+       <dd>Describes the nature of the application and each of its components.
+      For more information, see the
+      <a href="https://developer.android.com/guide/topics/manifest/manifest-intro.html">AndroidManifest.xml</a>
+      documentation.</dd>
+
+       <dt><code>java/</code></dt>
+       <dd>Contains Java code sources.</dd>
+
+       <dt><code>jni/</code></dt>
+       <dd>Contains native code using the Java Native Interface (JNI). For more information, see the
+       <a href="https://developer.android.com/ndk/index.html">Android NDK documentation</a>.</dd>
+
+       <dt><code>gen/</code></dt>
+       <dd>Contains the Java files generated by Android Studio, such as your <code>R.java</code> file and
+       interfaces created from AIDL files.</dd>
+
+       <dt><code>res/</code></dt>
+       <dd>Contains application resources, such as drawable files, layout files,
+        and UI string. See
+       <a href="https://developer.android.com/guide/topics/resources/index.html">Application Resources</a> for more
+       information.</dd>
+
+       <dt><code>assets/</code></dt>
+       <dd>Contains file that should be
+       compiled into an <code>.apk</code> file as-is. You can
+       navigate this directory in the same way as a typical file system using
+        URIs and read files as a stream of bytes using the
+        <code><a href="https://developer.android.com/reference/android/content/res/AssetManager.html">AssetManager</a>
+        </code>. For example, this is a good location for textures and game
+      data.</dd>
+      </dl>
+      </dd><!-- end main/ -->
+
+      <dt><code>test/</code></dt>
+      <dd>Contains code for local tests that run on your host JVM.</dd>
+
+     </dl>
+    </dd><!-- end src/ -->
+    <dt><code>build.gradle</code> (module)</dt>
+    <dd>This defines the module-specific build configurations.</dd>
+  </dl>
+</dd><!-- end module-name/ -->
+
+<dt><code>build.gradle</code> (project)</dt>
+<dd>This defines your build configuration that apply to all modules.
+This file is integral to the project, so you should maintain them
+in revision control with all other source code.
+<p>For information about other build files, see
+<a href="https://developer.android.com/studio/build/index.html">Configure Your Build</a>.</p>
+</dd>
+
+</dl>
+
+
+
+<h2 id="ProjectStructure">Project Structure Settings</h2>
+
+<p>To change various settings for your Android Studio project, open the
+<strong>Project Structure</strong> dialog by clicking
+<strong>File &gt; Project Structure</strong>. It contains the
+following sections:
+</p>
+
+<ul>
+  <li>
+    <strong>SDK Location:</strong> Sets the location of the JDK, Android SDK,
+    and Android NDK that your project uses.
+  </li>
+
+  <li>
+    <strong>Project:</strong> Sets the version for <a
+    href="https://developer.android.com/tools/building/plugin-for-gradle.html">Gradle and
+    the Android plugin
+    for Gradle</a>, and the repository location name.
+  </li>
+
+  <li>
+    <strong>Developer Services:</strong> Contains settings for Android Studio
+    add-in components from Google or other third parties. See
+<a href="#dev-svc">Developer Services</a>, below.
+  </li>
+
+  <li>
+    <strong>Modules:</strong> Allows you to edit module-specific build
+    configurations, including the target and minimum SDK, the app signature,
+    and library dependencies.
+    See <a href="#modules">Modules</a>, below.
+  </li>
+</ul>
+
+
+<h3 id="dev-svc">Developer Services</h3>
+
+<p>
+  The <em>Developer Services</em> section of the <em>Project Structure</em>
+  dialog box contains configuration pages
+  for several services that you can be use with your app. This section
+  contains the following pages:
+</p>
+
+<ul>
+  <li>
+    <strong>AdMob:</strong> Allows you to turn on Google's <a href="https://developers.google.com/admob/" class="external-link">AdMob</a>
+    component, which helps you understand your users and show them tailored
+    advertisements.
+  </li>
+
+  <li>
+    <strong>Analytics:</strong> Allows you to turn on <a href="https://developers.google.com/analytics/" class="external-link">Google
+    Analytics</a>, which helps you measure user interactions with your app
+    across various devices and environments.
+  </li>
+
+  <li>
+    <strong>Authentication:</strong> Allows users to use <a href="https://developers.google.com/identity/sign-in/android/" class=
+    "external-link">Google Sign-In</a> to sign in to your app with their Google
+    accounts.
+  </li>
+
+  <li>
+    <strong>Cloud:</strong> Allows you to turn on <a href="https://www.firebase.com/" class="external-link">Firebase</a> cloud-based
+    services for your app.
+  </li>
+
+  <li>
+    <strong>Notifications:</strong> Allows you to use <a href="https://developers.google.com/cloud-messaging/" class=
+    "external-link">Google Cloud Messaging</a> to communicate between your app
+    and your server.
+  </li>
+</ul>
+
+<p>
+  Turning on any of these services may cause Android Studio to add necessary
+  dependencies and permissions to your app. Each configuration page lists these
+  and other actions that Android Studio takes if you enable the associated service.
+</p>
+
+
+<h3 id="modules">Modules</h3>
+
+<p>
+  The <em>Modules</em> settings section lets you change configuration
+  options for each of your project's modules.
+  Each module's settings page is divided into the following tabs:
+</p>
+
+<ul>
+  <li>
+    <strong>Properties:</strong> Specifies the versions of the SDK and build
+    tools to use to compile the module.
+  </li>
+
+  <li>
+    <strong>Signing:</strong> Specifies the certificate to use to
+    <a href="https://developer.android.com/tools/publishing/app-signing.html#sign-auto">sign your
+    APK</a>.
+  </li>
+
+  <li>
+    <strong>Flavors:</strong> Lets you create multiple build <em>flavors</em>, where
+    each flavor specifies a set of configuration settings, such as the
+    module's minimum and target SDK version, and the
+    <a href="https://developer.android.com/tools/publishing/versioning.html">version code and
+    version name</a>. For example, you might define one flavor that has a
+    minimum SDK of 15 and a target SDK of 21, and another flavor that has a
+    minimum SDK of 19 and a target SDK of 23.
+  </li>
+
+  <li>
+    <strong>Build Types:</strong> Lets you create and modify build
+    configurations, as described in <a href="https://developer.android.com/tools/building/configuring-gradle.html">Configuring Gradle
+    Builds</a>. By default, every module has <em>debug</em> and
+    <em>release</em> build types, but you can define more as needed.
+  </li>
+
+  <li>
+    <strong>Dependencies:</strong> Lists the library, file, and module
+    dependencies for this module. You can add, modify, and delete dependencies
+    from this pane. For more information about module dependencies, see
+    <a href="https://developer.android.com/tools/building/configuring-gradle.html#declareDeps">Configuring Gradle
+    Builds</a>.
+  </li>
+</ul>
 
 ****************
 ## Windows
