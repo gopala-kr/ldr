@@ -1261,57 +1261,6 @@ your code along with any data and resource files into an APK, an <i>Android pack
 which is an archive file with an <code>.apk</code> suffix. One APK file contains all the contents
 of an Android app and is the file that Android-powered devices use to install the app.</p>
 
-<p>Each Android app lives in its own security sandbox, protected by
- the following Android security features: </p>
-
-<ul>
- <li>The Android operating system is a multi-user Linux system in which each app is a
-different user.</li>
-
-<li>By default, the system assigns each app a unique Linux user ID (the ID is used only by
-the system and is unknown to the app). The system sets permissions for all the files in an
-app so that only the user ID assigned to that app can access them. </li>
-
-<li>Each process has its own virtual machine (VM), so an app's code runs in isolation from
-other apps.</li>
-
-<li>By default, every app runs in its own Linux process. The Android system starts
- the process when any
-of the app's components need to be executed, and then shuts down the process
- when it's no longer
-needed or when the system must recover memory for other apps.</li>
-</ul>
-
-<p>The Android system implements the <em>principle of least privilege</em>. That is,
-each app, by default, has access only to the components that it requires to do its work and
-no more. This creates a very secure environment in which an app cannot access parts of
-the system for which it is not given permission. However, there are ways for an app to share
- data with other apps and for an
-app to access system services:</p>
-
-<ul>
-  <li>It's possible to arrange for two apps to share the same Linux user ID, in which case
-they are able to access each other's files.  To conserve system resources, apps with the
-same user ID can also arrange to run in the same Linux process and share the same VM. The
-apps must also be signed with the same certificate.</li>
-  <li>An app can request permission to access device data such as the user's
-contacts, SMS messages, the mountable storage (SD card), camera, and Bluetooth. The user has
-to explicitly grant these permissions. For more information, see
-<a href="https://developer.android.com/training/permissions/index.html">Working with System Permissions</a>.</li>
-</ul>
-
-<p>The rest of this document introduces the following concepts:</p>
-<ul>
-  <li>The core framework components that define your app.</li>
-  <li>The manifest file in which you declare the components and the required device
-  features for your
-app.</li>
-  <li>Resources that are separate from the app code and that allow your app to
-gracefully optimize its behavior for a variety of device configurations.</li>
-</ul>
-
-
-
 <h2 id="Components">App components</h2>
 
 <p>App components are the essential building blocks of an Android app. Each
@@ -1822,11 +1771,11 @@ each of these callbacks as an activity enters a new state.
 </p>
 
 <p>
-Figure 1 presents a visual representation of this paradigm.
+presents a visual representation of this paradigm.
 </p>
 
 <img src="https://developer.android.com/guide/components/images/activity_lifecycle.png" />
-<p class="img-caption"><strong>Figure 1.</strong>  A simplified
+<p class="img-caption"><strong></strong>  A simplified
 illustration of the activity lifecycle.</p>
 
 <p>
@@ -2236,72 +2185,18 @@ Android app development, based on
 <a class="external-link" href="https://www.jetbrains.com/idea/">IntelliJ IDEA
 </a>. On top of IntelliJ's powerful code editor and developer tools, Android
 Studio offers even more features that enhance your productivity when building
-Android apps, such as:</p>
-<ul>
-<li>A flexible Gradle-based build system</li>
-<li>A fast and feature-rich emulator</li>
-<li>A unified environment where you can develop for all Android devices</li>
-<li>Instant Run to push changes to your running app without building a new APK</li>
-<li>Code templates and GitHub integration to help you build common app features
-  and import sample code</li>
-<li>Extensive testing tools and frameworks</li>
-<li>Lint tools to catch performance, usability, version compatibility, and other
-  problems</li>
-<li>C++ and NDK support</li>
-<li>Built-in support for
-  <a href="https://cloud.google.com/tools/android-studio/docs/">Google Cloud Platform</a>,
-  making it easy to integrate Google Cloud Messaging and App Engine</li>
-</ul>
-<p>This page provides an introduction to basic Android Studio features.
+Android apps.</p>
 For a summary of the latest changes, see
 <a href="https://developer.android.com/studio/releases/index.html">Android Studio Release Notes</a>.</p>
-<p><a name="project-structure"></a></p>
-<h2 id="project_structure">Project Structure</h2>
-<div class="figure" style="width:298px">
-<img src="https://developer.android.com/studio/images/intro/project-android-view_2-1_2x.png" width="298" />
-<p class="img-caption"><strong>Figure 1.</strong> The project files in Android
-view.</p>
-</div>
 
-<p>Each project in Android Studio contains one or more modules with source code
-files and resource files. Types of modules include:</p>
-<ul>
-<li>Android app modules</li>
-<li>Library modules</li>
-<li>Google App Engine modules</li>
-</ul>
-<p>By default, Android Studio displays your project files in the Android project
-view, as shown in figure 1. This view is organized by modules to provide quick
-access to your project's key source files.</p>
-<p>All the build files are visible at the top level under <strong>Gradle Scripts</strong> and
-each app module contains the following folders:</p>
-<ul>
-<li><strong>manifests</strong>: Contains the <code>AndroidManifest.xml</code> file.</li>
-<li><strong>java</strong>: Contains the Java source code files, including JUnit test code.</li>
-<li><strong>res</strong>: Contains all non-code resources, such as XML layouts, UI strings,
-  and bitmap images.</li>
-</ul>
-<p>The Android project structure on disk differs from this flattened
-representation. To see the actual file structure of the project, select
-<strong>Project</strong> from the <strong>Project</strong> dropdown (in figure 1, it's showing as
-<strong>Android</strong>).</p>
-<p>You can also customize the view of the project files to focus on specific
-aspects of your app development. For example, selecting the <strong>Problems</strong> view of
-your project displays links to the source files containing any recognized
-coding and syntax errors, such as a missing XML element closing tag in a layout
-file.</p>
-<p><img src="https://developer.android.com/studio/images/intro/problems-view_2-1_2x.png" width="286" />
-<p class="img-caption"><strong>Figure 2.</strong> The project files in Problems
-view, showing a layout file with a problem.</p></p>
-<p>For more information, see <a href="https://developer.android.com/studio/projects/index.html">Projects Overview</a>.</p>
 <p><a name="user-interface"></a></p>
 <h2 id="the_user_interface">The User Interface</h2>
 <p>The Android Studio main window is made up of several logical areas identified in
-figure 3.</p>
+</p>
 <p><img src="https://developer.android.com/studio/images/intro/main-window_2-2_2x.png" width="816" alt=""
 id="main-window"/></p>
 <p class="img-caption">
-  <strong>Figure 3.</strong> The Android Studio main window.
+  <strong></strong> The Android Studio main window.
 </p>
 
 <ol class="callouts">
@@ -2331,7 +2226,7 @@ clicking the magnifying glass in the upper right-hand corner of the Android
 Studio window. This can be very useful if, for example, you are trying to
 locate a particular IDE action that you have forgotten how to trigger.</p>
 
-## projects overview
+## Projects Overview
 
 <p>A <em>project</em> in Android Studio contains everything that defines your
 workspace for an app, from source code and assets, to test code and build
