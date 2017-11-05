@@ -285,7 +285,6 @@ There are some articles which discusses about pros and cons of native and cross-
 
 ## mobile application development platforms and tools:
 
-
 <p>The platform organizations needed to develop, deploy and manage <a href="https://en.wikipedia.org/wiki/Mobile_app" title="Mobile app">mobile apps</a> are made from many components and tools which allow a developer to write, test and deploy applications into the target platform environment.</p>
 <h3><span class="mw-headline" id="Front-end_development_tools">Front-end development tools</span></h3>
 <p>Front-end development tools are focused on the user interface and user experience (UI-UX) and provide the following abilities:</p>
@@ -353,6 +352,12 @@ Available [platforms and tools](https://github.com/gopala-kr/weekend-with-github
 
 ## mobile app architecture/design patterns
 
+Nowadays we have many options when it comes to architecture design patterns:
+
+* [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) - Model–view–controller
+* [MVP](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) - Model–view–presenter
+* [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) - Model–view–viewmodel
+* [VIPER]() ( for ios)
 
 some artciles which discusses about mobile app architecture patterns:
 
