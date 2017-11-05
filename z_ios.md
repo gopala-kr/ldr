@@ -3079,15 +3079,15 @@ following sections:
 
 ## next steps
 
-## Cross-Platform Mobile app Development
+### Cross-Platform Mobile app Development
 
-## phonegap/apache cordova
+* phonegap/apache cordova
 
-## xamarin
+* xamarin
 
-## unity
+* unity
 
-## appcelerator
+* appcelerator
 
 *****************
 **********************
