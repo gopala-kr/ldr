@@ -8,11 +8,13 @@
 
 **************************
 
-Before starting with actual topics, lets start with undestanding few required terminologies:
+Before starting with actual subjective topics, lets undestand some required terminologies:
 
 * Mobile OS?
-* Native platform?
-* Cross-platform?
+* Native platform apps?
+* Cross-platform apps?
+* Available softewares, platforms and tools
+* Mobile app architectural/design patterns
 
 **(In this article I intended to study only the core technical concepts and some brief survey on mobile app industry)**
 *************************
