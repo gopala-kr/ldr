@@ -371,7 +371,7 @@ now lets start exploring subjective topics..
 
 ***************************
 # Native Mobile app Development
-********
+
 ## iOS
 
 > **brief history of ios**
@@ -790,6 +790,7 @@ more details from official doc [Cocoa Touch Layer](https://developer.apple.com/l
 
 ****************
 ## Andorid
+
 
 > **brief history of android**
 
@@ -2610,122 +2611,122 @@ following sections:
 <th>Owner</th>
 <th>Available apps</th>
 <th>Download count</th>
-<th><a href="/wiki/Installed_base" title="Installed base">Installed base</a></th>
+<th><a href="https://en.wikipedia.org/wiki/Installed_base" title="Installed base">Installed base</a></th>
 <th>Device platform</th>
 <th>Allows individual developers to publish</th>
 <th>Developer's cut per sale</th>
 <th>Developer fees</th>
 <th>Development tool(s)</th>
-<th>Free of charge <a href="/wiki/Integrated_development_environment" title="Integrated development environment">IDE</a>?</th>
+<th>Free of charge <a href="https://en.wikipedia.org/wiki/Integrated_development_environment" title="Integrated development environment">IDE</a>?</th>
 </tr>
 <tr>
-<td><a href="/wiki/Amazon_Appstore" title="Amazon Appstore">Amazon Appstore</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Amazon_Appstore" title="Amazon Appstore">Amazon Appstore</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002011-03-22-0000</span><span style="white-space:nowrap">22 March 2011</span></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Live</td>
-<td><a href="/wiki/Amazon.com" class="mw-redirect" title="Amazon.com">Amazon.com</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Amazon.com" class="mw-redirect" title="Amazon.com">Amazon.com</a></td>
 <td><span style="display:none" class="sortkey">7005330000000000000♠</span>330,000<br />
 <small>(March 2015)</small></td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
-<td><a href="/wiki/Fire_OS" title="Fire OS">Android OS (customized)</a>, <a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Fire_OS" title="Fire OS">Android OS (customized)</a>, <a href="https://en.wikipedia.org/wiki/Android_(operating_system)" title="Android (operating system)">Android</a></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td>70%</td>
-<td><a href="/wiki/United_States_dollar" title="United States dollar">US$</a>99/year<br />
+<td><a href="https://en.wikipedia.org/wiki/United_States_dollar" title="United States dollar">US$</a>99/year<br />
 <small>(Waive fee for first year, plus $50 AWS promo code</small>)</td>
-<td><a href="/wiki/Fire_OS" title="Fire OS">Amazon Mobile App SDK</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Fire_OS" title="Fire OS">Amazon Mobile App SDK</a></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 </tr>
 <tr>
-<td><a href="/wiki/HP_App_Catalog" class="mw-redirect" title="HP App Catalog">App Catalog</a></td>
+<td><a href="https://en.wikipedia.org/wiki/HP_App_Catalog" class="mw-redirect" title="HP App Catalog">App Catalog</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002009-06-06-0000</span><span style="white-space:nowrap">6 June 2009</span></td>
 <td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">Closed</td>
-<td><a href="/wiki/Palm,_Inc." title="Palm, Inc.">Palm</a>/<a href="/wiki/Hewlett_Packard" class="mw-redirect" title="Hewlett Packard">HP</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Palm,_Inc." title="Palm, Inc.">Palm</a>/<a href="https://en.wikipedia.org/wiki/Hewlett_Packard" class="mw-redirect" title="Hewlett Packard">HP</a></td>
 <td><span style="display:none" class="sortkey">7004100020000000000♠</span>10,002<small><br />
 (December 2011)</small></td>
 <td><span class="nowrap"><span style="display:none" class="sortkey">7008108000000000000♠</span>108&#160;million</span><small><br />
 (August 2011)</small></td>
 <td><span class="nowrap"><span style="display:none" class="sortkey">7006260000000000000♠</span>2.6&#160;million</span><small><br />
 (July 2010)</small></td>
-<td><a href="/wiki/WebOS" title="WebOS">webOS</a></td>
+<td><a href="https://en.wikipedia.org/wiki/WebOS" title="WebOS">webOS</a></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td>70%</td>
 <td><span style="display:none;" class="sortkey">000 !</span><span class="sorttext">Free</span></td>
-<td><a href="/wiki/Enyo_(software)" title="Enyo (software)">Enyo</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Enyo_(software)" title="Enyo (software)">Enyo</a></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 </tr>
 <tr>
-<td><a href="/wiki/App_Store_(iOS)" title="App Store (iOS)">App Store</a></td>
+<td><a href="https://en.wikipedia.org/wiki/App_Store_(iOS)" title="App Store (iOS)">App Store</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002008-07-10-0000</span><span style="white-space:nowrap">10 July 2008</span></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Live</td>
-<td><a href="/wiki/Apple_Inc." title="Apple Inc.">Apple</a></td>
-<td><span style="display:none" class="sortkey">7006140000000000000♠</span>1,400,000 (725,000 native to <a href="/wiki/IPad" title="IPad">iPad</a>) <small><br />
+<td><a href="https://en.wikipedia.org/wiki/Apple_Inc." title="Apple Inc.">Apple</a></td>
+<td><span style="display:none" class="sortkey">7006140000000000000♠</span>1,400,000 (725,000 native to <a href="https://en.wikipedia.org/wiki/IPad" title="IPad">iPad</a>) <small><br />
 (January 2015)</small></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td>56–71% (varies depending on the country)</td>
-<td><a href="/wiki/IOS_SDK" title="IOS SDK">iOS SDK</a>, <a href="/wiki/Xcode" title="Xcode">Xcode</a></td>
-<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes <small>(Xcode 6 is free on the <a href="/wiki/Mac_App_Store" title="Mac App Store">Mac App Store</a> and <a href="/wiki/Apple_Developer" title="Apple Developer">Apple Developer</a>.)</small></td>
+<td><a href="https://en.wikipedia.org/wiki/IOS_SDK" title="IOS SDK">iOS SDK</a>, <a href="https://en.wikipedia.org/wiki/Xcode" title="Xcode">Xcode</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes <small>(Xcode 6 is free on the <a href="https://en.wikipedia.org/wiki/Mac_App_Store" title="Mac App Store">Mac App Store</a> and <a href="https://en.wikipedia.org/wiki/Apple_Developer" title="Apple Developer">Apple Developer</a>.)</small></td>
 </tr>
 <tr>
-<td><a href="/wiki/BlackBerry_World" title="BlackBerry World">BlackBerry World</a></td>
+<td><a href="https://en.wikipedia.org/wiki/BlackBerry_World" title="BlackBerry World">BlackBerry World</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002009-04-01-0000</span><span style="white-space:nowrap">1 April 2009</span></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Live</td>
-<td><a href="/wiki/BlackBerry" title="BlackBerry">BlackBerry</a></td>
+<td><a href="https://en.wikipedia.org/wiki/BlackBerry" title="BlackBerry">BlackBerry</a></td>
 <td><span style="display:none" class="sortkey">7005223601000000000♠</span>223,601<small><br />
 (26 October 2013) BlackBerry OS, PlayBook and BlackBerry 10 apps</small></td>
 <td><span class="nowrap"><span style="display:none" class="sortkey">7009300000000000000♠</span>3&#160;billion</span><small><br />
 (May 2012)</small></td>
 <td><span class="nowrap"><span style="display:none" class="sortkey">7007750000000000000♠</span>75&#160;million</span><small><br />
 (Jan 2012)</small></td>
-<td><a href="/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS</a>, <a href="/wiki/BlackBerry_Tablet_OS" title="BlackBerry Tablet OS">BlackBerry Tablet OS</a>, <a href="/wiki/BlackBerry_10" title="BlackBerry 10">BlackBerry 10 OS</a></td>
+<td><a href="https://en.wikipedia.org/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS</a>, <a href="https://en.wikipedia.org/wiki/BlackBerry_Tablet_OS" title="BlackBerry Tablet OS">BlackBerry Tablet OS</a>, <a href="https://en.wikipedia.org/wiki/BlackBerry_10" title="BlackBerry 10">BlackBerry 10 OS</a></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td>70%</td>
 <td><span style="display:none;" class="sortkey">000 !</span><span class="sorttext">Free</span></td>
-<td>BlackBerry 10 Native SDK (with full <a href="/wiki/POSIX" title="POSIX">POSIX</a> and <a href="/wiki/Qt_(software)" title="Qt (software)">Qt</a> support), HTML5 Qt4 SDK, Android (via BlackBerry Android Tools SDK), Adobe AIR SDK, BlackBerry OS SDK</td>
+<td>BlackBerry 10 Native SDK (with full <a href="https://en.wikipedia.org/wiki/POSIX" title="POSIX">POSIX</a> and <a href="https://en.wikipedia.org/wiki/Qt_(software)" title="Qt (software)">Qt</a> support), HTML5 Qt4 SDK, Android (via BlackBerry Android Tools SDK), Adobe AIR SDK, BlackBerry OS SDK</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 </tr>
 <tr>
-<td><a href="/wiki/Danger_Hiptop" title="Danger Hiptop">Download Catalog</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Danger_Hiptop" title="Danger Hiptop">Download Catalog</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002002-10-01-0000</span><span style="white-space:nowrap">1 October 2002</span></td>
 <td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">Closed</td>
-<td><a href="/wiki/Danger_(company)" class="mw-redirect" title="Danger (company)">Danger, Inc.</a>/<a href="/wiki/Microsoft" title="Microsoft">Microsoft</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Danger_(company)" class="mw-redirect" title="Danger (company)">Danger, Inc.</a>/<a href="https://en.wikipedia.org/wiki/Microsoft" title="Microsoft">Microsoft</a></td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
-<td><a href="/wiki/Danger_Hiptop#Software" title="Danger Hiptop">Danger OS</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Danger_Hiptop#Software" title="Danger Hiptop">Danger OS</a></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td>40%</td>
 <td><span style="display:none;" class="sortkey">000 !</span><span class="sorttext">Free</span></td>
-<td><span class="nowrap"><a href="/wiki/Danger_Hiptop#Software" title="Danger Hiptop">Danger OS SDK</a></span></td>
+<td><span class="nowrap"><a href="https://en.wikipedia.org/wiki/Danger_Hiptop#Software" title="Danger Hiptop">Danger OS SDK</a></span></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 </tr>
 <tr>
-<td><a href="/wiki/Google_Play" title="Google Play">Google Play</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Google_Play" title="Google Play">Google Play</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002008-10-22-0000</span><span style="white-space:nowrap">22 October 2008</span></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Live</td>
-<td><a href="/wiki/Google" title="Google">Google</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Google" title="Google">Google</a></td>
 <td><span style="display:none" class="sortkey">7006228000000000000♠</span>2,280,000<br />
 <small>(July 2016)</small></td>
 <td><span class="nowrap"><span style="display:none" class="sortkey">7010500000000000000♠</span>50&#160;billion</span><small><br />
 (July 2013)</small></td>
 <td>over <span class="nowrap"><span style="display:none" class="sortkey">7009200000000000000♠</span>2&#160;billion</span><small><br />
 (May 2017)</small></td>
-<td><a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Android_(operating_system)" title="Android (operating system)">Android</a></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td>70%</td>
-<td><span style="display:none;" class="sortkey">025 !</span><span class="sorttext"><a href="/wiki/United_States_dollar" title="United States dollar">US$</a>25</span></td>
-<td><a href="/wiki/Android_SDK" class="mw-redirect" title="Android SDK">Android SDK</a>, <a href="/wiki/Android_Studio" title="Android Studio">Android Studio</a></td>
+<td><span style="display:none;" class="sortkey">025 !</span><span class="sorttext"><a href="https://en.wikipedia.org/wiki/United_States_dollar" title="United States dollar">US$</a>25</span></td>
+<td><a href="https://en.wikipedia.org/wiki/Android_SDK" class="mw-redirect" title="Android SDK">Android SDK</a>, <a href="/wiki/Android_Studio" title="Android Studio">Android Studio</a></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 </tr>
 <tr>
-<td><a href="/wiki/Mozilla#Firefox_Marketplace" title="Mozilla">Firefox Marketplace</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Mozilla#Firefox_Marketplace" title="Mozilla">Firefox Marketplace</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002013-09-06-0000</span><span style="white-space:nowrap">6 September 2013</span></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Live</td>
-<td><a href="/wiki/Mozilla_Foundation" title="Mozilla Foundation">Mozilla Foundation</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Mozilla_Foundation" title="Mozilla Foundation">Mozilla Foundation</a></td>
 <td><span style="display:none" class="sortkey">7003595700000000000♠</span>5,957<br />
 <small>(March 2014)</small></td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
-<td><a href="/wiki/Firefox_OS" title="Firefox OS">Firefox OS</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Firefox_OS" title="Firefox OS">Firefox OS</a></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
@@ -2733,10 +2734,10 @@ following sections:
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 </tr>
 <tr>
-<td><a href="/wiki/Ovi_(Nokia)" title="Ovi (Nokia)">Nokia Store</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Ovi_(Nokia)" title="Ovi (Nokia)">Nokia Store</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002009-05-26-0000</span><span style="white-space:nowrap">26 May 2009</span></td>
-<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">replaced with the <a href="/wiki/Opera_Mobile_Store" title="Opera Mobile Store">Opera Mobile Store</a></td>
-<td><a href="/wiki/Nokia" title="Nokia">Nokia</a></td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">replaced with the <a href="https://en.wikipedia.org/wiki/Opera_Mobile_Store" title="Opera Mobile Store">Opera Mobile Store</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Nokia" title="Nokia">Nokia</a></td>
 <td><span style="display:none" class="sortkey">7005120000000000000♠</span>120,000 <small>(August 2012)</small></td>
 <td><br />
 17 million/day <small>(October 2012)</small>
@@ -2746,30 +2747,30 @@ following sections:
 </td>
 <td>Multiple<br />
 <br />
-<small><a href="/wiki/Symbian" title="Symbian">Symbian</a>, <a href="/wiki/MeeGo" title="MeeGo">MeeGo</a>, <a href="/wiki/Maemo" title="Maemo">Maemo</a>, <a href="/wiki/Series_40" title="Series 40">S40</a>, <a href="/wiki/Nokia_X_Software_Platform" class="mw-redirect" title="Nokia X Software Platform">Nokia X software platform</a></small></td>
+<small><a href="https://en.wikipedia.org/wiki/Symbian" title="Symbian">Symbian</a>, <a href="https://en.wikipedia.org/wiki/MeeGo" title="MeeGo">MeeGo</a>, <a href="/wiki/Maemo" title="Maemo">Maemo</a>, <a href="https://en.wikipedia.org/wiki/Series_40" title="Series 40">S40</a>, <a href="https://en.wikipedia.org/wiki/Nokia_X_Software_Platform" class="mw-redirect" title="Nokia X Software Platform">Nokia X software platform</a></small></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td>70%</td>
-<td><span style="display:none;" class="sortkey">002 !</span><span class="sorttext">1 <a href="/wiki/Euro" title="Euro">€</a><</span></td>
-<td><span class="nowrap"><a href="/wiki/Qt_(framework)" class="mw-redirect" title="Qt (framework)">Qt 4 SDK</a>,</span> <span class="nowrap"><a href="/w/index.php?title=Nokia_Web_Tools&amp;action=edit&amp;redlink=1" class="new" title="Nokia Web Tools (page does not exist)">Nokia Web Tools</a>,</span> <span class="nowrap"><a href="/w/index.php?title=Nokia_SDK_for_Java&amp;action=edit&amp;redlink=1" class="new" title="Nokia SDK for Java (page does not exist)">Nokia SDK for Java</a>, <a href="/wiki/Java_ME" class="mw-redirect" title="Java ME">Java ME</a></span>, <a href="/wiki/Nokia_X_Software_Platform" class="mw-redirect" title="Nokia X Software Platform">Nokia X services SDK</a> </td>
+<td><span style="display:none;" class="sortkey">002 !</span><span class="sorttext">1 <a href="https://en.wikipedia.org/wiki/Euro" title="Euro">€</a><</span></td>
+<td><span class="nowrap"><a href="https://en.wikipedia.org/wiki/Qt_(framework)" class="mw-redirect" title="Qt (framework)">Qt 4 SDK</a>,</span> <span class="nowrap"><a href="/w/index.php?title=Nokia_Web_Tools&amp;action=edit&amp;redlink=1" class="new" title="Nokia Web Tools (page does not exist)">Nokia Web Tools</a>,</span> <span class="nowrap"><a href="/w/index.php?title=Nokia_SDK_for_Java&amp;action=edit&amp;redlink=1" class="new" title="Nokia SDK for Java (page does not exist)">Nokia SDK for Java</a>, <a href="https://en.wikipedia.org/wiki/Java_ME" class="mw-redirect" title="Java ME">Java ME</a></span>, <a href="https://en.wikipedia.org/wiki/Nokia_X_Software_Platform" class="mw-redirect" title="Nokia X Software Platform">Nokia X services SDK</a> </td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 </tr>
 <tr>
-<td><a href="/wiki/Samsung_Galaxy_Apps" title="Samsung Galaxy Apps">Samsung Galaxy Apps</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_Apps" title="Samsung Galaxy Apps">Samsung Galaxy Apps</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002009-06-01-0000</span><span style="white-space:nowrap">June 2009</span></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">live</td>
-<td><a href="/wiki/Samsung" title="Samsung">Samsung</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Samsung" title="Samsung">Samsung</a></td>
 </tr>
 <tr>
-<td><a href="/wiki/Ubuntu_App_Store" class="mw-redirect" title="Ubuntu App Store">Ubuntu App Store</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Ubuntu_App_Store" class="mw-redirect" title="Ubuntu App Store">Ubuntu App Store</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002013-10-17-0000</span><span style="white-space:nowrap">17 October 2013</span></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Live</td>
-<td><a href="/wiki/Canonical_(company)" title="Canonical (company)">Canonical</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Canonical_(company)" title="Canonical (company)">Canonical</a></td>
 <td><span style="display:none" class="sortkey">7003265000000000000♠</span>2,650+<small><br />
 (December 2015, incl. web apps and scopes)</small><br />
 </td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
-<td><a href="/wiki/Ubuntu_Touch" title="Ubuntu Touch">Ubuntu Touch</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Ubuntu_Touch" title="Ubuntu Touch">Ubuntu Touch</a></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
@@ -2777,10 +2778,10 @@ following sections:
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 </tr>
 <tr>
-<td><a href="/wiki/Windows_Phone_Store" title="Windows Phone Store">Windows Phone Store</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Windows_Phone_Store" title="Windows Phone Store">Windows Phone Store</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002010-10-21-0000</span><span style="white-space:nowrap">21 October 2010</span></td>
 <td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">merged with the <a href="/wiki/Windows_Store" title="Windows Store">Windows Store</a></td>
-<td><a href="/wiki/Microsoft" title="Microsoft">Microsoft</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Microsoft" title="Microsoft">Microsoft</a></td>
 <td><span style="display:none" class="sortkey">7005400000000000000♠</span>400,000+<small><br />
 (March 2015)</small><br />
 <p></p>
@@ -2790,20 +2791,20 @@ following sections:
 (<span class="nowrap"><span style="display:none" class="sortkey">7002105000000000000♠</span>105</span> per device)</td>
 <td><span class="nowrap"><span style="display:none" class="sortkey">7008100000000000000♠</span>100&#160;million</span><br />
 (<small>June 2015)</small></td>
-<td><a href="/wiki/Windows_Phone" title="Windows Phone">Windows Phone</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Windows_Phone" title="Windows Phone">Windows Phone</a></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td>70%</td>
-<td><span style="display:none;" class="sortkey">19 !</span><span class="sorttext"><a href="/wiki/United_States_dollar" title="United States dollar">US$</a>19 for individuals, or US$99 for companies /year/unlimited paid apps and 100 free apps submissions Or</span>
+<td><span style="display:none;" class="sortkey">19 !</span><span class="sorttext"><a href="https://en.wikipedia.org/wiki/United_States_dollar" title="United States dollar">US$</a>19 for individuals, or US$99 for companies /year/unlimited paid apps and 100 free apps submissions Or</span>
 <p><span class="sorttext">Free for students</span>  One Registration fee for both of Windows phone Store and Windows Store.</p>
 </td>
-<td><a href="/w/index.php?title=Windows_Phone_Developer_Tools&amp;action=edit&amp;redlink=1" class="new" title="Windows Phone Developer Tools (page does not exist)">Windows Phone Developer Tools</a>, includes specialty versions of <a href="/wiki/Microsoft_Visual_Studio" title="Microsoft Visual Studio">Microsoft Visual Studio</a>, <a href="/wiki/Expression_Blend" class="mw-redirect" title="Expression Blend">Expression Blend</a></td>
+<td><a href="/w/index.php?title=Windows_Phone_Developer_Tools&amp;action=edit&amp;redlink=1" class="new" title="Windows Phone Developer Tools (page does not exist)">Windows Phone Developer Tools</a>, includes specialty versions of <a href="https://en.wikipedia.org/wiki/Microsoft_Visual_Studio" title="Microsoft Visual Studio">Microsoft Visual Studio</a>, <a href="https://en.wikipedia.org/wiki/Expression_Blend" class="mw-redirect" title="Expression Blend">Expression Blend</a></td>
 <td>Yes</td>
 </tr>
 <tr>
-<td><a href="/wiki/Windows_Store" title="Windows Store">Windows Store</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Windows_Store" title="Windows Store">Windows Store</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002012-10-26-0000</span><span style="white-space:nowrap">26 October 2012</span></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Live</td>
-<td><a href="/wiki/Microsoft" title="Microsoft">Microsoft</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Microsoft" title="Microsoft">Microsoft</a></td>
 <td><span style="display:none" class="sortkey">7005669000000000000♠</span>669,000+
 <p><small>(September 2015)</small></p>
 </td>
@@ -2813,13 +2814,13 @@ following sections:
 <p><span class="nowrap"><span style="display:none" class="sortkey">7007930000000000000♠</span>93&#160;million</span> <small>smartphones</small><br />
 <small>(September 2015)</small></p>
 </td>
-<td><a href="/wiki/Windows_8" title="Windows 8">Windows 8</a>, <a href="/wiki/Windows_RT" title="Windows RT">Windows RT</a>, <a href="/wiki/Windows_8.1" title="Windows 8.1">Windows 8.1</a>, <a href="/wiki/Windows_10" title="Windows 10">Windows 10</a>, <a href="/wiki/Windows_10_Mobile" title="Windows 10 Mobile">Windows 10 Mobile</a>, <a href="/wiki/Windows_Phone" title="Windows Phone">Windows Phone</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Windows_8" title="Windows 8">Windows 8</a>, <a href="https://en.wikipedia.org/wiki/Windows_RT" title="Windows RT">Windows RT</a>, <a href="https://en.wikipedia.org/wiki/Windows_8.1" title="Windows 8.1">Windows 8.1</a>, <a href="https://en.wikipedia.org/wiki/Windows_10" title="Windows 10">Windows 10</a>, <a href="/wiki/Windows_10_Mobile" title="Windows 10 Mobile">Windows 10 Mobile</a>, <a href="https://en.wikipedia.org/wiki/Windows_Phone" title="Windows Phone">Windows Phone</a></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes with restriction</td>
-<td>70% that is raised to 80% if developer sales exceeds <a href="/wiki/United_States_dollar" title="United States dollar">US$</a>25,000 in a year</td>
-<td><span style="display:none;" class="sortkey">19 !</span><span class="sorttext">Individuals: <a href="/wiki/United_States_dollar" title="United States dollar">US$</a>19/year or <a href="/wiki/United_States_dollar" title="United States dollar">US$</a>0/year for student, Companies:<a href="/wiki/United_States_dollar" title="United States dollar">US$</a>99/year</span> . One Registration fee for both of Windows phone Store and Windows Store.</td>
-<td><a href="/wiki/Visual_Studio_2013" class="mw-redirect" title="Visual Studio 2013">Visual Studio 2013</a> or higher for Windows 8.1.<br />
-<a href="/wiki/Visual_Studio_2015" class="mw-redirect" title="Visual Studio 2015">Visual Studio 2015</a> or higher for Universal Apps.<br />
-<a href="/wiki/Windows_App_Studio" title="Windows App Studio">Windows App Studio</a></td>
+<td>70% that is raised to 80% if developer sales exceeds <a href="https://en.wikipedia.org/wiki/United_States_dollar" title="United States dollar">US$</a>25,000 in a year</td>
+<td><span style="display:none;" class="sortkey">19 !</span><span class="sorttext">Individuals: <a href="https://en.wikipedia.org/wiki/United_States_dollar" title="United States dollar">US$</a>19/year or <a href="https://en.wikipedia.org/wiki/United_States_dollar" title="United States dollar">US$</a>0/year for student, Companies:<a href="https://en.wikipedia.org/wiki/United_States_dollar" title="United States dollar">US$</a>99/year</span> . One Registration fee for both of Windows phone Store and Windows Store.</td>
+<td><a href="https://en.wikipedia.org/wiki/Visual_Studio_2013" class="mw-redirect" title="Visual Studio 2013">Visual Studio 2013</a> or higher for Windows 8.1.<br />
+<a href="https://en.wikipedia.org/wiki/Visual_Studio_2015" class="mw-redirect" title="Visual Studio 2015">Visual Studio 2015</a> or higher for Universal Apps.<br />
+<a href="https://en.wikipedia.org/wiki/Windows_App_Studio" title="Windows App Studio">Windows App Studio</a></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td></td>
 </tr>
@@ -2830,13 +2831,13 @@ following sections:
 <th>Owner</th>
 <th>Available apps</th>
 <th>Download count</th>
-<th><a href="/wiki/Installed_base" title="Installed base">Installed base</a></th>
+<th><a href="https://en.wikipedia.org/wiki/Installed_base" title="Installed base">Installed base</a></th>
 <th>Device platform</th>
 <th>Allows individual developers to publish</th>
 <th>Developer's cut per sale</th>
 <th>Developer fees</th>
 <th>Development tool(s)</th>
-<th>Free of charge <a href="/wiki/Integrated_development_environment" title="Integrated development environment">IDE</a>?</th>
+<th>Free of charge <a href="https://en.wikipedia.org/wiki/Integrated_development_environment" title="Integrated development environment">IDE</a>?</th>
 </tr>
 </table>
 <dl>
@@ -2869,52 +2870,52 @@ following sections:
 <th>Development platform(s)</th>
 </tr>
 <tr>
-<td><a href="/wiki/Appland" title="Appland">Appland</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Appland" title="Appland">Appland</a></td>
 <td>2011</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Live</td>
 <td>Appland</td>
 <td>130,000</td>
 <td>25 million (March 2016)</td>
 <td>5 million (March 2016)</td>
-<td><a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a> and <a href="/wiki/IOS" title="IOS">iOS</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Android_(operating_system)" title="Android (operating system)">Android</a> and <a href="https://en.wikipedia.org/wiki/IOS" title="IOS">iOS</a></td>
 <td>Up to 70%</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Free</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 </tr>
 <tr>
-<td><a href="/wiki/Aptoide" title="Aptoide">Aptoide</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Aptoide" title="Aptoide">Aptoide</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002010-10-01-0000</span><span style="white-space:nowrap">October 2010</span></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Live</td>
-<td><a href="/wiki/Aptoide" title="Aptoide">Aptoide</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Aptoide" title="Aptoide">Aptoide</a></td>
 <td><span style="display:none" class="sortkey">7005311000000000000♠</span>311,000<br />
 <small>(April 2015)</small></td>
 <td><span class="nowrap"><span style="display:none" class="sortkey">7008300000000000000♠</span>300&#160;million</span><br />
 <small>(March 2013)</small></td>
 <td><span class="nowrap"><span style="display:none" class="sortkey">7007105000000000000♠</span>10.5&#160;million</span><br />
 <small>(January 2013)</small></td>
-<td><a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Android_(operating_system)" title="Android (operating system)">Android</a></td>
 <td>up to 87.5%</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Free</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
-<td><a href="/wiki/Android_SDK" class="mw-redirect" title="Android SDK">Android SDK</a>, <a href="/wiki/Java_ME" class="mw-redirect" title="Java ME">Java ME</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Android_SDK" class="mw-redirect" title="Android SDK">Android SDK</a>, <a href="/wiki/Java_ME" class="mw-redirect" title="Java ME">Java ME</a></td>
 </tr>
 <tr>
-<td><a href="/wiki/Cydia" title="Cydia">Cydia</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Cydia" title="Cydia">Cydia</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002008-02-01-0000</span><span style="white-space:nowrap">February 2008</span></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Live</td>
-<td><a href="/wiki/Jay_Freeman" title="Jay Freeman">saurik</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Jay_Freeman" title="Jay Freeman">saurik</a></td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td><span class="nowrap"><span style="display:none" class="sortkey">7007300000000000000♠</span>30&#160;million</span></td>
-<td><a href="/wiki/IOS_(Apple)" class="mw-redirect" title="IOS (Apple)">iOS</a></td>
+<td><a href="https://en.wikipedia.org/wiki/IOS_(Apple)" class="mw-redirect" title="IOS (Apple)">iOS</a></td>
 <td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Free</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
-<td><a href="/wiki/IOS_SDK" title="IOS SDK">iOS SDK</a>, <a href="/wiki/Xcode" title="Xcode">Xcode</a></td>
+<td><a href="https://en.wikipedia.org/wiki/IOS_SDK" title="IOS SDK">iOS SDK</a>, <a href="https://en.wikipedia.org/wiki/Xcode" title="Xcode">Xcode</a></td>
 </tr>
 <tr>
-<td><a href="/wiki/F-Droid" title="F-Droid">F-Droid</a></td>
+<td><a href="https://en.wikipedia.org/wiki/F-Droid" title="F-Droid">F-Droid</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002010-01-01-0000</span><span style="white-space:nowrap">2010</span></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Live</td>
 <td>F-Droid Limited</td>
@@ -2922,54 +2923,54 @@ following sections:
 <td><span class="nowrap"><span style="display:none" class="sortkey">7008248000000000000♠</span>248&#160;million</span><br />
 <small>(Mar 2015)</small></td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
-<td><a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Android_(operating_system)" title="Android (operating system)">Android</a></td>
 <td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Free</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
-<td><a href="/wiki/Android_SDK" class="mw-redirect" title="Android SDK">Android SDK</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Android_SDK" class="mw-redirect" title="Android SDK">Android SDK</a></td>
 </tr>
 <tr>
-<td><a href="/wiki/GetJar" title="GetJar">GetJar</a></td>
+<td><a href="https://en.wikipedia.org/wiki/GetJar" title="GetJar">GetJar</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002004-01-01-0000</span><span style="white-space:nowrap">2004</span></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Live</td>
-<td><a href="/wiki/GetJar" title="GetJar">GetJar</a>, <a href="/wiki/Accel_Partners" title="Accel Partners">Accel Partners</a></td>
+<td><a href="https://en.wikipedia.org/wiki/GetJar" title="GetJar">GetJar</a>, <a href="https://en.wikipedia.org/wiki/Accel_Partners" title="Accel Partners">Accel Partners</a></td>
 <td><span style="display:none" class="sortkey">7005849036000000000♠</span>849,036<br />
 <small>(March 2015)</small></td>
 <td><span class="nowrap"><span style="display:none" class="sortkey">7009300000000000000♠</span>3&#160;billion</span><br />
 <small>(March 2015)</small></td>
 <td><span class="nowrap"><span style="display:none" class="sortkey">7008200000000000000♠</span>200&#160;million</span> users</td>
 <td>Multiple<br />
-<small><a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>, <a href="/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS</a>, <a href="/wiki/Adobe_Flash_Lite" title="Adobe Flash Lite">Flash Lite</a>, <a href="/wiki/Java_(software_platform)#Mobile_devices" title="Java (software platform)">Java</a>, <a href="/wiki/IOS" title="IOS">iOS</a>, <a href="/wiki/Palm_OS" title="Palm OS">Palm OS</a>, <a href="/wiki/Symbian" title="Symbian">Symbian</a>, <a href="/wiki/Windows_Phone" title="Windows Phone">Windows Phone</a></small></td>
+<small><a href="https://en.wikipedia.org/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>, <a href="/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS</a>, <a href="https://en.wikipedia.org/wiki/Adobe_Flash_Lite" title="Adobe Flash Lite">Flash Lite</a>, <a href="https://en.wikipedia.org/wiki/Java_(software_platform)#Mobile_devices" title="Java (software platform)">Java</a>, <a href="https://en.wikipedia.org/wiki/IOS" title="IOS">iOS</a>, <a href="https://en.wikipedia.org/wiki/Palm_OS" title="Palm OS">Palm OS</a>, <a href="https://en.wikipedia.org/wiki/Symbian" title="Symbian">Symbian</a>, <a href="https://en.wikipedia.org/wiki/Windows_Phone" title="Windows Phone">Windows Phone</a></small></td>
 <td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Free</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 </tr>
 <tr>
-<td><a href="/wiki/Handango" title="Handango">Handango</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Handango" title="Handango">Handango</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002000-01-01-0000</span><span style="white-space:nowrap">2000</span></td>
 <td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">Closed</td>
-<td><a href="/wiki/PocketGear" class="mw-redirect" title="PocketGear">PocketGear</a></td>
+<td><a href="https://en.wikipedia.org/wiki/PocketGear" class="mw-redirect" title="PocketGear">PocketGear</a></td>
 <td><span style="display:none" class="sortkey">7005190000000000000♠</span>190,000</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td>Multiple<br />
-<small><a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>, <a href="/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS</a>, <a href="/wiki/Palm_OS" title="Palm OS">Palm OS</a>, <a href="/wiki/PSP" class="mw-redirect" title="PSP">PSP</a>, <a href="/wiki/Symbian" title="Symbian">Symbian</a>, <a href="/wiki/Windows_Mobile" title="Windows Mobile">Windows Mobile</a></small></td>
+<small><a href="https://en.wikipedia.org/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>, <a href="https://en.wikipedia.org/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS</a>, <a href="https://en.wikipedia.org/wiki/Palm_OS" title="Palm OS">Palm OS</a>, <a href="https://en.wikipedia.org/wiki/PSP" class="mw-redirect" title="PSP">PSP</a>, <a href="https://en.wikipedia.org/wiki/Symbian" title="Symbian">Symbian</a>, <a href="https://en.wikipedia.org/wiki/Windows_Mobile" title="Windows Mobile">Windows Mobile</a></small></td>
 <td>≈42%</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Free</td>
 <td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
 <td></td>
 </tr>
 <tr>
-<td><a href="/wiki/Handmark" title="Handmark">Handmark</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Handmark" title="Handmark">Handmark</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002000-01-01-0000</span><span style="white-space:nowrap">2000</span></td>
 <td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">Closed</td>
-<td><a href="/wiki/Handmark" title="Handmark">Handmark</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Handmark" title="Handmark">Handmark</a></td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td>Multiple<br />
-<small><a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>, <a href="/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS</a>, <a href="/wiki/IOS_(Apple)" class="mw-redirect" title="IOS (Apple)">iOS</a>, <a href="/wiki/Java_(software_platform)#Mobile_devices" title="Java (software platform)">Java</a>, <a href="/wiki/Palm_OS" title="Palm OS">Palm OS</a>, <a href="/wiki/Symbian" title="Symbian">Symbian</a>, <a href="/wiki/Windows_Mobile" title="Windows Mobile">Windows Mobile</a></small></td>
+<small><a href="https://en.wikipedia.org/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>, <a href="https://en.wikipedia.org/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS</a>, <a href="https://en.wikipedia.org/wiki/IOS_(Apple)" class="mw-redirect" title="IOS (Apple)">iOS</a>, <a href="https://en.wikipedia.org/wiki/Java_(software_platform)#Mobile_devices" title="Java (software platform)">Java</a>, <a href="/wiki/Palm_OS" title="Palm OS">Palm OS</a>, <a href="https://en.wikipedia.org/wiki/Symbian" title="Symbian">Symbian</a>, <a href="/wiki/Windows_Mobile" title="Windows Mobile">Windows Mobile</a></small></td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
@@ -2983,55 +2984,55 @@ following sections:
 <td>Unknown</td>
 <td>Unknown</td>
 <td>Unknown</td>
-<td><a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>, <a href="/wiki/IOS" title="IOS">iOS</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>, <a href="https://en.wikipedia.org/wiki/IOS" title="IOS">iOS</a></td>
 <td>Unknown</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Free</td>
 <td>Unknown</td>
 <td></td>
 </tr>
 <tr>
-<td><a href="/wiki/MiKandi" title="MiKandi">MiKandi</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MiKandi" title="MiKandi">MiKandi</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002009-11-29-0000</span><span style="white-space:nowrap">29 November 2009</span></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Live</td>
-<td><a href="/wiki/MiKandi" title="MiKandi">MiKandi</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MiKandi" title="MiKandi">MiKandi</a></td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td><span style="display:none" class="sortkey">7004800000000000000♠</span>80,000<br />
 <small>(December 2009)</td>
-<td><a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Android_(operating_system)" title="Android (operating system)">Android</a></td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 </tr>
 <tr>
-<td><a href="/wiki/Opera_Mobile_Store" title="Opera Mobile Store">Opera Mobile Store</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Opera_Mobile_Store" title="Opera Mobile Store">Opera Mobile Store</a></td>
 <td><span class="sortkey" style="display:none;speak:none">000000002011-03-01-0000</span><span style="white-space:nowrap">March 2011</span></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Live</td>
-<td><a href="/wiki/Opera_Software" title="Opera Software">Opera Software</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Opera_Software" title="Opera Software">Opera Software</a></td>
 <td><span style="display:none" class="sortkey">7005300000000000000♠</span>300,000<br />
 <small>(November 2014)</small></td>
 <td><span class="nowrap"><span style="display:none" class="sortkey">7007450000000000000♠</span>45&#160;million</span> per month<br />
 <small>(December 2012)</small></td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td>Multiple<br />
-<small><a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>, <a href="/wiki/Java_(software_platform)#Mobile_devices" title="Java (software platform)">Java</a>, <a href="/wiki/Symbian" title="Symbian">Symbian</a>, <a href="/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS</a>, <a href="/wiki/Windows_Mobile" title="Windows Mobile">Windows Mobile</a>, <a href="/wiki/IOS_(Apple)" class="mw-redirect" title="IOS (Apple)">iOS</a></small></td>
+<small><a href="https://en.wikipedia.org/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>, <a href="https://en.wikipedia.org/wiki/Java_(software_platform)#Mobile_devices" title="Java (software platform)">Java</a>, <a href="https://en.wikipedia.org/wiki/Symbian" title="Symbian">Symbian</a>, <a href="https://en.wikipedia.org/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS</a>, <a href="https://en.wikipedia.org/wiki/Windows_Mobile" title="Windows Mobile">Windows Mobile</a>, <a href="https://en.wikipedia.org/wiki/IOS_(Apple)" class="mw-redirect" title="IOS (Apple)">iOS</a></small></td>
 <td><span style="display:none" class="sortkey">7001700000000000000♠</span>70% — Android, Symbian, BlackBerry, Windows Mobile; 50% — Java</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Free</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
-<td><a href="/wiki/Android_SDK" class="mw-redirect" title="Android SDK">Android SDK</a>, <a href="/wiki/Java_ME" class="mw-redirect" title="Java ME">Java ME</a>, <a href="/wiki/S60_(software_platform)" title="S60 (software platform)">S60</a>, <a href="/w/index.php?title=BlackBerry_SDK&amp;action=edit&amp;redlink=1" class="new" title="BlackBerry SDK (page does not exist)">BlackBerry SDK</a>, <a href="/w/index.php?title=Windows_Phone_Developer_Tools&amp;action=edit&amp;redlink=1" class="new" title="Windows Phone Developer Tools (page does not exist)">Windows Phone Developer Tools</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Android_SDK" class="mw-redirect" title="Android SDK">Android SDK</a>, <a href="/wiki/Java_ME" class="mw-redirect" title="Java ME">Java ME</a>, <a href="https://en.wikipedia.org/wiki/S60_(software_platform)" title="S60 (software platform)">S60</a>, <a href="/w/index.php?title=BlackBerry_SDK&amp;action=edit&amp;redlink=1" class="new" title="BlackBerry SDK (page does not exist)">BlackBerry SDK</a>, <a href="/w/index.php?title=Windows_Phone_Developer_Tools&amp;action=edit&amp;redlink=1" class="new" title="Windows Phone Developer Tools (page does not exist)">Windows Phone Developer Tools</a></td>
 </tr>
 <tr>
-<td><a href="/wiki/PocketGear" class="mw-redirect" title="PocketGear">PocketGear</a></td>
+<td><a href="https://en.wikipedia.org/wiki/PocketGear" class="mw-redirect" title="PocketGear">PocketGear</a></td>
 <td>1999</td>
 <td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">Closed</td>
-<td><a href="/wiki/PocketGear" class="mw-redirect" title="PocketGear">PocketGear</a></td>
+<td><a href="https://en.wikipedia.org/wiki/PocketGear" class="mw-redirect" title="PocketGear">PocketGear</a></td>
 <td><span style="display:none" class="sortkey">7005140000000000000♠</span>140,000<br />
 <small>(June 2010)</small></td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
 <td>Multiple<small><br />
-<a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>, <a href="/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS</a>, <a href="/wiki/Java_(software_platform)#Mobile_devices" title="Java (software platform)">Java</a>, <a href="/wiki/Palm_OS" title="Palm OS">Palm OS</a>, <a href="/wiki/Symbian" title="Symbian">Symbian</a>, <a href="/wiki/Windows_Mobile" title="Windows Mobile">Windows Mobile</a></small></td>
+<a href="https://en.wikipedia.org/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>, <a href="https://en.wikipedia.org/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS</a>, <a href="https://en.wikipedia.org/wiki/Java_(software_platform)#Mobile_devices" title="Java (software platform)">Java</a>, <a href="/wiki/Palm_OS" title="Palm OS">Palm OS</a>, <a href="https://en.wikipedia.org/wiki/Symbian" title="Symbian">Symbian</a>, <a href="/wiki/Windows_Mobile" title="Windows Mobile">Windows Mobile</a></small></td>
 <td>≈55%</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Free</td>
 <td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">Unknown</td>
@@ -3052,81 +3053,6 @@ following sections:
 <th>Development platform(s)</th>
 </tr>
 </table>
-<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_mobile_app_distribution_platforms&amp;action=edit&amp;section=3" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
-<ol class="references">
-<li id="cite_note-AppStore_Search_Results-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-AppStore_Search_Results_1-0">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://www.amazon.com/mobile-apps/b?node=2350149011">Amazon App Store for Android</a>. Retrieved 11 March 2014</span></li>
-<li id="cite_note-AppStore_Developer_Portal-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-AppStore_Developer_Portal_2-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://developer.amazon.com/">"Amazon Developer Portal"</a>. <i>amazon.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">24 May</span> 2017</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=Amazon+Developer+Portal&amp;rft.genre=unknown&amp;rft.jtitle=amazon.com&amp;rft_id=https%3A%2F%2Fdeveloper.amazon.com%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://developer.amazon.com/public/resources/development-tools/sdk">"Amazon Mobile App SDK"</a>. <i>amazon.com</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=Amazon+Mobile+App+SDK&amp;rft.genre=unknown&amp;rft.jtitle=amazon.com&amp;rft_id=https%3A%2F%2Fdeveloper.amazon.com%2Fpublic%2Fresources%2Fdevelopment-tools%2Fsdk&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-Distimo_Reports-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-Distimo_Reports_4-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.distimo.com/appstores/app-store/22-Palm_App_Catalog">"App Stores:Distimo"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">24 June</span> 2011</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=App+Stores%3ADistimo&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.distimo.com%2Fappstores%2Fapp-store%2F22-Palm_App_Catalog&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-precentral-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-precentral_5-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.precentral.net/app_gallery-app_catalog">"Official App Catalog App Gallery&#160;: Precentral.net"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">22 January</span> 2011</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=Official+App+Catalog+App+Gallery+%3A+Precentral.net&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.precentral.net%2Fapp_gallery-app_catalog&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.comscore.com/Press_Events/Press_Releases/2010/9/comScore_Reports_July_2010_U.S._Mobile_Subscriber_Market_Share">"comScore Reports July 2010 U.S. Mobile Subscriber Market Share"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">15 September</span> 2010</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=comScore+Reports+July+2010+U.S.+Mobile+Subscriber+Market+Share&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.comscore.com%2FPress_Events%2FPress_Releases%2F2010%2F9%2FcomScore_Reports_July_2010_U.S._Mobile_Subscriber_Market_Share&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-palm_dev_detail-8"><span class="mw-cite-backlink">^ <a href="#cite_ref-palm_dev_detail_8-0"></a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://developer.palm.com/index.php?option=com_content&amp;view=article&amp;id=1840&amp;Itemid=34">"Developing and Distributing with Palm: Developer Program Details"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">4 June</span> 2010</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=Developing+and+Distributing+with+Palm%3A+Developer+Program+Details&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fdeveloper.palm.com%2Findex.php%3Foption%3Dcom_content%26view%3Darticle%26id%3D1840%26Itemid%3D34&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-apple-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-apple_9-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Steve Ranger (January 16, 2015). <a rel="nofollow" class="external text" href="http://www.zdnet.com/article/ios-versus-android-apple-app-store-versus-google-play-here-comes-the-next-battle-in-the-app-wars/">"iOS versus Android. Apple App Store versus Google Play: Here comes the next battle in the app wars"</a>. <i><a href="/wiki/ZDNet" title="ZDNet">ZDNet</a></i>.</cite><span title="ctx_ver=Z39.88-2004&ampamp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=iOS+versus+Android.+Apple+App+Store+versus+Google+Play%3A+Here+comes+the+next+battle+in+the+app+wars&amp;rft.au=Steve+Ranger&amp;rft.date=2015-01-16&amp;rft.genre=unknown&amp;rft.jtitle=ZDNet&amp;rft_id=http%3A%2F%2Fwww.zdnet.com%2Farticle%2Fios-versus-android-apple-app-store-versus-google-play-here-comes-the-next-battle-in-the-app-wars%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-100bill-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-100bill_10-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Nathan Ingraham (June 9, 2015). <a rel="nofollow" class="external text" href="https://www.theverge.com/2015/6/8/8739611/apple-wwdc-2015-stats-update">"Apple's App Store has passed 100 billion app downloads"</a>. <i><a href="/wiki/The_Verge" title="The Verge">The Verge</a></i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=Apple%27s+App+Store+has+passed+100+billion+app+downloads&amp;rft.au=Nathan+Ingraham&amp;rft.date=2015-06-09&amp;rft.genre=unknown&amp;rft.jtitle=The+Verge&amp;rft_id=https%3A%2F%2Fwww.theverge.com%2F2015%2F6%2F8%2F8739611%2Fapple-wwdc-2015-stats-update&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-800Million-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-800Million_11-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://www.theverge.com/2014/6/2/5772344/apple-wwdc-2014-stats-update">"Apple has sold more than 800 million iOS devices, 130 million new iOS users in the last year"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">June 2,</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=Apple+has+sold+more+than+800+million+iOS+devices%2C+130+million+new+iOS+users+in+the+last+year&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fwww.theverge.com%2F2014%2F6%2F2%2F5772344%2Fapple-wwdc-2014-stats-update&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://blog.presspadapp.com/wp-content/uploads/2012/09/App-Store-Pricing-Matrix.html">"App Store Pricing Matrix"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=App+Store+Pricing+Matrix&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fblog.presspadapp.com%2Fwp-content%2Fuploads%2F2012%2F09%2FApp-Store-Pricing-Matrix.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><cite class="citation web">Apple Inc. <a rel="nofollow" class="external text" href="https://developer.apple.com/programs/ios/">"iOS Developer Program - Apple Developer"</a>. Developer.apple.com<span class="reference-accessdate">. Retrieved <span class="nowrap">6 December</span> 2011</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.au=Apple+Inc.&amp;rft.btitle=iOS+Developer+Program+-+Apple+Developer&amp;rft.genre=unknown&amp;rft.pub=Developer.apple.com&amp;rft_id=https%3A%2F%2Fdeveloper.apple.com%2Fprograms%2Fios%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.appworldreport.com">The App World Analytics Website</a>. AppWorldReport.com. Retrieved on 24 November 2013.</span></li>
-<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://devblog.blackberry.com/2012/07/three-billion-and-counting/">"Three Billion and Counting"</a>. BlackBerry Developer Blog<span class="reference-accessdate">. Retrieved <span class="nowrap">7 November</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=Three+Billion+and+Counting&amp;rft.genre=unknown&amp;rft.pub=BlackBerry+Developer+Blog&amp;rft_id=http%3A%2F%2Fdevblog.blackberry.com%2F2012%2F07%2Fthree-billion-and-counting%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><cite class="citation web">Motorola il iDEN (25 June 2010). <a rel="nofollow" class="external text" href="http://www.intomobile.com/2010/06/25/rim-q1-2010-results-100-millionth-blackberry-served-24-revenue-increase-year-over-year/">"RIM Q1 2010 Results - 100 Millionth BlackBerry Served"</a>. Intomobile.com<span class="reference-accessdate">. Retrieved <span class="nowrap">6 December</span> 2011</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.au=Motorola+il+iDEN&amp;rft.btitle=RIM+Q1+2010+Results+-+100+Millionth+BlackBerry+Served&amp;rft.date=2010-06-25&amp;rft.genre=unknown&amp;rft.pub=Intomobile.com&amp;rft_id=http%3A%2F%2Fwww.intomobile.com%2F2010%2F06%2F25%2Frim-q1-2010-results-100-millionth-blackberry-served-24-revenue-increase-year-over-year%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><cite class="citation web">Duryee, Tricia (19 August 2010). <a rel="nofollow" class="external text" href="http://moconews.net/article/419-blackberry-takes-larger-cut-of-developer-revenues-in-updated-app-world/">"BlackBerry Takes Larger Cut Of Developer Revenues In Updated App World"</a>. mocoNews<span class="reference-accessdate">. Retrieved <span class="nowrap">6 December</span> 2011</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.aufirst=Tricia&amp;rft.aulast=Duryee&amp;rft.btitle=BlackBerry+Takes+Larger+Cut+Of+Developer+Revenues+In+Updated+App+World&amp;rft.date=2010-08-19&amp;rft.genre=unknown&amp;rft.pub=mocoNews&amp;rft_id=http%3A%2F%2Fmoconews.net%2Farticle%2F419-blackberry-takes-larger-cut-of-developer-revenues-in-updated-app-world%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20090310010639/http://na.blackberry.com/eng/developers/appworld/faq.jsp">"BlackBerry App World FAQ"</a>. <a href="/wiki/Research_In_Motion" class="mw-redirect" title="Research In Motion">Research In Motion</a>. Archived from <a rel="nofollow" class="external text" href="http://na.blackberry.com/eng/developers/appworld/faq.jsp">the original</a> on 10 March 2009<span class="reference-accessdate">. Retrieved <span class="nowrap">14 July</span> 2009</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=BlackBerry+App+World+FAQ&amp;rft.genre=unknown&amp;rft.pub=Research+In+Motion&amp;rft_id=http%3A%2F%2Fna.blackberry.com%2Feng%2Fdevelopers%2Fappworld%2Ffaq.jsp&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.hiptop3.com/archives/downloadable-content-goes-away-march-2nd">"» Downloadable Content Goes Away March 2nd - Sidekick 4G / Sidekick LX 2009 / Sidekick 2008 / Sidekick 3 / Hiptop 3"</a>. Hiptop3.com. 1 March 2011<span class="reference-accessdate">. Retrieved <span class="nowrap">6 December</span> 2011</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=%C2%BB+Downloadable+Content+Goes+Away+March+2nd+-+Sidekick+4G+%2F+Sidekick+LX+2009+%2F+Sidekick+2008+%2F+Sidekick+3+%2F+Hiptop+3&amp;rft.date=2011-03-01&amp;rft.genre=unknown&amp;rft.pub=Hiptop3.com&amp;rft_id=http%3A%2F%2Fwww.hiptop3.com%2Farchives%2Fdownloadable-content-goes-away-march-2nd&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20090227045114/http://developer.danger.com/">"Internet Archive Wayback Machine"</a>. Web.archive.org. 27 February 2009. Archived from <a rel="nofollow" class="external text" href="http://developer.danger.com/">the original</a> on 27 February 2009<span class="reference-accessdate">. Retrieved <span class="nowrap">6 December</span> 2011</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=Internet+Archive+Wayback+Machine&amp;rft.date=2009-02-27&amp;rft.genre=unknown&amp;rft.pub=Web.archive.org&amp;rft_id=http%3A%2F%2Fdeveloper.danger.com%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.appbrain.com/stats/number-of-android-apps">Number of Android applications - AppBrain</a>. AppBrain.com (22 July 2016). Retrieved on 22 July 2016.</span></li>
-<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://mashable.com/2013/07/18/google-play-50-billion-apps/">Google Play Passes 50 Billion App Downloads</a>. Mashable.com (18 July 2013). Retrieved on 24 November 2013.</span></li>
-<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=S_M4B-pl05M">"There are now 2 billion Android monthly active devices around the world."</a>. The official YouTube Channel of Android. 17 May 2017<span class="reference-accessdate">. Retrieved <span class="nowrap">17 May</span> 2017</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=There+are+now+2+billion+Android+monthly+active+devices+around+the+world.&amp;rft.date=2017-05-17&amp;rft.genre=unknown&amp;rft.pub=The+official+YouTube+Channel+of+Android&amp;rft_id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DS_M4B-pl05M&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://support.google.com/googleplay/android-developer/bin/answer.py?hl=en&amp;answer=113468">Developer Registration - Android Developer Help</a>. Support.google.com. Retrieved on 24 November 2013.</span></li>
-<li id="cite_note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://marketplace.firefox.com/search">Search Results | Firefox Marketplace</a>. Retrieved 11 March 2015.</span></li>
-<li id="cite_note-Nokia_Store_migration_to_Opera_Mobile_Store-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-Nokia_Store_migration_to_Opera_Mobile_Store_29-0">^</a></b></span> <span class="reference-text"><cite class="citation pressrelease"><a rel="nofollow" class="external text" href="http://www.operasoftware.com/press/releases/mobile/a-new-and-improved-opera-mobile-store">"Microsoft and Opera Software sign agreement to extend Opera Mobile Store to more Nokia phones"</a>. <i>Opera Press Releases</i> (Press release). <a href="/wiki/Opera_Software" title="Opera Software">Opera Software</a> ASA. November 18, 2014<span class="reference-accessdate">. Retrieved <span class="nowrap">March 26,</span> 2015</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=Microsoft+and+Opera+Software+sign+agreement+to+extend+Opera+Mobile+Store+to+more+Nokia+phones&amp;rft.date=2014-11-18&amp;rft.genre=unknown&amp;rft.pub=Opera+Software+ASA&amp;rft_id=http%3A%2F%2Fwww.operasoftware.com%2Fpress%2Freleases%2Fmobile%2Fa-new-and-improved-opera-mobile-store&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-Developer.nokia.com-30"><span class="mw-cite-backlink">^ <a href="#cite_ref-Developer.nokia.com_30-0"></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.developer.nokia.com/Distribute/Statistics.xhtml">"Nokia Developer - Global reach statistics"</a>. Developer.nokia.com. 22 August 2012<span class="reference-accessdate">. Retrieved <span class="nowrap">23 August</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=Nokia+Developer+-+Global+reach+statistics&amp;rft.date=2012-08-22&amp;rft.genre=unknown&amp;rft.pub=Developer.nokia.com&amp;rft_id=http%3A%2F%2Fwww.developer.nokia.com%2FDistribute%2FStatistics.xhtml&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.allaboutsymbian.com/news/item/14000_Nokia_store_passes_11_million_.php">"Nokia store passes 11 million downloads a day"</a>. All About Symbian. 10 January 2012<span class="reference-accessdate">. Retrieved <span class="nowrap">10 January</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=Nokia+store+passes+11+million+downloads+a+day&amp;rft.date=2012-01-10&amp;rft.genre=unknown&amp;rft.pub=All+About+Symbian&amp;rft_id=http%3A%2F%2Fwww.allaboutsymbian.com%2Fnews%2Fitem%2F14000_Nokia_store_passes_11_million_.php&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-33">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://publish.ovi.com/">Nokia Developer - Publishing your app</a>. Publish.ovi.com. Retrieved on 24 November 2013.</span></li>
-<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.developer.nokia.com/Develop/Qt/">Nokia Developer - Qt</a>. Developer.nokia.com. Retrieved on 24 November 2013.</span></li>
-<li id="cite_note-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-35">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.developer.nokia.com/Develop/Web/Tools/Nokia_Web_Tools/">Nokia Developer - Nokia Web Tools</a>. Developer.nokia.com. Retrieved on 24 November 2013.</span></li>
-<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.developer.nokia.com/Resources/Tools_and_downloads/">Nokia Developer - Tools centre</a>. Developer.nokia.com. Retrieved on 24 November 2013.</span></li>
-<li id="cite_note-37"><span class="mw-cite-backlink"><b><a href="#cite_ref-37">^</a></b></span> <span class="reference-text"><cite class="citation web">Microsoft. <a rel="nofollow" class="external text" href="http://developer.nokia.com/nokia-x/platform-overview">"Nokia X Platform Overview"</a>. <i>nokia.com</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=Nokia+X+Platform+Overview&amp;rft.au=Microsoft&amp;rft.genre=unknown&amp;rft.jtitle=nokia.com&amp;rft_id=http%3A%2F%2Fdeveloper.nokia.com%2Fnokia-x%2Fplatform-overview&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-38"><span class="mw-cite-backlink"><b><a href="#cite_ref-38">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://uappexplorer.com/">"uApp Explorer"</a>. <i>uappexplorer.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-12-23</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=uApp+Explorer&amp;rft.genre=unknown&amp;rft.jtitle=uappexplorer.com&amp;rft_id=https%3A%2F%2Fuappexplorer.com%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-39"><span class="mw-cite-backlink"><b><a href="#cite_ref-39">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://mspoweruser.com/microsofts-universal-app-store-goes-live-web/">Microsoft’s universal app store for Windows 10 goes live on the web</a></span></li>
-<li id="cite_note-wmpoweruser.com-40"><span class="mw-cite-backlink">^ <a href="#cite_ref-wmpoweruser.com_40-0"></a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://wmpoweruser.com/microsoft-reports-50-active-windows-phone-user-growth-over-the-last-year-400000-apps-in-the-store/">http://wmpoweruser.com/microsoft-reports-50-active-windows-phone-user-growth-over-the-last-year-400000-apps-in-the-store/</a></span></li>
-<li id="cite_note-gartner.com-41"><span class="mw-cite-backlink">^ <a href="#cite_ref-gartner.com_41-0"></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.gartner.com/newsroom/id/2335616">Gartner Says Worldwide Mobile Phone Sales Declined 1.7 Percent in 2012</a>. Gartner.com (13 February 2013). Retrieved on 24 November 2013.</span></li>
-<li id="cite_note-42"><span class="mw-cite-backlink"><b><a href="#cite_ref-42">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.gartner.com/newsroom/id/2482816">"Gartner Says Asia/Pacific Led Worldwide Mobile Phone Sales to Growth in First Quarter of 2013"</a>. <i>gartner.com</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=Gartner+Says+Asia%2FPacific+Led+Worldwide+Mobile+Phone+Sales+to+Growth+in+First+Quarter+of+2013&amp;rft.genre=unknown&amp;rft.jtitle=gartner.com&amp;rft_id=http%3A%2F%2Fwww.gartner.com%2Fnewsroom%2Fid%2F2482816&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-43"><span class="mw-cite-backlink"><b><a href="#cite_ref-43">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.gartner.com/newsroom/id/2573415">"Gartner Says Smartphone Sales Grew 46.5 Percent in Second Quarter of 2013 and Exceeded Feature Phone Sales for First Time"</a>. <i>gartner.com</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=Gartner+Says+Smartphone+Sales+Grew+46.5+Percent+in+Second+Quarter+of+2013+and+Exceeded+Feature+Phone+Sales+for+First+Time&amp;rft.genre=unknown&amp;rft.jtitle=gartner.com&amp;rft_id=http%3A%2F%2Fwww.gartner.com%2Fnewsroom%2Fid%2F2573415&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-44"><span class="mw-cite-backlink"><b><a href="#cite_ref-44">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.gartner.com/newsroom/id/2623415">"Gartner Says Smartphone Sales Accounted for 55 Percent of Overall Mobile Phone Sales in Third Quarter of 2013"</a>. <i>gartner.com</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=Gartner+Says+Smartphone+Sales+Accounted+for+55+Percent+of+Overall+Mobile+Phone+Sales+in+Third+Quarter+of+2013&amp;rft.genre=unknown&amp;rft.jtitle=gartner.com&amp;rft_id=http%3A%2F%2Fwww.gartner.com%2Fnewsroom%2Fid%2F2623415&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-45"><span class="mw-cite-backlink"><b><a href="#cite_ref-45">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.gartner.com/newsroom/id/2665715">"Gartner Says Annual Smartphone Sales Surpassed Sales of Feature Phones for the First Time in 2013"</a>. <i>gartner.com</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=Gartner+Says+Annual+Smartphone+Sales+Surpassed+Sales+of+Feature+Phones+for+the+First+Time+in+2013&amp;rft.genre=unknown&amp;rft.jtitle=gartner.com&amp;rft_id=http%3A%2F%2Fwww.gartner.com%2Fnewsroom%2Fid%2F2665715&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-ReferenceA-46"><span class="mw-cite-backlink">^ <a href="#cite_ref-ReferenceA_46-0"></a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.gartner.com/newsroom/id/2996817">http://www.gartner.com/newsroom/id/2996817</a></span></li>
-<li id="cite_note-ReferenceB-47"><span class="mw-cite-backlink">^ <a href="#cite_ref-ReferenceB_47-0"></a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://wmpoweruser.com/microsoft-now-sold-100-million-windows-phones/">http://wmpoweruser.com/microsoft-now-sold-100-million-windows-phones/</a></span></li>
-<li id="cite_note-49"><span class="mw-cite-backlink"><b><a href="#cite_ref-49">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://msdn.microsoft.com/library/windowsphone/help/jj206719%28v=vs.105%29.aspx">"Registration info"</a>. <i>microsoft.com</i>. Microsoft.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=Registration+info&amp;rft.genre=unknown&amp;rft.jtitle=microsoft.com&amp;rft_id=http%3A%2F%2Fmsdn.microsoft.com%2Flibrary%2Fwindowsphone%2Fhelp%2Fjj206719%2528v%3Dvs.105%2529.aspx&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-50"><span class="mw-cite-backlink"><b><a href="#cite_ref-50">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://blogs.windows.com/windows/b/appbuilder/archive/2013/11/06/unifying-developer-registration-windows-and-windows-phone.aspx">"Unifying Developer Registration: Windows and Windows Phone"</a>. <i>Building Apps for Windows</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=Unifying+Developer+Registration%3A+Windows+and+Windows+Phone&amp;rft.genre=unknown&amp;rft.jtitle=Building+Apps+for+Windows&amp;rft_id=http%3A%2F%2Fblogs.windows.com%2Fwindows%2Fb%2Fappbuilder%2Farchive%2F2013%2F11%2F06%2Funifying-developer-registration-windows-and-windows-phone.aspx&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-51"><span class="mw-cite-backlink"><b><a href="#cite_ref-51">^</a></b></span> <span class="reference-text">23.03% of 1.775billion PC installed base is about 410million. ( 1.7billion PC installed base in August is calculated as: Windows 10 is on more than 75M devices on 26th Aug (after 28 days) <a rel="nofollow" class="external free" href="http://blogs.windows.com/bloggingwindows/2015/08/26/windows-10-now-on-75-million-devices/">http://blogs.windows.com/bloggingwindows/2015/08/26/windows-10-now-on-75-million-devices/</a> By linear approx. is 88M Windows 10 devices on 31st Aug (after 33 days). Base on estimation 5,21% of Windows 10 devices on 31st Aug by <a rel="nofollow" class="external free" href="http://www.netmarketshare.com/">http://www.netmarketshare.com/</a>, its mean about 1.7billion PC devices on market. This also corresponds to <a rel="nofollow" class="external free" href="https://www.gartner.com/doc/1602818/forecast-pc-installed-base-worldwide">https://www.gartner.com/doc/1602818/forecast-pc-installed-base-worldwide</a> and <a rel="nofollow" class="external free" href="http://www.gartner.com/newsroom/id/2791017">http://www.gartner.com/newsroom/id/2791017</a> and also corresponds with 1.65Billion two months back (with 25M monthly increment) (<a rel="nofollow" class="external free" href="http://money.cnn.com/2015/06/24/technology/windows-microsoft-sales/">http://money.cnn.com/2015/06/24/technology/windows-microsoft-sales/</a>). On 30th Nov is reported 23.03% share of Windows 8, 8.1 and 10 by <a rel="nofollow" class="external free" href="http://www.netmarketshare.com/">http://www.netmarketshare.com/</a>. )</span></li>
-<li id="cite_note-53"><span class="mw-cite-backlink"><b><a href="#cite_ref-53">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://blog.adduplex.com/2013/01/windows-phone-device-stats-for-january.html">http://blog.adduplex.com/2013/01/windows-phone-device-stats-for-january.html</a></span></li>
-<li id="cite_note-54"><span class="mw-cite-backlink"><b><a href="#cite_ref-54">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.gartner.com/newsroom/id/2665715">"Gartner Says Annual Smartphone Sales Surpassed Sales of Feature Phones for the First Time in 2013"</a>. <i>gartner.com</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=Gartner+Says+Annual+Smartphone+Sales+Surpassed+Sales+of+Feature+Phones+for+the+First+Time+in+2013&amp;rft.genre=unknown&amp;rft.jtitle=gartner.com&amp;rft_id=http%3A%2F%2Fwww.gartner.com%2Fnewsroom%2Fid%2F2665715&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-55"><span class="mw-cite-backlink"><b><a href="#cite_ref-55">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.gartner.com/newsroom/id/3061917">http://www.gartner.com/newsroom/id/3061917</a></span></li>
-<li id="cite_note-56"><span class="mw-cite-backlink"><b><a href="#cite_ref-56">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.gartner.com/newsroom/id/3115517">http://www.gartner.com/newsroom/id/3115517</a></span></li>
-<li id="cite_note-57"><span class="mw-cite-backlink"><b><a href="#cite_ref-57">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.gartner.com/newsroom/id/3169417">http://www.gartner.com/newsroom/id/3169417</a></span></li>
-<li id="cite_note-58"><span class="mw-cite-backlink"><b><a href="#cite_ref-58">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://msdn.microsoft.com/en-us/library/windows/apps/jj863494.aspx">"Account types, locations, and fees"</a>. <i>microsoft.com</i>. Microsoft.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=Account+types%2C+locations%2C+and+fees&amp;rft.genre=unknown&amp;rft.jtitle=microsoft.com&amp;rft_id=https%3A%2F%2Fmsdn.microsoft.com%2Fen-us%2Flibrary%2Fwindows%2Fapps%2Fjj863494.aspx&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-59"><span class="mw-cite-backlink"><b><a href="#cite_ref-59">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://msdn.microsoft.com/en-us/library/windows/apps/hh868184.aspx#account_info">"Opening a developer account"</a>. <i>microsoft.com</i>. Microsoft.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=Opening+a+developer+account&amp;rft.genre=unknown&amp;rft.jtitle=microsoft.com&amp;rft_id=https%3A%2F%2Fmsdn.microsoft.com%2Fen-us%2Flibrary%2Fwindows%2Fapps%2Fhh868184.aspx%23account_info&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-61"><span class="mw-cite-backlink"><b><a href="#cite_ref-61">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.applandinc.com/">"Appland Web Page"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">March 29,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=Appland+Web+Page&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.applandinc.com%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-62"><span class="mw-cite-backlink"><b><a href="#cite_ref-62">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://gitorious.org/f-droid/fdroiddata/source/master:stats/known_apks.txt">List of known apks in the F-Droid repository</a> — Run "awk '{print $2}' | uniq | wc -l" to get the number — 30 January 2014</span></li>
-<li id="cite_note-63"><span class="mw-cite-backlink"><b><a href="#cite_ref-63">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://gitorious.org/f-droid/fdroiddata/source/master:stats/total_downloads_app.txt">Downloads data</a>— 11 March 2015</span></li>
-<li id="cite_note-getjarinfo-64"><span class="mw-cite-backlink">^ <a href="#cite_ref-getjarinfo_64-0"></a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.getjar.com/about">"GetJar - Mobile - The Worlds Biggest Open App Store"</a>. <i>GetJar</i><span class="reference-accessdate">. Retrieved <span class="nowrap">13 March</span> 2015</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=GetJar+-+Mobile+-+The+Worlds+Biggest+Open+App+Store&amp;rft.genre=unknown&amp;rft.jtitle=GetJar&amp;rft_id=http%3A%2F%2Fwww.getjar.com%2Fabout&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-getjar-65"><span class="mw-cite-backlink"><b><a href="#cite_ref-getjar_65-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://developer.getjar.com/android/company-2/">"Company - GetJar Developers"</a>. <i>GetJar</i><span class="reference-accessdate">. Retrieved <span class="nowrap">13 March</span> 2015</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=Company+-+GetJar+Developers&amp;rft.genre=unknown&amp;rft.jtitle=GetJar&amp;rft_id=http%3A%2F%2Fdeveloper.getjar.com%2Fandroid%2Fcompany-2%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-getjardev-66"><span class="mw-cite-backlink">^ <a href="#cite_ref-getjardev_66-0"></a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://my.getjar.com/site/Developers">"GetJar - Mobile - The Worlds Biggest Open App Store"</a>. <i>getjar.com</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=GetJar+-+Mobile+-+The+Worlds+Biggest+Open+App+Store&amp;rft.genre=unknown&amp;rft.jtitle=getjar.com&amp;rft_id=http%3A%2F%2Fmy.getjar.com%2Fsite%2FDevelopers&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-67"><span class="mw-cite-backlink"><b><a href="#cite_ref-67">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://assets.handango.com/marketing/collateral/HandangoOverview.pdf">http://assets.handango.com/marketing/collateral/HandangoOverview.pdf</a></span></li>
-<li id="cite_note-70"><span class="mw-cite-backlink"><b><a href="#cite_ref-70">^</a></b></span> <span class="reference-text"><cite class="citation web">Jordan, Jon (9 December 2009). <a rel="nofollow" class="external text" href="http://www.pocketgamer.biz/r/PG.Biz/MiKandi/news.asp?c=17206MiKandi">"Android adult-only app store MiKandi launches on a natural high"</a>. Pocket Gamer<span class="reference-accessdate">. Retrieved <span class="nowrap">7 April</span> 2010</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.au=Jordan%2C+Jon&amp;rft.btitle=Android+adult-only+app+store+MiKandi+launches+on+a+natural+high&amp;rft.date=2009-12-09&amp;rft.genre=unknown&amp;rft.pub=Pocket+Gamer&amp;rft_id=http%3A%2F%2Fwww.pocketgamer.biz%2Fr%2FPG.Biz%2FMiKandi%2Fnews.asp%3Fc%3D17206MiKandi&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-71"><span class="mw-cite-backlink"><b><a href="#cite_ref-71">^</a></b></span> <span class="reference-text"><cite class="citation web">Matyszczyk, Chris (29 November 2009). <a rel="nofollow" class="external text" href="http://news.cnet.com/8301-17852_3-10405884-71.html">"Droid does, iPhone doesn't: The porn app store"</a>. <a href="/wiki/CNET" title="CNET">CNET</a><span class="reference-accessdate">. Retrieved <span class="nowrap">7 April</span> 2010</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.au=Matyszczyk%2C+Chris&amp;rft.btitle=Droid+does%2C+iPhone+doesn%27t%3A+The+porn+app+store&amp;rft.date=2009-11-29&amp;rft.genre=unknown&amp;rft.pub=CNET&amp;rft_id=http%3A%2F%2Fnews.cnet.com%2F8301-17852_3-10405884-71.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-Opera_Mobile-72"><span class="mw-cite-backlink"><b><a href="#cite_ref-Opera_Mobile_72-0">^</a></b></span> <span class="reference-text"><cite class="citation pressrelease"><a rel="nofollow" class="external text" href="http://www.operasoftware.com/ru/press/releases/mobile/release-2014-11-18">"Microsoft and Opera Software sign agreement to extend Opera Mobile Store to more Nokia phones"</a>. <i>Opera Press Releases</i> (Press release). <a href="/wiki/Opera_Software" title="Opera Software">Opera Software</a> ASA. November 18, 2014<span class="reference-accessdate">. Retrieved <span class="nowrap">November 20,</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=Microsoft+and+Opera+Software+sign+agreement+to+extend+Opera+Mobile+Store+to+more+Nokia+phones&amp;rft.date=2014-11-18&amp;rft.genre=unknown&amp;rft.pub=Opera+Software+ASA&amp;rft_id=http%3A%2F%2Fwww.operasoftware.com%2Fru%2Fpress%2Freleases%2Fmobile%2Frelease-2014-11-18&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-Opera_Mobile_Store_relaunch-73"><span class="mw-cite-backlink"><b><a href="#cite_ref-Opera_Mobile_Store_relaunch_73-0">^</a></b></span> <span class="reference-text"><cite class="citation pressrelease"><a rel="nofollow" class="external text" href="http://www.operasoftware.com/press/releases/mobile/a-new-and-improved-opera-mobile-store">"A new and improved Opera Mobile Store"</a>. <i>Opera Press Releases</i> (Press release). <a href="/wiki/Opera_Software" title="Opera Software">Opera Software</a> ASA. February 27, 2012<span class="reference-accessdate">. Retrieved <span class="nowrap">December 12,</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=A+new+and+improved+Opera+Mobile+Store&amp;rft.date=2012-02-27&amp;rft.genre=unknown&amp;rft.pub=Opera+Software+ASA&amp;rft_id=http%3A%2F%2Fwww.operasoftware.com%2Fpress%2Freleases%2Fmobile%2Fa-new-and-improved-opera-mobile-store&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-operamobilestoredev-74"><span class="mw-cite-backlink"><b><a href="#cite_ref-operamobilestoredev_74-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://publishers.mobilestore.opera.com/">"Opera Publisher Portal"</a>. <i>opera.com</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.atitle=Opera+Publisher+Portal&amp;rft.genre=unknown&amp;rft.jtitle=opera.com&amp;rft_id=http%3A%2F%2Fpublishers.mobilestore.opera.com%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-operamobilestoredevagreement-75"><span class="mw-cite-backlink">^ <a href="#cite_ref-operamobilestoredevagreement_75-0"></a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://apps.opera.com/docs/DistributionAgreementHandster_standard.pdf">"Software Distribution Agreement"</a> <span style="font-size:85%;">(PDF)</span>. <a href="/wiki/Opera_Software" title="Opera Software">Opera Software</a><span class="reference-accessdate">. Retrieved <span class="nowrap">29 November</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+mobile+app+distribution+platforms&amp;rft.btitle=Software+Distribution+Agreement&amp;rft.genre=unknown&amp;rft.pub=Opera+Software&amp;rft_id=http%3A%2F%2Fapps.opera.com%2Fdocs%2FDistributionAgreementHandster_standard.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-getpocketgearinfo-76"><span class="mw-cite-backlink"><b><a href="#cite_ref-getpocketgearinfo_76-0">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://corp.pocketgear.com/about.html">http://corp.pocketgear.com/about.html</a></span></li>
-</ol>
-
-
-
-* [https://www.lynda.com/Android-tutorials/Distributing-Android-Apps/143101-2.html](https://www.lynda.com/Android-tutorials/Distributing-Android-Apps/143101-2.html)
-* [App Stores Alternative for Android](https://theappsolutions.com/blog/marketing/alternative-android-app-stores/)
 
 ************
 
