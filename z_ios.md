@@ -803,9 +803,9 @@ more details from official doc [Cocoa Touch Layer](https://developer.apple.com/l
 
 
 ****************
-## Andorid
+## Android
 
-I used it rarely.. but my long term friend.. which made me to understand the fundamentals of software. my first java program in eclipse was android 'Hello-world'. 
+I used it rarely.. but my long term friend(almost 5 + years).. which always been basis for my sofware undestandings. my first java program on eclipse was android 'Hello-world' simualated on dalvik emulator and deployed on jelly beans version friends mobile(biggest achievement). I had done a self case study on adroid software layers as part my academic OS course.
 
  | HackerNews        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Official docs|
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
@@ -3078,20 +3078,15 @@ following sections:
 ************
 
 ## next steps
------------------
 
-# Cross-Platform Mobile app Development
-
+## Cross-Platform Mobile app Development
 
 ## phonegap/apache cordova
 
-**********
 ## xamarin
 
-************
 ## unity
 
-**********
 ## appcelerator
 
 *****************
