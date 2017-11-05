@@ -539,21 +539,11 @@ more details from official doc [Cocoa Touch Layer](https://developer.apple.com/l
 
 <br>
 
-### iOS App Architecture
-
-Apps need to work with the iOS to ensure that they deliver a great user experience. Beyond just a good design for your app’s design and user interface, a great user experience encompasses many other factors. Users expect iOS apps to be fast and responsive while expecting the app to use as little power as possible. Apps need to support all of the latest iOS devices while still appearing as if the app was tailored for the current device. Implementing all of these behaviors can seem daunting at first but iOS provides the help you need to make it happen.
-
-* Apps Are Expected to Support Key Features
-* Apps Follow Well-Defined Execution Paths
-* Apps Must Run Efficiently in a Multitasking Environment
-* Communication Between Apps Follows Specific Pathways
-* Performance Tuning is Important for Apps
-
 [Basic programming concepts from official guide](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007072-CH1-SW1)
 
 ************
 
-<h3 id="pageTitle">The App Life Cycle</h3>
+<h3 id="pageTitle">iOS App Life Cycle</h3>
 
 <section>
     <h4 class="jump">The Structure of an App</h4>
@@ -629,7 +619,6 @@ Apps need to work with the iOS to ensure that they deliver a great user experien
             </tr>
         </table>
     </div>
-    <p>What distinguishes one iOS app from another is the data it manages (and the corresponding business logic) and how it presents that data to the user. Most interactions with UIKit objects do not define your app but help you to refine its behavior. For example, the methods of your app delegate let you know when the app is changing states so that your custom code can respond appropriately.</p>
 </section>
 
 <section>
@@ -637,7 +626,6 @@ Apps need to work with the iOS to ensure that they deliver a great user experien
     <figure class="figure">
         <a name="//apple_ref/doc/uid/TP40007072-CH2-SW15" title="Processing events in the main run loop"></a>
 <img src="https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/event_draw_cycle_a_2x.png" alt="Processing events in the main run loop" width="608" height="406"></figure>
-    <p>Many types of events can be delivered in an iOS app. The most common ones are listed in <span class="content_text"></span>. Many of these event types are delivered using the main run loop of your app, but some are not. Some events are sent to a delegate object or are passed to a block that you provide. For information about how to handle most types of events—including touch, remote control, motion, accelerometer, and gyroscopic events—see <em><!--a target="_self" -->Event Handling Guide for iOS<!--/a--></em>.</p>
     <a name="//apple_ref/doc/uid/TP40007072-CH2-SW16" title="Common types of events for iOS apps"></a>
     <div class="tableholder">
         <table class="graybox" border="0" cellspacing="0" cellpadding="5">
@@ -800,12 +788,456 @@ Apps need to work with the iOS to ensure that they deliver a great user experien
 </section>
 
 
-
-
 ****************
 ## Andorid
 
+> **brief history of android
 
+> Android Inc. was founded in Palo Alto, California in October 2003 by Andy Rubin, Rich Miner, Nick Sears, and Chris White. Rubin described the Android project as "tremendous potential in developing smarter mobile devices that are more aware of its owner's location and preferences".The early intentions of the company were to develop an advanced operating system for digital cameras, and this was the basis of its pitch to investors in April 2004. The company then decided that the market for cameras was not large enough for its goals, and by five months later it had diverted its efforts and was pitching Android as a handset operating system that would rival Symbian and Microsoft Windows Mobile.
+
+> Rubin had difficulty attracting investors early on, and Android was facing eviction from its office space. Steve Perlman, a close friend of Rubin, brought him $10,000 in cash in an envelope, and shortly thereafter wired an undisclosed amount as seed funding. Perlman refused a stake in the company, and has stated "I did it because I believed in the thing, and I wanted to help Andy."
+
+> In July 2005, Google acquired Android Inc. for at least $50 million. Its key employees, including Rubin, Miner and White, joined Google as part of the acquisition. Not much was known about the secretive Android at the time, with the company having provided few details other than that it was making software for mobile phones.At Google, the team led by Rubin developed a mobile device platform powered by the Linux kernel. Google marketed the platform to handset makers and carriers on the promise of providing a flexible, upgradeable system. Google had "lined up a series of hardware components and software partners and signaled to carriers that it was open to various degrees of cooperation".
+
+> Speculation about Google's intention to enter the mobile communications market continued to build through December 2006. An early prototype had a close resemblance to a BlackBerry phone, with no touchscreen and a physical QWERTY keyboard, but the arrival of 2007's Apple iPhone meant that Android "had to go back to the drawing board". Google later changed its Android specification documents to state that "Touchscreens will be supported", although "the Product was designed with the presence of discrete physical buttons as an assumption, therefore a touchscreen cannot completely replace physical buttons". In September 2007, InformationWeek covered an Evalueserve study reporting that Google had filed several patent applications in the area of mobile telephony.
+
+
+> Eric Schmidt, Andy Rubin and Hugo Barra at a 2012 press conference announcing Google's Nexus 7 tablet
+On November 5, 2007, the Open Handset Alliance, a consortium of technology companies including Google, device manufacturers such as HTC, Motorola and Samsung, wireless carriers such as Sprint and T-Mobile, and chipset makers such as Qualcomm and Texas Instruments, unveiled itself, with a goal to develop "the first truly open and comprehensive platform for mobile devices". The first commercially available smartphone running Android was the HTC Dream, also known as T-Mobile G1, announced on September 23, 2008.
+
+> Since 2008, Android has seen numerous updates which have incrementally improved the operating system, adding new features and fixing bugs in previous releases. Each major release is named in alphabetical order after a dessert or sugary treat, with the first few Android versions being called "Cupcake", "Donut", "Eclair", and "Froyo", respectively. During its announcement of Android KitKat in 2013, Google explained that "Since these devices make our lives so sweet, each Android version is named after a dessert", although a Google spokesperson told CNN in an interview that "It’s kind of like an internal team thing, and we prefer to be a little bit — how should I say — a bit inscrutable in the matter, I’ll say".
+
+> In 2010, Google launched its Nexus series of devices, a lineup in which Google partnered with different device manufacturers to produce new devices and introduce new Android versions. The series was described as having "played a pivotal role in Android's history by introducing new software iterations and hardware standards across the board", and became known for its "bloat-free" software with "timely [...] updates". At its developer conference in May 2013, Google announced a special version of the Samsung Galaxy S4, where, instead of using Samsung's own Android customization, the phone ran "stock Android" and was promised to receive new system updates fast. The device would become the start of the Google Play edition program, and was followed by other devices, including the HTC One Google Play edition, and Moto G Google Play edition. In 2015, Ars Technica wrote that "Earlier this week, the last of the Google Play edition Android phones in Google's online storefront were listed as "no longer available for sale"" and that "Now they're all gone, and it looks a whole lot like the program has wrapped up".
+
+> From 2008 to 2013, Hugo Barra served as product spokesperson, representing Android at press conferences and Google I/O, Google’s annual developer-focused conference. He left Google in August 2013 to join Chinese phone maker Xiaomi. Less than six months earlier, Google's then-CEO Larry Page announced in a blog post that Andy Rubin had moved from the Android division to take on new projects at Google, and that Sundar Pichai would become the new Android lead. Pichai himself would eventually switch positions, becoming the new CEO of Google in August 2015 following the company's restructure into the Alphabet conglomerate, making Hiroshi Lockheimer the new head of Android.
+
+> In June 2014, Google announced Android One, a set of "hardware reference models" that would "allow [device makers] to easily create high-quality phones at low costs", designed for consumers in developing countries. In September, Google announced the first set of Android One phones for release in India. However, Recode reported in June 2015 that the project was "a disappointment", citing "reluctant consumers and manufacturing partners" and "misfires from the search company that has never quite cracked hardware". Plans to relaunch Android One surfaced in August 2015, with Africa announced as the next location for the program a week later. A report from The Verge in January 2017 stated that Google is expanding its low-cost Android One program while "Google itself probably won’t produce Android One phones for the US [..]. The phones are reportedly due “before the middle of the year” and will be backed by lots of marketing money from Google."
+
+> Google introduced the Pixel and Pixel XL smartphones in October 2016, marketed as being the first phones made by Google, and exclusively featured certain software features, such as the Google Assistant, before wider rollout. The Pixel phones replaced the Nexus series, with a new generation of Pixel phones launched in October 2017.
+
+<table class="wikitable sortable">
+<tr>
+<th>Code name</th>
+<th>Version number</th>
+<th>Initial release date</th>
+<th>API level</th>
+<th>Security patches</th>
+</tr>
+<tr>
+<td><a href="#Android_1.0_.28API_1.29">(No codename)</a></td>
+<td>1.0</td>
+<td>September 23, 2008</td>
+<td>1</td>
+<td>Unsupported</td>
+</tr>
+<tr>
+<td><a href="#Android_1.1_.28API_2.29">(Internally known as "Petit Four")</a></td>
+<td>1.1</td>
+<td>February 9, 2009</td>
+<td>2</td>
+<td>Unsupported</td>
+</tr>
+<tr>
+<td><a href="#Android_1.5_Cupcake_.28API_3.29">Cupcake</a></td>
+<td>1.5</td>
+<td>April 27, 2009</td>
+<td>3</td>
+<td>Unsupported</td>
+</tr>
+<tr>
+<td><a href="#Android_1.6_Donut_.28API_4.29">Donut</a></td>
+<td>1.6</td>
+<td>September 15, 2009</td>
+<td>4</td>
+<td>Unsupported</td>
+</tr>
+<tr>
+<td><a href="#Android_2.0_Eclair_.28API_5.29">Eclair</a></td>
+<td>2.0 – 2.1</td>
+<td>October 26, 2009</td>
+<td>5 – 7</td>
+<td>Unsupported</td>
+</tr>
+<tr>
+<td><a href="#Android_2.2_Froyo_.28API_8.29">Froyo</a></td>
+<td>2.2 – 2.2.3</td>
+<td>May 20, 2010</td>
+<td>8</td>
+<td>Unsupported</td>
+</tr>
+<tr>
+<td><a href="#Android_2.3_Gingerbread_.28API_9.29">Gingerbread</a></td>
+<td>2.3 – 2.3.7</td>
+<td>December 6, 2010</td>
+<td>9 – 10</td>
+<td>Unsupported</td>
+</tr>
+<tr>
+<td><a href="#Android_3.0_Honeycomb_.28API_11.29">Honeycomb</a></td>
+<td>3.0 – 3.2.6</td>
+<td>February 22, 2011</td>
+<td>11 – 13</td>
+<td>Unsupported</td>
+</tr>
+<tr>
+<td><a href="#Android_4.0_Ice_Cream_Sandwich_.28API_14.29">Ice Cream Sandwich</a></td>
+<td>4.0 – 4.0.4</td>
+<td>October 18, 2011</td>
+<td>14 – 15</td>
+<td>Unsupported</td>
+</tr>
+<tr>
+<td><a href="#Android_4.1_Jelly_Bean_.28API_16.29">Jelly Bean</a></td>
+<td>4.1 – 4.3.1</td>
+<td>July 9, 2012</td>
+<td>16 – 18</td>
+<td>Unsupported</td>
+</tr>
+<tr>
+<td><a href="#Android_4.4_KitKat_.28API_19.29">KitKat</a></td>
+<td>4.4 – 4.4.4</td>
+<td>October 31, 2013</td>
+<td>19 – 20</td>
+<td>Supported; <small>See <a href="/wiki/Android_KitKat#Support_status" title="Android KitKat">clarification</a></small></td>
+</tr>
+<tr>
+<td><a href="#Android_5.0_Lollipop_.28API_21.29">Lollipop</a></td>
+<td>5.0 – 5.1.1</td>
+<td>November 12, 2014</td>
+<td>21 – 22</td>
+<td>Supported</td>
+</tr>
+<tr>
+<td><a href="#Android_6.0_Marshmallow_.28API_23.29">Marshmallow</a></td>
+<td>6.0 – 6.0.1</td>
+<td>October 5, 2015</td>
+<td>23</td>
+<td>Supported</td>
+</tr>
+<tr>
+<td><a href="#Android_7.0_Nougat_.28API_24.29">Nougat</a></td>
+<td>7.0 – 7.1.2</td>
+<td>August 22, 2016</td>
+<td>24 – 25</td>
+<td>Supported</td>
+</tr>
+<tr>
+<td><a href="#Android_8.0_Oreo_.28API_26.29"><b>Oreo</b></a></td>
+<td><b>8.0</b></td>
+<td><b>August 21, 2017</b></td>
+<td><b>26</b></td>
+<td><b>Supported</b></td>
+</tr>
+</table>
+
+Global Android version distribution as of August 2017. Android Marshmallow is the most widely used version of Android, running on 32.2% of all Android devices accessing Google Play, while Android Lollipop runs on 29.8% of devices (76.8% on it or newer).
+
+<br>
+
+![Global Android version distribution as of August 2017](https://upload.wikimedia.org/wikipedia/commons/5/5e/Android_Version_Usage.png)
+
+<br>
+
+## Android software stack.
+
+<p>
+  Android is an open source, Linux-based software stack created for a wide
+  array of devices and form factors. The following diagram shows the major
+  components of the Android platform.
+</p>
+
+<img src="https://developer.android.com/guide/platform/images/android-stack_2x.png" alt="" width=
+"519">
+<p class="img-caption">
+  <strong></strong> The Android software stack.
+</p>
+
+<h2 id="linux-kernel">
+The Linux Kernel
+</h2>
+
+<p>
+  The foundation of the Android platform is the Linux kernel. For example,
+  <a href="#art">the Android Runtime (ART)</a> relies on the Linux kernel for
+  underlying functionalities such as threading and low-level memory management.
+</p>
+
+<p>
+  Using a Linux kernel allows Android to take advantage of <a href="https://source.android.com/security/overview/kernel-security.html">key
+  security features</a> and allows device manufacturers to develop hardware
+  drivers for a well-known kernel.
+</p>
+
+<h2 id="hal">
+Hardware Abstraction Layer (HAL)
+</h2>
+
+<p>
+  The <a href="https://source.android.com/devices/index.html#Hardware%20Abstraction%20Layer">
+  hardware abstraction layer (HAL)</a> provides standard interfaces that expose
+  device hardware capabilities to the higher-level <a href="#api-framework">Java API framework</a>. The HAL consists of multiple library
+  modules, each of which implements an interface for a specific type of hardware
+  component, such as the <a href="https://source.android.com/devices/camera/index.html">camera</a> or <a href="https://source.android.com/devices/bluetooth.html">bluetooth</a> module.
+  When a framework API makes a call to access device hardware, the Android
+  system loads the library module for that hardware component.
+</p>
+
+<h2 id="art">
+Android Runtime
+</h2>
+
+<p>
+  For devices running Android version 5.0 (API level 21) or higher, each app
+  runs in its own process and with its own instance of the <a href="http://source.android.com/devices/tech/dalvik/index.html">Android Runtime
+  (ART)</a>. ART is written to run multiple virtual machines on low-memory
+  devices by executing DEX files, a bytecode format designed specially for
+  Android that's optimized for minimal memory footprint. Build toolchains, such
+  as <a href="https://source.android.com/source/jack.html">Jack</a>, compile
+  Java sources into DEX bytecode, which can run on the Android platform.
+</p>
+
+<p>
+  Some of the major features of ART include the following:
+</p>
+
+<ul>
+  <li>Ahead-of-time (AOT) and just-in-time (JIT) compilation
+  </li>
+
+  <li>Optimized garbage collection (GC)
+  </li>
+
+  <li>Better debugging support, including a dedicated sampling profiler,
+  detailed diagnostic exceptions and crash reporting, and the ability to set
+  watchpoints to monitor specific fields
+  </li>
+</ul>
+
+<p>
+  Prior to Android version 5.0 (API level 21), Dalvik was the Android runtime.
+  If your app runs well on ART, then it should work on Dalvik as well, but
+  <a href="https://developer.android.com/guide/practices/verifying-apps-art.html">the reverse may not be
+  true</a>.
+</p>
+
+<p>
+  Android also includes a set of core runtime libraries that provide most of
+  the functionality of the Java programming language, including some <a href="https://developer.android.com/guide/platform/j8-jack.html">Java 8 language features</a>, that the Java
+  API framework uses.
+</p>
+
+<h2 id="native-libs">
+  Native C/C++ Libraries
+</h2>
+
+<p>
+  Many core Android system components and services, such as ART and HAL, are
+  built from native code that require native libraries written in C and C++.
+  The Android platform provides Java framework APIs to expose the functionality
+  of some of these native libraries to apps. For example, you can access
+  <a href="https://developer.android.com/guide/topics/graphics/opengl.html">OpenGL ES</a> through the
+  Android framework’s <a href="https://developer.android.com/reference/android/opengl/package-summary.html">Java OpenGL API</a> to add
+  support for drawing and manipulating 2D and 3D graphics in your app.
+</p>
+
+<p>
+  If you are developing an app that requires C or C++ code, you can use the
+  <a href="https://developer.android.com/ndk/index.html">Android NDK</a> to access some of these <a href="https://developer.android.com/ndk/guides/stable_apis.html">native platform libraries</a> directly from
+  your native code.
+</p>
+
+<h2 id="api-framework">
+Java API Framework
+</h2>
+
+<p>
+  The entire feature-set of the Android OS is available to you through APIs
+  written in the Java language. These APIs form the building blocks you need to
+  create Android apps by simplifying the reuse of core, modular system
+  components and services, which include the following:
+</p>
+
+<ul>
+  <li>A rich and extensible <a href="https://developer.android.com/guide/topics/ui/overview.html">View
+  System</a> you can use to build an app’s UI, including lists, grids, text
+  boxes, buttons, and even an embeddable web browser
+  </li>
+
+  <li>A <a href="https://developer.android.com/guide/topics/resources/overview.html">Resource Manager</a>,
+  providing access to non-code resources such as localized strings, graphics,
+  and layout files
+  </li>
+
+  <li>A <a href="https://developer.android.com/guide/topics/ui/notifiers/notifications.html">Notification
+  Manager</a> that enables all apps to display custom alerts in the status bar
+  </li>
+
+  <li>An <a href="https://developer.android.com/guide/components/activities.html">Activity Manager</a> that
+  manages the lifecycle of apps and provides a common <a href="https://developer.android.com/guide/components/tasks-and-back-stack.html">navigation back stack</a>
+  </li>
+
+  <li>
+    <a href="https://developer.android.com/guide/topics/providers/content-providers.html">Content
+    Providers</a> that enable apps to access data from other apps, such as
+    the Contacts app, or to share their own data
+  </li>
+</ul>
+
+<p>
+  Developers have full access to the same <a href="https://developer.android.com/reference/packages.html">framework APIs</a> that Android system apps use.
+</p>
+
+<h2 id="system-apps">
+System Apps
+</h2>
+
+<p>
+  Android comes with a set of core apps for email, SMS messaging, calendars,
+  internet browsing, contacts, and more. Apps included with the platform have
+  no special status among the apps the user chooses to install. So a
+  third-party app can become the user's default web browser, SMS messenger, or
+  even the default keyboard (some exceptions apply, such as the system's
+  Settings app).
+</p>
+
+<p>
+  The system apps function both as apps for users and to provide key
+  capabilities that developers can access from their own app. For example, if
+  your app would like to deliver an SMS message, you don't need to build that
+  functionality yourself—you can instead invoke whichever SMS app is already
+  installed to deliver a message to the recipient you specify.
+</p>
+
+## Android Core Technologies
+
+<div class="devsite-article-body clearfix
+            "
+       itemprop="articleBody">
+    
+  <!--
+      Copyright 2017 The Android Open Source Project
+
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+      Unless required by applicable law or agreed to in writing, software
+      distributed under the License is distributed on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+      See the License for the specific language governing permissions and
+      limitations under the License.
+  -->
+
+<h3 id="art-technical-information">ART and Dalvik</h3>
+<p>The Android runtime (ART) is the heart of Android. It's a fast, ahead-of-time
+compiled runtime with modern garbage collection designed to scale.
+Android applications are compiled to Dalvik bytecode and run with ART. This
+section includes detailed information such as the Dalvik Executable format
+specification, and design information on the runtime itself.</p>
+<p><a href="https://source.android.com/devices/tech/dalvik/index.html">&raquo; ART and Dalvik
+Information</a></p>
+
+<h3 id="config">Configuration</h3>
+<p>Getting the most out of Android requires tuning of the <a
+href="https://source.android.com/devices/tech/config/kernel.html">kernel</a>, <a
+href="https://source.android.com/devices/tech/config/renderer.html">OpenGLRenderer</a>, and
+more. See the subpages of this section for details.
+<p><a href="https://source.android.com/devices/tech/config/index.html">&raquo; Configuration
+Information</a></p>
+
+<h3 id="connect">Connectivity</h3>
+<p>This section covers Android support for NFC standards (such as Felica),
+provides details on the Radio Interface Layer (RIL), describes call notification
+behavior, and gives implementation instructions for user-facing features such as
+Data Saver and phone number blocking.</p>
+<p><a href="https://source.android.com/devices/tech/connect/index.html">&raquo; Connectivity
+Information</a></p>
+
+<h3 id="data-usage-technical-information">Data Usage</h3>
+<p>Android's data usage features allow users to understand and control how
+their device uses network data. This section is designed for systems
+integrators and mobile operators to help explain technical details they
+should be aware of when porting Android to specific devices.</p>
+<p><a href="https://source.android.com/devices/tech/datausage/index.html">&raquo; Data Usage
+Information</a></p>
+
+<h3 id="debugging">Debugging</h3>
+<p>Android is a large and complex system. This section includes tips and tricks
+for debugging at the platform level.</p>
+<p><a href="https://source.android.com/devices/tech/debug/index.html">&raquo; Debugging
+Information</a></p>
+
+<h3 id="admin-information">Device Administration</h3>
+<p>Since Android 5.0, the platform supports use cases in a corporate
+environment under the auspices of each company’s information technology (IT)
+department.</p>
+<p><a href="https://source.android.com/devices/tech/admin/index.html">&raquo; Device
+administration information</a></p>
+
+<h3 id="display">Display Settings</h3>
+<p>This section covers AOSP implementation of various Android display
+settings, including app shortcuts, circular launcher icons, do not disturb
+(DND), multi-window (split-screen, free-form, and picture-in-picture), high
+dynamic range (HDR) video, night light, and retail demo mode.</p>
+<p><a href="https://source.android.com/devices/tech/display/index.html">&raquo; Display settings
+information</a></p>
+
+<h3 id="ota-technical-information">OTA Updates</h3>
+<p>Android devices in the field can receive and install over-the-air (OTA)
+updates to the system and application software. This section describes the
+structure of update packages and the tools to build them. It is intended for
+developers building OTA updates for new and released Android devices.</p>
+<p><a href="https://source.android.com/devices/tech/ota/index.html">&raquo; OTA Information</a>
+</p>
+
+<h3 id="performance">Performance</h3>
+<p>This section provides guidance for ensuring your Android devices minimize
+resource use and optimize performance. It includes details on optimizing boot
+times, managing flash wear, configuring for low ram devices, and more.</p>
+<p><a href="https://source.android.com/devices/tech/perf/index.html">&raquo; Performance Information</a>
+</p>
+
+<h3 id="power-technical-information">Power</h3>
+<p>The framework provides battery usage statistics, keeping track of time spent
+by different device components in different states. This section covers power
+management features (such as Doze), gives instructions for accurately measuring
+device and component power (and how to determine power values), and details the
+<code>batterystats</code> command and output.</p>
+<p><a href="https://source.android.com/devices/tech/power/index.html">&raquo; Power
+Information</a></p>
+
+<h3 id="settings">Settings</h3>
+<p>This section provides guidance on implementing features in Android Settings
+menu. It includes details on the patterns, components, and architecture of the
+Settings app, how to customize personalized settings, and how to add a setting
+to universal search.</p>
+<p><a href="https://source.android.com/devices/tech/settings/index.html">&raquo; Settings Information</a>
+</p>
+
+<h3 id="tradefed-test-infrastructure">Trade Federation Testing Infrastructure
+</h3>
+<p>Trade Federation is a continuous test framework for running tests on
+Android devices. Trade Federation's modularity makes it straightforward to
+slot into environments with existing build, test, and reporting
+infrastructures.</p>
+<p><a href="https://source.android.com/devices/tech/test_infra/tradefed/index.html">
+&raquo; Trade Federation Testing Infrastructure Overview</a></p>
+
+
+<h3 id="vts">Vendor Test Suite (VTS)</h3>
+<p>The Android Vendor Test Suite (VTS) provides extensive new functionality for
+Android testing and promotes a test-driven development process. This section
+describes the testing tools and resources available to help the Android
+development community interact with test data.</p>
+<p><a href="https://source.android.com/devices/tech/vts/index.html">&raquo; VTS Information</a>
+</p>
+
+  
+  </div>
+  
+  
 ****************
 ## Windows
 
