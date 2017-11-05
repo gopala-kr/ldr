@@ -171,9 +171,9 @@ Mobile operating systems combine features of a personal computer operating syste
 
 **************************
 
-## Currently active platforms
+## currently active platforms
 
-**Open source:**
+**open source:**
 
 * Android
 * Android Open Kang Project (AOKP)
@@ -193,15 +193,15 @@ Mobile operating systems combine features of a personal computer operating syste
 * Sailfish OS is from Jolla
 * Tizen
 
-**Closed source:**
+**closed source:**
 
 * iOS (formerly named iPhone OS)
 * BlackBerry 10 (based on the QNX OS) is from BlackBerry
 * Windows 10 Mobile (formerly called Windows Phone) is from Microsoft
 
-## Discontinued software platforms
+## discontinued software platforms
 
-**Open source:**
+**open source:**
 
 * CyanogenMod
 * Cyanogen OS
@@ -210,7 +210,7 @@ Mobile operating systems combine features of a personal computer operating syste
 * Ubuntu Touch is from Canonical Ltd
 * webOS was developed by Palm
 
-**Closed source:**
+**closed source:**
 
 * BlackBerry OS
 * Windows Mobile
@@ -275,7 +275,7 @@ There are few artciles which discusses about pros and cons of native and cross-p
 <li>SDKs to access device features</li>
 <li>Cross-platform accommodations/support</li>
 </ul>
-[Available [platforms and tools](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/04-mobile-dev/front-end-tools.md)
+[Available [platforms and tools](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/04-mobile-dev/front-end-tools.md)]
 
 <h3><span class="mw-headline" id="Back-end_servers">Back-end servers</span></h3>
 <p>Back-end tools pick up where the front-end tools leave off, and provide a set of reusable services that are centrally managed and controlled and provide the following abilities:</p>
@@ -285,7 +285,7 @@ There are few artciles which discusses about pros and cons of native and cross-p
 <li>Data services</li>
 <li>Reusable business logic</li>
 </ul>
-[Available [platforms and tools](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/04-mobile-dev/backend-tools.md)
+[Available [platforms and tools](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/04-mobile-dev/backend-tools.md)]
 
 <h3><span class="mw-headline" id="Security_add-on_layers">Security add-on layers</span></h3>
 <p>With <a href="https://en.wikipedia.org/wiki/Bring_your_own_device" title="Bring your own device">bring your own device</a> (BYOD) becoming the norm within more enterprises, IT departments often need stop-gap, tactical solutions that layer atop existing apps, phones, and platform component. Features include</p>
@@ -295,10 +295,11 @@ There are few artciles which discusses about pros and cons of native and cross-p
 <li>Client actions</li>
 <li>Reporting and statistics</li>
 </ul>
+
 <h3><span class="mw-headline" id="System_software">System software</span></h3>
 <p>Many system-level components are needed to have a functioning platform for developing mobile apps.</p>
 
-[Available [platforms and tools](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/04-mobile-dev/security-tools.md)
+[Available [platforms and tools](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/04-mobile-dev/system-software-tools.md)]
 <br>
 
 * Criteria for selecting a development platform usually contains the target mobile platforms, existing infrastructure and development skills. When targeting more than one platform with cross-platform development it is also important to consider the impact of the tool on the <a href="https://en.wikipedia.org/wiki/User_experience" title="User experience">user experience</a>. 
@@ -326,6 +327,22 @@ There are few artciles which discusses about pros and cons of native and cross-p
 <li><a href="https://en.wikipedia.org/wiki/Testdroid" title="Testdroid">Testdroid</a>: Real mobile devices and test automation tools for testing mobile and web apps.</li>
 </ul>
 *****************************
+
+## mobile app architecture patterns
+
+
+some artciles I found on this:
+
+* [stackoverflow: What are the architectural patterns used in Mobile applications (other than MVC)?](https://stackoverflow.com/questions/18231071/what-are-the-architectural-patterns-used-in-mobile-applications-other-than-mvc)
+* [stackoverflow: Mobile Development Architecture & Design Patterns](https://stackoverflow.com/questions/3090791/mobile-development-architecture-design-patterns)
+* [Six Design Patterns for Highly Successful Mobile Apps](https://apigee.com/about/blog/technology/six-design-patterns-highly-successful-mobile-apps)
+* [Architectural patterns for Mobile Application Development](https://blog.inf.ed.ac.uk/sapm/2014/02/13/architectural-patterns-for-mobile-application-development/)
+* [lynda.com course: https://www.lynda.com/Android-tutorials/Android-App-Development-Design-Patterns-Mobile-Architecture/585243-2.html](https://www.lynda.com/Android-tutorials/Android-App-Development-Design-Patterns-Mobile-Architecture/585243-2.html)
+* [Architecture Patterns for
+Mobile Systems in ResourceConstrained
+Environments](https://www.sei.cmu.edu/library/assets/presentations/lewis-saturn2013.pdf)
+* [github: android-architecture ](https://github.com/googlesamples/android-architecture)
+* [medium : iOS Architecture Patterns](https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52) [slides](http://slides.com/borlov/arch/fullscreen#/7)
 
 ***************************
 
