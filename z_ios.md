@@ -14,7 +14,7 @@ Before starting with actual topics, lets start with undestanding few required te
 * Native platform?
 * Cross-platform?
 
-**Note: this article is intended to study only the core technical concepts and some brief survey of mobile industry**
+**(In this article I intended to study only the core technical concepts and some brief survey on mobile app industry)**
 *************************
 
 ## mobile operating system
@@ -244,16 +244,27 @@ Note:
 Source: wiki
 
 **********************
-**Native platform mobile apps:** A native mobile app is an application which meets the requirements of a particular operating system by using its SDK (as well as hardware memory, gear and other applications installed on a device).
+### Native platform mobile apps
 
-**Cross-platform-mobile app:** A cross-platform application is a mobile app which is compatible with multiple operating systems and can therefore run on any smartphone or tablet.
+A native mobile app is an application which meets the requirements of a particular operating system by using its SDK (as well as hardware memory, gear and other applications installed on a device).
 
+
+### Cross-platform-mobile app
+
+A cross-platform application is a mobile app which is compatible with multiple operating systems and can therefore run on any smartphone or tablet.
+
+<br>
 There are two types of cross-platform mobile applications:
 
-*  Native cross-platform apps: Each operating system has its SDK and major tech stack (Java for Android and Objective-C/Swift for iOS app development). An experienced mobile vendor, however, can create a unified API running on top of a native Software Development Kit and use the same codebase for both Android ad iOS apps. Native cross-platform applications are primarily built with Xamarin and Appcelerator Titanium;
-*  Hybrid HTML5 applications:  Although mobile applications are designed for smartphones and tablets, it is backend servers (either on-prem or Cloud-based) that handle application logic. Since both iOS and Android SDKs feature advanced web components, skilled software engineers often utilize WebView to create parts of an application’s GUI (Graphical User Interface) with HTML5, CSS and JavaScript. The most popular hybrid app development framework is Apache Cordova (formerly known as PhoneGap).
+<br>
+*  **Native cross-platform apps:** Each operating system has its SDK and major tech stack (Java for Android and Objective-C/Swift for iOS app development). An experienced mobile vendor, however, can create a unified API running on top of a native Software Development Kit and use the same codebase for both Android ad iOS apps. Native cross-platform applications are primarily built with Xamarin and Appcelerator Titanium;
 
-There are few artciles which discusses about pros and cons of native and cross-platforms apps:
+<br>
+*  **Hybrid HTML5 applications:**  Although mobile applications are designed for smartphones and tablets, it is backend servers (either on-prem or Cloud-based) that handle application logic. Since both iOS and Android SDKs feature advanced web components, skilled software engineers often utilize WebView to create parts of an application’s GUI (Graphical User Interface) with HTML5, CSS and JavaScript. The most popular hybrid app development framework is Apache Cordova (formerly known as PhoneGap).
+
+
+<br>
+There are some articles which discusses about pros and cons of native and cross-platforms apps:
 
 * [Why we are not cross-platform developers](https://android.jlelse.eu/why-we-are-not-cross-platform-developers-fd7ef70e976d)
 * [Cross-Platform vs. Native App App Development: Pros and Cons](http://www.businessofapps.com/cross-platform-vs-native-app-app-development-pros-and-cons/)
@@ -331,7 +342,7 @@ There are few artciles which discusses about pros and cons of native and cross-p
 ## mobile app architecture patterns
 
 
-some artciles I found on this:
+some artciles which discusses about mobile app architecture patterns:
 
 * [stackoverflow: What are the architectural patterns used in Mobile applications (other than MVC)?](https://stackoverflow.com/questions/18231071/what-are-the-architectural-patterns-used-in-mobile-applications-other-than-mvc)
 * [stackoverflow: Mobile Development Architecture & Design Patterns](https://stackoverflow.com/questions/3090791/mobile-development-architecture-design-patterns)
@@ -344,5 +355,35 @@ Environments](https://www.sei.cmu.edu/library/assets/presentations/lewis-saturn2
 * [github: android-architecture ](https://github.com/googlesamples/android-architecture)
 * [medium : iOS Architecture Patterns](https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52) [slides](http://slides.com/borlov/arch/fullscreen#/7)
 
-***************************
+now lets start exploring subjective topics.. 
 
+***************************
+# Native Mobile app Development
+********
+## iOS
+
+
+****************
+## Andorid
+
+
+****************
+## Windows
+
+************
+# Cross-Platform Mobile app Development
+************
+
+## phonegap/apache cordova
+
+**********
+## xamarin
+
+************
+## unity
+
+**********
+## appcelerator
+
+*****************
+**********************
