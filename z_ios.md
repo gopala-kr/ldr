@@ -804,6 +804,11 @@ more details from official doc [Cocoa Touch Layer](https://developer.apple.com/l
 ## Andorid
 
 
+ | HackerNews        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Official docs|
+| ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
+|  [android development](https://hn.algolia.com/?query=android%20development&sort=byPopularity&prefix=false&page=0&dateRange=all&type=story)  | [android development](https://medium.com/tag/android-app-development)   | [android development](https://www.reddit.com/r/androiddev/)  | [android development](https://stackoverflow.com/questions/tagged/android)   |  [android development](https://www.quora.com/topic/Android-Application-Development)     | [android development](https://github.com/JStumpp/awesome-android)   | [android development](https://www.lynda.com/Android-training-tutorials/947-0.html)   | [android development](https://developer.android.com/reference/packages.html)   |
+
+
 > **brief history of android**
 
 > Android Inc. was founded in Palo Alto, California in October 2003 by Andy Rubin, Rich Miner, Nick Sears, and Chris White. Rubin described the Android project as "tremendous potential in developing smarter mobile devices that are more aware of its owner's location and preferences".The early intentions of the company were to develop an advanced operating system for digital cameras, and this was the basis of its pitch to investors in April 2004. The company then decided that the market for cameras was not large enough for its goals, and by five months later it had diverted its efforts and was pitching Android as a handset operating system that would rival Symbian and Microsoft Windows Mobile.
