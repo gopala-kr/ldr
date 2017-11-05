@@ -815,6 +815,13 @@ On November 5, 2007, the Open Handset Alliance, a consortium of technology compa
 
 > Google introduced the Pixel and Pixel XL smartphones in October 2016, marketed as being the first phones made by Google, and exclusively featured certain software features, such as the Google Assistant, before wider rollout. The Pixel phones replaced the Nexus series, with a new generation of Pixel phones launched in October 2017.
 
+<br>
+
+
+### Android versions and major releases
+
+<br>
+
 <table class="wikitable sortable">
 <tr>
 <th>Code name</th>
@@ -930,6 +937,9 @@ On November 5, 2007, the Open Handset Alliance, a consortium of technology compa
 </tr>
 </table>
 
+<br>
+<br>
+
 Global Android version distribution as of August 2017. Android Marshmallow is the most widely used version of Android, running on 32.2% of all Android devices accessing Google Play, while Android Lollipop runs on 29.8% of devices (76.8% on it or newer).
 
 <br>
@@ -952,9 +962,9 @@ Global Android version distribution as of August 2017. Android Marshmallow is th
   <strong></strong> The Android software stack.
 </p>
 
-<h2 id="linux-kernel">
+<h3 id="linux-kernel">
 The Linux Kernel
-</h2>
+</h3>
 
 <p>
   The foundation of the Android platform is the Linux kernel. For example,
@@ -968,9 +978,9 @@ The Linux Kernel
   drivers for a well-known kernel.
 </p>
 
-<h2 id="hal">
+<h3 id="hal">
 Hardware Abstraction Layer (HAL)
-</h2>
+</h3>
 
 <p>
   The <a href="https://source.android.com/devices/index.html#Hardware%20Abstraction%20Layer">
@@ -982,9 +992,9 @@ Hardware Abstraction Layer (HAL)
   system loads the library module for that hardware component.
 </p>
 
-<h2 id="art">
+<h3 id="art">
 Android Runtime
-</h2>
+</h3>
 
 <p>
   For devices running Android version 5.0 (API level 21) or higher, each app
@@ -1026,9 +1036,9 @@ Android Runtime
   API framework uses.
 </p>
 
-<h2 id="native-libs">
+<h3 id="native-libs">
   Native C/C++ Libraries
-</h2>
+</h3>
 
 <p>
   Many core Android system components and services, such as ART and HAL, are
@@ -1046,9 +1056,9 @@ Android Runtime
   your native code.
 </p>
 
-<h2 id="api-framework">
+<h3 id="api-framework">
 Java API Framework
-</h2>
+</h3>
 
 <p>
   The entire feature-set of the Android OS is available to you through APIs
@@ -1087,9 +1097,9 @@ Java API Framework
   Developers have full access to the same <a href="https://developer.android.com/reference/packages.html">framework APIs</a> that Android system apps use.
 </p>
 
-<h2 id="system-apps">
+<h3 id="system-apps">
 System Apps
-</h2>
+</h3>
 
 <p>
   Android comes with a set of core apps for email, SMS messaging, calendars,
@@ -1107,6 +1117,12 @@ System Apps
   functionality yourself—you can instead invoke whichever SMS app is already
   installed to deliver a message to the recipient you specify.
 </p>
+
+<br>
+
+### framework details
+
+![](https://source.android.com/images/android_framework_details.png]
 
 ## Android Core Technologies
 
@@ -1237,7 +1253,984 @@ development community interact with test data.</p>
   
   </div>
   
-  
+**************** 
+ ## Android app architecture and components
+ 
+ <p>Android apps can be written using Kotlin, Java, and C++ languages. The Android SDK tools compile
+your code along with any data and resource files into an APK, an <i>Android package</i>,
+which is an archive file with an <code>.apk</code> suffix. One APK file contains all the contents
+of an Android app and is the file that Android-powered devices use to install the app.</p>
+
+<p>Each Android app lives in its own security sandbox, protected by
+ the following Android security features: </p>
+
+<ul>
+ <li>The Android operating system is a multi-user Linux system in which each app is a
+different user.</li>
+
+<li>By default, the system assigns each app a unique Linux user ID (the ID is used only by
+the system and is unknown to the app). The system sets permissions for all the files in an
+app so that only the user ID assigned to that app can access them. </li>
+
+<li>Each process has its own virtual machine (VM), so an app's code runs in isolation from
+other apps.</li>
+
+<li>By default, every app runs in its own Linux process. The Android system starts
+ the process when any
+of the app's components need to be executed, and then shuts down the process
+ when it's no longer
+needed or when the system must recover memory for other apps.</li>
+</ul>
+
+<p>The Android system implements the <em>principle of least privilege</em>. That is,
+each app, by default, has access only to the components that it requires to do its work and
+no more. This creates a very secure environment in which an app cannot access parts of
+the system for which it is not given permission. However, there are ways for an app to share
+ data with other apps and for an
+app to access system services:</p>
+
+<ul>
+  <li>It's possible to arrange for two apps to share the same Linux user ID, in which case
+they are able to access each other's files.  To conserve system resources, apps with the
+same user ID can also arrange to run in the same Linux process and share the same VM. The
+apps must also be signed with the same certificate.</li>
+  <li>An app can request permission to access device data such as the user's
+contacts, SMS messages, the mountable storage (SD card), camera, and Bluetooth. The user has
+to explicitly grant these permissions. For more information, see
+<a href="https://developer.android.com/training/permissions/index.html">Working with System Permissions</a>.</li>
+</ul>
+
+<p>The rest of this document introduces the following concepts:</p>
+<ul>
+  <li>The core framework components that define your app.</li>
+  <li>The manifest file in which you declare the components and the required device
+  features for your
+app.</li>
+  <li>Resources that are separate from the app code and that allow your app to
+gracefully optimize its behavior for a variety of device configurations.</li>
+</ul>
+
+
+
+<h2 id="Components">App components</h2>
+
+<p>App components are the essential building blocks of an Android app. Each
+component is an entry point through which the system or a user can enter your app. Some
+components depend on others.</p>
+
+<p>There are four different types of app components:
+<ul>
+<li>Activities.</li>
+<li>Services.</li>
+<li>Broadcast receivers.</li>
+<li>Content providers.</li>
+</ul></p>
+Each type serves a distinct purpose
+and has a distinct lifecycle that defines how the component is created and destroyed.
+ The following sections describe the four types of app components.</p>
+
+<dl>
+
+<dt><b>Activities</b></dt>
+
+<dd>An <i>activity</i> is the entry point for interacting with the user. It represents a single
+ screen with a user interface. For example,
+an email app might have one activity that shows a list of new
+emails, another activity to compose an email, and another activity for reading emails. Although
+the activities work together to form a cohesive user experience in the email app, each one
+is independent of the others. As such, a different app can start any one of these
+activities if the email app allows it. For example, a camera app can start the
+activity in the email app that composes new mail to allow the user to share a picture.
+
+An activity facilitates the following key interactions between system and app:
+
+  <ul>
+    <li>Keeping track of what the user currently cares about (what is on screen) to ensure that the
+      system keeps running the process that is hosting the activity.</li>
+    <li>Knowing that previously used processes contain things the user may return to (stopped
+      activities), and thus more highly prioritize keeping those processes around.</li>
+    <li>Helping the app handle having its process killed so the user can return to activities
+      with their previous state restored.</li>
+    <li>Providing a way for apps to implement user flows between each other, and for the system to
+      coordinate these flows. (The most classic example here being share.)</li>
+  </ul>
+
+<p>You implement an activity as a subclass of the <code><a href="https://developer.android.com/reference/android/app/Activity.html">Activity</a></code> class. For more
+  information about the <code><a href="https://developer.android.com/reference/android/app/Activity.html">Activity</a></code> class, see the
+ <a href="https://developer.android.com/guide/components/activities.html">Activities</a> developer guide.</p>
+</dd>
+
+
+<dt><b>Services</b></dt>
+
+<dd>A <i>service</i> is a general-purpose entry point for keeping an app running in the background
+for all kinds of reasons. It is a component that runs in the background to perform long-running
+operations or to perform work for remote processes. A service does not provide a user interface. For
+example, a service might play music in the background while the user is in a different app, or
+it might fetch data over the network without blocking user interaction with an activity. Another
+component, such as an activity, can start the service and let it run or bind to it in order to
+interact with it.
+
+There are actually two very distinct semantics services tell the system about how to manage an app:
+
+Started services tell the system to keep them running until their work is completed.
+This could be to sync some data in the background or play music even after the user leaves the app.
+Syncing data in the background or playing music also represent two different types of started
+services that modify how the system handles them:
+
+  <ul>
+    <li>Music playback is something the user is directly aware of, so the app tells the system this
+      by saying it wants to be foreground with a notification to tell the user about it; in this
+      case the system knows that it should try really hard to keep that service's process running,
+      because the user will be unhappy if it goes away.
+    </li>
+
+    <li>A regular background service is not something the user is directly aware as running, so
+      the system has more freedom in managing its process.  It may allow it to be killed
+      (and then restarting the service sometime later) if it needs RAM for things that are of more
+      immediate concern to the user.
+    </li>
+  </ul>
+Bound services run because some other app (or the system) has said that it wants to make use of the
+service.  This is basically the service providing an API to another process.  The system thus
+knows there is a dependency between these processes, so if process A is bound to a service in
+process B, it knows that it needs to keep process B (and its service) running for A.  Further, if
+process A is something the user cares about, then it also knows to treat process B as something the
+user also cares about.
+
+Because of their flexibility (for better or worse), services have turned out to be a really useful
+building block for all kinds of higher-level system concepts.  Live wallpapers, notification
+listeners, screen savers, input methods, accessibility services, and many other core system features
+are all built as services that applications implement and the system binds to when they should be
+running.
+
+<p>A service is implemented as a subclass of <code><a href="https://developer.android.com/reference/android/app/Service.html">Service</a></code>. For more information
+about the <code><a href="https://developer.android.com/reference/android/app/Service.html">Service</a></code> class, see the <a href="https://developer.android.com/guide/components/services.html">
+Services</a> developer guide.</p>
+
+
+<p class="note"><strong>Note:</strong> If your app targets Android 5.0 (API level 21) or later,
+ use the <code><a href="https://developer.android.com/reference/android/app/job/JobScheduler.html">JobScheduler</a></code> class to schedule actions. JobScheduler has the
+advantage of conserving battery by optimally scheduling jobs to reduce power consumption,
+and by working with the <a href="https://developer.android.com/training/monitoring-device-state/doze-standby.html">Doze</a> API.
+For more information about using this class, see the <code><a href="https://developer.android.com/reference/android/app/job/JobScheduler.html">JobScheduler</a></code>
+reference documentation.</p>
+
+
+  </dd>
+
+<dt><b>Broadcast receivers</b></dt>
+
+<dd>A <i>broadcast receiver</i> is a component that enables the system to deliver events to the
+app outside of a regular user flow, allowing the app to respond to system-wide broadcast
+announcements. Because broadcast receivers are another well-defined entry into the app, the system
+can deliver broadcasts even to apps that aren't currently running.  So, for example, an app can
+schedule an alarm to post a notification to tell the user about an upcoming event...
+and by delivering that alarm to a BroadcastReceiver of the app, there is no need for the app to
+remain running until the alarm goes off.
+
+Many broadcasts originate from the system&mdash;for example,
+ a broadcast announcing
+that the screen has turned off, the battery is low, or a picture was captured.
+Apps can also initiate broadcasts&mdash;for example, to let other apps know that
+some data has been downloaded to the device and is available for them to use.
+ Although broadcast
+receivers don't display a user interface, they may <a
+href="https://developer.android.com/guide/topics/ui/notifiers/notifications.html">create a status bar notification</a>
+to alert the user when a broadcast event occurs. More commonly, though, a broadcast receiver is
+just a <em>gateway</em> to other components and is intended to do a very minimal amount of work.
+ For instance, it might schedule a <code><a href="https://developer.android.com/reference/android/app/job/JobService.html">JobService</a></code> to perform some work based
+on the event with <code><a href="https://developer.android.com/reference/android/app/job/JobScheduler.html">JobScheduler</a></code>
+
+<p>A broadcast receiver is implemented as a subclass of <code><a href="https://developer.android.com/reference/android/content/BroadcastReceiver.html">BroadcastReceiver</a></code>
+and each broadcast is delivered as an <code><a href="https://developer.android.com/reference/android/content/Intent.html">Intent</a></code> object. For more information,
+see the <code><a href="https://developer.android.com/reference/android/content/BroadcastReceiver.html">BroadcastReceiver</a></code> class.</p>
+</dd>
+
+<dt><b>Content providers</b></dt>
+
+<dd>A <i>content provider</i> manages a shared set of app data that you can store in
+the file system, in a SQLite database, on the web, or on any other persistent storage
+location that your
+app can access. Through the content provider, other apps can query or modify
+the data if the content provider allows it.
+
+For example, the Android system provides a content
+provider that manages the user's contact information. As such, any app with the proper
+permissions can query the content provider, such as
+<code><a href="https://developer.android.com/reference/android/provider/ContactsContract.Data.html">ContactsContract.Data</a></code>, to read and write information about
+a particular person.
+
+It is tempting to think of a content provider as an abstraction on a database, because there is a
+lot of API and support built in to them for that common case. However, they have a different
+core purpose from a system-design perspective.
+
+To the system, a content provider is an entry point into an app for publishing named data items,
+identified by a URI scheme.  Thus an app can decide how it wants to map the data it contains to a
+URI namespace, handing out those URIs to other entities which can in turn use them to access the
+data.  There are a few particular things this allows the system to do in managing an app:
+
+  <ul>
+    <li>Assigning a URI doesn't require that the app remain running, so URIs can persist after their
+      owning apps have exited. The system only needs to make sure that an owning app is
+      still running when it has to retrieve the app's data from the corresponding URI.</li>
+  <li>These URIs also provide an important fine-grained security model.  For example, an
+    app can place the URI for an image it has on the clipboard, but leave its content
+    provider locked up so that other apps cannot freely access it.  When a second app attempts
+    to access that URI on the clipboard,the system can allow that app to
+    access the data via a temporary <i>URI permission grant</i>
+    so that it is allowed to
+    access the data only behind that URI, but nothing else in the second app.</li>
+  </ul>
+
+<p>Content providers are also useful for reading and writing data that is private to your
+app and not shared. For example, the <a
+href="https://developer.android.com/resources/samples/NotePad/index.html">Note Pad</a> sample app uses a
+content provider to save notes.</p>
+
+<p>A content provider is implemented as a subclass of <code><a href="https://developer.android.com/reference/android/content/ContentProvider.html">ContentProvider</a></code>
+and must implement a standard set of APIs that enable other apps to perform
+transactions. For more information, see the <a
+href="https://developer.android.com/guide/topics/providers/content-providers.html">Content Providers</a> developer
+guide.</p>
+</dd>
+
+</dl>
+
+<p>A unique aspect of the Android system design is that any app can start another
+app’s component. For example, if you want the user to capture a
+photo with the device camera, there's probably another app that does that and your
+app can use it instead of developing an activity to capture a photo yourself. You don't
+need to incorporate or even link to the code from the camera app.
+Instead, you can simply start the activity in the camera app that captures a
+photo. When complete, the photo is even returned to your app so you can use it. To the user,
+it seems as if the camera is actually a part of your app.</p>
+
+<p>When the system starts a component, it starts the process for that app if it's not
+already running and instantiates the classes needed for the component. For example, if your
+app starts the activity in the camera app that captures a photo, that activity
+runs in the process that belongs to the camera app, not in your app's process.
+Therefore, unlike apps on most other systems, Android apps don't have a single entry
+point (there's no <code>main()</code> function).</p>
+
+<p>Because the system runs each app in a separate process with file permissions that
+restrict access to other apps, your app cannot directly activate a component from
+another app. However, the Android system can. To activate a component in
+another app, deliver a message to the system that specifies your <em>intent</em> to
+start a particular component. The system then activates the component for you.</p>
+
+
+<h3 id="ActivatingComponents">Activating components</h3>
+
+<p>Three of the four component types&mdash;activities, services, and
+broadcast receivers&mdash;are activated by an asynchronous message called an <em>intent</em>.
+Intents bind individual components to each other at runtime. You can think of them
+as the messengers that request an action from other components, whether the component belongs
+to your app or another.</p>
+
+<p>An intent is created with an <code><a href="https://developer.android.com/reference/android/content/Intent.html">Intent</a></code> object, which defines a message to
+activate either a specific component (explicit intent) or a specific <em>type</em> of component
+ (implicit intent).</p>
+
+<p>For activities and services, an intent defines the action to perform (for example, to
+ <em>view</em> or
+<em>send</em> something) and may specify the URI of the data to act on, among other things that the
+component being started might need to know. For example, an intent might convey a request for an
+activity to show an image or to open a web page. In some cases, you can start an
+activity to receive a result, in which case the activity also returns
+the result in an <code><a href="https://developer.android.com/reference/android/content/Intent.html">Intent</a></code>. For example, you can issue an intent to let
+the user pick a personal contact and have it returned to you. The return intent includes a
+URI pointing to the chosen contact.</p>
+
+<p>For broadcast receivers, the intent simply defines the
+announcement being broadcast. For example, a broadcast to indicate the device battery is low
+includes only a known action string that indicates <em>battery is low</em>.</p>
+
+<p>Unlike activities, services, and broadcast receivers, content providers are not activated
+ by intents. Rather, they are
+activated when targeted by a request from a <code><a href="https://developer.android.com/reference/android/content/ContentResolver.html">ContentResolver</a></code>. The content
+resolver handles all direct transactions with the content provider so that the component that's
+performing transactions with the provider doesn't need to and instead calls methods on the
+<code><a href="https://developer.android.com/reference/android/content/ContentResolver.html">ContentResolver</a></code> object. This leaves a layer of abstraction between the
+content provider and the component requesting information (for security).</p>
+
+<p>There are separate methods for activating each type of component:</p>
+<ul>
+  <li>You can start an activity or give it something new to do by
+passing an <code><a href="https://developer.android.com/reference/android/content/Intent.html">Intent</a></code> to <code><a href="https://developer.android.com/reference/android/content/Context.html#startActivity(android.content.Intent)">startActivity()</a></code> or <code><a href="https://developer.android.com/reference/android/app/Activity.html#startActivityForResult(android.content.Intent, int)">startActivityForResult()</a></code>
+(when you want the activity to return a result).</li>
+
+
+  <li>With Android 5.0 (API level 21) and later, you can use
+  the <code><a href="https://developer.android.com/reference/android/app/job/JobScheduler.html">JobScheduler</a></code> class to schedule actions.
+    For earlier Android versions, you can start
+  a service (or give new instructions to an ongoing service) by
+passing an <code><a href="https://developer.android.com/reference/android/content/Intent.html">Intent</a></code> to <code><a href="https://developer.android.com/reference/android/content/Context.html#startService(android.content.Intent)">startService()</a></code>. You can bind to the service by passing an <code><a href="https://developer.android.com/reference/android/content/Intent.html">Intent</a></code> to
+<code><a href="https://developer.android.com/reference/android/content/Context.html#bindService(android.content.Intent, android.content.ServiceConnection, int)">bindService()</a></code>. </li>
+  <li>You can initiate a broadcast by passing an <code><a href="https://developer.android.com/reference/android/content/Intent.html">Intent</a></code> to methods such as
+<code><a href="https://developer.android.com/reference/android/content/Context.html#sendBroadcast(android.content.Intent)">sendBroadcast()</a></code>, <code><a href="https://developer.android.com/reference/android/content/Context.html#sendOrderedBroadcast(android.content.Intent, java.lang.String)">sendOrderedBroadcast()</a></code>, or <code><a href="https://developer.android.com/reference/android/content/Context.html#sendStickyBroadcast(android.content.Intent)">sendStickyBroadcast()</a></code>.</li>
+  <li>You can perform a query to a content provider by calling <code><a href="https://developer.android.com/reference/android/content/ContentProvider.html#query(android.net.Uri, java.lang.String[], android.os.Bundle, android.os.CancellationSignal)">query()</a></code> on a <code><a href="https://developer.android.com/reference/android/content/ContentResolver.html">ContentResolver</a></code>.</li>
+</ul>
+
+<p>For more information about using intents, see the <a
+href="https://developer.android.com/guide/components/intents-filters.html">Intents and
+Intent Filters</a> document.
+ The following documents provide more information about activating specifc components:
+ <a href="https://developer.android.com/guide/components/activities.html">Activities</a>,
+ <a href="https://developer.android.com/guide/components/services.html">Services
+ <code><a href="https://developer.android.com/reference/android/content/BroadcastReceiver.html">BroadcastReceiver</a></code>, and
+ <a ref="/guide/topics/providers/content-providers.html">Content Providers</a>.</p>
+
+<h2 id="Manifest">The manifest file</h2>
+
+<p>Before the Android system can start an app component, the system must know that the
+component exists by reading the app's <em>manifest file</em>, <code>AndroidManifest.xml</code>.
+ Your app must declare all its components in this file, which must be at the root of the
+ app project directory.</p>
+
+<p>The manifest does a number of things in addition to declaring the app's components,
+such as the following:</p>
+<ul>
+  <li>Identifies any user permissions the app requires, such as Internet access or
+read-access to the user's contacts.</li>
+  <li>Declares the minimum
+  <a href="https://developer.android.com/guide/topics/manifest/uses-sdk-element.html#ApiLevels">API Level</a>
+required by the app, based on which APIs the app uses.</li>
+  <li>Declares hardware and software features used or required by the app, such as a camera,
+bluetooth services, or a multitouch screen.</li>
+  <li>Declares API libraries the app needs to be linked against (other than the Android framework
+APIs), such as the <a
+href="http://code.google.com/android/add-ons/google-apis/maps-overview.html">
+Google Maps library</a>.</li>
+
+</ul>
+
+
+<h3 id="DeclaringComponents">Declaring components</h3>
+
+<p>The primary task of the manifest is to inform the system about the app's components. For
+example, a manifest file can declare an activity as follows: </p>
+
+<pre>
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;manifest ... &gt;
+    &lt;application android:icon="@drawable/app_icon.png" ... &gt;
+        &lt;activity android:name="com.example.project.ExampleActivity"
+                  android:label="@string/example_label" ... &gt;
+        &lt;/activity&gt;
+        ...
+    &lt;/application&gt;
+&lt;/manifest&gt;</pre>
+
+<p>In the <code><a
+href="https://developer.android.com/guide/topics/manifest/application-element.html">&lt;application&gt;</a></code>
+element, the <code>android:icon</code> attribute points to resources for an icon that identifies the
+app.</p>
+
+<p>In the <code><a
+href="https://developer.android.com/guide/topics/manifest/activity-element.html">&lt;activity&gt;</a></code> element,
+the <code>android:name</code> attribute specifies the fully qualified class name of the <code><a href="https://developer.android.com/reference/android/app/Activity.html">Activity</a></code> subclass and the <code>android:label</code> attribute specifies a string
+to use as the user-visible label for the activity.</p>
+
+<p>You must declare all app components using the following elements:</p>
+<ul>
+  <li><code><a
+href="https://developer.android.com/guide/topics/manifest/activity-element.html">&lt;activity&gt;</a></code> elements
+for activities.</li>
+  <li><code><a
+href="https://developer.android.com/guide/topics/manifest/service-element.html">&lt;service&gt;</a></code> elements for
+services.</li>
+  <li><code><a
+href="https://developer.android.com/guide/topics/manifest/receiver-element.html">&lt;receiver&gt;</a></code> elements
+for broadcast receivers.</li>
+  <li><code><a
+href="https://developer.android.com/guide/topics/manifest/provider-element.html">&lt;provider&gt;</a></code> elements
+for content providers.</li>
+</ul>
+
+<p>Activities, services, and content providers that you include in your source but do not declare
+in the manifest are not visible to the system and, consequently, can never run.  However,
+broadcast
+receivers can be either declared in the manifest or created dynamically in code as
+<code><a href="https://developer.android.com/reference/android/content/BroadcastReceiver.html">BroadcastReceiver</a></code> objects and registered with the system by calling
+<code><a href="https://developer.android.com/reference/android/content/Context.html#registerReceiver(android.content.BroadcastReceiver, android.content.IntentFilter)">registerReceiver()</a></code>.</p>
+
+<p>For more about how to structure the manifest file for your app, see <a
+href="https://developer.android.com/guide/topics/manifest/manifest-intro.html">The AndroidManifest.xml File</a>
+documentation. </p>
+
+<h3 id="DeclaringComponentCapabilities">Declaring component capabilities</h3>
+
+<p>As discussed above, in <a href="#ActivatingComponents">Activating components</a>, you can use an
+<code><a href="https://developer.android.com/reference/android/content/Intent.html">Intent</a></code> to start activities, services, and broadcast receivers.
+
+
+
+You can use an <code><a href="https://developer.android.com/reference/android/content/Intent.html">Intent</a></code>
+ by explicitly naming the target component (using the component class name) in the intent.
+ You can also use an implicit intent, which
+describes the type of action to perform and, optionally, the data upon which you’d like to
+perform the action. The implicit intent allows the system to find a component on the device
+ that can perform the
+action and start it. If there are multiple components that can perform the action described by the
+intent, the user selects which one to use.</p>
+
+<p class="caution"><strong>Caution:</strong> If you use an intent to start a
+ <code><a href="https://developer.android.com/reference/android/app/Service.html">Service</a></code>, ensure that your app is secure by using an
+ <a href="https://developer.android.com/guide/components/intents-filters.html#Types">explicit</a>
+intent. Using an implicit intent to start a service is a
+security hazard because you cannot be certain what service will respond to the intent,
+and the user cannot see which service starts. Beginning with Android 5.0 (API level 21), the system
+throws an exception if you call <code><a href="https://developer.android.com/reference/android/content/Context.html#bindService(android.content.Intent, android.content.ServiceConnection, int)">bindService()</a></code>
+with an implicit intent. Do not declare intent filters for your services. </p>
+
+<p>The system identifies the components that can respond to an intent by comparing the
+intent received to the <i>intent filters</i> provided in the manifest file of other apps on
+the device.</p>
+
+<p>When you declare an activity in your app's manifest, you can optionally include
+intent filters that declare the capabilities of the activity so it can respond to intents
+from other apps. You can declare an intent filter for your component by
+adding an <a href="https://developer.android.com/guide/topics/manifest/intent-filter-element.html"><code>&lt;intent-filter&gt;</code></a> element as a child of the component's declaration element.</p>
+
+<p>For example, if you build an email app with an activity for composing a new email, you can
+declare an intent filter to respond to "send" intents (in order to send a new email),
+ as shown in the following example:</p>
+<pre>
+&lt;manifest ... >
+    ...
+    &lt;application ... &gt;
+        &lt;activity android:name="com.example.project.ComposeEmailActivity">
+            &lt;intent-filter>
+                &lt;action android:name="android.intent.action.SEND" />
+                &lt;data android:type="*/*" />
+                &lt;category android:name="android.intent.category.DEFAULT" />
+            &lt;/intent-filter>
+        &lt;/activity>
+    &lt;/application&gt;
+&lt;/manifest>
+</pre>
+
+<p>If another app creates an intent with the <code><a href="https://developer.android.com/reference/android/content/Intent.html#ACTION_SEND">ACTION_SEND</a></code> action and passes it to
+ <code><a href="https://developer.android.com/reference/android/app/Activity.html#startActivity(android.content.Intent)">startActivity()</a></code>, the system may start your activity so the user can draft and send an
+email.</p>
+
+<p>For more about creating intent filters, see the <a
+href="https://developer.android.com/guide/components/intents-filters.html">Intents and Intent Filters</a> document.
+</p>
+
+
+
+<h3 id="DeclaringRequirements">Declaring app requirements</h3>
+
+<p>There are a variety of devices powered by Android and not all of them provide the
+same features and capabilities. To prevent your app from being installed on devices
+that lack features needed by your app, it's important that you clearly define a profile for
+the types of devices your app supports by declaring device and software requirements in your
+manifest file. Most of these declarations are informational only and the system does not read
+them, but external services such as Google Play do read them in order to provide filtering
+for users when they search for apps from their device.</p>
+
+<p>For example, if your app requires a camera and uses APIs introduced in Android 2.1 (<a
+href="https://developer.android.com/guide/topics/manifest/uses-sdk-element.html#ApiLevels">API Level</a> 7),
+you must declare these as requirements in your manifest file as shown in the following example:</p>
+
+<pre>
+&lt;manifest ... >
+    &lt;uses-feature android:name="android.hardware.camera.any"
+                  android:required="true" />
+    &lt;uses-sdk android:minSdkVersion="7" android:targetSdkVersion="19" />
+    ...
+&lt;/manifest>
+</pre>
+
+<p>With the declarations shown in the example, devices that do <em>not</em> have a
+ camera or have an
+Android version <em>lower</em> than 2.1 cannot install your app from Google Play.
+ However, you can declare that your app uses the camera, but does not
+<em>require</em> it. In that case, your app must set the <a href="https://developer.android.com/guide/topics/manifest/uses-feature-element.html#required"><code>required</code></a>
+attribute to <code>false</code> and check at runtime whether
+the device has a camera and disable any camera features as appropriate.</p>
+
+<p>More information about how you can manage your app's compatibility with different devices
+is provided in the <a href="https://developer.android.com/guide/practices/compatibility.html">Device Compatibility</a>
+document.</p>
+
+
+
+<h2 id="Resources">App resources</h2>
+
+<p>An Android app is composed of more than just code&mdash;it requires resources that are
+separate from the source code, such as images, audio files, and anything relating to the visual
+presentation of the app. For example, you can define animations, menus, styles, colors,
+and the layout of activity user interfaces with XML files. Using app resources makes it easy
+to update various characteristics of your app without modifying code. Providing
+sets of alternative resources enables you to optimize your app for a variety of
+device configurations, such as different languages and screen sizes.</p>
+
+<p>For every resource that you include in your Android project, the SDK build tools define a unique
+integer ID, which you can use to reference the resource from your app code or from
+other resources defined in XML. For example, if your app contains an image file named
+<code>logo.png</code> (saved in the <code>res/drawable/</code> directory), the SDK tools generate
+a resource ID named <code>R.drawable.logo</code>. This ID maps to an app-specific integer, which
+you can use to reference the image and insert it in your user interface.</p>
+
+<p>One of the most important aspects of providing resources separate from your source code
+is the ability to provide alternative resources for different device
+configurations. For example, by defining UI strings in XML, you can translate
+ the strings into other
+languages and save those strings in separate files. Then Android applies the
+ appropriate language strings
+to your UI based on a language <em>qualifier</em>
+that you append to the resource directory's name (such as <code>res/values-fr/</code> for French string
+values) and the user's language setting.</p>
+
+<p>Android supports many different <em>qualifiers</em> for your alternative resources. The
+qualifier is a short string that you include in the name of your resource directories in order to
+define the device configuration for which those resources should be used. For
+example, you should create different layouts for your activities, depending on the
+device's screen orientation and size. When the device screen is in portrait
+orientation (tall), you might want a layout with buttons to be vertical, but when the screen is in
+landscape orientation (wide), the buttons could be aligned horizontally. To change the layout
+depending on the orientation, you can define two different layouts and apply the appropriate
+qualifier to each layout's directory name. Then, the system automatically applies the appropriate
+layout depending on the current device orientation.</p>
+
+### The final architecture
+
+The following diagram shows all the modules in our recommended architecture and how they interact with one another:
+
+<br>
+
+![The final architecture](https://developer.android.com/topic/libraries/architecture/images/final-architecture.png)
+
+<br>
+
+## Activity life cycle
+
+<h2 id="alc">Activity-lifecycle concepts</h2>
+
+<p>
+To navigate transitions between stages of the activity lifecycle, the
+Activity class provides a core set of six callbacks:
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onCreate(android.os.Bundle)">onCreate()</a></code>,
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onStart()">onStart()</a></code>,
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onResume()">onResume()</a></code>,
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onPause()">onPause()</a></code>,
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onStop()">onStop()</a></code>, and
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onDestroy()">onDestroy()</a></code>. The system invokes
+each of these callbacks as an activity enters a new state.
+</p>
+
+<p>
+Figure 1 presents a visual representation of this paradigm.
+</p>
+
+<img src="https://developer.android.com/guide/components/images/activity_lifecycle.png" />
+<p class="img-caption"><strong>Figure 1.</strong>  A simplified
+illustration of the activity lifecycle.</p>
+
+<p>
+As the user begins to leave the activity, the system calls methods
+to dismantle the activity. In some cases, this dismantlement is only partial;
+the activity still resides in memory (such as when the user switches to another app),
+and can still come back to the foreground. If the user returns to that activity, the
+activity resumes from where the user left off. The system’s likelihood of
+killing a given process&mdash;along with the activities in it&mdash;depends on the state
+of the activity at the time. <a href="#asem">Activity state and ejection from
+memory</a> provides more information on the relationship between state and
+vulnerability to ejection.
+</p>
+
+<p>
+Depending on the complexity of your activity, you probably don't need to
+implement all the lifecycle methods. However, it's important that you
+understand each one and implement those that ensure your app behaves
+the way users expect.
+</p>
+
+<p>
+The next section of this document provides detail on the callbacks that you
+use to handle transitions between states.
+</p>
+
+<h2 id="lc">Lifecycle callbacks</h2>
+
+<p>
+This section provides conceptual and implementation information about the
+callback methods used during the activity lifecycle.
+</p>
+
+<h3 id="oncreate">onCreate()</h3>
+
+<p>
+You must implement this callback, which fires when the system first creates the
+activity. On activity creation, the activity enters the <em>Created</em> state.
+In the <code><a href="https://developer.android.com/reference/android/app/Activity.html#onCreate(android.os.Bundle)">onCreate()</a></code>
+method, you perform basic application startup logic that
+should happen only once for the entire life of the activity. For example, your
+implementation of
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onCreate(android.os.Bundle)">onCreate()</a></code> might bind
+data to lists, initialize background
+threads, and instantiate some class-scope variables. This method receives the
+parameter <code>savedInstanceState</code>, which is a <code><a href="https://developer.android.com/reference/android/os/Bundle.html">Bundle</a></code>
+object containing the activity's previously saved state. If the activity has
+never existed before, the value of the <code><a href="https://developer.android.com/reference/android/os/Bundle.html">Bundle</a></code> object is null.
+</p>
+
+<p>
+The following example of the
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onCreate(android.os.Bundle)">onCreate()</a></code> method
+shows fundamental setup for the activity, such as declaring the user interface
+(defined in an XML layout file), defining member variables, and configuring
+some of the UI. In this example, the XML layout file is specified by passing
+file’s resource ID <code>R.layout.main_activity</code> to
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#setContentView(android.view.View)">setContentView()</a></code>.
+</p>
+
+<pre>
+TextView mTextView;
+
+// some transient state for the activity instance
+String mGameState;
+
+@Override
+public void onCreate(Bundle savedInstanceState) {
+    // call the super class onCreate to complete the creation of activity like
+    // the view hierarchy
+    super.onCreate(savedInstanceState);
+
+    // recovering the instance state
+    if (savedInstanceState != null) {
+        mGameState = savedInstanceState.getString(GAME_STATE_KEY);
+    }
+
+    // set the user interface layout for this Activity
+    // the layout file is defined in the project res/layout/main_activity.xml file
+    setContentView(R.layout.main_activity);
+
+    // initialize member TextView so we can manipulate it later
+    mTextView = (TextView) findViewById(R.id.text_view);
+}
+
+// This callback is called only when there is a saved instance previously saved using
+// onSaveInstanceState(). We restore some state in onCreate() while we can optionally restore
+// other state here, possibly usable after onStart() has completed.
+// The savedInstanceState Bundle is same as the one used in onCreate().
+@Override
+public void onRestoreInstanceState(Bundle savedInstanceState) {
+    mTextView.setText(savedInstanceState.getString(TEXT_VIEW_KEY));
+}
+
+// invoked when the activity may be temporarily destroyed, save the instance state here
+@Override
+public void onSaveInstanceState(Bundle outState) {
+    outState.putString(GAME_STATE_KEY, mGameState);
+    outState.putString(TEXT_VIEW_KEY, mTextView.getText());
+
+    // call superclass to save any view hierarchy
+    super.onSaveInstanceState(outState);
+}
+</pre>
+
+<p>
+As an alternative to defining the XML file and passing it to <code><a href="https://developer.android.com/reference/android/app/Activity.html#setContentView(android.view.View)">setContentView()</a></code>, you
+can create new <code><a href="https://developer.android.com/reference/android/view/View.html">View</a></code> objects in your activity code and build a
+view hierarchy by inserting new <code><a href="https://developer.android.com/reference/android/view/View.html">View</a></code>s into a
+<code><a href="https://developer.android.com/reference/android/view/ViewGroup.html">ViewGroup</a></code>. You then use that layout by passing the
+root <code><a href="https://developer.android.com/reference/android/view/ViewGroup.html">ViewGroup</a></code> to
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#setContentView(android.view.View)">setContentView()</a></code>.
+For more information about creating a user interface, see the
+<a href="https://developer.android.com/guide/topics/ui/index.html">User Interface</a> documentation.
+</p>
+
+<p>
+Your activity does not reside in the Created
+state. After the <code><a href="https://developer.android.com/reference/android/app/Activity.html#onCreate(android.os.Bundle)">onCreate()</a></code> method finishes execution, the activity enters the <em>Started</em>
+state, and the system calls the <code><a href="https://developer.android.com/reference/android/app/Activity.html#onStart()">onStart()</a></code>
+and <code><a href="https://developer.android.com/reference/android/app/Activity.html#onResume()">onResume()</a></code> methods in quick
+succession. The next section explains the
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onStart()">onStart()</a></code> callback.
+</p>
+
+
+<h3 id="onstart">onStart()</h3>
+
+<p>
+When the activity enters the Started state, the system
+invokes this callback. The <code><a href="https://developer.android.com/reference/android/app/Activity.html#onStart()">onStart()</a></code> call
+makes the activity visible to the user, as the
+app prepares for the activity to enter the foreground and become interactive.
+For example, this method is where the app initializes the code that maintains
+the UI. It might also register a <code><a href="https://developer.android.com/reference/android/content/BroadcastReceiver.html">BroadcastReceiver</a></code>
+that monitors changes that are reflected in the UI.
+</p>
+
+<p>
+The <code><a href="https://developer.android.com/reference/android/app/Activity.html#onStart()">onStart()</a></code> method completes very
+quickly and, as with the Created state, the activity does not stay resident
+in the Started state. Once this callback finishes, the activity enters the
+<em>Resumed</em> state, and the system invokes the
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onResume()">onResume()</a></code> method.
+</p>
+
+
+<h3 id="onresume">onResume()</h3>
+
+<p>
+When the activity enters the Resumed state, it comes to the foreground, and then
+the system invokes the <code><a href="https://developer.android.com/reference/android/app/Activity.html#onResume()">onResume()</a></code>
+callback. This is the state in which the app
+interacts with the user. The app stays in this state until something happens to
+take focus away from the app. Such an event might be, for instance, receiving a
+phone call, the user’s navigating to another activity, or the device screen’s
+turning off.
+</p>
+
+<p>
+When an interruptive event occurs, the activity enters the <em>Paused</em>
+state, and the system invokes the
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onPause()">onPause()</a></code> callback.
+</p>
+
+<p>
+If the activity returns to
+the Resumed state from the Paused state, the system once again calls
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onResume()">onResume()</a></code> method. For this reason,
+you should implement <code><a href="https://developer.android.com/reference/android/app/Activity.html#onResume()">onResume()</a></code>
+to initialize components that you release during
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onPause()">onPause()</a></code>. For example,
+you may initialize the camera as follows:
+</p>
+
+<pre>
+&#64;Override
+public void onResume() {
+    super.onResume();  // Always call the superclass method first
+
+
+    // Get the Camera instance as the activity achieves full user focus
+    if (mCamera == null) {
+        initializeCamera(); // Local method to handle camera init
+    }
+}
+   </pre>
+
+<p>
+Be aware that the system calls this method every time your activity comes into
+the foreground, including when it's created for the first time. As such, you
+should implement <code><a href="https://developer.android.com/reference/android/app/Activity.html#onResume()">onResume()</a></code> to
+initialize components that you release during
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onPause()">onPause()</a></code>, and perform any other
+initializations that must occur each time the
+activity enters the Resumed state. For example, you should begin animations
+and initialize components that the activity only uses when it has user focus.
+</p>
+
+<h3 id="onpause">onPause()</h3>
+
+<p>
+The system calls this method as the first indication that the user is leaving
+your activity (though it does not always mean the activity is being destroyed).
+Use the <code><a href="https://developer.android.com/reference/android/app/Activity.html#onPause()">onPause()</a></code> method to pause
+operations such animations and music playback that should not continue while
+the <code><a href="https://developer.android.com/reference/android/app/Activity.html">Activity</a></code> is in the Paused state, and that you expect
+to resume shortly. There are several reasons why an activity may enter this
+state. For example:
+</p>
+
+<ul>
+   <li>Some event interrupts app execution, as described in
+    the <a href="#onresume">onResume()</a> section. This is the most common
+    case.</li>
+   <li>In Android 7.0 (API level 24) or higher, multiple apps run in
+    multi-window mode. Because only one of the apps (windows) has focus
+    at any time, the system pauses all of the other apps.</li>
+   <li>A new, semi-transparent activity (such as a dialog) opens. As long as
+    the activity is still partially visible but not in focus, it
+    remains paused.
+</ul>
+
+<p>
+You can use the <code><a href="https://developer.android.com/reference/android/app/Activity.html#onPause()">onPause()</a></code> method to
+release system resources, such as broadcast receivers, handles to sensors
+(like GPS), or any resources that may affect battery life while your
+activity is paused and the user does not need them.
+</p>
+
+<p>
+For example, if your application uses the Camera, the
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onPause()">onPause()</a></code> method is a good place to
+release it. The following example of
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onPause()">onPause()</a></code> is the counterpart to the
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onResume()">onResume()</a></code> example
+above, releasing the camera that the <code><a href="https://developer.android.com/reference/android/app/Activity.html#onResume()">onResume()</a></code> example initialized.
+</p>
+
+<pre>
+&#64;Override
+public void onPause() {
+    super.onPause();  // Always call the superclass method first
+
+
+    // Release the Camera because we don't need it when paused
+    // and other activities might need to use it.
+    if (mCamera != null) {
+        mCamera.release();
+        mCamera = null;
+    }
+}
+</pre>
+
+<p>
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onPause()">onPause()</a></code> execution is very brief, and
+does not necessarily afford enough time to perform save operations. For this
+reason, you should <strong>not</strong> use
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onPause()">onPause()</a></code> to save application or user
+data, make network calls, or execute database transactions; such work may not
+complete before the method completes. Instead, you should
+perform heavy-load shutdown operations during
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onStop()">onStop()</a></code>. For more information
+about suitable operations to perform during
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onStop()">onStop()</a></code>, see <a href="#onstop">
+onStop()</a>. For more information about saving data, see
+<a href="#saras">Saving and restoring activity state</a>.
+</p>
+
+<p> Completion of the <code><a href="https://developer.android.com/reference/android/app/Activity.html#onPause()">onPause()</a></code> method
+does not mean that the activity leaves the Paused state. Rather, the activity
+remains in this state until either the activity resumes or becomes completely
+invisible to the user. If the activity resumes, the system once again invokes
+the <code><a href="https://developer.android.com/reference/android/app/Activity.html#onResume()">onResume()</a></code> callback. If the
+activity returns from the Paused state to the Resumed state, the system keeps
+the <code><a href="https://developer.android.com/reference/android/app/Activity.html">Activity</a></code> instance resident in memory, recalling
+that instance when it the system invokes
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onResume()">onResume()</a></code>. In this scenario, you
+don’t need to re-initialize components that were created during any of the
+callback methods leading up to the Resumed state. If the activity becomes
+completely invisible, the system calls
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onStop()">onStop()</a></code>. The next section discusses
+the <code><a href="https://developer.android.com/reference/android/app/Activity.html#onStop()">onStop()</a></code> callback.
+</p>
+
+<h3 id="onstop">onStop()</h3>
+
+<p>
+When your activity is no longer visible to the user, it has entered the
+<em>Stopped</em> state, and the system invokes the
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onStop()">onStop()</a></code> callback. This may occur,
+for example, when a newly launched activity covers the entire screen. The
+system may also call <code><a href="https://developer.android.com/reference/android/app/Activity.html#onStop()">onStop()</a></code>
+when the activity has finished running, and is about to be terminated.
+</p>
+
+<p>
+In the <code><a href="https://developer.android.com/reference/android/app/Activity.html#onStop()">onStop()</a></code> method, the app should
+release almost all resources that aren't needed while the user is not using
+it. For example, if you registered a <code><a href="https://developer.android.com/reference/android/content/BroadcastReceiver.html">BroadcastReceiver</a></code>
+in <code><a href="https://developer.android.com/reference/android/app/Activity.html#onStart()">onStart()</a></code> to listen for changes that
+might affect your UI, you can unregister the broadcast receiver in
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onStop()">onStop()</a></code>, as the user can no longer
+see the UI. It is also important that you use
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onStop()">onStop()</a></code> to release resources that
+might leak memory, because it is possible for the system to kill the
+process hosting your activity without calling the activity's final
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onDestroy()">onDestroy()</a></code> callback.
+</p>
+
+<p>
+You should also use <code><a href="https://developer.android.com/reference/android/app/Activity.html#onStop()">onStop()</a></code>
+to perform relatively CPU-intensive shutdown operations. For example, if
+you can't find a more opportune time to save information to a database,
+you might do so during <code><a href="https://developer.android.com/reference/android/app/Activity.html#onStop()">onStop()</a></code>. The
+following example shows an implementation of
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onStop()">onStop()</a></code> that saves the contents of a
+draft note to persistent storage:
+</p>
+
+<pre>
+&#64;Override
+protected void onStop() {
+    // call the superclass method first
+    super.onStop();
+
+    // save the note's current draft, because the activity is stopping
+    // and we want to be sure the current note progress isn't lost.
+    ContentValues values = new ContentValues();
+    values.put(NotePad.Notes.COLUMN_NAME_NOTE, getCurrentNoteText());
+    values.put(NotePad.Notes.COLUMN_NAME_TITLE, getCurrentNoteTitle());
+
+    // do this update in background on an AsyncQueryHandler or equivalent
+    mAsyncQueryHandler.startUpdate (
+            mToken,  // int token to correlate calls
+            null,    // cookie, not used here
+            mUri,    // The URI for the note to update.
+            values,  // The map of column names and new values to apply to them.
+            null,    // No SELECT criteria are used.
+            null     // No WHERE columns are used.
+    );
+}
+</pre>
+
+<p>
+When your activity enters the Stopped state, the <code><a href="https://developer.android.com/reference/android/app/Activity.html">Activity</a></code>
+object is kept resident in memory: It maintains all state and member
+information, but is not attached to the window manager. When the activity
+resumes, the activity recalls this information. You don’t need to
+re-initialize components that were created during any of the callback methods
+leading up to the Resumed state. The system also keeps track of the current
+state for each <code><a href="https://developer.android.com/reference/android/view/View.html">View</a></code> object in the layout, so if the
+user entered text into an <code><a href="https://developer.android.com/reference/android/widget/EditText.html">EditText</a></code> widget, that
+content is retained so you don't need to save and restore it.
+</p>
+
+<p class="note">
+<strong>Note: </strong>Once your activity is stopped, the system
+might destroy the process that contains the activity if the system
+needs to recovery memory.
+Even if the system destroys the process while the activity
+is stopped, the system still retains the state of the <code><a href="https://developer.android.com/reference/android/view/View.html">View</a></code>
+objects (such as text in an <code><a href="https://developer.android.com/reference/android/widget/EditText.html">EditText</a></code> widget) in a
+<code><a href="https://developer.android.com/reference/android/os/Bundle.html">Bundle</a></code> (a blob of key-value pairs) and restores them
+if the user navigates back to the activity. For
+more information about restoring an activity to which a user returns, see
+<a href="#saras">Saving and restoring activity state</a>.
+</p>
+
+<p>
+From the Stopped state, the activity either comes back to interact with the
+user, or the activity is finished running and goes away. If the activity comes
+back, the system invokes <code><a href="https://developer.android.com/reference/android/app/Activity.html#onRestart()">onRestart()</a></code>.
+If the <code><a href="https://developer.android.com/reference/android/app/Activity.html">Activity</a></code> is finished running, the system calls
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#onDestroy()">onDestroy()</a></code>. The next
+section explains the <code><a href="https://developer.android.com/reference/android/app/Activity.html#onDestroy()">onDestroy()</a></code>
+callback.
+</p>
+
+
+<h3 id="ondestroy">onDestroy()</h3>
+
+<p>
+Called before the activity is destroyed. This is the
+final call that the activity receives. The system either invokes this callback
+because the activity is finishing due to someone's calling
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#finish()">finish()</a></code>, or because the
+system is temporarily destroying the process containing the activity to save
+space. You can distinguish between these two scenarios with the
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#isFinishing()">isFinishing()</a></code> method.
+The system may also call this method when an orientation change occurs, and
+then immediately call <code><a href="https://developer.android.com/reference/android/app/Activity.html#onCreate(android.os.Bundle)">onCreate()</a></code> to recreate the process (and the components that it contains)
+in the new orientation.
+</p>
+
+<p>
+The <code><a href="https://developer.android.com/reference/android/app/Activity.html#onDestroy()">onDestroy()</a></code>
+callback releases all resources that have not yet been released by earlier
+callbacks such as <code><a href="https://developer.android.com/reference/android/app/Activity.html#onStop()">onStop()</a></code>.
+</p>
+
+
+
 ****************
 ## Windows
 
