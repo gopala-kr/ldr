@@ -620,15 +620,21 @@ now lets start exploring subjective topics..
 <td><span style="margin:0; font-size:90%; white-space:nowrap;"><span class="legend-text" style="border:1px solid #AAAAAA; padding:1px .6em; background-color:#ececec; color:black; font-size:95%; line-height:1.25; text-align:center;">&#160;</span>&#160;<abbr title="iOS versions that have this color are no longer the latest version of iOS, however they might still be the latest version on some devices.">Discontinued</abbr></span></td>
 <td><span style="margin:0; font-size:90%; white-space:nowrap;"><span class="legend-text" style="border:1px solid #AAAAAA; padding:1px .6em; background-color:#d4f4b4; color:black; font-size:95%; line-height:1.25; text-align:center;">&#160;</span>&#160;<abbr title="iOS versions that have this color are the latest public version of iOS."><b>Current</b></abbr></span></td>
 <td><span style="margin:0; font-size:90%; white-space:nowrap;"><span class="legend-text" style="border:1px solid #AAAAAA; padding:1px .6em; background-color:#c1e6f5; color:black; font-size:95%; line-height:1.25; text-align:center;">&#160;</span>&#160;<abbr title="iOS versions that have this color are a beta version, and are not the latest public version.">Beta</abbr></span></td>
-</tr>
+  </tr>
+  
 </table>
+
   
 ********************
+
 Official: 
+
+<br>
 
 ![ios_versions](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/04-mobile-dev/ios_versions.JPG)
 
 **************
+
 ## list of apple devices and their timelines
 
 <div class="timeline-wrapper"><map name="timeline_f7e71d8726cc09cb584153ec78e053c0" id="timeline_f7e71d8726cc09cb584153ec78e053c0">
@@ -715,7 +721,7 @@ At the highest level, iOS acts as an intermediary between the underlying hardwar
 
 The implementation of iOS technologies can be viewed as a set of layers. Lower layers contain fundamental services and technologies. Higher-level layers build upon the lower layers and provide more sophisticated services and technologies.
 
-![](https://developer.apple.com/library/content/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Art/SystemLayers_2x.png)
+![layered architecture](https://developer.apple.com/library/content/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Art/SystemLayers_2x.png)
 
 
 ### Core OS Layer
@@ -743,7 +749,8 @@ The Cocoa Touch layer contains key frameworks for building iOS apps. These frame
 
 more details from official doc [Cocoa Touch Layer](https://developer.apple.com/library/content/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/iPhoneOSTechnologies/iPhoneOSTechnologies.html#//apple_ref/doc/uid/TP40007898-CH3-SW1)
 
-## Required developmenet tools & pre-requesites
+
+### Required developmenet tools & pre-requesites
 
 * Should have hands on knowledge on Objective C and Swift
 
@@ -753,7 +760,7 @@ more details from official doc [Cocoa Touch Layer](https://developer.apple.com/l
 
 <br>
 
-## iOS App Architecture
+### iOS App Architecture
 
 Apps need to work with the iOS to ensure that they deliver a great user experience. Beyond just a good design for your app’s design and user interface, a great user experience encompasses many other factors. Users expect iOS apps to be fast and responsive while expecting the app to use as little power as possible. Apps need to support all of the latest iOS devices while still appearing as if the app was tailored for the current device. Implementing all of these behaviors can seem daunting at first but iOS provides the help you need to make it happen.
 
@@ -766,17 +773,18 @@ Apps need to work with the iOS to ensure that they deliver a great user experien
 [Basic programming concepts from official guide](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007072-CH1-SW1)
 
 ************
+
 <h3 id="pageTitle">The App Life Cycle</h3>
 
 <section>
-    <h2 class="jump">The Structure of an App</h2>
+    <h4 class="jump">The Structure of an App</h4>
     <figure class="figure">
         <a name="//apple_ref/doc/uid/TP40007072-CH2-SW4" title="Key objects in an iOS app"></a>
 <img src="https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/core_objects_2x.png" alt="" width="521" height="458"></figure>
     <a name="//apple_ref/doc/uid/TP40007072-CH2-SW5" title="The role of objects in an iOS app"></a>
     <div class="tableholder">
         <table class="graybox" border="0" cellspacing="0" cellpadding="5">
-            <caption class="tablecaption"><strong class="caption_number">Table 2-1</strong>&nbsp;&nbsp;The role of objects in an iOS app</caption>
+            <caption class="tablecaption"><strong class="caption_number"></strong>&nbsp;&nbsp;The role of objects in an iOS app</caption>
             <tr>
                 <th scope="col" class="TableHeading_TableRow_TableCell">
                     <p>Object</p>
@@ -846,15 +854,15 @@ Apps need to work with the iOS to ensure that they deliver a great user experien
 </section>
 
 <section>
-    <h2 class="jump">The Main Run Loop</h2>
+    <h4 class="jump">The Main Run Loop</h4>
     <figure class="figure">
-        <a name="//apple_ref/doc/uid/TP40007072-CH2-SW15" title="Figure 2-2Processing events in the main run loop"></a>
+        <a name="//apple_ref/doc/uid/TP40007072-CH2-SW15" title="Processing events in the main run loop"></a>
 <img src="https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/event_draw_cycle_a_2x.png" alt="Processing events in the main run loop" width="608" height="406"></figure>
     <p>Many types of events can be delivered in an iOS app. The most common ones are listed in <span class="content_text"></span>. Many of these event types are delivered using the main run loop of your app, but some are not. Some events are sent to a delegate object or are passed to a block that you provide. For information about how to handle most types of events—including touch, remote control, motion, accelerometer, and gyroscopic events—see <em><!--a target="_self" -->Event Handling Guide for iOS<!--/a--></em>.</p>
     <a name="//apple_ref/doc/uid/TP40007072-CH2-SW16" title="Common types of events for iOS apps"></a>
     <div class="tableholder">
         <table class="graybox" border="0" cellspacing="0" cellpadding="5">
-            <caption class="tablecaption"><strong class="caption_number">Table 2-2</strong>&nbsp;&nbsp;Common types of events for iOS apps</caption>
+            <caption class="tablecaption"><strong class="caption_number"></strong>&nbsp;&nbsp;Common types of events for iOS apps</caption>
             <tr>
                 <th scope="col" class="TableHeading_TableRow_TableCell">
                     <p>Event type</p>
@@ -929,11 +937,10 @@ Apps need to work with the iOS to ensure that they deliver a great user experien
 </section>
 <section>
     <a name=""></a>
-    <h2 class="jump">Execution States for Apps</h2>
-    <a name="//apple_ref/doc/uid/TP40007072-CH2-SW19" title="Table 2-3App states"></a>
+    <h4 class="jump">Execution States for Apps</h4>
+    <a name="//apple_ref/doc/uid/TP40007072-CH2-SW19" title="App states"></a>
     <div class="tableholder">
         <table class="graybox" border="0" cellspacing="0" cellpadding="5">
-            <caption class="tablecaption"><strong class="caption_number">Table 2-3</strong>&nbsp;&nbsp;App states</caption>
             <tr>
                 <th scope="col" class="TableHeading_TableRow_TableCell">
                     <p>State</p>
@@ -986,8 +993,8 @@ Apps need to work with the iOS to ensure that they deliver a great user experien
         </table>
     </div>
     <figure class="figure">
-        <a name="https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/high_level_flow_2x.png" title="Figure 2-3State changes in an iOS app"></a>
-        <figcaption><strong class="caption_number">Figure 2-3</strong>&nbsp;&nbsp;State changes in an iOS app</figcaption><img src="https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/high_level_flow_2x.png" alt="" width="348" height="418"></figure>
+        <a name="https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/high_level_flow_2x.png" title="State changes in an iOS app"></a>
+        <figcaption><strong class="caption_number"></strong>&nbsp;&nbsp;State changes in an iOS app</figcaption><img src="https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/high_level_flow_2x.png" alt="" width="348" height="418"></figure>
     <ul class="ul">
         <li class="li">
             <p><code><a href="https://developer.apple.com/documentation/uikit/uiapplicationdelegate/1623032-application" target="_self" class="urlLink">application:willFinishLaunchingWithOptions:</a></code>—This method is your app’s first chance to execute code at launch time. </p>
