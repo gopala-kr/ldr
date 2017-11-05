@@ -379,6 +379,8 @@ now lets start exploring subjective topics..
 
 ## iOS
 
+(my friend for almost 3 years), I like the design part of ios.
+
  | HackerNews       | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Official docs|
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
 |  [ios](https://hn.algolia.com/?query=ios%20development&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [ios](https://medium.com/tag/ios-app-development)  | [iso](https://www.reddit.com/r/iOSProgramming/)  | [ios](https://www.quora.com/topic/iOS-Application-Development-1)  |  [ios](https://stackoverflow.com/questions/4765451/iphone-app-development-tutorials-beginner)    | [ios](https://github.com/vsouza/awesome-ios)  | [ios](https://www.lynda.com/iOS-training-tutorials/413-0.html) | [ios](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/) |
@@ -803,11 +805,13 @@ more details from official doc [Cocoa Touch Layer](https://developer.apple.com/l
 ****************
 ## Andorid
 
+I used it rarely.. but my long term friend.. which made me to understand the fundamentals of software. my first java program in eclipse was android 'Hello-world'. 
 
  | HackerNews        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Official docs|
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
 |  [android development](https://hn.algolia.com/?query=android%20development&sort=byPopularity&prefix=false&page=0&dateRange=all&type=story)  | [android development](https://medium.com/tag/android-app-development)   | [android development](https://www.reddit.com/r/androiddev/)  | [android development](https://stackoverflow.com/questions/tagged/android)   |  [android development](https://www.quora.com/topic/Android-Application-Development)     | [android development](https://github.com/JStumpp/awesome-android)   | [android development](https://www.lynda.com/Android-training-tutorials/947-0.html)   | [android development](https://developer.android.com/reference/packages.html)   |
 
+<br>
 
 > **brief history of android**
 
