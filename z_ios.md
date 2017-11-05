@@ -379,6 +379,13 @@ now lets start exploring subjective topics..
 
 ## iOS
 
+ | HackerNews       | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Official docs|
+| ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
+|  [ios](https://hn.algolia.com/?query=ios%20development&sort=byPopularity&prefix&page=0&dateRange=all&type=story)  | [ios](https://medium.com/tag/ios-app-development)  | [iso](https://www.reddit.com/r/iOSProgramming/)  | [ios](https://www.quora.com/topic/iOS-Application-Development-1)  |  [ios](https://stackoverflow.com/questions/4765451/iphone-app-development-tutorials-beginner)    | [ios](https://github.com/vsouza/awesome-ios)  | [ios](https://www.lynda.com/iOS-training-tutorials/413-0.html) | [ios](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/) |
+
+
+<br>
+
 > **brief history of ios**
 
 > In 2005, when Steve Jobs began planning the iPhone, he had a choice to either "shrink the Mac, which would be an epic feat of engineering, or enlarge the iPod". Jobs favored the former approach but pitted the Macintosh and iPod teams, led by Scott Forstall and Tony Fadell, respectively, against each other in an internal competition, with Forstall winning by creating the iPhone OS. The decision enabled the success of the iPhone as a platform for third-party developers: using a well-known desktop operating system as its basis allowed the many third-party Mac developers to write software for the iPhone with minimal retraining. Forstall was also responsible for creating a software development kit for programmers to build iPhone apps, as well as an App Store within iTunes.
