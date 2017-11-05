@@ -402,7 +402,9 @@ Apple provides major updates to the iOS operating system annually via iTunes and
 Originally, iPod Touch users had to pay for system software updates. This was due to accounting rules making the device not a "subscription device" like iPhone or Apple TV, and significant enhancements to the device required payments. The requirement to pay to upgrade caused iPod Touch owners to stay away from updates.[53] However, in September 2009, a change in accounting rules won tentative approval, significantly affecting both Apple's earnings and stock price, and allowing iPod Touch updates to be delivered for free.
 
 <br>
+
 **************
+
 <div class="timeline-wrapper"><map name="timeline_f7e71d8726cc09cb584153ec78e053c0" id="timeline_f7e71d8726cc09cb584153ec78e053c0">
 <area shape="rect" href="https://en.wikipedia.org/wiki/Apple_Watch_Series_3" coords="1076,1823,1224,1844" title="Apple Watch Series 3" alt="Apple Watch Series 3" />
 <area shape="rect" href="https://en.wikipedia.org/wiki/Apple_Watch_Series_3" coords="1076,1803,1224,1824" title="Apple Watch Series 3" alt="Apple Watch Series 3" />
@@ -466,11 +468,12 @@ Originally, iPod Touch users had to pay for system software updates. This was du
 <area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_3GS" coords="314,24,406,44" title="iPhone 3GS" alt="iPhone 3GS" />
 <area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_3G" coords="108,142,161,163" title="iPhone 3G" alt="iPhone 3G" />
 <area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_3G" coords="108,24,194,44" title="iPhone 3G" alt="iPhone 3G" />
-<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_(1st_generation)" coords="0,24,118,44" title="iPhone (1st generation)" alt="iPhone (1st generation)" /></map><img usemap="#timeline_f7e71d8726cc09cb584153ec78e053c0" src="//upload.wikimedia.org/wikipedia/en/timeline/f7e71d8726cc09cb584153ec78e053c0.png" /></div>
-<div style="text-align:center;font-size:88%;font-style:italic">Sources: <a href="https://en.wikipedia.org/wiki/Apple_Inc." title="Apple Inc.">Apple</a> press release library,<sup id="cite_ref-ApplePRlib_170-0" class="reference"><a href="#cite_note-ApplePRlib-170">[170]</a></sup> <a href="https://en.wikipedia.org/wiki/Mactracker" title="Mactracker">Mactracker</a> Apple Inc. model database<sup id="cite_ref-MactrackerINTEMPLATE_171-0" class="reference"><a href="#cite_note-MactrackerINTEMPLATE-171">[171]</a></sup></div>
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_(1st_generation)" coords="0,24,118,44" title="iPhone (1st generation)" alt="iPhone (1st generation)" /></map><img usemap="#timeline_f7e71d8726cc09cb584153ec78e053c0" src="https://upload.wikimedia.org/wikipedia/en/timeline/f7e71d8726cc09cb584153ec78e053c0.png" /></div>
+<div style="text-align:center;font-size:88%;font-style:italic">Sources: <a href="https://en.wikipedia.org/wiki/Apple_Inc." title="Apple Inc.">Apple</a> press release library, <a href="https://en.wikipedia.org/wiki/Mactracker" title="Mactracker">Mactracker</a> Apple Inc. model database</div>
 
 <br>
-********************
+
+
 
 ****************
 ## Andorid
