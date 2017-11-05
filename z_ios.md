@@ -13,7 +13,7 @@ Before starting with actual subjective topics, lets undestand some required term
 * Mobile OS?
 * Native platform apps?
 * Cross-platform apps?
-* Available softewares, platforms and tools
+* Available softwares, platforms and tools for mobile app development
 * Mobile app architectural/design patterns
 
 **(In this article I intended to study only the core technical concepts and some brief survey on mobile app industry)**
@@ -222,10 +222,11 @@ Mobile operating systems combine features of a personal computer operating syste
 * Palm OS
 
 ***************
+## Survey
 
 * In 2006, Android, iOS, and Windows Phone did not exist and only 64 million smartphones were sold. In 2016 Q4, 431.53 million smartphones were sold and global market share was 81.7% for Android, 17.9% for iOS, 0.3% for Windows 10 Mobile and 0.1% for all other platforms
 
-world-wide smartphone sale:
+world-wide smartphone sales:
 <br>
 
 ![smartphonesale](https://upload.wikimedia.org/wikipedia/commons/8/83/World_Wide_Smartphone_Sales.png)
@@ -373,6 +374,103 @@ now lets start exploring subjective topics..
 ********
 ## iOS
 
+> ** brief history of ios**
+
+> In 2005, when Steve Jobs began planning the iPhone, he had a choice to either "shrink the Mac, which would be an epic feat of engineering, or enlarge the iPod". Jobs favored the former approach but pitted the Macintosh and iPod teams, led by Scott Forstall and Tony Fadell, respectively, against each other in an internal competition, with Forstall winning by creating the iPhone OS. The decision enabled the success of the iPhone as a platform for third-party developers: using a well-known desktop operating system as its basis allowed the many third-party Mac developers to write software for the iPhone with minimal retraining. Forstall was also responsible for creating a software development kit for programmers to build iPhone apps, as well as an App Store within iTunes.
+
+> The operating system was unveiled with the iPhone at the Macworld Conference & Expo on January 9, 2007, and released in June of that year. At the time of its unveiling in January, Steve Jobs claimed: "iPhone runs OS X" and runs "desktop applications", but at the time of the iPhone's release, the operating system was renamed "iPhone OS". Initially, third-party native applications were not supported. Jobs' reasoning was that developers could build web applications through the Safari web browser that "would behave like native apps on the iPhone". In October 2007, Apple announced that a native Software Development Kit (SDK) was under development and that they planned to put it "in developers' hands in February". On March 6, 2008, Apple held a press event, announcing the iPhone SDK.
+
+> The iOS App Store was opened on July 10, 2008 with an initial 500 applications available. This quickly grew to 3,000 in September 2008, 15,000 in January 2009, 50,000 in June 2009, 100,000 in November 2009, 250,000 in August 2010, 650,000 in July 2012, 1 million in October 2013, 2 million in June 2016, and 2.2 million in January 2017. As of March 2016, 1 million apps are natively compatible with the iPad tablet computer. These apps have collectively been downloaded more than 130 billion times. App intelligence firm Sensor Tower has estimated that the App Store will reach 5 million apps by the year 2020.
+
+> In September 2007, Apple announced the iPod Touch, a redesigned iPod based on the iPhone form factor. In January 2010, Apple announced the iPad, featuring a larger screen than the iPhone and iPod Touch, and designed for web browsing, media consumption, and reading.
+
+> In June 2010, Apple rebranded iPhone OS as "iOS". The trademark "IOS" had been used by Cisco for over a decade for its operating system, IOS, used on its routers. To avoid any potential lawsuit, Apple licensed the "IOS" trademark from Cisco.
+
+> In October 2016, Apple opened its first iOS Developer Academy in Naples inside University of Naples Federico II's new campus.
+
+> Software updates
+
+iPhone OS 1, iPhone OS 2, iPhone OS 3, iOS 4, iOS 5, iOS 6, iOS 7, iOS 8, iOS 9, iOS 10, and iOS 11
+
+Platform usage as measured by the App Store on September 6, 2017.
+
+  iOS 10 (89%)
+  iOS 9 (9%)
+  iOS 8 and earlier (2%)
+Apple provides major updates to the iOS operating system annually via iTunes and also, for iOS 5 and later, over-the-air. The latest version is iOS 11, released on September 19, 2017. It is available for iPhone 5S and later, iPad Air and later, iPad Pro, iPad Mini 2 and later, and sixth-generation iPod Touch.
+
+Originally, iPod Touch users had to pay for system software updates. This was due to accounting rules making the device not a "subscription device" like iPhone or Apple TV, and significant enhancements to the device required payments. The requirement to pay to upgrade caused iPod Touch owners to stay away from updates.[53] However, in September 2009, a change in accounting rules won tentative approval, significantly affecting both Apple's earnings and stock price, and allowing iPod Touch updates to be delivered for free.
+
+<br>
+**************
+<div class="timeline-wrapper"><map name="timeline_f7e71d8726cc09cb584153ec78e053c0" id="timeline_f7e71d8726cc09cb584153ec78e053c0">
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_Watch_Series_3" coords="1076,1823,1224,1844" title="Apple Watch Series 3" alt="Apple Watch Series 3" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_Watch_Series_3" coords="1076,1803,1224,1824" title="Apple Watch Series 3" alt="Apple Watch Series 3" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_Watch_Series_3" coords="1076,1784,1224,1804" title="Apple Watch Series 3" alt="Apple Watch Series 3" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_Watch_Series_3" coords="1076,1764,1224,1785" title="Apple Watch Series 3" alt="Apple Watch Series 3" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_Watch_Series_2" coords="972,1823,1119,1844" title="Apple Watch Series 2" alt="Apple Watch Series 2" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_Watch_Series_2" coords="972,1803,1119,1824" title="Apple Watch Series 2" alt="Apple Watch Series 2" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_Watch_Series_2" coords="972,1784,1119,1804" title="Apple Watch Series 2" alt="Apple Watch Series 2" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_Watch_Series_2" coords="972,1764,1119,1785" title="Apple Watch Series 2" alt="Apple Watch Series 2" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_Watch" coords="972,1744,1069,1765" title="Apple Watch" alt="Apple Watch" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_Watch" coords="824,1823,921,1844" title="Apple Watch" alt="Apple Watch" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_Watch" coords="824,1784,921,1804" title="Apple Watch" alt="Apple Watch" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_Watch" coords="824,1744,921,1765" title="Apple Watch" alt="Apple Watch" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_TV" coords="1079,1705,1160,1725" title="Apple TV" alt="Apple TV" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_TV" coords="879,1685,959,1705" title="Apple TV" alt="Apple TV" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_TV" coords="588,1665,669,1686" title="Apple TV" alt="Apple TV" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_TV" coords="494,1645,574,1666" title="Apple TV" alt="Apple TV" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/Apple_TV" coords="334,1645,414,1666" title="Apple TV" alt="Apple TV" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPad_Mini_4" coords="864,1546,961,1567" title="iPad Mini 4" alt="iPad Mini 4" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPad_Mini_3" coords="772,1546,869,1567" title="iPad Mini 3" alt="iPad Mini 3" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPad_Mini_2" coords="672,1467,769,1488" title="iPad Mini 2" alt="iPad Mini 2" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPad_Mini_(1st_generation)" coords="563,1447,677,1468" title="iPad Mini (1st generation)" alt="iPad Mini (1st generation)" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPad_Pro" coords="1048,1368,1156,1389" title="iPad Pro" alt="iPad Pro" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPad_Pro" coords="1048,1230,1156,1251" title="iPad Pro" alt="iPad Pro" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPad_Pro" coords="923,1309,1004,1330" title="iPad Pro" alt="iPad Pro" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPad_Pro" coords="882,1210,963,1231" title="iPad Pro" alt="iPad Pro" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPad_Air_2" coords="772,1131,863,1152" title="iPad Air 2" alt="iPad Air 2" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPad_Air" coords="668,1052,749,1073" title="iPad Air" alt="iPad Air" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPad_(4th_generation)" coords="563,1052,633,1073" title="iPad (4th generation)" alt="iPad (4th generation)" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPad_(3rd_generation)" coords="496,1052,566,1073" title="iPad (3rd generation)" alt="iPad (3rd generation)" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPad_(2nd_generation)" coords="389,1032,459,1053" title="iPad (2nd generation)" alt="iPad (2nd generation)" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPad_(1st_generation)" coords="290,1032,376,1053" title="iPad (1st generation)" alt="iPad (1st generation)" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPod_Touch_(6th_generation)" coords="848,914,967,934" title="iPod Touch (6th generation)" alt="iPod Touch (6th generation)" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPod_Touch_(5th_generation)" coords="624,914,760,934" title="iPod Touch (5th generation)" alt="iPod Touch (5th generation)" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPod_Touch_(5th_generation)" coords="557,953,676,974" title="iPod Touch (5th generation)" alt="iPod Touch (5th generation)" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPod_Touch%23Models" coords="334,894,453,914" title="iPod Touch#Models" alt="iPod Touch#Models" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPod_Touch%23Models" coords="231,933,350,954" title="iPod Touch#Models" alt="iPod Touch#Models" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPod_Touch%23Models" coords="231,894,356,914" title="iPod Touch#Models" alt="iPod Touch#Models" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPod_Touch%23Models" coords="125,894,250,914" title="iPod Touch#Models" alt="iPod Touch#Models" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPod_Touch%23Models" coords="18,894,138,914" title="iPod Touch#Models" alt="iPod Touch#Models" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_X" coords="1091,834,1172,855" title="iPhone X" alt="iPhone X" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_8" coords="1079,795,1188,816" title="iPhone 8" alt="iPhone 8" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_8" coords="1079,755,1160,776" title="iPhone 8" alt="iPhone 8" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_7" coords="1027,716,1135,736" title="iPhone 7" alt="iPhone 7" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_7" coords="1076,656,1185,677" title="iPhone 7" alt="iPhone 7" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_7" coords="972,597,1080,618" title="iPhone 7" alt="iPhone 7" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_7" coords="1027,558,1107,578" title="iPhone 7" alt="iPhone 7" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_7" coords="1076,498,1157,519" title="iPhone 7" alt="iPhone 7" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_7" coords="972,439,1053,460" title="iPhone 7" alt="iPhone 7" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_SE" coords="923,142,1009,163" title="iPhone SE" alt="iPhone SE" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_6S" coords="869,360,983,380" title="iPhone 6S" alt="iPhone 6S" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_6S" coords="869,281,955,301" title="iPhone 6S" alt="iPhone 6S" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_6_Plus" coords="762,221,870,242" title="iPhone 6 Plus" alt="iPhone 6 Plus" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_6" coords="762,63,842,84" title="iPhone 6" alt="iPhone 6" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_5S" coords="656,142,742,163" title="iPhone 5S" alt="iPhone 5S" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_5C" coords="656,63,742,84" title="iPhone 5C" alt="iPhone 5C" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_5" coords="551,142,632,163" title="iPhone 5" alt="iPhone 5" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_4S" coords="452,63,538,84" title="iPhone 4S" alt="iPhone 4S" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_4" coords="314,63,395,84" title="iPhone 4" alt="iPhone 4" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_3GS" coords="207,63,265,84" title="iPhone 3GS" alt="iPhone 3GS" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_3GS" coords="314,24,406,44" title="iPhone 3GS" alt="iPhone 3GS" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_3G" coords="108,142,161,163" title="iPhone 3G" alt="iPhone 3G" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_3G" coords="108,24,194,44" title="iPhone 3G" alt="iPhone 3G" />
+<area shape="rect" href="https://en.wikipedia.org/wiki/iPhone_(1st_generation)" coords="0,24,118,44" title="iPhone (1st generation)" alt="iPhone (1st generation)" /></map><img usemap="#timeline_f7e71d8726cc09cb584153ec78e053c0" src="//upload.wikimedia.org/wikipedia/en/timeline/f7e71d8726cc09cb584153ec78e053c0.png" /></div>
+<div style="text-align:center;font-size:88%;font-style:italic">Sources: <a href="https://en.wikipedia.org/wiki/Apple_Inc." title="Apple Inc.">Apple</a> press release library,<sup id="cite_ref-ApplePRlib_170-0" class="reference"><a href="#cite_note-ApplePRlib-170">[170]</a></sup> <a href="https://en.wikipedia.org/wiki/Mactracker" title="Mactracker">Mactracker</a> Apple Inc. model database<sup id="cite_ref-MactrackerINTEMPLATE_171-0" class="reference"><a href="#cite_note-MactrackerINTEMPLATE-171">[171]</a></sup></div>
+
+<br>
+********************
 
 ****************
 ## Andorid
