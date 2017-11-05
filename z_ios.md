@@ -416,11 +416,8 @@ now lets start exploring subjective topics..
 
 > Originally, iPod Touch users had to pay for system software updates. This was due to accounting rules making the device not a "subscription device" like iPhone or Apple TV, and significant enhancements to the device required payments. The requirement to pay to upgrade caused iPod Touch owners to stay away from updates. However, in September 2009, a change in accounting rules won tentative approval, significantly affecting both Apple's earnings and stock price, and allowing iPod Touch updates to be delivered for free.
 
-<br>
- 
-********************
 
-Official: 
+**iOS versions (source: official doc)**
 
 <br>
 
@@ -805,7 +802,7 @@ more details from official doc [Cocoa Touch Layer](https://developer.apple.com/l
 ****************
 ## Android
 
-I used it rarely.. but my long term friend(almost 5 + years).. which always been basis for my sofware undestandings. my first java program on eclipse was android 'Hello-world' simualated on dalvik emulator and deployed on jelly beans version friends mobile(biggest achievement). I had done a self case study on adroid software layers as part my academic OS course.
+I used it rarely.. but my long term friend(almost 5 + years).. which has always been basis for my sofware undestandings. my first java program on eclipse was android 'Hello-world' simualated on dalvik emulator and deployed on jelly beans version friend's mobile(biggest achievement). I had done a self case study on adroid software layers as part of my academic OS course.
 
  | HackerNews        | Medium         | Reddit  |  Quora-QA  | Stack-Overflow-QA | Awesome-gh | Online-Courses (lynda.com) | Official docs|
 | ------------- |:-------------:| -----:| -----:|-----:|-----:|-----:|-----:|
