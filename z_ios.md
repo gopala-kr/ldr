@@ -766,58 +766,14 @@ Apps need to work with the iOS to ensure that they deliver a great user experien
 [Basic programming concepts from official guide](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007072-CH1-SW1)
 
 ************
-<a name="//apple_ref/doc/uid/TP40007072-CH2-SW1" title="The App Life Cycle"></a>
 <h3 id="pageTitle">The App Life Cycle</h3>
-<p> </p>
-<p>Apps are a sophisticated interplay between your custom code and the system frameworks. The system frameworks provide the basic infrastructure that all apps need to run, and you provide the code required to customize that infrastructure and give the app the look and feel you want. To do that effectively, it helps to understand a little bit about the iOS infrastructure and how it works. </p>
-<p>iOS frameworks rely on design patterns such as <span class="pediaLink" data-header="Model-View-Controller" data-contents="The Model-View-Controller (MVC) design pattern assigns objects in an application one of three roles: model, view, or controller. "><a href="../../../../General/Conceptual/DevPedia-CocoaCore/MVC.html#//apple_ref/doc/uid/TP40008195-CH32" data-renderer-version="1" target="_self">model-view-controller</a></span> and delegation in their implementation. Understanding those design patterns is crucial to the successful creation of an app. It also helps to be familiar with the Objective-C language and its features. If you are new to iOS programming, read <em><a href="../../../../../referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html#//apple_ref/doc/uid/TP40015214" data-renderer-version="2" target="_self">Start Developing iOS Apps (Swift)</a></em> for an introduction to iOS apps and the Objective-C language.</p>
+
 <section>
-    <a name="//apple_ref/doc/uid/TP40007072-CH2-SW9" title="The Main Function"></a>
-    <h2 class="jump">The Main Function</h2>
-    <p>The entry point for every C-based app is the <code>main</code> function and iOS apps are no different. What is different is that for iOS apps you do not write the <code>main</code> function yourself. Instead, Xcode creates this function as part of your basic project. <span class="content_text">Listing 2-1</span> shows an example of this function. With few exceptions, you should never change the implementation of the <code>main</code> function that Xcode provides. </p>
-    <a name="//apple_ref/doc/uid/TP40007072-CH2-SW33" title="Listing 2-1The main function of an iOS app"></a>
-    <p class="codesample clear"><strong class="caption_number">Listing 2-1</strong>&nbsp;&nbsp;The <code>main</code> function of an iOS app</p>
-    <div class="codesample clear">
-        <table>
-            <tr>
-                <td scope="row"><pre>#import &lt;UIKit/UIKit.h&gt;<span></span></pre></td>
-            </tr>
-            <tr>
-                <td scope="row"><pre>#import "AppDelegate.h"<span></span></pre></td>
-            </tr>
-            <tr>
-                <td scope="row"><pre> <span></span></pre></td>
-            </tr>
-            <tr>
-                <td scope="row"><pre>int main(int argc, char * argv[])<span></span></pre></td>
-            </tr>
-            <tr>
-                <td scope="row"><pre>{<span></span></pre></td>
-            </tr>
-            <tr>
-                <td scope="row"><pre>    @autoreleasepool {<span></span></pre></td>
-            </tr>
-            <tr>
-                <td scope="row"><pre>        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));<span></span></pre></td>
-            </tr>
-            <tr>
-                <td scope="row"><pre>    }<span></span></pre></td>
-            </tr>
-            <tr>
-                <td scope="row"><pre>}<span></span></pre></td>
-            </tr>
-        </table>
-    </div>
-    <p>The only thing to mention about the <code>main</code> function is that its job is to hand control off to the UIKit framework. The <code><a href="https://developer.apple.com/documentation/uikit/1622933-uiapplicationmain" target="_self" class="urlLink">UIApplicationMain</a></code> function handles this process by creating the core objects of your app, loading your app’s user interface from the available <span class="pediaLink" data-header="Storyboard" data-contents="A storyboard is a visual representation of the user interface of an iOS application, showing screens of content and the connections between those screens. "><a href="../../../../General/Conceptual/Devpedia-CocoaApp/Storyboard.html#//apple_ref/doc/uid/TP40009071-CH99" data-renderer-version="1" target="_self">storyboard</a></span> files, calling your custom code so that you have a chance to do some initial setup, and putting the app’s run loop in motion. The only pieces that you have to provide are the storyboard files and the custom initialization code. </p>
-</section>
-<section>
-    <a name="//apple_ref/doc/uid/TP40007072-CH2-SW2" title="The Structure of an App"></a>
     <h2 class="jump">The Structure of an App</h2>
-    <p>During startup, the <code><a href="https://developer.apple.com/documentation/uikit/1622933-uiapplicationmain" target="_self" class="urlLink">UIApplicationMain</a></code> function sets up several key objects and starts the app running. At the heart of every iOS app is the <code><a href="https://developer.apple.com/documentation/uikit/uiapplication" target="_self" class="urlLink">UIApplication</a></code> object, whose job is to facilitate the interactions between the system and other objects in the app. <span class="content_text">Figure 2-1</span> shows the objects commonly found in most apps, while <span class="content_text">Table 2-1</span> lists the roles each of those objects plays. The first thing to notice is that iOS apps use a <span class="pediaLink" data-header="Model-View-Controller" data-contents="The Model-View-Controller (MVC) design pattern assigns objects in an application one of three roles: model, view, or controller. "><a href="../../../../General/Conceptual/DevPedia-CocoaCore/MVC.html#//apple_ref/doc/uid/TP40008195-CH32" data-renderer-version="1" target="_self">model-view-controller</a></span> architecture. This pattern separates the app’s data and business logic from the visual presentation of that data. This architecture is crucial to creating apps that can run on different devices with different screen sizes. </p>
     <figure class="figure">
         <a name="//apple_ref/doc/uid/TP40007072-CH2-SW4" title="Key objects in an iOS app"></a>
-        <figcaption><strong class="caption_number"></strong>&nbsp;&nbsp;Key objects in an iOS app</figcaption><img src="https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/core_objects_2x.png" alt="" width="521" height="458"></figure>
-    <a name="//apple_ref/doc/uid/TP40007072-CH2-SW5" title="Table 2-1The role of objects in an iOS app"></a>
+<img src="https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/core_objects_2x.png" alt="" width="521" height="458"></figure>
+    <a name="//apple_ref/doc/uid/TP40007072-CH2-SW5" title="The role of objects in an iOS app"></a>
     <div class="tableholder">
         <table class="graybox" border="0" cellspacing="0" cellpadding="5">
             <caption class="tablecaption"><strong class="caption_number">Table 2-1</strong>&nbsp;&nbsp;The role of objects in an iOS app</caption>
@@ -888,16 +844,14 @@ Apps need to work with the iOS to ensure that they deliver a great user experien
     </div>
     <p>What distinguishes one iOS app from another is the data it manages (and the corresponding business logic) and how it presents that data to the user. Most interactions with UIKit objects do not define your app but help you to refine its behavior. For example, the methods of your app delegate let you know when the app is changing states so that your custom code can respond appropriately.</p>
 </section>
+
 <section>
-    <a name="//apple_ref/doc/uid/TP40007072-CH2-SW14" title="The Main Run Loop"></a>
     <h2 class="jump">The Main Run Loop</h2>
-    <p>An app’s <em class="newTerm">main run loop</em> processes all user-related events. The <code><a href="https://developer.apple.com/documentation/uikit/uiapplication" target="_self" class="urlLink">UIApplication</a></code> object sets up the main run loop at launch time and uses it to process events and handle updates to view-based interfaces. As the name suggests, the main run loop executes on the app’s main thread. This behavior ensures that user-related events are processed serially in the order in which they were received.</p>
-    <p><span class="content_text">Figure 2-2</span> shows the architecture of the main run loop and how user events result in actions taken by your app. As the user interacts with a device, events related to those interactions are generated by the system and delivered to the app via a special port set up by UIKit. Events are queued internally by the app and dispatched one-by-one to the main run loop for execution. The <code>UIApplication</code> object is the first object to receive the event and make the decision about what needs to be done. A touch event is usually dispatched to the main window object, which in turn dispatches it to the view in which the touch occurred. Other events might take slightly different paths through various app objects.</p>
     <figure class="figure">
         <a name="//apple_ref/doc/uid/TP40007072-CH2-SW15" title="Figure 2-2Processing events in the main run loop"></a>
-        <figcaption><strong class="caption_number">Figure 2-2</strong>&nbsp;&nbsp;Processing events in the main run loop</figcaption><img src="https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/event_draw_cycle_a_2x.png" alt="Processing events in the main run loop" width="608" height="406"></figure>
-    <p>Many types of events can be delivered in an iOS app. The most common ones are listed in <span class="content_text">Table 2-2</span>. Many of these event types are delivered using the main run loop of your app, but some are not. Some events are sent to a delegate object or are passed to a block that you provide. For information about how to handle most types of events—including touch, remote control, motion, accelerometer, and gyroscopic events—see <em><!--a target="_self" -->Event Handling Guide for iOS<!--/a--></em>.</p>
-    <a name="//apple_ref/doc/uid/TP40007072-CH2-SW16" title="Table 2-2Common types of events for iOS apps"></a>
+<img src="https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/event_draw_cycle_a_2x.png" alt="Processing events in the main run loop" width="608" height="406"></figure>
+    <p>Many types of events can be delivered in an iOS app. The most common ones are listed in <span class="content_text"></span>. Many of these event types are delivered using the main run loop of your app, but some are not. Some events are sent to a delegate object or are passed to a block that you provide. For information about how to handle most types of events—including touch, remote control, motion, accelerometer, and gyroscopic events—see <em><!--a target="_self" -->Event Handling Guide for iOS<!--/a--></em>.</p>
+    <a name="//apple_ref/doc/uid/TP40007072-CH2-SW16" title="Common types of events for iOS apps"></a>
     <div class="tableholder">
         <table class="graybox" border="0" cellspacing="0" cellpadding="5">
             <caption class="tablecaption"><strong class="caption_number">Table 2-2</strong>&nbsp;&nbsp;Common types of events for iOS apps</caption>
@@ -972,13 +926,10 @@ Apps need to work with the iOS to ensure that they deliver a great user experien
             </tr>
         </table>
     </div>
-    <p>Some events, such as touch and remote control events, are handled by your app’s <span class="pediaLink" data-header="Responder object" data-contents="A responder is an object that can respond to events and handle them. "><a href="../../../../General/Conceptual/Devpedia-CocoaApp/Responder.html#//apple_ref/doc/uid/TP40009071-CH1" data-renderer-version="1" target="_self">responder objects</a></span>. Responder objects are everywhere in your app. (The <code><a href="https://developer.apple.com/documentation/uikit/uiapplication" target="_self" class="urlLink">UIApplication</a></code> object, your view objects, and your view controller objects are all examples of responder objects.) Most events target a specific responder object but can be passed to other responder objects (via the responder chain) if needed to handle an event. For example, a view that does not handle an event can pass the event to its superview or to a view controller.</p>
-    <p>Touch events occurring in controls (such as buttons) are handled differently than touch events occurring in many other types of views. There are typically only a limited number of interactions possible with a control, and so those interactions are repackaged into action messages and delivered to an appropriate target object. This <span class="pediaLink" data-header="Target-Action" data-contents="Target-action is a design pattern in which an object holds the information necessary to send a message to another object when an event occurs. "><a href="../../../../General/Conceptual/Devpedia-CocoaApp/TargetAction.html#//apple_ref/doc/uid/TP40009071-CH3" data-renderer-version="1" target="_self">target-action</a></span> design pattern makes it easy to use controls to trigger the execution of custom code in your app. </p>
 </section>
 <section>
     <a name=""></a>
     <h2 class="jump">Execution States for Apps</h2>
-    <p>At any given moment, your app is in one of the states listed in <span class="content_text"></span>. The system moves your app from state to state in response to actions happening throughout the system. For example, when the user presses the Home button, a phone call comes in, or any of several other interruptions occurs, the currently running apps change state in response. <span class="content_text"><a href="#//apple_ref/doc/uid/TP40007072-CH2-SW6" data-renderer-version="1"></a></span> shows the paths that an app takes when moving from state to state. </p>
     <a name="//apple_ref/doc/uid/TP40007072-CH2-SW19" title="Table 2-3App states"></a>
     <div class="tableholder">
         <table class="graybox" border="0" cellspacing="0" cellpadding="5">
@@ -1037,7 +988,6 @@ Apps need to work with the iOS to ensure that they deliver a great user experien
     <figure class="figure">
         <a name="https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/high_level_flow_2x.png" title="Figure 2-3State changes in an iOS app"></a>
         <figcaption><strong class="caption_number">Figure 2-3</strong>&nbsp;&nbsp;State changes in an iOS app</figcaption><img src="https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Art/high_level_flow_2x.png" alt="" width="348" height="418"></figure>
-    <p>Most state transitions are accompanied by a corresponding call to the methods of your app <span class="pediaLink" data-header="Delegation" data-contents="Delegation is a simple and powerful pattern in which one object in a program acts on behalf of, or in coordination with, another object. "><a href="../../../../General/Conceptual/DevPedia-CocoaCore/Delegation.html#//apple_ref/doc/uid/TP40008195-CH14" data-renderer-version="1" target="_self">delegate</a></span> object. These methods are your chance to respond to state changes in an appropriate way. These methods are listed below, along with a summary of how you might use them. </p>
     <ul class="ul">
         <li class="li">
             <p><code><a href="https://developer.apple.com/documentation/uikit/uiapplicationdelegate/1623032-application" target="_self" class="urlLink">application:willFinishLaunchingWithOptions:</a></code>—This method is your app’s first chance to execute code at launch time. </p>
