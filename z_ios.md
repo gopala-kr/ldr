@@ -256,16 +256,21 @@ A native mobile app is an application which meets the requirements of a particul
 A cross-platform application is a mobile app which is compatible with multiple operating systems and can therefore run on any smartphone or tablet.
 
 <br>
+
 There are two types of cross-platform mobile applications:
 
 <br>
-*  **Native cross-platform apps:** Each operating system has its SDK and major tech stack (Java for Android and Objective-C/Swift for iOS app development). An experienced mobile vendor, however, can create a unified API running on top of a native Software Development Kit and use the same codebase for both Android ad iOS apps. Native cross-platform applications are primarily built with Xamarin and Appcelerator Titanium;
+
+**Native cross-platform apps:** Each operating system has its SDK and major tech stack (Java for Android and Objective-C/Swift for iOS app development). An experienced mobile vendor, however, can create a unified API running on top of a native Software Development Kit and use the same codebase for both Android ad iOS apps. Native cross-platform applications are primarily built with Xamarin and Appcelerator Titanium;
 
 <br>
-*  **Hybrid HTML5 applications:**  Although mobile applications are designed for smartphones and tablets, it is backend servers (either on-prem or Cloud-based) that handle application logic. Since both iOS and Android SDKs feature advanced web components, skilled software engineers often utilize WebView to create parts of an application’s GUI (Graphical User Interface) with HTML5, CSS and JavaScript. The most popular hybrid app development framework is Apache Cordova (formerly known as PhoneGap).
+
+**Hybrid HTML5 applications:**  Although mobile applications are designed for smartphones and tablets, it is backend servers (either on-prem or Cloud-based) that handle application logic. Since both iOS and Android SDKs feature advanced web components, skilled software engineers often utilize WebView to create parts of an application’s GUI (Graphical User Interface) with HTML5, CSS and JavaScript. The most popular hybrid app development framework is Apache Cordova (formerly known as PhoneGap).
+
 
 
 <br>
+
 There are some articles which discusses about pros and cons of native and cross-platforms apps:
 
 * [Why we are not cross-platform developers](https://android.jlelse.eu/why-we-are-not-cross-platform-developers-fd7ef70e976d)
@@ -277,7 +282,7 @@ There are some articles which discusses about pros and cons of native and cross-
 
 ****************************
 
-## mobile application development platforms:
+## mobile application development platforms and tools:
 
 
 <p>The platform organizations needed to develop, deploy and manage <a href="https://en.wikipedia.org/wiki/Mobile_app" title="Mobile app">mobile apps</a> are made from many components and tools which allow a developer to write, test and deploy applications into the target platform environment.</p>
@@ -288,7 +293,8 @@ There are some articles which discusses about pros and cons of native and cross-
 <li>SDKs to access device features</li>
 <li>Cross-platform accommodations/support</li>
 </ul>
-[Available [platforms and tools](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/04-mobile-dev/front-end-tools.md)]
+
+Available [platforms and tools](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/04-mobile-dev/front-end-tools.md)
 
 <h3><span class="mw-headline" id="Back-end_servers">Back-end servers</span></h3>
 <p>Back-end tools pick up where the front-end tools leave off, and provide a set of reusable services that are centrally managed and controlled and provide the following abilities:</p>
@@ -298,7 +304,8 @@ There are some articles which discusses about pros and cons of native and cross-
 <li>Data services</li>
 <li>Reusable business logic</li>
 </ul>
-[Available [platforms and tools](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/04-mobile-dev/backend-tools.md)]
+
+Available [platforms and tools](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/04-mobile-dev/backend-tools.md)
 
 <h3><span class="mw-headline" id="Security_add-on_layers">Security add-on layers</span></h3>
 <p>With <a href="https://en.wikipedia.org/wiki/Bring_your_own_device" title="Bring your own device">bring your own device</a> (BYOD) becoming the norm within more enterprises, IT departments often need stop-gap, tactical solutions that layer atop existing apps, phones, and platform component. Features include</p>
@@ -313,6 +320,7 @@ There are some articles which discusses about pros and cons of native and cross-
 <p>Many system-level components are needed to have a functioning platform for developing mobile apps.</p>
 
 [Available [platforms and tools](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/04-mobile-dev/system-software-tools.md)]
+
 <br>
 
 * Criteria for selecting a development platform usually contains the target mobile platforms, existing infrastructure and development skills. When targeting more than one platform with cross-platform development it is also important to consider the impact of the tool on the <a href="https://en.wikipedia.org/wiki/User_experience" title="User experience">user experience</a>. 
@@ -339,9 +347,10 @@ There are some articles which discusses about pros and cons of native and cross-
 <li><a href="https://en.wikipedia.org/wiki/Ranorex" class="mw-redirect" title="Ranorex">Ranorex</a>: Test automation tools for mobile, web and desktop apps.</li>
 <li><a href="https://en.wikipedia.org/wiki/Testdroid" title="Testdroid">Testdroid</a>: Real mobile devices and test automation tools for testing mobile and web apps.</li>
 </ul>
+
 *****************************
 
-## mobile app architecture patterns
+## mobile app architecture/design patterns
 
 
 some artciles which discusses about mobile app architecture patterns:
@@ -350,7 +359,7 @@ some artciles which discusses about mobile app architecture patterns:
 * [stackoverflow: Mobile Development Architecture & Design Patterns](https://stackoverflow.com/questions/3090791/mobile-development-architecture-design-patterns)
 * [Six Design Patterns for Highly Successful Mobile Apps](https://apigee.com/about/blog/technology/six-design-patterns-highly-successful-mobile-apps)
 * [Architectural patterns for Mobile Application Development](https://blog.inf.ed.ac.uk/sapm/2014/02/13/architectural-patterns-for-mobile-application-development/)
-* [lynda.com course: https://www.lynda.com/Android-tutorials/Android-App-Development-Design-Patterns-Mobile-Architecture/585243-2.html](https://www.lynda.com/Android-tutorials/Android-App-Development-Design-Patterns-Mobile-Architecture/585243-2.html)
+* [lynda.com course](https://www.lynda.com/Android-tutorials/Android-App-Development-Design-Patterns-Mobile-Architecture/585243-2.html)
 * [Architecture Patterns for
 Mobile Systems in ResourceConstrained
 Environments](https://www.sei.cmu.edu/library/assets/presentations/lewis-saturn2013.pdf)
