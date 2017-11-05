@@ -622,6 +622,11 @@ now lets start exploring subjective topics..
 <td><span style="margin:0; font-size:90%; white-space:nowrap;"><span class="legend-text" style="border:1px solid #AAAAAA; padding:1px .6em; background-color:#c1e6f5; color:black; font-size:95%; line-height:1.25; text-align:center;">&#160;</span>&#160;<abbr title="iOS versions that have this color are a beta version, and are not the latest public version.">Beta</abbr></span></td>
 </tr>
 </table>
+  
+********************
+Official: 
+
+![ios_versions](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/04-mobile-dev/ios_versions.JPG)
 
 **************
 ## list of apple devices and their timelines
