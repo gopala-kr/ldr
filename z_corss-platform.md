@@ -7,3 +7,408 @@
 * xamarin
 * unity 
 * appcelerator
+
+
+***************
+
+<p><b>Apache Cordova</b> (formerly <b>PhoneGap</b>) is a <a href="/wiki/Multiple_phone_web-based_application_framework" title="Multiple phone web-based application framework">mobile application development framework</a> originally created by <a href="/wiki/Nitobi" class="mw-redirect" title="Nitobi">Nitobi</a>. <a href="/wiki/Adobe_Systems" title="Adobe Systems">Adobe Systems</a> purchased Nitobi in 2011, rebranded it as PhoneGap, and later released an open source version of the software called Apache Cordova.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup> Apache Cordova enables <a href="/wiki/Computer_software" class="mw-redirect" title="Computer software">software</a> <a href="/wiki/Programmer" title="Programmer">programmers</a> to build <a href="/wiki/Application_software" title="Application software">applications</a> for mobile devices using <a href="/wiki/CSS3" class="mw-redirect" title="CSS3">CSS3</a>, <a href="/wiki/HTML5" title="HTML5">HTML5</a>, and <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a> instead of relying on platform-specific <a href="/wiki/API" class="mw-redirect" title="API">APIs</a> like those in <a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>, <a href="/wiki/IOS" title="IOS">iOS</a>, or <a href="/wiki/Windows_Phone" title="Windows Phone">Windows Phone</a>.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup> It enables wrapping up of CSS, HTML, and JavaScript code depending upon the platform of the device. It extends the features of HTML and JavaScript to work with the device. The resulting applications are hybrid, meaning that they are neither truly native mobile application (because all layout rendering is done via Web views instead of the platform's native UI framework) nor purely Web-based (because they are not just Web apps, but are packaged as apps for distribution and have access to native device APIs). Mixing native and hybrid code snippets has been possible since version 1.9.</p>
+<p>The software was previously called just "PhoneGap", then "Apache Callback".<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup><sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup> As <a href="/wiki/Open-source_software" title="Open-source software">open-source software</a>, Apache Cordova allows wrappers around it, such as <a href="/w/index.php?title=Appery.io&amp;action=edit&amp;redlink=1" class="new" title="Appery.io (page does not exist)">Appery.io</a> or <a href="/wiki/Intel_XDK" title="Intel XDK">Intel XDK</a>.</p>
+<p>PhoneGap is Adobe’s <i>productised</i> version and ecosystem on top of Cordova. Like PhoneGap, many other tools and frameworks are also built on top of Cordova, including <a href="/wiki/Ionic_Framework" class="mw-redirect" title="Ionic Framework">Ionic</a>,<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup> <a href="/wiki/Monaca_(software)" title="Monaca (software)">Monaca</a>, <a href="/w/index.php?title=TACO&amp;action=edit&amp;redlink=1" class="new" title="TACO (page does not exist)">TACO</a>, Onsen UI, Visual Studio, GapDebug, App Builder, Cocoon, Framework7, Evothings Studio, NSB/AppStudio, Mobiscroll, the <a href="/wiki/Intel_XDK" title="Intel XDK">Intel XDK</a>,<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup> and the <a href="/wiki/Telerik" title="Telerik">Telerik Platform</a>.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">[9]</a></sup> These tools use Cordova, and not PhoneGap for their core tools.</p>
+<p>Contributors to the Apache Cordova project include <a href="/wiki/Adobe_Systems" title="Adobe Systems">Adobe</a>, <a href="/wiki/BlackBerry" title="BlackBerry">BlackBerry</a>, <a href="/wiki/Google" title="Google">Google</a>, <a href="/wiki/IBM" title="IBM">IBM</a>, <a href="/wiki/Intel" title="Intel">Intel</a>, <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a>, <a href="/wiki/Mozilla" title="Mozilla">Mozilla</a>, and others.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">[10]</a></sup></p>
+<p></p>
+<div id="toc" class="toc">
+<div class="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Design_and_rationale"><span class="tocnumber">2</span> <span class="toctext">Design and rationale</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Supported_platforms"><span class="tocnumber">3</span> <span class="toctext">Supported platforms</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#References"><span class="tocnumber">5</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Bibliography"><span class="tocnumber">6</span> <span class="toctext">Bibliography</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Apache_Cordova&amp;action=edit&amp;section=1" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>First developed at an iPhoneDevCamp event in San Francisco,<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">[11]</a></sup> PhoneGap went on to win the People's Choice Award at <a href="/wiki/O%27Reilly_Media" title="O'Reilly Media">O'Reilly Media</a>'s 2009 Web 2.0 Conference,<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">[12]</a></sup> and the framework has been used to develop many apps.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">[13]</a></sup> <a href="/wiki/Apple_Inc." title="Apple Inc.">Apple Inc.</a> has confirmed that the framework has its approval, even with the new 4.0 developer license agreement changes.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">[14]</a></sup> The PhoneGap framework is used by several mobile application platforms such as <a href="/wiki/Monaca_(mobile_application_development_tool)" class="mw-redirect" title="Monaca (mobile application development tool)">Monaca</a>,<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">[15]</a></sup> <a href="/w/index.php?title=AppMobi&amp;action=edit&amp;redlink=1" class="new" title="AppMobi (page does not exist)">appMobi</a>,<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">[16]</a></sup> <a href="/w/index.php?title=Convertigo&amp;action=edit&amp;redlink=1" class="new" title="Convertigo (page does not exist)">Convertigo</a>,<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">[17]</a></sup><sup id="cite_ref-18" class="reference"><a href="#cite_note-18">[18]</a></sup> <a href="/wiki/ViziApps" title="ViziApps">ViziApps</a>,<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">[19]</a></sup> and <a href="/wiki/Worklight" title="Worklight">Worklight</a><sup id="cite_ref-20" class="reference"><a href="#cite_note-20">[20]</a></sup><sup id="cite_ref-21" class="reference"><a href="#cite_note-21">[21]</a></sup> as the backbone of their mobile client development engine.</p>
+<p>Adobe officially announced the acquisition of Nitobi Software (the original developer) on October 4, 2011.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">[22]</a></sup> Coincident with that, the PhoneGap code was contributed to the <a href="/wiki/Apache_Software_Foundation" title="Apache Software Foundation">Apache Software Foundation</a> to start a new project called Apache Cordova. The project's original name, Apache Callback, was viewed as too generic.<sup id="cite_ref-23" class="reference"><a href="#cite_note-23">[23]</a></sup> Then, it also appears in Adobe Systems as <i>Adobe PhoneGap</i> and also as <i>Adobe Phonegap Build</i>.<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">[24]</a></sup></p>
+<p>Early versions of PhoneGap required an Apple computer to create iOS apps and a Windows computer to create Windows Mobile apps. After September 2012, Adobe's PhoneGap Build service allows programmers to upload <a href="/wiki/CSS" class="mw-redirect" title="CSS">CSS</a>, <a href="/wiki/HTML" title="HTML">HTML</a>, and <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a> source code to a "<a href="/wiki/Cloud_computing" title="Cloud computing">cloud</a> <a href="/wiki/Compiler" title="Compiler">compiler</a>" that generates apps for every supported platform.<sup id="cite_ref-25" class="reference"><a href="#cite_note-25">[25]</a></sup></p>
+<h2><span class="mw-headline" id="Design_and_rationale">Design and rationale</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Apache_Cordova&amp;action=edit&amp;section=2" title="Edit section: Design and rationale">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The core of Apache Cordova applications use <a href="/wiki/CSS3" class="mw-redirect" title="CSS3">CSS3</a> and <a href="/wiki/HTML5" title="HTML5">HTML5</a> for their rendering and <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a> for their logic. HTML5 provides access to underlying hardware such as the accelerometer, camera, and <a href="/wiki/GPS" class="mw-redirect" title="GPS">GPS</a>. However, browsers' support for HTML5-based device access is not consistent across mobile browsers, particularly older versions of Android. To overcome these limitations, Apache Cordova embeds the HTML5 code inside a native <a href="/w/index.php?title=WebView&amp;action=edit&amp;redlink=1" class="new" title="WebView (page does not exist)">WebView</a> on the device, using a <a href="/wiki/Foreign_function_interface" title="Foreign function interface">foreign function interface</a> to access the native resources of it.<sup id="cite_ref-26" class="reference"><a href="#cite_note-26">[26]</a></sup></p>
+<p>Apache Cordova can be extended with native <a rel="nofollow" class="external text" href="http://docs.phonegap.com/en/3.0.0/guide_hybrid_plugins_index.md.html#Plugin%20Development%20Guide">plug-ins</a>, allowing developers to add more functionalities that can be called from JavaScript, making it communicate directly between the native layer and the HTML5 page. These plugins allow access to the device's accelerometer, camera, compass, file system, microphone, and more.</p>
+<p>However, the use of Web-based technologies leads some Apache Cordova applications to run slower than native applications with similar functionality.<sup id="cite_ref-27" class="reference"><a href="#cite_note-27">[27]</a></sup> <a href="/wiki/Adobe_Systems" title="Adobe Systems">Adobe Systems</a> warns that applications may be rejected by <a href="/wiki/Apple_Inc." title="Apple Inc.">Apple</a> for being too slow or not feeling "native" enough (having appearance and functionality consistent with what users have come to expect on the platform). This can be an issue for some Apache Cordova applications.<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">[28]</a></sup><sup id="cite_ref-29" class="reference"><a href="#cite_note-29">[29]</a></sup></p>
+<h2><span class="mw-headline" id="Supported_platforms">Supported platforms</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Apache_Cordova&amp;action=edit&amp;section=3" title="Edit section: Supported platforms">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Apache Cordova currently supports development for the <a href="/wiki/Operating_system" title="Operating system">operating systems</a> Apple <a href="/wiki/IOS_(Apple)" class="mw-redirect" title="IOS (Apple)">iOS</a>, <a href="/wiki/Bada_(operating_system)" class="mw-redirect" title="Bada (operating system)">Bada</a>, <a href="/wiki/BlackBerry" title="BlackBerry">BlackBerry</a>, <a href="/wiki/Firefox_OS" title="Firefox OS">Firefox OS</a>,<sup id="cite_ref-30" class="reference"><a href="#cite_note-30">[30]</a></sup> Google <a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>,<sup id="cite_ref-31" class="reference"><a href="#cite_note-31">[31]</a></sup> LG <a href="/wiki/WebOS" title="WebOS">webOS</a>, Microsoft <a href="/wiki/Windows_Phone" title="Windows Phone">Windows Phone</a> (7 and 8), Nokia <a href="/wiki/Symbian" title="Symbian">Symbian</a> OS, <a href="/wiki/Tizen" title="Tizen">Tizen</a> (SDK 2.x), and <a href="/wiki/Ubuntu_Touch" title="Ubuntu Touch">Ubuntu Touch</a>. The table below is a list of supported features for each operating system.<sup id="cite_ref-32" class="reference"><a href="#cite_note-32">[32]</a></sup><sup id="cite_ref-33" class="reference"><a href="#cite_note-33">[33]</a></sup></p>
+<table class="wikitable">
+<tr>
+<th>Feature</th>
+<th><a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a><sup id="cite_ref-34" class="reference"><a href="#cite_note-34">[34]</a></sup></th>
+<th><a href="/wiki/Apple_iOS" class="mw-redirect" title="Apple iOS">Apple iPhone /iPhone 3G</a></th>
+<th><a href="/wiki/Apple_iOS" class="mw-redirect" title="Apple iOS">Apple iPhone 3GS and newer</a></th>
+<th><a href="/wiki/Bada" title="Bada">Bada</a></th>
+<th><a href="/wiki/BlackBerry_10" title="BlackBerry 10">BlackBerry 10 and PlayBook OS</a></th>
+<th><a href="/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS 4.6–4.7</a></th>
+<th><a href="/wiki/BlackBerry_OS" title="BlackBerry OS">BlackBerry OS 5.0-6.0+</a></th>
+<th><a href="/wiki/Firefox_OS" title="Firefox OS">Firefox OS</a></th>
+<th><a href="/wiki/Symbian" title="Symbian">Symbian</a></th>
+<th><a href="/wiki/Tizen" title="Tizen">Tizen</a></th>
+<th><a href="/wiki/WebOS" title="WebOS">webOS</a></th>
+<th><a href="/wiki/Ubuntu_Touch" title="Ubuntu Touch">Ubuntu Touch</a></th>
+<th><a href="/wiki/Windows_Phone" title="Windows Phone">Windows Phone</a></th>
+</tr>
+<tr>
+<td><a href="/wiki/Accelerometer" title="Accelerometer">Accelerometer</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+</tr>
+<tr>
+<td><a href="/wiki/Camera" title="Camera">Camera</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+</tr>
+<tr>
+<td><a href="/wiki/Compass" title="Compass">Compass</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+</tr>
+<tr>
+<td><a href="/wiki/Contact_list" title="Contact list">Contacts</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+</tr>
+<tr>
+<td>File</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+</tr>
+<tr>
+<td><a href="/wiki/Geolocation" title="Geolocation">Geolocation</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+</tr>
+<tr>
+<td>Media</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+</tr>
+<tr>
+<td>Network</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+</tr>
+<tr>
+<td>Notification (alert, sound, vibration)</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+</tr>
+<tr>
+<td>Storage</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+</tr>
+</table>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Apache_Cordova&amp;action=edit&amp;section=4" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/List_of_rich_Internet_application_frameworks" title="List of rich Internet application frameworks">List of rich Internet application frameworks</a></li>
+<li><a href="/wiki/Multiple_phone_web-based_application_framework" title="Multiple phone web-based application framework">Multiple phone web-based application framework</a></li>
+<li><a href="/wiki/RhoMobile_Suite" title="RhoMobile Suite">RhoMobile Suite</a></li>
+<li><a href="/wiki/Cocos2d" title="Cocos2d">Cocos2d</a></li>
+<li><a href="/wiki/WinJS" title="WinJS">WinJS</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Apache_Cordova&amp;action=edit&amp;section=5" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.phonegap.com/about/license">"PhoneGap License"</a>. Phonegap.com<span class="reference-accessdate">. Retrieved <span class="nowrap">2013-10-09</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=PhoneGap+License&amp;rft.pub=Phonegap.com&amp;rft_id=http%3A%2F%2Fwww.phonegap.com%2Fabout%2Flicense&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://html.adobe.com/edge/phonegap-build/faq.html">"FAQ | PhoneGap Build | Edge Tools &amp; Services | Adobe &amp; HTML"</a>. Html.adobe.com<span class="reference-accessdate">. Retrieved <span class="nowrap">2013-10-09</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=FAQ+%26%23124%3B+PhoneGap+Build+%26%23124%3B+Edge+Tools+%26+Services+%26%23124%3B+Adobe+%26+HTML&amp;rft.pub=Html.adobe.com&amp;rft_id=http%3A%2F%2Fhtml.adobe.com%2Fedge%2Fphonegap-build%2Ffaq.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.adobe.com/aboutadobe/pressroom/pressreleases/201110/AdobeAcquiresNitobi.html">"Adobe Announces Agreement to Acquire Nitobi, Creator of PhoneGap"</a>. Adobe.com. 2011-10-03<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-04-07</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Adobe+Announces+Agreement+to+Acquire+Nitobi%2C+Creator+of+PhoneGap&amp;rft.pub=Adobe.com&amp;rft.date=2011-10-03&amp;rft_id=http%3A%2F%2Fwww.adobe.com%2Faboutadobe%2Fpressroom%2Fpressreleases%2F201110%2FAdobeAcquiresNitobi.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation web">Jose Fermoso (April 5, 2009). <a rel="nofollow" class="external text" href="http://gigaom.com/2009/04/05/phonegap-seeks-to-bridge-the-gap-between-mobile-app-platforms/">"PhoneGap Seeks to Bridge the Gap Between Mobile App Platforms"</a>. <i>GigaOM</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2012-04-07</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GigaOM&amp;rft.atitle=PhoneGap+Seeks+to+Bridge+the+Gap+Between+Mobile+App+Platforms&amp;rft.date=2009-04-05&amp;rft.au=Jose+Fermoso&amp;rft_id=http%3A%2F%2Fgigaom.com%2F2009%2F04%2F05%2Fphonegap-seeks-to-bridge-the-gap-between-mobile-app-platforms%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://dev.tiki.org/Apache+Callback">Apache Callback</a></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://wiki.phonegap.com/w/page/46311152/apache-callback-proposal">"Apache Callback Proposal"</a>. Wiki.phonegap.com. 2013-08-15<span class="reference-accessdate">. Retrieved <span class="nowrap">2013-10-09</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Apache+Callback+Proposal&amp;rft.pub=Wiki.phonegap.com&amp;rft.date=2013-08-15&amp;rft_id=http%3A%2F%2Fwiki.phonegap.com%2Fw%2Fpage%2F46311152%2Fapache-callback-proposal&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://blog.ionic.io/what-is-cordova-phonegap/">"The Last Word on Cordova and PhoneGap"</a>. <i>The Official Ionic Blog</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Official+Ionic+Blog&amp;rft.atitle=The+Last+Word+on+Cordova+and+PhoneGap&amp;rft_id=http%3A%2F%2Fblog.ionic.io%2Fwhat-is-cordova-phonegap%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://software.intel.com/en-us/intel-xdk">"Intel XDK"</a>. <i>Intel Developer Zone</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Intel+Developer+Zone&amp;rft.atitle=Intel+XDK&amp;rft_id=https%3A%2F%2Fsoftware.intel.com%2Fen-us%2Fintel-xdk&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://cordova.apache.org/">"Apache Cordova"</a>. <i>Apache Cordova</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Apache+Cordova&amp;rft.atitle=Apache+Cordova&amp;rft_id=http%3A%2F%2Fcordova.apache.org%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://wiki.apache.org/cordova/who">"Cordova Contributor's Who's Who"</a>. apache.org. 2015-11-02<span class="reference-accessdate">. Retrieved <span class="nowrap">2015-11-02</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Cordova+Contributor%27s+Who%27s+Who&amp;rft.pub=apache.org&amp;rft.date=2015-11-02&amp;rft_id=http%3A%2F%2Fwiki.apache.org%2Fcordova%2Fwho&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><cite class="citation web">Darryl K. Taft (2009-03-13). <a rel="nofollow" class="external text" href="http://www.eweek.com/c/a/Application-Development/PhoneGap-Simplifies-iPhone-Android-BlackBerry-Development-788189/">"PhoneGap Simplifies iPhone, Android, BlackBerry Development"</a>. Eweek.com<span class="reference-accessdate">. Retrieved <span class="nowrap">2013-10-09</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=PhoneGap+Simplifies+iPhone%2C+Android%2C+BlackBerry+Development&amp;rft.pub=Eweek.com&amp;rft.date=2009-03-13&amp;rft.au=Darryl+K.+Taft&amp;rft_id=http%3A%2F%2Fwww.eweek.com%2Fc%2Fa%2FApplication-Development%2FPhoneGap-Simplifies-iPhone-Android-BlackBerry-Development-788189%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><cite class="citation web">Davis, Lidija (2009-04-02). <a rel="nofollow" class="external text" href="http://www.readwriteweb.com/archives/phone_gap_todays_peoples_choice_winner_at_launch_p.php">"PhoneGap: People's Choice Winner at Web 2.0 Expo Launch Pad"</a>. Readwriteweb.com<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-04-07</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=PhoneGap%3A+People%27s+Choice+Winner+at+Web+2.0+Expo+Launch+Pad&amp;rft.pub=Readwriteweb.com&amp;rft.date=2009-04-02&amp;rft.aulast=Davis&amp;rft.aufirst=Lidija&amp;rft_id=http%3A%2F%2Fwww.readwriteweb.com%2Farchives%2Fphone_gap_todays_peoples_choice_winner_at_launch_p.php&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.phonegap.com/app/">"PhoneGap Apps"</a>. Phonegap.com<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-12-06</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=PhoneGap+Apps&amp;rft.pub=Phonegap.com&amp;rft_id=http%3A%2F%2Fwww.phonegap.com%2Fapp%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20120415035852/http://phonegap.com/2010/04/14/phonegap-and-the-apple-developer-license-agreement">"PhoneGap and the Apple developer license agreement. «&#160;PhoneGap"</a>. Phonegap.com. 2010-04-14. Archived from <a rel="nofollow" class="external text" href="http://www.phonegap.com/2010/04/14/phonegap-and-the-apple-developer-license-agreement/">the original</a> on 2012-04-15<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-04-07</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=PhoneGap+and+the+Apple+developer+license+agreement.+%C2%AB+PhoneGap&amp;rft.pub=Phonegap.com&amp;rft.date=2010-04-14&amp;rft_id=http%3A%2F%2Fwww.phonegap.com%2F2010%2F04%2F14%2Fphonegap-and-the-apple-developer-license-agreement%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://monaca.mobi/en/">"Develop Awesome PhoneGap Apps with Awesome Tools"</a>. monaco.mobi<span class="reference-accessdate">. Retrieved <span class="nowrap">2014-06-10</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Develop+Awesome+PhoneGap+Apps+with+Awesome+Tools&amp;rft.pub=monaco.mobi&amp;rft_id=http%3A%2F%2Fmonaca.mobi%2Fen%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.appmobi.com">"Create Mobile and Web Apps with HTML5 and JavaScript |"</a>. appMobi.com<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-04-07</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Create+Mobile+and+Web+Apps+with+HTML5+and+JavaScript+%26%23124%3B&amp;rft.pub=appMobi.com&amp;rft_id=http%3A%2F%2Fwww.appmobi.com&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.convertigo.com">"Open Source Mobile Enablement and Enterprise Mashups"</a>. Convertigo<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-04-07</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Open+Source+Mobile+Enablement+and+Enterprise+Mashups&amp;rft.pub=Convertigo&amp;rft_id=http%3A%2F%2Fwww.convertigo.com&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20120513040808/http://phonegap.com/2011/07/07/convertigo-mobilizer-uses-phonegap-build-apis/">"Convertigo Mobilizer Uses PhoneGap Build APIs «&#160;PhoneGap"</a>. Phonegap.com. 2011-07-07. Archived from <a rel="nofollow" class="external text" href="http://phonegap.com/2011/07/07/convertigo-mobilizer-uses-phonegap-build-apis/">the original</a> on 2012-05-13<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-04-07</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Convertigo+Mobilizer+Uses+PhoneGap+Build+APIs+%C2%AB+PhoneGap&amp;rft.pub=Phonegap.com&amp;rft.date=2011-07-07&amp;rft_id=http%3A%2F%2Fphonegap.com%2F2011%2F07%2F07%2Fconvertigo-mobilizer-uses-phonegap-build-apis%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.viziapps.com">"Create Mobile and Web Apps with HTML5 and JavaScript"</a>. ViziApps.com<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-04-07</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Create+Mobile+and+Web+Apps+with+HTML5+and+JavaScript&amp;rft.pub=ViziApps.com&amp;rft_id=http%3A%2F%2Fwww.viziapps.com&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.worklight.com">"Mobile Application Platform and Tools"</a>. Worklight. 2012-01-16<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-04-07</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Mobile+Application+Platform+and+Tools&amp;rft.pub=Worklight&amp;rft.date=2012-01-16&amp;rft_id=http%3A%2F%2Fwww.worklight.com&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20120415220543/http://phonegap.com/2011/06/27/how-phonegap-plays-an-important-part-in-our-enterprise-offering">"How PhoneGap plays an important part in our Enterprise offering PhoneGap"</a>. Phonegap.com. 2011-06-27. Archived from <a rel="nofollow" class="external text" href="http://www.phonegap.com/2011/06/27/how-phonegap-plays-an-important-part-in-our-enterprise-offering/">the original</a> on 2012-04-15<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-04-07</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=How+PhoneGap+plays+an+important+part+in+our+Enterprise+offering+PhoneGap&amp;rft.pub=Phonegap.com&amp;rft.date=2011-06-27&amp;rft_id=http%3A%2F%2Fwww.phonegap.com%2F2011%2F06%2F27%2Fhow-phonegap-plays-an-important-part-in-our-enterprise-offering%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><cite class="citation web">Shankland, Stephen (2011-10-03). <a rel="nofollow" class="external text" href="http://news.cnet.com/8301-30685_3-20114857-264/adobe-buys-phonegap-typekit-for-better-Web-tools/">"Adobe buys PhoneGap, TypeKit for better Web tools | Deep Tech - CNET News"</a>. News.cnet.com<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-04-07</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Adobe+buys+PhoneGap%2C+TypeKit+for+better+Web+tools+%26%23124%3B+Deep+Tech+-+CNET+News&amp;rft.pub=News.cnet.com&amp;rft.date=2011-10-03&amp;rft.aulast=Shankland&amp;rft.aufirst=Stephen&amp;rft_id=http%3A%2F%2Fnews.cnet.com%2F8301-30685_3-20114857-264%2Fadobe-buys-phonegap-typekit-for-better-Web-tools%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://markmail.org/message/vcrw2swiwiwcojsd">"finding a new name that isn't PhoneGap - Brian LeRoux - org.apache.incubator.callback-dev"</a>. MarkMail. 2011-10-28<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-04-07</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=finding+a+new+name+that+isn%27t+PhoneGap+-+Brian+LeRoux+-+org.apache.incubator.callback-dev&amp;rft.pub=MarkMail&amp;rft.date=2011-10-28&amp;rft_id=http%3A%2F%2Fmarkmail.org%2Fmessage%2Fvcrw2swiwiwcojsd&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://build.phonegap.com">"Adobe PhoneGap Build"</a>. Adobe Systems Inc.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Adobe+PhoneGap+Build&amp;rft.pub=Adobe+Systems+Inc.&amp;rft_id=http%3A%2F%2Fbuild.phonegap.com&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text">Klint Finley. <a rel="nofollow" class="external text" href="https://techcrunch.com/2012/09/24/adobe-launches-hosted-phonegap-build-service-for-creating-cross-platform-mobile-apps/">"Adobe Launches Hosted PhoneGap Build Service For Creating Cross-Platform Mobile Apps"</a>. 2012.</span></li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://software.intel.com/en-us/articles/the-development-of-mobile-applications-using-html5-and-phonegap-on-intel-architecture-based">"The Development of Mobile Applications using HTML5 and PhoneGap on Intel Architecture-Based Platforms"</a>. 2012-06-22<span class="reference-accessdate">. Retrieved <span class="nowrap">2013-02-17</span></span>. <q><i>However, HTML5 has some limitations. Most prominent, is the lack of API to access device hardware and sensors such as accelerometer, compass, GPS, etc. While native applications can access device hardware, they lack the portability that Web apps provide. Thus, a solution is to code a hybrid application, which cumulatively uses the benefits of native and Web apps.</i></q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+Development+of+Mobile+Applications+using+HTML5+and+PhoneGap+on+Intel+Architecture-Based+Platforms&amp;rft.date=2012-06-22&amp;rft_id=http%3A%2F%2Fsoftware.intel.com%2Fen-us%2Farticles%2Fthe-development-of-mobile-applications-using-html5-and-phonegap-on-intel-architecture-based&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><cite class="citation web">Sapan Diwakar (2012-06-21). <a rel="nofollow" class="external text" href="http://www.sapandiwakar.in/api-research-study-iphone-and-android-applications/">"Titanium vs Phonegap vs Native application development"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2013-02-17</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Titanium+vs+Phonegap+vs+Native+application+development&amp;rft.date=2012-06-21&amp;rft.au=Sapan+Diwakar&amp;rft_id=http%3A%2F%2Fwww.sapandiwakar.in%2Fapi-research-study-iphone-and-android-applications%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.adobe.com/devnet/phonegap/articles/apple-application-rejections-and-phonegap-advice.html">"PhoneGap advice on dealing with Apple application rejections"</a>. <a href="/wiki/Adobe_Systems" title="Adobe Systems">Adobe Systems</a>. 2012-10-29<span class="reference-accessdate">. Retrieved <span class="nowrap">2013-02-17</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=PhoneGap+advice+on+dealing+with+Apple+application+rejections&amp;rft.pub=Adobe+Systems&amp;rft.date=2012-10-29&amp;rft_id=http%3A%2F%2Fwww.adobe.com%2Fdevnet%2Fphonegap%2Farticles%2Fapple-application-rejections-and-phonegap-advice.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.adobe.com/devnet/phonegap/articles/creating-apps-with-phonegap-lessons.html">"Creating apps with PhoneGap: Lessons learned"</a>. <a href="/wiki/Adobe_Systems" title="Adobe Systems">Adobe Systems</a>. 2012-09-17<span class="reference-accessdate">. Retrieved <span class="nowrap">2013-02-17</span></span>. <q><i>When you add more complex CSS3 elements, heavy transitions, and supporting multiple devices (such as iOS and Android), however, it makes you realize that there are few steps you must iron out to prevent hair loss</i></q></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Creating+apps+with+PhoneGap%3A+Lessons+learned&amp;rft.pub=Adobe+Systems&amp;rft.date=2012-09-17&amp;rft_id=http%3A%2F%2Fwww.adobe.com%2Fdevnet%2Fphonegap%2Farticles%2Fcreating-apps-with-phonegap-lessons.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://hacks.mozilla.org/2014/02/building-cordova-apps-for-firefox-os/">"Building Cordova apps for Firefox OS ✩ Mozilla Hacks – the Web developer blog"</a>. 20 February 2014<span class="reference-accessdate">. Retrieved <span class="nowrap">26 February</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Building+Cordova+apps+for+Firefox+OS+%E2%9C%A9+Mozilla+Hacks+%E2%80%93+the+Web+developer+blog&amp;rft.date=2014-02-20&amp;rft_id=https%3A%2F%2Fhacks.mozilla.org%2F2014%2F02%2Fbuilding-cordova-apps-for-firefox-os%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://androidandme.com/2009/12/news/using-phonegap-and-the-sony-ericsson-websdk-to-develop-android-apps/">"Using PhoneGap and the Sony Ericsson WebSDK to develop Android apps"</a>. Android and Me<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-04-07</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Using+PhoneGap+and+the+Sony+Ericsson+WebSDK+to+develop+Android+apps&amp;rft.pub=Android+and+Me&amp;rft_id=http%3A%2F%2Fandroidandme.com%2F2009%2F12%2Fnews%2Fusing-phonegap-and-the-sony-ericsson-websdk-to-develop-android-apps%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-32">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://docs.phonegap.com/en/edge/guide_support_index.md.html#Platform%20Support">"Platform Support"</a>. Adobe PhoneGap<span class="reference-accessdate">. Retrieved <span class="nowrap">2016-02-23</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Platform+Support&amp;rft.pub=Adobe+PhoneGap&amp;rft_id=http%3A%2F%2Fdocs.phonegap.com%2Fen%2Fedge%2Fguide_support_index.md.html%23Platform%2520Support&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-33">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.phonegap.com/about/feature">"PhoneGap supported features"</a>. Phonegap.com<span class="reference-accessdate">. Retrieved <span class="nowrap">2013-10-09</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=PhoneGap+supported+features&amp;rft.pub=Phonegap.com&amp;rft_id=http%3A%2F%2Fwww.phonegap.com%2Fabout%2Ffeature&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html">https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html</a></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Bibliography">Bibliography</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Apache_Cordova&amp;action=edit&amp;section=6" title="Edit section: Bibliography">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="refbegin" style="">
+<ul>
+<li><cite class="citation book">Pelletier, Jeff (April 25, 2013). <a rel="nofollow" class="external text" href="http://mobileappmanual.com"><i>Mobile App Manual: The Blueprint</i></a> (1st ed.). Withinsight Publishing. p.&#160;96. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0989072106" title="Special:BookSources/978-0989072106">978-0989072106</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Mobile+App+Manual%3A+The+Blueprint&amp;rft.pages=96&amp;rft.edition=1st&amp;rft.pub=Withinsight+Publishing&amp;rft.date=2013-04-25&amp;rft.isbn=978-0989072106&amp;rft.aulast=Pelletier&amp;rft.aufirst=Jeff&amp;rft_id=http%3A%2F%2Fmobileappmanual.com&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li><cite class="citation book">Shotts, Kerri (February 26, 2013). <a rel="nofollow" class="external text" href="http://www.packtpub.com/phonegap-2-mobile-application-hotshot/book"><i>PhoneGap 2.x Mobile Application Development Hotshot</i></a> (1st ed.). <a href="/wiki/Packt_Publishing" class="mw-redirect" title="Packt Publishing">Packt Publishing</a>. p.&#160;388. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-1849519403" title="Special:BookSources/978-1849519403">978-1849519403</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=PhoneGap+2.x+Mobile+Application+Development+Hotshot&amp;rft.pages=388&amp;rft.edition=1st&amp;rft.pub=Packt+Publishing&amp;rft.date=2013-02-26&amp;rft.isbn=978-1849519403&amp;rft.aulast=Shotts&amp;rft.aufirst=Kerri&amp;rft_id=http%3A%2F%2Fwww.packtpub.com%2Fphonegap-2-mobile-application-hotshot%2Fbook&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li><cite class="citation book">Gifford, Matt (October 22, 2012). <a rel="nofollow" class="external text" href="http://www.packtpub.com/phonegap-mobile-application-development-cookbook/book"><i>PhoneGap Mobile Application Development Cookbook</i></a> (1st ed.). <a href="/wiki/Packt_Publishing" class="mw-redirect" title="Packt Publishing">Packt Publishing</a>. p.&#160;320. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-1849518581" title="Special:BookSources/978-1849518581">978-1849518581</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=PhoneGap+Mobile+Application+Development+Cookbook&amp;rft.pages=320&amp;rft.edition=1st&amp;rft.pub=Packt+Publishing&amp;rft.date=2012-10-22&amp;rft.isbn=978-1849518581&amp;rft.aulast=Gifford&amp;rft.aufirst=Matt&amp;rft_id=http%3A%2F%2Fwww.packtpub.com%2Fphonegap-mobile-application-development-cookbook%2Fbook&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li><cite class="citation book">M. Wargo, John (June 11, 2012). <a rel="nofollow" class="external text" href="http://phonegapessentials.com/"><i>PhoneGap Essentials: Building Cross-Platform Mobile Apps</i></a> (1st ed.). <a href="/wiki/Addison-Wesley_Professional" class="mw-redirect" title="Addison-Wesley Professional">Addison-Wesley Professional</a>. p.&#160;384. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0321814296" title="Special:BookSources/978-0321814296">978-0321814296</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=PhoneGap+Essentials%3A+Building+Cross-Platform+Mobile+Apps&amp;rft.pages=384&amp;rft.edition=1st&amp;rft.pub=Addison-Wesley+Professional&amp;rft.date=2012-06-11&amp;rft.isbn=978-0321814296&amp;rft.aulast=M.+Wargo&amp;rft.aufirst=John&amp;rft_id=http%3A%2F%2Fphonegapessentials.com%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li><cite class="citation book">Munro, Jamie (March 29, 2012). <a rel="nofollow" class="external text" href="http://shop.oreilly.com/product/0636920023708.do"><i>20 Recipes for Programming PhoneGap: Cross-Platform Mobile Development for Android and iPhone</i></a> (1st ed.). <a href="/wiki/O%27Reilly_Media" title="O'Reilly Media">O'Reilly Media</a>. p.&#160;76. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-1-4493-1954-0" title="Special:BookSources/978-1-4493-1954-0">978-1-4493-1954-0</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=20+Recipes+for+Programming+PhoneGap%3A+Cross-Platform+Mobile+Development+for+Android+and+iPhone&amp;rft.pages=76&amp;rft.edition=1st&amp;rft.pub=O%27Reilly+Media&amp;rft.date=2012-03-29&amp;rft.isbn=978-1-4493-1954-0&amp;rft.aulast=Munro&amp;rft.aufirst=Jamie&amp;rft_id=http%3A%2F%2Fshop.oreilly.com%2Fproduct%2F0636920023708.do&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li><cite class="citation book">Marinacci, Joshua (March 21, 2012). <a rel="nofollow" class="external text" href="http://shop.oreilly.com/product/0636920021063.do"><i>Building Mobile Applications with Java: Using the Google Web Toolkit and PhoneGap</i></a> (1st ed.). <a href="/wiki/O%27Reilly_Media" title="O'Reilly Media">O'Reilly Media</a>. p.&#160;86. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-1-4493-0823-0" title="Special:BookSources/978-1-4493-0823-0">978-1-4493-0823-0</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Building+Mobile+Applications+with+Java%3A+Using+the+Google+Web+Toolkit+and+PhoneGap&amp;rft.pages=86&amp;rft.edition=1st&amp;rft.pub=O%27Reilly+Media&amp;rft.date=2012-03-21&amp;rft.isbn=978-1-4493-0823-0&amp;rft.aulast=Marinacci&amp;rft.aufirst=Joshua&amp;rft_id=http%3A%2F%2Fshop.oreilly.com%2Fproduct%2F0636920021063.do&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li><cite class="citation book">Lunny, Andrew (September 23, 2011). <a rel="nofollow" class="external text" href="http://www.packtpub.com/phonegap-beginners-guide/book"><i>PhoneGap Beginner's Guide</i></a> (1st ed.). <a href="/wiki/Packt_Publishing" class="mw-redirect" title="Packt Publishing">Packt Publishing</a>. p.&#160;328. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1-84951-536-0" title="Special:BookSources/1-84951-536-0">1-84951-536-0</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=PhoneGap+Beginner%27s+Guide&amp;rft.pages=328&amp;rft.edition=1st&amp;rft.pub=Packt+Publishing&amp;rft.date=2011-09-23&amp;rft.isbn=1-84951-536-0&amp;rft.aulast=Lunny&amp;rft.aufirst=Andrew&amp;rft_id=http%3A%2F%2Fwww.packtpub.com%2Fphonegap-beginners-guide%2Fbook&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li><cite class="citation book">Ghatol, Rohit (November 14, 2011). <a rel="nofollow" class="external text" href="http://www.apress.com/9781430239031"><i>Beginning PhoneGap: Mobile Web Framework for JavaScript and HTML5</i></a> (1st ed.). <a href="/wiki/Apress" title="Apress">Apress</a>. p.&#160;700. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1-4302-3903-4" title="Special:BookSources/1-4302-3903-4">1-4302-3903-4</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Beginning+PhoneGap%3A+Mobile+Web+Framework+for+JavaScript+and+HTML5&amp;rft.pages=700&amp;rft.edition=1st&amp;rft.pub=Apress&amp;rft.date=2011-11-14&amp;rft.isbn=1-4302-3903-4&amp;rft.aulast=Ghatol&amp;rft.aufirst=Rohit&amp;rft_id=http%3A%2F%2Fwww.apress.com%2F9781430239031&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li><cite class="citation book">Myer, Thomas (December 13, 2011). <a rel="nofollow" class="external text" href="http://www.wiley.com/WileyCDA/WileyTitle/productCd-111815665X.html"><i>Beginning PhoneGap</i></a> (1st ed.). <a href="/wiki/Wrox_Press" title="Wrox Press">Wrox</a>. p.&#160;336. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1-118-15665-X" title="Special:BookSources/1-118-15665-X">1-118-15665-X</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Beginning+PhoneGap&amp;rft.pages=336&amp;rft.edition=1st&amp;rft.pub=Wrox&amp;rft.date=2011-12-13&amp;rft.isbn=1-118-15665-X&amp;rft.aulast=Myer&amp;rft.aufirst=Thomas&amp;rft_id=http%3A%2F%2Fwww.wiley.com%2FWileyCDA%2FWileyTitle%2FproductCd-111815665X.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AApache+Cordova" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+</ul>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Apache_Cordova&amp;action=edit&amp;section=7" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table role="presentation" class="mbox-small plainlinks sistersitebox" style="background-color:#f9f9f9;border:1px solid #aaa;color:#000">
+<tr>
+<td class="mbox-image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png" width="40" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/60px-Wikibooks-logo-en-noslogan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/80px-Wikibooks-logo-en-noslogan.svg.png 2x" data-file-width="400" data-file-height="400" /></td>
+<td class="mbox-text plainlist">The Wikibook <i><a href="https://en.wikibooks.org/wiki/Android" class="extiw" title="wikibooks:Android">Android</a></i> has a page on the topic of: <i><b><a href="https://en.wikibooks.org/wiki/Android/PhoneGap" class="extiw" title="wikibooks:Android/PhoneGap">PhoneGap</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><span class="official-website"><span class="url"><a rel="nofollow" class="external text" href="https://cordova.apache.org/">Official website</a></span></span></li>
+</ul>
+<div role="navigation" class="navbox" aria-labelledby="Apache_Software_Foundation" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th scope="col" class="navbox-title" colspan="3">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Apache" title="Template:Apache"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Apache" title="Template talk:Apache"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Apache&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;">e</abbr></a></li>
+</ul>
+</div>
+<div id="Apache_Software_Foundation" style="font-size:114%;margin:0 4em"><a href="/wiki/Apache_Software_Foundation" title="Apache Software Foundation">Apache Software Foundation</a></div>
+</th>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:1%">Top level projects</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Apache_Accumulo" title="Apache Accumulo">Accumulo</a></li>
+<li><a href="/wiki/Apache_ActiveMQ" title="Apache ActiveMQ">ActiveMQ</a></li>
+<li><a href="/wiki/Apache_Ambari" title="Apache Ambari">Ambari</a></li>
+<li><a href="/wiki/Apache_Ant" title="Apache Ant">Ant</a></li>
+<li><a href="/wiki/Apache_Apex" title="Apache Apex">Apex</a></li>
+<li><a href="/wiki/Apache_Aries" title="Apache Aries">Aries</a></li>
+<li><a href="/wiki/Apache_HTTP_Server" title="Apache HTTP Server">Apache HTTP Server</a></li>
+<li><a href="/wiki/Apache_Portable_Runtime" title="Apache Portable Runtime">APR</a></li>
+<li><a href="/wiki/Apache_Avro" title="Apache Avro">Avro</a></li>
+<li><a href="/wiki/Apache_Axis" title="Apache Axis">Axis</a></li>
+<li><a href="/wiki/Apache_Axis2" title="Apache Axis2">Axis2</a></li>
+<li><a href="/wiki/Apache_Beam" title="Apache Beam">Beam</a></li>
+<li><a href="/wiki/Apache_Bloodhound" title="Apache Bloodhound">Bloodhound</a></li>
+<li><a href="/wiki/Apache_Brooklyn" title="Apache Brooklyn">Brooklyn</a></li>
+<li><a href="/wiki/Apache_Buildr" title="Apache Buildr">Buildr</a></li>
+<li><a href="/wiki/Apache_Calcite" title="Apache Calcite">Calcite</a></li>
+<li><a href="/wiki/Apache_Camel" title="Apache Camel">Camel</a></li>
+<li><a href="/wiki/Apache_Cassandra" title="Apache Cassandra">Cassandra</a></li>
+<li><a href="/wiki/Apache_Cayenne" title="Apache Cayenne">Cayenne</a></li>
+<li><a href="/wiki/Apache_Chemistry" title="Apache Chemistry">Chemistry</a></li>
+<li><a href="/wiki/Apache_CloudStack" title="Apache CloudStack">CloudStack</a></li>
+<li><a href="/wiki/Apache_Cocoon" title="Apache Cocoon">Cocoon</a></li>
+<li><a class="mw-selflink selflink">Cordova</a></li>
+<li><a href="/wiki/CouchDB" title="CouchDB">CouchDB</a></li>
+<li><a href="/wiki/CTAKES" title="CTAKES">cTAKES</a></li>
+<li><a href="/wiki/Apache_CXF" title="Apache CXF">CXF</a></li>
+<li><a href="/wiki/Apache_Derby" title="Apache Derby">Derby</a></li>
+<li><a href="/wiki/Apache_Directory" title="Apache Directory">Directory</a></li>
+<li><a href="/wiki/Apache_Drill" title="Apache Drill">Drill</a></li>
+<li><a href="/wiki/Apache_Empire-db" title="Apache Empire-db">Empire-db</a></li>
+<li><a href="/wiki/Apache_Felix" title="Apache Felix">Felix</a></li>
+<li><a href="/wiki/Apache_Flex" title="Apache Flex">Flex</a></li>
+<li><a href="/wiki/Apache_Flink" title="Apache Flink">Flink</a></li>
+<li><a href="/wiki/Apache_Flume" title="Apache Flume">Flume</a></li>
+<li><a href="/wiki/Apache_Forrest" title="Apache Forrest">Forrest</a></li>
+<li><a href="/wiki/Apache_Geronimo" title="Apache Geronimo">Geronimo</a></li>
+<li><a href="/wiki/Apache_Gora" title="Apache Gora">Gora</a></li>
+<li><a href="/wiki/Apache_Gump" title="Apache Gump">Gump</a></li>
+<li><a href="/wiki/Apache_Hadoop" title="Apache Hadoop">Hadoop</a></li>
+<li><a href="/wiki/Apache_Hama" title="Apache Hama">Hama</a></li>
+<li><a href="/wiki/Apache_HBase" title="Apache HBase">HBase</a></li>
+<li><a href="/wiki/Apache_Hive" title="Apache Hive">Hive</a></li>
+<li><a href="/wiki/Apache_Jackrabbit" title="Apache Jackrabbit">Jackrabbit</a></li>
+<li><a href="/wiki/Apache_James" title="Apache James">James</a></li>
+<li><a href="/wiki/Jini" title="Jini">Jini</a></li>
+<li><a href="/wiki/Apache_JMeter" title="Apache JMeter">JMeter</a></li>
+<li><a href="/wiki/Apache_Kafka" title="Apache Kafka">Kafka</a></li>
+<li><a href="/wiki/Apache_Kudu" title="Apache Kudu">Kudu</a></li>
+<li><a href="/wiki/Apache_Kylin" title="Apache Kylin">Kylin</a></li>
+<li><a href="/wiki/Apache_Lucene" title="Apache Lucene">Lucene</a></li>
+<li><a href="/wiki/Apache_Mahout" title="Apache Mahout">Mahout</a></li>
+<li><a href="/wiki/Apache_Marmotta" title="Apache Marmotta">Marmotta</a></li>
+<li><a href="/wiki/Apache_Maven" title="Apache Maven">Maven</a></li>
+<li><a href="/wiki/Apache_MINA" title="Apache MINA">MINA</a></li>
+<li><a href="/wiki/Mod_perl" title="Mod perl">mod_perl</a></li>
+<li><a href="/wiki/Apache_MyFaces" title="Apache MyFaces">MyFaces</a></li>
+<li><a href="/wiki/Apache_Nutch" title="Apache Nutch">Nutch</a></li>
+<li><a href="/wiki/Apache_ODE" title="Apache ODE">ODE</a></li>
+<li><a href="/wiki/Apache_OFBiz" title="Apache OFBiz">OFBiz</a></li>
+<li><a href="/wiki/Apache_Oozie" title="Apache Oozie">Oozie</a></li>
+<li><a href="/wiki/Apache_OpenEJB" title="Apache OpenEJB">OpenEJB</a></li>
+<li><a href="/wiki/Apache_OpenJPA" title="Apache OpenJPA">OpenJPA</a></li>
+<li><a href="/wiki/OpenNLP" class="mw-redirect" title="OpenNLP">OpenNLP</a></li>
+<li><a href="/w/index.php?title=A%D1%80ache_O%D1%80en_Office&amp;action=edit&amp;redlink=1" class="new" title="Aрache Oрen Office (page does not exist)">Oрen Office</a></li>
+<li><a href="/wiki/Apache_PDFBox" title="Apache PDFBox">PDFBox</a></li>
+<li><a href="/wiki/Apache_Parquet" title="Apache Parquet">Parquet</a></li>
+<li><a href="/wiki/Apache_Phoenix" title="Apache Phoenix">Phoenix</a></li>
+<li><a href="/wiki/Apache_POI" title="Apache POI">POI</a></li>
+<li><a href="/wiki/Pig_(programming_tool)" title="Pig (programming tool)">Pig</a></li>
+<li><a href="/wiki/Apache_Pivot" title="Apache Pivot">Pivot</a></li>
+<li><a href="/wiki/Apache_Qpid" title="Apache Qpid">Qpid</a></li>
+<li><a href="/wiki/Apache_Roller" title="Apache Roller">Roller</a></li>
+<li><a href="/w/index.php?title=Apache_RocketMQ&amp;action=edit&amp;redlink=1" class="new" title="Apache RocketMQ (page does not exist)">RocketMQ</a></li>
+<li><a href="/wiki/Apache_Samza" title="Apache Samza">Samza</a></li>
+<li><a href="/wiki/Apache_ServiceMix" title="Apache ServiceMix">ServiceMix</a></li>
+<li><a href="/wiki/Apache_Shiro" title="Apache Shiro">Shiro</a></li>
+<li><a href="/wiki/Apache_Sling" title="Apache Sling">Sling</a></li>
+<li><a href="/wiki/Apache_Solr" title="Apache Solr">Solr</a></li>
+<li><a href="/wiki/Apache_Spark" title="Apache Spark">Spark</a></li>
+<li><a href="/wiki/Apache_Stanbol" title="Apache Stanbol">Stanbol</a></li>
+<li><a href="/wiki/Storm_(event_processor)" title="Storm (event processor)">Storm</a></li>
+<li><a href="/wiki/SpamAssassin" title="SpamAssassin">SpamAssassin</a></li>
+<li><a href="/wiki/Sqoop" title="Sqoop">Sqoop</a></li>
+<li><a href="/wiki/Apache_Struts_1" title="Apache Struts 1">Struts 1</a></li>
+<li><a href="/wiki/Apache_Struts_2" title="Apache Struts 2">Struts 2</a></li>
+<li><a href="/wiki/Apache_Subversion" title="Apache Subversion">Subversion</a></li>
+<li><a href="/wiki/Apache_SystemML" title="Apache SystemML">SystemML</a></li>
+<li><a href="/wiki/Apache_Tapestry" title="Apache Tapestry">Tapestry</a></li>
+<li><a href="/wiki/Apache_Thrift" title="Apache Thrift">Thrift</a></li>
+<li><a href="/wiki/Apache_Tika" title="Apache Tika">Tika</a></li>
+<li><a href="/wiki/Apache_Tomcat" title="Apache Tomcat">Tomcat</a></li>
+<li><a href="/wiki/Traffic_Server" title="Traffic Server">Traffic Server</a></li>
+<li><a href="/wiki/UIMA" title="UIMA">UIMA</a></li>
+<li><a href="/wiki/Apache_Velocity" title="Apache Velocity">Velocity</a></li>
+<li><a href="/wiki/Apache_Wave" title="Apache Wave">Wave</a></li>
+<li><a href="/wiki/Apache_Wicket" title="Apache Wicket">Wicket</a></li>
+<li><a href="/wiki/Xalan" title="Xalan">Xalan</a></li>
+<li><a href="/wiki/Xerces" title="Xerces">Xerces</a></li>
+<li><a href="/wiki/Apache_ZooKeeper" title="Apache ZooKeeper">ZooKeeper</a></li>
+</ul>
+</div>
+</td>
+
