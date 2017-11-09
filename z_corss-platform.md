@@ -63,6 +63,7 @@
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td data-sort-value="" style="background: #ececec; color: #2C2C2C; vertical-align: middle; font-size: smaller; text-align: center;" class="table-na">N/A</td>
+  
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
