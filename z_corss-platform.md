@@ -1,4 +1,9 @@
 
 
 
-## cross-platforms: phonegap/apache cordova, xamarin, unity, appcelerator
+## cross-platform mobile app development:
+
+* phonegap/apache cordova
+* xamarin
+* unity 
+* appcelerator
