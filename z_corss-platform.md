@@ -18,18 +18,7 @@
 <p></p>
 <div id="toc" class="toc">
 <div class="toctitle">
-<h2>Contents</h2>
-</div>
-<ul>
-<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
-<li class="toclevel-1 tocsection-2"><a href="#Design_and_rationale"><span class="tocnumber">2</span> <span class="toctext">Design and rationale</span></a></li>
-<li class="toclevel-1 tocsection-3"><a href="#Supported_platforms"><span class="tocnumber">3</span> <span class="toctext">Supported platforms</span></a></li>
-<li class="toclevel-1 tocsection-4"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
-<li class="toclevel-1 tocsection-5"><a href="#References"><span class="tocnumber">5</span> <span class="toctext">References</span></a></li>
-<li class="toclevel-1 tocsection-6"><a href="#Bibliography"><span class="tocnumber">6</span> <span class="toctext">Bibliography</span></a></li>
-<li class="toclevel-1 tocsection-7"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
-</ul>
-</div>
+
 <p></p>
 <h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Apache_Cordova&amp;action=edit&amp;section=1" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <p>First developed at an iPhoneDevCamp event in San Francisco,<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">[11]</a></sup> PhoneGap went on to win the People's Choice Award at <a href="/wiki/O%27Reilly_Media" title="O'Reilly Media">O'Reilly Media</a>'s 2009 Web 2.0 Conference,<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">[12]</a></sup> and the framework has been used to develop many apps.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">[13]</a></sup> <a href="/wiki/Apple_Inc." title="Apple Inc.">Apple Inc.</a> has confirmed that the framework has its approval, even with the new 4.0 developer license agreement changes.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">[14]</a></sup> The PhoneGap framework is used by several mobile application platforms such as <a href="/wiki/Monaca_(mobile_application_development_tool)" class="mw-redirect" title="Monaca (mobile application development tool)">Monaca</a>,<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">[15]</a></sup> <a href="/w/index.php?title=AppMobi&amp;action=edit&amp;redlink=1" class="new" title="AppMobi (page does not exist)">appMobi</a>,<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">[16]</a></sup> <a href="/w/index.php?title=Convertigo&amp;action=edit&amp;redlink=1" class="new" title="Convertigo (page does not exist)">Convertigo</a>,<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">[17]</a></sup><sup id="cite_ref-18" class="reference"><a href="#cite_note-18">[18]</a></sup> <a href="/wiki/ViziApps" title="ViziApps">ViziApps</a>,<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">[19]</a></sup> and <a href="/wiki/Worklight" title="Worklight">Worklight</a><sup id="cite_ref-20" class="reference"><a href="#cite_note-20">[20]</a></sup><sup id="cite_ref-21" class="reference"><a href="#cite_note-21">[21]</a></sup> as the backbone of their mobile client development engine.</p>
