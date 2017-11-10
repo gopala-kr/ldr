@@ -286,3 +286,256 @@
 <li>In 2015, Xamarin acquired the Java application development platform <b>RoboVM</b>.</li>
 </ul>
 
+********************************
+
+<title>Unity (game engine) - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Unity_(game_engine)","wgTitle":"Unity (game engine)","wgCurRevisionId":805575697,"wgRevisionId":805575697,"wgArticleId":5462396,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Use mdy dates from January 2015","Articles to be expanded from September 2016","All articles to be expanded","Articles containing Japanese-language text",".NET game engines","Game engines for Linux","Game engines that support Vulkan","IPhone video game engines","MacOS programming tools","Mono project applications","Unity (game engine) games","Video game engines","Video game IDE"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Unity_(game_engine)","wgRelevantArticleId":5462396,"wgRequestId":"WgSa-QpAEKYAACgojEgAAABI","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":false,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q63966","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","skins.vector.styles.experimental.print":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["ext.math.scripts","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","jquery.tablesorter","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cskins.vector.styles.experimental.print%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.31.0-wmf.6"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/1200px-Unity_Technologies_logo.svg.png"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Unity_(game_engine)"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Unity_(game_engine)&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Unity_(game_engine)&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Unity_(game_engine)"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Unity_game_engine rootpage-Unity_game_engine vector-experimental-print-styles vector-nav-directionality skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+						<div class="mw-indicators mw-body-content">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Unity (game engine)</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div role="note" class="hatnote navigation-not-searchable">Not to be confused with <a href="/wiki/Unity_(user_interface)" title="Unity (user interface)">Unity (user interface)</a>.</div>
+<table class="infobox vevent" style="width:22em">
+<caption class="summary">Unity</caption>
+<tr>
+<td colspan="2" style="text-align:center"><a href="/wiki/File:Unity_Technologies_logo.svg" class="image"><img alt="Unity Technologies logo.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/200px-Unity_Technologies_logo.svg.png" width="200" height="73" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/300px-Unity_Technologies_logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/400px-Unity_Technologies_logo.svg.png 2x" data-file-width="300" data-file-height="109" /></a></td>
+</tr>
+<tr>
+<th scope="row" style="white-space: nowrap;"><a href="/wiki/Software_developer" title="Software developer">Developer(s)</a></th>
+<td><a href="/wiki/Unity_Technologies" title="Unity Technologies">Unity Technologies</a></td>
+</tr>
+<tr>
+<th scope="row" style="white-space: nowrap;">Initial release</th>
+<td>1.0 / June&#160;8, 2005<span class="noprint">; 12 years ago</span><span style="display:none">&#160;(<span class="bday dtstart published updated">2005-06-08</span>)</span></td>
+</tr>
+<tr>
+<td colspan="2" style="text-align:center"></td>
+</tr>
+<tr>
+<th scope="row" style="white-space: nowrap;"><a href="/wiki/Software_release_life_cycle" title="Software release life cycle">Stable release</a></th>
+<td>
+<div style="margin:0px;">2017.2 / October&#160;12, 2017<span class="noprint">; 28 days ago</span><span style="display:none">&#160;(<span class="bday dtstart published updated">2017-10-12</span>)</span></div>
+</td>
+</tr>
+<tr style="display:none">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" style="white-space: nowrap;">Written in</th>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="/wiki/C%2B%2B" title="C++">C++</a> (Runtime)<br />
+<a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a> (Unity API)<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup></td>
+</tr>
+<tr>
+<th scope="row" style="white-space: nowrap;"><a href="/wiki/Operating_system" title="Operating system">Operating system</a></th>
+<td>
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Creation</div>
+<ul class="NavContent" style="list-style: none none; margin-left: 0; text-align: left; font-size: 105%; margin-top: 0; margin-bottom: 0; line-height: inherit;">
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Linux" title="Linux">Linux</a> (experimental)<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/MacOS" title="MacOS">macOS</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a></li>
+</ul>
+</div>
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Deployment</div>
+<ul class="NavContent" style="list-style: none none; margin-left: 0; text-align: left; font-size: 105%; margin-top: 0; margin-bottom: 0; line-height: inherit;">
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Android_TV" title="Android TV">Android TV</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/w/index.php?title=Facebook_Gameroom&amp;action=edit&amp;redlink=1" class="new" title="Facebook Gameroom (page does not exist)">Facebook Gameroom</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Fire_OS" title="Fire OS">Fire OS</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Gear_VR" class="mw-redirect" title="Gear VR">Gear VR</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Google_Cardboard" title="Google Cardboard">Google Cardboard</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Google_Daydream" title="Google Daydream">Google Daydream</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/HTC_Vive" title="HTC Vive">HTC Vive</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/IOS" title="IOS">iOS</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Linux" title="Linux">Linux</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/MacOS" title="MacOS">macOS</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Microsoft_HoloLens" title="Microsoft HoloLens">Microsoft HoloLens</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Nintendo_3DS_family" title="Nintendo 3DS family">Nintendo 3DS family</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Nintendo_Switch" title="Nintendo Switch">Nintendo Switch</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Oculus_Rift" title="Oculus Rift">Oculus Rift</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/PlayStation_4" title="PlayStation 4">PlayStation 4</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/PlayStation_Vita" title="PlayStation Vita">PlayStation Vita</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/PlayStation_VR" title="PlayStation VR">PlayStation VR</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Samsung_Smart_TV" class="mw-redirect" title="Samsung Smart TV">Samsung Smart TV</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Tizen" title="Tizen">Tizen</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/TvOS" title="TvOS">tvOS</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/WebGL" title="WebGL">WebGL</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Wii_U" title="Wii U">Wii U</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Windows_Phone" title="Windows Phone">Windows Phone</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Windows_Store" class="mw-redirect" title="Windows Store">Windows Store</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Xbox_One" title="Xbox One">Xbox One</a></li>
+</ul>
+</div>
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Deprecated</div>
+<ul class="NavContent" style="list-style: none none; margin-left: 0; text-align: left; font-size: 105%; margin-top: 0; margin-bottom: 0; line-height: inherit;">
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Adobe_Flash" title="Adobe Flash">Adobe Flash</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Blackberry_10" class="mw-redirect" title="Blackberry 10">Blackberry 10</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Google_Native_Client" title="Google Native Client">Google Native Client</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/PlayStation_3" title="PlayStation 3">PlayStation 3</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Unity_Web_Player" class="mw-redirect" title="Unity Web Player">Unity Web Player</a><sup id="cite_ref-WPRoadmap_3-0" class="reference"><a href="#cite_note-WPRoadmap-3">[3]</a></sup></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Wii" title="Wii">Wii</a></li>
+<li style="line-height: inherit; margin: 0"><a href="/wiki/Xbox_360" title="Xbox 360">Xbox 360</a></li>
+</ul>
+</div>
+<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup></td>
+</tr>
+<tr>
+<th scope="row" style="white-space: nowrap;"><a href="/wiki/Computing_platform" title="Computing platform">Platform</a></th>
+<td><a href="/wiki/IA-32" title="IA-32">IA-32</a>, <a href="/wiki/X86-64" title="X86-64">x86-64</a>, <a href="/wiki/ARM_architecture" title="ARM architecture">ARM</a></td>
+</tr>
+<tr>
+<th scope="row" style="white-space: nowrap;">Available in</th>
+<td><a href="/wiki/English_language" title="English language">English</a></td>
+</tr>
+<tr>
+<th scope="row" style="white-space: nowrap;"><a href="/wiki/Software_categories#Broad_categories" title="Software categories">Type</a></th>
+<td><a href="/wiki/Game_engine" title="Game engine">Game engine</a></td>
+</tr>
+<tr>
+<th scope="row" style="white-space: nowrap;"><a href="/wiki/Software_license" title="Software license">License</a></th>
+<td><a href="/wiki/Proprietary_software" title="Proprietary software">Proprietary</a></td>
+</tr>
+<tr>
+<th scope="row" style="white-space: nowrap;">Website</th>
+<td><span class="url"><a rel="nofollow" class="external text" href="https://unity3d.com/">unity3d<wbr />.com</a></span></td>
+</tr>
+</table>
+<p><b>Unity</b> is a <a href="/wiki/Cross-platform" title="Cross-platform">cross-platform</a> <a href="/wiki/Game_engine" title="Game engine">game engine</a> developed by <a href="/wiki/Unity_Technologies" title="Unity Technologies">Unity Technologies</a>,<sup id="cite_ref-Riccitiello_interview_5-0" class="reference"><a href="#cite_note-Riccitiello_interview-5">[5]</a></sup> which is primarily used to develop <a href="/wiki/Video_game" title="Video game">video games</a> and <a href="/wiki/Computer_simulation" title="Computer simulation">simulations</a> for <a href="/wiki/Personal_computer" title="Personal computer">computers</a>, <a href="/wiki/Video_game_console" title="Video game console">consoles</a> and <a href="/wiki/Mobile_device" title="Mobile device">mobile devices</a>. First announced only for <a href="/wiki/OS_X" class="mw-redirect" title="OS X">OS X</a>, at Apple's <a href="/wiki/Apple_Worldwide_Developers_Conference" title="Apple Worldwide Developers Conference">Worldwide Developers Conference</a> in 2005, it has since been extended to target 27 platforms.<sup id="cite_ref-Unity_Multiplatform_6-0" class="reference"><a href="#cite_note-Unity_Multiplatform-6">[6]</a></sup><sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup></p>
+<p>Six major versions of Unity have been released. At the 2006 <a href="/wiki/Apple_Worldwide_Developers_Conference" title="Apple Worldwide Developers Conference">WWDC</a> show, Apple named Unity as the runner up for its Best Use of Mac OS X Graphics category.</p>
+<p></p>
+<div id="toc" class="toc">
+<div class="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Licenses"><span class="tocnumber">2</span> <span class="toctext">Licenses</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#History"><span class="tocnumber">3</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Marketing"><span class="tocnumber">4</span> <span class="toctext">Marketing</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Unity_(game_engine)&amp;action=edit&amp;section=1" title="Edit section: Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Unity is an all purpose game engine that supports <a href="/wiki/2D_computer_graphics" title="2D computer graphics">2D</a> and <a href="/wiki/3D_computer_graphics" title="3D computer graphics">3D</a> graphics, drag and drop functionality and <a href="/wiki/Scripting_language" title="Scripting language">scripting</a> through <a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a>. Two other <a href="/wiki/Programming_language" title="Programming language">programming languages</a> were supported: <a href="/wiki/Boo_(programming_language)" title="Boo (programming language)">Boo</a>, which was deprecated with the release of Unity 5<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup> and UnityScript which was deprecated in August 2017 after the release of Unity 2017.1.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">[9]</a></sup> The engine targets the following <a href="/wiki/Graphics_API" class="mw-redirect" title="Graphics API">graphics APIs</a>: <a href="/wiki/Direct3D" title="Direct3D">Direct3D</a> on Windows and Xbox One; <a href="/wiki/OpenGL" title="OpenGL">OpenGL</a> on Linux, macOS, and Windows; <a href="/wiki/OpenGL_ES" title="OpenGL ES">OpenGL ES</a> on Android and iOS; <a href="/wiki/WebGL" title="WebGL">WebGL</a> on the web; and proprietary APIs on the <a href="/wiki/Video_game_console" title="Video game console">video game consoles</a>. Additionally, Unity supports the low-level APIs <a href="/wiki/Metal_(API)" title="Metal (API)">Metal</a> on iOS and macOS and <a href="/wiki/Vulkan_(API)" title="Vulkan (API)">Vulkan</a> on Android, Linux, and Windows, as well as <a href="/wiki/Direct3D_12" class="mw-redirect" title="Direct3D 12">Direct3D 12</a> on Windows and Xbox One. Within 2D games, Unity allows importation of sprites and an advanced 2D world renderer. For 3D games, Unity allows specification of <a href="/wiki/Texture_compression" title="Texture compression">texture compression</a> and resolution settings for each platform that the game engine supports,<sup id="cite_ref-Unity_Multiplatform_6-1" class="reference"><a href="#cite_note-Unity_Multiplatform-6">[6]</a></sup> and provides support for <a href="/wiki/Bump_mapping" title="Bump mapping">bump mapping</a>, <a href="/wiki/Reflection_mapping" title="Reflection mapping">reflection mapping</a>, <a href="/wiki/Parallax_mapping" title="Parallax mapping">parallax mapping</a>, <a href="/wiki/Screen_space_ambient_occlusion" title="Screen space ambient occlusion">screen space ambient occlusion</a> (SSAO), dynamic shadows using <a href="/wiki/Shadow_map" class="mw-redirect" title="Shadow map">shadow maps</a>, <a href="/wiki/Render_to_Texture" class="mw-redirect" title="Render to Texture">render-to-texture</a> and full-screen post-processing effects.<sup id="cite_ref-Unity_4_DirectX11_10-0" class="reference"><a href="#cite_note-Unity_4_DirectX11-10">[10]</a></sup> Unity also offers services to developers, these are: Unity Ads, Unity Analytics, Unity Certification, Unity Cloud Build, Unity Everyplay, Unity IAP, Unity Multiplayer, Unity Performance Reporting and Unity Collaborate.</p>
+<p>Unity is notable for its ability to target games for multiple platforms. The currently supported platforms are <a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>,<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">[11]</a></sup> <a href="/wiki/Android_TV" title="Android TV">Android TV</a>, <a href="/w/index.php?title=Facebook_Gameroom&amp;action=edit&amp;redlink=1" class="new" title="Facebook Gameroom (page does not exist)">Facebook Gameroom</a>, <a href="/wiki/Fire_OS" title="Fire OS">Fire OS</a>, <a href="/wiki/Gear_VR" class="mw-redirect" title="Gear VR">Gear VR</a>, <a href="/wiki/Google_Cardboard" title="Google Cardboard">Google Cardboard</a>, <a href="/wiki/Google_Daydream" title="Google Daydream">Google Daydream</a>, <a href="/wiki/HTC_Vive" title="HTC Vive">HTC Vive</a>, <a href="/wiki/IOS" title="IOS">iOS</a>, <a href="/wiki/Linux" title="Linux">Linux</a>, <a href="/wiki/MacOS" title="MacOS">macOS</a>, <a href="/wiki/Microsoft_HoloLens" title="Microsoft HoloLens">Microsoft HoloLens</a>, <a href="/wiki/Nintendo_3DS_family" title="Nintendo 3DS family">Nintendo 3DS family</a>,<sup id="cite_ref-UnityTech-announces-NN3DSsupport_12-0" class="reference"><a href="#cite_note-UnityTech-announces-NN3DSsupport-12">[12]</a></sup><sup id="cite_ref-IGNcitesUnityNN3DSsupport_13-0" class="reference"><a href="#cite_note-IGNcitesUnityNN3DSsupport-13">[13]</a></sup><sup id="cite_ref-unity-europe-announces-new-3ds-details_14-0" class="reference"><a href="#cite_note-unity-europe-announces-new-3ds-details-14">[14]</a></sup> <a href="/wiki/Nintendo_Switch" title="Nintendo Switch">Nintendo Switch</a>,<sup id="cite_ref-unity-devs-shine-on-switch_15-0" class="reference"><a href="#cite_note-unity-devs-shine-on-switch-15">[15]</a></sup> <a href="/wiki/Oculus_Rift" title="Oculus Rift">Oculus Rift</a>, <a href="/wiki/PlayStation_4" title="PlayStation 4">PlayStation 4</a>, <a href="/wiki/PlayStation_Vita" title="PlayStation Vita">PlayStation Vita</a>, <a href="/wiki/PlayStation_VR" title="PlayStation VR">PlayStation VR</a>, <a href="/wiki/Samsung_Smart_TV" class="mw-redirect" title="Samsung Smart TV">Samsung Smart TV</a>, <a href="/wiki/Tizen" title="Tizen">Tizen</a>, <a href="/wiki/TvOS" title="TvOS">tvOS</a>, <a href="/wiki/WebGL" title="WebGL">WebGL</a>, <a href="/wiki/Wii_U" title="Wii U">Wii U</a>, <a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a>, <a href="/wiki/Windows_Phone" title="Windows Phone">Windows Phone</a>, <a href="/wiki/Windows_Store" class="mw-redirect" title="Windows Store">Windows Store</a>, and <a href="/wiki/Xbox_One" title="Xbox One">Xbox One</a>. Unity formerly supported 7 other platforms including its own Unity Web Player. Unity Web Player was a browser plugin that was supported in Windows and OS X only,<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">[16]</a></sup> which has been deprecated in favor of <a href="/wiki/WebGL" title="WebGL">WebGL</a>.<sup id="cite_ref-WPRoadmap_3-1" class="reference"><a href="#cite_note-WPRoadmap-3">[3]</a></sup></p>
+<p>Unity is the default <a href="/wiki/Software_development_kit" title="Software development kit">software development kit</a> (SDK) for Nintendo's <a href="/wiki/Wii_U" title="Wii U">Wii U</a> <a href="/wiki/Video_game_console" title="Video game console">video game console</a> platform, with a free copy included by Nintendo with each Wii U developer license. Unity Technologies calls this bundling of a third-party SDK an "industry first".<sup id="cite_ref-VB_Unity_interview_17-0" class="reference"><a href="#cite_note-VB_Unity_interview-17">[17]</a></sup><sup id="cite_ref-Unity_GamePad_at_Polygon_18-0" class="reference"><a href="#cite_note-Unity_GamePad_at_Polygon-18">[18]</a></sup></p>
+<h2><span class="mw-headline" id="Licenses">Licenses</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Unity_(game_engine)&amp;action=edit&amp;section=2" title="Edit section: Licenses">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Unity comes with four license options.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">[19]</a></sup> Here is the list of all available licenses and their differences:</p>
+<table class="wikitable sortable" style="text-align: center; font-size: 100%; width: auto; table-layout: fixed;">
+<tr>
+<th style="width: 8em">License Name</th>
+<th>All Engine Features and Platforms</th>
+<th>Splash Screen</th>
+<th>Cloud Build Queue</th>
+<th>Multiplayer</th>
+<th>Revenue Capacity</th>
+<th>Performance Reporting</th>
+<th>Source Code And Premium Support</th>
+<th>Price</th>
+</tr>
+<tr>
+<th>Personal</th>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td>Made With Unity</td>
+<td>Standard</td>
+<td>20 <a href="/wiki/Concurrent_user" title="Concurrent user">CCUs</a></td>
+<td>$100,000</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td>Free</td>
+</tr>
+<tr>
+<th>Plus</th>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td>Custom Animation Or None</td>
+<td>Priority</td>
+<td>50 <a href="/wiki/Concurrent_user" title="Concurrent user">CCUs</a></td>
+<td>$200,000</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td>$35 Monthly</td>
+</tr>
+<tr>
+<th>Pro</th>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td>Custom Animation Or None</td>
+<td>Concurrent Builds</td>
+<td>200 <a href="/wiki/Concurrent_user" title="Concurrent user">CCUs</a></td>
+<td>Unlimited</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td>$125 Monthly</td>
+</tr>
+<tr>
+<th>Enterprise</th>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td>Custom Animation Or None</td>
+<td>Dedicated Build Agents</td>
+<td>Custom Multiplayer</td>
+<td>Unlimited</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td>Negotiated Pricing</td>
+</tr>
+</table>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Unity_(game_engine)&amp;action=edit&amp;section=3" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="plainlinks metadata ambox ambox-content" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><a href="/wiki/File:Wiki_letter_w_cropped.svg" class="image"><img alt="[icon]" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wiki_letter_w_cropped.svg/44px-Wiki_letter_w_cropped.svg.png" width="44" height="31" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wiki_letter_w_cropped.svg/66px-Wiki_letter_w_cropped.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wiki_letter_w_cropped.svg/88px-Wiki_letter_w_cropped.svg.png 2x" data-file-width="44" data-file-height="31" /></a></div>
+</td>
+<td class="mbox-text">
+<div class="mbox-text-span"><b>This section needs expansion</b>. <small>You can help by <a class="external text" href="//en.wikipedia.org/w/index.php?title=Unity_(game_engine)&amp;action=edit&amp;section=">adding to it</a>.</small> <small><i>(September 2016)</i></small></div>
+</td>
+</tr>
+</table>
+<p>In 2012, VentureBeat said, "Few companies have contributed as much to the flowing of independently produced games as Unity Technologies. ... More than 1.3 million developers are using its tools to create gee-whiz graphics in their iOS, Android, console, PC, and web-based games. ... Unity wants to be the engine for multi-platform games, period."<sup id="cite_ref-VB_Unity_interview_17-1" class="reference"><a href="#cite_note-VB_Unity_interview-17">[17]</a></sup></p>
+<p>For the Apple Design Awards at the 2006 <a href="/wiki/WWDC" class="mw-redirect" title="WWDC">WWDC</a> trade show, <a href="/wiki/Apple,_Inc." class="mw-redirect" title="Apple, Inc.">Apple, Inc.</a> named Unity as the runner-up for its Best Use of Mac OS X Graphics category, a year after Unity's launch at the same trade show.<sup id="cite_ref-ADW_winners_2006_20-0" class="reference"><a href="#cite_note-ADW_winners_2006-20">[20]</a></sup> Unity Technologies says this is the first time a game design tool has ever been nominated for this award.<sup id="cite_ref-Unity_2010_PR_21-0" class="reference"><a href="#cite_note-Unity_2010_PR-21">[21]</a></sup> A May 2012 survey by <i>Game Developer</i> magazine indicated Unity as its top game engine for mobile platforms.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">[22]</a></sup> In July 2014, Unity won the "Best Engine" award at the UK's annual <a href="/wiki/Develop_(magazine)" title="Develop (magazine)">Develop</a> Industry Excellence Awards.<sup id="cite_ref-23" class="reference"><a href="#cite_note-23">[23]</a></sup></p>
+<p>Unity 5 was met with similar praise, with <i>The Verge</i> stating that "Unity started with the goal of making game development universally accessible.... Unity 5 is a long-awaited step towards that future."<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">[24]</a></sup></p>
+<p>Following the release of Unity 5, Unity Technologies drew some criticism for the high volume of quickly produced games published on the Steam distribution platform by inexperienced developers.<sup id="cite_ref-25" class="reference"><a href="#cite_note-25">[25]</a></sup> CEO <a href="/wiki/John_Riccitiello" title="John Riccitiello">John Riccitiello</a> said in an interview that he believes this to be a side-effect of Unity's success in democratizing game development: "If I had my way, I'd like to see 50 million people using Unity – although I don't think we're going to get there any time soon. I'd like to see high school and college kids using it, people outside the core industry. I think it's sad that most people are consumers of technology and not creators. The world's a better place when people know how to create, not just consume, and that's what we're trying to promote."<sup id="cite_ref-26" class="reference"><a href="#cite_note-26">[26]</a></sup></p>
+<p>In December 2016, Unity Technologies announced that they will change the <a href="/wiki/Software_versioning" title="Software versioning">versioning numbering system</a> for Unity from <a href="/wiki/Software_versioning#Sequence-based_identifiers" title="Software versioning">sequence-based identifiers</a> to <a href="/wiki/Software_versioning#Date_of_release" title="Software versioning">year of release</a> to align the versioning with their more frequent release cadence.<sup id="cite_ref-jamesbatchelor2017unityversions_27-0" class="reference"><a href="#cite_note-jamesbatchelor2017unityversions-27">[27]</a></sup></p>
+<h2><span class="mw-headline" id="Marketing"><span id="Unity-chan"></span> Marketing</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Unity_(game_engine)&amp;action=edit&amp;section=4" title="Edit section: Marketing">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>On December 16, 2013, Unity Technologies Japan revealed new screenshots for an official mascot character named Unity-chan <span style="font-weight: normal">(<span lang="ja">ユニティちゃん</span><span style="display:none">,</span> <i>Yuniti-chan</i>)</span>, real name Kohaku Ōtori <span style="font-weight: normal">(<span lang="ja">大鳥 こはく</span><span style="display:none">,</span> <i>Ōtori Kohaku</i>)</span> (voiced by <a href="https://ja.wikipedia.org/wiki/%E8%A7%92%E5%85%83%E6%98%8E%E6%97%A5%E9%A6%99" class="extiw" title="ja:角元明日香">Asuka Kakumoto</a>), with exhibit of the character in Comic Market 85 event in the Tokyo Big Sight between December 29 to the 31st, where themed goods would be distributed and her voice actress would be present at the event. The character's associated game data were to be released in spring 2014.<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">[28]</a></sup><sup id="cite_ref-29" class="reference"><a href="#cite_note-29">[29]</a></sup><sup id="cite_ref-30" class="reference"><a href="#cite_note-30">[30]</a></sup> The character was designed by Unity Technologies Japan designer "ntny" as an open-source heroine character.<sup id="cite_ref-31" class="reference"><a href="#cite_note-31">[31]</a></sup> The company allows the use of Unity-chan and related characters in secondary projects under certain licenses.<sup id="cite_ref-32" class="reference"><a href="#cite_note-32">[32]</a></sup> For example, Unity-chan appears as a playable character in <i><a href="/wiki/Runbow" title="Runbow">Runbow</a></i>.<sup id="cite_ref-33" class="reference"><a href="#cite_note-33">[33]</a></sup> The popularity of the character also led to her appearance in <a href="/wiki/Vocaloid" title="Vocaloid">VOCALOID</a> adaptions, including her own sound library for <a href="/wiki/Vocaloid_4" title="Vocaloid 4">VOCALOID4</a> and a special adaption of VOCALOID designed to work with the Unity Engine 5.0 version called <a href="/wiki/Unity_with_Vocaloid" class="mw-redirect" title="Unity with Vocaloid">Unity with VOCALOID</a>.</p>
+
