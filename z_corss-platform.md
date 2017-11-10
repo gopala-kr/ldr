@@ -351,3 +351,29 @@
 <p>On August 25, 2014, Appcelerator announced $22 million in Series D funding led by Rembrandt Venture Partners. Union Grove Venture Partners also participated, along with earlier backers, including Storm Ventures, Sierra Ventures, Mayfield Fund, TransLink Capital, Relay Ventures and EDB Investments. Total funding for the mobile engagement platform to date is more than $90 million.</p>
 
 
+************************
+
+WordPress is a free and open-source content management system (CMS) based on PHP and MySQL. To function, WordPress has to be installed on a web server, which would either be part of an Internet hosting service or a network host in its own right. An example of the first scenario may be a service like WordPress.com, for example, and the second case could be a computer running the software package WordPress.org. A local computer may be used for single-user testing and learning purposes. Features include a plugin architecture and a template system. WordPress was used by more than 27.5% of the top 10 million websites as of February 2017. WordPress is reportedly the most popular website management or blogging system in use on the Web, supporting more than 60 million websites. WordPress has also been used for other application domains such as pervasive display systems (PDS).
+
+WordPress was released on May 27, 2003, by its founders, Matt Mullenweg and Mike Little, as a fork of b2/cafelog. WordPress is released under the GPLv2 (or later) license.
+
+
+Overview
+WordPress has a web template system using a template processor. Its architecture is a front controller, routing all requests for non-static URIs to a single PHP file which parses the URI and identifies the target page. This allows support for more human-readable permalinks.
+
+Themes
+WordPress users may install and switch among different themes. Themes allow users to change the look and functionality of a WordPress website without altering the core code or site content. Every WordPress website requires at least one theme to be present and every theme should be designed using WordPress standards with structured PHP, valid HTML (HyperText Markup Language), and Cascading Style Sheets (CSS). Themes may be directly installed using the WordPress "Appearance" administration tool in the dashboard, or theme folders may be copied directly into the themes directory, for example via FTP.[13] The PHP, HTML and CSS found in themes can be directly modified to alter theme behavior, or a theme can be a "child" theme which inherits settings from another theme and selectively overrides features. WordPress themes are generally classified into two categories: free and premium. Many free themes are listed in the WordPress theme directory, and premium themes are available for purchase from marketplaces and individual WordPress developers. WordPress users may also create and develop their own custom themes. The free theme Underscores created by the WordPress developers has become a popular basis for new themes.
+
+Plugins
+WordPress' plugin architecture allows users to extend the features and functionality of a website or blog. WordPress has over 50,316 plugins available, each of which offers custom functions and features enabling users to tailor their sites to their specific needs. These customizations range from search engine optimization, to client portals used to display private information to logged in users, to content management systems, to content displaying features, such as the addition of widgets and navigation bars. Not all available plugins are always abreast with the upgrades and as a result they may not function properly or may not function at all.Most plugins are available through WordPress themselves, either via downloading them and installing the files manually via FTP or through the WordPress dashboard. However, many third parties offer plugins through their own websites, many of which are paid packages.
+
+Mobiles
+Native applications exist for WebOS,Android,iOS (iPhone, iPod Touch, iPad), Windows Phone, and BlackBerry.These applications, designed by Automattic, allow a limited set of options, which include adding new blog posts and pages, commenting, moderating comments, replying to comments in addition to the ability to view the stats.
+
+Other features
+WordPress also features integrated link management; a search engine–friendly, clean permalink structure; the ability to assign multiple categories to posts; and support for tagging of posts. Automatic filters are also included, providing standardized formatting and styling of text in posts (for example, converting regular quotes to smart quotes). WordPress also supports the Trackback and Pingback standards for displaying links to other sites that have themselves linked to a post or an article. WordPress posts can be edited in HTML, using the visual editor, or using one of a number of plugins that allow for a variety of customized editing features.
+
+Multi-user and multi-blogging
+Prior to version 3, WordPress supported one blog per installation, although multiple concurrent copies may be run from different directories if configured to use separate database tables. WordPress Multisites (previously referred to as WordPress Multi-User, WordPress MU, or WPMU) was a fork of WordPress created to allow multiple blogs to exist within one installation but is able to be administered by a centralized maintainer. WordPress MU makes it possible for those with websites to host their own blogging communities, as well as control and moderate all the blogs from a single dashboard. WordPress MS adds eight new data tables for each blog.
+
+As of the release of WordPress 3, WordPress MU has merged with WordPress.
