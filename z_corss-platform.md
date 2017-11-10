@@ -386,4 +386,38 @@ Prior to version 3, WordPress supported one blog per installation, although mult
 
 As of the release of WordPress 3, WordPress MU has merged with WordPress.
 
+## History
+b2/cafelog, more commonly known as b2 or cafelog, was the precursor to WordPress. b2/cafelog was estimated to have been installed on approximately 2,000 blogs as of May 2003. It was written in PHP for use with MySQL by Michel Valdrighi, who is now a contributing developer to WordPress. Although WordPress is the official successor, another project, b2evolution, is also in active development.
+
+WordPress first appeared in 2003 as a joint effort between Matt Mullenweg and Mike Little to create a fork of b2. Christine Selleck Tremoulet, a friend of Mullenweg, suggested the name WordPress.
+
+In 2004 the licensing terms for the competing Movable Type package were changed by Six Apart, resulting in many of its most influential users migrating to WordPress.By October 2009 the Open Source CMS MarketShare Report concluded that WordPress enjoyed the greatest brand strength of any open-source content management system.
+
+As of February 2017, WordPress is used by 58.7% of all the websites whose content management system is known. This is 27.5% of the top 10 million websites.
+
+Matt Mullenweg has stated that the future of WordPress is in social, mobile, and as an application platform.
+
+## Vulnerabilities
+Many security issues have been uncovered in the software, particularly in 2007, 2008, and 2015. According to Secunia, WordPress in April 2009 had seven unpatched security advisories (out of 32 total), with a maximum rating of "Less Critical".[irrelevant citation] Secunia maintains an up-to-date list of WordPress vulnerabilities.[irrelevant citation][75][irrelevant citation]
+
+In January 2007, many high-profile search engine optimization (SEO) blogs, as well as many low-profile commercial blogs featuring AdSense, were targeted and attacked with a WordPress exploit. A separate vulnerability on one of the project site's web servers allowed an attacker to introduce exploitable code in the form of a back door to some downloads of WordPress 2.1.1. The 2.1.2 release addressed this issue; an advisory released at the time advised all users to upgrade immediately.
+
+In May 2007, a study revealed that 98% of WordPress blogs being run were exploitable because they were running outdated and unsupported versions of the software. In part to mitigate this problem, WordPress made updating the software a much easier, "one click" automated process in version 2.7 (released in December 2008). However, the filesystem security settings required to enable the update process can be an additional risk.
+
+In a June 2007 interview, Stefan Esser, the founder of the PHP Security Response Team, spoke critically of WordPress' security track record, citing problems with the application's architecture that made it unnecessarily difficult to write code that is secure from SQL injection vulnerabilities, as well as some other problems.
+
+In June 2013, it was found that some of the 50 most downloaded WordPress plugins were vulnerable to common Web attacks such as SQL injection and XSS. A separate inspection of the top-10 e-commerce plugins showed that seven of them were vulnerable.
+
+In an effort to promote better security, and to streamline the update experience overall, automatic background updates were introduced in WordPress 3.7.
+
+Individual installations of WordPress can be protected with security plugins that prevent user enumeration, hide resources and thwart probes. Users can also protect their WordPress installations by taking steps such as keeping all WordPress installation, themes, and plugins updated, using only trusted themes and plugins, editing the site's .htaccess file to prevent many types of SQL injection attacks and block unauthorized access to sensitive files. It is especially important to keep WordPress plugins updated because would-be hackers can easily list all the plugins a site uses, and then run scans searching for any vulnerabilities against those plugins. If vulnerabilities are found, they may be exploited to allow hackers to upload their own files (such as a PHP Shell script) that collect sensitive information.
+
+Developers can also use tools to analyze potential vulnerabilities, including WPScan, WordPress Auditor and WordPress Sploit Framework developed by 0pc0deFR. These types of tools research known vulnerabilities, such as a CSRF, LFI, RFI, XSS, SQL injection and user enumeration. However, not all vulnerabilities can be detected by tools, so it is advisable to check the code of plugins, themes and other add-ins from other developers.
+
+In March 2015, it was reported by many security experts and SEOs including Search Engine Land that a SEO plugin for WordPress called Yoast which is used by more than 14 million users worldwide has a vulnerability which can lead to an exploit where hackers can do a Blind SQL injection. To fix that issue they immediately introduced a newer version 1.7.4 of the same plugin to avoid any disturbance on web because of the security lapse that the plugin had.
+
+In January 2017, security auditors at Securi identified a vulnerability in the WordPress REST API that would allow any unauthenticated user to modify any post or page within a site running WordPress 4.7 or greater. The auditors quietly notified WordPress developers, and within six days WordPress released a high priority patch to version 4.7.2 which addressed the problem.
+
+WordPress' minimum PHP version requirement is PHP 5.2,[93] which was released on January 6, 2006, 11 years ago, and which has been unsupported by the PHP Group and not received any security patches since January 6, 2011, 6 years ago.
+
 *****************************
