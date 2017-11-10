@@ -17,7 +17,7 @@
 ***************
 
 
-### phonegap/apache cordova
+## phonegap/apache cordova
 
 
 <p><b>Apache Cordova</b> (formerly <b>PhoneGap</b>) is a <a href="https://en.wikipedia.org/wiki/Multiple_phone_web-based_application_framework" title="Multiple phone web-based application framework">mobile application development framework</a> originally created by <a href="https://en.wikipedia.org/wiki/Nitobi" class="mw-redirect" title="Nitobi">Nitobi</a>. <a href="https://en.wikipedia.org/wiki/Adobe_Systems" title="Adobe Systems">Adobe Systems</a> purchased Nitobi in 2011, rebranded it as PhoneGap, and later released an open source version of the software called Apache Cordova. Apache Cordova enables <a href="https://en.wikipedia.org/wiki/Computer_software" class="mw-redirect" title="Computer software">software</a> <a href="https://en.wikipedia.org/wiki/Programmer" title="Programmer">programmers</a> to build <a href="https://en.wikipedia.org/wiki/Application_software" title="Application software">applications</a> for mobile devices using <a href="https://en.wikipedia.org/wiki/CSS3" class="mw-redirect" title="CSS3">CSS3</a>, <a href="https://en.wikipedia.org/wiki/HTML5" title="HTML5">HTML5</a>, and <a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a> instead of relying on platform-specific <a href="https://en.wikipedia.org/wiki/API" class="mw-redirect" title="API">APIs</a> like those in <a href="https://en.wikipedia.org/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>, <a href="https://en.wikipedia.org/wiki/IOS" title="IOS">iOS</a>, or <a href="https://en.wikipedia.org/wiki/Windows_Phone" title="Windows Phone">Windows Phone</a>. It enables wrapping up of CSS, HTML, and JavaScript code depending upon the platform of the device.
@@ -224,5 +224,6 @@
 </table>
 
 *********************************
+
 
 
