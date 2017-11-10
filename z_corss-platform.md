@@ -373,7 +373,9 @@ Native applications exist for WebOS,Android,iOS (iPhone, iPod Touch, iPad), Wind
 Other features
 WordPress also features integrated link management; a search engine–friendly, clean permalink structure; the ability to assign multiple categories to posts; and support for tagging of posts. Automatic filters are also included, providing standardized formatting and styling of text in posts (for example, converting regular quotes to smart quotes). WordPress also supports the Trackback and Pingback standards for displaying links to other sites that have themselves linked to a post or an article. WordPress posts can be edited in HTML, using the visual editor, or using one of a number of plugins that allow for a variety of customized editing features.
 
+
 Multi-user and multi-blogging
+
 Prior to version 3, WordPress supported one blog per installation, although multiple concurrent copies may be run from different directories if configured to use separate database tables. WordPress Multisites (previously referred to as WordPress Multi-User, WordPress MU, or WPMU) was a fork of WordPress created to allow multiple blogs to exist within one installation but is able to be administered by a centralized maintainer. WordPress MU makes it possible for those with websites to host their own blogging communities, as well as control and moderate all the blogs from a single dashboard. WordPress MS adds eight new data tables for each blog.
 
 As of the release of WordPress 3, WordPress MU has merged with WordPress.
