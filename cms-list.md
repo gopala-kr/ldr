@@ -1,9 +1,9 @@
-<h2><span class="mw-headline" id="Open_source_software">Open source software</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_content_management_systems&amp;action=edit&amp;section=1" title="Edit section: Open source software">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h2><span class="mw-headline" id="Open_source_software">Open source software</span></span></h2>
 <dl>
 <dd><i>This section lists free and <a href="/wiki/Open-source_software" title="Open-source software">open-source software</a> that can be installed and managed on a web server.</i></dd>
 </dl>
 <p>Systems listed on a light purple background are no longer in active development.</p>
-<h3><span class="mw-headline" id="Java">Java</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_content_management_systems&amp;action=edit&amp;section=2" title="Edit section: Java">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h3><span class="mw-headline" id="Java">Java</span></span></h3>
 <table class="wikitable sortable" style="font-size:85%; text-align:left; width:auto;">
 <tr>
 <th>Name</th>
@@ -166,7 +166,7 @@
 <td>2016-11-22</td>
 </tr>
 </table>
-<h4><span id="Java_packages/bundle"></span><span class="mw-headline" id="Java_packages.2Fbundle">Java packages/bundle</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_content_management_systems&amp;action=edit&amp;section=3" title="Edit section: Java packages/bundle">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<h4><span id="Java_packages/bundle"></span><span class="mw-headline" id="Java_packages.2Fbundle">Java packages/bundle</span></span></h4>
 <table class="wikitable sortable" style="font-size:85%; text-align:left; width:auto;">
 <tr>
 <th>Name</th>
@@ -193,7 +193,7 @@
 <td>2011-02-21</td>
 </tr>
 </table>
-<h3><span class="mw-headline" id="Microsoft_ASP.NET">Microsoft ASP.NET</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_content_management_systems&amp;action=edit&amp;section=4" title="Edit section: Microsoft ASP.NET">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h3><span class="mw-headline" id="Microsoft_ASP.NET">Microsoft ASP.NET</span></span></h3>
 <table class="wikitable sortable" style="font-size: 85%; text-align: left; width: auto;">
 <tr>
 <th>Name</th>
@@ -260,7 +260,7 @@
 <td>2016-06-14<sup id="cite_ref-:0_13-0" class="reference"><a href="#cite_note-:0-13">[13]</a></sup></td>
 </tr>
 </table>
-<h3><span class="mw-headline" id="Perl">Perl</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_content_management_systems&amp;action=edit&amp;section=5" title="Edit section: Perl">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h3><span class="mw-headline" id="Perl">Perl</span></span></h3>
 <table class="wikitable sortable" style="font-size: 85%; text-align: left; width: auto;">
 <tr>
 <th>Name</th>
@@ -343,7 +343,7 @@
 <td>2016-01-06<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">[19]</a></sup></td>
 </tr>
 </table>
-<h3><span class="mw-headline" id="PHP">PHP</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_content_management_systems&amp;action=edit&amp;section=6" title="Edit section: PHP">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h3><span class="mw-headline" id="PHP">PHP</span></span></h3>
 <table class="wikitable sortable" style="font-size: 85%; text-align: left; width: auto;">
 <tr>
 <th>Name</th>
@@ -877,7 +877,7 @@
 <td>2017-09-18<sup id="cite_ref-wagtail_release_85-0" class="reference"><a href="#cite_note-wagtail_release-85">[85]</a></sup></td>
 </tr>
 </table>
-<h3><span class="mw-headline" id="Ruby_on_Rails">Ruby on Rails</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_content_management_systems&amp;action=edit&amp;section=8" title="Edit section: Ruby on Rails">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h3><span class="mw-headline" id="Ruby_on_Rails">Ruby on Rails</span></span></h3>
 <table class="wikitable sortable" style="font-size: 85%; text-align: left; width: auto;">
 <tr>
 <th>Name</th>
@@ -928,7 +928,7 @@
 <td>2016-11-03</td>
 </tr>
 </table>
-<h3><span id="ColdFusion_Markup_Language_(CFML)"></span><span class="mw-headline" id="ColdFusion_Markup_Language_.28CFML.29">ColdFusion Markup Language (CFML)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_content_management_systems&amp;action=edit&amp;section=9" title="Edit section: ColdFusion Markup Language (CFML)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h3><span id="ColdFusion_Markup_Language_(CFML)"></span><span class="mw-headline" id="ColdFusion_Markup_Language_.28CFML.29">ColdFusion Markup Language (CFML)</span></span></h3>
 <table class="wikitable sortable" style="font-size: 85%; text-align: left; width: auto;">
 <tr>
 <th>Name</th>
@@ -963,7 +963,7 @@
 <td>2015-01-14<sup id="cite_ref-92" class="reference"><a href="#cite_note-92">[92]</a></sup></td>
 </tr>
 </table>
-<h3><span class="mw-headline" id="JavaScript">JavaScript</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_content_management_systems&amp;action=edit&amp;section=10" title="Edit section: JavaScript">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h3><span class="mw-headline" id="JavaScript">JavaScript</span></span></h3>
 <table class="wikitable sortable" style="font-size: 85%; text-align: left; width: auto;">
 <tr>
 <th>Name</th>
@@ -990,7 +990,7 @@
 <td>2017-04-27</td>
 </tr>
 </table>
-<h3><span class="mw-headline" id="Others">Others</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_content_management_systems&amp;action=edit&amp;section=11" title="Edit section: Others">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h3><span class="mw-headline" id="Others">Others</span></span></h3>
 <table class="wikitable sortable" style="font-size: 85%; text-align: left; width: auto;">
 <tr>
 <th>Name</th>
@@ -1009,7 +1009,7 @@
 <td>2015-12-01<sup id="cite_ref-openacs_release_95-0" class="reference"><a href="#cite_note-openacs_release-95">[95]</a></sup></td>
 </tr>
 </table>
-<h2><span id="Software_as_a_service_(SaaS)"></span><span class="mw-headline" id="Software_as_a_service_.28SaaS.29">Software as a service (SaaS)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_content_management_systems&amp;action=edit&amp;section=12" title="Edit section: Software as a service (SaaS)">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h2><span id="Software_as_a_service_(SaaS)"></span><span class="mw-headline" id="Software_as_a_service_.28SaaS.29">Software as a service (SaaS)</span></span></h2>
 <dl>
 <dd><i>This section lists <a href="/wiki/Proprietary_software" title="Proprietary software">proprietary software</a> that includes software, hosting, and support with a single vendor. This section includes free services.</i></dd>
 </dl>
@@ -1199,7 +1199,7 @@
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 </tr>
 </table>
-<h2><span class="mw-headline" id="Proprietary_software">Proprietary software</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_content_management_systems&amp;action=edit&amp;section=13" title="Edit section: Proprietary software">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h2><span class="mw-headline" id="Proprietary_software">Proprietary software</span></span></h2>
 <dl>
 <dd><i>This section lists <a href="/wiki/Proprietary_software" title="Proprietary software">proprietary software</a> to be installed and managed on a user's own server. This section includes <a href="/wiki/Freeware" title="Freeware">freeware</a> proprietary software.</i></dd>
 </dl>
