@@ -1,167 +1,167 @@
 <h2><span class="mw-headline" id="Open_source_software">Open source software</span></span></h2>
 <dl>
-<dd><i>This section lists free and <a href="/wiki/Open-source_software" title="Open-source software">open-source software</a> that can be installed and managed on a web server.</i></dd>
+<dd><i>This section lists free and <a href="https://en.wikipedia.org/wiki/Open-source_software" title="Open-source software">open-source software</a> that can be installed and managed on a web server.</i></dd>
 </dl>
 <h3><span class="mw-headline" id="Java">Java</span></span></h3>
 <table class="wikitable sortable" style="font-size:85%; text-align:left; width:auto;">
 <tr>
 <th>Name</th>
 <th>Platform</th>
-<th><a href="/wiki/Relational_database_management_system" title="Relational database management system">Supported databases</a></th>
+<th><a href="https://en.wikipedia.org/wiki/Relational_database_management_system" title="Relational database management system">Supported databases</a></th>
 <th>Latest stable release</th>
 <th>Licenses</th>
 <th>Latest release date</th>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Apache_Roller" title="Apache Roller">Apache Roller</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
-<td><a href="/wiki/HSQL" class="mw-redirect" title="HSQL">HSQL</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/IBM_DB2" class="mw-redirect" title="IBM DB2">DB2</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/Apache_Derby" title="Apache Derby">Apache Derby</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Apache_Roller" title="Apache Roller">Apache Roller</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/HSQL" class="mw-redirect" title="HSQL">HSQL</a>, <a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/IBM_DB2" class="mw-redirect" title="IBM DB2">DB2</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="https://en.wikipedia.org/wiki/Apache_Derby" title="Apache Derby">Apache Derby</a></td>
 <td>5.1.2</td>
-<td><a href="/wiki/Apache_License" title="Apache License">Apache 2.0 License</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Apache_License" title="Apache License">Apache 2.0 License</a></td>
 <td>2015-03-01</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Ametys_CMS" title="Ametys CMS">Ametys CMS</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/Content_repository_API_for_Java" title="Content repository API for Java">JCR</a>, <a href="/wiki/Apache_Derby" title="Apache Derby">Apache Derby</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Ametys_CMS" title="Ametys CMS">Ametys CMS</a></td>
+<td><a href="https://en.wikipedia.orghttps://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/Content_repository_API_for_Java" title="Content repository API for Java">JCR</a>, <a href="https://en.wikipedia.org/wiki/Apache_Derby" title="Apache Derby">Apache Derby</a></td>
 <td>3.7.1</td>
-<td><a href="/wiki/Apache_License" title="Apache License">Apache 2.0 License</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Apache_License" title="Apache License">Apache 2.0 License</a></td>
 <td>2015-04-27</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Crafter_CMS" title="Crafter CMS">Crafter CMS</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
-<td><a href="/wiki/Git" title="Git">Git</a>, <a href="/wiki/Solr" class="mw-redirect" title="Solr">Solr</a>, <a href="/wiki/CMIS" class="mw-redirect" title="CMIS">CMIS</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Crafter_CMS" title="Crafter CMS">Crafter CMS</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Git" title="Git">Git</a>, <a href="https://en.wikipedia.org/wiki/Solr" class="mw-redirect" title="Solr">Solr</a>, <a href="https://en.wikipedia.org/wiki/CMIS" class="mw-redirect" title="CMIS">CMIS</a></td>
 <td>3.0.0</td>
-<td><a href="/wiki/GNU" title="GNU">GNU</a> <a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a> v3</td>
+<td><a href="https://en.wikipedia.org/wiki/GNU" title="GNU">GNU</a> <a href="https://en.wikipedia.orghttps://en.wikipedia.org/wiki/GPL" class="mw-redirect" title="GPL">GPL</a> v3</td>
 <td>2017-08-01</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/DotCMS" title="DotCMS">dotCMS</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_Database" title="Oracle Database">Oracle</a>, <a href="/wiki/MSSQL" class="mw-redirect" title="MSSQL">MSSQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/DotCMS" title="DotCMS">dotCMS</a></td>
+<td><a href="https://en.wikipedia.orghttps://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/Oracle_Database" title="Oracle Database">Oracle</a>, <a href="https://en.wikipedia.org/wiki/MSSQL" class="mw-redirect" title="MSSQL">MSSQL</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
 <td>4.2.0</td>
-<td><a href="/wiki/GNU" title="GNU">GNU</a> <a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a> v3</td>
+<td><a href="https://en.wikipedia.org/wiki/GNU" title="GNU">GNU</a> <a href="https://en.wikipedia.org/wiki/GPL" class="mw-redirect" title="GPL">GPL</a> v3</td>
 <td>2017-10-17</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Liferay" title="Liferay">Liferay</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
-<td><a href="/wiki/HSQLDB" title="HSQLDB">HSQLDB</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/IBM_DB2" class="mw-redirect" title="IBM DB2">DB2</a>, <a href="/wiki/Apache_Derby" title="Apache Derby">Apache Derby</a>, <a href="/wiki/Informix" class="mw-redirect" title="Informix">Informix</a>, <a href="/wiki/InterBase" title="InterBase">InterBase</a>, JDataStore, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SAP_ERP" title="SAP ERP">SAP</a>, <a href="/wiki/Sybase" title="Sybase">Sybase</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Liferay" title="Liferay">Liferay</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/HSQLDB" title="HSQLDB">HSQLDB</a>, <a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/IBM_DB2" class="mw-redirect" title="IBM DB2">DB2</a>, <a href="https://en.wikipedia.org/wiki/Apache_Derby" title="Apache Derby">Apache Derby</a>, <a href="https://en.wikipedia.org/wiki/Informix" class="mw-redirect" title="Informix">Informix</a>, <a href="https://en.wikipedia.org/wiki/InterBase" title="InterBase">InterBase</a>, JDataStore, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="https://en.wikipedia.org/wiki/SAP_ERP" title="SAP ERP">SAP</a>, <a href="https://en.wikipedia.org/wiki/Sybase" title="Sybase">Sybase</a></td>
 <td>7.0.1</td>
-<td><a href="/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
 <td>2016-06-10</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/EXo_Platform" title="EXo Platform">eXo Platform</a> Community Edition</td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
-<td><a href="/wiki/HSQLDB" title="HSQLDB">HSQLDB</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/IBM_DB2" class="mw-redirect" title="IBM DB2">DB2</a>, <a href="/wiki/Apache_Derby" title="Apache Derby">Apache Derby</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/Sybase" title="Sybase">Sybase</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/EXo_Platform" title="EXo Platform">eXo Platform</a> Community Edition</td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/HSQLDB" title="HSQLDB">HSQLDB</a>, <a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/IBM_DB2" class="mw-redirect" title="IBM DB2">DB2</a>, <a href="https://en.wikipedia.org/wiki/Apache_Derby" title="Apache Derby">Apache Derby</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="https://en.wikipedia.org/wiki/Sybase" title="Sybase">Sybase</a></td>
 <td>4.3</td>
-<td><a href="/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
 <td>2016-01-21</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/DSpace" title="DSpace">DSpace</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
-<td><a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/DSpace" title="DSpace">DSpace</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
 <td>5.0</td>
-<td><a href="/wiki/BSD_License" class="mw-redirect" title="BSD License">BSD License</a></td>
+<td><a href="https://en.wikipedia.org/wiki/BSD_License" class="mw-redirect" title="BSD License">BSD License</a></td>
 <td>2015-01-16</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Fedora_Commons" title="Fedora Commons">Fedora Commons</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/Mulgara_(software)" title="Mulgara (software)">Mulgara</a> (MPTSTore RDF Semantic Triplestore)</td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Fedora_Commons" title="Fedora Commons">Fedora Commons</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="https://en.wikipedia.org/wiki/Mulgara_(software)" title="Mulgara (software)">Mulgara</a> (MPTSTore RDF Semantic Triplestore)</td>
 <td>4.1.0</td>
-<td><a href="/wiki/Apache_License" title="Apache License">Apache License</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Apache_License" title="Apache License">Apache License</a></td>
 <td>2015-02-04</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/LogicalDOC" title="LogicalDOC">LogicalDOC</a> Community Edition</td>
-<td><a href="/wiki/Java_platform" class="mw-redirect" title="Java platform">Java</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/LogicalDOC" title="LogicalDOC">LogicalDOC</a> Community Edition</td>
+<td><a href="https://en.wikipedia.org/wiki/Java_platform" class="mw-redirect" title="Java platform">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
 <td>7.4.2</td>
-<td><a href="/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
 <td>2016-03-24</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Nuxeo" title="Nuxeo">Nuxeo EP</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/Ingres_(database)" title="Ingres (database)">Ingres</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/MongoDB" title="MongoDB">MongoDB</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Nuxeo" title="Nuxeo">Nuxeo EP</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="https://en.wikipedia.orghttps://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/Ingres_(database)" title="Ingres (database)">Ingres</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="https://en.wikipedia.org/wiki/MongoDB" title="MongoDB">MongoDB</a></td>
 <td>7.3</td>
-<td><a href="/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
 <td>2014-11-12</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/OpenCms" title="OpenCms">OpenCms</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
-<td><a href="/wiki/HSQL" class="mw-redirect" title="HSQL">HSQL</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/IBM_DB2" class="mw-redirect" title="IBM DB2">DB2</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/OpenCms" title="OpenCms">OpenCms</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/HSQL" class="mw-redirect" title="HSQL">HSQL</a>, <a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/IBM_DB2" class="mw-redirect" title="IBM DB2">DB2</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
 <td>10.5.1</td>
-<td><a href="/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
 <td>2017-02-15</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Alfresco_(software)" title="Alfresco (software)">Alfresco</a> Community Edition</td>
-<td><a href="/wiki/Java_platform" class="mw-redirect" title="Java platform">Java</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/IBM_DB2" class="mw-redirect" title="IBM DB2">DB2</a>,</td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Alfresco_(software)" title="Alfresco (software)">Alfresco</a> Community Edition</td>
+<td><a href="https://en.wikipedia.org/wiki/Java_platform" class="mw-redirect" title="Java platform">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="https://en.wikipedia.org/wiki/IBM_DB2" class="mw-redirect" title="IBM DB2">DB2</a>,</td>
 <td>201707</td>
-<td><a href="/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
 <td>2016-05-17</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Hippo_CMS" title="Hippo CMS">Hippo CMS</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/Ingres_(database)" title="Ingres (database)">Ingres</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/Content_repository_API_for_Java" title="Content repository API for Java">JCR</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Hippo_CMS" title="Hippo CMS">Hippo CMS</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/Ingres_(database)" title="Ingres (database)">Ingres</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="https://en.wikipedia.org/wiki/Content_repository_API_for_Java" title="Content repository API for Java">JCR</a></td>
 <td>12.0.2</td>
-<td><a href="/wiki/Apache_License" title="Apache License">Apache 2.0 License</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Apache_License" title="Apache License">Apache 2.0 License</a></td>
 <td>2017-10-10</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/OpenWGA" title="OpenWGA">OpenWGA</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/IBM_DB2" class="mw-redirect" title="IBM DB2">IBM DB2</a>, <a href="/wiki/HSQLDB" title="HSQLDB">HSQLDB</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/IBM_Lotus_Domino" class="mw-redirect" title="IBM Lotus Domino">IBM Lotus Domino</a>, <a href="/wiki/Content_Management_Interoperability_Services" title="Content Management Interoperability Services">CMIS</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/OpenWGA" title="OpenWGA">OpenWGA</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="https://en.wikipedia.org/wiki/IBM_DB2" class="mw-redirect" title="IBM DB2">IBM DB2</a>, <a href="https://en.wikipedia.org/wiki/HSQLDB" title="HSQLDB">HSQLDB</a>, <a href="https://en.wikipedia.org/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/IBM_Lotus_Domino" class="mw-redirect" title="IBM Lotus Domino">IBM Lotus Domino</a>, <a href="https://en.wikipedia.org/wiki/Content_Management_Interoperability_Services" title="Content Management Interoperability Services">CMIS</a></td>
 <td>7.1</td>
-<td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a> &amp; proprietary</td>
+<td><a href="https://en.wikipedia.org/wiki/GPL" class="mw-redirect" title="GPL">GPL</a> &amp; proprietary</td>
 <td>2015-02-25</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Jahia" title="Jahia">Jahia</a> Community Distribution</td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
-<td><a href="/wiki/Apache_Derby" title="Apache Derby">Apache Derby</a>, <a href="/wiki/Content_repository_API_for_Java" title="Content repository API for Java">JCR</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Jahia" title="Jahia">Jahia</a> Community Distribution</td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Apache_Derby" title="Apache Derby">Apache Derby</a>, <a href="/wiki/Content_repository_API_for_Java" title="Content repository API for Java">JCR</a>, <a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
 <td>7.0.0</td>
-<td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
 <td>2014-04-01</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Magnolia_(CMS)" title="Magnolia (CMS)">Magnolia</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
-<td><a href="/wiki/Apache_Derby" title="Apache Derby">Derby</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Magnolia_(CMS)" title="Magnolia (CMS)">Magnolia</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Apache_Derby" title="Apache Derby">Derby</a>, <a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="https://en.wikipedia.org/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a></td>
 <td>5.5</td>
-<td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
 <td>2016-11-15</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/OpenKM" title="OpenKM">OpenKM</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/HSQLDB" title="HSQLDB">HSQLDB</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/OpenKM" title="OpenKM">OpenKM</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="https://en.wikipedia.org/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/HSQLDB" title="HSQLDB">HSQLDB</a></td>
 <td>6.3.2</td>
-<td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
 <td>2016-10-24</td>
 </tr>
 <tr>
-<td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Thingamablog" title="Thingamablog">Thingamablog</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="https://en.wikipedia.org/wiki/Thingamablog" title="Thingamablog">Thingamablog</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
 <td></td>
 <td>1.5.1</td>
-<td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
 <td>2009-11-23</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/XWiki" title="XWiki">XWiki</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/HSQLDB" title="HSQLDB">HSQLDB</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/XWiki" title="XWiki">XWiki</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="https://en.wikipedia.org/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/HSQLDB" title="HSQLDB">HSQLDB</a></td>
 <td>8.4.1</td>
-<td><a href="/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
 <td>2016-11-22</td>
 </tr>
 </table>
@@ -176,19 +176,19 @@
 <th>Latest release date</th>
 </tr>
 <tr>
-<td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Apache_Lenya" title="Apache Lenya">Apache Lenya</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, <a href="/wiki/XML" title="XML">XML</a>, <a href="/wiki/Apache_Cocoon" title="Apache Cocoon">Apache Cocoon</a></td>
+<td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="https://en.wikipedia.org/wiki/Apache_Lenya" title="Apache Lenya">Apache Lenya</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, <a href="https://en.wikipedia.org/wiki/XML" title="XML">XML</a>, <a href="https://en.wikipedia.org/wiki/Apache_Cocoon" title="Apache Cocoon">Apache Cocoon</a></td>
 <td></td>
 <td>2.0.4</td>
-<td><a href="/wiki/Apache_License" title="Apache License">Apache License</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Apache_License" title="Apache License">Apache License</a></td>
 <td>2011-03-14</td>
 </tr>
 <tr>
-<td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Daisy_(software)" title="Daisy (software)">Daisy</a></td>
-<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, <a href="/wiki/XML" title="XML">XML</a>, <a href="/wiki/Apache_Cocoon" title="Apache Cocoon">Apache Cocoon</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
+<td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="https://en.wikipedia.org/wiki/Daisy_(software)" title="Daisy (software)">Daisy</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, <a href="https://en.wikipedia.org/wiki/XML" title="XML">XML</a>, <a href="https://en.wikipedia.org/wiki/Apache_Cocoon" title="Apache Cocoon">Apache Cocoon</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>2.4.2</td>
-<td><a href="/wiki/Apache_License" title="Apache License">Apache License</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Apache_License" title="Apache License">Apache License</a></td>
 <td>2011-02-21</td>
 </tr>
 </table>
@@ -203,59 +203,59 @@
 <th>Latest release date</th>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/C1_CMS" title="C1 CMS">C1 CMS</a></td>
-<td><a href="/wiki/ASP.NET" title="ASP.NET">ASP.NET</a> (Web Forms, MVC)</td>
-<td><a href="/wiki/XML" title="XML">XML</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/C1_CMS" title="C1 CMS">C1 CMS</a></td>
+<td><a href="https://en.wikipedia.org/wiki/ASP.NET" title="ASP.NET">ASP.NET</a> (Web Forms, MVC)</td>
+<td><a href="https://en.wikipedia.org/wiki/XML" title="XML">XML</a>, <a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a></td>
 <td>6.1</td>
-<td><a href="/wiki/Mozilla_Public_License" title="Mozilla Public License">Mozilla Public License</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Mozilla_Public_License" title="Mozilla Public License">Mozilla Public License</a></td>
 <td>2017-04-27</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/DotNetNuke" title="DotNetNuke">DNN</a></td>
-<td><a href="/wiki/ASP.NET" title="ASP.NET">ASP.NET</a> (Web Forms, MVC)</td>
-<td><a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/SQL_Server_Express" title="SQL Server Express">SQL Server Express</a>, <a href="/wiki/SQL_Azure" class="mw-redirect" title="SQL Azure">SQL Azure</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/DotNetNuke" title="DotNetNuke">DNN</a></td>
+<td><a href="https://en.wikipedia.org/wiki/ASP.NET" title="ASP.NET">ASP.NET</a> (Web Forms, MVC)</td>
+<td><a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/SQL_Server_Express" title="SQL Server Express">SQL Server Express</a>, <a href="https://en.wikipedia.org/wiki/SQL_Azure" class="mw-redirect" title="SQL Azure">SQL Azure</a></td>
 <td>9.1.1</td>
-<td><a href="/wiki/MIT_License" title="MIT License">MIT License</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" title="MIT License">MIT License</a></td>
 <td>2017-07-05</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Kentico_CMS" title="Kentico CMS">Kentico CMS</a></td>
-<td><a href="/wiki/ASP.NET" title="ASP.NET">ASP.NET</a></td>
-<td><a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Kentico_CMS" title="Kentico CMS">Kentico CMS</a></td>
+<td><a href="https://en.wikipedia.org/wiki/ASP.NET" title="ASP.NET">ASP.NET</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a></td>
 <td>10.0</td>
-<td>Proprietary, <a href="/wiki/Free_software" title="Free software">Free</a></td>
+<td>Proprietary, <a href="https://en.wikipedia.org/wiki/Free_software" title="Free software">Free</a></td>
 <td>2016-11-30</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/MojoPortal" title="MojoPortal">mojoPortal</a></td>
-<td><a href="/wiki/ASP.NET" title="ASP.NET">ASP.NET</a></td>
-<td><a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a>, <a href="/wiki/Firebird_(database_server)" title="Firebird (database server)">Firebird</a>, <a href="/wiki/SQLCE" class="mw-redirect" title="SQLCE">SQL CE</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/MojoPortal" title="MojoPortal">mojoPortal</a></td>
+<td><a href="https://en.wikipedia.org/wiki/ASP.NET" title="ASP.NET">ASP.NET</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="https://en.wikipedia.org/wiki/SQLite" title="SQLite">SQLite</a>, <a href="https://en.wikipedia.org/wiki/Firebird_(database_server)" title="Firebird (database server)">Firebird</a>, <a href="https://en.wikipedia.org/wiki/SQLCE" class="mw-redirect" title="SQLCE">SQL CE</a></td>
 <td>2.4.1.0</td>
-<td><a href="/wiki/Common_Public_License" title="Common Public License">CPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Common_Public_License" title="Common Public License">CPL</a></td>
 <td>2016-04-10</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Orchard_Project" title="Orchard Project">Orchard Project</a></td>
-<td><a href="/wiki/ASP.NET" title="ASP.NET">ASP.NET</a> (Web Forms, MVC)</td>
-<td><a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Orchard_Project" title="Orchard Project">Orchard Project</a></td>
+<td><a href="https://en.wikipedia.org/wiki/ASP.NET" title="ASP.NET">ASP.NET</a> (Web Forms, MVC)</td>
+<td><a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="https://en.wikipedia.org/wiki/SQLite" title="SQLite">SQLite</a></td>
 <td>1.10.1</td>
-<td><a href="/wiki/New_BSD_License" class="mw-redirect" title="New BSD License">New BSD License</a></td>
+<td><a href="https://en.wikipedia.org/wiki/New_BSD_License" class="mw-redirect" title="New BSD License">New BSD License</a></td>
 <td>2016-05-11</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Umbraco" title="Umbraco">Umbraco</a></td>
-<td><a href="/wiki/ASP.NET" title="ASP.NET">ASP.NET</a> (Web Forms, MVC)</td>
-<td><a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/SQL_Server_Compact" title="SQL Server Compact">SQL CE</a>, <a href="/wiki/SQL_Azure" class="mw-redirect" title="SQL Azure">SQL Azure</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Umbraco" title="Umbraco">Umbraco</a></td>
+<td><a href="https://en.wikipedia.org/wiki/ASP.NET" title="ASP.NET">ASP.NET</a> (Web Forms, MVC)</td>
+<td><a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/SQL_Server_Compact" title="SQL Server Compact">SQL CE</a>, <a href="https://en.wikipedia.org/wiki/SQL_Azure" class="mw-redirect" title="SQL Azure">SQL Azure</a>, <a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>7.6.5</td>
-<td><a href="/wiki/MIT_License" title="MIT License">MIT License</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" title="MIT License">MIT License</a></td>
 <td>2017-08-08</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/BetterCMS" title="BetterCMS">BetterCMS</a></td>
-<td><a href="/wiki/ASP.NET" title="ASP.NET">ASP.NET</a> (Web Forms, MVC)</td>
-<td><a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/SQL_Azure" class="mw-redirect" title="SQL Azure">SQL Azure</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/BetterCMS" title="BetterCMS">BetterCMS</a></td>
+<td><a href="https://en.wikipedia.org/wiki/ASP.NET" title="ASP.NET">ASP.NET</a> (Web Forms, MVC)</td>
+<td><a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="https://en.wikipedia.org/wiki/SQL_Azure" class="mw-redirect" title="SQL Azure">SQL Azure</a></td>
 <td>2.0.6</td>
-<td><a href="/wiki/GNU_Lesser_General_Public_License" title="GNU Lesser General Public License">LGPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License" title="GNU Lesser General Public License">LGPL</a></td>
 <td>2016-06-14</td>
 </tr>
 </table>
@@ -270,75 +270,75 @@
 <th>Latest release date</th>
 </tr>
 <tr>
-<td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Blosxom" title="Blosxom">blosxom</a></td>
-<td><a href="/wiki/Perl" title="Perl">Perl</a></td>
-<td><a href="/wiki/Flat-file_database" class="mw-redirect" title="Flat-file database">Flat-file database</a></td>
+<td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="https://en.wikipedia.org/wiki/Blosxom" title="Blosxom">blosxom</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Perl" title="Perl">Perl</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Flat-file_database" class="mw-redirect" title="Flat-file database">Flat-file database</a></td>
 <td>2.1.2</td>
-<td><a href="/wiki/MIT_License" title="MIT License">MIT</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" title="MIT License">MIT</a></td>
 <td>2008-10-02</td>
 </tr>
 <tr>
-<td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Bricolage_(software)" title="Bricolage (software)">Bricolage</a></td>
-<td><a href="/wiki/Perl" title="Perl">Perl</a> on <a href="/wiki/Mod_perl" title="Mod perl">mod perl</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a></td>
+<td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="https://en.wikipedia.org/wiki/Bricolage_(software)" title="Bricolage (software)">Bricolage</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Perl" title="Perl">Perl</a> on <a href="https://en.wikipedia.org/wiki/Mod_perl" title="Mod perl">mod perl</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="https://en.wikipedia.org/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a></td>
 <td>2.0.1</td>
-<td><a href="/wiki/BSD_licenses" title="BSD licenses">BSD</a></td>
+<td><a href="https://en.wikipedia.org/wiki/BSD_licenses" title="BSD licenses">BSD</a></td>
 <td>2011-02-09</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/EPrints" title="EPrints">EPrints</a></td>
-<td><a href="/wiki/Perl" title="Perl">Perl</a> on <a href="/wiki/Mod_perl" title="Mod perl">mod perl</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/EPrints" title="EPrints">EPrints</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Perl" title="Perl">Perl</a> on <a href="https://en.wikipedia.org/wiki/Mod_perl" title="Mod perl">mod perl</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
 <td>3.3.15</td>
-<td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
 <td>2015-12-22</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Foswiki" title="Foswiki">Foswiki</a></td>
-<td><a href="/wiki/Perl" title="Perl">Perl</a></td>
-<td><a href="/wiki/Flat-file_database" class="mw-redirect" title="Flat-file database">Flat-file database</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Foswiki" title="Foswiki">Foswiki</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Perl" title="Perl">Perl</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Flat-file_database" class="mw-redirect" title="Flat-file database">Flat-file database</a></td>
 <td>2.1.4</td>
-<td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
 <td>2017-06-01</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Ikiwiki" title="Ikiwiki">Ikiwiki</a></td>
-<td><a href="/wiki/Perl" title="Perl">Perl</a></td>
-<td><a href="/wiki/Git_(software)" class="mw-redirect" title="Git (software)">Git (software)</a>, <a href="/wiki/Apache_Subversion" title="Apache Subversion">Apache Subversion</a>, <a href="/wiki/Mercurial" title="Mercurial">Mercurial</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/Ikiwiki" title="Ikiwiki">Ikiwiki</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Perl" title="Perl">Perl</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Git_(software)" class="mw-redirect" title="Git (software)">Git (software)</a>, <a href="/wiki/Apache_Subversion" title="Apache Subversion">Apache Subversion</a>, <a href="https://en.wikipedia.org/wiki/Mercurial" title="Mercurial">Mercurial</a></td>
 <td>3.20170111</td>
-<td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
+<td><a href="https://en.wikipedia.orghttps://en.wikipedia.org/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
 <td>2017-01-11</td>
 </tr>
 <tr>
-<td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Movable_Type" title="Movable Type">Movable Type</a> Open Source</td>
-<td><a href="/wiki/Perl" title="Perl">Perl</a>, <a href="/wiki/Mod_perl" title="Mod perl">mod perl</a>, <a href="/wiki/FastCGI" title="FastCGI">FastCGI</a>, w/<a href="/wiki/PHP" title="PHP">PHP</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
+<td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="https://en.wikipedia.org/wiki/Movable_Type" title="Movable Type">Movable Type</a> Open Source</td>
+<td><a href="https://en.wikipedia.org/wiki/Perl" title="Perl">Perl</a>, <a href="https://en.wikipedia.org/wiki/Mod_perl" title="Mod perl">mod perl</a>, <a href="/wiki/FastCGI" title="FastCGI">FastCGI</a>, w/<a href="https://en.wikipedia.org/wiki/PHP" title="PHP">PHP</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>5.2.13</td>
-<td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
 <td>2015-04-14</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/TWiki" title="TWiki">TWiki</a></td>
-<td><a href="/wiki/Perl" title="Perl">Perl</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/TWiki" title="TWiki">TWiki</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Perl" title="Perl">Perl</a></td>
 <td>Plain files (under version control)</td>
 <td>6.0.2</td>
-<td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
 <td>2015-11-29</td>
 </tr>
 <tr>
-<td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/SPINE_(software)" title="SPINE (software)">SPINE</a></td>
-<td><a href="/wiki/Perl" title="Perl">Perl</a>, <a href="/wiki/Mod_perl" title="Mod perl">mod perl</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
+<td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="https://en.wikipedia.org/wiki/SPINE_(software)" title="SPINE (software)">SPINE</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Perl" title="Perl">Perl</a>, <a href="https://en.wikipedia.org/wiki/Mod_perl" title="Mod perl">mod perl</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a>, <a href="https://en.wikipedia.org/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
 <td>1.2.2</td>
-<td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
 <td>2006-12-27</td>
 </tr>
 <tr>
-<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/WebGUI" title="WebGUI">WebGUI</a></td>
-<td><a href="/wiki/Perl" title="Perl">Perl</a> on <a href="/wiki/Mod_perl" title="Mod perl">mod perl</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
+<td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="https://en.wikipedia.org/wiki/WebGUI" title="WebGUI">WebGUI</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Perl" title="Perl">Perl</a> on <a href="https://en.wikipedia.org/wiki/Mod_perl" title="Mod perl">mod perl</a></td>
+<td><a href="https://en.wikipedia.orghttps://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>7.10.30</td>
-<td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
+<td><a href="https://en.wikipedia.org/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
 <td>2016-01-06</td>
 </tr>
 </table>
