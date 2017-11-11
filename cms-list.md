@@ -19,7 +19,7 @@
 <td><a href="/wiki/HSQL" class="mw-redirect" title="HSQL">HSQL</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/IBM_DB2" class="mw-redirect" title="IBM DB2">DB2</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/Apache_Derby" title="Apache Derby">Apache Derby</a></td>
 <td>5.1.2</td>
 <td><a href="/wiki/Apache_License" title="Apache License">Apache 2.0 License</a></td>
-<td>2015-03-01<sup id="cite_ref-apache_roller_release_1-0" class="reference"><a href="#cite_note-apache_roller_release-1">[1]</a></sup><sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup></td>
+<td>2015-03-01</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Ametys_CMS" title="Ametys CMS">Ametys CMS</a></td>
@@ -81,7 +81,7 @@
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/LogicalDOC" title="LogicalDOC">LogicalDOC</a> Community Edition</td>
 <td><a href="/wiki/Java_platform" class="mw-redirect" title="Java platform">Java</a></td>
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
-<td>7.4.2<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup></td>
+<td>7.4.2</td>
 <td><a href="/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
 <td>2016-03-24</td>
 </tr>
@@ -113,7 +113,7 @@
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Hippo_CMS" title="Hippo CMS">Hippo CMS</a></td>
 <td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/Ingres_(database)" title="Ingres (database)">Ingres</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/Content_repository_API_for_Java" title="Content repository API for Java">JCR</a></td>
-<td>12.0.2<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup></td>
+<td>12.0.2</td>
 <td><a href="/wiki/Apache_License" title="Apache License">Apache 2.0 License</a></td>
 <td>2017-10-10</td>
 </tr>
@@ -180,7 +180,7 @@
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Apache_Lenya" title="Apache Lenya">Apache Lenya</a></td>
 <td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, <a href="/wiki/XML" title="XML">XML</a>, <a href="/wiki/Apache_Cocoon" title="Apache Cocoon">Apache Cocoon</a></td>
 <td></td>
-<td>2.0.4<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup></td>
+<td>2.0.4</td>
 <td><a href="/wiki/Apache_License" title="Apache License">Apache License</a></td>
 <td>2011-03-14</td>
 </tr>
@@ -209,7 +209,7 @@
 <td><a href="/wiki/XML" title="XML">XML</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a></td>
 <td>6.1</td>
 <td><a href="/wiki/Mozilla_Public_License" title="Mozilla Public License">Mozilla Public License</a></td>
-<td>2017-04-27<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup></td>
+<td>2017-04-27</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/DotNetNuke" title="DotNetNuke">DNN</a></td>
@@ -217,7 +217,7 @@
 <td><a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/SQL_Server_Express" title="SQL Server Express">SQL Server Express</a>, <a href="/wiki/SQL_Azure" class="mw-redirect" title="SQL Azure">SQL Azure</a></td>
 <td>9.1.1</td>
 <td><a href="/wiki/MIT_License" title="MIT License">MIT License</a></td>
-<td>2017-07-05<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup></td>
+<td>2017-07-05</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Kentico_CMS" title="Kentico CMS">Kentico CMS</a></td>
@@ -225,7 +225,7 @@
 <td><a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a></td>
 <td>10.0</td>
 <td>Proprietary, <a href="/wiki/Free_software" title="Free software">Free</a></td>
-<td>2016-11-30<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup></td>
+<td>2016-11-30</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/MojoPortal" title="MojoPortal">mojoPortal</a></td>
@@ -233,7 +233,7 @@
 <td><a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a>, <a href="/wiki/Firebird_(database_server)" title="Firebird (database server)">Firebird</a>, <a href="/wiki/SQLCE" class="mw-redirect" title="SQLCE">SQL CE</a></td>
 <td>2.4.1.0</td>
 <td><a href="/wiki/Common_Public_License" title="Common Public License">CPL</a></td>
-<td>2016-04-10<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">[9]</a></sup></td>
+<td>2016-04-10</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Orchard_Project" title="Orchard Project">Orchard Project</a></td>
@@ -241,7 +241,7 @@
 <td><a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a></td>
 <td>1.10.1</td>
 <td><a href="/wiki/New_BSD_License" class="mw-redirect" title="New BSD License">New BSD License</a></td>
-<td>2016-05-11<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">[10]</a></sup></td>
+<td>2016-05-11</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Umbraco" title="Umbraco">Umbraco</a></td>
@@ -249,15 +249,15 @@
 <td><a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/SQL_Server_Compact" title="SQL Server Compact">SQL CE</a>, <a href="/wiki/SQL_Azure" class="mw-redirect" title="SQL Azure">SQL Azure</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>7.6.5</td>
 <td><a href="/wiki/MIT_License" title="MIT License">MIT License</a></td>
-<td>2017-08-08<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">[11]</a></sup></td>
+<td>2017-08-08</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/BetterCMS" title="BetterCMS">BetterCMS</a></td>
 <td><a href="/wiki/ASP.NET" title="ASP.NET">ASP.NET</a> (Web Forms, MVC)</td>
-<td><a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/SQL_Azure" class="mw-redirect" title="SQL Azure">SQL Azure</a><sup id="cite_ref-devbridge_12-0" class="reference"><a href="#cite_note-devbridge-12">[12]</a></sup></td>
+<td><a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a>, <a href="/wiki/SQL_Azure" class="mw-redirect" title="SQL Azure">SQL Azure</a></td>
 <td>2.0.6</td>
 <td><a href="/wiki/GNU_Lesser_General_Public_License" title="GNU Lesser General Public License">LGPL</a></td>
-<td>2016-06-14<sup id="cite_ref-:0_13-0" class="reference"><a href="#cite_note-:0-13">[13]</a></sup></td>
+<td>2016-06-14</td>
 </tr>
 </table>
 <h3><span class="mw-headline" id="Perl">Perl</span></span></h3>
@@ -292,7 +292,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
 <td>3.3.15</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2015-12-22<sup id="cite_ref-ep_release_14-0" class="reference"><a href="#cite_note-ep_release-14">[14]</a></sup></td>
+<td>2015-12-22</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Foswiki" title="Foswiki">Foswiki</a></td>
@@ -300,7 +300,7 @@
 <td><a href="/wiki/Flat-file_database" class="mw-redirect" title="Flat-file database">Flat-file database</a></td>
 <td>2.1.4</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2017-06-01<sup id="cite_ref-foswiki_release_15-0" class="reference"><a href="#cite_note-foswiki_release-15">[15]</a></sup></td>
+<td>2017-06-01</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Ikiwiki" title="Ikiwiki">Ikiwiki</a></td>
@@ -308,7 +308,7 @@
 <td><a href="/wiki/Git_(software)" class="mw-redirect" title="Git (software)">Git (software)</a>, <a href="/wiki/Apache_Subversion" title="Apache Subversion">Apache Subversion</a>, <a href="/wiki/Mercurial" title="Mercurial">Mercurial</a></td>
 <td>3.20170111</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2017-01-11<sup id="cite_ref-iki_release_16-0" class="reference"><a href="#cite_note-iki_release-16">[16]</a></sup></td>
+<td>2017-01-11</td>
 </tr>
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Movable_Type" title="Movable Type">Movable Type</a> Open Source</td>
@@ -316,7 +316,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>5.2.13</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2015-04-14<sup id="cite_ref-mt_release_17-0" class="reference"><a href="#cite_note-mt_release-17">[17]</a></sup></td>
+<td>2015-04-14</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/TWiki" title="TWiki">TWiki</a></td>
@@ -324,7 +324,7 @@
 <td>Plain files (under version control)</td>
 <td>6.0.2</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2015-11-29<sup id="cite_ref-twiki_release_18-0" class="reference"><a href="#cite_note-twiki_release-18">[18]</a></sup></td>
+<td>2015-11-29</td>
 </tr>
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/SPINE_(software)" title="SPINE (software)">SPINE</a></td>
@@ -340,7 +340,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>7.10.30</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2016-01-06<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">[19]</a></sup></td>
+<td>2016-01-06</td>
 </tr>
 </table>
 <h3><span class="mw-headline" id="PHP">PHP</span></span></h3>
@@ -359,7 +359,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>2.2.2</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2016-07-01<sup id="cite_ref-at_release_20-0" class="reference"><a href="#cite_note-at_release-20">[20]</a></sup></td>
+<td>2016-07-01</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Backdrop_CMS" title="Backdrop CMS">Backdrop CMS</a></td>
@@ -367,15 +367,15 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>1.8.0</td>
 <td><a href="/wiki/GNU_General_Public_License#Version_2" title="GNU General Public License">GPLv2+</a></td>
-<td>2017-09-16<sup id="cite_ref-21" class="reference"><a href="#cite_note-21">[21]</a></sup></td>
+<td>2017-09-16</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/B2evolution" title="B2evolution">b2evolution</a></td>
 <td><a href="/wiki/PHP" title="PHP">PHP</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/MariaDB" title="MariaDB">MariaDB</a><sup id="cite_ref-requirements_22-0" class="reference"><a href="#cite_note-requirements-22">[22]</a></sup></td>
+<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/MariaDB" title="MariaDB">MariaDB</a><</td>
 <td>6.9.3</td>
 <td><a href="/wiki/GNU_General_Public_License#Version_2" title="GNU General Public License">GPLv2</a></td>
-<td>2017-08-25<sup id="cite_ref-b2e_release_23-0" class="reference"><a href="#cite_note-b2e_release-23">[23]</a></sup></td>
+<td>2017-08-25</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/CMSimple" title="CMSimple">CMSimple</a></td>
@@ -383,7 +383,7 @@
 <td><a href="/wiki/Flat-file_database" class="mw-redirect" title="Flat-file database">Flat-file database</a></td>
 <td>4.7.2</td>
 <td><a href="/wiki/GPLv3" class="mw-redirect" title="GPLv3">GPLv3</a></td>
-<td>2017-05-07<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">[24]</a></sup></td>
+<td>2017-05-07</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/CMS_Made_Simple" title="CMS Made Simple">CMS Made Simple</a></td>
@@ -391,7 +391,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>2.2.2</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2017-07-08<sup id="cite_ref-cms_release_25-0" class="reference"><a href="#cite_note-cms_release-25">[25]</a></sup></td>
+<td>2017-07-08</td>
 </tr>
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Coderity" title="Coderity">Coderity</a></td>
@@ -399,7 +399,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>3.3.13</td>
 <td><a href="/wiki/MIT_License" title="MIT License">MIT</a></td>
-<td>2015-02-27<sup id="cite_ref-coderity_release_26-0" class="reference"><a href="#cite_note-coderity_release-26">[26]</a></sup></td>
+<td>2015-02-27</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Composr_CMS" title="Composr CMS">Composr CMS</a></td>
@@ -407,7 +407,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>9.0.30</td>
 <td><a href="/wiki/Common_Public_Attribution_License" title="Common Public Attribution License">CPAL</a></td>
-<td>2016-09-18<sup id="cite_ref-27" class="reference"><a href="#cite_note-27">[27]</a></sup></td>
+<td>2016-09-18</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Concrete5" title="Concrete5">concrete5</a></td>
@@ -415,7 +415,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>8.1.0</td>
 <td><a href="/wiki/MIT_license" class="mw-redirect" title="MIT license">MIT</a></td>
-<td>2017-01-24<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">[28]</a></sup></td>
+<td>2017-01-24</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Contao" title="Contao">Contao</a></td>
@@ -423,7 +423,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>4.4.0</td>
 <td><a href="/wiki/GNU_Lesser_General_Public_License" title="GNU Lesser General Public License">LGPL</a></td>
-<td>2017-06-16<sup id="cite_ref-29" class="reference"><a href="#cite_note-29">[29]</a></sup></td>
+<td>2017-06-16</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/DokuWiki" title="DokuWiki">DokuWiki</a></td>
@@ -431,7 +431,7 @@
 <td><a href="/wiki/Flat-file_database" class="mw-redirect" title="Flat-file database">Flat-file database</a></td>
 <td>2017-02-19a</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2017-02-19<sup id="cite_ref-30" class="reference"><a href="#cite_note-30">[30]</a></sup></td>
+<td>2017-02-19</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Dotclear" title="Dotclear">Dotclear</a></td>
@@ -439,21 +439,21 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a></td>
 <td>2.12</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2017-07-27<sup id="cite_ref-dotclear_release_31-0" class="reference"><a href="#cite_note-dotclear_release-31">[31]</a></sup></td>
+<td>2017-07-27</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Drupal" title="Drupal">Drupal</a></td>
 <td><a href="/wiki/PHP" title="PHP">PHP</a></td>
-<td><a href="/wiki/MariaDB" title="MariaDB">MariaDB</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">Microsoft SQL Server</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Percona_Server" class="mw-redirect" title="Percona Server">Percona Server</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a><sup id="cite_ref-32" class="reference"><a href="#cite_note-32">[32]</a></sup></td>
+<td><a href="/wiki/MariaDB" title="MariaDB">MariaDB</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">Microsoft SQL Server</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Percona_Server" class="mw-redirect" title="Percona Server">Percona Server</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a></td>
 <td>8.3.7</td>
 <td><a href="/wiki/Gpl#Version_2" class="mw-redirect" title="Gpl">GPLv2+</a></td>
-<td>2017-08-16<sup id="cite_ref-33" class="reference"><a href="#cite_note-33">[33]</a></sup></td>
+<td>2017-08-16</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Exponent_CMS" title="Exponent CMS">Exponent CMS</a></td>
 <td><a href="/wiki/PHP" title="PHP">PHP</a></td>
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
-<td>2.4.1<sup id="cite_ref-exponentcms_release_34-0" class="reference"><a href="#cite_note-exponentcms_release-34">[34]</a></sup></td>
+<td>2.4.1</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
 <td>2017-08-18<small class="plainlinks"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:ExponentCMS_version&amp;action=edit">[±]</a></small></td>
 </tr>
@@ -463,13 +463,13 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">Microsoft SQL Server</a></td>
 <td>5.4</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2014-12-02<sup id="cite_ref-35" class="reference"><a href="#cite_note-35">[35]</a></sup></td>
+<td>2014-12-02</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/EZ_Platform" title="EZ Platform">eZ Platform</a></td>
 <td><a href="/wiki/PHP" title="PHP">PHP</a></td>
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/MariaDB" title="MariaDB">MariaDB</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
-<td>1.7.0<sup id="cite_ref-ezp_release_36-0" class="reference"><a href="#cite_note-ezp_release-36">[36]</a></sup></td>
+<td>1.7.0</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
 <td>2016-12-15</td>
 </tr>
@@ -479,7 +479,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">Microsoft SQL Server</a></td>
 <td>2.1.3</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2017-06-22<sup id="cite_ref-geeklog_37-0" class="reference"><a href="#cite_note-geeklog-37">[37]</a></sup></td>
+<td>2017-06-22</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/GetSimple_CMS" title="GetSimple CMS">GetSimple CMS</a></td>
@@ -487,15 +487,15 @@
 <td><a href="/wiki/Flat-file_database" class="mw-redirect" title="Flat-file database">Flat-file database</a></td>
 <td>3.3.13</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2016-10-11<sup id="cite_ref-38" class="reference"><a href="#cite_note-38">[38]</a></sup></td>
+<td>2016-10-11</td>
 </tr>
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Habari" title="Habari">Habari</a></td>
 <td><a href="/wiki/PHP" title="PHP">PHP</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>,<sup id="cite_ref-39" class="reference"><a href="#cite_note-39">[39]</a></sup> <a href="/wiki/SQLite" title="SQLite">SQLite</a></td>
+<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a></td>
 <td>0.9.2</td>
 <td><a href="/wiki/Apache_License" title="Apache License">Apache License</a></td>
-<td>2014-09-16<sup id="cite_ref-hab_release_40-0" class="reference"><a href="#cite_note-hab_release-40">[40]</a></sup></td>
+<td>2014-09-16</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/ImpressCMS" title="ImpressCMS">ImpressCMS</a></td>
@@ -503,7 +503,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>1.3.10</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2016-12-28<sup id="cite_ref-impcms_release_41-0" class="reference"><a href="#cite_note-impcms_release-41">[41]</a></sup></td>
+<td>2016-12-28</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/ImpressPages" title="ImpressPages">ImpressPages</a></td>
@@ -511,7 +511,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>4.8.0</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a> <a href="/wiki/MIT_License" title="MIT License">MIT</a></td>
-<td>2016-10-30<sup id="cite_ref-42" class="reference"><a href="#cite_note-42">[42]</a></sup></td>
+<td>2016-10-30</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Jamroom" title="Jamroom">Jamroom</a></td>
@@ -519,7 +519,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/MariaDB" title="MariaDB">MariaDB</a>, <a href="/wiki/Percona" title="Percona">Percona</a></td>
 <td>6.1.0</td>
 <td><a href="/wiki/Mozilla_Public_License" title="Mozilla Public License">MPL</a></td>
-<td>2017-08-30<sup id="cite_ref-43" class="reference"><a href="#cite_note-43">[43]</a></sup></td>
+<td>2017-08-30</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Joomla!" class="mw-redirect" title="Joomla!">Joomla!</a></td>
@@ -527,7 +527,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/MSSQL" class="mw-redirect" title="MSSQL">MSSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a></td>
 <td>3.8.1</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2017-10-04<sup id="cite_ref-44" class="reference"><a href="#cite_note-44">[44]</a></sup></td>
+<td>2017-10-04</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Kajona" title="Kajona">Kajona</a></td>
@@ -535,7 +535,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a>, <a href="/wiki/MariaDB" title="MariaDB">MariaDB</a>, <a href="/wiki/Oracle_Database" title="Oracle Database">Oracle</a></td>
 <td>6.2</td>
 <td><a href="/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
-<td>2017-06-08<sup id="cite_ref-kajona_release_45-0" class="reference"><a href="#cite_note-kajona_release-45">[45]</a></sup></td>
+<td>2017-06-08</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Known_(software)" title="Known (software)">Known</a></td>
@@ -543,7 +543,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/MongoDB" title="MongoDB">MongoDB</a></td>
 <td>0.9.2</td>
 <td><a href="/wiki/Apache_License" title="Apache License">Apache License</a></td>
-<td>2016-04-24<sup id="cite_ref-known_release_46-0" class="reference"><a href="#cite_note-known_release-46">[46]</a></sup></td>
+<td>2016-04-24</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Magento" title="Magento">Magento</a></td>
@@ -551,7 +551,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>2.1.8</td>
 <td><a href="/wiki/OSL_Ver._3" class="mw-redirect" title="OSL Ver. 3">OSL Ver. 3</a> / <a href="/wiki/AFL_Ver._3" class="mw-redirect" title="AFL Ver. 3">AFL Ver. 3</a></td>
-<td>2017-08-09<sup id="cite_ref-magentocommerce.com_47-0" class="reference"><a href="#cite_note-magentocommerce.com-47">[47]</a></sup></td>
+<td>2017-08-09</td>
 </tr>
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Mambo_(software)" title="Mambo (software)">Mambo</a></td>
@@ -564,10 +564,10 @@
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/MediaWiki" title="MediaWiki">MediaWiki</a></td>
 <td><a href="/wiki/PHP" title="PHP">PHP</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/MariaDB" title="MariaDB">MariaDB</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a>, <a href="/wiki/MSSQL" class="mw-redirect" title="MSSQL">MSSQL</a><sup id="cite_ref-48" class="reference"><a href="#cite_note-48">[48]</a></sup></td>
+<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/MariaDB" title="MariaDB">MariaDB</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a>, <a href="/wiki/MSSQL" class="mw-redirect" title="MSSQL">MSSQL</a></td>
 <td>1.29.1</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2017-08-23<sup id="cite_ref-mw_release_49-0" class="reference"><a href="#cite_note-mw_release-49">[49]</a></sup></td>
+<td>2017-08-23</td>
 </tr>
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/MiaCMS" title="MiaCMS">MiaCMS</a></td>
@@ -575,7 +575,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>4.9</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2009-07-29<sup id="cite_ref-50" class="reference"><a href="#cite_note-50">[50]</a></sup></td>
+<td>2009-07-29</td>
 </tr>
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Midgard_(software)" title="Midgard (software)">Midgard CMS</a></td>
@@ -583,7 +583,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>12.0.9.2</td>
 <td><a href="/wiki/GNU_Lesser_General_Public_License" title="GNU Lesser General Public License">LGPL</a></td>
-<td>2012-09-26<sup id="cite_ref-51" class="reference"><a href="#cite_note-51">[51]</a></sup></td>
+<td>2012-09-26</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/MODX" title="MODX">MODX</a></td>
@@ -591,7 +591,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>2.5.8</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2017-09-13<sup id="cite_ref-52" class="reference"><a href="#cite_note-52">[52]</a></sup></td>
+<td>2017-09-13</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Moodle" title="Moodle">Moodle</a></td>
@@ -599,7 +599,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/MSSQL" class="mw-redirect" title="MSSQL">MSSQL</a>, or <a href="/wiki/Oracle_Database" title="Oracle Database">Oracle</a></td>
 <td>3.3</td>
 <td><a href="/wiki/Gpl#Version_3" class="mw-redirect" title="Gpl">GPLv3+</a></td>
-<td>2017-05-14<sup id="cite_ref-moodle_release_53-0" class="reference"><a href="#cite_note-moodle_release-53">[53]</a></sup></td>
+<td>2017-05-14</td>
 </tr>
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Novius_OS" title="Novius OS">Novius OS</a></td>
@@ -607,7 +607,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>5.0.1 (Elche)</td>
 <td><a href="/wiki/AGPLv3" class="mw-redirect" title="AGPLv3">AGPLv3</a></td>
-<td>2014-07-08<sup id="cite_ref-54" class="reference"><a href="#cite_note-54">[54]</a></sup></td>
+<td>2014-07-08</td>
 </tr>
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Nucleus_CMS" title="Nucleus CMS">Nucleus CMS</a></td>
@@ -615,7 +615,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>3.64</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2011-03-14<sup id="cite_ref-55" class="reference"><a href="#cite_note-55">[55]</a></sup></td>
+<td>2011-03-14</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/October_(CMS)" title="October (CMS)">OctoberCMS</a></td>
@@ -623,7 +623,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a></td>
 <td>419</td>
 <td><a href="/wiki/MIT_license" class="mw-redirect" title="MIT license">MIT</a></td>
-<td>2017-05-15<sup id="cite_ref-56" class="reference"><a href="#cite_note-56">[56]</a></sup></td>
+<td>2017-05-15</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Omeka" title="Omeka">Omeka</a></td>
@@ -631,7 +631,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>2.5</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2017-01-31<sup id="cite_ref-57" class="reference"><a href="#cite_note-57">[57]</a></sup></td>
+<td>2017-01-31</td>
 </tr>
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Papaya_CMS" title="Papaya CMS">papaya CMS</a></td>
@@ -639,7 +639,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a></td>
 <td>5.5.2</td>
 <td><a href="/wiki/GNU_General_Public_License" title="GNU General Public License">GPL v2</a></td>
-<td>2013-02-12<sup id="cite_ref-58" class="reference"><a href="#cite_note-58">[58]</a></sup></td>
+<td>2013-02-12</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Ph7cms" title="Ph7cms">pH7CMS</a></td>
@@ -647,7 +647,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/MariaDB" title="MariaDB">MariaDB</a></td>
 <td>8.0.6</td>
 <td><a href="/wiki/GPL#Version_3" class="mw-redirect" title="GPL">GPL 3.0</a></td>
-<td>2017-08-27<sup id="cite_ref-ph7_release_59-0" class="reference"><a href="#cite_note-ph7_release-59">[59]</a></sup></td>
+<td>2017-08-27</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Phire_CMS" title="Phire CMS">Phire CMS</a></td>
@@ -655,7 +655,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>2.1.0</td>
 <td><a href="/wiki/New_BSD_License" class="mw-redirect" title="New BSD License">New BSD License</a></td>
-<td>2016-07-07<sup id="cite_ref-phire_release_60-0" class="reference"><a href="#cite_note-phire_release-60">[60]</a></sup></td>
+<td>2016-07-07</td>
 </tr>
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/PHP-Nuke" title="PHP-Nuke">PHP-Nuke</a></td>
@@ -663,7 +663,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>8.3.2</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2014-01-30<sup id="cite_ref-61" class="reference"><a href="#cite_note-61">[61]</a></sup></td>
+<td>2014-01-30</td>
 </tr>
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/PhpWebLog" title="PhpWebLog">phpWebLog</a></td>
@@ -679,7 +679,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>1.5.5</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2015-12-11<sup id="cite_ref-62" class="reference"><a href="#cite_note-62">[62]</a></sup></td>
+<td>2015-12-11</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Pimcore" title="Pimcore">Pimcore</a></td>
@@ -687,7 +687,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>5.0</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2017-09-28<sup id="cite_ref-pimcore_release_63-0" class="reference"><a href="#cite_note-pimcore_release-63">[63]</a></sup></td>
+<td>2017-09-28</td>
 </tr>
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/PivotX" title="PivotX">PivotX</a></td>
@@ -695,7 +695,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Flat-file_database" class="mw-redirect" title="Flat-file database">Flat-file database</a></td>
 <td>2.3.11</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2015-06-21<sup id="cite_ref-64" class="reference"><a href="#cite_note-64">[64]</a></sup></td>
+<td>2015-06-21</td>
 </tr>
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Pixie_(CMS)" title="Pixie (CMS)">Pixie (CMS)</a></td>
@@ -711,13 +711,13 @@
 <td><a href="/wiki/Flat-file_database" class="mw-redirect" title="Flat-file database">Flat-file database</a></td>
 <td>4.7.3</td>
 <td><a href="/wiki/GPL3" class="mw-redirect" title="GPL3">GPL3</a></td>
-<td>2014-12-08<sup id="cite_ref-65" class="reference"><a href="#cite_note-65">[65]</a></sup></td>
+<td>2014-12-08</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/PmWiki" title="PmWiki">PmWiki</a></td>
 <td><a href="/wiki/PHP" title="PHP">PHP</a></td>
-<td><a href="/wiki/Flat-file_database" class="mw-redirect" title="Flat-file database">Flat-file database</a><sup id="cite_ref-66" class="reference"><a href="#cite_note-66">[66]</a></sup> <a href="/wiki/SQLite" title="SQLite">SQLite</a><sup id="cite_ref-67" class="reference"><a href="#cite_note-67">[67]</a></sup></td>
-<td>2.2.104<sup id="cite_ref-pmwiki_release_68-0" class="reference"><a href="#cite_note-pmwiki_release-68">[68]</a></sup></td>
+<td><a href="/wiki/Flat-file_database" class="mw-redirect" title="Flat-file database">Flat-file database</a></td>
+<td>2.2.104</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
 <td>2017-10-11</td>
 </tr>
@@ -727,7 +727,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>1.6.1.8</td>
 <td><a href="/wiki/Open_Software_License_3.0" class="mw-redirect" title="Open Software License 3.0">Open Software License 3.0</a></td>
-<td>2016-10-26<sup id="cite_ref-69" class="reference"><a href="#cite_note-69">[69]</a></sup></td>
+<td>2016-10-26</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/ProcessWire" title="ProcessWire">ProcessWire</a></td>
@@ -735,7 +735,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>3.0.62</td>
 <td><a href="/wiki/Mozilla_Public_License" title="Mozilla Public License">Mozilla Public License 2.0</a></td>
-<td>2017-05-12<sup id="cite_ref-70" class="reference"><a href="#cite_note-70">[70]</a></sup></td>
+<td>2017-05-12</td>
 </tr>
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Semantic_MediaWiki_Plus" class="mw-redirect" title="Semantic MediaWiki Plus">SMW+</a></td>
@@ -743,7 +743,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>1.7.0</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2012-04-24<sup id="cite_ref-71" class="reference"><a href="#cite_note-71">[71]</a></sup></td>
+<td>2012-04-24</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Serendipity_(weblog_software)" class="mw-redirect" title="Serendipity (weblog software)">Serendipity</a></td>
@@ -751,7 +751,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/MySQLi" title="MySQLi">MySQLi</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a></td>
 <td>2.0.4</td>
 <td><a href="/wiki/BSD_licenses" title="BSD licenses">BSD</a></td>
-<td>2016-09-26<sup id="cite_ref-sy_release_72-0" class="reference"><a href="#cite_note-sy_release-72">[72]</a></sup></td>
+<td>2016-09-26</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/SilverStripe" title="SilverStripe">SilverStripe</a></td>
@@ -759,7 +759,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">Microsoft SQL Server</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a></td>
 <td>3.5.3</td>
 <td><a href="/wiki/BSD_licenses" title="BSD licenses">BSD</a></td>
-<td>2017-02-21<sup id="cite_ref-silverstripe_release_73-0" class="reference"><a href="#cite_note-silverstripe_release-73">[73]</a></sup></td>
+<td>2017-02-21</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/SPIP" title="SPIP">SPIP</a></td>
@@ -767,7 +767,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a></td>
 <td>3.1.6</td>
 <td><a href="/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
-<td>2017-06-12<sup id="cite_ref-74" class="reference"><a href="#cite_note-74">[74]</a></sup></td>
+<td>2017-06-12</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Textpattern" title="Textpattern">Textpattern</a></td>
@@ -775,7 +775,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>4.6.2</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2016-10-21<sup id="cite_ref-75" class="reference"><a href="#cite_note-75">[75]</a></sup></td>
+<td>2016-10-21</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Tiki_Wiki_CMS_Groupware" title="Tiki Wiki CMS Groupware">Tiki Wiki CMS Groupware</a></td>
@@ -783,13 +783,13 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>15.2</td>
 <td><a href="/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
-<td>2016-07-06<sup id="cite_ref-tiki_release_76-0" class="reference"><a href="#cite_note-tiki_release-76">[76]</a></sup></td>
+<td>2016-07-06</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/TYPO3" title="TYPO3">TYPO3</a></td>
 <td><a href="/wiki/PHP" title="PHP">PHP</a></td>
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
-<td>8.7.8<sup id="cite_ref-cakephp_release_77-0" class="reference"><a href="#cite_note-cakephp_release-77">[77]</a></sup></td>
+<td>8.7.8</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
 <td>2017-04-04<small class="plainlinks"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:TYPO3_version&amp;action=edit">[±]</a></small></td>
 </tr>
@@ -799,7 +799,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a></td>
 <td>0.8.3.1</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL v3</a></td>
-<td>2015-08-10<sup id="cite_ref-wolfcms_78-0" class="reference"><a href="#cite_note-wolfcms-78">[78]</a></sup></td>
+<td>2015-08-10</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/WordPress" title="WordPress">WordPress</a></td>
@@ -807,7 +807,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/MariaDB" title="MariaDB">MariaDB</a></td>
 <td>4.8.3</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2017-10-31<sup id="cite_ref-wp_versions_79-0" class="reference"><a href="#cite_note-wp_versions-79">[79]</a></sup></td>
+<td>2017-10-31</td>
 </tr>
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Xaraya" title="Xaraya">Xaraya</a></td>
@@ -815,7 +815,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a></td>
 <td>2.4.0</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2013-02-23<sup id="cite_ref-xaraya1_80-0" class="reference"><a href="#cite_note-xaraya1-80">[80]</a></sup></td>
+<td>2013-02-23</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/XOOPS" title="XOOPS">XOOPS</a></td>
@@ -823,7 +823,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
 <td>2.5.8</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2016-05-27<sup id="cite_ref-xoops_release_81-0" class="reference"><a href="#cite_note-xoops_release-81">[81]</a></sup></td>
+<td>2016-05-27</td>
 </tr>
 </table>
 <h3><span class="mw-headline" id="Python">Python</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_content_management_systems&amp;action=edit&amp;section=7" title="Edit section: Python">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -850,7 +850,7 @@
 <td><a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a> 3 and <a href="/wiki/Oracle_Database" title="Oracle Database">Oracle</a></td>
 <td>4.2.2</td>
 <td><a href="/wiki/BSD" class="mw-redirect" title="BSD">BSD</a></td>
-<td>2016-11-25<sup id="cite_ref-mezz_release_82-0" class="reference"><a href="#cite_note-mezz_release-82">[82]</a></sup></td>
+<td>2016-11-25</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/MoinMoin" title="MoinMoin">MoinMoin</a></td>
@@ -858,7 +858,7 @@
 <td><a href="/wiki/Flat-file_database" class="mw-redirect" title="Flat-file database">Flat-file database</a></td>
 <td>1.9.9</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2016-10-31<sup id="cite_ref-mm_release_83-0" class="reference"><a href="#cite_note-mm_release-83">[83]</a></sup></td>
+<td>2016-10-31</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Plone_(software)" title="Plone (software)">Plone</a></td>
@@ -866,7 +866,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a>, <a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>, <a href="/wiki/Zope_Object_Database" title="Zope Object Database">ZODB</a>, via <a href="/wiki/Zope" title="Zope">Zope</a></td>
 <td>5.0.7</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2017-03-15<sup id="cite_ref-plone_release_84-0" class="reference"><a href="#cite_note-plone_release-84">[84]</a></sup></td>
+<td>2017-03-15</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Wagtail_(CMS)" title="Wagtail (CMS)">Wagtail</a></td>
@@ -874,7 +874,7 @@
 <td><a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a> 3 and <a href="/wiki/Oracle_Database" title="Oracle Database">Oracle</a></td>
 <td>1.12.2</td>
 <td><a href="/wiki/BSD" class="mw-redirect" title="BSD">BSD</a></td>
-<td>2017-09-18<sup id="cite_ref-wagtail_release_85-0" class="reference"><a href="#cite_note-wagtail_release-85">[85]</a></sup></td>
+<td>2017-09-18</td>
 </tr>
 </table>
 <h3><span class="mw-headline" id="Ruby_on_Rails">Ruby on Rails</span></span></h3>
@@ -906,8 +906,8 @@
 <tr>
 <td style="background: #edf; color: black; vertical-align: middle; text-align: left; font-weight: bolder;" class="rh heading table-rh"><a href="/wiki/Radiant_(software)" title="Radiant (software)">Radiant</a></td>
 <td><a href="/wiki/Ruby_on_Rails" title="Ruby on Rails">Ruby on Rails</a></td>
-<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a>, <a href="/wiki/IBM_DB2" class="mw-redirect" title="IBM DB2">DB2</a><sup id="cite_ref-86" class="reference"><a href="#cite_note-86">[86]</a></sup></td>
-<td>1.1.4<sup id="cite_ref-radiant_release_87-0" class="reference"><a href="#cite_note-radiant_release-87">[87]</a></sup></td>
+<td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a>, <a href="/wiki/IBM_DB2" class="mw-redirect" title="IBM DB2">DB2</a></td>
+<td>1.1.4</td>
 <td><a href="/wiki/MIT_License" title="MIT License">MIT</a></td>
 <td>2013-09-24</td>
 </tr>
@@ -915,7 +915,7 @@
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Refinery_CMS" title="Refinery CMS">Refinery CMS</a></td>
 <td><a href="/wiki/Ruby_on_Rails" title="Ruby on Rails">Ruby on Rails</a></td>
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a></td>
-<td>3.0.5<sup id="cite_ref-ref_version_88-0" class="reference"><a href="#cite_note-ref_version-88">[88]</a></sup></td>
+<td>3.0.5</td>
 <td><a href="/wiki/MIT_License" title="MIT License">MIT</a></td>
 <td>2016-11-23</td>
 </tr>
@@ -923,7 +923,7 @@
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Typo_(software)" title="Typo (software)">Typo</a></td>
 <td><a href="/wiki/Ruby_on_Rails" title="Ruby on Rails">Ruby on Rails</a></td>
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>, <a href="/wiki/SQLite" title="SQLite">SQLite</a></td>
-<td>8.3.3<sup id="cite_ref-typo_release_89-0" class="reference"><a href="#cite_note-typo_release-89">[89]</a></sup></td>
+<td>8.3.3</td>
 <td><a href="/wiki/MIT_License" title="MIT License">MIT</a></td>
 <td>2016-11-03</td>
 </tr>
@@ -944,7 +944,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>/<a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">Microsoft SQL Server</a>/<a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>/<a href="/wiki/HSQLDB" title="HSQLDB">HSQLDB</a>/<a href="/wiki/Apache_Derby" title="Apache Derby">Apache Derby</a></td>
 <td>2.1.0</td>
 <td><a href="/wiki/Apache_License" title="Apache License">Apache License</a> or proprietary</td>
-<td>2015-05-05<sup id="cite_ref-ortussolutions_90-0" class="reference"><a href="#cite_note-ortussolutions-90">[90]</a></sup></td>
+<td>2015-05-05</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Mura_CMS" title="Mura CMS">Mura CMS</a></td>
@@ -952,7 +952,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>/<a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">Microsoft SQL Server</a>/<a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a></td>
 <td>7.06858</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a> or proprietary</td>
-<td>2017-01-03<sup id="cite_ref-mura_release_91-0" class="reference"><a href="#cite_note-mura_release-91">[91]</a></sup></td>
+<td>2017-01-03</td>
 </tr>
 <tr>
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/FarCry_CMS" title="FarCry CMS">FarCry CMS</a></td>
@@ -960,7 +960,7 @@
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>/<a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">Microsoft SQL Server</a>/<a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a>/<a href="/wiki/Postgres" class="mw-redirect" title="Postgres">Postgres</a></td>
 <td>7.0.7</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a> or proprietary</td>
-<td>2015-01-14<sup id="cite_ref-92" class="reference"><a href="#cite_note-92">[92]</a></sup></td>
+<td>2015-01-14</td>
 </tr>
 </table>
 <h3><span class="mw-headline" id="JavaScript">JavaScript</span></span></h3>
@@ -977,7 +977,7 @@
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/Ghost_(blogging_platform)" title="Ghost (blogging platform)">Ghost</a></td>
 <td><a href="/wiki/NodeJS" class="mw-redirect" title="NodeJS">NodeJS</a> (<a href="/wiki/JavaScript" title="JavaScript">JavaScript</a>)</td>
 <td><a href="/wiki/SQLite" title="SQLite">SQLite</a>, <a href="/wiki/MySQL" title="MySQL">MySQL</a></td>
-<td>0.11.9<sup id="cite_ref-93" class="reference"><a href="#cite_note-93">[93]</a></sup></td>
+<td>0.11.9</td>
 <td><a href="/wiki/MIT_license" class="mw-redirect" title="MIT license">MIT</a></td>
 <td>2017-05-16</td>
 </tr>
@@ -985,7 +985,7 @@
 <td style="background: #ececec; color: black; font-weight: bold; vertical-align: middle; text-align: left;" class="table-rh"><a href="/wiki/TiddlyWiki" title="TiddlyWiki">TiddlyWiki</a></td>
 <td><a href="/wiki/JavaScript" title="JavaScript">JavaScript</a></td>
 <td><a href="/wiki/Flat-file_database" class="mw-redirect" title="Flat-file database">Flat-file database</a></td>
-<td>5.1.14<sup id="cite_ref-tw_release_94-0" class="reference"><a href="#cite_note-tw_release-94">[94]</a></sup></td>
+<td>5.1.14</td>
 <td><a href="/wiki/BSD_license" class="mw-redirect" title="BSD license">BSD license</a></td>
 <td>2017-04-27</td>
 </tr>
@@ -1006,7 +1006,7 @@
 <td><a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a>/<a href="/wiki/Oracle_database" class="mw-redirect" title="Oracle database">Oracle</a></td>
 <td>5.9.0</td>
 <td><a href="/wiki/GPL" class="mw-redirect" title="GPL">GPL</a></td>
-<td>2015-12-01<sup id="cite_ref-openacs_release_95-0" class="reference"><a href="#cite_note-openacs_release-95">[95]</a></sup></td>
+<td>2015-12-01</td>
 </tr>
 </table>
 <h2><span id="Software_as_a_service_(SaaS)"></span><span class="mw-headline" id="Software_as_a_service_.28SaaS.29">Software as a service (SaaS)</span></span></h2>
@@ -1079,7 +1079,7 @@
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 </tr>
 <tr>
-<td><a href="/wiki/DotCMS" title="DotCMS">dotCMS</a> Cloud<sup id="cite_ref-96" class="reference"><a href="#cite_note-96">[96]</a></sup></td>
+<td><a href="/wiki/DotCMS" title="DotCMS">dotCMS</a> Cloud</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td>4.2.0</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
@@ -1443,7 +1443,7 @@ Systems listed on a light purple background are no longer in active development.
 <td><a href="/wiki/MySQL" title="MySQL">MySQL</a>, <a href="/wiki/Oracle_Database" title="Oracle Database">Oracle</a>, <a href="/wiki/Microsoft_SQL_Server" title="Microsoft SQL Server">SQL Server</a></td>
 <td>6.3.2</td>
 <td>Proprietary</td>
-<td>2016-09-27<sup id="cite_ref-movabletype1_98-0" class="reference"><a href="#cite_note-movabletype1-98">[98]</a></sup></td>
+<td>2016-09-27</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
@@ -1499,7 +1499,7 @@ Systems listed on a light purple background are no longer in active development.
 <td><a href="/wiki/Flat-file_database" class="mw-redirect" title="Flat-file database">Flat-file database</a></td>
 <td>4.6.2</td>
 <td></td>
-<td>2016-12-20<sup id="cite_ref-pulsecms_release_99-0" class="reference"><a href="#cite_note-pulsecms_release-99">[99]</a></sup></td>
+<td>2016-12-20</td>
 <td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
 <td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
 <td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
