@@ -2,7 +2,6 @@
 <dl>
 <dd><i>This section lists free and <a href="/wiki/Open-source_software" title="Open-source software">open-source software</a> that can be installed and managed on a web server.</i></dd>
 </dl>
-<p>Systems listed on a light purple background are no longer in active development.</p>
 <h3><span class="mw-headline" id="Java">Java</span></span></h3>
 <table class="wikitable sortable" style="font-size:85%; text-align:left; width:auto;">
 <tr>
@@ -1203,8 +1202,7 @@
 <dl>
 <dd><i>This section lists <a href="/wiki/Proprietary_software" title="Proprietary software">proprietary software</a> to be installed and managed on a user's own server. This section includes <a href="/wiki/Freeware" title="Freeware">freeware</a> proprietary software.</i></dd>
 </dl>
-<p><br />
-Systems listed on a light purple background are no longer in active development.</p>
+
 <table class="wikitable sortable" style="font-size: 85%; text-align: left; width: auto;">
 <tr>
 <th>Name</th>
