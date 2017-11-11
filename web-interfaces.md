@@ -1,14 +1,7 @@
-<div role="navigation" class="navbox" aria-labelledby="Web_interfaces" style="padding:3px">
+
 <table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
 <tr>
 <th scope="col" class="navbox-title" colspan="2">
-<div class="plainlinks hlist navbar mini">
-<ul>
-<li class="nv-view"><a href="/wiki/Template:Web_interfaces" title="Template:Web interfaces"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;">v</abbr></a></li>
-<li class="nv-talk"><a href="/wiki/Template_talk:Web_interfaces" title="Template talk:Web interfaces"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;">t</abbr></a></li>
-<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Web_interfaces&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;">e</abbr></a></li>
-</ul>
-</div>
 <div id="Web_interfaces" style="font-size:114%;margin:0 4em"><a href="/wiki/Web_API" title="Web API">Web interfaces</a></div>
 </th>
 </tr>
@@ -222,4 +215,4 @@
 </td>
 </tr>
 </table>
-</div>
+
