@@ -150,10 +150,12 @@ Cons
 </tr>
 </table>
 
-**List of all [available CMS's](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/05-opensource-cms/list-of-cms.md)**
 
 
-Lets explore most used CMS's  wordpress, drupal, joomla in detail..
+> **List of all [available CMS's](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/05-opensource-cms/list-of-cms.md)**
+
+
+Lets explore most used CMS's  **wordpress, drupal, joomla in detail..**
 
 <h3>A Quick Comparisons</h3>
 <p>Before everything else, here is a quick overview of the three platforms (based on <a href="http://www.internetlivestats.com/total-number-of-websites/">data by Internet Lives Stats</a>):</p>
@@ -547,10 +549,8 @@ Version 3.3, launched in 2011 made WordPress easier to use and more appealing to
 </ul>
 <p></div></div></p>
 <p>Experienced web developers attest that Drupal is the most powerful CMS. However, it is also the most difficult to use. Due to its flexibility, Drupal is the second most-used CMS in the world, but it is not a favorite amongst beginners.</p>
-<h3>Pro #1: Most Advanced CMS</h3>
-<p>A key difference between Drupal and other content management systems is the installation procedure. With Drupal, you are already asked to configure your site during installation. Just follow the on-screen instructions, and you’ll be fine.</p>
 
-<p><span style="font-size: 18px;"><b>Drupal</b></span></p>
+
 <p><i>Recommended for: business, government, education, civic engagement platforms</i></p>
 <p><i>Difficulty level: some programming experience recommended</i></p>
 
@@ -570,34 +570,35 @@ Version 3.3, launched in 2011 made WordPress easier to use and more appealing to
 
 > Drupal 8.0.0 was released on November 19, 2015. A subsequent upgrade to it is also available in the form of Drupal 8.1.0 that brings numerous improvements, including CKEditor WYSIWYG enhancements, added APIs, an improved help page, and two new experimental modules. Experimental modules are meant for testing purposes, but are not yet fully supported.
 
+<br>
 
-![drupal](https://en.wikipedia.org/wiki/Drupal#/media/File:Drupal_release_timeline.png)
+![drupal](https://upload.wikimedia.org/wikipedia/commons/5/54/Drupal_release_timeline.png)
 
+**Latest major releases**
 <table class="wikitable" border="1" style="float:right; margin-left:9px; background: AliceBlue;">
-<caption>Latest major releases</caption>
 <tr>
 <th>Version</th>
 <th>Release date</th>
 </tr>
 <tr>
 <td>8.4.2</td>
-<td>November 3, 2017<sup id="cite_ref-Drupal-8-Releases_2-2" class="reference"><a href="#cite_note-Drupal-8-Releases-2">[2]</a></sup></td>
+<td>November 3, 2017</td>
 </tr>
 <tr>
 <td>8.2.8</td>
-<td>April 19, 2017<sup id="cite_ref-Drupal-8-Releases_2-3" class="reference"><a href="#cite_note-Drupal-8-Releases-2">[2]</a></sup></td>
+<td>April 19, 2017</td>
 </tr>
 <tr>
 <td>7.56</td>
-<td>June 21, 2017<sup id="cite_ref-Drupal-7-Releases_22-0" class="reference"><a href="#cite_note-Drupal-7-Releases-22">[22]</a></sup></td>
+<td>June 21, 2017</sup></td>
 </tr>
 <tr>
 <td>6.38</td>
-<td>February 24, 2016<sup id="cite_ref-Drupal-6-Releases_23-0" class="reference"><a href="#cite_note-Drupal-6-Releases-23">[23]</a></sup></td>
+<td>February 24, 2016</td>
 </tr>
 <tr>
 <td>5.23</td>
-<td>August 11, 2010<sup id="cite_ref-Drupal-5-Releases_24-0" class="reference"><a href="#cite_note-Drupal-5-Releases-24">[24]</a></sup></td>
+<td>August 11, 2010</td>
 </tr>
 </table>
 
@@ -609,22 +610,23 @@ The architecture of Drupal contains the following layers
 
 ![Drupal technical architecture](https://www.tutorialspoint.com/drupal/images/drupal-architecture/drupal-architecture.jpg)
 
-* Users − These are the users on the Drupal community. The user sends a request to a server using Drupal CMS and web browsers, search engines, etc. acts like clients.
+* **Users** − These are the users on the Drupal community. The user sends a request to a server using Drupal CMS and web browsers, search engines, etc. acts like clients.
 
-* Administrator − Administrator can provide access permission to authorized users and will be able to block unauthorized access. Administrative account will be having all privileges for managing content and administering the site.
+* **Administrator** − Administrator can provide access permission to authorized users and will be able to block unauthorized access. Administrative account will be having all privileges for managing content and administering the site.
 
-* Drupal − Drupal is a free and open source Content Management System (CMS) that allows organizing, managing and publishing your content and is built on PHP based environments. Drupal CMS is very flexible and powerful and can be used for building large, complex sites. It is very easy to interact with other sites and technologies using Drupal CMS. Further, you will be able to handle complex forms and workflows.
+* **Drupal** − Drupal is a free and open source Content Management System (CMS) that allows organizing, managing and publishing your content and is built on PHP based environments. Drupal CMS is very flexible and powerful and can be used for building large, complex sites. It is very easy to interact with other sites and technologies using Drupal CMS. Further, you will be able to handle complex forms and workflows.
 
-* PHP − Drupal uses PHP in order to work with an application which is created by a user. It takes the help of web server to fetch data from the database. PHP memory requirements depend on the modules which are used in your site. Drupal 6 requires at least 16MB, Drupal 7 requires 32MB and Drupal 8 requires 64MB.
+* **PHP** − Drupal uses PHP in order to work with an application which is created by a user. It takes the help of web server to fetch data from the database. PHP memory requirements depend on the modules which are used in your site. Drupal 6 requires at least 16MB, Drupal 7 requires 32MB and Drupal 8 requires 64MB.
 
-* Web Server − Web server is a server where the user interacts and processes requests via HTTP (Hyper Text Transfer Protocol) and serves files that form web pages to web users. The communication between the user and the server takes place using HTTP. You can use different types of web servers such as Apache, IIS, Nginx, Lighttpd, etc.
+* **Web Server** − Web server is a server where the user interacts and processes requests via HTTP (Hyper Text Transfer Protocol) and serves files that form web pages to web users. The communication between the user and the server takes place using HTTP. You can use different types of web servers such as Apache, IIS, Nginx, Lighttpd, etc.
 
 * Database − Database stores the user information, content and other required data of the site. It is used to store the administrative information to manage the Drupal site. Drupal uses the database to extract the data and enables to store, modify and update the database.
+
 
 > **more detailed architecture of [drupal 7](https://www.ent.iastate.edu/it/Intro_to_Drupal_7_Architecture.pdf)**
 
 
-<p>The following detail the directories provided with every Drupal 8 installation.</p>
+<p>The following detail the directories</p>
 <ul><li><strong>/core</strong> - All files required by Drupal's out-of-the-box usage (core), except for files that have an explicit reason to be included in the base (/) directory.</li>
 <li><strong>/libraries</strong> - All third party external libraries leveraged by Drupal, such as a WYSIWYG editor. This folder is not included by core, but used with many contributed modules.</li>
 <li><strong>/modules</strong> - The directory into which all custom (created by you) and contributed (created by community) modules go.
@@ -635,7 +637,7 @@ The architecture of Drupal contains the following layers
 <li><strong>sites/[domain OR default]/{modules,themes}</strong> - Site specific modules and themes can be moved into these directories to avoid them showing up on every site. Identical to Drupal 7.</li>
 <li><strong>sites/[domain OR default]/files</strong> - The storage of site-specific files. This includes files uploaded by users (such as images) and site configuration (<strong>active</strong> and <strong>staged</strong>). </li>
 <li><strong>/vendor</strong> - Backend external libraries that Drupal core depends on (examples being Symfony, Twig).</li>
-</ul><h2>Core Folder Directories</h2>
+</ul><h4>Core Folder Directories</h4>
 <p>In addition, the folder structure in the /core directory has changed as well.</p>
 <ul><li><strong>/core/assets</strong> - Various external libraries used by core (includes jQuery, underscore, modernizer, etc.).</li>
 <li><strong>/core/misc</strong> - Frontend code that Drupal core depends on.</li>
@@ -648,45 +650,132 @@ The architecture of Drupal contains the following layers
 <li><strong>/core/themes</strong> - Drupal core themes.</li>
 </ul></div></div></div>  </div>
 
-
-<p><strong><strong> </strong></strong></p>
-<p>Like WordPress, Drupal evolved from a project by a single individual. According to <a href="https://www.drupal.org/about/history" target="_blank">Drupal’s official website</a>:</p>
-<p>“In 2000, permanent Internet connections were at a premium for University of Antwerp students, so Dries Buytaert and Hans Snijder set up a wireless bridge between their student dorms to share Hans&#8217;s ADSL modem connection among eight students. While this was unusual for the time, the friends felt something was missing: there was no means to discuss or share simple things.</p>
-<p>This inspired Dries to work on a small news site with a built-in web board, allowing the group of friends to leave each other notes about the status of the network, to announce where they were having dinner, and to share noteworthy news items.”</p>
-<p><strong><strong> </strong></strong></p>
-<p>What started off as a simple message board for friends evolved over time into an open source CMS project that has gone on to power a number of big name websites, the most notable among them being whitehouse.gov. Ever since Howard Dean’s 2004 campaign (noted in the timeline above), Drupal has been embraced by civic activists, community leaders, and government agencies (such as the US Department of Education). It is also used by many news sites, blogs, and well-known institutions including The Economist, Mental Floss, Mother Jones, Mint.com, Columbia University, and the University of Pennsylvania. Even <a href="http://www.monarchie.be/en" target="_blank">The King of Belgium</a> trusts Drupal for his online presence!</p>
-<p><strong><strong> </strong></strong></p>
-<p>Drupal bills itself as a flexible content management solution that allows sites to grow and evolve with blogs, forums, various and custom types of content, support for ecommerce, and creation of “web applications and mashups using third party APIs.” What Drupal does <i>not </i>consider itself is a one-purpose wonder. Drupal’s Community Documentation is not shy about suggesting that sites whose sole function is a personal blog, wiki, or forum should look elsewhere, citing more targeted solutions such as WordPress, MediaWiki, and SimpleMachines to meet those singular objectives.</p>
-<p><strong><strong> </strong></strong></p>
-<p>Additionally, Drupal is often cited as having a steeper learning curve than WordPress. Chris Sloan argues <a href="http://getlevelten.com/blog/chris-sloan/drupal-learning-curve-too-steep-weak">here</a> that the learning curves of WordPress and Drupal have been converging over time, and that today there is not a significant difference between them. Though this may be true in a general sense, Drupal does have fewer themes and modules than WordPress. With fewer themes there is a greater likelihood that you’ll need to delve into some code customization to get your site looking and functioning exactly as you like. The same documentation cited above proffers the following advice: “Drupal takes time and commitment to learn how to use, and if you or your organization are not prepared to spend some time learning how Drupal works (or if you are not able to hire Drupal expertise), it may not be your best option.”</p>
-<p><strong><strong> </strong></strong></p>
-<p>That said, Drupal is quite powerful and can be a great choice for complex websites, for institutions, for schools, for libraries, and for news sites and blogs.</p>
-<p><strong><strong> </strong></strong></p>
-<p><b>Drupal has many benefits. It is:</b></p>
-<ul>
-<li>multi-purpose: a Swiss army knife of content management;</li>
-<li>supported by an active online community;</li>
-<li>used by governments and institutions, suggesting a high level of security and regular updates;</li>
-<li>and it is flexible, ‘future-proofing’ your website by allowing new features to be added without the need to migrate to a new CMS or framework.</li>
-</ul>
-<p><strong><strong> </strong></strong></p>
-<p><b>Drupal also has its drawbacks. Drual:</b></p>
-<ul>
-<li>has fewer themes and modules than WordPress;</li>
-<li>is not specifically designed for blogs or single-purpose sites;</li>
-<li>and may have a steeper learning curve than WordPress.</li>
-</ul>
-<p><strong><strong> </strong></strong></p>
-
-
 *************************
 
 ## Joomla
 
+<div class="row"><div class="col-md-6"><p><strong>Official links</strong></p>
+<ul>
+<li><a href="http://www.joomla.com/" target="_blank" rel="noopener noreferrer">Joomla.com</a></li>
+<li><a href="https://www.joomla.org/announcements.html" target="_blank" rel="noopener noreferrer">Joomla news</a></li>
+<li><a href="https://extensions.joomla.org/">Joomla extensions directory</a></li>
+</ul>
+<p></div><div class="col-md-6">
+<p><strong>Popular Websites Powered by Joomla:</strong></p>
+<ul>
+<li><a href="http://www.liptonicetea.com/">Lipton</a></li>
+<li><a href="https://www.linux.com/">Linux</a></li>
+<li><a href="http://www.harvard.edu/">Harvard University</a></li>
+</ul>
+<p></div></div></p>
+<p>Joomla is similar to WordPress in many ways. It is also easy to use, easy to install, and can easily be expanded with the help of <em><i>modules – </i></em>the equivalent of WordPress plugins. As a result, it is the second-best options for beginners.</p>
 
-<p><span style="font-size: 18px;"><b>Joomla</b></span></p>
+
+> ### a brief history of joomla
+
+> Joomla! was the result of a fork of Mambo on August 17, 2005. At that time, the Mambo name was a trademark of Miro International Pvt. Ltd, who formed a non-profit foundation with the stated purpose of funding the project and protecting it from lawsuits. The Joomla development team claimed that many of the provisions of the foundation structure violated previous agreements made by the elected Mambo Steering Committee, lacked the necessary consultation with key stakeholders and included provisions that violated core open source values.
+
+> Joomla! developers created a website called OpenSourceMatters.org (OSM) to distribute information to the software community. Project leader Andrew Eddie wrote a letter that appeared on the announcements section of the public forum at mamboserver.com. Over one thousand people joined OpenSourceMatters.org within a day, most posting words of encouragement and support. The website received the Slashdot effect as a result. Miro CEO Peter Lamont responded publicly to the development team in an article titled "The Mambo Open Source Controversy — 20 Questions With Miro". This event created controversy within the free software community about the definition of open source. Forums of other open-source projects were active with postings about the actions of both sides.
+
+> In the two weeks following Eddie's announcement, teams were re-organized and the community continued to grow. Eben Moglen and the Software Freedom Law Center (SFLC) assisted the Joomla core team beginning in August 2005, as indicated by Moglen's blog entry from that date and a related OSM announcement. The SFLC continue to provide legal guidance to the Joomla! Project.
+
+> On August 18, Andrew Eddie called for community input to suggest a name for the project. The core team reserved the right for the final naming decision, and chose a name not suggested by the community. On September 22, the new name, Joomla!, was announced. It is the anglicised spelling of the Swahili word jumla, meaning all together or as a whole which also has a similar meaning in at least Amharic, Arabic and Urdu. On September 26, the development team called for logo submissions from the community and invited the community to vote on the logo; the team announced the community's decision on September 29. On October 2, brand guidelines, a brand manual, and a set of logo resources were published.
+
+**Joomla versions**
+
+<table class="wikitable">
+<tr>
+<th scope="col">Version</th>
+<th scope="col">Release date</th>
+<th scope="col">Supported until</th>
+</tr>
+<tr>
+<th scope="row">1.0</th>
+<td><span class="sortkey" style="display:none;speak:none">000000002005-09-22-0000</span><span style="white-space:nowrap">September 22, 2005</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002009-07-22-0000</span><span style="white-space:nowrap">July 22, 2009</span></td>
+</tr>
+<tr>
+<th scope="row">1.5 (LTS)</th>
+<td><span class="sortkey" style="display:none;speak:none">000000002008-01-22-0000</span><span style="white-space:nowrap">January 22, 2008</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002012-12-01-0000</span><span style="white-space:nowrap">December 1, 2012</span></td>
+</tr>
+<tr>
+<th scope="row">1.6</th>
+<td><span class="sortkey" style="display:none;speak:none">000000002011-01-10-0000</span><span style="white-space:nowrap">January 10, 2011</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002011-08-19-0000</span><span style="white-space:nowrap">August 19, 2011</span></td>
+</tr>
+<tr>
+<th scope="row">1.7</th>
+<td><span class="sortkey" style="display:none;speak:none">000000002011-07-19-0000</span><span style="white-space:nowrap">July 19, 2011</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002012-02-24-0000</span><span style="white-space:nowrap">February 24, 2012</span></td>
+</tr>
+<tr>
+<th scope="row">2.5 (LTS)</th>
+<td><span class="sortkey" style="display:none;speak:none">000000002012-01-24-0000</span><span style="white-space:nowrap">January 24, 2012</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002014-12-31-0000</span><span style="white-space:nowrap">December 31, 2014</span></td>
+</tr>
+<tr>
+<th scope="row">3.0</th>
+<td><span class="sortkey" style="display:none;speak:none">000000002012-09-27-0000</span><span style="white-space:nowrap">September 27, 2012</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002013-04-01-0000</span><span style="white-space:nowrap">April 2013</span></td>
+</tr>
+<tr>
+<th scope="row">3.1</th>
+<td><span class="sortkey" style="display:none;speak:none">000000002013-04-24-0000</span><span style="white-space:nowrap">April 24, 2013</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002013-10-01-0000</span><span style="white-space:nowrap">October 2013</span></td>
+</tr>
+<tr>
+<th scope="row">3.2</th>
+<td><span class="sortkey" style="display:none;speak:none">000000002013-11-06-0000</span><span style="white-space:nowrap">November 6, 2013</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002014-10-01-0000</span><span style="white-space:nowrap">October 2014</span></td>
+</tr>
+<tr>
+<th scope="row">3.3</th>
+<td><span class="sortkey" style="display:none;speak:none">000000002014-04-30-0000</span><span style="white-space:nowrap">April 30, 2014</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002015-02-01-0000</span><span style="white-space:nowrap">February 2015</span></td>
+</tr>
+<tr>
+<th scope="row">3.4</th>
+<td><span class="sortkey" style="display:none;speak:none">000000002015-02-24-0000</span><span style="white-space:nowrap">February 24, 2015</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002016-03-01-0000</span><span style="white-space:nowrap">March 2016</span></td>
+</tr>
+<tr>
+<th scope="row">3.5</th>
+<td><span class="sortkey" style="display:none;speak:none">000000002016-03-21-0000</span><span style="white-space:nowrap">March 21, 2016</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002016-07-01-0000</span><span style="white-space:nowrap">July 2016</span></td>
+</tr>
+<tr>
+<th scope="row">3.6</th>
+<td><span class="sortkey" style="display:none;speak:none">000000002016-07-12-0000</span><span style="white-space:nowrap">July 12, 2016</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002017-04-01-0000</span><span style="white-space:nowrap">April 2017</span></td>
+</tr>
+<tr>
+<th scope="row">3.7</th>
+<td><span class="sortkey" style="display:none;speak:none">000000002017-04-25-0000</span><span style="white-space:nowrap">April 25, 2017</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002017-09-01-0000</span><span style="white-space:nowrap">September 2017</span></td>
+</tr>
+<tr>
+<th scope="row">3.8</th>
+<td><span class="sortkey" style="display:none;speak:none">000000002017-09-19-0000</span><span style="white-space:nowrap">September 19, 2017</span></td>
+<td style="background:#90EE90;"></td>
+</tr>
+<tr>
+<th scope="row">3.9 (LTS)</th>
+<td><span class="sortkey" style="display:none;speak:none">000000002018-01-01-0000</span><span style="white-space:nowrap">2018</span></td>
+<td style="background:#87CEEB;"></td>
+</tr>
+<tr>
+<th scope="row">4.0</th>
+<td><span class="sortkey" style="display:none;speak:none">000000002018-01-01-0000</span><span style="white-space:nowrap">2018</span></td>
+<td style="background:#87CEEB;"></td>
+</tr>
+</table>
+
+
+*****************
 <p><i>Recommended for: companies, institutions, online communities, complex websites </i></p>
 <p><i>Difficulty level: intermediate-advanced programming/ development experience recommended</i></p>
+
 <p><strong><strong> </strong></strong></p>
 <p>At its core Joomla is designed for online communities, though as with Drupal and WordPress it can be used to do a whole lot more such as blogs and ecommerce. Joomla has a steeper learning curve than the other CMSs we have looked at so far. According to<a href="http://www.miracletutorials.com/wordpress-vs-joomla-review/" target="_blank"> this article </a>on Miracle Tutorials: “You really should get a good book on Joomla if you want to set it up fast. Otherwise you end up fiddling around and getting nowhere for days.” You definitely can’t make this statement about WordPress, and likely not about Drupal either!</p>
 <p><strong><strong> </strong></strong></p>
@@ -714,27 +803,102 @@ The architecture of Drupal contains the following layers
 <li>heavy use of server resources;</li>
 <li>and its comparatively smaller number of available extensions.</li>
 </ul>
-<p><strong><strong> </strong></strong></p>
-<p><span style="font-size: 18px;"><b>Quick Comparison of WordPress, Drupal, and Joomla</b></span></p>
-<p><strong><strong> </strong></strong></p>
-<p>WordPress, Drupal, and Joomla are all free content management systems that are highly capable in their own unique ways. They are all open source; they are all PHP-based. Each provides an official website with themes, extensions and/or modules, and WordPress and Joomla show ratings of their listed themes/ extensions. Note: many other themes, extensions, and modules are also available on a number of third-party sites.</p>
-<p>Here is a small chart of database support, approximate adoption rates as a percentage of all websites, and approximate number of extensions/ modules for WordPress, Drupal, and Joomla as of July 2015:</p>
-<p><img class="alignnone wp-image-1598 size-full" src="https://webinerds.com/app/uploads/2015/07/Comp-Tables-10.png" alt="extentions databases" width="674" height="258" srcset="https://webinerds.com/app/uploads/2015/07/Comp-Tables-10.png 674w, https://webinerds.com/app/uploads/2015/07/Comp-Tables-10-300x115.png 300w, https://webinerds.com/app/uploads/2015/07/Comp-Tables-10-570x218.png 570w, https://webinerds.com/app/uploads/2015/07/Comp-Tables-10-370x142.png 370w, https://webinerds.com/app/uploads/2015/07/Comp-Tables-10-270x103.png 270w, https://webinerds.com/app/uploads/2015/07/Comp-Tables-10-300x115@2x.png 600w, https://webinerds.com/app/uploads/2015/07/Comp-Tables-10-270x103@2x.png 540w" sizes="(max-width: 674px) 100vw, 674px" /></p>
-<p><span style="font-size: 18px;"><b>Conclusion: Which CMS is right for you?</b></span></p>
-<p><strong><strong> </strong></strong></p>
-<p>Setting up WordPress, Drupal, or Joomla on most hosting services is incredibly simple. With cPanel, for example &#8211; a popular Linux-based web hosting control panel used by GoDaddy, inMotion Hosting and others &#8211; all three of these platforms can be installed and ready to use with just a few clicks.</p>
-<p><strong><strong> </strong></strong></p>
-<p>The decision of which CMS to choose for you and your business is not easy. If the choice is still not clear to you after reading this article, be sure to ask yourself the following questions:</p>
-<ul>
-<li>What website functionality do I need today?</li>
-<li>What website functionality would I like to add in 1-2 years? In 3-5 years?</li>
-<li>Do I intend to start or continue a company blog? Will there be multiple blogs?</li>
-<li>What competencies does my development team currently have?</li>
-</ul>
-<p><strong><strong> </strong></strong></p>
-<p>Ideally, whatever CMS you choose today will be able to stay with you for at least several years since switching to a new content management system can be rather costly and time-consuming. Drupal and Joomla may be more flexible in the long-term &#8211; depending on your needs &#8211; while WordPress is simple to get started with right away and may cost the least amount of money to get up and running at the beginning.</p>
-<p><strong><strong> </strong></strong></p>
 
+*********************
+
+## Technical architecture of joomla
+
+Joomla is written in PHP, it uses Object Oriented programming techniques and MVC design patterns, it uses
+MySQL to store data (MS SQL version 2.5 onwards, and PostgreSQL version 3.0 onwards). Various features
+which make Joomla a hit include page caching, blogs, polls, language internationalization support and RSS
+feeds.
+
+![joomla](https://docs.joomla.org/images/thumb/3/35/JoomlaArchitecture0.png/800px-JoomlaArchitecture0.png)
+
+![Joomla is a Model-View-Controller](https://i.stack.imgur.com/PBcaV.png)
+
+Joomla makes use of MVC design pattern. When Joomla processes a request, it analyses the URL to
+determine which component will be responsible for processing the request, and hand over the control to that
+component. Then as per MVC, that component pass control to the controller. The controller analyses the
+request and determines which model and view will be used to return the results back to the user. The model
+encapsulates the data used by component. The data can come from a database, it can be a Joomla
+database or any external database or can come via web service API running on external server. The model
+is responsible for updating database and isolating the view and controller from the functioning about how
+data is amended or modeled. The view is responsible for generating the output which is then sent over to the
+browser by the component. Once the view has produced the output, the control is taken over by Joomla
+framework which then loads and executes the template. The template combines the output from various
+components and active modules and deliver it as a single page on browser.
+
+Apart from this, Joomla splits the traditional MVC view into view and layout. The view pulls
+the data from the model and then sends the data to layout which can then formats the data and present it to
+the user.The split mechanism allows the template to be overridden in the template. These overridden layouts
+are bundled with the template and give complete control to designer over all the output and any installed
+third party extensions.
+
+
+### What makes up Joomla?
+
+*  Core – The core of Joomla consists of php files which provides platform functionality required to
+make general work. There are also some configuration files and library files for e.g. Some of the files
+may call Javascript library etc. And lastly, there is a database which contains vital information about
+configuration files in Joomla and also the content which you put into Joomla.
+
+*  Extensions – There are five types of extensions for Joomla viz.
+
+  *  Components – Components are the largest and most complex extensions of them all, they
+sometime referred to as mini applications. Mostly, they have 2 parts; a site part and an administrator
+part. Each time a Joomla page is loaded, one component is called to render the main page body.
+
+  *  Modules – These are light weight and flexible extensions used for page rendering. These are
+commonly called as “boxes” as these are arranged around a component
+
+  *  Plugins – More advanced extensions and are actually event handlers. In any execution scenario,
+whether it is core, a module or a component, an event is triggered. When this happens, the plugins
+registered with the application are executed. For example, a plugin can be used to filter out a bad
+word.
+
+  *  Templates – Templates are basically how your Joomla website looks. It is in essence the design of
+your Joomla powered website. It can be used to change the look and feel of your website.
+Components and modules are generally shown under the templates. Templates provide maximum
+flexibility in regards to how you style your website.
+
+  * Languages – It is most basic extension. It can be packaged either as a core package or an
+extension package. These files contains key/value pairs, these pairs provide the translation of static
+text strings within the Joomla Source code. Language packs also include an XML meta file which describes the language
+
+### joomla project structure
+
+<p>A typical template for Joomla! will include the following directories:</p>
+<ul>
+<li>css - contains all the .css files</li>
+<li>html - contains template override files for core output and module chrome</li>
+<li>images - contains all images used by the template</li>
+<li>language - contains additional language files used by the template</li>
+</ul>
+<p>Depending on the complexity and design of the template is may also contain:</p>
+<ul>
+<li>javascript - contains supporting JavaScript used by the template for added functionality</li>
+</ul>
+<h4><span class="mw-headline" id="Example_structure_with_files">Example structure with files</span></h4>
+<p>Typical path of a template is <code>&lt;root&gt;/public_html/domain-name/template/&lt;name of your template&gt;</code> which will contain the following directories and files based on your template.</p>
+<pre>
+/css
+/html
+/images
+/javascript
+/language
+component.php
+error.php
+favicon.ico
+index.php
+templateDetails.xml
+template_preview.png
+template_thumbnail.png 
+</pre>
+
+*************************
+
+## Webservices
 
 
 *****************
