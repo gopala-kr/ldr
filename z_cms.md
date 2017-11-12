@@ -1,11 +1,10 @@
 
-## content management systems
+## content management systems & web services
 
 * Wordpress
 * Drupal
 * joomla
-
-## Webservices and API's
+* Webservices
 
 In layman words, content Management Systems, or CMSs, are platforms that provide graphical interfaces for website management. This means that images, video, text, and even many elements of a website’s layout can be edited by users without the need for any coding or programming.
 
@@ -55,6 +54,50 @@ Broadly speaking, content management describes any system that allows people to 
 
 
 > Each of the modern CMSs we are discussing offer WYSIWYG editing to some degree, though WordPress offers the easiest customizations for those who shy away from coding.
+
+
+## content management framework
+
+<p>A <b>content management framework</b> (<b>CMF</b>) is a system that facilitates the use of reusable components or customized software for managing Web content. It shares aspects of a <a href="https://en.wikipedia.org/wiki/Web_application_framework" class="mw-redirect" title="Web application framework">Web application framework</a> and a <a href="https://en.wikipedia.org/wiki/Content_management_system" title="Content management system">content management system</a> (CMS).</p>
+<p>Below is a list of notable systems that claim to be CMFs.</p>
+<table class="wikitable sortable">
+<tr style="background:#EFEFEF">
+<th>Name</th>
+<th>Technologies</th>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Apache_Jackrabbit" title="Apache Jackrabbit">Apache Jackrabbit</a></td>
+<td>Java</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/AxKit" title="AxKit">AxKit</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Perl" title="Perl">Perl</a></td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.orghttps://en.wikipedia.org/wiki/GrandCentral" class="mw-redirect" title="GrandCentral">Grand Central</a></td>
+<td><a href="https://en.wikipedia.org/wiki/MySQL" title="MySQL">MySQL</a> and PHP&#160;5</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Jakarta_Slide" title="Jakarta Slide">Jakarta Slide</a></td>
+<td>Java</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Open_Semantic_Framework" title="Open Semantic Framework">Open Semantic Framework</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Drupal" title="Drupal">Drupal</a>, <a href="https://en.wikipedia.org/wiki/Web_Ontology_Language" title="Web Ontology Language">OWL</a>, <a href="https://en.wikipedia.org/wiki/PHP" title="PHP">PHP</a>, and <a href="https://en.wikipedia.org/wiki/Resource_Description_Framework" title="Resource Description Framework">RDF</a></td>
+</tr>
+<tr>
+<td><a href="/w/index.php?title=Backpack_for_Laravel&amp;action=edit&amp;redlink=1" class="new" title="Backpack for Laravel (page does not exist)">Backpack for Laravel</a></td>
+<td>MySQL, PHP 5.6+, PostgreSQL</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/RadPHP" title="RadPHP">RadPHP</a></td>
+<td>MySQL, PHP 5.6+, PostgreSQL, and etc.</td>
+</tr>
+<tr>
+<td><a href="/w/index.php?title=Strapi&amp;action=edit&amp;redlink=1" class="new" title="Strapi (page does not exist)">Strapi</a></td>
+<td>Node.js, MongoDB, MySQL, PostgreSQL, and etc.</td>
+</tr>
+</table>
 
 <p><span style="font-size: 18px;"><b>WordPress</b></span></p>
 <p><i>Recommended for: small and medium-sized companies, organizations, dedicated blogs</i></p>
