@@ -231,6 +231,7 @@ Lets explore most used CMS's  wordpress, drupal, joomla in detail..
 </ul>
 <p></div></div></p>
 
+<p>WordPress is undoubtedly the best content management system for someone who wants to set up and manage a website without having to type a single line of code. <a href="https://wordpress.com/" target="_blank">WordPress.com</a> lets anyone set up a WordPress-powered site in minutes, even offering free hosting with a URL in the format of <i>yoursitename</i>.wordpress.com. Note: wordpress.com is not to be confused with wordpress.org, which hosts downloads of WordPress software, themes, and plugins for those who wish to set up a WordPress installation on their own server or web host.</p>
 
 From it’s humble beginnings as a simple blogging platform in 2003, WordPress has revolutionised the way websites are designed & built.
 
@@ -241,7 +242,10 @@ Statistics show that WordPress is the most popular CMS in the online world today
 
 ***CMS usage and market shares of top 1 million sites based on stats published by BuildWith ([source](https://trends.builtwith.com/cms))***
 
-> a brief history of wordpress
+<p><i>Recommended for: small and medium-sized companies, organizations, dedicated blogs</i></p>
+<p><i>Difficulty level: no programming experience required! (but plenty of potential for experts as well!)</i></p>
+
+> ### a brief history of wordpress
 
 > On 27th May 2003, creators Matt Mullenweg and Mike Little launched WordPress as a development of its predecessor b2/cafelog.
 B2/cafelog was a blogging platform which was written by Michel Valdrighi in PHP, for use with MySQL.
@@ -263,33 +267,6 @@ Version 3.3, launched in 2011 made WordPress easier to use and more appealing to
 > As of February 2017, WordPress is used by 58.7% of all the websites whose content management system is known. This is 27.5% of the top 10 million websites
 
 *****************************
-
-<p><i>Recommended for: small and medium-sized companies, organizations, dedicated blogs</i></p>
-<p><i>Difficulty level: no programming experience required! (but plenty of potential for experts as well!)</i></p>
-<p><strong><strong> </strong></strong></p>
-<p>WordPress is undoubtedly the best content management system for someone who wants to set up and manage a website without having to type a single line of code. <a href="https://wordpress.com/" target="_blank">WordPress.com</a> lets anyone set up a WordPress-powered site in minutes, even offering free hosting with a URL in the format of <i>yoursitename</i>.wordpress.com. Note: wordpress.com is not to be confused with wordpress.org, which hosts downloads of WordPress software, themes, and plugins for those who wish to set up a WordPress installation on their own server or web host.</p>
-<p><strong><strong> </strong></strong></p>
-<p>Though it is the easiest to get started with, WordPress does allow for impressive customization and offers a plethora of plugins. Even advanced programmers, web designers, and nerds can find a lot to love about WordPress. Their landing-page boast that “Wordpress powers 24% of the internet” is indicative of the flexibility that this platform provides. WordPress is great not only for personal blogs (for which it may be most famous), but also for commercial websites, for education, for online portfolios, and even in some cases for ecommerce.</p>
-<p><strong><strong> </strong></strong></p>
-<p>One of WordPress’s greatest strengths is its wide selection of themes and plugins. Many themes are free &#8211; Creative Bloq has a nice list of “<a href="http://www.creativebloq.com/web-design/free-wordpress-themes-712429" target="_blank">The 40 best free WordPress themes</a>” published just a few weeks back. Pricing for others varies, but is typically within the range of $25 to $100. With so many themes available you are almost certain to find one that either meets your needs already or that can be easily tailored to your liking with minimal effort.</p>
-<p><strong><strong> </strong></strong></p>
-<p><b>The biggest advantages of WordPress include:</b></p>
-<ul>
-<li>an excellent selection of themes and plugins;</li>
-<li>a wide user base and large online support community;</li>
-<li>the ability to set up most or all of a website without any coding experience;</li>
-<li>a well-designed administration panel;</li>
-<li>and regular updates.</li>
-</ul>
-<p><strong><strong> </strong></strong></p>
-<p><b>Some of the disadvantages of WordPress are:</b></p>
-<ul>
-<li>the necessity of multiple plugins for many use cases;</li>
-<li>security concerns;</li>
-<li>that WordPress is not ideal for ecommerce, though ecommerce extensions do exist;</li>
-<li>and that WordPress is less flexible than Drupal or Joomla.</li>
-</ul>
-<p><strong><strong> </strong></strong></p>
 
 
 ## Technical architecture of WordPress
@@ -555,9 +532,123 @@ Version 3.3, launched in 2011 made WordPress easier to use and more appealing to
 ************************
 ## Drupal
 
+<div class="row"><div class="col-md-6"><p><strong>Official links</strong></p>
+<ul>
+<li><a href="https://www.drupal.org/">Drupal.org</a></li>
+<li><a href="https://www.drupal.org/planet">Drupal news</a></li>
+<li><a href="https://www.drupal.org/drupal-services">Drupal services</a></li>
+</ul>
+<p></div><div class="col-md-6">
+<p><strong>Popular Websites Powered by Drupal:</strong></p>
+<ul>
+<li><a href="https://www.tesla.com/">Tesla</a></li>
+<li><a href="http://www.warnerbrosrecords.com/">Warner Bros. Records</a></li>
+<li><a href="http://www.ox.ac.uk/">University of Oxford</a></li>
+</ul>
+<p></div></div></p>
+<p>Experienced web developers attest that Drupal is the most powerful CMS. However, it is also the most difficult to use. Due to its flexibility, Drupal is the second most-used CMS in the world, but it is not a favorite amongst beginners.</p>
+<h3>Pro #1: Most Advanced CMS</h3>
+<p>A key difference between Drupal and other content management systems is the installation procedure. With Drupal, you are already asked to configure your site during installation. Just follow the on-screen instructions, and you’ll be fine.</p>
+
 <p><span style="font-size: 18px;"><b>Drupal</b></span></p>
 <p><i>Recommended for: business, government, education, civic engagement platforms</i></p>
 <p><i>Difficulty level: some programming experience recommended</i></p>
+
+> ### a brief history of drupal
+
+> Originally written by Dries Buytaert as a message board, Drupal became an open source project in 2001. The name Drupal represents an English rendering of the Dutch word druppel, which means "drop" (as in a water droplet). The name came from the now-defunct Drop.org Web site, whose code slowly evolved into Drupal. Buytaert wanted to call the site "dorp" (Dutch for "village") for its community aspects, but mistyped it when checking the domain name and thought the error sounded better.
+
+> Interest in Drupal got a significant boost in 2003 when it helped build "DeanSpace" for Howard Dean, one of the candidates in the U.S. Democratic Party's primary campaign for the 2004 U.S. presidential election. DeanSpace used open-source sharing of Drupal to support a decentralized network of approximately 50 disparate, unofficial pro-Dean websites that allowed users to communicate directly with one another as well as with the campaign. After Dean ended his campaign, members of his Web team continued to pursue their interest in developing a Web platform that could aid political activism by launching CivicSpace Labs in July 2004, "...the first company with full-time employees that was developing and distributing Drupal technology." Other companies began to also specialize in Drupal development. By 2013 the Drupal Web site listed hundreds of vendors that offered Drupal-related services.
+
+> As of 2014 Drupal is developed by a community, and its popularity is growing rapidly. From July 2007 to June 2008 the Drupal.org site provided more than 1.4 million downloads of Drupal software, an increase of approximately 125% from the previous year.
+
+> As of January 2017 more than 1,180,000 sites use Drupal. These include hundreds of well-known organizations, including corporations, media and publishing companies, governments, non-profits, schools, and individuals. Drupal has won several Packt Open Source CMS Awards and won the Webware 100 [clarification needed] three times in a row.
+
+> On March 5, 2009 Buytaert announced a code freeze for Drupal 7 for September 1, 2009. Drupal 7 was released on January 5, 2011, with release parties in several countries. After that, maintenance on Drupal 5 stopped, with only Drupal 7 and Drupal 6 maintained. Drupal 7 series maintenance updates are released regularly.
+
+> On December 1, 2012, Drupal 8 started its feature completion. About three years later, on October 7, 2015 Drupal 8 first release candidate (rc1) was announced. Drupal 8 includes new features and improvements for both users and developers, including: a revamped user interface; WYSIWYG and in-place editing; improved mobile support; added and improved key contributed modules including Views, Date, and Entity Reference; introduced a new object-oriented backend leveraging Symfony components; revamped configuration management; and improved multilingual support. Drupal 8 rc1 is the collective work of over 3,200 core contributors.
+
+> Drupal 8.0.0 was released on November 19, 2015. A subsequent upgrade to it is also available in the form of Drupal 8.1.0 that brings numerous improvements, including CKEditor WYSIWYG enhancements, added APIs, an improved help page, and two new experimental modules. Experimental modules are meant for testing purposes, but are not yet fully supported.
+
+
+![drupal](https://en.wikipedia.org/wiki/Drupal#/media/File:Drupal_release_timeline.png)
+
+<table class="wikitable" border="1" style="float:right; margin-left:9px; background: AliceBlue;">
+<caption>Latest major releases</caption>
+<tr>
+<th>Version</th>
+<th>Release date</th>
+</tr>
+<tr>
+<td>8.4.2</td>
+<td>November 3, 2017<sup id="cite_ref-Drupal-8-Releases_2-2" class="reference"><a href="#cite_note-Drupal-8-Releases-2">[2]</a></sup></td>
+</tr>
+<tr>
+<td>8.2.8</td>
+<td>April 19, 2017<sup id="cite_ref-Drupal-8-Releases_2-3" class="reference"><a href="#cite_note-Drupal-8-Releases-2">[2]</a></sup></td>
+</tr>
+<tr>
+<td>7.56</td>
+<td>June 21, 2017<sup id="cite_ref-Drupal-7-Releases_22-0" class="reference"><a href="#cite_note-Drupal-7-Releases-22">[22]</a></sup></td>
+</tr>
+<tr>
+<td>6.38</td>
+<td>February 24, 2016<sup id="cite_ref-Drupal-6-Releases_23-0" class="reference"><a href="#cite_note-Drupal-6-Releases-23">[23]</a></sup></td>
+</tr>
+<tr>
+<td>5.23</td>
+<td>August 11, 2010<sup id="cite_ref-Drupal-5-Releases_24-0" class="reference"><a href="#cite_note-Drupal-5-Releases-24">[24]</a></sup></td>
+</tr>
+</table>
+
+**********************
+
+## Drupal technical architecture
+
+The architecture of Drupal contains the following layers
+
+![Drupal technical architecture](https://www.tutorialspoint.com/drupal/images/drupal-architecture/drupal-architecture.jpg)
+
+* Users − These are the users on the Drupal community. The user sends a request to a server using Drupal CMS and web browsers, search engines, etc. acts like clients.
+
+* Administrator − Administrator can provide access permission to authorized users and will be able to block unauthorized access. Administrative account will be having all privileges for managing content and administering the site.
+
+* Drupal − Drupal is a free and open source Content Management System (CMS) that allows organizing, managing and publishing your content and is built on PHP based environments. Drupal CMS is very flexible and powerful and can be used for building large, complex sites. It is very easy to interact with other sites and technologies using Drupal CMS. Further, you will be able to handle complex forms and workflows.
+
+* PHP − Drupal uses PHP in order to work with an application which is created by a user. It takes the help of web server to fetch data from the database. PHP memory requirements depend on the modules which are used in your site. Drupal 6 requires at least 16MB, Drupal 7 requires 32MB and Drupal 8 requires 64MB.
+
+* Web Server − Web server is a server where the user interacts and processes requests via HTTP (Hyper Text Transfer Protocol) and serves files that form web pages to web users. The communication between the user and the server takes place using HTTP. You can use different types of web servers such as Apache, IIS, Nginx, Lighttpd, etc.
+
+* Database − Database stores the user information, content and other required data of the site. It is used to store the administrative information to manage the Drupal site. Drupal uses the database to extract the data and enables to store, modify and update the database.
+
+> **more detailed architecture of [drupal 7](https://www.ent.iastate.edu/it/Intro_to_Drupal_7_Architecture.pdf)**
+
+
+<p>The following detail the directories provided with every Drupal 8 installation.</p>
+<ul><li><strong>/core</strong> - All files required by Drupal's out-of-the-box usage (core), except for files that have an explicit reason to be included in the base (/) directory.</li>
+<li><strong>/libraries</strong> - All third party external libraries leveraged by Drupal, such as a WYSIWYG editor. This folder is not included by core, but used with many contributed modules.</li>
+<li><strong>/modules</strong> - The directory into which all custom (created by you) and contributed (created by community) modules go.
+<ul><li>Splitting this up into the sub-directories <strong>contrib</strong> and <strong>custom</strong> can make it easier to keep track of the modules. You can create subfolders for organization to match your development, storage, usage standards.</li>
+</ul></li>
+<li><strong>/profile</strong> - All contributed and custom installation profiles.</li>
+<li><strong>/themes</strong> - All contributed and custom themes and subthemes. Please note that subthemes do require the base theme to be installed here as well.</li>
+<li><strong>sites/[domain OR default]/{modules,themes}</strong> - Site specific modules and themes can be moved into these directories to avoid them showing up on every site. Identical to Drupal 7.</li>
+<li><strong>sites/[domain OR default]/files</strong> - The storage of site-specific files. This includes files uploaded by users (such as images) and site configuration (<strong>active</strong> and <strong>staged</strong>). </li>
+<li><strong>/vendor</strong> - Backend external libraries that Drupal core depends on (examples being Symfony, Twig).</li>
+</ul><h2>Core Folder Directories</h2>
+<p>In addition, the folder structure in the /core directory has changed as well.</p>
+<ul><li><strong>/core/assets</strong> - Various external libraries used by core (includes jQuery, underscore, modernizer, etc.).</li>
+<li><strong>/core/misc</strong> - Frontend code that Drupal core depends on.</li>
+<li><strong>/core/includes</strong> - Base-level functionality that Drupal uses through other /core folders.</li>
+<li><strong>/core/lib</strong> - Drupal core classes.</li>
+<li><strong>/core/modules</strong> - Drupal's core modules.</li>
+<li><strong>/core/profiles</strong> - Drupal's core installation profiles. These are <em>Minimal</em>, <em>Standard</em>, <em>Testing</em> and <em>Testing</em> multilingual installation profiles.</li>
+<li><strong>/core/scripts</strong> - Various command line interface (CLI) scripts, mostly used by developers.</li>
+<li><strong>/core/tests</strong> - Drupal core tests.</li>
+<li><strong>/core/themes</strong> - Drupal core themes.</li>
+</ul></div></div></div>  </div>
+
+
 <p><strong><strong> </strong></strong></p>
 <p>Like WordPress, Drupal evolved from a project by a single individual. According to <a href="https://www.drupal.org/about/history" target="_blank">Drupal’s official website</a>:</p>
 <p>“In 2000, permanent Internet connections were at a premium for University of Antwerp students, so Dries Buytaert and Hans Snijder set up a wireless bridge between their student dorms to share Hans&#8217;s ADSL modem connection among eight students. While this was unusual for the time, the friends felt something was missing: there was no means to discuss or share simple things.</p>
@@ -586,6 +677,13 @@ Version 3.3, launched in 2011 made WordPress easier to use and more appealing to
 <li>and may have a steeper learning curve than WordPress.</li>
 </ul>
 <p><strong><strong> </strong></strong></p>
+
+
+*************************
+
+## Joomla
+
+
 <p><span style="font-size: 18px;"><b>Joomla</b></span></p>
 <p><i>Recommended for: companies, institutions, online communities, complex websites </i></p>
 <p><i>Difficulty level: intermediate-advanced programming/ development experience recommended</i></p>
