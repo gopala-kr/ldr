@@ -1,39 +1,55 @@
-<p><b>WordPress, Drupal, Joomla: The CMS Trinity</b></p>
-<p><strong><strong> </strong></strong></p>
-<p>Content Management Systems, or CMSs, are platforms that provide graphical interfaces for website management. This means that images, video, text, and even many elements of a website’s layout can be edited by users without the need for any coding or programming. Between WordPress, Drupal, and Joomla, beginners and tech experts alike can find the tools they need to quickly get basic or even very complex websites up and running.</p>
-<p><strong><strong> </strong></strong></p>
-<p>We already considered the advantages and disadvantages of seven different CMSs in <a href="https://webinerds.com/seven-cmss-consider-designing-website/" target="_blank">our content management system comparison</a> from June. This article will go into more detail about the three most popular content management systems as of 2015: WordPress, Drupal, and Joomla.</p>
-<p><strong><strong> </strong></strong></p>
+
+## contenet management systems:
+
+In layman words, content Management Systems, or CMSs, are platforms that provide graphical interfaces for website management. This means that images, video, text, and even many elements of a website’s layout can be edited by users without the need for any coding or programming.
+
+Broadly speaking, content management describes any system that allows people to more easily change and update content, especially on their websites. When the content (number of pages, images, etc.), and/or the number of contributors, grows large, a content management system (CMS) helps collect and create the content in ways that makes it easy to reuse. 
+
+* A CMS allows a team of contributors to work on the same pages without conflicting (check-in/check-out and workflow control). It can schedule pages to appear and disappear at designated times, and archive the old pages with versioning and revision control. 
+
+* Reuse of content means an item can be edited in one place and be published instantly in many places. But it also means that the different versions of the content can be formatted properly for multiple delivery channels, including the web (HTML and PDF), print, wireless handheld devices, and cell phones. 
+
+* Smaller CMSs are for single web authors working one or a few websites. Enterprise CMSs may control hundreds of thousands of pages on hundreds of websites with many dozens of contributors. In between, there are Team CMSs for corporate departments and smaller organizations. News portal software (slash-alikes and the *nuke family) are a form of community CMS, as are weblog tools (usually for personal publishing) and Wikis (usually for teams of contributors). 
+
+* Some CMSs edit whole web pages, others edit a content template for a page and individual content elements. Both kinds may have form-based text editing, source editing of the markup language, or WYSIWYG (what-you-see-is-what-you-get) visual editing. Smaller CMSs tend to be page-oriented and store HTML. Enterprise CMSs use content templates and usually store content elements as information chunks in XML. Some systems tag and store the information with RDF (Resource Description Framework) metadata for the Semantic Web.
+
+
+
 <p>First, let’s take a look at the history of content management systems to understand where they come from and what challenges they were designed to solve.</p>
-<p><strong><strong> </strong></strong></p>
-<p><b>A Brief History of Content Management Systems</b></p>
-<p><strong><strong> </strong></strong></p>
-<p><i>A Brief Timeline of Content Management Systems and the World Wide Web</i></p>
-<p><img class="alignnone wp-image-1597 size-full" src="https://webinerds.com/app/uploads/2015/07/Comp-CMS-01.png" alt="Comp-CMS-01" width="770" height="1516" srcset="https://webinerds.com/app/uploads/2015/07/Comp-CMS-01.png 770w, https://webinerds.com/app/uploads/2015/07/Comp-CMS-01-152x300.png 152w, https://webinerds.com/app/uploads/2015/07/Comp-CMS-01-520x1024.png 520w, https://webinerds.com/app/uploads/2015/07/Comp-CMS-01-507x999.png 507w, https://webinerds.com/app/uploads/2015/07/Comp-CMS-01-370x728.png 370w, https://webinerds.com/app/uploads/2015/07/Comp-CMS-01-270x532.png 270w, https://webinerds.com/app/uploads/2015/07/Comp-CMS-01-152x300@2x.png 304w, https://webinerds.com/app/uploads/2015/07/Comp-CMS-01-370x728@2x.png 740w, https://webinerds.com/app/uploads/2015/07/Comp-CMS-01-270x532@2x.png 540w" sizes="(max-width: 770px) 100vw, 770px" /></p>
-<p>The first content management systems that were developed in the second half of the 1990’s simplified web development but still required a fairly high level of programming expertise and elbow grease. In the 90’s most websites were still being coded by hand &#8211; from the ground up, so to speak.<strong><strong><br />
-</strong></strong></p>
-<p><strong><strong> </strong></strong></p>
-<p>It became apparent during the early days of the web that website development could benefit from ‘platforms’ or ‘frameworks’ &#8211; in other words, development environments that would give sites a jump-start so that website coders had a foundation to work from. Just as modern PHP application frameworks help web developers not to “reinvent the wheel” by providing components to implement basic services, CMSs allowed faster development of message boards and basic HTML websites and obviated the need to develop websites entirely from scratch.</p>
-<p><strong><strong> </strong></strong></p>
-<p>Some of the early CMSs such as b2/cafelog and Mambo (mentioned in the timeline above) became the basis for contemporary &#8211; and far more advanced &#8211; content management systems. Many others never survived their infancy.</p>
-<p><strong><strong> </strong></strong></p>
-<p>While early CMS solutions assumed a fair knowledge of HTML coding and programming, CMSs turned over time (to varying degrees) towards visual-based web development. We’ll explore the origins of so-called “WYSIWYG” editors in the next section.</p>
-<p><strong><strong> </strong></strong></p>
-<p><b>WYSIWYG Website Creation</b></p>
-<p><strong><strong> </strong></strong></p>
-<p>WYSIWYG, or “What You See Is What You Get” website building tools emerged around the World Wide Web’s sixth birthday, beginning to appear in 1996. “WYSIWYG” was originally used in reference to text editors that could display a ‘page’ on-screen that mimicked the actual paper copy that would come out of a printer. John Markoff of the <a href="http://bits.blogs.nytimes.com/2007/10/18/the-real-history-of-wysiwyg/?_r=0" target="_blank">NY Times (October 2007)</a> suggests:</p>
-<p>“The first true WYSIWYG editor was a program written for the Alto [computer] called Bravo, created in 1974 by Charles Simonyi and Butler Lampson, which would ultimately lead to the development of Microsoft Word some years later.”</p>
-<p>Office productivity software offered WYSIWYG document creation as far back as the mid-70’s. WYSIWYG website creation emerged on the scene between 1996 and 1997, though it is arguable that capability of WYSIWYG website editors was seriously lacking even into the early 2000’s. Sites like Wix.com, launched in 2006 and offering cloud-based drag-and-drop website building, emerged a full decade after the first generation of WYSIWYG web development software.</p>
-<p><strong><strong> </strong></strong></p>
-<p>Examples of early WYSIWYG web development tools are:</p>
-<ul>
-<li><a href="http://www.w3.org/Amaya/" target="_blank">Amaya</a> &#8211; W3C’s project that was begun in 1996</li>
-<li>Dreamweaver &#8211; launched by Macromedia in 1997 and bought by Adobe in 2007</li>
-<li>GoLive &#8211; started by GoNet Communications in 1996 and acquired by Adobe in 1999</li>
-</ul>
-<p><strong><strong> </strong></strong></p>
-<p>Each of the modern CMSs we are discussing offer WYSIWYG editing to some degree, though WordPress offers the easiest customizations for those who shy away from coding.</p>
-<p><strong><strong> </strong></strong></p>
+
+> ## a brief history of content management systems and WWW
+
+<br>
+
+![a brief history of content management systems and WWW](https://webinerds.com/app/uploads/2015/07/Comp-CMS-01.png)
+
+
+
+> The first content management systems that were developed in the second half of the 1990’s simplified web development but still required a fairly high level of programming expertise and elbow grease. In the 90’s most websites were still being coded by hand &#8211; from the ground up, so to speak.
+
+
+> It became apparent during the early days of the web that website development could benefit from ‘platforms’ or ‘frameworks’ &#8211; in other words, development environments that would give sites a jump-start so that website coders had a foundation to work from. Just as modern PHP application frameworks help web developers not to “reinvent the wheel” by providing components to implement basic services, CMSs allowed faster development of message boards and basic HTML websites and obviated the need to develop websites entirely from scratch.
+
+> Some of the early CMSs such as b2/cafelog and Mambo (mentioned in the timeline above) became the basis for contemporary &#8211; and far more advanced &#8211; content management systems. Many others never survived their infancy.
+
+> While early CMS solutions assumed a fair knowledge of HTML coding and programming, CMSs turned over time (to varying degrees) towards visual-based web development. We’ll explore the origins of so-called “WYSIWYG” editors in the next section.
+
+
+## WYSIWYG Website Creation
+
+> WYSIWYG, or “What You See Is What You Get” website building tools emerged around the World Wide Web’s sixth birthday, beginning to appear in 1996. “WYSIWYG” was originally used in reference to text editors that could display a ‘page’ on-screen that mimicked the actual paper copy that would come out of a printer. John Markoff of the <a href="http://bits.blogs.nytimes.com/2007/10/18/the-real-history-of-wysiwyg/?_r=0" target="_blank">NY Times (October 2007)</a> suggests: “The first true WYSIWYG editor was a program written for the Alto [computer] called Bravo, created in 1974 by Charles Simonyi and Butler Lampson, which would ultimately lead to the development of Microsoft Word some years later.” Office productivity software offered WYSIWYG document creation as far back as the mid-70’s. WYSIWYG website creation emerged on the scene between 1996 and 1997, though it is arguable that capability of WYSIWYG website editors was seriously lacking even into the early 2000’s. Sites like Wix.com, launched in 2006 and offering cloud-based drag-and-drop website building, emerged a full decade after the first generation of WYSIWYG web development software.
+
+
+> Examples of early WYSIWYG web development tools are:
+
+
+> * <a href="http://www.w3.org/Amaya/" target="_blank">Amaya</a> &#8211; W3C’s project that was begun in 1996
+> * Dreamweaver &#8211; launched by Macromedia in 1997 and bought by Adobe in 2007
+> * GoLive &#8211; started by GoNet Communications in 1996 and acquired by Adobe in 1999
+
+
+> Each of the modern CMSs we are discussing offer WYSIWYG editing to some degree, though WordPress offers the easiest customizations for those who shy away from coding.
+
 <p><span style="font-size: 18px;"><b>WordPress</b></span></p>
 <p><i>Recommended for: small and medium-sized companies, organizations, dedicated blogs</i></p>
 <p><i>Difficulty level: no programming experience required! (but plenty of potential for experts as well!)</i></p>
