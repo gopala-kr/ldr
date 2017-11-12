@@ -153,15 +153,95 @@ Cons
 **List of all [available CMS's](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/05-opensource-cms/list-of-cms.md)**
 
 
-Lets explore wordpress, drupal, joomla in detail..
+Lets explore most used CMS's  wordpress, drupal, joomla in detail..
+
+<h3>A Quick Comparisons</h3>
+<p>Before everything else, here is a quick overview of the three platforms (based on <a href="http://www.internetlivestats.com/total-number-of-websites/">data by Internet Lives Stats</a>):</p>
+<table class="default-lines" style="font-size: 0.85em;" summary="How do WP, Joomla, and Drupal stack up" width="100%">
+<thead>
+<tr>
+<th scope="col" width="15%"></th>
+<th style="text-align: center;" scope="col" align="center">WordPress</th>
+<th style="text-align: center;" scope="col" align="center">Joomla</th>
+<th style="text-align: center;" scope="col" align="center">Drupal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="15%">Cost</td>
+<td align="center">Free</td>
+<td align="center">Free</td>
+<td align="center">Free</td>
+</tr>
+<tr>
+<td width="15%">Usage</td>
+<td align="center">311,682 million</td>
+<td align="center">26,474 million</td>
+<td align="center">31,216 million</td>
+</tr>
+<tr>
+<td width="15%">Free Themes</td>
+<td align="center">4,000+</td>
+<td align="center">1,000+</td>
+<td align="center">2,000+</td>
+</tr>
+<tr>
+<td width="15%">Free Plugins</td>
+<td align="center">45,000+</td>
+<td align="center">7,000+</td>
+<td align="center">34,000+</td>
+</tr>
+<tr>
+<td width="15%">Pros</td>
+<td align="center">Customizable, easy to use, tons of learning resources, excellent community &amp; support</td>
+<td align="center">Easy to learn, great help portal, can be used for social networks, updates integrate seamlessly, more built-in options</td>
+<td align="center">More technically advanced, websites generally perform better, enterprise-level security</td>
+</tr>
+<tr>
+<td width="15%">Cons</td>
+<td align="center">Needs code for major visual customizations, updates may cause issues with plugins</td>
+<td align="center">Modules are hard to maintain, middle-ground CMS (not as easy as WordPress, not as advanced as Drupal)</td>
+<td align="center">Users need basic knowledge of HTML, PHP, and other web development languages</td>
+</tr>
+</tbody>
+</table>
+<h3>WordPress vs Joomla</h3>
+<p>WordPress is considered to be the most suitable platform for beginners. Joomla, however, isn’t too far behind. It also has a smooth learning curve, a user-friendly interface, and modules that can make adding functionalities a breeze.</p>
+<p>Whether you’re a new blogger or an experienced web designer, <em>both<b> </b></em>systems are great options for you.</p>
+<h3>WordPress vs Drupal</h3>
+<p>Without a doubt, WordPress is a lot easier to learn than Drupal. However, it is not nearly as powerful or as secure as Drupal. You don’t have to be an expert in coding to work with Drupal, but you still need a bit of experience to build something functional.</p>
+<p>If you are new to blogging, then <em>WordPress<b> </b></em>is the better choice for you. But if you’re experienced with HTML, then <em>Drupal</em> will give you better scalability.</p>
 
 *****************
 
 ## wordpress
 
+<div class="row"><div class="col-md-6"><p><strong>Official links </strong></p>
+<ul>
+<li><a href="http://www.wordpress.org/" target="_blank" rel="noopener noreferrer">WordPress.org</a></li>
+<li><a href="https://wordpress.org/news/" target="_blank" rel="noopener noreferrer">WordPress news</a></li>
+<li><a href="https://wordpress.org/plugins/" target="_blank" rel="noopener noreferrer">WordPress plugins directory</a></li>
+</ul>
+<p></div><div class="col-md-6">
+<p><strong>Sites powered by WordPress</strong></p>
+<ul>
+<li><a href="http://www.forbes.com/" target="_blank" rel="noopener noreferrer">Forbes</a></li>
+<li><a href="https://techcrunch.com/" target="_blank" rel="noopener noreferrer">Tech Crunch</a></li>
+<li><a href="http://www.sony.com/" target="_blank" rel="noopener noreferrer">Sony</a></li>
+</ul>
+<p></div></div></p>
+
+
 From it’s humble beginnings as a simple blogging platform in 2003, WordPress has revolutionised the way websites are designed & built.
 
-WordPress now powers over 60 million websites worldwide.
+Statistics show that WordPress is the most popular CMS in the online world today. It powers 27.8% of all sites on the web; with about 50,000 new sites being created daily. However, just because it is the most popular CMS, doesn’t mean it’s the only option.
+
+
+![wordpress](https://cdn.webhostingsecretrevealed.net/wp-content/uploads/2017/04/wp-usage-statistics.jpg)
+
+***CMS usage and market shares of top 1 million sites based on stats published by BuildWith ([source](https://trends.builtwith.com/cms))***
+
+> a brief history of wordpress
 
 > On 27th May 2003, creators Matt Mullenweg and Mike Little launched WordPress as a development of its predecessor b2/cafelog.
 B2/cafelog was a blogging platform which was written by Michel Valdrighi in PHP, for use with MySQL.
@@ -182,6 +262,7 @@ Version 3.3, launched in 2011 made WordPress easier to use and more appealing to
 
 > As of February 2017, WordPress is used by 58.7% of all the websites whose content management system is known. This is 27.5% of the top 10 million websites
 
+*****************************
 
 <p><i>Recommended for: small and medium-sized companies, organizations, dedicated blogs</i></p>
 <p><i>Difficulty level: no programming experience required! (but plenty of potential for experts as well!)</i></p>
@@ -272,7 +353,7 @@ Version 3.3, launched in 2011 made WordPress easier to use and more appealing to
 
 *************
 
-### technical details
+### Technical Details
 
 <ol>
 <li><p><strong>Server Programming Language</strong></p>
@@ -472,6 +553,7 @@ Version 3.3, launched in 2011 made WordPress easier to use and more appealing to
 </ol>
 
 ************************
+## Drupal
 
 <p><span style="font-size: 18px;"><b>Drupal</b></span></p>
 <p><i>Recommended for: business, government, education, civic engagement platforms</i></p>
