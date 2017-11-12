@@ -9,7 +9,21 @@
 
 ***********************************
 
+<br>
+
 ![A rotating globe in GIF](https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif)
+
+<br>
+
+![ineternet](https://upload.wikimedia.org/wikipedia/commons/3/3f/Internet_map_1024_-_transparent%2C_inverted.png)
+
+<br>
+
+![internet stack](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Internet_Key_Layers.png/220px-Internet_Key_Layers.png)
+
+<br>
+
+
 
 ************************************
 
@@ -74,21 +88,6 @@
 </td>
 </tr>
 <tr>
-<th style="padding:0.1em">By country</th>
-</tr>
-<tr>
-<td style="padding:0 0.1em 0.4em">
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/History_of_computer_hardware_in_Bulgaria" title="History of computer hardware in Bulgaria">Bulgaria</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_computing_in_Poland" title="History of computing in Poland">Poland</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_computing_in_Romania" title="History of computing in Romania">Romania</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_computer_hardware_in_Soviet_Bloc_countries" title="History of computer hardware in Soviet Bloc countries">Soviet Bloc</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_computing_in_the_Soviet_Union" title="History of computing in the Soviet Union">Soviet Union</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_computer_hardware_in_Yugoslavia" title="History of computer hardware in Yugoslavia">Yugoslavia</a></li>
-</ul>
-</td>
-</tr>
-<tr>
 <th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Timeline_of_computing" title="Timeline of computing">Timeline of computing</a></th>
 </tr>
 <tr>
@@ -106,9 +105,6 @@
 </tr>
 <tr>
 <td style="padding:0.3em 0.4em 0.3em;font-weight:bold">
-<ul>
-<li><img alt="Category" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" title="Category" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" data-file-width="36" data-file-height="31" /> <a href="/wiki/Category:History_of_computing" title="Category:History of computing">Category</a></li>
-</ul>
 </td>
 </tr>
 <tr>
@@ -119,6 +115,101 @@
 </tr>
 </table>
 
+<br>
+
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div id="Timelines_of_computing" style="font-size:114%;margin:0 4em"><a href="https://en.wikipedia.org/wiki/Category:Computing_timelines" title="Category:Computing timelines">Timelines of computing</a></div>
+</th>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Timeline_of_computing" title="Timeline of computing">Computing</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_hardware_before_1950" title="Timeline of computing hardware before 1950">before 1950</a></li>
+<li><a href="https://en.wikipedia.orghttps://en.wikipedia.org/wiki/Timeline_of_computing_1950%E2%80%9379" title="Timeline of computing 1950–79">1950–1979</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_1980%E2%80%9389" title="Timeline of computing 1980–89">1980s</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_1990%E2%80%9399" title="Timeline of computing 1990–99">1990s</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_2000%E2%80%9309" title="Timeline of computing 2000–09">2000s</a></li>
+<li><a class="mw-selflink selflink">2010s</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:1%">Software</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Timeline_of_open-source_software" title="Timeline of open-source software">Open-source software</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_open-source_software#1970s" title="Timeline of open-source software">1970s</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_open-source_software#1980s" title="Timeline of open-source software">1980s</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_open-source_software#1990s" title="Timeline of open-source software">1990s</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_open-source_software#2000s" title="Timeline of open-source software">2000s</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_open-source_software#2010s" title="Timeline of open-source software">2010s</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Timeline_of_programming_languages" title="Timeline of programming languages">Programming languages</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li class="mw-empty-elt"></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Timeline_of_hypertext_technology" title="Timeline of hypertext technology">Hypertext technology</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li class="mw-empty-elt"></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Timeline_of_operating_systems" title="Timeline of operating systems">Operating systems</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_DOS_operating_systems" title="Timeline of DOS operating systems">DOS family</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_Microsoft_Windows" title="Timeline of Microsoft Windows">Windows</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Linux_timeline#Timeline" class="mw-redirect" title="Linux timeline">Linux</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Timeline_of_virtualization_development" title="Timeline of virtualization development">Virtualization development</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li class="mw-empty-elt"></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Timeline_of_computer_viruses_and_worms" title="Timeline of computer viruses and worms">Malware</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li class="mw-empty-elt"></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
 ******************
 
 In layman words, content Management Systems, or CMSs, are platforms that provide graphical interfaces for website management. This means that images, video, text, and even many elements of a website’s layout can be edited by users without the need for any coding or programming.
