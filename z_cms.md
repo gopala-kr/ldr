@@ -11,22 +11,21 @@
 
 <br>
 
-![A rotating globe in GIF](https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif)
-
-<br>
-
 ![ineternet](https://upload.wikimedia.org/wikipedia/commons/3/3f/Internet_map_1024_-_transparent%2C_inverted.png)
 
 <br>
 
-![internet stack](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Internet_Key_Layers.png/220px-Internet_Key_Layers.png)
+![internet stack](https://upload.wikimedia.org/wikipedia/commons/3/39/Internet_Key_Layers.png)
 
 <br>
 
-
-
 ************************************
 
+<br>
+
+![A rotating globe in GIF](https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif)
+
+<br>
 
 <table class="vertical-navbox nowraplinks hlist" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%">
 <tr>
@@ -209,7 +208,10 @@
 </div>
 </td>
 </tr>
+  </th>
 </table>
+  
+  
 ******************
 
 In layman words, content Management Systems, or CMSs, are platforms that provide graphical interfaces for website management. This means that images, video, text, and even many elements of a website’s layout can be edited by users without the need for any coding or programming.
