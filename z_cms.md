@@ -6,6 +6,8 @@
 * joomla
 * Webservices
 
+*************************
+
 In layman words, content Management Systems, or CMSs, are platforms that provide graphical interfaces for website management. This means that images, video, text, and even many elements of a website’s layout can be edited by users without the need for any coding or programming.
 
 Broadly speaking, content management describes any system that allows people to more easily change and update content, especially on their websites. When the content (number of pages, images, etc.), and/or the number of contributors, grows large, a content management system (CMS) helps collect and create the content in ways that makes it easy to reuse. 
@@ -55,6 +57,55 @@ Broadly speaking, content management describes any system that allows people to 
 
 > Each of the modern CMSs we are discussing offer WYSIWYG editing to some degree, though WordPress offers the easiest customizations for those who shy away from coding.
 
+****************
+
+## CMS VS web-framework
+
+The question in our case is whether to use a ready made CMS or to create your own system using a framework. The right answer depends on the following:
+
+* budget
+* number of users you will have (long term performance concerns)
+* further maintenance
+* total number of details (bells and whistles) you want to provide on the site
+* implementation with third party/custom APIs
+* special/custom features that require high level of freedom (example: StackOverflow reward points and badgets)
+* As this is a question most of us face pretty often, here are cons and pros of a ready made CMS vs a framework:
+
+**Ready made CMS**
+
+Pros
+
+* faster start and development time if your project generally fits in what the CMS provides
+* available modules and themes
+* backed up by community, meaning that new features, bugfixes, support, tutorials etc. will be provided to you free of charge
+* unified set of standards - it's easier to continue working on an existing CMS site than to take someone else's custom application (this is relative, but the point is that in a site that uses an existing CMS most of the things/setup will be familiar to you while in a custom app the previous developer had more freedom)
+* security is something you do not need to worry that much as in a custom app
+
+Cons
+
+* if your requirements are very specific, you will need to override the default workflow of the system; in some cases this can be tricky and will make you spend more time than to write your own
+* redundant code in modules/plugins
+* performance - a ready made CMS will rarely be as fast as a custom made application
+* not suitable for every large website (unless you fit in almost everything that the CMS provides)
+* steep learning curve in some cases (Typo3, Drupal)
+
+**Custom application**
+
+Pros
+
+* it's up to you to define the structure and the logic of the application
+* app design is made especially for the project you are working on - so there is no redundant code
+* freedom to do anything you want
+
+Cons
+
+* expensive - in most cases you/your client will need much more money for a custom app
+* further maintenance will be harder
+* changes and modifications of the structure can be very time consuming
+* if you aren't using a CMF you will have to reinvent the wheel in some aspects
+
+***************
+
 
 ## content management framework
 
@@ -99,7 +150,39 @@ Broadly speaking, content management describes any system that allows people to 
 </tr>
 </table>
 
-<p><span style="font-size: 18px;"><b>WordPress</b></span></p>
+**List of all [available CMS's](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/05-opensource-cms/list-of-cms.md)**
+
+
+Lets explore wordpress, drupal, joomla in detail..
+
+*****************
+
+## wordpress
+
+From it’s humble beginnings as a simple blogging platform in 2003, WordPress has revolutionised the way websites are designed & built.
+
+WordPress now powers over 60 million websites worldwide.
+
+> On 27th May 2003, creators Matt Mullenweg and Mike Little launched WordPress as a development of its predecessor b2/cafelog.
+B2/cafelog was a blogging platform which was written by Michel Valdrighi in PHP, for use with MySQL.
+
+> The adoption rate of WordPress rocketed in 2004 when version 1.2 was launched, featuring the ability for users to write their own plugins and share them with the blogging community.
+
+> A new theme system was launched in 2005 with version 1.5, and later that year version 2.0 included a new user interface for the admin area, allowing users more control over their sites and the ability to make changes more quickly.
+
+> In 2006 , the company founded by WordPress co-founder Mullenweg Automattic), applied to trademark WordPress and the WordPress logo.
+Version 2.5 was launched in 2008 with a new user interface designed by web design agency Happy Cog, followed by a usability study that led to version 2.7, which included a customisable UI.
+
+> In 2010, ownership of the WordPress trademark and logo was transferred from Automattic, the company founded by WordPress co-founder Matt Mullenweg, to the WordPress Foundation. This meant that WordPress was no longer dependent on one company and ensured it would continue to grow.
+
+> 2010 also saw the launch of version 3.0 – a major update which included custom post types, a new default theme and MultiSite.
+Version 3.3, launched in 2011 made WordPress easier to use and more appealing to novices.
+
+> By 2013, WordPress was widely acknowledged as the world’s most popular content management system. A flurry of updates led to version 3.8, which brought WordPress a new mobile responsive user interface and more default themes.
+
+> As of February 2017, WordPress is used by 58.7% of all the websites whose content management system is known. This is 27.5% of the top 10 million websites
+
+
 <p><i>Recommended for: small and medium-sized companies, organizations, dedicated blogs</i></p>
 <p><i>Difficulty level: no programming experience required! (but plenty of potential for experts as well!)</i></p>
 <p><strong><strong> </strong></strong></p>
@@ -108,8 +191,6 @@ Broadly speaking, content management describes any system that allows people to 
 <p>Though it is the easiest to get started with, WordPress does allow for impressive customization and offers a plethora of plugins. Even advanced programmers, web designers, and nerds can find a lot to love about WordPress. Their landing-page boast that “Wordpress powers 24% of the internet” is indicative of the flexibility that this platform provides. WordPress is great not only for personal blogs (for which it may be most famous), but also for commercial websites, for education, for online portfolios, and even in some cases for ecommerce.</p>
 <p><strong><strong> </strong></strong></p>
 <p>One of WordPress’s greatest strengths is its wide selection of themes and plugins. Many themes are free &#8211; Creative Bloq has a nice list of “<a href="http://www.creativebloq.com/web-design/free-wordpress-themes-712429" target="_blank">The 40 best free WordPress themes</a>” published just a few weeks back. Pricing for others varies, but is typically within the range of $25 to $100. With so many themes available you are almost certain to find one that either meets your needs already or that can be easily tailored to your liking with minimal effort.</p>
-<p><strong><strong> </strong></strong></p>
-<p>WordPress is considered the official successor of b2/cafelog, a blog platform written in PHP by Michel Valdrighi. While b2/cafelog was only ever used by around 2,000 websites, as of 2015 WordPress is powering more than 60 million. Like its predecessor, WordPress is written in PHP and designed to work with MySQL.</p>
 <p><strong><strong> </strong></strong></p>
 <p><b>The biggest advantages of WordPress include:</b></p>
 <ul>
@@ -128,6 +209,270 @@ Broadly speaking, content management describes any system that allows people to 
 <li>and that WordPress is less flexible than Drupal or Joomla.</li>
 </ul>
 <p><strong><strong> </strong></strong></p>
+
+
+## Technical architecture of WordPress
+
+### WordPress Views
+
+<h3 id="for-end-users">For End-Users</h3>
+<ul>
+<li><strong>Dashboard</strong></li>
+<li><strong>Posts</strong><ul>
+<li>All Posts</li>
+<li>Add New<ul>
+<li>Screen Options</li>
+<li>Categories</li>
+<li>Tags</li>
+<li>Featured Image</li>
+<li>Publish</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Media</strong></li>
+<li><strong>Pages</strong></li>
+<li><strong>Comments</strong></li>
+<li><strong>Admin Bar</strong><ul>
+<li>View Site</li>
+<li>Add New Posts &amp; Pages</li>
+<li>Edit Profile</li>
+<li>Logout</li>
+</ul>
+</li>
+</ul>
+<h3 id="for-administrators">For Administrators</h3>
+<ul>
+<li><strong>Appearance</strong><ul>
+<li>Themes</li>
+<li>Widgets</li>
+<li>Menus</li>
+<li>Header</li>
+<li>Background</li>
+</ul>
+</li>
+<li><strong>Plugins</strong></li>
+<li><strong>Users</strong></li>
+<li><strong>Tools</strong> <ul>
+<li>Import</li>
+<li>Export</li>
+<li>Categories &amp; Tags Conversion</li>
+</ul>
+</li>
+<li><strong>Settings</strong><ul>
+<li>General</li>
+<li>Writing</li>
+<li>Reading</li>
+<li>Discussion</li>
+<li>Media</li>
+<li>Permalinks</li>
+</ul>
+</li>
+</ul>
+
+*************
+
+### technical details
+
+<ol>
+<li><p><strong>Server Programming Language</strong></p>
+<ol>
+<li>PHP 5.2.4 - <em>Lowest supported WordPress version</em></li>
+<li>PHP 5.3</li>
+<li>PHP 5.4</li>
+<li>PHP 5.5 </li>
+<li>PHP 5.6 - <em>Lowest supported PHP version (Doh!)</em></li>
+<li>PHP 7.0</li>
+</ol>
+</li>
+<li><p><strong>Web Server</strong></p>
+<ul>
+<li>Apache</li>
+<li>Nginx</li>
+<li>LightSpeed</li>
+<li>IIS</li>
+<li>PHP itself</li>
+<li><em>(Other?)</em></li>
+</ul>
+</li>
+<li><p><strong>MySQL/MariaDB Database</strong></p>
+<ul>
+<li><strong>Content Tables</strong><ul>
+<li><code>wp_posts</code></li>
+<li><code>wp_postmeta</code></li>
+</ul>
+</li>
+<li><strong>Taxonomy Tables</strong><ul>
+<li><code>wp_terms</code></li>
+<li><code>wp_term_taxonomy</code></li>
+<li><code>wp_term_relationship</code></li>
+</ul>
+</li>
+<li><strong>Comment Tables</strong><ul>
+<li><code>wp_comments</code></li>
+<li><code>wp_commentmeta</code></li>
+</ul>
+</li>
+<li><strong>Persistent Settings Table</strong><ul>
+<li><code>wp_options</code></li>
+</ul>
+</li>
+<li><strong>Deprecated Table</strong><ul>
+<li><code>wp_links</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>WordPress Core </strong></p>
+<ul>
+<li>PHP Code</li>
+<li>SQL Database</li>
+<li>Assets<ul>
+<li>JS</li>
+<li>CSS</li>
+<li>Images</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>A Theme</strong> - <em>(a WordPress-specific concept)</em></p>
+<ul>
+<li>One (1) at a time</li>
+<li>Provides <em>&quot;Look at Feel&quot;</em>  <ul>
+<li>May provide functionality <em>(but the community frowns on it)</em></li>
+</ul>
+</li>
+<li>HTML-centric<ul>
+<li>Typically <em>HTML in PHP, CSS  + JS</em></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Plugins</strong> - <em>(a WordPress-specific concept)</em> </p>
+<ul>
+<li>Provides <em>&quot;Provides Add-on Functionality&quot;</em>  <ul>
+<li>Sharing Icons</li>
+<li>Backup</li>
+<li>Caching</li>
+<li>eCommerce</li>
+<li>Search Engine Optimization</li>
+<li>Fields for Data entry of Post data</li>
+</ul>
+</li>
+<li>Zero (0) or more</li>
+<li>Coding-centric<ul>
+<li>Typically <em>PHP + JS + Generated HTML+CSS + SQL</em></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+
+**************
+
+ <h3 id="file-and-directory-layout-of-wordpress">File and Directory Layout of WordPress</h3>
+<p>The following are the files and directories you will interact with most often when developing for WordPress:</p>
+<pre><code>/index.php
+/.htacess
+/wp-config.php
+/wp-load.php
+/wp-login.php
+/wp-cron.php
+/wp-settings.php
+/wp-includes/
+/wp-admin/
+/wp-content
+        |-/themes
+        |-/plugins
+        |-/mu-plugins
+        |-/uploads
+</code></pre><h2 id="indexphp"><code>/index.php</code></h2>
+<p>The entry point for any page/URL on a WordPress website <em>except</em> admin console pages.</p>
+<h2 id="htaccess"><code>/.htaccess</code></h2>
+<p>Provides clean URLs <em><strong>if</strong></em> you are running Apache, and more advanced developers can use for other features.</p>
+<h2 id="wp-configphp"><code>/wp-config.php</code></h2>
+<p>Location of database login and passwords as well as some other configuration.</p>
+<h2 id="wp-loadphp"><code>/wp-load.php</code></h2>
+<p>File to <code>require()</code> if you want to add a standalone <code>.php</code> URL to your website, e.g. <code>http://example.com/test.php</code>.</p>
+<h2 id="wp-loginphp"><code>/wp-login.php</code></h2>
+<p>File that loads the admin console login page, e.g. <code>http://example.com/wp-login.php</code>.</p>
+<h2 id="wp-cronphp"><code>/wp-cron.php</code></h2>
+<p>File that runs any cron tasks defined by a plugin or the theme, e.g. <code>http://example.com/wp-cron.php</code>.</p>
+<h2 id="wp-settingsphp"><code>/wp-settings.php</code></h2>
+<p>File that bootstraps WordPress. You will never run this directly. However, once you start debugging you will trace through this file repeatedly.</p>
+<h2 id="wp-includes"><code>/wp-includes/</code></h2>
+<p>Directory containing <em>&quot;core&quot;</em> WordPress files used by both the admin console and the front end of the website.</p>
+<h2 id="wp-admin"><code>/wp-admin/</code></h2>
+<p>Directory containing <em>&quot;core&quot;</em> WordPress files used only by the admin console <em>(except for a few rare cases)</em>.</p>
+<h2 id="wp-content"><code>/wp-content/</code></h2>
+<p>Directory where all site builder code goes.  This is not exactly a well-named directory.</p>
+<h3 id="wp-contentthemes"><code>/wp-content/themes/</code></h3>
+<p>Directory where Themes are installed, including several themes installed along with WordPress core.</p>
+<h3 id="wp-contentthemestheme"><code>/wp-content/themes/{theme}/</code></h3>
+<p>Each Themes will have it&apos;s own subdirectory.</p>
+<h3 id="wp-contentplugins"><code>/wp-content/plugins/</code></h3>
+<p>Directory where Plugins are installed, including a few plugins installed along with WordPress core.</p>
+<h3 id="wp-contentpluginsplugin"><code>/wp-content/plugins/{plugin}/</code></h3>
+<p>Each Plugin <em><strong>should</strong></em> have it&apos;s own subdirectory, though not every plugin will <em>(including the example plugin <code>hello.php</code> which is a pet peeve for many WordPress developers!)</em></p>
+<p>The plugins can be activated or deactivated by an administrator.</p>
+<h3 id="wp-contentmu-plugins"><code>/wp-content/mu-plugins/</code></h3>
+<p>Directory where <em>&quot;Must-Use&quot;</em> Plugins are installed. </p>
+<p><em><strong>Fun Fact:</strong></em> The name <em>&quot;MU-Plugins&quot;</em> is a backronym; <em>&quot;MU&quot;</em> originally stood for <em>&quot;Multi-User&quot;</em> when WordPress had a separate multi-user version, which itself was improperly named!  <em>&quot;WordPress Multi-User&quot;</em> was the functional precursor to WordPress&apos; &quot;Multi-Site&quot; installation option in more recent versions.</p>
+<h3 id="wp-contentmu-pluginsplugin"><code>/wp-content/mu-plugins/{plugin}/</code></h3>
+<p>Each MU-Plugin <em><strong>should</strong></em> have it&apos;s own subdirectory. These plugins will always be loaded and can only be _&quot;deactivated&quot;_by removing them. </p>
+<p>Good candidates for MU-Plugins are plugins that the site cannot correctly operate without. For every custom WordPress site there should usually be at least one custom MU-Plugin you or your team will create.</p>
+<h3 id="wp-contentmu-pluginsplugin-loaderphp"><code>/wp-content/mu-plugins/plugin-loader.php</code></h3>
+<p>WordPress does not load MU-Plugins automatically, you have to <code>require()</code> them. I frequently use a file named <code>plugin-loader.php</code> to include the required <code>required()</code> calls to load my MU-Plugins.</p>
+<p><em><strong>Note:</strong></em> This file name is not an official WordPress filename, this is just the name I standardized on for this need. But what this file does it something you will frequently need when building client projects.</p>
+<h3 id="wp-contentuploads"><code>/wp-content/uploads/</code></h3>
+<p>Directory where photos and other files can be uploaded by the user. This directory should always be writable so if your theme or plugin code needs to save a file you should do so in this directory. Preferably in a sub-directory.</p>
+<h3 id="wp-contentuploadsyyyymm"><code>/wp-content/uploads/{yyyy}/{mm}</code></h3>
+<p>WordPress automatically generates year and month sub-directories for uploading files, unless it has been configured to work differently.</p>
+
+***************
+<h3 id="local-development-options-for-wordpress">Local Development Options for WordPress</h3>
+<p>There are many options, some are better, some are easier, all have their tradeoffs.</p>
+<ol>
+<li><strong>Bare Metal </strong><ul>
+<li>Directly install Apache, MySQL, PHP, etc. on Mac OS X</li>
+<li>Laravel Valet: Just PHP7 and MySQL)</li>
+</ul>
+</li>
+<li><strong>Packaged Sandboxes</strong><ul>
+<li>MAMP and MAMP Pro</li>
+<li>XAMPP</li>
+</ul>
+</li>
+<li><strong>Virtual Machines</strong> <em>(Vagrant)</em><ul>
+<li>Requires<ul>
+<li>VirtualBox (free)</li>
+<li>VMWare </li>
+<li>Parallels</li>
+</ul>
+</li>
+<li>Available Vagrant <ul>
+<li>VVV</li>
+<li>Trellis</li>
+<li>VIP Quickstart</li>
+<li>Scotch Box</li>
+<li>Laravel Homestead</li>
+<li>WPLib Box</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Containers</strong> <em>(Docker)</em><ul>
+<li>Mostly not ready for prime time <em>(but almost)</em></li>
+</ul>
+</li>
+<li><strong>Hybrid</strong> <ul>
+<li>PressMatic - $129</li>
+</ul>
+</li>
+</ol>
+
+************************
+
 <p><span style="font-size: 18px;"><b>Drupal</b></span></p>
 <p><i>Recommended for: business, government, education, civic engagement platforms</i></p>
 <p><i>Difficulty level: some programming experience recommended</i></p>
