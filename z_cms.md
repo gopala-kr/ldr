@@ -1,5 +1,125 @@
 
-## contenet management systems:
+## content management systems
+
+* Wordpress
+* Drupal
+* joomla
+
+## Webservices and API's
+
+***********************************
+
+![A rotating globe in GIF](https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif)
+
+************************************
+
+
+<table class="vertical-navbox nowraplinks hlist" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%">
+<tr>
+<th style="padding:0.2em 0.4em 0.2em;font-size:145%;line-height:1.2em"><a href="https://en.wikipedia.org/wiki/History_of_computing" title="History of computing">History of computing</a></th>
+</tr>
+<tr>
+<th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Computer_hardware" title="Computer hardware">Hardware</a></th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/History_of_computing_hardware" title="History of computing hardware">Hardware before 1960</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_computing_hardware_(1960s%E2%80%93present)" title="History of computing hardware (1960s–present)">Hardware 1960s to present</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Software" title="Software">Software</a></th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/History_of_software" title="History of software">Software</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_Unix" title="History of Unix">Unix</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_free_and_open-source_software" title="History of free and open-source software">Free software and open-source software</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Computer_science" title="Computer science">Computer science</a></th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/History_of_artificial_intelligence" title="History of artificial intelligence">Artificial intelligence</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_compiler_construction" title="History of compiler construction">Compiler construction</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_computer_science" title="History of computer science">Computer science</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_operating_systems" title="History of operating systems">Operating systems</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_programming_languages" title="History of programming languages">Programming languages</a></li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science" title="List of pioneers in computer science">Prominent pioneers</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_software_engineering" title="History of software engineering">Software engineering</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em">Modern concepts</th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/History_of_general-purpose_CPUs" title="History of general-purpose CPUs">General-purpose CPUs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_the_graphical_user_interface" title="History of the graphical user interface">Graphical user interface</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_the_Internet" title="History of the Internet">Internet</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_laptops" title="History of laptops">Laptops</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_personal_computers" title="History of personal computers">Personal computers</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_video_games" title="History of video games">Video games</a></li>
+<li><a class="mw-selflink selflink">World Wide Web</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em">By country</th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/History_of_computer_hardware_in_Bulgaria" title="History of computer hardware in Bulgaria">Bulgaria</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_computing_in_Poland" title="History of computing in Poland">Poland</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_computing_in_Romania" title="History of computing in Romania">Romania</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_computer_hardware_in_Soviet_Bloc_countries" title="History of computer hardware in Soviet Bloc countries">Soviet Bloc</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_computing_in_the_Soviet_Union" title="History of computing in the Soviet Union">Soviet Union</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_computer_hardware_in_Yugoslavia" title="History of computer hardware in Yugoslavia">Yugoslavia</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Timeline_of_computing" title="Timeline of computing">Timeline of computing</a></th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_hardware_before_1950" title="Timeline of computing hardware before 1950">before 1950</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_1950%E2%80%9379" title="Timeline of computing 1950–79">1950–1979</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_1980%E2%80%9389" title="Timeline of computing 1980–89">1980–1989</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_1990%E2%80%9399" title="Timeline of computing 1990–99">1990–1999</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_2000%E2%80%9309" title="Timeline of computing 2000–09">2000–2009</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_2010%E2%80%9319" title="Timeline of computing 2010–19">2010–2019</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Category:Computing_timelines" title="Category:Computing timelines"><i>more timelines</i> ...</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="padding:0.3em 0.4em 0.3em;font-weight:bold">
+<ul>
+<li><img alt="Category" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" title="Category" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" data-file-width="36" data-file-height="31" /> <a href="/wiki/Category:History_of_computing" title="Category:History of computing">Category</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%">
+<div class="plainlinks hlist navbar mini">
+</div>
+</td>
+</tr>
+</table>
+
+******************
 
 In layman words, content Management Systems, or CMSs, are platforms that provide graphical interfaces for website management. This means that images, video, text, and even many elements of a website’s layout can be edited by users without the need for any coding or programming.
 
@@ -35,7 +155,7 @@ Broadly speaking, content management describes any system that allows people to 
 > While early CMS solutions assumed a fair knowledge of HTML coding and programming, CMSs turned over time (to varying degrees) towards visual-based web development. We’ll explore the origins of so-called “WYSIWYG” editors in the next section.
 
 
-## WYSIWYG Website Creation
+> ### WYSIWYG Website Creation
 
 > WYSIWYG, or “What You See Is What You Get” website building tools emerged around the World Wide Web’s sixth birthday, beginning to appear in 1996. “WYSIWYG” was originally used in reference to text editors that could display a ‘page’ on-screen that mimicked the actual paper copy that would come out of a printer. John Markoff of the <a href="http://bits.blogs.nytimes.com/2007/10/18/the-real-history-of-wysiwyg/?_r=0" target="_blank">NY Times (October 2007)</a> suggests: “The first true WYSIWYG editor was a program written for the Alto [computer] called Bravo, created in 1974 by Charles Simonyi and Butler Lampson, which would ultimately lead to the development of Microsoft Word some years later.” Office productivity software offered WYSIWYG document creation as far back as the mid-70’s. WYSIWYG website creation emerged on the scene between 1996 and 1997, though it is arguable that capability of WYSIWYG website editors was seriously lacking even into the early 2000’s. Sites like Wix.com, launched in 2006 and offering cloud-based drag-and-drop website building, emerged a full decade after the first generation of WYSIWYG web development software.
 
