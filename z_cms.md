@@ -7,212 +7,11 @@
 
 ## Webservices and API's
 
-***********************************
-
-<br>
-
-![ineternet](https://upload.wikimedia.org/wikipedia/commons/3/3f/Internet_map_1024_-_transparent%2C_inverted.png)
-
-<br>
-
-![internet stack](https://upload.wikimedia.org/wikipedia/commons/3/39/Internet_Key_Layers.png)
-
-<br>
-
-************************************
-
 <br>
 
 ![A rotating globe in GIF](https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif)
 
 <br>
-
-<table class="vertical-navbox nowraplinks hlist" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%">
-<tr>
-<th style="padding:0.2em 0.4em 0.2em;font-size:145%;line-height:1.2em"><a href="https://en.wikipedia.org/wiki/History_of_computing" title="History of computing">History of computing</a></th>
-</tr>
-<tr>
-<th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Computer_hardware" title="Computer hardware">Hardware</a></th>
-</tr>
-<tr>
-<td style="padding:0 0.1em 0.4em">
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/History_of_computing_hardware" title="History of computing hardware">Hardware before 1960</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_computing_hardware_(1960s%E2%80%93present)" title="History of computing hardware (1960s–present)">Hardware 1960s to present</a></li>
-</ul>
-</td>
-</tr>
-<tr>
-<th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Software" title="Software">Software</a></th>
-</tr>
-<tr>
-<td style="padding:0 0.1em 0.4em">
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/History_of_software" title="History of software">Software</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_Unix" title="History of Unix">Unix</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_free_and_open-source_software" title="History of free and open-source software">Free software and open-source software</a></li>
-</ul>
-</td>
-</tr>
-<tr>
-<th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Computer_science" title="Computer science">Computer science</a></th>
-</tr>
-<tr>
-<td style="padding:0 0.1em 0.4em">
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/History_of_artificial_intelligence" title="History of artificial intelligence">Artificial intelligence</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_compiler_construction" title="History of compiler construction">Compiler construction</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_computer_science" title="History of computer science">Computer science</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_operating_systems" title="History of operating systems">Operating systems</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_programming_languages" title="History of programming languages">Programming languages</a></li>
-<li><a href="https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science" title="List of pioneers in computer science">Prominent pioneers</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_software_engineering" title="History of software engineering">Software engineering</a></li>
-</ul>
-</td>
-</tr>
-<tr>
-<th style="padding:0.1em">Modern concepts</th>
-</tr>
-<tr>
-<td style="padding:0 0.1em 0.4em">
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/History_of_general-purpose_CPUs" title="History of general-purpose CPUs">General-purpose CPUs</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_the_graphical_user_interface" title="History of the graphical user interface">Graphical user interface</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_the_Internet" title="History of the Internet">Internet</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_laptops" title="History of laptops">Laptops</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_personal_computers" title="History of personal computers">Personal computers</a></li>
-<li><a href="https://en.wikipedia.org/wiki/History_of_video_games" title="History of video games">Video games</a></li>
-<li><a class="mw-selflink selflink">World Wide Web</a></li>
-</ul>
-</td>
-</tr>
-<tr>
-<th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Timeline_of_computing" title="Timeline of computing">Timeline of computing</a></th>
-</tr>
-<tr>
-<td style="padding:0 0.1em 0.4em">
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_hardware_before_1950" title="Timeline of computing hardware before 1950">before 1950</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_1950%E2%80%9379" title="Timeline of computing 1950–79">1950–1979</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_1980%E2%80%9389" title="Timeline of computing 1980–89">1980–1989</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_1990%E2%80%9399" title="Timeline of computing 1990–99">1990–1999</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_2000%E2%80%9309" title="Timeline of computing 2000–09">2000–2009</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_2010%E2%80%9319" title="Timeline of computing 2010–19">2010–2019</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Category:Computing_timelines" title="Category:Computing timelines"><i>more timelines</i> ...</a></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td style="padding:0.3em 0.4em 0.3em;font-weight:bold">
-</td>
-</tr>
-<tr>
-<td style="text-align:right;font-size:115%">
-<div class="plainlinks hlist navbar mini">
-</div>
-</td>
-</tr>
-</table>
-
-<br>
-
-<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
-<tr>
-<th scope="col" class="navbox-title" colspan="2">
-<div id="Timelines_of_computing" style="font-size:114%;margin:0 4em"><a href="https://en.wikipedia.org/wiki/Category:Computing_timelines" title="Category:Computing timelines">Timelines of computing</a></div>
-</th>
-</tr>
-<tr>
-<th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Timeline_of_computing" title="Timeline of computing">Computing</a></th>
-<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
-<div style="padding:0em 0.25em">
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_hardware_before_1950" title="Timeline of computing hardware before 1950">before 1950</a></li>
-<li><a href="https://en.wikipedia.orghttps://en.wikipedia.org/wiki/Timeline_of_computing_1950%E2%80%9379" title="Timeline of computing 1950–79">1950–1979</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_1980%E2%80%9389" title="Timeline of computing 1980–89">1980s</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_1990%E2%80%9399" title="Timeline of computing 1990–99">1990s</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_2000%E2%80%9309" title="Timeline of computing 2000–09">2000s</a></li>
-<li><a class="mw-selflink selflink">2010s</a></li>
-</ul>
-</div>
-</td>
-</tr>
-<tr>
-<th scope="row" class="navbox-group" style="width:1%">Software</th>
-<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
-<div style="padding:0em 0.25em"></div>
-<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
-<tr>
-<th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Timeline_of_open-source_software" title="Timeline of open-source software">Open-source software</a></th>
-<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
-<div style="padding:0em 0.25em">
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_open-source_software#1970s" title="Timeline of open-source software">1970s</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_open-source_software#1980s" title="Timeline of open-source software">1980s</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_open-source_software#1990s" title="Timeline of open-source software">1990s</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_open-source_software#2000s" title="Timeline of open-source software">2000s</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_open-source_software#2010s" title="Timeline of open-source software">2010s</a></li>
-</ul>
-</div>
-</td>
-</tr>
-<tr>
-<th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Timeline_of_programming_languages" title="Timeline of programming languages">Programming languages</a></th>
-<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
-<div style="padding:0em 0.25em">
-<ul>
-<li class="mw-empty-elt"></li>
-</ul>
-</div>
-</td>
-</tr>
-<tr>
-<th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Timeline_of_hypertext_technology" title="Timeline of hypertext technology">Hypertext technology</a></th>
-<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
-<div style="padding:0em 0.25em">
-<ul>
-<li class="mw-empty-elt"></li>
-</ul>
-</div>
-</td>
-</tr>
-<tr>
-<th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Timeline_of_operating_systems" title="Timeline of operating systems">Operating systems</a></th>
-<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
-<div style="padding:0em 0.25em">
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_DOS_operating_systems" title="Timeline of DOS operating systems">DOS family</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Timeline_of_Microsoft_Windows" title="Timeline of Microsoft Windows">Windows</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Linux_timeline#Timeline" class="mw-redirect" title="Linux timeline">Linux</a></li>
-</ul>
-</div>
-</td>
-</tr>
-<tr>
-<th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Timeline_of_virtualization_development" title="Timeline of virtualization development">Virtualization development</a></th>
-<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
-<div style="padding:0em 0.25em">
-<ul>
-<li class="mw-empty-elt"></li>
-</ul>
-</div>
-</td>
-</tr>
-<tr>
-<th scope="row" class="navbox-group" style="width:1%"><a href="https://en.wikipedia.org/wiki/Timeline_of_computer_viruses_and_worms" title="Timeline of computer viruses and worms">Malware</a></th>
-<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
-<div style="padding:0em 0.25em">
-<ul>
-<li class="mw-empty-elt"></li>
-</ul>
-</div>
-</td>
-</tr>
-  </th>
-</table>
-  
-  
-******************
 
 In layman words, content Management Systems, or CMSs, are platforms that provide graphical interfaces for website management. This means that images, video, text, and even many elements of a website’s layout can be edited by users without the need for any coding or programming.
 
@@ -373,3 +172,113 @@ Broadly speaking, content management describes any system that allows people to 
 <p><strong><strong> </strong></strong></p>
 <p>Ideally, whatever CMS you choose today will be able to stay with you for at least several years since switching to a new content management system can be rather costly and time-consuming. Drupal and Joomla may be more flexible in the long-term &#8211; depending on your needs &#8211; while WordPress is simple to get started with right away and may cost the least amount of money to get up and running at the beginning.</p>
 <p><strong><strong> </strong></strong></p>
+
+
+
+*****************
+
+Finally.... its worth spending sometime on below.. table..
+
+***********************************
+
+<br>
+
+![ineternet](https://upload.wikimedia.org/wikipedia/commons/3/3f/Internet_map_1024_-_transparent%2C_inverted.png)
+
+<br>
+
+![internet stack](https://upload.wikimedia.org/wikipedia/commons/3/39/Internet_Key_Layers.png)
+
+<br>
+
+
+<table class="vertical-navbox nowraplinks hlist" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%">
+<tr>
+<th style="padding:0.2em 0.4em 0.2em;font-size:145%;line-height:1.2em"><a href="https://en.wikipedia.org/wiki/History_of_computing" title="History of computing">History of computing</a></th>
+</tr>
+<tr>
+<th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Computer_hardware" title="Computer hardware">Hardware</a></th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/History_of_computing_hardware" title="History of computing hardware">Hardware before 1960</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_computing_hardware_(1960s%E2%80%93present)" title="History of computing hardware (1960s–present)">Hardware 1960s to present</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Software" title="Software">Software</a></th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/History_of_software" title="History of software">Software</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_Unix" title="History of Unix">Unix</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_free_and_open-source_software" title="History of free and open-source software">Free software and open-source software</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Computer_science" title="Computer science">Computer science</a></th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/History_of_artificial_intelligence" title="History of artificial intelligence">Artificial intelligence</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_compiler_construction" title="History of compiler construction">Compiler construction</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_computer_science" title="History of computer science">Computer science</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_operating_systems" title="History of operating systems">Operating systems</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_programming_languages" title="History of programming languages">Programming languages</a></li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science" title="List of pioneers in computer science">Prominent pioneers</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_software_engineering" title="History of software engineering">Software engineering</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em">Modern concepts</th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/History_of_general-purpose_CPUs" title="History of general-purpose CPUs">General-purpose CPUs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_the_graphical_user_interface" title="History of the graphical user interface">Graphical user interface</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_the_Internet" title="History of the Internet">Internet</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_laptops" title="History of laptops">Laptops</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_personal_computers" title="History of personal computers">Personal computers</a></li>
+<li><a href="https://en.wikipedia.org/wiki/History_of_video_games" title="History of video games">Video games</a></li>
+<li><a class="mw-selflink selflink">World Wide Web</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em"><a href="https://en.wikipedia.org/wiki/Timeline_of_computing" title="Timeline of computing">Timeline of computing</a></th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_hardware_before_1950" title="Timeline of computing hardware before 1950">before 1950</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_1950%E2%80%9379" title="Timeline of computing 1950–79">1950–1979</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_1980%E2%80%9389" title="Timeline of computing 1980–89">1980–1989</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_1990%E2%80%9399" title="Timeline of computing 1990–99">1990–1999</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_2000%E2%80%9309" title="Timeline of computing 2000–09">2000–2009</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Timeline_of_computing_2010%E2%80%9319" title="Timeline of computing 2010–19">2010–2019</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Category:Computing_timelines" title="Category:Computing timelines"><i>more timelines</i> ...</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="padding:0.3em 0.4em 0.3em;font-weight:bold">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%">
+<div class="plainlinks hlist navbar mini">
+</div>
+</td>
+</tr>
+</table>
+
+*********************
+*************************
+*******************************
