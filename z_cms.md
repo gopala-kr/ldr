@@ -171,7 +171,7 @@ Broadly speaking, content management describes any system that allows people to 
 
 *****************
 
-these layers...
+Finally.. all these layers...
 
 <br>
 
@@ -180,7 +180,7 @@ these layers...
 
 <br>
 
-have made...
+have made this complex world..
 
 <br>
 
@@ -188,7 +188,7 @@ have made...
 
 <br>
 
-Finally.. its worth spending some time on below table..
+its worth spending some time on below table.. 
 
 
 <table class="vertical-navbox nowraplinks hlist" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%">
@@ -279,8 +279,7 @@ Finally.. its worth spending some time on below table..
 </table>
 
 
-
-and one more thing.... we dont have control on this.. time..
+time...
 
 <br>
 
