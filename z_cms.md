@@ -8,7 +8,7 @@
 
 *************************
 
-In layman words, content Management Systems, or CMSs, are platforms that provide graphical interfaces for website management. This means that images, video, text, and even many elements of a website’s layout can be edited by users without the need for any coding or programming.
+In layman's terms, content Management Systems, or CMSs, are platforms that provide graphical interfaces for website management. This means that images, video, text, and even many elements of a website’s layout can be edited by users without the need for any coding or programming.
 
 Broadly speaking, content management describes any system that allows people to more easily change and update content, especially on their websites. When the content (number of pages, images, etc.), and/or the number of contributors, grows large, a content management system (CMS) helps collect and create the content in ways that makes it easy to reuse. 
 
@@ -670,6 +670,12 @@ The architecture of Drupal contains the following layers
 <p></div></div></p>
 <p>Joomla is similar to WordPress in many ways. It is also easy to use, easy to install, and can easily be expanded with the help of <em><i>modules – </i></em>the equivalent of WordPress plugins. As a result, it is the second-best options for beginners.</p>
 
+<p><i>Recommended for: companies, institutions, online communities, complex websites </i></p>
+<p><i>Difficulty level: intermediate-advanced programming/ development experience recommended</i></p>
+
+<p><strong><strong> </strong></strong></p>
+<p>At its core Joomla is designed for online communities, though as with Drupal and WordPress it can be used to do a whole lot more such as blogs and ecommerce. Joomla has a steeper learning curve than the other CMSs we have looked at so far. According to<a href="http://www.miracletutorials.com/wordpress-vs-joomla-review/" target="_blank"> this article </a>on Miracle Tutorials: “You really should get a good book on Joomla if you want to set it up fast. Otherwise you end up fiddling around and getting nowhere for days.” You definitely can’t make this statement about WordPress, and likely not about Drupal either!</p>
+
 
 > ### a brief history of joomla
 
@@ -691,118 +697,86 @@ The architecture of Drupal contains the following layers
 </tr>
 <tr>
 <th scope="row">1.0</th>
-<td><span class="sortkey" style="display:none;speak:none">000000002005-09-22-0000</span><span style="white-space:nowrap">September 22, 2005</span></td>
-<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002009-07-22-0000</span><span style="white-space:nowrap">July 22, 2009</span></td>
+<td><span class="sortkey" style="display:none;speak:none">2005-09-22</span><span style="white-space:nowrap">September 22, 2005</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">2009-07-22</span><span style="white-space:nowrap">July 22, 2009</span></td>
 </tr>
 <tr>
 <th scope="row">1.5 (LTS)</th>
-<td><span class="sortkey" style="display:none;speak:none">000000002008-01-22-0000</span><span style="white-space:nowrap">January 22, 2008</span></td>
-<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002012-12-01-0000</span><span style="white-space:nowrap">December 1, 2012</span></td>
+<td><span class="sortkey" style="display:none;speak:none">2008-01-22</span><span style="white-space:nowrap">January 22, 2008</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">2012-12-01</span><span style="white-space:nowrap">December 1, 2012</span></td>
 </tr>
 <tr>
 <th scope="row">1.6</th>
-<td><span class="sortkey" style="display:none;speak:none">000000002011-01-10-0000</span><span style="white-space:nowrap">January 10, 2011</span></td>
-<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002011-08-19-0000</span><span style="white-space:nowrap">August 19, 2011</span></td>
+<td><span class="sortkey" style="display:none;speak:none">2011-01-10</span><span style="white-space:nowrap">January 10, 2011</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">2011-08-19</span><span style="white-space:nowrap">August 19, 2011</span></td>
 </tr>
 <tr>
 <th scope="row">1.7</th>
-<td><span class="sortkey" style="display:none;speak:none">000000002011-07-19-0000</span><span style="white-space:nowrap">July 19, 2011</span></td>
-<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002012-02-24-0000</span><span style="white-space:nowrap">February 24, 2012</span></td>
+<td><span class="sortkey" style="display:none;speak:none">2011-07-19</span><span style="white-space:nowrap">July 19, 2011</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">2012-02-24</span><span style="white-space:nowrap">February 24, 2012</span></td>
 </tr>
 <tr>
 <th scope="row">2.5 (LTS)</th>
-<td><span class="sortkey" style="display:none;speak:none">000000002012-01-24-0000</span><span style="white-space:nowrap">January 24, 2012</span></td>
-<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002014-12-31-0000</span><span style="white-space:nowrap">December 31, 2014</span></td>
+<td><span class="sortkey" style="display:none;speak:none">2012-01-24</span><span style="white-space:nowrap">January 24, 2012</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">2014-12-31</span><span style="white-space:nowrap">December 31, 2014</span></td>
 </tr>
 <tr>
 <th scope="row">3.0</th>
-<td><span class="sortkey" style="display:none;speak:none">000000002012-09-27-0000</span><span style="white-space:nowrap">September 27, 2012</span></td>
-<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002013-04-01-0000</span><span style="white-space:nowrap">April 2013</span></td>
+<td><span class="sortkey" style="display:none;speak:none">2012-09-27</span><span style="white-space:nowrap">September 27, 2012</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">2013-04-01</span><span style="white-space:nowrap">April 2013</span></td>
 </tr>
 <tr>
 <th scope="row">3.1</th>
-<td><span class="sortkey" style="display:none;speak:none">000000002013-04-24-0000</span><span style="white-space:nowrap">April 24, 2013</span></td>
-<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002013-10-01-0000</span><span style="white-space:nowrap">October 2013</span></td>
+<td><span class="sortkey" style="display:none;speak:none">2013-04-24</span><span style="white-space:nowrap">April 24, 2013</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">2013-10-01</span><span style="white-space:nowrap">October 2013</span></td>
 </tr>
 <tr>
 <th scope="row">3.2</th>
-<td><span class="sortkey" style="display:none;speak:none">000000002013-11-06-0000</span><span style="white-space:nowrap">November 6, 2013</span></td>
-<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002014-10-01-0000</span><span style="white-space:nowrap">October 2014</span></td>
+<td><span class="sortkey" style="display:none;speak:none">2013-11-06</span><span style="white-space:nowrap">November 6, 2013</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">2014-10-01</span><span style="white-space:nowrap">October 2014</span></td>
 </tr>
 <tr>
 <th scope="row">3.3</th>
-<td><span class="sortkey" style="display:none;speak:none">000000002014-04-30-0000</span><span style="white-space:nowrap">April 30, 2014</span></td>
-<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002015-02-01-0000</span><span style="white-space:nowrap">February 2015</span></td>
+<td><span class="sortkey" style="display:none;speak:none">2014-04-30</span><span style="white-space:nowrap">April 30, 2014</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">2015-02-01</span><span style="white-space:nowrap">February 2015</span></td>
 </tr>
 <tr>
 <th scope="row">3.4</th>
-<td><span class="sortkey" style="display:none;speak:none">000000002015-02-24-0000</span><span style="white-space:nowrap">February 24, 2015</span></td>
-<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002016-03-01-0000</span><span style="white-space:nowrap">March 2016</span></td>
+<td><span class="sortkey" style="display:none;speak:none">2015-02-24</span><span style="white-space:nowrap">February 24, 2015</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">2016-03-01</span><span style="white-space:nowrap">March 2016</span></td>
 </tr>
 <tr>
 <th scope="row">3.5</th>
-<td><span class="sortkey" style="display:none;speak:none">000000002016-03-21-0000</span><span style="white-space:nowrap">March 21, 2016</span></td>
-<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002016-07-01-0000</span><span style="white-space:nowrap">July 2016</span></td>
+<td><span class="sortkey" style="display:none;speak:none">2016-03-21</span><span style="white-space:nowrap">March 21, 2016</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">2016-07-01</span><span style="white-space:nowrap">July 2016</span></td>
 </tr>
 <tr>
 <th scope="row">3.6</th>
-<td><span class="sortkey" style="display:none;speak:none">000000002016-07-12-0000</span><span style="white-space:nowrap">July 12, 2016</span></td>
-<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002017-04-01-0000</span><span style="white-space:nowrap">April 2017</span></td>
+<td><span class="sortkey" style="display:none;speak:none">2016-07-12</span><span style="white-space:nowrap">July 12, 2016</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">2017-04-01</span><span style="white-space:nowrap">April 2017</span></td>
 </tr>
 <tr>
 <th scope="row">3.7</th>
-<td><span class="sortkey" style="display:none;speak:none">000000002017-04-25-0000</span><span style="white-space:nowrap">April 25, 2017</span></td>
-<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">000000002017-09-01-0000</span><span style="white-space:nowrap">September 2017</span></td>
+<td><span class="sortkey" style="display:none;speak:none">2017-04-25</span><span style="white-space:nowrap">April 25, 2017</span></td>
+<td style="background:salmon;"><span class="sortkey" style="display:none;speak:none">2017-09-01</span><span style="white-space:nowrap">September 2017</span></td>
 </tr>
 <tr>
 <th scope="row">3.8</th>
-<td><span class="sortkey" style="display:none;speak:none">000000002017-09-19-0000</span><span style="white-space:nowrap">September 19, 2017</span></td>
+<td><span class="sortkey" style="display:none;speak:none">2017-09-19</span><span style="white-space:nowrap">September 19, 2017</span></td>
 <td style="background:#90EE90;"></td>
 </tr>
 <tr>
 <th scope="row">3.9 (LTS)</th>
-<td><span class="sortkey" style="display:none;speak:none">000000002018-01-01-0000</span><span style="white-space:nowrap">2018</span></td>
+<td><span class="sortkey" style="display:none;speak:none">2018-01-01</span><span style="white-space:nowrap">2018</span></td>
 <td style="background:#87CEEB;"></td>
 </tr>
 <tr>
 <th scope="row">4.0</th>
-<td><span class="sortkey" style="display:none;speak:none">000000002018-01-01-0000</span><span style="white-space:nowrap">2018</span></td>
+<td><span class="sortkey" style="display:none;speak:none">2018-01-01</span><span style="white-space:nowrap">2018</span></td>
 <td style="background:#87CEEB;"></td>
 </tr>
 </table>
 
-
-*****************
-<p><i>Recommended for: companies, institutions, online communities, complex websites </i></p>
-<p><i>Difficulty level: intermediate-advanced programming/ development experience recommended</i></p>
-
-<p><strong><strong> </strong></strong></p>
-<p>At its core Joomla is designed for online communities, though as with Drupal and WordPress it can be used to do a whole lot more such as blogs and ecommerce. Joomla has a steeper learning curve than the other CMSs we have looked at so far. According to<a href="http://www.miracletutorials.com/wordpress-vs-joomla-review/" target="_blank"> this article </a>on Miracle Tutorials: “You really should get a good book on Joomla if you want to set it up fast. Otherwise you end up fiddling around and getting nowhere for days.” You definitely can’t make this statement about WordPress, and likely not about Drupal either!</p>
-<p><strong><strong> </strong></strong></p>
-<p><a href="http://www.joomla.org/" target="_blank">Joomla</a> touts itself as “The only open source, non-corporate backed, community driven CMS in the world.” Note: with reference to WordPress and Drupal, this means that Joomla is pointing out its “non-corporate backed” nature.</p>
-<p><strong><strong> </strong></strong></p>
-<p>Using Object Oriented Programming techniques and a “strong MVC [model-view-controller] design pattern,” Joomla speaks directly to programmers and software developers. Joomla seems to target itself towards programmers and companies who want to develop complex websites. Additionally, the MVC framework that Joomla is based on can be employed independently of the content management system, making Joomla closer to a PHP application framework than a pure CMS per se. Like WordPress and Drupal, Joomla is built on PHP &#8211; meaning that all three of the top content management systems today are built on this server-side scripting language.</p>
-<p><strong><strong> </strong></strong></p>
-<p>While WordPress is perfect for personal blogs and businesses alike, and Drupal is okay for blogs but more oriented towards multi-purpose sites, Joomla is a heavyweight that wouldn’t be a very good choice for a personal site dedicated to pictures of your cat.</p>
-<p><strong><strong> </strong></strong></p>
-<p>Joomla does support themes, and site layouts can be customized without having to get into the nitty gritty code if you don’t want to. All the same, Joomla’s strength lies in its complexity. If you know what you want, and are willing to learn how to implement it, Joomla can do just about anything you ask.</p>
-<p><strong><strong> </strong></strong></p>
-<p><b>Joomla’s greatest strengths are its:</b></p>
-<ul>
-<li>object-oriented nature and MVC design pattern;</li>
-<li>community-driven development without corporate intervention;</li>
-<li>flexibility, stability, and support;</li>
-<li>online community capabilities, including user accounts;</li>
-<li>and its focus on Enterprise and small and medium-sized businesses.</li>
-</ul>
-<p><strong><strong> </strong></strong></p>
-<p><b>Joomla’s weaknesses include its:</b></p>
-<ul>
-<li>steep learning curve, even for experienced developers;</li>
-<li>complex nature, making it less than ideal for basic or single-focus sites;</li>
-<li>heavy use of server resources;</li>
-<li>and its comparatively smaller number of available extensions.</li>
-</ul>
 
 *********************
 
@@ -819,11 +793,12 @@ feeds.
 
 Joomla makes use of MVC design pattern. When Joomla processes a request, it analyses the URL to
 determine which component will be responsible for processing the request, and hand over the control to that
-component. Then as per MVC, that component pass control to the controller. The controller analyses the
-request and determines which model and view will be used to return the results back to the user. The model
-encapsulates the data used by component. The data can come from a database, it can be a Joomla
-database or any external database or can come via web service API running on external server. The model
-is responsible for updating database and isolating the view and controller from the functioning about how
+component. Then as per MVC, that component pass control to the controller. 
+
+* The controller analyses the request and determines which model and view will be used to return the results back to the user. The model encapsulates the data used by component. The data can come from a database, it can be a Joomla
+database or any external database or can come via web service API running on external server. 
+
+* The model is responsible for updating database and isolating the view and controller from the functioning about how
 data is amended or modeled. The view is responsible for generating the output which is then sent over to the
 browser by the component. Once the view has produced the output, the control is taken over by Joomla
 framework which then loads and executes the template. The template combines the output from various
@@ -868,6 +843,21 @@ text strings within the Joomla Source code. Language packs also include an XML m
 
 ### joomla project structure
 
+<p>Joomla! CMS templates use a structure of directories and files but they can vary from template to template</p>
+<ul>
+<li><b>Site</b> templates (templates that change what your website looks like) can be found in the <code>/templates</code> directory. For example, if your template is called "mytemplate", then it would be placed in the folder:</li>
+</ul>
+<dl>
+<dd><code>&lt;path-to-Joomla!&gt;/templates/mytemplate</code></dd>
+</dl>
+<ul>
+<li><b>Administrator</b> templates (templates that change what the administrator section of the site looks like) can be found in the <code>/administrator/templates</code> directory. For example, if your administrator template is called "myadmintemplate", then it would be placed in the folder:</li>
+</ul>
+<dl>
+<dd><code>&lt;path-to-Joomla!&gt;/administrator/templates/myadmintemplate</code></dd>
+</dl>
+
+
 <p>A typical template for Joomla! will include the following directories:</p>
 <ul>
 <li>css - contains all the .css files</li>
@@ -903,7 +893,7 @@ template_thumbnail.png
 
 *****************
 
-Finally.. all these layers...
+Finally.. in brief.. all these layers below...
 
 <br>
 
@@ -1011,7 +1001,7 @@ its worth spending some time on below table..
 </table>
 
 
-time...
+and this is not gonna stop... time...
 
 <br>
 
