@@ -9,13 +9,11 @@ Web Services make up a connection technology. It is a way to connect services to
 * Messaging
 * Service
 
-Of course, there is more to Web Services. The articles listed below provide an overview.
-
-The articles listed below gives indepth details on webservices. They cover technologies that can be used in a service-oriented architecture.
+Of course, there is more to Web Services. The articles listed below provide an indepth overview. They cover technologies that can be used in a service-oriented architecture.
 
 > **List of [webservice articles](https://www.service-architecture.com/articles/web-services/)**
 
-I will try to cover some brief overview as this is neccessary to complte this article.
+I will try to cover some brief overview as this is neccessary to complete this article.
 
 > The term "Web Services" can be confusing. It is, unfortunately, often used in many different ways. Compounding this confusion is term "services" that has a different meaning than the term "Web Services." On this site, the term Web Services refers to the technologies that allow for making connections. Services are what you connect together using Web Services. A service is the endpoint of a connection. Also, a service has some type of underlying computer system that supports the connection offered. The combination of services—internal and external to an organization—make up a service-oriented architecture. 
 
