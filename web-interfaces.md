@@ -1,5 +1,5 @@
 
-## webservices
+## WebServices
 
 This is my favourite topic, I spent my past 3 years working on more than 50 different types of web-services, interfaces and API's. This is most basic and essential for any dynamic web application to work.
 
@@ -19,42 +19,48 @@ I will try to cover some brief overview as this is neccessary to complete this a
 
 A service-oriented architecture is essentially a collection of services. These services communicate with each other. The communication can involve either simple data passing or it could involve two or more services coordinating some activity. Some means of connecting services to each other is needed.
 
-![Web services in a service-oriented architecture](https://en.wikipedia.org/wiki/Web_service#/media/File:SOA_Detailed_Diagram.png)
+![Web services in a service-oriented architecture](https://upload.wikimedia.org/wikipedia/commons/8/84/SOA_Detailed_Diagram.png)
 
-Service-oriented architectures are not a new thing. The first service-oriented architecture for many people in the past was with the use DCOM or Object Request Brokers (ORBs) based on the CORBA specification.
+* Service-oriented architectures are not a new thing. The first service-oriented architecture for many people in the past was with the use DCOM or Object Request Brokers (ORBs) based on the CORBA specification.
 
-If a service-oriented architecture is to be effective, we need a clear understanding of the term service. A service is a function that is well-defined, self-contained, and does not depend on the context or state of other services.
+* If a service-oriented architecture is to be effective, we need a clear understanding of the term service. A service is a function that is well-defined, self-contained, and does not depend on the context or state of other services.
 
-The technology of Web Services is the most likely connection technology of service-oriented architectures. The following figure illustrates a basic service-oriented architecture. It shows a service consumer at the right sending a service request message to a service provider at the left. The service provider returns a response message to the service consumer. The request and subsequent response connections are defined in some way that is understandable to both the service consumer and service provider.
+* The technology of Web Services is the most likely connection technology of service-oriented architectures. The following figure illustrates a basic service-oriented architecture. It shows a service consumer at the right sending a service request message to a service provider at the left. The service provider returns a response message to the service consumer. The request and subsequent response connections are defined in some way that is understandable to both the service consumer and service provider.
+
 
 ![SOA](https://www.service-architecture.com/images/web_services/service-oriented_architecture_basics.jpg)
 
+*********************************************
 
 
-Three specifications for Web Services are illustrated in this section: SOAP, REST, and JSON.
+
+Lets have detailed look at three specifications for Web Services SOAP, REST, and JSON.
 
 
-## SOAP
+### SOAP
 
 SOAP was originally part of the specification that included the Web Services Description Language (WSDL) and Universal Description, Discovery, and Integration (UDDI). It is used now without WSDL and UDDI. Instead of the discovery process described in the History of the Web Services Specification section below, SOAP messages are hard-coded or genereated without the use of a repository. The interaction is illustrated in the figure below.More on [SOAP](https://www.service-architecture.com/articles/web-services/soap.html).
 
 ![soap messages](https://www.service-architecture.com/images/web_services/soap_messages.jpg)
 
-## Representation State Transfer (REST)
+### Representation State Transfer (REST)
 
 Representation State Transfer (REST) appeals to developers because it has a simpler style that makes it easier to use than SOAP. It also less verbose so that less volume is sent when communicating. The interaction is illustrated in the figure below. More on [REST](https://www.service-architecture.com/articles/web-services/representational_state_transfer_rest.html).
 
 ![REST](https://www.service-architecture.com/images/web_services/rest_messages.jpg)
 
-## JavaScript Object Notation (JSON)
+### JavaScript Object Notation (JSON)
 
 While both SOAP and REST use XML for interchange, JavaScript Object Notation (JSON) uses a subset of JavaScript. This is illustrated in the figure below. More on [JSON](https://www.service-architecture.com/articles/web-services/javascript_object_notation_json.html).
 
 ![JSON](https://www.service-architecture.com/images/web_services/json_messages.jpg)
 
-**When to Use SOAP, REST, JSON or Other Options**
+
+**When to Use SOAP, REST, JSON or Other Options?**
 
 There really is no "best" option for Web Services. Generally, you will use whatever your service provider supports. If you use multiple service providers, it is easily possible that you will be using all three Web Services specifications: SOAP, REST, and JSON.
+
+*******************************
 
 ### History of the Web Services Specification
 
@@ -75,7 +81,7 @@ The Web Services Description Language (WSDL) forms the basis for the original We
 
 * The service provider provides the expected response to the service consumer.
 
-Wiki gives more details on [DL's](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/05-opensource-cms/rest-api-discription-langaues.md)
+> **Wiki gives more details on [DL's](https://github.com/gopala-kr/weekend-with-github/blob/master/Projects-Blogs/05-opensource-cms/rest-api-discription-langaues.md)**
 
 
 ![UDDI](https://www.service-architecture.com/images/web_services/web_services_basics.jpg)
@@ -84,7 +90,7 @@ Wiki gives more details on [DL's](https://github.com/gopala-kr/weekend-with-gith
 
 The repository shown in the above figure could be a UDDI registry. The UDDI registry was intended to eventually serve as a means of "discovering" Web Services described using WSDL. The idea is that the UDDI registry can be searched in various ways to obtain contact information and the Web Services available for various organizations. How much "discovery" was ever used is open to discussion. Nevertheless, even without the discovery portion, the UDDI registry is a way to keep up-to-date on the Web Services your organization currently uses. It can be used at design time and with governance. An alternative to UDDI is the ebXML Registry. 
 
-### SOAP
+### Simple Object Access Protocol
 
 All the messages shown in the above figure are sent using SOAP. (SOAP at one time stood for Simple Object Access Protocol. Now, the letters in the acronym have no particular meaning .) SOAP essentially provides the envelope for sending the Web Services messages. SOAP generally uses HTTP , but other means of connection may be used. HTTP is the familiar connection we all use for the Internet. In fact, it is the pervasiveness of HTTP connections that will help drive the adoption of Web Services.
 
