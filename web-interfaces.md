@@ -1,7 +1,7 @@
 
 ## webservices
 
-This is my favourite topic, I spent my past 3 years working on more than 50 different type of services. This is most basic and essential for any organization.
+This is my favourite topic, I spent my past 3 years working on more than 50 different types of web-services, interfaces and API's. This is most basic and essential for any dynamic web application to work.
 
 Web Services make up a connection technology. It is a way to connect services together into a service-oriented architecture. Primary elements of Web Services are:
 
