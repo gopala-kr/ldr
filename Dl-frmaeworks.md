@@ -787,3 +787,239 @@ x[<span class="hljs-number">1</span>] = <span class="hljs-number">-0.5</span>; x
 
 <hr>
 
+<p>PyTorch is another deep learning library that&apos;s is actually a fork of Chainer(Deep learning library completely on python) with the capabilities of torch. Basically it&apos;s the facebook solution to merge torch with python.</p>
+<h3 id="some-advantages">Some advantages</h3>
+<ul>
+<li>Easy to Debug and understand the code</li>
+<li>Has as many type of layers as Torch (Unpool, CONV 1,2,3D, LSTM, Grus)</li>
+<li>Lot&apos;s of loss functions</li>
+<li>Can be considered as a Numpy extension to GPUs</li>
+<li>Faster than others &quot;define-by-run&quot; libraries, like chainer and dynet</li>
+<li>Allow to build networks which structure is dependent on the computation itself (Useful on reinforcement learning)</li>
+</ul>
+<h3 id="pytorch-components">PyTorch Components</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Package</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">torch</td>
+<td style="text-align:left">Numpy like library with GPU support</td>
+</tr>
+<tr>
+<td style="text-align:left">torch.autograd</td>
+<td style="text-align:left">Give differentiation support for all torch ops</td>
+</tr>
+<tr>
+<td style="text-align:left">torch.nn</td>
+<td style="text-align:left">Neural network library integrated with autograd</td>
+</tr>
+<tr>
+<td style="text-align:left">torch.optim</td>
+<td style="text-align:left">Optimization for torch.nn (ADAM, SGD, RMSPROP, etc...)</td>
+</tr>
+<tr>
+<td style="text-align:left">torch.multiprocessing</td>
+<td style="text-align:left">Memory sharing between tensors</td>
+</tr>
+<tr>
+<td style="text-align:left">torch.utils</td>
+<td style="text-align:left">DataLoader, Training and other utility functions</td>
+</tr>
+<tr>
+<td style="text-align:left">torch.legacy</td>
+<td style="text-align:left">Old code ported from Torch</td>
+</tr>
+</tbody>
+</table>
+<h3 id="how-it-differs-from-tensorflowtheano">How it differs from Tensorflow/Theano</h3>
+<p>The major difference from Tensorflow is that PyTorch methodology is considered &quot;define-by-run&quot; while Tensorflow is considered &quot;defined-and-run&quot;, so on PyTorch you can for instance change your model on run-time, debug easily with any python debugger, while tensorflow has always a graph definition/build. You can consider tensorflow as a more production tool while PyTorch is more a research tool.</p>
+<h3 id="the-basics">The Basics:</h3>
+<p>Here we will see how to create tensors, and do some manipulation:</p>
+<pre><code class="lang-py"><span class="hljs-keyword">import</span> torch
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+
+<span class="hljs-comment"># Create a tensor on torch</span>
+a = torch.rand(<span class="hljs-number">3</span>, <span class="hljs-number">3</span>)
+
+<span class="hljs-comment"># Create a matrix on numpy and conver to PyTorch</span>
+b_npy = np.array([[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>],[<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>],[<span class="hljs-number">7</span>,<span class="hljs-number">8</span>,<span class="hljs-number">9</span>]])
+<span class="hljs-comment"># Convert from numpy to torch</span>
+b = torch.from_numpy(b_npy)
+
+print(a)
+print(b)
+
+<span class="hljs-comment"># Get a specific element</span>
+print(b[<span class="hljs-number">1</span>,<span class="hljs-number">1</span>])
+
+<span class="hljs-comment"># Get a range of elements</span>
+print(b[<span class="hljs-number">1</span>:<span class="hljs-keyword">None</span>,<span class="hljs-number">1</span>:<span class="hljs-keyword">None</span>])
+
+<span class="hljs-comment"># Set elements on array</span>
+a[<span class="hljs-number">1</span>:<span class="hljs-keyword">None</span>,<span class="hljs-number">1</span>:<span class="hljs-keyword">None</span>] = <span class="hljs-number">0</span>
+print(a)
+</code></pre>
+<h3 id=""><img src="assets/ResultPyTorch.png" alt=""></h3>
+<p>Create tensors filled with some value</p>
+<pre><code class="lang-py"><span class="hljs-keyword">import</span> torch
+
+a = torch.ones(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>)
+b = torch.zeros(<span class="hljs-number">3</span>,<span class="hljs-number">2</span>)
+print(a)
+print(b)
+</code></pre>
+<p><img src="https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/assets/PyTorchSimpleGraphSmall.png" alt=""></p>
+<p>Now we will do some computation on the GPU</p>
+<pre><code class="lang-py"><span class="hljs-keyword">import</span> torch
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+
+<span class="hljs-comment"># Define tensors on the GPU</span>
+a = torch.rand(<span class="hljs-number">2</span>, <span class="hljs-number">3</span>).cuda()
+b = torch.rand(<span class="hljs-number">2</span>, <span class="hljs-number">3</span>).cuda()
+
+<span class="hljs-comment"># Define some operation (will execute on the GPU)</span>
+c = (a + b) * <span class="hljs-number">2</span>
+
+<span class="hljs-comment"># Print &quot;c&quot; contents and shape(size)</span>
+print(c)
+print(c.size())
+</code></pre>
+<h3 id=""><img src="assets/ResultGPU.png" alt=""></h3>
+<h3 id="autograd-and-variables">Autograd and variables</h3>
+<p>The Autograd on PyTorch is the component responsible to do the backpropagation, as on Tensorflow you only need to define the forward propagation. PyTorch autograd looks a lot like TensorFlow: in both frameworks we define a computational graph, and use automatic differentiation to compute gradients.</p>
+<p>We just need to wrap tensors with Variable objects, a Variable represents a node in a computational graph. They are not like tensorflow placeholders, on PyTorch you place the values directly on the model. Again to include a tensor on the graph wrap it with a variable.</p>
+<p>Consider the following simple graph:</p>
+<p><img src="assets/PyTorchSimpleGraphSmall.png" alt=""></p>
+<pre><code class="lang-py"><span class="hljs-keyword">import</span> torch
+<span class="hljs-keyword">from</span> torch.autograd <span class="hljs-keyword">import</span> Variable
+
+<span class="hljs-comment"># Define scalar a=2, b=3</span>
+a = Variable(torch.ones(<span class="hljs-number">1</span>, <span class="hljs-number">1</span>) * <span class="hljs-number">2</span>, requires_grad=<span class="hljs-keyword">True</span>)
+b = Variable(torch.ones(<span class="hljs-number">1</span>, <span class="hljs-number">1</span>) * <span class="hljs-number">3</span>, requires_grad=<span class="hljs-keyword">True</span>)
+c = Variable(torch.ones(<span class="hljs-number">1</span>, <span class="hljs-number">1</span>) * <span class="hljs-number">4</span>, requires_grad=<span class="hljs-keyword">True</span>)
+
+<span class="hljs-comment"># Define the function &quot;out&quot; having 2 parameters a,b</span>
+out = (a*b)+c
+<span class="hljs-comment">#c = torch.mul(a,b)+c</span>
+print(<span class="hljs-string">&apos;Value out:&apos;</span>,out)
+
+<span class="hljs-comment"># Do the backpropagation</span>
+out.backward()
+
+<span class="hljs-comment"># Get dout/da (Derivative of out w.r.t to a)</span>
+print(<span class="hljs-string">&apos;Derivative of out w.r.t to a:&apos;</span>,a.grad)
+print(<span class="hljs-string">&apos;Derivative of out w.r.t to b:&apos;</span>,b.grad)
+print(<span class="hljs-string">&apos;Derivative of out w.r.t to c:&apos;</span>,c.grad)
+</code></pre>
+<p><img src="assets/AutoGradPytorch.png" alt=""></p>
+<h3 id="complete-example">Complete example</h3>
+<p>Here we mix the concepts and show how to train a MNIST dataset using CNN</p>
+<pre><code class="lang-py"><span class="hljs-comment"># Import libraries</span>
+<span class="hljs-keyword">import</span> torch
+<span class="hljs-keyword">from</span> torch.autograd <span class="hljs-keyword">import</span> Variable
+<span class="hljs-keyword">import</span> torchvision.datasets <span class="hljs-keyword">as</span> dsets
+<span class="hljs-keyword">import</span> torchvision.transforms <span class="hljs-keyword">as</span> transforms
+<span class="hljs-keyword">import</span> torch.nn <span class="hljs-keyword">as</span> nn
+<span class="hljs-keyword">import</span> torch.nn.functional <span class="hljs-keyword">as</span> F
+
+<span class="hljs-comment"># Hyper Parameters</span>
+num_epochs = <span class="hljs-number">5</span>
+batch_size = <span class="hljs-number">50</span>
+learning_rate = <span class="hljs-number">0.001</span>
+
+<span class="hljs-comment"># MNIST Dataset</span>
+train_dataset = dsets.MNIST(root=<span class="hljs-string">&apos;../data/&apos;</span>,
+                            train=<span class="hljs-keyword">True</span>, 
+                            transform=transforms.ToTensor(),
+                            download=<span class="hljs-keyword">True</span>)
+
+test_dataset = dsets.MNIST(root=<span class="hljs-string">&apos;../data/&apos;</span>,
+                           train=<span class="hljs-keyword">False</span>, 
+                           transform=transforms.ToTensor())
+
+
+<span class="hljs-comment"># Data Loader (Input Pipeline)</span>
+train_loader = torch.utils.data.DataLoader(dataset=train_dataset,
+                                           batch_size=batch_size, 
+                                           shuffle=<span class="hljs-keyword">True</span>)
+
+test_loader = torch.utils.data.DataLoader(dataset=test_dataset,
+                                          batch_size=batch_size, 
+                                          shuffle=<span class="hljs-keyword">False</span>)
+
+
+<span class="hljs-comment"># CNN Model (2 conv layer) nn.Module is the base class to all neural networks</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CNN</span><span class="hljs-params">(nn.Module)</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
+        super(CNN, self).__init__()
+        self.layer1 = nn.Sequential(
+            nn.Conv2d(<span class="hljs-number">1</span>, <span class="hljs-number">16</span>, kernel_size=<span class="hljs-number">5</span>, padding=<span class="hljs-number">2</span>),
+            nn.BatchNorm2d(<span class="hljs-number">16</span>),
+            nn.ReLU(),
+            nn.MaxPool2d(<span class="hljs-number">2</span>))
+        self.layer2 = nn.Sequential(
+            nn.Conv2d(<span class="hljs-number">16</span>, <span class="hljs-number">32</span>, kernel_size=<span class="hljs-number">5</span>, padding=<span class="hljs-number">2</span>),
+            nn.BatchNorm2d(<span class="hljs-number">32</span>),
+            nn.ReLU(),
+            nn.MaxPool2d(<span class="hljs-number">2</span>))
+        self.fc = nn.Linear(<span class="hljs-number">7</span>*<span class="hljs-number">7</span>*<span class="hljs-number">32</span>, <span class="hljs-number">10</span>)
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">forward</span><span class="hljs-params">(self, x)</span>:</span>
+        out = self.layer1(x)
+        out = self.layer2(out)
+        out = out.view(out.size(<span class="hljs-number">0</span>), <span class="hljs-number">-1</span>)
+        out = self.fc(out)
+        <span class="hljs-keyword">return</span> out
+
+cnn = CNN()
+cnn.cuda()
+print(cnn)
+
+<span class="hljs-comment"># Loss and Optimizer</span>
+criterion = nn.CrossEntropyLoss()
+optimizer = torch.optim.Adam(cnn.parameters(), lr=learning_rate)
+
+<span class="hljs-comment"># Train the Model</span>
+<span class="hljs-keyword">for</span> epoch <span class="hljs-keyword">in</span> range(num_epochs):
+    <span class="hljs-keyword">for</span> i, (images, labels) <span class="hljs-keyword">in</span> enumerate(train_loader):
+        images = Variable(images)
+        labels = Variable(labels)
+
+        images, labels = images.cuda(), labels.cuda()
+
+        <span class="hljs-comment"># Forward + Backward + Optimize</span>
+        optimizer.zero_grad()
+        outputs = cnn(images)
+        loss = criterion(outputs, labels)
+        loss.backward()
+        optimizer.step()
+
+        <span class="hljs-keyword">if</span> (i+<span class="hljs-number">1</span>) % <span class="hljs-number">500</span> == <span class="hljs-number">0</span>:
+            <span class="hljs-keyword">print</span> (<span class="hljs-string">&apos;Epoch [%d/%d], Iter [%d/%d] Loss: %.4f&apos;</span> 
+                   %(epoch+<span class="hljs-number">1</span>, num_epochs, i+<span class="hljs-number">1</span>, len(train_dataset)//batch_size, loss.data[<span class="hljs-number">0</span>]))
+
+
+<span class="hljs-comment"># Test the Model</span>
+cnn.eval()  <span class="hljs-comment"># Change model to &apos;eval&apos; mode (BN uses moving mean/var).</span>
+correct = <span class="hljs-number">0</span>
+total = <span class="hljs-number">0</span>
+<span class="hljs-keyword">for</span> images, labels <span class="hljs-keyword">in</span> test_loader:
+    images = Variable(images)
+    images, labels = images.cuda(), labels.cuda()
+    outputs = cnn(images)
+    _, predicted = torch.max(outputs.data, <span class="hljs-number">1</span>)
+    total += labels.size(<span class="hljs-number">0</span>)
+    correct += (predicted == labels).sum()
+
+print(<span class="hljs-string">&apos;Test Accuracy of the model on the 10000 test images: %d %%&apos;</span> % (<span class="hljs-number">100</span> * correct / total))
+
+<span class="hljs-comment"># Save the Trained Model</span>
+torch.save(cnn.state_dict(), <span class="hljs-string">&apos;cnn.pkl&apos;</span>)
+</code></pre>
+
+------------------
