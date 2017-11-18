@@ -307,6 +307,483 @@ print(<span class="hljs-string">&quot;Accuracy: %f&quot;</span> % score)
 </code></pre><pre><code class="lang-python">
 
 </code></pre>
+
 <hr>
 
+<h2 id="lua-language">Lua language</h2>
+<hr>
+<p>Lua was first created to be used on embedded systems, the idea was to have a simple cross-platform and fast language. One the main features of Lua is it&apos;s easy integration with C/C++.</p>
+<p>Lua was originally designed in 1993 as a language for extending software applications to meet the increasing demand for customization at the time.</p>
+<p>This extension means that you could have a large C/C++ program and, some parts in Lua where you could easily change without the need to recompile everything.</p>
+<h2 id="torch">Torch</h2>
+<hr>
+<p>Torch is a scientific computing framework based on Lua with CPU and GPU backends. You can imagine like a Numpy but with CPU and GPU implementation. Some nice features:</p>
+<ul>
+<li>Efficient linear algebra functions with GPU support</li>
+<li>Neural Network package, with automatic differentiation (No need to backpropagate manually)</li>
+<li>Multi-GPU support</li>
+</ul>
+<h2 id="first-contact-with-lua">First contact with Lua</h2>
+<hr>
+<p>Bellow we have some simple examples on Lua just to have some contact with the language.</p>
+<pre><code class="lang-lua"><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Hello World&quot;</span>) <span class="hljs-comment">-- First thing, note that there is no main...</span>
+<span class="hljs-comment">--[[
+This is how we do a multi-line comment
+on lua, to execute a lua program just use...
+lua someFile.lua
+]]</span>
+</code></pre>
+<pre><code class="lang-lua">someVar = <span class="hljs-string">&quot;Leonardo&quot;</span>
+<span class="hljs-built_in">io</span>.write(<span class="hljs-string">&quot;Size of variable is &quot;</span>, #someVar, <span class="hljs-string">&quot; and it&apos;s value is: \&quot;&quot;</span>, someVar, <span class="hljs-string">&quot;\&quot;\n&quot;</span>)
+<span class="hljs-comment">-- Variables on lua are dynamically typed...</span>
+someVar = <span class="hljs-number">10</span>; <span class="hljs-comment">-- You can use &quot;;&quot; to end a statement</span>
+<span class="hljs-built_in">io</span>.write(<span class="hljs-string">&quot;Now it&apos;s value is:\&quot;&quot;</span>, someVar, <span class="hljs-string">&quot;\&quot;&quot;</span>)
+</code></pre>
+<h3 id="lua-datatypes">Lua datatypes</h3>
+<hr>
+<p>The language offer those basic types:</p>
+<ul>
+<li>Numbers(Float)</li>
+<li>string</li>
+<li>boolean</li>
+<li>table</li>
+</ul>
+<pre><code class="lang-lua"><span class="hljs-built_in">print</span>(<span class="hljs-built_in">type</span>(someVar))
+someVar = <span class="hljs-string">&apos;Leonardo&apos;</span> <span class="hljs-comment">-- Strings can use use simple quotes</span>
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">type</span>(someVar))
+someVar = <span class="hljs-keyword">true</span>
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">type</span>(someVar))
+someVar = {<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-string">&quot;leo&quot;</span>,<span class="hljs-keyword">true</span>}
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">type</span>(someVar))
+</code></pre>
+<h3 id="doing-some-math">Doing some math</h3>
+<hr>
+<p>Normally we will rely on Torch, but Lua has some math support as well.</p>
+<pre><code class="lang-lua"><span class="hljs-built_in">io</span>.write(<span class="hljs-string">&quot;5 + 3 = &quot;</span>, <span class="hljs-number">5</span>+<span class="hljs-number">3</span>, <span class="hljs-string">&quot;\n&quot;</span>)
+<span class="hljs-built_in">io</span>.write(<span class="hljs-string">&quot;5 - 3 = &quot;</span>, <span class="hljs-number">5</span><span class="hljs-number">-3</span>, <span class="hljs-string">&quot;\n&quot;</span>)
+<span class="hljs-built_in">io</span>.write(<span class="hljs-string">&quot;5 * 3 = &quot;</span>, <span class="hljs-number">5</span>*<span class="hljs-number">3</span>, <span class="hljs-string">&quot;\n&quot;</span>)
+<span class="hljs-built_in">io</span>.write(<span class="hljs-string">&quot;5 / 3 = &quot;</span>, <span class="hljs-number">5</span>/<span class="hljs-number">3</span>, <span class="hljs-string">&quot;\n&quot;</span>)
+<span class="hljs-built_in">io</span>.write(<span class="hljs-string">&quot;5.2 % 3 = &quot;</span>, <span class="hljs-number">5</span>%<span class="hljs-number">3</span>, <span class="hljs-string">&quot;\n&quot;</span>)
+<span class="hljs-comment">-- Generate random number between 0 and 1</span>
+<span class="hljs-built_in">io</span>.write(<span class="hljs-string">&quot;math.random() : &quot;</span>, <span class="hljs-built_in">math</span>.random(<span class="hljs-number">0</span>,<span class="hljs-number">3</span>), <span class="hljs-string">&quot;\n&quot;</span>)
+<span class="hljs-comment">-- Print float to 10 decimals</span>
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">string</span>.format(<span class="hljs-string">&quot;Pi = %.10f&quot;</span>, <span class="hljs-built_in">math</span>.pi))
+</code></pre>
+<pre><code>5 + 3 = 8
+5 - 3 = 2
+5 * 3 = 15
+5 / 3 = 1.6666666666667
+5.2 % 3 = 2
+math.random() : 2
+Pi = 3.1415926536    
+</code></pre><h3 id="lua-include-require">Lua include (require)</h3>
+<hr>
+<p>The lua statement to include other lua files is the &quot;require&quot;, as usual it is used to add some library</p>
+<pre><code class="lang-lua"><span class="hljs-built_in">require</span> <span class="hljs-string">&apos;image&apos;</span>
+pedestrian = image.<span class="hljs-built_in">load</span>(<span class="hljs-string">&apos;./pedestrianSign.png&apos;</span>)
+itorch.image(pedestrian)
+</code></pre>
+<p><img src="image_folder_6/pedestrianSign.png" alt=""></p>
+<h3 id="conditionals">Conditionals</h3>
+<hr>
+<p>Just the simple if-then-else. Lua does not have switch statement.</p>
+<pre><code class="lang-lua">age = <span class="hljs-number">17</span>
+<span class="hljs-keyword">if</span> age &lt; <span class="hljs-number">16</span> <span class="hljs-keyword">then</span> 
+    <span class="hljs-built_in">print</span>(<span class="hljs-built_in">string</span>.format(<span class="hljs-string">&quot;You are still a kid with %d years old\n&quot;</span>, age))
+<span class="hljs-keyword">elseif</span> (age == <span class="hljs-number">34</span>) <span class="hljs-keyword">or</span> (age==<span class="hljs-number">35</span>) <span class="hljs-keyword">then</span>
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Getting old leo...&quot;</span>)
+<span class="hljs-keyword">else</span>
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Hi young man&quot;</span>)
+<span class="hljs-keyword">end</span>
+
+<span class="hljs-comment">-- Lua does not have ternary operators</span>
+canVote = age &gt; <span class="hljs-number">18</span> <span class="hljs-keyword">and</span> <span class="hljs-keyword">true</span> <span class="hljs-keyword">or</span> <span class="hljs-keyword">false</span> <span class="hljs-comment">-- canVote=true if age&gt;18 else canVote=false</span>
+<span class="hljs-built_in">io</span>.write(<span class="hljs-string">&quot;Can I vote: &quot;</span>, <span class="hljs-built_in">tostring</span>(canVote))
+</code></pre>
+<h3 id="loops">Loops</h3>
+<hr>
+<p>Lua have while, repeat and for loops. For loops has also a &quot;for-each&quot; extension to iterate on tables.</p>
+<pre><code class="lang-lua">i = <span class="hljs-number">1</span>
+<span class="hljs-keyword">while</span> (i &lt;= <span class="hljs-number">10</span>) <span class="hljs-keyword">do</span>
+    <span class="hljs-built_in">io</span>.write(i,<span class="hljs-string">&quot;\n&quot;</span>)
+    i = i+<span class="hljs-number">1</span>
+    <span class="hljs-keyword">if</span> i==<span class="hljs-number">4</span> <span class="hljs-keyword">then</span> <span class="hljs-keyword">break</span> <span class="hljs-keyword">end</span>
+<span class="hljs-keyword">end</span>
+</code></pre>
+<pre><code class="lang-lua"><span class="hljs-comment">-- Initial value, end value, increment at each loop...</span>
+<span class="hljs-keyword">for</span> i=<span class="hljs-number">1</span>,<span class="hljs-number">3</span>,<span class="hljs-number">1</span> <span class="hljs-keyword">do</span>
+    <span class="hljs-built_in">io</span>.write(i,<span class="hljs-string">&quot;\n&quot;</span>)
+<span class="hljs-keyword">end</span>
+</code></pre>
+<pre><code class="lang-lua"><span class="hljs-comment">-- Create a table which is a list of items like an array</span>
+someTable = {<span class="hljs-string">&quot;January&quot;</span>, <span class="hljs-string">&quot;February&quot;</span>, <span class="hljs-string">&quot;March&quot;</span>, <span class="hljs-string">&quot;April&quot;</span>,<span class="hljs-number">10</span>}
+
+<span class="hljs-comment">-- Iterate on table months</span>
+<span class="hljs-keyword">for</span> keyVar, valueVar <span class="hljs-keyword">in</span> <span class="hljs-built_in">pairs</span>(someTable) <span class="hljs-keyword">do</span>
+  <span class="hljs-built_in">io</span>.write(valueVar, <span class="hljs-string">&quot;(key=&quot;</span>, keyVar, <span class="hljs-string">&quot;), &quot;</span>)
+<span class="hljs-keyword">end</span>
+</code></pre>
+<pre><code>January(key=1), February(key=2), March(key=3), April(key=4), 10(key=5), 
+</code></pre><h3 id="functions">Functions</h3>
+<hr>
+<p>Defining functions in Lua is quite easy, it&apos;s syntax reminds matlab.</p>
+<pre><code class="lang-lua"><span class="hljs-comment">-- Function definition</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getSum</span><span class="hljs-params">(a,b)</span></span>
+    <span class="hljs-keyword">return</span> a+b
+<span class="hljs-keyword">end</span>
+
+<span class="hljs-comment">-- Call function</span>
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">string</span>.format(<span class="hljs-string">&quot;5 + 2 = %d&quot;</span>, getSum(<span class="hljs-number">5</span>,<span class="hljs-number">2</span>)))
+</code></pre>
+<h3 id="tables">Tables</h3>
+<hr>
+<p>On Lua we use tables for everything else (ie: Lists, Dictionaries, Classes, etc...)</p>
+<pre><code class="lang-lua"><span class="hljs-comment">-- tables</span>
+dict = {a = <span class="hljs-number">1</span>, b = <span class="hljs-number">2</span>, c = <span class="hljs-number">3</span>} 
+list = {<span class="hljs-number">10</span>,<span class="hljs-number">20</span>,<span class="hljs-number">30</span>} 
+
+<span class="hljs-comment">-- two prints that display the same value</span>
+<span class="hljs-built_in">print</span>(dict.a)
+<span class="hljs-built_in">print</span>(dict[<span class="hljs-string">&quot;a&quot;</span>])
+<span class="hljs-comment">-- Tables start with 1 (Like matlab)</span>
+<span class="hljs-built_in">print</span>(list[<span class="hljs-number">1</span>]) 
+
+<span class="hljs-comment">-- You can also add functions on tables</span>
+tab = {<span class="hljs-number">1</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>}
+<span class="hljs-comment">-- Add function sum to table tab</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">tab.sum</span> <span class="hljs-params">()</span></span>
+  c = <span class="hljs-number">0</span>
+  <span class="hljs-keyword">for</span> i=<span class="hljs-number">1</span>,#tab <span class="hljs-keyword">do</span>
+    c = c + tab[i]
+  <span class="hljs-keyword">end</span>
+  <span class="hljs-keyword">return</span> c
+<span class="hljs-keyword">end</span>
+
+<span class="hljs-built_in">print</span>(tab:sum()) <span class="hljs-comment">-- displays 8 (the colon is used for calling methods) </span>
+<span class="hljs-comment">-- tab:sum() means tab.sum(tab)</span>
+<span class="hljs-built_in">print</span>(tab.sum()) <span class="hljs-comment">-- On this case it will also work</span>
+<span class="hljs-built_in">print</span>(tab)
+</code></pre>
+<pre><code>1    
+1    
+10    
+8    
+8    
+{
+  1 : 1
+  2 : 3
+  3 : 4
+  sum : function: 0x4035ede8
+}
+</code></pre><h3 id="object-oriented-programming">Object oriented programming</h3>
+<hr>
+<p>Lua does not support directly OOP, but you can emulate all it&apos;s main functionalities (Inheritance, Encapsulation) with tables and metatables</p>
+<p>Metatable tutorial: Used to override operations (metamethods) on tables.</p>
+<p><a href="http://www.tutorialspoint.com/lua/lua_metatables.htm" target="_blank"></a></p>
+<pre><code class="lang-lua"><span class="hljs-comment">--[[
+
+Create a class &quot;Animal&quot; with properties:height,weight,name,sound
+and methods: new,getInfo,saySomething
+
+]]</span>
+
+<span class="hljs-comment">-- Define the defaults for our table</span>
+Animal = {height = <span class="hljs-number">0</span>, weight = <span class="hljs-number">0</span>, name = <span class="hljs-string">&quot;No Name&quot;</span>, sound = <span class="hljs-string">&quot;No Sound&quot;</span>}
+
+<span class="hljs-comment">-- Constructor</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Animal:new</span> <span class="hljs-params">(height, weight, name, sound)</span></span> 
+  <span class="hljs-comment">-- Set a empty metatable to the table Animal (Crazy whay to create an instance)  </span>
+  <span class="hljs-built_in">setmetatable</span>({}, Animal)
+  <span class="hljs-comment">-- Self is a reference to this table instance</span>
+  self.height = height
+  self.weight = weight
+  self.name = name
+  self.sound = sound 
+  <span class="hljs-keyword">return</span> self
+<span class="hljs-keyword">end</span>
+
+<span class="hljs-comment">-- Some method</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Animal:getInfo</span><span class="hljs-params">()</span></span> 
+  animalStr = <span class="hljs-built_in">string</span>.format(<span class="hljs-string">&quot;%s weighs %.1f kg, is %.1fm in tall&quot;</span>, self.name, self.weight, self.height) 
+  <span class="hljs-keyword">return</span> animalStr
+<span class="hljs-keyword">end</span>
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Animal:saySomething</span><span class="hljs-params">()</span></span>
+    <span class="hljs-built_in">print</span>(self.sound)
+<span class="hljs-keyword">end</span>
+</code></pre>
+<pre><code class="lang-lua"><span class="hljs-comment">-- Create an Animal</span>
+flop = Animal:new(<span class="hljs-number">1</span>,<span class="hljs-number">10.5</span>,<span class="hljs-string">&quot;Flop&quot;</span>,<span class="hljs-string">&quot;Auau&quot;</span>)
+<span class="hljs-built_in">print</span>(flop.name) <span class="hljs-comment">-- same as flop[&quot;name&quot;]</span>
+<span class="hljs-built_in">print</span>(flop:getInfo()) <span class="hljs-comment">-- same as flop.getInfo(flop)</span>
+<span class="hljs-built_in">print</span>(flop:saySomething())
+
+<span class="hljs-comment">-- Other way to say the samething</span>
+<span class="hljs-built_in">print</span>(flop[<span class="hljs-string">&quot;name&quot;</span>]) 
+<span class="hljs-built_in">print</span>(flop.getInfo(flop))
+
+<span class="hljs-comment">-- Type of our object</span>
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">type</span>(flop))
+</code></pre>
+<pre><code>Flop    
+Flop weighs 10.5 kg, is 1.0m in tall    
+Auau    
+
+Flop    
+Flop weighs 10.5 kg, is 1.0m in tall    
+table    
+</code></pre><h3 id="file-io">File I/O</h3>
+<pre><code class="lang-lua"><span class="hljs-comment">-- Open a file to write</span>
+file = <span class="hljs-built_in">io</span>.open(<span class="hljs-string">&quot;./output.txt&quot;</span>, <span class="hljs-string">&quot;w&quot;</span>)
+
+<span class="hljs-comment">-- Copy the content of the file input.txt to test.txt</span>
+<span class="hljs-keyword">for</span> line <span class="hljs-keyword">in</span> <span class="hljs-built_in">io</span>.lines(<span class="hljs-string">&quot;./input.txt&quot;</span>) <span class="hljs-keyword">do</span>
+  <span class="hljs-built_in">print</span>(line)
+  file:write(<span class="hljs-built_in">string</span>.format(<span class="hljs-string">&quot;%s from input (At output)\n&quot;</span>, line)) <span class="hljs-comment">-- write on file</span>
+<span class="hljs-keyword">end</span>
+
+file:close()
+</code></pre>
+<pre><code>Line 1 at input    
+Line 2 at input    
+</code></pre><h3 id="run-console-commands">Run console commands</h3>
+<pre><code class="lang-lua"><span class="hljs-keyword">local</span> t = <span class="hljs-built_in">os</span>.execute(<span class="hljs-string">&quot;ls&quot;</span>)
+<span class="hljs-built_in">print</span>(t)
+<span class="hljs-keyword">local</span> catResult = <span class="hljs-built_in">os</span>.execute(<span class="hljs-string">&quot;cat output.txt&quot;</span>)
+<span class="hljs-built_in">print</span>(catResult)
+</code></pre>
+<pre><code>FirstContactTorch.ipynb
+input.txt
+LuaLanguage.ipynb
+output.txt
+pedestrianSign.png
+plot.png
+true    
+
+
+Line 1 at input from input (At output)
+Line 2 at input from input (At output)
+true    
+</code></pre><h2 id="first-contact-with-torch">First contact with Torch</h2>
+<hr>
+<p>On this section we&apos;re going to see how to do simple operations with Torch, more complex stuff will be dealt latter.</p>
+<p>One of the torch objectives is to give some matlab functionality, an usefull cheetsheat can be found here:
+<a href="http://atamahjoubfar.github.io/Torch_for_Matlab_users.pdf" target="_blank"></a>
+<a href="https://github.com/facebook/iTorch" target="_blank"></a>
+<a href="http://www.lighting-torch.com/2015/08/24/plotting-with-torch7/3/" target="_blank"></a>
+<a href="http://torch.ch/docs/five-simple-examples.html" target="_blank"></a>
+<a href="https://github.com/torch/torch7/wiki/Cheatsheet" target="_blank"></a>
+<a href="https://github.com/soumith/cvpr2015/blob/master/Deep%20Learning%20with%20Torch.ipynb" target="_blank"></a></p>
+<pre><code class="lang-lua"><span class="hljs-comment">-- Include torch library</span>
+<span class="hljs-built_in">require</span> <span class="hljs-string">&apos;torch&apos;</span>; <span class="hljs-comment">-- Like matlab the &quot;;&quot; also avoid echo the output</span>
+
+<span class="hljs-comment">-- Create a 2x4 matrix</span>
+m = torch.Tensor({{<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>}, {<span class="hljs-number">5</span>, <span class="hljs-number">6</span>, <span class="hljs-number">7</span>, <span class="hljs-number">8</span>}})
+<span class="hljs-built_in">print</span>(m)
+
+<span class="hljs-comment">-- Get element at second row and third collumn</span>
+<span class="hljs-built_in">print</span>(m[{<span class="hljs-number">2</span>,<span class="hljs-number">3</span>}])
+</code></pre>
+<pre><code> 1  2  3  4
+ 5  6  7  8
+[torch.DoubleTensor of size 2x4]
+
+7    
+</code></pre><h3 id="some-matrix-operations">Some Matrix operations</h3>
+<pre><code class="lang-lua"><span class="hljs-comment">-- Define some Matrix/Tensors</span>
+a = torch.Tensor(<span class="hljs-number">5</span>,<span class="hljs-number">3</span>) <span class="hljs-comment">-- construct a 5x3 matrix/tensor, uninitialized</span>
+a = torch.rand(<span class="hljs-number">5</span>,<span class="hljs-number">3</span>) <span class="hljs-comment">-- Create a 5x3 matrix/tensor with random values</span>
+b=torch.rand(<span class="hljs-number">3</span>,<span class="hljs-number">4</span>) <span class="hljs-comment">-- Create a 3x4 matrix/tensor with random values</span>
+
+<span class="hljs-comment">-- You can also fill a matrix with values (On this case with zeros)</span>
+allZeros = torch.Tensor(<span class="hljs-number">2</span>,<span class="hljs-number">2</span>):fill(<span class="hljs-number">0</span>)
+<span class="hljs-built_in">print</span>(allZeros)
+
+<span class="hljs-comment">-- Matrix multiplcation and it&apos;s syntax variants</span>
+c = a*b 
+c = torch.mm(a,b)
+<span class="hljs-built_in">print</span>(c)
+d=torch.Tensor(<span class="hljs-number">5</span>,<span class="hljs-number">4</span>)
+d:mm(a,b) <span class="hljs-comment">-- store the result of a*b in c</span>
+
+<span class="hljs-comment">-- Transpose a matrix</span>
+m_trans = m:t()
+<span class="hljs-built_in">print</span>(m_trans)
+</code></pre>
+<pre><code> 0  0
+ 0  0
+[torch.DoubleTensor of size 2x2]
+
+ 0.8259  0.6816  0.3766  0.7048
+ 1.3681  0.9438  0.7739  1.1653
+ 1.2885  0.9653  0.5573  0.9808
+ 1.2556  0.8850  0.5501  0.9142
+ 1.8468  1.3579  0.7680  1.3500
+[torch.DoubleTensor of size 5x4]
+
+ 1  5
+ 2  6
+ 3  7
+ 4  8
+[torch.DoubleTensor of size 4x2]
+</code></pre><h3 id="doing-operations-on-gpu">Doing operations on GPU</h3>
+<pre><code class="lang-lua"><span class="hljs-comment">-- Include torch (cuda) library</span>
+<span class="hljs-built_in">require</span> <span class="hljs-string">&apos;cutorch&apos;</span>
+
+<span class="hljs-comment">-- Move arrays to GPU (and convert it&apos;s types to cuda types)</span>
+a = a:cuda()
+b = b:cuda()
+d = d:cuda()
+
+<span class="hljs-comment">-- Same multiplication just different syntax</span>
+c = a*b
+d:mm(a,b)
+
+<span class="hljs-built_in">print</span>(c)
+</code></pre>
+<pre><code> 1.1058  0.6183  1.0518  0.7451
+ 0.5932  0.8015  0.9441  0.5477
+ 0.4915  0.8143  0.9613  0.4345
+ 0.1699  0.6697  0.6656  0.2500
+ 0.6525  0.6174  0.8894  0.4446
+[torch.CudaTensor of size 5x4]
+</code></pre><h3 id="plotting">Plotting</h3>
+<pre><code class="lang-lua">Plot = <span class="hljs-built_in">require</span> <span class="hljs-string">&apos;itorch.Plot&apos;</span>
+
+<span class="hljs-comment">-- Give me 10 random numbers</span>
+<span class="hljs-keyword">local</span> y = torch.randn(<span class="hljs-number">10</span>) 
+
+<span class="hljs-comment">-- Get 1d tensor from 0 to 9 (10 elements)</span>
+<span class="hljs-keyword">local</span> x = torch.range(<span class="hljs-number">0</span>, <span class="hljs-number">9</span>)
+Plot():line(x, y,<span class="hljs-string">&apos;red&apos;</span> ,<span class="hljs-string">&apos;Sinus Wave&apos;</span>):title(<span class="hljs-string">&apos;Simple Plot&apos;</span>):draw()
+</code></pre>
+<p><img src="image_folder_6/SimplePlotItorch.png" alt=""></p>
+<h3 id="starting-with-nn-xor-problem">Starting with nn (XOR problem)</h3>
+<pre><code class="lang-lua"><span class="hljs-built_in">require</span> <span class="hljs-string">&quot;nn&quot;</span>
+
+<span class="hljs-comment">-- make a multi-layer perceptron</span>
+mlp = nn.Sequential();  
+<span class="hljs-comment">-- 2 inputs, one output 1 hidden layer with 20 neurons</span>
+inputs = <span class="hljs-number">2</span>; outputs = <span class="hljs-number">1</span>; hiddenUnits = <span class="hljs-number">20</span>; 
+
+<span class="hljs-comment">-- Mount the model</span>
+mlp:add(nn.Linear(inputs, hiddenUnits))
+mlp:add(nn.Tanh())
+mlp:add(nn.Linear(hiddenUnits, outputs))
+</code></pre>
+<h4 id="define-the-loss-function">Define the loss function</h4>
+<hr>
+<p>On torch the loss function is called criterion, as on this case we&apos;re dealling with a binary classification, we will choose the Mean Squared Error criterion</p>
+<pre><code class="lang-lua">criterion_MSE = nn.MSECriterion()
+</code></pre>
+<h4 id="training-manually">Training Manually</h4>
+<hr>
+<p>Here we&apos;re going to back-propagate our model to get the output related to the loss gradient <script type="math/tex; ">dout</script> then use gradient descent to update the parameters.</p>
+<pre><code class="lang-lua"><span class="hljs-keyword">for</span> i = <span class="hljs-number">1</span>,<span class="hljs-number">2500</span> <span class="hljs-keyword">do</span>
+  <span class="hljs-comment">-- random sample</span>
+  <span class="hljs-keyword">local</span> input= torch.randn(<span class="hljs-number">2</span>);     <span class="hljs-comment">-- normally distributed example in 2d</span>
+  <span class="hljs-keyword">local</span> output= torch.Tensor(<span class="hljs-number">1</span>);
+  <span class="hljs-comment">-- Create XOR lables on the fly....</span>
+  <span class="hljs-keyword">if</span> input[<span class="hljs-number">1</span>] * input[<span class="hljs-number">2</span>] &gt; <span class="hljs-number">0</span> <span class="hljs-keyword">then</span>  
+    output[<span class="hljs-number">1</span>] = <span class="hljs-number">-1</span>
+  <span class="hljs-keyword">else</span>
+    output[<span class="hljs-number">1</span>] = <span class="hljs-number">1</span>
+  <span class="hljs-keyword">end</span>
+
+  <span class="hljs-comment">-- Feed to the model (with current set of weights), then calculate a loss</span>
+  criterion_MSE:forward(mlp:forward(input), output)
+
+  <span class="hljs-comment">-- Reset the current gradients before backpropagate (Always do)</span>
+  mlp:zeroGradParameters()
+  <span class="hljs-comment">-- Backpropagate the loss to the hidden layer</span>
+  mlp:backward(input, criterion_MSE:backward(mlp.output, output))
+  <span class="hljs-comment">-- Update parameters(Gradient descent) with alpha=0.01</span>
+  mlp:updateParameters(<span class="hljs-number">0.01</span>)
+<span class="hljs-keyword">end</span>
+</code></pre>
+<h4 id="test-the-network">Test the network</h4>
+<pre><code class="lang-lua">x = torch.Tensor(<span class="hljs-number">2</span>)
+x[<span class="hljs-number">1</span>] =  <span class="hljs-number">0.5</span>; x[<span class="hljs-number">2</span>] =  <span class="hljs-number">0.5</span>; <span class="hljs-built_in">print</span>(mlp:forward(x)) <span class="hljs-comment">-- 0 XOR 0 = 0 (negative)</span>
+x[<span class="hljs-number">1</span>] =  <span class="hljs-number">0.5</span>; x[<span class="hljs-number">2</span>] = <span class="hljs-number">-0.5</span>; <span class="hljs-built_in">print</span>(mlp:forward(x)) <span class="hljs-comment">-- 0 XOR 1 = 1 (positive)</span>
+x[<span class="hljs-number">1</span>] = <span class="hljs-number">-0.5</span>; x[<span class="hljs-number">2</span>] =  <span class="hljs-number">0.5</span>; <span class="hljs-built_in">print</span>(mlp:forward(x)) <span class="hljs-comment">-- 1 XOR 0 = 1 (positive)</span>
+x[<span class="hljs-number">1</span>] = <span class="hljs-number">-0.5</span>; x[<span class="hljs-number">2</span>] = <span class="hljs-number">-0.5</span>; <span class="hljs-built_in">print</span>(mlp:forward(x)) <span class="hljs-comment">-- 1 XOR 1 = 0 (negative)</span>
+</code></pre>
+<pre><code>-0.8257
+[torch.DoubleTensor of size 1]
+
+ 0.6519
+[torch.DoubleTensor of size 1]
+
+ 0.4468
+[torch.DoubleTensor of size 1]
+
+-0.7814
+[torch.DoubleTensor of size 1]
+</code></pre><h4 id="trainning-with-optimim">Trainning with optimim</h4>
+<hr>
+<p>Torch provides a standard way to optimize any function with respect to some parameters. In our case, our function will be the loss of our network, given an input, and a set of weights. The goal of training a neural net is to optimize the weights to give the lowest loss over our training set of input data. So, we are going to use optim to minimize the loss with respect to the weights, over our training set.</p>
+<pre><code class="lang-lua"><span class="hljs-comment">-- Create a dataset (128 elements)</span>
+batchSize = <span class="hljs-number">128</span>
+batchInputs = torch.Tensor(batchSize, inputs)
+batchLabels = torch.DoubleTensor(batchSize)
+
+<span class="hljs-keyword">for</span> i=<span class="hljs-number">1</span>,batchSize <span class="hljs-keyword">do</span>
+  <span class="hljs-keyword">local</span> input = torch.randn(<span class="hljs-number">2</span>)     <span class="hljs-comment">-- normally distributed example in 2d</span>
+  <span class="hljs-keyword">local</span> label = <span class="hljs-number">1</span>
+  <span class="hljs-keyword">if</span> input[<span class="hljs-number">1</span>]*input[<span class="hljs-number">2</span>]&gt;<span class="hljs-number">0</span> <span class="hljs-keyword">then</span>     <span class="hljs-comment">-- calculate label for XOR function</span>
+    label = <span class="hljs-number">-1</span>;
+  <span class="hljs-keyword">end</span>
+  batchInputs[i]:copy(input)
+  batchLabels[i] = label
+<span class="hljs-keyword">end</span>
+</code></pre>
+<pre><code class="lang-lua"><span class="hljs-comment">-- Get flatten parameters (Needed to use optim)</span>
+params, gradParams = mlp:getParameters()
+<span class="hljs-comment">-- Learning parameters</span>
+optimState = {learningRate=<span class="hljs-number">0.01</span>}
+</code></pre>
+<pre><code class="lang-lua"><span class="hljs-built_in">require</span> <span class="hljs-string">&apos;optim&apos;</span>
+
+<span class="hljs-keyword">for</span> epoch=<span class="hljs-number">1</span>,<span class="hljs-number">200</span> <span class="hljs-keyword">do</span>
+  <span class="hljs-comment">-- local function we give to optim</span>
+  <span class="hljs-comment">-- it takes current weights as input, and outputs the loss</span>
+  <span class="hljs-comment">-- and the gradient of the loss with respect to the weights</span>
+  <span class="hljs-comment">-- gradParams is calculated implicitly by calling &apos;backward&apos;,</span>
+  <span class="hljs-comment">-- because the model&apos;s weight and bias gradient tensors</span>
+  <span class="hljs-comment">-- are simply views onto gradParams</span>
+  <span class="hljs-keyword">local</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">feval</span><span class="hljs-params">(params)</span></span>
+    gradParams:zero()
+
+    <span class="hljs-keyword">local</span> outputs = mlp:forward(batchInputs)
+    <span class="hljs-keyword">local</span> loss = criterion_MSE:forward(outputs, batchLabels)
+    <span class="hljs-keyword">local</span> dloss_doutput = criterion_MSE:backward(outputs, batchLabels)
+    mlp:backward(batchInputs, dloss_doutput)    
+    <span class="hljs-keyword">return</span> loss,gradParams
+  <span class="hljs-keyword">end</span>
+  optim.sgd(feval, params, optimState)
+<span class="hljs-keyword">end</span>
+</code></pre>
+<h4 id="test-the-network">Test the network</h4>
+<pre><code class="lang-lua">x = torch.Tensor(<span class="hljs-number">2</span>)
+x[<span class="hljs-number">1</span>] =  <span class="hljs-number">0.5</span>; x[<span class="hljs-number">2</span>] =  <span class="hljs-number">0.5</span>; <span class="hljs-built_in">print</span>(mlp:forward(x)) <span class="hljs-comment">-- 0 XOR 0 = 0 (negative)</span>
+x[<span class="hljs-number">1</span>] =  <span class="hljs-number">0.5</span>; x[<span class="hljs-number">2</span>] = <span class="hljs-number">-0.5</span>; <span class="hljs-built_in">print</span>(mlp:forward(x)) <span class="hljs-comment">-- 0 XOR 1 = 1 (positive)</span>
+x[<span class="hljs-number">1</span>] = <span class="hljs-number">-0.5</span>; x[<span class="hljs-number">2</span>] =  <span class="hljs-number">0.5</span>; <span class="hljs-built_in">print</span>(mlp:forward(x)) <span class="hljs-comment">-- 1 XOR 0 = 1 (positive)</span>
+x[<span class="hljs-number">1</span>] = <span class="hljs-number">-0.5</span>; x[<span class="hljs-number">2</span>] = <span class="hljs-number">-0.5</span>; <span class="hljs-built_in">print</span>(mlp:forward(x)) <span class="hljs-comment">-- 1 XOR 1 = 0 (negative)</span>
+</code></pre>
+<pre><code>-0.6607
+[torch.DoubleTensor of size 1]
+
+ 0.5321
+[torch.DoubleTensor of size 1]
+
+ 0.8285
+[torch.DoubleTensor of size 1]
+
+-0.7458
+[torch.DoubleTensor of size 1]
+</code></pre><pre><code class="lang-lua">
+
+</code></pre>
+
+<hr>
 
