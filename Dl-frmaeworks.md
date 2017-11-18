@@ -260,3 +260,53 @@ sess.close()
 <li>The cpu will distribute the new model to all gpus</li>
 <li>the process loop again until all training is done</li>
 </ol>
+
+## SkFlow
+
+<p>In order to make the use of tensorflow simpler to experiment machine learning, google offered a library that stays on top of tensorflow. Skflow make life easier.</p>
+<h3 id="import-library">Import library</h3>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> tensorflow.contrib.learn <span class="hljs-keyword">as</span> skflow
+<span class="hljs-keyword">from</span> sklearn <span class="hljs-keyword">import</span> datasets, metrics
+<span class="hljs-keyword">from</span> sklearn <span class="hljs-keyword">import</span> cross_validation
+</code></pre>
+<h4 id="load-dataset">Load dataset</h4>
+<pre><code class="lang-python">iris = datasets.load_iris()
+x_train, x_test, y_train, y_test = cross_validation.train_test_split(
+    iris.data, iris.target, test_size=<span class="hljs-number">0.2</span>, random_state=<span class="hljs-number">42</span>)
+
+<span class="hljs-comment"># Feature columns is required for new versions</span>
+feature_columns = skflow.infer_real_valued_columns_from_input(x_train)
+</code></pre>
+<h3 id="linear-classifier">Linear classifier</h3>
+<pre><code class="lang-python">classifier = skflow.LinearClassifier(feature_columns=feature_columns, n_classes=<span class="hljs-number">3</span>,model_dir=<span class="hljs-string">&apos;/tmp/tf/linear/&apos;</span>)
+classifier.fit(x_train, y_train, steps=<span class="hljs-number">200</span>, batch_size=<span class="hljs-number">32</span>)
+score = metrics.accuracy_score(y_test, classifier.predict(x_test))
+print(<span class="hljs-string">&quot;Accuracy: %f&quot;</span> % score)
+</code></pre>
+<pre><code>Accuracy: 0.966667
+</code></pre><h3 id="multi-layer-perceptron">Multi layer perceptron</h3>
+<pre><code class="lang-python">classifier = skflow.DNNClassifier(feature_columns=feature_columns, hidden_units=[<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">10</span>], 
+                                  n_classes=<span class="hljs-number">3</span>,model_dir=<span class="hljs-string">&apos;/tmp/tf/mlp/&apos;</span>)
+classifier.fit(x_train, y_train, steps=<span class="hljs-number">200</span>)
+
+score = metrics.accuracy_score(y_test, classifier.predict(x_test))
+print(<span class="hljs-string">&quot;Accuracy: %f&quot;</span> % score)
+</code></pre>
+<pre><code>Accuracy: 1.000000
+</code></pre><h3 id="using-tensorboard">Using Tensorboard</h3>
+<p>It&apos;s much easier to monitor your model with tensorboard through skflow. Just add the parameter &quot;model_dir&quot; to the classifier constructor.</p>
+<p>After running this code, type on your server console:</p>
+<pre><code class="lang-bash">tensorboard --logdir=/tmp/tf_examples/<span class="hljs-built_in">test</span>/
+</code></pre>
+<pre><code class="lang-python">classifier = skflow.DNNClassifier(feature_columns=feature_columns, hidden_units=[<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">10</span>], n_classes=<span class="hljs-number">3</span>,model_dir=<span class="hljs-string">&apos;/tmp/tf_examples/test/&apos;</span>)
+classifier.fit(x_train, y_train, steps=<span class="hljs-number">200</span>)
+score = metrics.accuracy_score(y_test, classifier.predict(x_test))
+print(<span class="hljs-string">&quot;Accuracy: %f&quot;</span> % score)
+</code></pre>
+<pre><code>Accuracy: 1.000000
+</code></pre><pre><code class="lang-python">
+
+</code></pre>
+<hr>
+
+
