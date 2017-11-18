@@ -1,6 +1,5 @@
   <h2 id="tensorflow">Tensorflow</h2>
-<hr>
-<p> Tensorflow goolge library for machine learning. In simple words it&apos;s a library for numerical computation that uses graphs, on this graph the nodes are the operations, while the edges of this graph are tensors.
+<p> Tensorflow, goolge library for machine learning. In simple words it&apos;s a library for numerical computation that uses graphs, on this graph the nodes are the operations, while the edges of this graph are tensors.
 Just to remember tensors, are multidimensional matrices, that will flow on the tensorflow graphs.</p>
 <p><img src="https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_7/tensors_flowing.gif" alt=""></p>
 <p><img src="https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_7/Tensorflow_Graph_0.png" alt=""></p>
