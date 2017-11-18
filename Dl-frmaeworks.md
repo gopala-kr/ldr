@@ -249,7 +249,7 @@ sess.close()
 </code></pre><h2 id="multiple-gpus-and-training">Multiple Gpus and training</h2>
 <hr>
 <p>Now we will explain how training is one on a multiple GPU system.</p>
-<p><img src="https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_7/multipleGpu_Train.png alt=""></p>
+<p><img src="https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_7/multipleGpu_Train.png"></p>
 <p>Baiscally the steps for multiple gpu training is this:</p>
 <ol>
 <li>Separate your training data in batches as usual</li>
