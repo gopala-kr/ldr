@@ -908,6 +908,7 @@ out = (a*b)+c
 <span class="hljs-comment">#c = torch.mul(a,b)+c</span>
 print(<span class="hljs-string">&apos;Value out:&apos;</span>,out)
 
+
 <span class="hljs-comment"># Do the backpropagation</span>
 out.backward()
 
