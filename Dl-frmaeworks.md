@@ -1,10 +1,9 @@
-  <h1 id="tensorflow">Tensorflow</h1>
-<h2 id="introduction">Introduction</h2>
+  <h2 id="tensorflow">Tensorflow</h2>
 <hr>
-<p>On this chapter we&apos;re going to learn about tensorflow, which is the goolge library for machine learning. In simple words it&apos;s a library for numerical computation that uses graphs, on this graph the nodes are the operations, while the edges of this graph are tensors.
+<p> Tensorflow goolge library for machine learning. In simple words it&apos;s a library for numerical computation that uses graphs, on this graph the nodes are the operations, while the edges of this graph are tensors.
 Just to remember tensors, are multidimensional matrices, that will flow on the tensorflow graphs.</p>
-<p><img src="image_folder_7/tensors_flowing.gif" alt=""></p>
-<p><img src="image_folder_7/Tensorflow_Graph_0.png" alt=""></p>
+<p><img src="https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_7/tensors_flowing.gif" alt=""></p>
+<p><img src="https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_7/Tensorflow_Graph_0.png" alt=""></p>
 <p>After this computational graph is created it will create a session that can be executed by multiple CPUs, GPUs distributed or not. Here are the main components of tensorflow:</p>
 <ol>
 <li>Variables: Retain values between sessions, use for weights/bias</li>
@@ -16,7 +15,7 @@ Just to remember tensors, are multidimensional matrices, that will flow on the t
 <p>The TensorFlow implementation translates the graph definition into executable operations distributed across available compute resources, such as the CPU or one of your computer&apos;s GPU cards. In general you do not have to specify CPUs or GPUs explicitly. TensorFlow uses your first GPU, if you have one, for as many operations as possible.</p>
 <p>Your job as the &quot;client&quot; is to create symbolically this graph using code (C/C++ or python), and ask tensorflow to execute this graph. As you may imagine the tensorflow code for those &quot;execution nodes&quot; is some C/C++, CUDA high performance code. (Also difficult to understand).</p>
 <p>For example, it is common to create a graph to represent and train a neural network in the construction phase, and then repeatedly execute a set of training ops in the graph in the execution phase.</p>
-<p><img src="image_folder_7/Tensorflow_Graph_1.png" alt=""></p>
+<p><img src="https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_7/Tensorflow_Graph_1.png" alt=""></p>
 <h3 id="installing">Installing</h3>
 <hr>
 <p>If you have already a machine with python (anaconda 3.5) and the nvidia cuda drivers installed (7.5) install tensorflow is simple</p>
@@ -33,7 +32,7 @@ sudo pip3 install --ignore-installed --upgrade $TF_BINARY_URL
 <li>Run the session</li>
 </ul>
 <p>Also notice that on this example we&apos;re passing to our model some constant values so it&apos;s not so useful in real life.</p>
-<p><img src="image_folder_7/Tensorflow_Graph_2.png" alt=""></p>
+<p><img src="https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_7/Tensorflow_Graph_2.png" alt=""></p>
 <h3 id="exchanging-data">Exchanging data</h3>
 <hr>
 <p>Tensorflow allow exchanging data with your graph variables through &quot;placeholders&quot;. Those placeholders can be assigned when we ask the session to run.
@@ -79,7 +78,7 @@ plt.plot(x_data, y_data, <span class="hljs-string">&apos;r*&apos;</span>, label=
 plt.legend()
 plt.show()
 </code></pre>
-<p><img src="image_folder_7/Dataset_Linear_Regression.png" alt=""></p>
+<p><img src="https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_7/Dataset_Linear_Regression.png" alt=""></p>
 <p>Now we&apos;re going to implement a graph with a function <script type="math/tex; ">y=W*x_{data}+b</script>, a loss function <script type="math/tex; ">loss = mean[(y-y_{data})^2]</script>. The loss function will return a scalar value with the mean of all distances between our data, and the model prediction.</p>
 <pre><code class="lang-python">
 <span class="hljs-comment"># Create our linear regression model</span>
@@ -123,7 +122,7 @@ plt.show()
 <span class="hljs-comment"># Close the Session when we&apos;re done.</span>
 session.close()
 </code></pre>
-<p><img src="image_folder_7/Dataset_Linear_Regression_Result.png" alt=""></p>
+<p><img src="https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_7/Dataset_Linear_Regression_Result.png" alt=""></p>
 <h3 id="loading-data">Loading data</h3>
 <hr>
 <p>Is almost entirely up to you to load data on tensorflow, which means you need to parse the data yourself. For example one option for image classification could be to have text files with all the images filenames, followed by it&apos;s class.  For example:</p>
@@ -145,7 +144,7 @@ val_data, val_label = getDataFromFile(<span class="hljs-string">&apos;validation
 <hr>
 <p>Tensorflow offers a solution to help visualize what is happening on your graph.
 This tool is called Tensorboard, basically is a webpage where you can debug your graph, by inspecting it&apos;s variables, node connections etc...</p>
-<p><img src="image_folder_7/TensorBoardScreenhsot.png" alt=""></p>
+<p><img src="https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_7/TensorBoardScreenhsot.png" alt=""></p>
 <p>In order to use tensorboard you need to annotate on your graph, with the variables that you want to inspect, ie: the loss value. Then you need to generate all the summaries, using the function tf.merge_all_summaries().</p>
 <p>Optionally you can also use the function &quot;tf.name_scope&quot; to group nodes on the graph.</p>
 <p>After all variables are annotated and you configure your summary, you can go to the console and call:</p>
@@ -205,9 +204,9 @@ writer_tensorboard = tf.train.SummaryWriter(<span class="hljs-string">&apos;/hom
 <h4 id="results-on-tensorboard">Results on tensorboard</h4>
 <hr>
 <p>Here we can see our linear regression model as a computing graph.
-<img src="image_folder_7/GraphLinearRegTensorflow.png" alt=""></p>
+<img src="https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_7/GraphLinearRegTensorflow.png" alt=""></p>
 <p>Bellow we can see how the loss evolved on each iteration.</p>
-<p><img src="image_folder_7/LossLinearRegTensorflow.png" alt=""></p>
+<p><img src="https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_7/LossLinearRegTensorflow.png" alt=""></p>
 <p>Sometimes ipython hold versions of your graph that create problems when using tensorboard, one option is to restart the kernel, if you have problems.</p>
 <h2 id="using-gpus">Using GPUs</h2>
 <hr>
@@ -250,7 +249,7 @@ sess.close()
 </code></pre><h2 id="multiple-gpus-and-training">Multiple Gpus and training</h2>
 <hr>
 <p>Now we will explain how training is one on a multiple GPU system.</p>
-<p><img src="image_folder_7/multipleGpu_Train.png" alt=""></p>
+<p><img src="https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/image_folder_7/multipleGpu_Train.png alt=""></p>
 <p>Baiscally the steps for multiple gpu training is this:</p>
 <ol>
 <li>Separate your training data in batches as usual</li>
