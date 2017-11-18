@@ -324,7 +324,7 @@ print(<span class="hljs-string">&quot;Accuracy: %f&quot;</span> % score)
 <li>Multi-GPU support</li>
 </ul>
 <h2 id="first-contact-with-lua">First contact with Lua</h2>
-<hr>
+
 <p>Bellow we have some simple examples on Lua just to have some contact with the language.</p>
 <pre><code class="lang-lua"><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Hello World&quot;</span>) <span class="hljs-comment">-- First thing, note that there is no main...</span>
 <span class="hljs-comment">--[[
@@ -340,7 +340,7 @@ someVar = <span class="hljs-number">10</span>; <span class="hljs-comment">-- You
 <span class="hljs-built_in">io</span>.write(<span class="hljs-string">&quot;Now it&apos;s value is:\&quot;&quot;</span>, someVar, <span class="hljs-string">&quot;\&quot;&quot;</span>)
 </code></pre>
 <h3 id="lua-datatypes">Lua datatypes</h3>
-<hr>
+
 <p>The language offer those basic types:</p>
 <ul>
 <li>Numbers(Float)</li>
@@ -357,7 +357,7 @@ someVar = {<span class="hljs-number">1</span>,<span class="hljs-number">2</span>
 <span class="hljs-built_in">print</span>(<span class="hljs-built_in">type</span>(someVar))
 </code></pre>
 <h3 id="doing-some-math">Doing some math</h3>
-<hr>
+
 <p>Normally we will rely on Torch, but Lua has some math support as well.</p>
 <pre><code class="lang-lua"><span class="hljs-built_in">io</span>.write(<span class="hljs-string">&quot;5 + 3 = &quot;</span>, <span class="hljs-number">5</span>+<span class="hljs-number">3</span>, <span class="hljs-string">&quot;\n&quot;</span>)
 <span class="hljs-built_in">io</span>.write(<span class="hljs-string">&quot;5 - 3 = &quot;</span>, <span class="hljs-number">5</span><span class="hljs-number">-3</span>, <span class="hljs-string">&quot;\n&quot;</span>)
@@ -377,7 +377,7 @@ someVar = {<span class="hljs-number">1</span>,<span class="hljs-number">2</span>
 math.random() : 2
 Pi = 3.1415926536    
 </code></pre><h3 id="lua-include-require">Lua include (require)</h3>
-<hr>
+
 <p>The lua statement to include other lua files is the &quot;require&quot;, as usual it is used to add some library</p>
 <pre><code class="lang-lua"><span class="hljs-built_in">require</span> <span class="hljs-string">&apos;image&apos;</span>
 pedestrian = image.<span class="hljs-built_in">load</span>(<span class="hljs-string">&apos;./pedestrianSign.png&apos;</span>)
@@ -385,7 +385,7 @@ itorch.image(pedestrian)
 </code></pre>
 <p><img src="image_folder_6/pedestrianSign.png" alt=""></p>
 <h3 id="conditionals">Conditionals</h3>
-<hr>
+
 <p>Just the simple if-then-else. Lua does not have switch statement.</p>
 <pre><code class="lang-lua">age = <span class="hljs-number">17</span>
 <span class="hljs-keyword">if</span> age &lt; <span class="hljs-number">16</span> <span class="hljs-keyword">then</span> 
@@ -401,7 +401,7 @@ canVote = age &gt; <span class="hljs-number">18</span> <span class="hljs-keyword
 <span class="hljs-built_in">io</span>.write(<span class="hljs-string">&quot;Can I vote: &quot;</span>, <span class="hljs-built_in">tostring</span>(canVote))
 </code></pre>
 <h3 id="loops">Loops</h3>
-<hr>
+
 <p>Lua have while, repeat and for loops. For loops has also a &quot;for-each&quot; extension to iterate on tables.</p>
 <pre><code class="lang-lua">i = <span class="hljs-number">1</span>
 <span class="hljs-keyword">while</span> (i &lt;= <span class="hljs-number">10</span>) <span class="hljs-keyword">do</span>
@@ -425,7 +425,7 @@ someTable = {<span class="hljs-string">&quot;January&quot;</span>, <span class="
 </code></pre>
 <pre><code>January(key=1), February(key=2), March(key=3), April(key=4), 10(key=5), 
 </code></pre><h3 id="functions">Functions</h3>
-<hr>
+
 <p>Defining functions in Lua is quite easy, it&apos;s syntax reminds matlab.</p>
 <pre><code class="lang-lua"><span class="hljs-comment">-- Function definition</span>
 <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getSum</span><span class="hljs-params">(a,b)</span></span>
@@ -436,7 +436,7 @@ someTable = {<span class="hljs-string">&quot;January&quot;</span>, <span class="
 <span class="hljs-built_in">print</span>(<span class="hljs-built_in">string</span>.format(<span class="hljs-string">&quot;5 + 2 = %d&quot;</span>, getSum(<span class="hljs-number">5</span>,<span class="hljs-number">2</span>)))
 </code></pre>
 <h3 id="tables">Tables</h3>
-<hr>
+
 <p>On Lua we use tables for everything else (ie: Lists, Dictionaries, Classes, etc...)</p>
 <pre><code class="lang-lua"><span class="hljs-comment">-- tables</span>
 dict = {a = <span class="hljs-number">1</span>, b = <span class="hljs-number">2</span>, c = <span class="hljs-number">3</span>} 
@@ -476,7 +476,7 @@ tab = {<span class="hljs-number">1</span>,<span class="hljs-number">3</span>,<sp
   sum : function: 0x4035ede8
 }
 </code></pre><h3 id="object-oriented-programming">Object oriented programming</h3>
-<hr>
+
 <p>Lua does not support directly OOP, but you can emulate all it&apos;s main functionalities (Inheritance, Encapsulation) with tables and metatables</p>
 <p>Metatable tutorial: Used to override operations (metamethods) on tables.</p>
 <p><a href="http://www.tutorialspoint.com/lua/lua_metatables.htm" target="_blank"></a></p>
@@ -565,7 +565,7 @@ Line 1 at input from input (At output)
 Line 2 at input from input (At output)
 true    
 </code></pre><h2 id="first-contact-with-torch">First contact with Torch</h2>
-<hr>
+
 <p>On this section we&apos;re going to see how to do simple operations with Torch, more complex stuff will be dealt latter.</p>
 <p>One of the torch objectives is to give some matlab functionality, an usefull cheetsheat can be found here:
 <a href="http://atamahjoubfar.github.io/Torch_for_Matlab_users.pdf" target="_blank"></a>
@@ -672,12 +672,12 @@ mlp:add(nn.Tanh())
 mlp:add(nn.Linear(hiddenUnits, outputs))
 </code></pre>
 <h4 id="define-the-loss-function">Define the loss function</h4>
-<hr>
+
 <p>On torch the loss function is called criterion, as on this case we&apos;re dealling with a binary classification, we will choose the Mean Squared Error criterion</p>
 <pre><code class="lang-lua">criterion_MSE = nn.MSECriterion()
 </code></pre>
 <h4 id="training-manually">Training Manually</h4>
-<hr>
+
 <p>Here we&apos;re going to back-propagate our model to get the output related to the loss gradient <script type="math/tex; ">dout</script> then use gradient descent to update the parameters.</p>
 <pre><code class="lang-lua"><span class="hljs-keyword">for</span> i = <span class="hljs-number">1</span>,<span class="hljs-number">2500</span> <span class="hljs-keyword">do</span>
   <span class="hljs-comment">-- random sample</span>
@@ -720,7 +720,7 @@ x[<span class="hljs-number">1</span>] = <span class="hljs-number">-0.5</span>; x
 -0.7814
 [torch.DoubleTensor of size 1]
 </code></pre><h4 id="trainning-with-optimim">Trainning with optimim</h4>
-<hr>
+
 <p>Torch provides a standard way to optimize any function with respect to some parameters. In our case, our function will be the loss of our network, given an input, and a set of weights. The goal of training a neural net is to optimize the weights to give the lowest loss over our training set of input data. So, we are going to use optim to minimize the loss with respect to the weights, over our training set.</p>
 <pre><code class="lang-lua"><span class="hljs-comment">-- Create a dataset (128 elements)</span>
 batchSize = <span class="hljs-number">128</span>
